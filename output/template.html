@@ -154,6 +154,7 @@ h3 { font-size: 18px; margin: 25px 0 10px; font-weight: normal; text-decoration:
     <div id="section-12"></div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js"></script>
 <script>
 const QUESTIONS = [
     // 1-5: Reading
@@ -251,7 +252,81 @@ function getOptions(q) {
     return matches.map(match => match[1].trim()).filter(Boolean);
 }
 
-function buildUI() {
+const KUROMOJI_DICT_PATHS = [
+    'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/',
+    'https://unpkg.com/kuromoji@0.1.2/dict/'
+];
+let tokenizer = null;
+
+function stripRuby(html) {
+    return String(html)
+        .replace(/<rt>[\s\S]*?<\/rt>/g, '')
+        .replace(/<rt>[\s\S]*?(?=<\/ruby>)/g, '')
+        .replace(/<\/?ruby>/g, '');
+}
+
+function katakanaToHiragana(value) {
+    return String(value).replace(/[ァ-ン]/g, char => String.fromCharCode(char.charCodeAt(0) - 0x60));
+}
+
+function needsRuby(surface, reading) {
+    return /[一-龯々]/.test(surface) && reading && reading !== '*' && katakanaToHiragana(reading) !== surface;
+}
+
+function buildKuromoji(dictPath) {
+    return new Promise((resolve, reject) => {
+        window.kuromoji.builder({ dicPath: dictPath }).build((error, builtTokenizer) => {
+            if (error) reject(error);
+            else resolve(builtTokenizer);
+        });
+    });
+}
+
+async function initFurigana() {
+    if (tokenizer) return tokenizer;
+    if (!window.kuromoji) {
+        console.warn('kuromoji.js is not loaded; furigana generation is disabled.');
+        return null;
+    }
+
+    for (const dictPath of KUROMOJI_DICT_PATHS) {
+        try {
+            tokenizer = await buildKuromoji(dictPath);
+            return tokenizer;
+        } catch (error) {
+            console.warn('Failed to load kuromoji dictionary:', dictPath, error);
+        }
+    }
+    return null;
+}
+
+function renderFuriganaText(text) {
+    if (!tokenizer) return text;
+    return tokenizer.tokenize(text).map(token => {
+        const surface = token.surface_form || '';
+        const reading = katakanaToHiragana(token.reading || '');
+        if (!needsRuby(surface, reading)) return surface;
+        return '<ruby>' + surface + '<rt>' + reading + '</rt></ruby>';
+    }).join('');
+}
+
+function applyFurigana(html) {
+    const targets = [];
+    const protectedHtml = stripRuby(html).replace(/<span class=\"target-word\">[\s\S]*?<\/span>/g, match => {
+        const key = '@@TARGET_' + targets.length + '@@';
+        targets.push(match);
+        return key;
+    });
+
+    const converted = protectedHtml.split(/(<[^>]+>)/g).map(part => {
+        if (!part || part.startsWith('<')) return part;
+        return renderFuriganaText(part);
+    }).join('');
+
+    return converted.replace(/@@TARGET_(\d+)@@/g, (_, index) => targets[Number(index)]);
+}
+async function buildUI() {
+    await initFurigana();
     document.getElementById('total').innerText = totalQuestions;
 
     QUESTIONS.forEach((q, i) => {
@@ -264,13 +339,13 @@ function buildUI() {
 
         let html = '';
         if (q.pas && (i===0 || QUESTIONS[i-1].pas !== q.pas)) {
-            html += `<div class="passage">${q.pas}</div>`;
+            html += `<div class="passage">${applyFurigana(q.pas)}</div>`;
         }
-        html += `<div class="question-text">${i+1}. ${q.txt}</div>`;
-        if (q.star) html += `<div class="star-line">${q.star}</div>`;
+        html += `<div class="question-text">${i+1}. ${applyFurigana(q.txt)}</div>`;
+        if (q.star) html += `<div class="star-line">${applyFurigana(q.star)}</div>`;
         html += `<ul class="options">`;
         getOptions(q).forEach((opt, oi) => {
-            html += `<li onclick="check(${i+1}, ${oi}, ${q.ans})">${oi+1}. ${opt}</li>`;
+            html += `<li onclick="check(${i+1}, ${oi}, ${q.ans})">${oi+1}. ${applyFurigana(opt)}</li>`;
         });
         html += `</ul><div class="explanation" id=\"exp${i+1}\">${q.exp || '正解：' + (q.ans+1)}</div>`;
         block.innerHTML = html;
@@ -313,7 +388,7 @@ function initNav() {
         nav.appendChild(a);
     }
 }
-buildUI(); initNav();
+buildUI().then(initNav);
 </script>
 </body>
 </html>
