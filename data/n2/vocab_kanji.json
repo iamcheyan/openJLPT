@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "vocab_kanji",
+    "name": "漢字の表記",
+    "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを１・２・３・４から一つ選びなさい。",
+    "count": 9
+  },
+  "questions": [
+    {
+      "sentence": "今回発表した新商品の広告が、来月のファッション雑誌に《けいさい》される予定だ。",
+      "target": "けいさい",
+      "options": [
+        "掲載",
+        "掲栽",
+        "計裁",
+        "啓載"
+      ],
+      "answer": 0,
+      "explanation": "正确答案为「掲載」，意为刊登、刊载，符合句子中广告登在杂志上的语境。干扰项1「掲栽」的「栽」意为种植，与「載」字形相近，属于形似字干扰；干扰项2「計裁」读音同样为けいさい，意为斟酌裁定，属于同音异义干扰，不符合句意；干扰项3「啓載」为错误表记，「啓」意为开启、告知，不符合语境。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。答案解释正确，正确答案为「掲載」，意为刊登、刊载，符合句子中广告登在杂志上的语境。干扰项分析合理，干扰项1「掲栽」的「栽」意为种植，与「載」字形相近，属于形似字干扰；干扰项2「計裁」读音同样为けいさい，意为斟酌裁定，属于同音异义干扰，不符合句意；干扰项3「啓載」为错误表记，「啓」意为开启、告知，不符合语境。句子自然，语法正确。难度符合N2级别。词汇重点为「掲載」、形似字和同音异义词的识别。学习建议：加强日语常用词汇的记忆，注意形似字和同音异义词的区分。",
+      "verified": true,
+      "created_at": "2026-05-03T21:49:31",
+      "id": "n2-vocab_kanji-001",
+      "level": "N2",
+      "question_type": "vocab_kanji"
+    },
+    {
+      "sentence": "転職活動の際には、学歴や職務経験を記載した《りれき》書を企業に提出する必要がある。",
+      "target": "りれき",
+      "options": [
+        "履歴",
+        "履暦",
+        "離歴",
+        "暦履"
+      ],
+      "answer": 0,
+      "explanation": "正确答案为「履歴」，「履歴書」是固定表达，意为简历，符合句子语境。干扰项1「履暦」的「暦」意为日历、历法，与「歴」字形高度相似，是N2汉字部分高频易错点；干扰项2「離歴」读音同为りれき，「離」意为离开，属于同音异义干扰，不符合语义；干扰项3「暦履」是汉字顺序颠倒的错误组合，无实际意义。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目通过审核。\n答案解释：正确答案为「履歴」，符合题目句子语境中的简历意义。\n干扰项分析：干扰项1「履暦」虽然与正确答案在汉字上相似，但其意为日历或历法，与题意不符；干扰项2「離歴」虽然与正确答案发音相同，但意为离开的历史，与题意不符；干扰项3「暦履」为汉字顺序颠倒，无实际意义。\n语法/词汇重点：本题考察了汉字的辨识能力，特别是对于易混淆的同音异义字和形似字的辨别。学习建议：对于易混淆的汉字，建议加强记忆和练习，同时可以通过语境来帮助判断正确选项。",
+      "verified": true,
+      "created_at": "2026-05-03T21:49:41",
+      "id": "n2-vocab_kanji-002",
+      "level": "N2",
+      "question_type": "vocab_kanji"
+    },
+    {
+      "sentence": "二台の車が《しょうとつ》した。",
+      "target": "しょうとつ",
+      "options": [
+        "衝突",
+        "衝凸",
+        "衡突",
+        "衛突"
+      ],
+      "answer": 0,
+      "explanation": "正确选项是「衝突」，意为碰撞、冲突。干扰项中，「衝凸」的「凸」与「突」同音「とつ」，但「衝凸」非标准日语词汇；「衡突」的「衡」与「衝」字形相似（部首相似），但读音「こう」和意义（平衡）不同；「衛突」的「衛」与「衝」部首相同（均有「行」部），但读音「えい」和意义（保卫）不符。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。\n答案解释：正确选项是「衝突」，意为碰撞、冲突，符合句子中的用法。\n干扰项分析：选项「衝凸」非标准日语词汇，不符合题目要求；选项「衡突」与正确答案在字形上有相似之处，但读音和意义完全不同，是合理的干扰项；选项「衛突」与正确答案在部首上有相似之处，但读音和意义也完全不同，是合理的干扰项。\n语法/词汇重点：考察了日语中表达碰撞的词汇，以及同音异义词和形近字的区分。\n学习建议：建议考生在学习过程中注意词汇的准确记忆，以及区分同音异义词和形近字。",
+      "verified": true,
+      "created_at": "2026-05-03T21:50:56",
+      "id": "n2-vocab_kanji-003",
+      "level": "N2",
+      "question_type": "vocab_kanji"
+    },
+    {
+      "sentence": "会社が新卒者を《ぼしゅう》している。",
+      "target": "ぼしゅう",
+      "options": [
+        "募集",
+        "募修",
+        "慕集",
+        "暮集"
+      ],
+      "answer": 0,
+      "explanation": "正确选项是「募集」，意为招募、募集。干扰项中，「募修」的「修」与「集」同音「しゅう」，但「募修」非正确写法（「修」意为修理）；「慕集」的「慕」与「募」同音「ぼ」且字形相似（均有「莫」部），但意义为仰慕；「暮集」的「暮」与「募」同音「ぼ」且部首相同（均有「莫」部），但意义为傍晚。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。\n答案解释：正确选项是「募集」，意为招募、募集，与句子中的《ぼしゅう》相符。\n干扰项分析：干扰项中，「募修」的「修」与「集」同音「しゅう」，但「募修」非正确写法（「修」意为修理），因此排除；「慕集」的「慕」与「募」同音「ぼ」且字形相似（均有「莫」部），但意义为仰慕，与句子意思不符，排除；「暮集」的「暮」与「募」同音「ぼ」且部首相同（均有「莫」部），但意义为傍晚，与句子意思不符，排除。干扰项设置合理，没有两个选项意思相同。\n语法/词汇重点：句子中的「会社が新卒者を《ぼしゅう》している。」使用了正确的语法结构，表达了公司正在招募新毕业生的意思。\n学习建议：考生需要掌握「募集」的正确写法和意义，以及区分同音字和形似字的用法。",
+      "verified": true,
+      "created_at": "2026-05-03T21:51:08",
+      "id": "n2-vocab_kanji-004",
+      "level": "N2",
+      "question_type": "vocab_kanji"
+    },
+    {
+      "sentence": "6. 電車が大幅におくれている。",
+      "options": [
+        "追れて",
+        "送れて",
+        "遅れて",
+        "降れて"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "おくれて",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-005"
+    },
+    {
+      "sentence": "7. 彼は自分のミスを素直にみとめた。",
+      "options": [
+        "認めた",
+        "観めた",
+        "診めた",
+        "証めた"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "みとめた",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-006"
+    },
+    {
+      "sentence": "8. 会議の資料をいんさつする。",
+      "options": [
+        "引札",
+        "印冊",
+        "印刷",
+        "飲殺"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "いんさつ",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-007"
+    },
+    {
+      "sentence": "9. 今年はゆたかな収穫が期待できる。",
+      "options": [
+        "豊かな",
+        "容かな",
+        "裕かな",
+        "溶かな"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "ゆたかな",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-008"
+    },
+    {
+      "sentence": "10. 窓の外をながめる。",
+      "options": [
+        "跳める",
+        "眺める",
+        "挑める",
+        "眺める"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "ながめる",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-009"
+    }
+  ]
+}

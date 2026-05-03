@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "grammar_order",
+    "name": "文の組み立て",
+    "instruction": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 7
+  },
+  "questions": [
+    {
+      "sentence": "来週のパーティーで、何を食べればいいか★、まだわからない。",
+      "fragments": [
+        "まだ",
+        "について",
+        "わからない",
+        "パーティーで"
+      ],
+      "answer": 1,
+      "complete_sentence": "来週のパーティーで、何を食べればいいかについて、まだわからない。",
+      "explanation": "本题考查句型「〜について（は）～」。句子前半部分「何を食べればいいか」是「について」所涉及和讨论的内容，意思是“关于该吃什么……”。将「について」填入★处，整个句子意为“关于下周派对上该吃什么，我还不知道”，语法和意思都通顺。选项0「まだ」是副词，位置固定，通常不插入此处；选项2「わからない」是句子的主要谓语，已经在句末；选项3「パーティーで」是地点状语，不应出现在这里。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题符合JLPT N2级别的要求，具体如下：\n答案解释：正确答案是选项1「について」，它正确地补全了句子，使句子完整且意思通顺。\n干扰项分析：选项0「まだ」是副词，通常位于句末，不能插入此处；选项2「わからない」是句子的主要谓语，已经在句末，不应再次出现；选项3「パーティーで」是地点状语，与句子主旨无关，不应出现在这里。\n语法/词汇重点：本题考查了句型「〜について（は）～」，这是日语中常用的句型，用于表示关于某个话题或问题的讨论。\n学习建议：学习者在备考JLPT时，应重点掌握各类句型和语法点，并注意干扰项的排除，以提高解题准确率。",
+      "verified": true,
+      "created_at": "2026-05-03T22:22:48",
+      "id": "n2-grammar_order-001",
+      "level": "N2",
+      "question_type": "grammar_order"
+    },
+    {
+      "sentence": "発表しようとした★、マイクが故障してしまった。",
+      "fragments": [
+        "いきなり",
+        "突然",
+        "しよう",
+        "故障して"
+      ],
+      "answer": 0,
+      "complete_sentence": "発表しようとしたいきなり、マイクが故障してしまった。",
+      "explanation": "本题考查副词「いきなり」的用法。它表示“突然、骤然”，修饰谓语或整个句子，通常放在动词或动词短语的后面。在本句中，它用于描述“刚要开始发表的瞬间”就发生了麦克风故障。将「いきなり」填入★处，整个句子意为“刚要开始发表，麦克风突然就坏了”，自然流畅。选项1「突然」意思相近，但通常用作副词直接放在句首（突然、マイクが……），或用「突然の」的形式修饰名词，一般不以「突然」紧接在动词短语之后。选项2「しよう」和选项3「故障して」分别是动词的基本形和て形，无法填入使句子通顺。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题符合JLPT N2级别的要求。答案解释准确，干扰项合理，句子自然且语法正确。\n\n答案解释：正确答案为「いきなり」，表示“突然”，用于修饰谓语或整个句子，放在动词或动词短语的后面，符合句意。\n\n干扰项分析：选项1「突然」虽然意思相近，但用法不同，不能直接放在动词短语之后。选项2「しよう」是动词的基本形，不能填入句中使句子通顺。选项3「故障して」是动词的て形，同样不能填入句中使句子通顺。\n\n语法/词汇重点：本题考查副词的用法，特别是「いきなり」的用法。\n\n学习建议：学习副词的用法时，应注意其位置和搭配，以及与相同意思的其他词汇的用法差异。",
+      "verified": true,
+      "created_at": "2026-05-03T22:22:58",
+      "id": "n2-grammar_order-002",
+      "level": "N2",
+      "question_type": "grammar_order"
+    },
+    {
+      "sentence": "40. 私は ＿＿ ＿＿ ＿★＿ ＿＿ と思っている。",
+      "fragments": [
+        "と思えば",
+        "誰にでも",
+        "努力次第で",
+        "できる"
+      ],
+      "options": [
+        "と思えば",
+        "誰にでも",
+        "努力次第で",
+        "できる"
+      ],
+      "answer": 0,
+      "complete_sentence": "40. 私はと思えば誰にでも努力次第でできると思っている。",
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_order",
+      "id": "n2-grammar_order-003"
+    },
+    {
+      "sentence": "41. この本は ＿＿ ＿＿ ＿★＿ ＿＿ 内容だ。",
+      "fragments": [
+        "初心者",
+        "非常に",
+        "にとっても",
+        "わかりやすい"
+      ],
+      "options": [
+        "初心者",
+        "非常に",
+        "にとっても",
+        "わかりやすい"
+      ],
+      "answer": 0,
+      "complete_sentence": "41. この本は初心者非常ににとってもわかりやすい内容だ。",
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_order",
+      "id": "n2-grammar_order-004"
+    },
+    {
+      "sentence": "42. 彼は ＿＿ ＿＿ ＿★＿ ＿＿ 料理を作った。",
+      "fragments": [
+        "忙しい",
+        "手早く",
+        "にもかかわらず",
+        "美味しい"
+      ],
+      "options": [
+        "忙しい",
+        "手早く",
+        "にもかかわらず",
+        "美味しい"
+      ],
+      "answer": 0,
+      "complete_sentence": "42. 彼は忙しい手早くにもかかわらず美味しい料理を作った。",
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_order",
+      "id": "n2-grammar_order-005"
+    },
+    {
+      "sentence": "43. ＿＿ ＿＿ ＿★＿ ＿＿ ことが必要だ。",
+      "fragments": [
+        "才能",
+        "努力",
+        "だけでなく",
+        "し続ける"
+      ],
+      "options": [
+        "才能",
+        "努力",
+        "だけでなく",
+        "し続ける"
+      ],
+      "answer": 0,
+      "complete_sentence": "43.才能努力だけでなくし続けることが必要だ。",
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_order",
+      "id": "n2-grammar_order-006"
+    },
+    {
+      "sentence": "44. ＿＿ ＿＿ ＿★＿ ＿＿ ようになった。",
+      "fragments": [
+        "日本語",
+        "ニュースが",
+        "で",
+        "わかる"
+      ],
+      "options": [
+        "日本語",
+        "ニュースが",
+        "で",
+        "わかる"
+      ],
+      "answer": 0,
+      "complete_sentence": "44.日本語ニュースがでわかるようになった。",
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_order",
+      "id": "n2-grammar_order-007"
+    }
+  ]
+}

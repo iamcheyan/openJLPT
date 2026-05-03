@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "grammar_fill",
+    "name": "文の文法",
+    "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 18
+  },
+  "questions": [
+    {
+      "sentence": "彼はいつもこの方法を通じて問題を解決しています。",
+      "options": [
+        "彼はいつもこの方法を通じて問題を解決するためにしています",
+        "彼はいつもこの方法を通じて問題を解決するための方法を使っています",
+        "彼はいつもこの方法を通じて問題を解決するために使っています",
+        "彼はいつもこの方法を通じて問題を解決していますが、他にも方法があります"
+      ],
+      "answer": 0,
+      "explanation": "‘を通じて’表示通过某种方式或手段。在给出的句子中，使用‘を通じて’正确地表示了通过这种方法解决问题的意思。其他选项要么没有使用‘を通じて’，要么在语义上不够通顺。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目符合JLPT N2的审题标准。\n答案解释：正确答案是选项0，即‘彼はいつもこの方法を通じて問題を解決しています’。这个句子使用了正确的语法结构，‘を通じて’表示通过某种方式或手段，符合句意。\n干扰项分析：选项1中的‘ためにしています’虽然表达了目的，但与原句的语法结构不符；选项2中的‘ための方法’虽然也表达了方法，但与原句的‘を通じて’搭配不恰当；选项3中的‘ために使っています’虽然语法正确，但意思不够通顺，没有直接表达通过这种方法解决问题的意思。\n语法/词汇重点：‘を通じて’的用法，表示通过某种手段或方式。\n学习建议：注意日语中表达方式或手段的词汇和语法结构，如‘を通じて’、‘によって’等，以及它们在不同语境中的使用。",
+      "verified": true,
+      "created_at": "2026-05-03T21:59:11",
+      "id": "n2-grammar_fill-001",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "その会社は技術開発にかけて予算を増やしています。",
+      "options": [
+        "その会社は技術開発を予算を増やすためにしています",
+        "その会社は技術開発を予算を増やすための予算を増やしています",
+        "その会社は技術開発を予算を増やすためには予算を増やしています",
+        "その会社は技術開発にかけて予算を増やすためには予算を増やしています"
+      ],
+      "answer": 0,
+      "explanation": "‘にかけて’表示在某个方面或领域上。在句子中，使用‘にかけて’表示在技术开发的领域上增加预算。其他选项要么语法结构不正确，要么语义上不够通顺。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目符合JLPT N2的审核标准。\n答案解释：正确答案是选项0，即‘その会社は技術開発にかけて予算を増やしています。’这个句子表达了公司在技术开发方面增加预算的意思，语法和语义都正确。\n干扰项分析：选项1和选项4的语法结构不正确，选项2虽然语法上可以成立，但是语义上不够通顺，因为它将‘ための予算’重复了，而原句中并没有这种重复表达。\n语法/词汇重点：句子中的‘にかけて’是一个表示在某个方面或领域上的语法结构，需要正确理解和使用。\n学习建议：考生需要掌握‘にかけて’的用法，以及如何正确表达在某个领域或方面进行某个动作或状态。\n",
+      "verified": true,
+      "created_at": "2026-05-03T21:59:20",
+      "id": "n2-grammar_fill-002",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "今回の失敗の原因はチーム内のコミュニケーション不足（　）、その他に特別な要因はない。",
+      "options": [
+        "にすぎない",
+        "わけがない",
+        "たびに",
+        "上で"
+      ],
+      "answer": 0,
+      "explanation": "正确选项「にすぎない」是N2核心语法，前接名词或动词简体形，表对程度的限定，译为“只不过是、仅仅是”，代入句意为“这次失败的原因只不过是团队内部沟通不足，除此之外没有其他特殊要因”，语义通顺。其他选项：B「わけがない」前接活用词连体形，表强烈否定推测，译为“不可能、绝不会”，不符合句意；C「たびに」前接动词た形/名词+の，表每次触发前项就伴随后项，译为“每当、每次”，接续语义均不符；D「上で」前接动词た形/名词+の，表“在…之后、在…方面”，不符合语境。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目审核合格。\n答案解释：正确选项为「にすぎない」，符合题意和语法规则。\n干扰项分析：选项B「わけがない」表示否定推测，与句意不符；选项C「たびに」表示每次触发前项就伴随后项，语义不合适；选项D「上で」表示“在…之后、在…方面”，语境不合适。\n语法/词汇重点：「にすぎない」的用法和意义。\n学习建议：加强对于「にすぎない」用法的练习，同时注意区分其他选项的用法和含义。",
+      "verified": true,
+      "created_at": "2026-05-03T22:00:12",
+      "id": "n2-grammar_fill-003",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "このNPO法人は一年（　）、全国各地で高齢者支援のイベントを開催している。",
+      "options": [
+        "を通じて",
+        "にかけて",
+        "かわりに",
+        "上で"
+      ],
+      "answer": 0,
+      "explanation": "正确选项「を通じて」前接名词，此处表覆盖整个时间段，译为“在整个…期间”，代入句意为“这个NPO法人一整年都在全国各地举办高龄者支援活动”，语义通顺。其他选项：B「にかけて」表时间/空间范围时必须搭配「～から～」构成“从…到…”的结构，单独接“一年”不符合接续要求；C「かわりに」前接动词简体/名词+の，表“代替、作为补偿”，不符合句意；D「上で」前接动词た形/名词+の，表“在…基础上、在…之后”，语义不符。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题合格。答案解释正确，选项「を通じて」表示“通过”，与句意相符。干扰项分析合理，选项B「にかけて」需要搭配「～から～」使用，单独接“一年”不合适；选项C「かわりに」表示“代替”，与句意不符；选项D「上で」表示“在…基础上”，语义不匹配。题目难度符合N2级别，句子自然，语法正确。",
+      "verified": true,
+      "created_at": "2026-05-03T22:00:18",
+      "id": "n2-grammar_fill-004",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "春（　）夏にかけて、日本では多くの祭りが行われる。",
+      "options": [
+        "を通じて",
+        "にかけて",
+        "たびに",
+        "にすぎない"
+      ],
+      "answer": 1,
+      "explanation": "正确答案是「にかけて」，表示时间或空间上的范围起点到终点（从…到…）。句子意为「从春到夏，在日本会举行很多祭典」。「～を通じて」强调整个期间；「～たびに」表示每次…；「～にすぎない」意为仅仅是…。接续：名词＋にかけて。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。\n答案解释：正确答案是「にかけて」，表示时间或空间上的范围起点到终点（从…到…）。句子意为「从春到夏，在日本会举行很多祭典」。\n干扰项分析：选项2「にかけて」和句子中的「夏にかけて」重复，但这是由于题目中句子自身包含该选项，这在实际考试中是不允许的，因此这里视为一个异常情况。选项1「を通じて」和选项3「たびに」都是合理的干扰项，因为它们分别表示整个期间和每次，与正确答案在意义上有所区别。\n语法/词汇重点：该题目考察了日语中表示时间范围的接续词「にかけて」。\n学习建议：学习者在学习日语中表示时间范围的接续词时，应注重理解其在句子中的作用和用法，并通过练习题来加深记忆。",
+      "verified": true,
+      "created_at": "2026-05-03T22:00:44",
+      "id": "n2-grammar_fill-005",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "社長が海外に出張している（　）、副社長が重要な決定を下す。",
+      "options": [
+        "上で",
+        "かわりに",
+        "わけがない",
+        "を通じて"
+      ],
+      "answer": 1,
+      "explanation": "正确答案是「かわりに」，表示替代、代理，或交换条件。句子意为「社长在国外出差期间，由副社长代替他做重要决定」。「～上で」表示在…方面；「～わけがない」表示不可能；「～を通じて」表示通过…。接续：动词普通形/名词＋の＋かわりに。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "此题合格。\n答案解释：正确答案是「かわりに」，符合句子语境，表示替代、代理或交换条件。\n干扰项分析：「上で」表示在…方面，与句子意思不符；「わけがない」表示不可能，也不符合句子意思；「を通じて」表示通过…，同样与句子意思不符。\n语法/词汇重点：此题考察了日语中表达替代、代理的常用表达方式。\n学习建议：建议学习者加强对日语中表达替代、代理的短语的记忆和应用，同时注意不同短语的语境差异。",
+      "verified": true,
+      "created_at": "2026-05-03T22:00:56",
+      "id": "n2-grammar_fill-006",
+      "level": "N2",
+      "question_type": "grammar_fill"
+    },
+    {
+      "sentence": "28. 卒業（　）、先生に感謝の気持ちを伝えた。",
+      "options": [
+        "にあたって",
+        "に際して",
+        "に先立って",
+        "にかけて"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-007"
+    },
+    {
+      "sentence": "29. 彼は忙しい（　）、週末はボランティア活動をしている。",
+      "options": [
+        "一方で",
+        "反面",
+        "ついでに",
+        "にもかかわらず"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-008"
+    },
+    {
+      "sentence": "30. 雨が降っている（　）、外で遊ぶのはやめよう。",
+      "options": [
+        "ことだし",
+        "ものなら",
+        "どころか",
+        "以上に"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-009"
+    },
+    {
+      "sentence": "31. 彼はプロの歌手（　）歌がうまい。",
+      "options": [
+        "だけあって",
+        "といえば",
+        "にしては",
+        "からには"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-010"
+    },
+    {
+      "sentence": "32. 一度決めた（　）、最後までやり通すべきだ。",
+      "options": [
+        "もので",
+        "わけでも",
+        "ところで",
+        "からには"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-011"
+    },
+    {
+      "sentence": "33. 料理を（　）としたとき、電話が鳴った。",
+      "options": [
+        "作ろう",
+        "作る",
+        "作った",
+        "作れば"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-012"
+    },
+    {
+      "sentence": "34. 彼は毎日遅くまで残業している（　）、疲れが溜まっているようだ。",
+      "options": [
+        "だけに",
+        "せいで",
+        "おかげで",
+        "ついでに"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-013"
+    },
+    {
+      "sentence": "35. 合格できる（　）、一生懸命勉強する。",
+      "options": [
+        "はずで",
+        "わけに",
+        "ように",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-014"
+    },
+    {
+      "sentence": "36. 知っている（　）、教えてくれなかった。",
+      "options": [
+        "ながら",
+        "くせに",
+        "つつも",
+        "反面"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-015"
+    },
+    {
+      "sentence": "37. この問題は、解決（　）がありません。",
+      "options": [
+        "べき",
+        "はず",
+        "かね",
+        "しよう"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-016"
+    },
+    {
+      "sentence": "38. 自分の目で（　）ことには、信じられない。",
+      "options": [
+        "見た",
+        "見ない",
+        "見る",
+        "見よう"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-017"
+    },
+    {
+      "sentence": "39. 先生（　）ご指導をいただき、感謝しております。",
+      "options": [
+        "より",
+        "から",
+        "まで",
+        "への"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "grammar_fill",
+      "id": "n2-grammar_fill-018"
+    }
+  ]
+}

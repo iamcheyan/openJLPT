@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "vocab_reading",
+    "name": "漢字の読み方",
+    "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 9
+  },
+  "questions": [
+    {
+      "sentence": "彼の意見は《謙虚》で受け入れられました。",
+      "target": "謙虚",
+      "options": [
+        "けんきょ",
+        "けんしゅう",
+        "けんしゅ",
+        "けんき"
+      ],
+      "answer": 0,
+      "explanation": "这里的《謙虚》应该读作《けんきょ》，因为它是形容词，而且没有其他读音的干扰。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。答案解释正确，'謙虚'作为形容词，读作《けんきょ》。干扰项分析合理，'けんしゅう'（勤奋）、'けんしゅ'（恳求）、'けんき'（简单）均不是'謙虚'的正确读音，且意思不同，没有重复的选项。题目难度符合N2级别，句子自然，语法正确。'謙虚'作为形容词，表示谦虚，是N2级别常考的词汇。学习建议：考生需要掌握'謙虚'的读音和用法，同时注意区分同音词的不同读音和意义。",
+      "verified": true,
+      "created_at": "2026-05-03T21:47:03",
+      "id": "n2-vocab_reading-001",
+      "level": "N2",
+      "question_type": "vocab_reading"
+    },
+    {
+      "sentence": "その問題に対して、彼は《冷静》に対応しました。",
+      "target": "冷静",
+      "options": [
+        "れいこう",
+        "れいきょう",
+        "れいきゅう",
+        "れいき"
+      ],
+      "answer": 1,
+      "explanation": "《冷静》的正确读音是《れいきょう》，这是一个形容词，而《れいきゅう》和《れいき》都是错误的读音。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目的答案解释、干扰项分析和语法/词汇重点如下：\n答案解释：正确答案是《れいきょう》，因为《冷静》的正确读音是《れいきょう》，选项1是正确的。\n干扰项分析：选项2《れいきゅう》和选项4《れいき》都不是《冷静》的正确读音，且选项2的发音与《冷静》的发音有显著区别，选项4则完全不符。因此，干扰项设置合理，没有两个选项意思相同。\n语法/词汇重点：《冷静》是一个形容词，表示冷静、沉着的意思。在句子中作为谓语，表示主语“彼”对待问题的态度是冷静的。\n学习建议：在准备JLPT考试时，需要特别注意形容词的正确读音，并加强对常见形容词的用法和含义的记忆。",
+      "verified": true,
+      "created_at": "2026-05-03T21:47:11",
+      "id": "n2-vocab_reading-002",
+      "level": "N2",
+      "question_type": "vocab_reading"
+    },
+    {
+      "sentence": "どうしても意見が合わない場合は、一定のラインで《妥協》することも必要だ。",
+      "target": "妥協",
+      "options": [
+        "だきょう",
+        "たきょう",
+        "だきょ",
+        "たきょ"
+      ],
+      "answer": 0,
+      "explanation": "「妥協」的正确读音为だきょう。干扰项1たきょう是将首字的浊音だ误读为清音た，干扰项2だきょ是遗漏了第二个音节的长音，干扰项3たきょ同时犯了清浊混淆和漏长音的错误，均为该词的常见误读。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。\n答案解释：题目中‘妥協’的正确读音为‘だきょう’，选项1‘だきょう’是正确答案。\n干扰项分析：干扰项2‘たきょう’是将首字的浊音‘だ’误读为清音‘た’，干扰项3‘だきょ’是遗漏了第二个音节的长音，干扰项4‘たきょ’同时犯了清浊混淆和漏长音的错误，均为该词的常见误读，因此干扰项设计合理。\n语法/词汇重点：题目考查了词汇‘妥協’的正确读音，以及学生对日语词汇的辨识能力。\n学习建议：建议学生在学习过程中加强对日语词汇的记忆，特别是对容易混淆的词汇进行区分练习。",
+      "verified": true,
+      "created_at": "2026-05-03T21:48:02",
+      "id": "n2-vocab_reading-003",
+      "level": "N2",
+      "question_type": "vocab_reading"
+    },
+    {
+      "sentence": "長い年月が経っても、二人の心の距離を《隔てる》ことはできなかった。",
+      "target": "隔てる",
+      "options": [
+        "へだてる",
+        "へたてる",
+        "かくてる",
+        "げだてる"
+      ],
+      "answer": 0,
+      "explanation": "「隔てる」的正确读音为へだてる。干扰项1へたてる是将だ误读为清音た，干扰项2かくてる是误用了汉字「隔」的音读かく编造的错误读音，干扰项3げだてる是将首音节へ误读为げ，均为该词的常见误读。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。答案解释正确，'隔てる'的正确读音为'へだてる'，与选项中的'へだてる'相符。干扰项分析合理，'へたてる'是将'だ'误读为清音'た'，'かくてる'是误用了汉字'隔'的音读'かく'编造的错误读音，'げだてる'是将首音节'へ'误读为'げ'，这些都是该词的常见误读，因此作为干扰项是合理的。该题目的难度符合N2级别，句子自然，语法正确。学习建议：考生应掌握'隔てる'的正确读音和意义，并注意区分常见的误读。",
+      "verified": true,
+      "created_at": "2026-05-03T21:48:11",
+      "id": "n2-vocab_reading-004",
+      "level": "N2",
+      "question_type": "vocab_reading"
+    },
+    {
+      "sentence": "1. この地域ちいきの再開発計画さいかいはつけいかくは、住民じゅうみんの強つよい反対で中断ちゅうだんしている。",
+      "options": [
+        "はんてい",
+        "はんたい",
+        "ほんてい",
+        "ほんたい"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "反対",
+      "question_type": "vocab_reading",
+      "id": "n2-vocab_reading-005"
+    },
+    {
+      "sentence": "2. 彼かれは非常ひじょうに謙虚な性格せいかくで、周囲しゅういから信頼しんらいされている。",
+      "options": [
+        "かんきょ",
+        "げんきょ",
+        "けんきょ",
+        "けんき"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "謙虚",
+      "question_type": "vocab_reading",
+      "id": "n2-vocab_reading-006"
+    },
+    {
+      "sentence": "3. 犯人の行方はいまだに不明である。",
+      "options": [
+        "いきかた",
+        "ゆくえ",
+        "こうほう",
+        "ぎょうほう"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "行方",
+      "question_type": "vocab_reading",
+      "id": "n2-vocab_reading-007"
+    },
+    {
+      "sentence": "4. 山道が険しいので、注意して登ってください。",
+      "options": [
+        "ひとしい",
+        "まぶしい",
+        "さびしい",
+        "けわしい"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "険しい",
+      "question_type": "vocab_reading",
+      "id": "n2-vocab_reading-008"
+    },
+    {
+      "sentence": "5. この契約には特別な条件が伴う。",
+      "options": [
+        "あつかう",
+        "さそう",
+        "ともなう",
+        "おぎなう"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "伴う",
+      "question_type": "vocab_reading",
+      "id": "n2-vocab_reading-009"
+    }
+  ]
+}

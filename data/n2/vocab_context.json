@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "vocab_context",
+    "name": "文脈規定",
+    "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 13
+  },
+  "questions": [
+    {
+      "sentence": "その会社の経済成長率は相変わらず高いです。",
+      "options": [
+        "高い",
+        "高まっている",
+        "高める",
+        "高まる"
+      ],
+      "answer": 0,
+      "explanation": "选项中的「高い」是副词，表示状态的最高级，这里表示公司经济成长率一直很高。而「高まっている」和「高まる」表示正在增长的状态，与句意不符。‘高める’是动词，意为提高，也不符合句意。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目符合JLPT N2的审题标准。\n答案解释：正确答案为选项0「高い」，表示状态的最高级，符合句意。\n干扰项分析：选项1「高まっている」和选项3「高まる」表示正在增长的状态，与句意不符。选项2「高める」是动词，意为提高，也不符合句意。干扰项设置合理，没有两个选项意思相同。\n语法/词汇重点：该题考查了副词「高い」的用法，以及动词的进行时和敬语形式。\n学习建议：建议考生加强对副词和动词不同形式的识别和运用，以及理解句子中时态和敬语的使用。",
+      "verified": true,
+      "created_at": "2026-05-03T21:51:24",
+      "id": "n2-vocab_context-001",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "異文化理解の重要性を感じるようになりました。",
+      "options": [
+        "感じる",
+        "理解する",
+        "知る",
+        "わかる"
+      ],
+      "answer": 0,
+      "explanation": "选项中的「感じる」表示感到、觉得，与句意“感受到异文化理解的重要性”相符。而「理解する」虽然也表示理解，但更侧重于理性上的理解，而不是情感上的感受。‘知る’和‘わかる’都表示知道、了解，但在这个语境中不如‘感じる’恰当。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。\n答案解释：正确答案为选项0「感じる」，表示感到、觉得，与句意“感受到异文化理解的重要性”相符。\n干扰项分析：「理解する」表示理解，但更侧重于理性上的理解，与句意中的情感感受不符；‘知る’和‘わかる’都表示知道、了解，但在这个语境中不如‘感じる’恰当，因此它们作为干扰项是合理的。\n语法/词汇重点：句子使用了「～の重要性を感じるようになりました」这一结构，表示“开始感受到……的重要性”，是N2级别中常见的表达方式。\n学习建议：考生需要掌握「感じる」的用法，以及如何根据上下文选择合适的动词表达情感或感受。",
+      "verified": true,
+      "created_at": "2026-05-03T21:51:37",
+      "id": "n2-vocab_context-002",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "今回のイベントは予想より来場者が少なかったが、（　）地域の人たちに社会貢献の重要性を伝えられたと思う。",
+      "options": [
+        "せめて",
+        "相変わらず",
+        "わざと",
+        "せっかく"
+      ],
+      "answer": 0,
+      "explanation": "本题考查N2副词辨析。句意：虽然这次活动的到场人数比预想的少，但我至少认为向当地居民传递了社会贡献的重要性。「せめて」意为“至少，哪怕”，表达最低限度的诉求，符合语境；「相変わらず」意为“依旧，和往常一样”，本句没有和过去状态对比的语境，不符合；「わざと」意为“故意”，代入后语义不通；「せっかく」意为“好不容易，特意”，逻辑不匹配，因此选0。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题合格。首先，答案正确，选项0（せめて）符合句意，表示尽管人数不如预期，但至少实现了传达社会贡献重要性的目标。干扰项合理，其他三个选项的意思与句意不符或逻辑上不合适。'相変わらず'（依旧，和往常一样）没有对比过去的状态，'わざと'（故意）语义不通，'せっかく'（好不容易，特意）逻辑不匹配。题目难度符合N2级别，句子自然且语法正确。词汇重点是副词的辨析和使用，对于学习者而言，这有助于加深对日语副词的理解和应用。",
+      "verified": true,
+      "created_at": "2026-05-03T21:52:40",
+      "id": "n2-vocab_context-003",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "政府は今年度の（　）を5%程度に設定し、インフラ投資を拡大する方針を発表した。",
+      "options": [
+        "経済成長率",
+        "社会貢献度",
+        "情報漏洩率",
+        "異文化理解度"
+      ],
+      "answer": 0,
+      "explanation": "本题考查N2复合名词辨析。句意：政府公布了将本年度经济增长率设定在5%左右、扩大基础设施投资的方针。「経済成長率」是政府经济政策的常见核心指标，符合语境；「社会貢献度」无法被设定为具体数值的年度政策目标；「情報漏洩率」是企业或机构需要降低的负面指标，不会被政府主动设为正向目标；「異文化理解度」无法用百分比量化为国家年度施政目标，因此选0。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题符合JLPT N2的审题标准。\n答案解释：正确答案是0，即「経済成長率」。这是因为句子中提到政府设定一个具体数值的年度政策目标，而「経済成長率」是政府经济政策的常见核心指标，符合语境。\n干扰项分析：干扰项「社会貢献度」、「情報漏洩率」和「異文化理解度」均与句子中的政策目标设定不符，且无法用百分比量化，因此是合理的干扰项。\n语法/词汇重点：句子中的语法结构正确，使用了「を設定し」这一表达，表示设定某个数值或目标。\n学习建议：考生应加强复合名词的辨析能力，特别是与政府政策相关的经济类词汇，同时注意句子中数值设定的语境。",
+      "verified": true,
+      "created_at": "2026-05-03T21:52:49",
+      "id": "n2-vocab_context-004",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "企業の成長戦略において、長期的な（　　）を持つことが重要だ。",
+      "options": [
+        "大局",
+        "大局観",
+        "大局感",
+        "大局性"
+      ],
+      "answer": 1,
+      "explanation": "此题考察N2级别的复合词辨析。句意为“在企业的成长战略中，拥有长期的（  ）很重要”。选项需与“持つ”（拥有）搭配，且符合“长期、宏观视角”的语境。「大局観」是固定复合词，意为“大局观、宏观视角”，符合句意和语法。其他选项中：「大局」是名词，单独使用不自然；「大局感」「大局性」虽可理解，但不如「大局観」常用和规范。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "此题通过审核。答案解释：正确答案为「大局観」，因为它是一个固定复合词，意为“大局观、宏观视角”，与句意和语法相符合。干扰项分析：选项「大局」是名词，单独使用不自然，不符合句意。选项「大局感」和「大局性」虽然可以理解，但不如「大局観」常用和规范。语法/词汇重点：此题考察了复合词的辨析能力，特别是固定复合词的用法。学习建议：学习时要注意固定复合词的用法和意义，同时注意不同词汇之间的细微差别。",
+      "verified": true,
+      "created_at": "2026-05-03T21:53:16",
+      "id": "n2-vocab_context-005",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "毎日、駅前のパン屋で（　　）同じサンドイッチを買っている。",
+      "options": [
+        "相変わらず",
+        "せめて",
+        "わざと",
+        "あえて"
+      ],
+      "answer": 0,
+      "explanation": "此题考察N2级别的副词辨析。句意为“每天，我（  ）都在车站前的面包店买同样的三明治”。选项需体现“持续不变”的语感。「相変わらず」意为“照旧、依然”，强调持续的状态，符合句意。其他选项中：「せめて」意为“至少”；「わざと」意为“故意”；「あえて」意为“敢于、硬要”，均与“每天重复购买同一食物”的语境不符。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "此题符合JLPT N2级别审题标准。\n答案解释：正确答案为「相変わらず」，它正确地表达了每天持续不变地购买同样的三明治的意思。\n干扰项分析：其他选项均与句意不符，且没有两个选项意思相同，符合干扰项的合理性要求。\n语法/词汇重点：考察副词「相変わらず」的用法，以及考生对句子整体意思的理解。\n学习建议：建议考生加强副词的用法和语境理解，提高在具体语境中正确使用副词的能力。",
+      "verified": true,
+      "created_at": "2026-05-03T21:53:22",
+      "id": "n2-vocab_context-006",
+      "level": "N2",
+      "question_type": "vocab_context"
+    },
+    {
+      "sentence": "11. 彼は（　）が鋭いので、小さなミスも見逃さない。",
+      "options": [
+        "視点",
+        "視線",
+        "観察",
+        "洞察"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-007"
+    },
+    {
+      "sentence": "12. 試験が近くなってきたので、勉強に（　）を入れる。",
+      "options": [
+        "力",
+        "気",
+        "本腰",
+        "念"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-008"
+    },
+    {
+      "sentence": "13. 最近、この町には（　）な高層ビルが次々と建っている。",
+      "options": [
+        "極端",
+        "窮屈",
+        "巨大",
+        "強力"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-009"
+    },
+    {
+      "sentence": "14. 彼は（　）性格で、誰とでもすぐに仲良くなる。",
+      "options": [
+        "社交的な",
+        "積極的な",
+        "楽天的な",
+        "肯定的な"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-010"
+    },
+    {
+      "sentence": "15. 資料を（　）に並べて、ファイリングする。",
+      "options": [
+        "出たら目に",
+        "順序よく",
+        "交互に",
+        "頻繁に"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-011"
+    },
+    {
+      "sentence": "16. このボタンを押すと、画面が（　）切り替わります。",
+      "options": [
+        "いっきに",
+        "とっくに",
+        "すみやかに",
+        "ようやく"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-012"
+    },
+    {
+      "sentence": "17. 彼は怒ると（　）が変わったように大声を出す。",
+      "options": [
+        "外見",
+        "表情",
+        "様子",
+        "人格"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "question_type": "vocab_context",
+      "id": "n2-vocab_context-013"
+    }
+  ]
+}

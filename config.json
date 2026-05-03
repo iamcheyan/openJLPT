@@ -1,0 +1,65 @@
+{
+  "providers": {
+    "zhipu": {
+      "label": "智谱AI",
+      "api_key_env": "ZHIPU_API_KEY",
+      "base_url_env": "ZHIPU_BASE_URL",
+      "model": "glm-4-flash",
+      "format": "openai"
+    },
+    "ark": {
+      "label": "火山ARK",
+      "api_key_env": "ARK_API_KEY",
+      "base_url_env": "ARK_BASE_URL",
+      "model": "doubao-seed-2-0-pro-260215",
+      "format": "openai"
+    },
+    "mimo": {
+      "label": "小米MiMo",
+      "api_key_env": "MIMO_API_KEY",
+      "base_url_env": "MIMO_BASE_URL",
+      "model_env": "MIMO_MODEL",
+      "format": "openai"
+    },
+    "gemini": {
+      "label": "Google Gemini",
+      "api_key_env": "GEMINI_API_KEY",
+      "base_url_env": "GEMINI_BASE_URL",
+      "model": "gemini-1.5-flash",
+      "format": "openai",
+      "url_suffix": "/openai/chat/completions"
+    },
+    "kimi": {
+      "label": "Kimi",
+      "api_key_env": "KIMI_API_KEY",
+      "base_url_env": "KIMI_BASE_URL",
+      "model": "kimi-latest",
+      "format": "openai"
+    },
+    "kimi2": {
+      "label": "Kimi-2",
+      "api_key_env": "KIMI_API_KEY_2",
+      "base_url_env": "KIMI_BASE_URL_2",
+      "model": "kimi-latest",
+      "format": "openai",
+      "url_suffix": "/chat/completions"
+    },
+    "nvidia": {
+      "label": "NVIDIA NIM",
+      "api_key_env": "NVIDIA_API_KEY",
+      "base_url_env": "NVIDIA_BASE_URL",
+      "model": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "format": "openai"
+    },
+    "openrouter": {
+      "label": "OpenRouter",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "model": "openai/gpt-4o-mini",
+      "format": "openai"
+    }
+  },
+  "pipeline": {
+    "timeout": 180
+  }
+}

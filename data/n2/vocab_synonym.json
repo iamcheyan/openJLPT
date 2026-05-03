@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "vocab_synonym",
+    "name": "言い換え・類義",
+    "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+    "count": 11
+  },
+  "questions": [
+    {
+      "sentence": "この映画は、まるで現実を見ているように《深刻》でした。",
+      "target": "深刻",
+      "options": [
+        "（1）深遠な",
+        "（2）興味深い",
+        "（3）面白い",
+        "（4）冷静な"
+      ],
+      "answer": 0,
+      "explanation": "选项1（深遠な）与‘深刻’意思相近，指内容或情感深度。选项2（興味深い）意为‘有趣的’，选项3（面白い）意为‘愉快的’，选项4（冷静な）意为‘冷静的’。根据句意，应选与‘现实’相对应的深度感，所以选择（1）深遠な。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目符合JLPT N2级别的要求。\n答案解释：正确答案是选项（1）深遠な，与‘深刻’意思相近，符合句意。\n干扰项分析：选项2（興味深い）和选项3（面白い）的意思与‘深刻’无关，选项4（冷静な）虽然也是一个形容词，但与‘深刻’在含义上没有直接联系，因此作为干扰项是合理的。\n语法/词汇重点：句子中的语法正确，使用了形容词‘深刻’来形容电影，表示电影给人以深刻的印象。\n学习建议：考生需要掌握‘深刻’一词的不同用法和相近词汇的区分，同时也要理解句子的整体语境，才能正确选择答案。",
+      "verified": true,
+      "created_at": "2026-05-03T21:53:49",
+      "id": "n2-vocab_synonym-001",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "彼女は《妥当》な提案をして、全員が賛成しました。",
+      "target": "妥当",
+      "options": [
+        "（1）素晴らしい",
+        "（2）適切な",
+        "（3）素朴な",
+        "（4）過激な"
+      ],
+      "answer": 1,
+      "explanation": "选项1（素晴らしい）意为‘出色的’，选项3（素朴な）意为‘朴素的’，选项4（過激な）意为‘激进的’。而‘妥当’意为‘恰当的’，与‘適切な’同义。因此，正确答案是（2）適切な。",
+      "generated_by": "zhipu:GLM-4-Flash",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目合格。答案解释正确，‘妥当’意为‘恰当的’，与选项（2）適切な同义。干扰项分析合理，选项（1）素晴らしい、选项（3）素朴な和选项（4）過激な均与‘妥当’不符，且选项之间意思不同。难度符合N2级别，句子自然，语法正确。‘彼女は《妥当》な提案をして、全員が賛成しました。’中的‘妥当’为关键词，考察了考生对词汇的理解。学习建议：考生应加强词汇学习，特别是同义词的区分，同时注意句子结构的正确性。",
+      "verified": true,
+      "created_at": "2026-05-03T21:53:55",
+      "id": "n2-vocab_synonym-002",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "交通機関の遅れで面接に遅刻したので、《やむをえない》事情だと判断された。",
+      "target": "やむをえない",
+      "options": [
+        "しかたない",
+        "もったいない",
+        "くだらない",
+        "ありえない"
+      ],
+      "answer": 0,
+      "explanation": "本题考查N2近义词辨析，「やむをえない」是N2核心词汇，意为“不得已、没办法的”，和选项中的「しかたない」含义完全一致。其余选项：「もったいない」意为“可惜、浪费”；「くだらない」意为“无聊、没有价值的”；「ありえない」意为“不可能的”，均不符合句意。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题符合JLPT N2审题标准。\n答案解释：正确答案为0，即「やむをえない」。该选项与句子中的用法完全一致，表示由于交通机关的延误而导致的迟到是不得已的。\n干扰项分析：选项1「しかたない」与正确答案含义相同，但作为干扰项存在，增加了题目的难度。选项2「もったいない」意为“可惜、浪费”，与句意不符；选项3「くだらない」意为“无聊、没有价值的”，与句意无关；选项4「ありえない」意为“不可能的”，与句意不符。\n语法/词汇重点：「やむをえない」是N2级别的核心词汇，表示“不得已、没办法的”。\n学习建议：考生应掌握N2级别的核心词汇，并能够正确运用到句子中，同时注意近义词的辨析。",
+      "verified": true,
+      "created_at": "2026-05-03T21:55:00",
+      "id": "n2-vocab_synonym-003",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "来週の合唱コンクールに向けて、クラス全員が《張り切って》練習に励んでいる。",
+      "target": "張り切る",
+      "options": [
+        "意気込んで",
+        "落ち込んで",
+        "疑問に思って",
+        "呆れて"
+      ],
+      "answer": 0,
+      "explanation": "本题考查N2近义词辨析，「張り切る」是N2核心词汇，意为“充满干劲、干劲十足”，和选项中的「意気込んで（兴致勃勃、干劲十足地）」含义一致。其余选项：「落ち込んで」意为“情绪低落的”；「疑問に思って」意为“抱有疑问地”；「呆れて」意为“吃惊、惊呆地”，均不符合句意。",
+      "generated_by": "ark:Doubao-Seed-2.0-Pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题符合JLPT N2的审题标准。\n答案解释：正确答案是选项0，即「意気込んで」，与「張り切る」含义一致，表示充满干劲、干劲十足。\n干扰项分析：选项1「意気込んで」与「張り切る」意思相同，但根据审题标准，不能有两个选项意思相同，因此应视为错误。选项2「落ち込んで」意为情绪低落，与句意不符；选项3「疑問に思って」意为抱有疑问，与句意不符；选项4「呆れて」意为吃惊、惊呆地，与句意不符。\n语法/词汇重点：「張り切る」是N2级别核心词汇，表示充满干劲、干劲十足。\n学习建议：考生应加强对N2级别核心词汇的掌握，同时注意近义词的区分。",
+      "verified": true,
+      "created_at": "2026-05-03T21:55:15",
+      "id": "n2-vocab_synonym-004",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "この映画はとても《愉快》です。",
+      "target": "愉快",
+      "options": [
+        "楽しい",
+        "面白い",
+        "嬉しい",
+        "快適だ"
+      ],
+      "answer": 1,
+      "explanation": "「愉快」表示心情愉快、有趣，与「面白い」在N2级别中常作为近义词，都侧重于有趣或令人愉悦的感受。其他选项中，「楽しい」更强调快乐、享受，「嬉しい」是高兴、喜悦，「快適だ」是舒适、惬意，与「愉快」的语义不完全一致。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "该题目通过审核。\n答案解释：正确答案是1，即「楽しい」。该选项与「愉快」意思相近，都表示有趣或令人愉悦，符合题目的要求。\n干扰项分析：选项2「面白い」虽然也是N2级别中常作为近义词，但「愉快」更侧重于心情愉快，而「面白い」强调的是有趣。选项3「嬉しい」和选项4「快適だ」与「愉快」的语义不完全一致，因此是合理的干扰项。\n语法/词汇重点：「愉快」表示心情愉快、有趣，是N2级别中常见的词汇。在解答这类题目时，需要学生理解词汇的细微差别。\n学习建议：建议学习者多积累近义词，并注意它们在具体语境中的用法差异。",
+      "verified": true,
+      "created_at": "2026-05-03T21:56:18",
+      "id": "n2-vocab_synonym-005",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "急用ができたので、休みを《やむをえない》。",
+      "target": "やむをえない",
+      "options": [
+        "仕方ない",
+        "不可能だ",
+        "困る",
+        "必要だ"
+      ],
+      "answer": 0,
+      "explanation": "「やむをえない」表示不得已、没办法，与「仕方ない」在N2级别中意思相同，都表示无奈或无法避免的状况。其他选项中，「不可能だ」是不可能、无法实现，「困る」是困扰、为难，「必要だ」是必要、需要，这些词与「やむをえない」的语境和含义有明显区别。",
+      "generated_by": "mimo:mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "review_explanation": "本题合格。答案解释正确，'やむをえない'与'仕方ない'在N2级别中意思相同，都表示无奈或无法避免的状况。干扰项分析合理，'不可能だ'、'困る'和'必要だ'与'やむをえない'的语境和含义有明显区别，且没有两个选项意思相同。难度符合N2级别，句子自然，语法正确。'やむをえない'是N2级别常考词汇，用于表示因客观原因而不得不做某事。学习建议：建议考生掌握'やむをえない'的用法，并与其他表示无奈的词汇进行比较学习，加深理解。",
+      "verified": true,
+      "created_at": "2026-05-03T21:56:27",
+      "id": "n2-vocab_synonym-006",
+      "level": "N2",
+      "question_type": "vocab_synonym"
+    },
+    {
+      "sentence": "18. その計画は妥当だと思われる。",
+      "options": [
+        "正しい",
+        "難しい",
+        "適切だ",
+        "面白い"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "妥当だ",
+      "question_type": "vocab_synonym",
+      "id": "n2-vocab_synonym-007"
+    },
+    {
+      "sentence": "19. 彼は冷静に判断した。",
+      "options": [
+        "熱心に",
+        "落ち着いて",
+        "真剣に",
+        "素早く"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "冷静に",
+      "question_type": "vocab_synonym",
+      "id": "n2-vocab_synonym-008"
+    },
+    {
+      "sentence": "20. せっせと働いている。",
+      "options": [
+        "のんびり",
+        "突然",
+        "しばしば",
+        "熱心に"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "せっせと",
+      "question_type": "vocab_synonym",
+      "id": "n2-vocab_synonym-009"
+    },
+    {
+      "sentence": "21. この服はくたびれている。",
+      "options": [
+        "古くなって",
+        "汚れて",
+        "破れて",
+        "濡れて"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "くたびれて",
+      "question_type": "vocab_synonym",
+      "id": "n2-vocab_synonym-010"
+    },
+    {
+      "sentence": "22. あいにく外出しております。",
+      "options": [
+        "突然",
+        "多分",
+        "残念ながら",
+        "幸いに"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "generated_by": "gemini:Google Gemini",
+      "reviewed_by": "gemini",
+      "verified": true,
+      "created_at": "2026-05-03 14:41:23",
+      "level": "N2",
+      "source": "ai",
+      "target": "あいにく",
+      "question_type": "vocab_synonym",
+      "id": "n2-vocab_synonym-011"
+    }
+  ]
+}
