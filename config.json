@@ -25,37 +25,14 @@
       "label": "Google Gemini",
       "api_key_env": "GEMINI_API_KEY",
       "base_url_env": "GEMINI_BASE_URL",
-      "model": "gemini-1.5-flash",
-      "format": "openai",
-      "url_suffix": "/openai/chat/completions"
-    },
-    "kimi": {
-      "label": "Kimi",
-      "api_key_env": "KIMI_API_KEY",
-      "base_url_env": "KIMI_BASE_URL",
-      "model": "kimi-latest",
-      "format": "openai"
-    },
-    "kimi2": {
-      "label": "Kimi-2",
-      "api_key_env": "KIMI_API_KEY_2",
-      "base_url_env": "KIMI_BASE_URL_2",
-      "model": "kimi-latest",
-      "format": "openai",
-      "url_suffix": "/chat/completions"
+      "model": "gemini-2.0-flash-lite",
+      "format": "gemini"
     },
     "nvidia": {
       "label": "NVIDIA NIM",
       "api_key_env": "NVIDIA_API_KEY",
       "base_url_env": "NVIDIA_BASE_URL",
-      "model": "nvidia/llama-3.1-nemotron-70b-instruct",
-      "format": "openai"
-    },
-    "openrouter": {
-      "label": "OpenRouter",
-      "api_key_env": "OPENROUTER_API_KEY",
-      "base_url_env": "OPENROUTER_BASE_URL",
-      "model": "openai/gpt-4o-mini",
+      "model": "qwen/qwen2.5-coder-32b-instruct",
       "format": "openai"
     }
   },

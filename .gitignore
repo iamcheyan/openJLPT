@@ -11,6 +11,60 @@ Thumbs.db
 .nvimlog
 .direnv/
 
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+.envrc
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.egg-info/
+pip-wheel-metadata/
+
+# Node / frontend tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnpm-store/
+dist/
+build/
+.vite/
+
+# Logs and runtime scratch files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Local generated exports and archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
 # zsh 缓存
 .zinit/
 .zcompdump*

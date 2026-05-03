@@ -81,6 +81,9 @@ def load_env(path):
 # Vocabulary state management (for vocab_reading / vocab_kanji)
 # ============================================================
 
+VOCAB_SECTIONS = ("vocab_reading", "vocab_kanji")
+
+
 def load_n2_vocab_records(vocab_dir):
     """读取 n2.csv，返回所有 kanji 非空的记录列表。"""
     records = []
@@ -113,7 +116,11 @@ def init_vocab_state(records, state_path):
             "kana": r["kana"],
             "kanji": r["kanji"],
             "vocab_reading": "pending",
+            "vocab_reading_attempts": 0,
+            "vocab_reading_issue": "",
             "vocab_kanji": "pending",
+            "vocab_kanji_attempts": 0,
+            "vocab_kanji_issue": "",
         }
     os.makedirs(os.path.dirname(state_path), exist_ok=True)
     with open(state_path, "w", encoding="utf-8") as f:
@@ -153,6 +160,67 @@ def count_pending(state, section_id):
     return sum(1 for v in state.values() if v.get(section_id) == "pending")
 
 
+def load_existing_vocab_targets(data_dir, section_id):
+    """读取已入库词汇题的 target，用于去重和修复状态。"""
+    path = os.path.join(data_dir, f"{section_id}.json")
+    if not os.path.exists(path):
+        return set()
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return {
+        q.get("target")
+        for q in data.get("questions", [])
+        if isinstance(q, dict) and q.get("target")
+    }
+
+
+def repair_vocab_state(vocab_state, state_path, data_dir):
+    """把状态中 generated 但题库 JSON 缺失的词重置为 pending。
+
+    旧版本会先把词标记为 generated，等整个题型完成后才统一写 JSON。
+    如果进程中断，会留下 generated 状态但没有实际题目。启动时修复这类不一致。
+    """
+    repaired = 0
+    for section_id in VOCAB_SECTIONS:
+        existing_targets = load_existing_vocab_targets(data_dir, section_id)
+        for record in vocab_state.values():
+            if record.get(section_id) != "generated":
+                continue
+            target = record.get("kanji") if section_id == "vocab_reading" else record.get("kana")
+            if target in existing_targets:
+                continue
+            record[section_id] = "pending"
+            record[f"{section_id}_issue"] = "state_repaired_missing_json"
+            repaired += 1
+
+    if repaired:
+        save_vocab_state(state_path, vocab_state)
+        print(f"词汇状态修复完成: {repaired} 个 generated 但未入库的词已重置为 pending")
+
+
+def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, max_attempts=2):
+    """记录一次生成/审核失败，并立即保存状态。"""
+    attempts_key = f"{section_id}_attempts"
+    issue_key = f"{section_id}_issue"
+    record = vocab_state[word["jmdict_seq"]]
+    current = record.get(attempts_key, 0)
+    record[attempts_key] = current + 1
+    record[issue_key] = issue
+    if current + 1 >= max_attempts:
+        record[section_id] = "failed"
+    if vocab_state_path:
+        save_vocab_state(vocab_state_path, vocab_state)
+
+
+def mark_vocab_generated(vocab_state, vocab_state_path, word, section_id):
+    """标记词汇题已入库，并立即保存状态。"""
+    record = vocab_state[word["jmdict_seq"]]
+    record[section_id] = "generated"
+    record[f"{section_id}_issue"] = ""
+    if vocab_state_path:
+        save_vocab_state(vocab_state_path, vocab_state)
+
+
 # ============================================================
 # Provider resolution
 # ============================================================
@@ -170,9 +238,10 @@ def resolve_provider(provider_id, provider_cfg, env):
         print(f"    [WARN] {provider_id}: Base URL missing ({provider_cfg['base_url_env']})")
         return None
 
-    # URL suffix handling
+    # URL suffix handling (skip for Gemini native API)
     suffix = provider_cfg.get("url_suffix", "")
-    if suffix and not base_url.endswith(suffix):
+    fmt = provider_cfg.get("format", "openai")
+    if fmt != "gemini" and suffix and not base_url.endswith(suffix):
         base_url = base_url.rstrip("/") + suffix
 
     # Model name: fixed or from env
@@ -195,7 +264,29 @@ def resolve_provider(provider_id, provider_cfg, env):
 # API calling (OpenAI-compatible)
 # ============================================================
 
-def call_api(provider, prompt, timeout=120):
+def call_gemini_api(provider, prompt, timeout=120):
+    """Call Google Gemini native REST API."""
+    url = f"{provider['url'].rstrip('/')}/models/{provider['model']}:generateContent?key={provider['api_key']}"
+    headers = {"Content-Type": "application/json"}
+    data = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}]
+    }).encode("utf-8")
+
+    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+            if "candidates" in result and result["candidates"]:
+                return result["candidates"][0]["content"]["parts"][0]["text"]
+            return f"ERROR: No candidates in response: {json.dumps(result, ensure_ascii=False)[:200]}"
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")[:500]
+        return f"ERROR: HTTP {e.code} - {body}"
+    except Exception as e:
+        return f"ERROR: {e}"
+
+
+def call_openai_api(provider, prompt, timeout=120):
     """Call an OpenAI-compatible API. Returns response text or 'ERROR: ...'."""
     url = provider["url"]
     api_key = provider["api_key"]
@@ -222,6 +313,22 @@ def call_api(provider, prompt, timeout=120):
         return f"ERROR: HTTP {e.code} - {body}"
     except Exception as e:
         return f"ERROR: {e}"
+
+
+def call_api(provider, prompt, timeout=120):
+    """Dispatch to the correct API caller based on provider format."""
+    fmt = provider.get("format", "openai")
+    if fmt == "gemini":
+        return call_gemini_api(provider, prompt, timeout)
+    return call_openai_api(provider, prompt, timeout)
+
+
+def check_provider(provider, timeout=15):
+    """快速检测模型是否可用。返回 (ok, error_msg)。"""
+    result = call_api(provider, "hi", timeout=timeout)
+    if result.startswith("ERROR"):
+        return False, result
+    return True, ""
 
 
 # ============================================================
@@ -284,8 +391,18 @@ def build_reading_prompt(words):
 1. 为每个目标词写一句自然、N2难度的日语例句，目标词用《》标注。
 2. 提供3个错误读音作为干扰项（distractors）。
 3. 干扰项设计要求：针对长短音、清浊音、促音或常见误读进行设计。
-4. 干扰项绝对不能等于正确读音。
-5. 4个选项（1正确 + 3干扰）之间必须明显不同，不能有重复。
+4. 绝对禁止：干扰项等于正确读音、干扰项之间重复、干扰项与正确读音完全相同。
+5. 每个干扰项必须是看起来像正确读音的"常见误读"，不能是明显错误的随机假名。
+
+【反例——这些是错误的，会导致题目作废】
+目标词：《掲載》（正确读音：けいさい）
+- 错误干扰项1：けいさい（等于正确答案，绝对禁止）
+- 错误干扰项2：けいさい（与另一个干扰项重复，绝对禁止）
+- 错误干扰项3：あ（太短，明显不是候选，禁止）
+
+【正确示例】
+目标词：《掲載》（正确读音：けいさい）
+干扰项：けさい（清浊混淆）、けっさい（促音误读）、けいざい（长音误读）
 
 【输出格式】严格输出JSON数组，不要输出其他内容：
 [
@@ -312,8 +429,18 @@ def build_kanji_prompt(words):
 1. 为每个目标读音写一句自然、N2难度的日语例句，目标读音用《》标注（如《けいさい》）。
 2. 提供3个错误汉字写法作为干扰项（distractors）。
 3. 干扰项设计要求：同音异义字、形似字、相同部首混淆。
-4. 干扰项绝对不能等于正确汉字。
-5. 4个选项（1正确 + 3干扰）之间必须明显不同，不能有重复。
+4. 绝对禁止：干扰项等于正确汉字、干扰项之间重复、干扰项与正确汉字完全相同。
+5. 每个干扰项必须是看起来像正确汉字的"常见误写"，不能是明显错误的随机汉字。
+
+【反例——这些是错误的，会导致题目作废】
+目标读音：けいさい（正确汉字：掲載）
+- 错误干扰项1：掲載（等于正确答案，绝对禁止）
+- 错误干扰项2：掲載（与另一个干扰项重复，绝对禁止）
+- 错误干扰项3：一（明显不是候选，禁止）
+
+【正确示例】
+目标读音：けいさい（正确汉字：掲載）
+干扰项：掲栽（形似字）、計裁（同音异义）、啓載（部首混淆）
 
 【输出格式】严格输出JSON数组，不要输出其他内容：
 [
@@ -378,6 +505,22 @@ def assemble_vocab_item(raw_item, word, section_id):
         if d not in seen:
             unique_distractors.append(d)
             seen.add(d)
+
+    # 兜底：从词库补充干扰项
+    if len(unique_distractors) < 3 and VOCAB_INDEX:
+        if section_id == "vocab_reading":
+            pool = list(VOCAB_INDEX.get("kana_to_kanji", {}).keys())
+        else:
+            pool = list(VOCAB_INDEX.get("kanji_to_kana", {}).keys())
+        target_len = len(correct)
+        # 优先选长度相近的真实词
+        candidates = [k for k in pool if k != correct and k not in seen and abs(len(k) - target_len) <= 2]
+        random.shuffle(candidates)
+        for cand in candidates:
+            if len(unique_distractors) >= 3:
+                break
+            unique_distractors.append(cand)
+            seen.add(cand)
 
     if len(unique_distractors) < 3:
         errors.append(f"有效干扰项不足: {len(unique_distractors)}")
@@ -853,7 +996,7 @@ def review_question(provider, question, section_id):
     return approved, explanation
 
 
-def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path):
+def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path, data_dir):
     """专门处理读音/汉字题：循环抽词→生成→审核→更新状态，直到跑完所有 pending 词。"""
     if vocab_state is None:
         print(f"  [WARN] 未加载词汇状态，跳过")
@@ -885,7 +1028,7 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                         assembled.append((item, word))
                     else:
                         print(f"      组装失败: {'; '.join(errs)}")
-                        vocab_state[word["jmdict_seq"]][section_id] = "failed"
+                        mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "; ".join(errs))
                 if assembled:
                     used_generator = provider
                     break
@@ -912,11 +1055,16 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
                     item["level"] = "N2"
                     item["question_type"] = section_id
-                    all_approved.append(item)
-                    vocab_state[word["jmdict_seq"]][section_id] = "generated"
+                    # 先落盘，再更新状态。save_to_json 对词汇题按 target 去重。
+                    added = save_to_json(section_id, [item], data_dir)
+                    mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
+                    if added:
+                        all_approved.append(item)
+                    else:
+                        print(f"      已存在，跳过重复入库: {item.get('target')}")
                 else:
                     print(f"      未通过审核")
-                    vocab_state[word["jmdict_seq"]][section_id] = "failed"
+                    mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
                 time.sleep(1)
         else:
             print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
@@ -928,11 +1076,12 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                 item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
                 item["level"] = "N2"
                 item["question_type"] = section_id
-                all_approved.append(item)
-                vocab_state[word["jmdict_seq"]][section_id] = "generated"
-
-        if vocab_state_path:
-            save_vocab_state(vocab_state_path, vocab_state)
+                added = save_to_json(section_id, [item], data_dir)
+                mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
+                if added:
+                    all_approved.append(item)
+                else:
+                    print(f"      已存在，跳过重复入库: {item.get('target')}")
 
         pending_count = count_pending(vocab_state, section_id)
         print(f"  {section_name} 进度: 累计入库 {len(all_approved)} 题，剩余 pending {pending_count}")
@@ -941,14 +1090,14 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
     return all_approved
 
 
-def process_section(section_def, available, timeout, vocab_state=None, vocab_state_path=None):
+def process_section(section_def, available, timeout, data_dir, vocab_state=None, vocab_state_path=None):
     """处理一个题型：随机选模型生成→失败换模型重试→成功后换另一模型审核。"""
     section_id = section_def["id"]
     print(f"\n  === {section_def['name']} ===")
 
     # 特殊处理 vocab_reading / vocab_kanji
     if section_id in ("vocab_reading", "vocab_kanji"):
-        return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path)
+        return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path, data_dir)
 
     # 通用流程（其他题型）
     provider_ids = list(available.keys())
@@ -1030,6 +1179,19 @@ def save_to_json(section_id, questions, data_dir):
         data = json.load(f)
 
     existing = data.get("questions", [])
+    if section_id in VOCAB_SECTIONS:
+        existing_targets = {
+            q.get("target")
+            for q in existing
+            if isinstance(q, dict) and q.get("target")
+        }
+        questions = [
+            q for q in questions
+            if not q.get("target") or q.get("target") not in existing_targets
+        ]
+        if not questions:
+            return 0
+
     start_idx = len(existing)
 
     for i, q in enumerate(questions):
@@ -1079,16 +1241,29 @@ def main():
     else:
         print(f"词汇状态加载完成: {len(vocab_state)} 个词汇")
 
+    repair_vocab_state(vocab_state, vocab_state_path, data_dir)
+
     # 解析可用提供商
-    available = {}
+    candidates = {}
     for pid, pc in cfg["providers"].items():
         resolved = resolve_provider(pid, pc, env)
         if resolved:
-            available[pid] = resolved
+            candidates[pid] = resolved
+
+    # 健康检查：筛选掉当前不可用的模型
+    print("检测模型可用性...")
+    available = {}
+    for pid, provider in candidates.items():
+        ok, err = check_provider(provider, timeout=15)
+        if ok:
+            available[pid] = provider
+            print(f"  ✓ {pid}")
+        else:
+            print(f"  ✗ {pid} — {err[:120]}")
 
     if len(available) < 2:
         print(f"[FATAL] 至少需要 2 个可用模型（1 生成 + 1 审核），当前只有 {len(available)} 个")
-        print(f"可用: {', '.join(available.keys())}")
+        print(f"通过检测: {', '.join(available.keys())}")
         sys.exit(1)
 
     timeout = cfg.get("pipeline", {}).get("timeout", 180)
@@ -1114,9 +1289,13 @@ def main():
     results = {}
 
     for section_def in sections:
-        questions = process_section(section_def, available, timeout, vocab_state, vocab_state_path)
+        questions = process_section(section_def, available, timeout, data_dir, vocab_state, vocab_state_path)
         if questions:
-            added = save_to_json(section_def["id"], questions, data_dir)
+            if section_def["id"] in VOCAB_SECTIONS:
+                # 词汇题在审核通过时已经逐题落盘，这里只汇总数量，避免重复追加。
+                added = len(questions)
+            else:
+                added = save_to_json(section_def["id"], questions, data_dir)
             total_added += added
             results[section_def["name"]] = added
         else:
