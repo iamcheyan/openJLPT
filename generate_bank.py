@@ -78,6 +78,82 @@ def load_env(path):
 
 
 # ============================================================
+# Vocabulary state management (for vocab_reading / vocab_kanji)
+# ============================================================
+
+def load_n2_vocab_records(vocab_dir):
+    """读取 n2.csv，返回所有 kanji 非空的记录列表。"""
+    records = []
+    path = os.path.join(vocab_dir, "n2.csv")
+    if not os.path.exists(path):
+        return records
+    with open(path, "r", encoding="utf-8") as f:
+        next(f)  # skip header
+        for line in f:
+            parts = line.strip().split(",")
+            if len(parts) < 3:
+                continue
+            kana = parts[1]
+            kanji = parts[2]
+            if not kana or not kanji:
+                continue
+            records.append({
+                "jmdict_seq": parts[0],
+                "kana": kana,
+                "kanji": kanji,
+            })
+    return records
+
+
+def init_vocab_state(records, state_path):
+    """从 n2.csv 初始化状态文件。"""
+    state = {}
+    for r in records:
+        state[r["jmdict_seq"]] = {
+            "kana": r["kana"],
+            "kanji": r["kanji"],
+            "vocab_reading": "pending",
+            "vocab_kanji": "pending",
+        }
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+    return state
+
+
+def load_vocab_state(state_path):
+    """加载词汇生成状态。"""
+    if os.path.exists(state_path):
+        with open(state_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_vocab_state(state_path, state):
+    """保存词汇生成状态。"""
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def pick_pending_words(state, section_id, count=3):
+    """从状态中随机选取指定题型的 pending 词汇。"""
+    pending = [
+        {"jmdict_seq": k, **v}
+        for k, v in state.items()
+        if v.get(section_id) == "pending"
+    ]
+    if len(pending) <= count:
+        return pending
+    return random.sample(pending, count)
+
+
+def count_pending(state, section_id):
+    """统计指定题型的 pending 数量。"""
+    return sum(1 for v in state.values() if v.get(section_id) == "pending")
+
+
+# ============================================================
 # Provider resolution
 # ============================================================
 
@@ -188,6 +264,163 @@ def extract_json_object(text):
         return json.loads(text)
     except json.JSONDecodeError:
         return None
+
+
+# ============================================================
+# Vocab question builders (vocab_reading / vocab_kanji)
+# ============================================================
+
+def build_reading_prompt(words):
+    """为读音题构建 prompt。words: [{kanji, kana}, ...]"""
+    lines = []
+    for i, w in enumerate(words, 1):
+        lines.append(f"{i}. 目标词：《{w['kanji']}》（正确读音：{w['kana']}）")
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标词各出一道「漢字の読み方」题目。
+
+{word_list}
+
+【你的任务】
+1. 为每个目标词写一句自然、N2难度的日语例句，目标词用《》标注。
+2. 提供3个错误读音作为干扰项（distractors）。
+3. 干扰项设计要求：针对长短音、清浊音、促音或常见误读进行设计。
+4. 干扰项绝对不能等于正确读音。
+5. 4个选项（1正确 + 3干扰）之间必须明显不同，不能有重复。
+
+【输出格式】严格输出JSON数组，不要输出其他内容：
+[
+  {{
+    "sentence": "包含《目标词》的完整日语例句",
+    "distractors": ["错误读音1", "错误读音2", "错误读音3"],
+    "explanation": "中文解析，说明为什么正确读音是对的，干扰项错在哪"
+  }},
+  ...
+]"""
+
+
+def build_kanji_prompt(words):
+    """为汉字表记题构建 prompt。words: [{kana, kanji}, ...]"""
+    lines = []
+    for i, w in enumerate(words, 1):
+        lines.append(f"{i}. 目标读音：{w['kana']}（正确汉字：{w['kanji']}）")
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标读音各出一道「漢字の表記」题目。
+
+{word_list}
+
+【你的任务】
+1. 为每个目标读音写一句自然、N2难度的日语例句，目标读音用《》标注（如《けいさい》）。
+2. 提供3个错误汉字写法作为干扰项（distractors）。
+3. 干扰项设计要求：同音异义字、形似字、相同部首混淆。
+4. 干扰项绝对不能等于正确汉字。
+5. 4个选项（1正确 + 3干扰）之间必须明显不同，不能有重复。
+
+【输出格式】严格输出JSON数组，不要输出其他内容：
+[
+  {{
+    "sentence": "包含《目标读音》的完整日语例句",
+    "distractors": ["错误汉字1", "错误汉字2", "错误汉字3"],
+    "explanation": "中文解析，说明为什么正确汉字是对的，干扰项错在哪"
+  }},
+  ...
+]"""
+
+
+def generate_vocab_questions(provider, section_id, words, timeout):
+    """专门为读音/汉字题生成。返回 (items, 实际使用的words)。"""
+    if section_id == "vocab_reading":
+        prompt = build_reading_prompt(words)
+    elif section_id == "vocab_kanji":
+        prompt = build_kanji_prompt(words)
+    else:
+        return None, []
+
+    print(f"    [{provider['id']}] 生成 {len(words)} 道 {section_id} ...", end="", flush=True)
+    raw = call_api(provider, prompt, timeout=timeout)
+    if not raw or raw.startswith("ERROR"):
+        print(f" 失败: {raw}")
+        return None, []
+
+    parsed = extract_json(raw)
+    if parsed is None:
+        print(f" JSON解析失败")
+        return None, []
+
+    # 实际返回数量可能和请求数量不一致，按实际返回处理
+    actual_count = min(len(parsed), len(words))
+    print(f" 返回 {actual_count}/{len(words)} 道")
+    return parsed[:actual_count], words[:actual_count]
+
+
+def assemble_vocab_item(raw_item, word, section_id):
+    """将 LLM 返回的 raw_item 与词库数据组合成完整题目。
+    返回 (item, errors)。"""
+    errors = []
+
+    if section_id == "vocab_reading":
+        target = word["kanji"]
+        correct = word["kana"]
+    elif section_id == "vocab_kanji":
+        target = word["kana"]
+        correct = word["kanji"]
+    else:
+        return None, ["未知题型"]
+
+    distractors = raw_item.get("distractors", [])
+    if len(distractors) < 3:
+        errors.append(f"干扰项不足: {len(distractors)}")
+        return None, errors
+
+    # 去重并过滤掉正确答案
+    seen = {correct}
+    unique_distractors = []
+    for d in distractors:
+        if d not in seen:
+            unique_distractors.append(d)
+            seen.add(d)
+
+    if len(unique_distractors) < 3:
+        errors.append(f"有效干扰项不足: {len(unique_distractors)}")
+        return None, errors
+
+    options = [correct] + unique_distractors[:3]
+    random.shuffle(options)
+    answer = options.index(correct)
+
+    item = {
+        "sentence": raw_item.get("sentence", ""),
+        "target": target,
+        "options": options,
+        "answer": answer,
+        "explanation": raw_item.get("explanation", ""),
+    }
+
+    # 本地硬校验
+    if not item["sentence"]:
+        errors.append("缺少sentence")
+    if f"《{target}》" not in item["sentence"] and target not in item["sentence"]:
+        errors.append(f"例句中未包含目标词: {target}")
+    if len(set(options)) < 4:
+        errors.append("存在重复选项")
+
+    # 词库校验
+    if VOCAB_INDEX and section_id == "vocab_reading":
+        correct_readings = VOCAB_INDEX.get("kanji_to_kana", {}).get(target, [])
+        if correct_readings and correct not in correct_readings:
+            errors.append(f"词库不匹配: {target} 的读音应为 {correct_readings}，但程序设定为 {correct}")
+        chosen = options[answer]
+        if correct_readings and chosen not in correct_readings:
+            errors.append(f"答案读音错误: {chosen} 不在 {correct_readings}")
+
+    if VOCAB_INDEX and section_id == "vocab_kanji":
+        correct_kanjis = VOCAB_INDEX.get("kana_to_kanji", {}).get(target, [])
+        if correct_kanjis and correct not in correct_kanjis:
+            errors.append(f"词库不匹配: {target} 的汉字应为 {correct_kanjis}，但程序设定为 {correct}")
+        chosen = options[answer]
+        if correct_kanjis and chosen not in correct_kanjis:
+            errors.append(f"答案汉字错误: {chosen} 不在 {correct_kanjis}")
+
+    return item, errors
 
 
 # ============================================================
@@ -620,11 +853,104 @@ def review_question(provider, question, section_id):
     return approved, explanation
 
 
-def process_section(section_def, available, timeout):
+def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path):
+    """专门处理读音/汉字题：循环抽词→生成→审核→更新状态，直到跑完所有 pending 词。"""
+    if vocab_state is None:
+        print(f"  [WARN] 未加载词汇状态，跳过")
+        return []
+
+    provider_ids = list(available.keys())
+    all_approved = []
+
+    while True:
+        words = pick_pending_words(vocab_state, section_id, count=3)
+        if not words:
+            print(f"  无更多 pending 词汇，{section_name} 完成")
+            break
+
+        print(f"  本轮选中 {len(words)} 个 pending 词")
+
+        # 1. 生成：逐个模型尝试
+        assembled = None
+        used_generator = None
+        random.shuffle(provider_ids)
+        for pid in provider_ids:
+            provider = available[pid]
+            raw_items, used_words = generate_vocab_questions(provider, section_id, words, timeout)
+            if raw_items:
+                assembled = []
+                for raw, word in zip(raw_items, used_words):
+                    item, errs = assemble_vocab_item(raw, word, section_id)
+                    if item and not errs:
+                        assembled.append((item, word))
+                    else:
+                        print(f"      组装失败: {'; '.join(errs)}")
+                        vocab_state[word["jmdict_seq"]][section_id] = "failed"
+                if assembled:
+                    used_generator = provider
+                    break
+
+        if not assembled:
+            print(f"  本轮全部组装失败，继续下一轮")
+            continue
+
+        # 2. 审核：从剩余模型中随机选一个
+        remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
+        if remaining_ids:
+            random.shuffle(remaining_ids)
+            reviewer_id = remaining_ids[0]
+            reviewer = available[reviewer_id]
+            print(f"    [{reviewer_id}] 审核中 ...")
+
+            for item, word in assembled:
+                approved, review_exp = review_question(reviewer, item, section_id)
+                if approved:
+                    item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
+                    item["reviewed_by"] = reviewer_id
+                    item["review_explanation"] = review_exp
+                    item["verified"] = True
+                    item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+                    item["level"] = "N2"
+                    item["question_type"] = section_id
+                    all_approved.append(item)
+                    vocab_state[word["jmdict_seq"]][section_id] = "generated"
+                else:
+                    print(f"      未通过审核")
+                    vocab_state[word["jmdict_seq"]][section_id] = "failed"
+                time.sleep(1)
+        else:
+            print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
+            for item, word in assembled:
+                item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
+                item["reviewed_by"] = "none"
+                item["review_explanation"] = ""
+                item["verified"] = False
+                item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+                item["level"] = "N2"
+                item["question_type"] = section_id
+                all_approved.append(item)
+                vocab_state[word["jmdict_seq"]][section_id] = "generated"
+
+        if vocab_state_path:
+            save_vocab_state(vocab_state_path, vocab_state)
+
+        pending_count = count_pending(vocab_state, section_id)
+        print(f"  {section_name} 进度: 累计入库 {len(all_approved)} 题，剩余 pending {pending_count}")
+
+    print(f"  {section_name} 总计入库: {len(all_approved)} 题")
+    return all_approved
+
+
+def process_section(section_def, available, timeout, vocab_state=None, vocab_state_path=None):
     """处理一个题型：随机选模型生成→失败换模型重试→成功后换另一模型审核。"""
     section_id = section_def["id"]
     print(f"\n  === {section_def['name']} ===")
 
+    # 特殊处理 vocab_reading / vocab_kanji
+    if section_id in ("vocab_reading", "vocab_kanji"):
+        return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path)
+
+    # 通用流程（其他题型）
     provider_ids = list(available.keys())
     random.shuffle(provider_ids)
 
@@ -638,7 +964,6 @@ def process_section(section_def, available, timeout):
         if not items:
             print(f" 生成/解析失败，换模型")
             continue
-        # 过滤出校验通过的题目
         valid_items = []
         for item in items:
             valid, total, errs = validate_item(section_id, item)
@@ -742,6 +1067,18 @@ def main():
     VOCAB_INDEX = load_vocab_index(vocab_dir)
     print(f"词汇索引加载完成: {len(VOCAB_INDEX['kanji_to_kana'])} 个汉字词, {len(VOCAB_INDEX['kana_to_kanji'])} 个读音")
 
+    # 加载或初始化词汇生成状态
+    state_dir = os.path.join(base_dir, "data", "generation-state")
+    vocab_state_path = os.path.join(state_dir, "n2-vocabulary.json")
+    vocab_state = load_vocab_state(vocab_state_path)
+    if not vocab_state:
+        print("初始化词汇生成状态...")
+        records = load_n2_vocab_records(vocab_dir)
+        vocab_state = init_vocab_state(records, vocab_state_path)
+        print(f"状态初始化完成: {len(vocab_state)} 个词汇")
+    else:
+        print(f"词汇状态加载完成: {len(vocab_state)} 个词汇")
+
     # 解析可用提供商
     available = {}
     for pid, pc in cfg["providers"].items():
@@ -777,7 +1114,7 @@ def main():
     results = {}
 
     for section_def in sections:
-        questions = process_section(section_def, available, timeout)
+        questions = process_section(section_def, available, timeout, vocab_state, vocab_state_path)
         if questions:
             added = save_to_json(section_def["id"], questions, data_dir)
             total_added += added
