@@ -198,6 +198,27 @@ def repair_vocab_state(vocab_state, state_path, data_dir):
         print(f"词汇状态修复完成: {repaired} 个 generated 但未入库的词已重置为 pending")
 
 
+def print_vocab_status(vocab_state, section_defs):
+    """启动时打印各词汇题型的当前状态统计。"""
+    print("\n当前词汇题型状态:")
+    print(f"{'题型':<20} {'pending':>8} {'generated':>10} {'failed':>8}")
+    print("-" * 50)
+    name_map = {s["id"]: s["name"] for s in section_defs}
+    for section_id in VOCAB_SECTIONS:
+        pending = generated = failed = 0
+        for record in vocab_state.values():
+            status = record.get(section_id, "pending")
+            if status == "pending":
+                pending += 1
+            elif status == "generated":
+                generated += 1
+            elif status == "failed":
+                failed += 1
+        name = name_map.get(section_id, section_id)
+        print(f"{name:<20} {pending:>8} {generated:>10} {failed:>8}")
+    print()
+
+
 def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, max_attempts=2):
     """记录一次生成/审核失败，并立即保存状态。"""
     attempts_key = f"{section_id}_attempts"
@@ -228,11 +249,17 @@ def mark_vocab_generated(vocab_state, vocab_state_path, word, section_id):
 def resolve_provider(provider_id, provider_cfg, env):
     """Resolve provider config + env vars into a usable dict.
     Returns None if required env vars are missing."""
-    api_key = env.get(provider_cfg["api_key_env"])
+    api_key_envs = provider_cfg.get("api_key_envs") or [provider_cfg.get("api_key_env", "")]
+    api_key_envs = [env_name for env_name in api_key_envs if env_name]
+    api_keys = []
+    for env_name in api_key_envs:
+        api_key = env.get(env_name, "")
+        if api_key:
+            api_keys.append({"env": env_name, "key": api_key})
     base_url = env.get(provider_cfg["base_url_env"], "")
 
-    if not api_key:
-        print(f"    [WARN] {provider_id}: API key missing ({provider_cfg['api_key_env']})")
+    if not api_keys:
+        print(f"    [WARN] {provider_id}: API key missing ({', '.join(api_key_envs)})")
         return None
     if not base_url:
         print(f"    [WARN] {provider_id}: Base URL missing ({provider_cfg['base_url_env']})")
@@ -253,7 +280,9 @@ def resolve_provider(provider_id, provider_cfg, env):
         "id": provider_id,
         "label": provider_cfg.get("label", provider_id),
         "url": base_url,
-        "api_key": api_key,
+        "api_key": api_keys[0]["key"],
+        "api_keys": api_keys,
+        "api_key_index": 0,
         "model": model,
         "format": provider_cfg.get("format", "openai"),
         "headers": provider_cfg.get("headers", {}),
@@ -264,9 +293,36 @@ def resolve_provider(provider_id, provider_cfg, env):
 # API calling (OpenAI-compatible)
 # ============================================================
 
-def call_gemini_api(provider, prompt, timeout=120):
+def _provider_key_attempts(provider):
+    """Return provider keys in round-robin order and advance the next start key."""
+    api_keys = provider.get("api_keys") or [{"env": provider.get("api_key_env", "api_key"), "key": provider["api_key"]}]
+    start = provider.get("api_key_index", 0) % len(api_keys)
+    provider["api_key_index"] = (start + 1) % len(api_keys)
+    return api_keys[start:] + api_keys[:start]
+
+
+def is_retryable_api_error(result):
+    """Return True for likely transient API/network failures."""
+    if not result or not result.startswith("ERROR"):
+        return False
+    retryable_markers = (
+        "HTTP 429",
+        "HTTP 500",
+        "HTTP 502",
+        "HTTP 503",
+        "HTTP 504",
+        "timed out",
+        "timeout",
+        "Temporary failure",
+        "Connection reset",
+        "Remote end closed connection",
+    )
+    return any(marker in result for marker in retryable_markers)
+
+
+def call_gemini_api(provider, prompt, api_key, timeout=120):
     """Call Google Gemini native REST API."""
-    url = f"{provider['url'].rstrip('/')}/models/{provider['model']}:generateContent?key={provider['api_key']}"
+    url = f"{provider['url'].rstrip('/')}/models/{provider['model']}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     data = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}]
@@ -286,10 +342,9 @@ def call_gemini_api(provider, prompt, timeout=120):
         return f"ERROR: {e}"
 
 
-def call_openai_api(provider, prompt, timeout=120):
+def call_openai_api(provider, prompt, api_key, timeout=120):
     """Call an OpenAI-compatible API. Returns response text or 'ERROR: ...'."""
     url = provider["url"]
-    api_key = provider["api_key"]
     model = provider["model"]
 
     headers = {
@@ -315,12 +370,24 @@ def call_openai_api(provider, prompt, timeout=120):
         return f"ERROR: {e}"
 
 
-def call_api(provider, prompt, timeout=120):
+def call_api(provider, prompt, timeout=120, retries=1):
     """Dispatch to the correct API caller based on provider format."""
     fmt = provider.get("format", "openai")
-    if fmt == "gemini":
-        return call_gemini_api(provider, prompt, timeout)
-    return call_openai_api(provider, prompt, timeout)
+    last_error = "ERROR: no API keys configured"
+    for key_entry in _provider_key_attempts(provider):
+        api_key = key_entry["key"]
+        for attempt in range(retries + 1):
+            if fmt == "gemini":
+                result = call_gemini_api(provider, prompt, api_key, timeout)
+            else:
+                result = call_openai_api(provider, prompt, api_key, timeout)
+            if result and not result.startswith("ERROR"):
+                return result
+            last_error = result or "ERROR: empty response"
+            if attempt >= retries or not is_retryable_api_error(last_error):
+                break
+            time.sleep(2 * (attempt + 1))
+    return last_error
 
 
 def check_provider(provider, timeout=15):
@@ -982,28 +1049,47 @@ def generate_questions(provider, section_def, timeout):
 
 
 def review_question(provider, question, section_id):
-    """调用审核模型审核一道题。返回 (approved, review_explanation) 或 (False, None)。"""
+    """调用审核模型审核一道题。
+
+    返回 (approved, review_explanation, issue)。issue 为 None 代表审核调用成功；
+    approved=False 且 issue=None 才代表模型明确判定题目不通过。
+    """
     q_str = json.dumps(question, ensure_ascii=False, indent=2)
     prompt = REVIEW_PROMPT_TEMPLATE.format(question_json=q_str)
     raw = call_api(provider, prompt, timeout=120)
     if not raw or raw.startswith("ERROR"):
-        return False, None
+        return False, None, raw or "empty review response"
     result = extract_json_object(raw)
     if result is None:
-        return False, None
+        return False, None, "review JSON解析失败"
     approved = result.get("approved", False)
     explanation = result.get("review_explanation", "")
-    return approved, explanation
+    return approved, explanation, None
+
+
+def review_with_fallback(available, reviewer_ids, item, section_id):
+    """Try reviewers until one returns a valid review decision."""
+    last_issue = None
+    for reviewer_id in reviewer_ids:
+        reviewer = available[reviewer_id]
+        approved, review_exp, issue = review_question(reviewer, item, section_id)
+        if issue:
+            last_issue = f"{reviewer_id}: {issue}"
+            print(f"      [{reviewer_id}] 审核调用失败: {issue}")
+            continue
+        return approved, review_exp, reviewer_id, None
+    return False, None, None, last_issue or "无可用审核模型"
 
 
 def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path, data_dir):
     """专门处理读音/汉字题：循环抽词→生成→审核→更新状态，直到跑完所有 pending 词。"""
     if vocab_state is None:
         print(f"  [WARN] 未加载词汇状态，跳过")
-        return []
+        return 0
 
     provider_ids = list(available.keys())
-    all_approved = []
+    approved_count = 0
+    no_progress_rounds = 0
 
     while True:
         words = pick_pending_words(vocab_state, section_id, count=3)
@@ -1012,10 +1098,20 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
             break
 
         print(f"  本轮选中 {len(words)} 个 pending 词")
+        round_pending_before = count_pending(vocab_state, section_id)
+        round_attempts_before = sum(
+            record.get(f"{section_id}_attempts", 0)
+            for record in vocab_state.values()
+        )
+        round_approved_before = approved_count
 
         # 1. 生成：逐个模型尝试
         assembled = None
         used_generator = None
+        attempts_before = sum(
+            vocab_state[word["jmdict_seq"]].get(f"{section_id}_attempts", 0)
+            for word in words
+        )
         random.shuffle(provider_ids)
         for pid in provider_ids:
             provider = available[pid]
@@ -1034,19 +1130,29 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     break
 
         if not assembled:
+            attempts_after = sum(
+                vocab_state[word["jmdict_seq"]].get(f"{section_id}_attempts", 0)
+                for word in words
+            )
+            if attempts_after == attempts_before:
+                no_progress_rounds += 1
+                print(f"  本轮全部模型生成失败且状态无变化，连续无进展 {no_progress_rounds}/3")
+                if no_progress_rounds >= 3:
+                    print(f"  [WARN] 连续 3 轮无进展，退出 {section_name}，保留 pending 供下次重跑")
+                    break
+            else:
+                no_progress_rounds = 0
             print(f"  本轮全部组装失败，继续下一轮")
             continue
 
-        # 2. 审核：从剩余模型中随机选一个
+        # 2. 审核：优先从剩余模型中随机尝试，审核调用失败时继续换审核模型。
         remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
         if remaining_ids:
             random.shuffle(remaining_ids)
-            reviewer_id = remaining_ids[0]
-            reviewer = available[reviewer_id]
-            print(f"    [{reviewer_id}] 审核中 ...")
+            print(f"    审核中: {', '.join(remaining_ids)}")
 
             for item, word in assembled:
-                approved, review_exp = review_question(reviewer, item, section_id)
+                approved, review_exp, reviewer_id, review_issue = review_with_fallback(available, remaining_ids, item, section_id)
                 if approved:
                     item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
                     item["reviewed_by"] = reviewer_id
@@ -1059,12 +1165,15 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     added = save_to_json(section_id, [item], data_dir)
                     mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
                     if added:
-                        all_approved.append(item)
+                        approved_count += added
                     else:
                         print(f"      已存在，跳过重复入库: {item.get('target')}")
                 else:
-                    print(f"      未通过审核")
-                    mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
+                    if review_issue:
+                        print(f"      审核调用均失败，保留 pending: {review_issue}")
+                    else:
+                        print(f"      未通过审核")
+                        mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
                 time.sleep(1)
         else:
             print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
@@ -1079,15 +1188,31 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                 added = save_to_json(section_id, [item], data_dir)
                 mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
                 if added:
-                    all_approved.append(item)
+                    approved_count += added
                 else:
                     print(f"      已存在，跳过重复入库: {item.get('target')}")
 
         pending_count = count_pending(vocab_state, section_id)
-        print(f"  {section_name} 进度: 累计入库 {len(all_approved)} 题，剩余 pending {pending_count}")
+        round_attempts_after = sum(
+            record.get(f"{section_id}_attempts", 0)
+            for record in vocab_state.values()
+        )
+        if (
+            pending_count == round_pending_before
+            and round_attempts_after == round_attempts_before
+            and approved_count == round_approved_before
+        ):
+            no_progress_rounds += 1
+            print(f"  本轮状态无变化，连续无进展 {no_progress_rounds}/3")
+            if no_progress_rounds >= 3:
+                print(f"  [WARN] 连续 3 轮无进展，退出 {section_name}，保留 pending 供下次重跑")
+                break
+        else:
+            no_progress_rounds = 0
+        print(f"  {section_name} 进度: 累计入库 {approved_count} 题，剩余 pending {pending_count}")
 
-    print(f"  {section_name} 总计入库: {len(all_approved)} 题")
-    return all_approved
+    print(f"  {section_name} 总计入库: {approved_count} 题")
+    return approved_count
 
 
 def process_section(section_def, available, timeout, data_dir, vocab_state=None, vocab_state_path=None):
@@ -1132,7 +1257,7 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
         print(f"  {section_def['name']} 所有模型均生成失败")
         return []
 
-    # 2. 审核：从剩余模型中随机选一个
+    # 2. 审核：从剩余模型中随机尝试，审核调用失败时继续换审核模型
     remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
     if not remaining_ids:
         print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
@@ -1142,18 +1267,17 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
             item["review_explanation"] = ""
             item["verified"] = False
             item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+        save_to_json(section_id, items, data_dir)
         print(f"  {section_def['name']} 总计: {len(items)} 题入库（未审核）")
         return items
 
     random.shuffle(remaining_ids)
-    reviewer_id = remaining_ids[0]
-    reviewer = available[reviewer_id]
-    print(f"    [{reviewer_id}] 审核中 ...")
+    print(f"    审核中: {', '.join(remaining_ids)}")
 
     approved_items = []
     approved_count = 0
     for item in items:
-        approved, review_exp = review_question(reviewer, item, section_id)
+        approved, review_exp, reviewer_id, review_issue = review_with_fallback(available, remaining_ids, item, section_id)
         if approved:
             item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
             item["reviewed_by"] = reviewer_id
@@ -1163,10 +1287,15 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
             approved_items.append(item)
             approved_count += 1
         else:
-            print(f"      未通过审核")
+            if review_issue:
+                print(f"      审核调用均失败，跳过入库: {review_issue}")
+            else:
+                print(f"      未通过审核")
         time.sleep(1)
 
-    print(f"    [{reviewer_id}] 审核通过: {approved_count}/{len(items)}")
+    print(f"    审核通过: {approved_count}/{len(items)}")
+    if approved_items:
+        save_to_json(section_id, approved_items, data_dir)
     print(f"  {section_def['name']} 总计: {approved_count} 题入库")
     return approved_items
 
@@ -1242,6 +1371,7 @@ def main():
         print(f"词汇状态加载完成: {len(vocab_state)} 个词汇")
 
     repair_vocab_state(vocab_state, vocab_state_path, data_dir)
+    print_vocab_status(vocab_state, SECTION_DEFS)
 
     # 解析可用提供商
     candidates = {}
@@ -1257,7 +1387,9 @@ def main():
         ok, err = check_provider(provider, timeout=15)
         if ok:
             available[pid] = provider
-            print(f"  ✓ {pid}")
+            key_count = len(provider.get("api_keys", []))
+            key_note = f" ({key_count} keys)" if key_count > 1 else ""
+            print(f"  ✓ {pid}{key_note}")
         else:
             print(f"  ✗ {pid} — {err[:120]}")
 
@@ -1289,13 +1421,14 @@ def main():
     results = {}
 
     for section_def in sections:
-        questions = process_section(section_def, available, timeout, data_dir, vocab_state, vocab_state_path)
-        if questions:
-            if section_def["id"] in VOCAB_SECTIONS:
-                # 词汇题在审核通过时已经逐题落盘，这里只汇总数量，避免重复追加。
-                added = len(questions)
-            else:
-                added = save_to_json(section_def["id"], questions, data_dir)
+        result = process_section(section_def, available, timeout, data_dir, vocab_state, vocab_state_path)
+        if isinstance(result, int):
+            added = result
+        elif result:
+            added = len(result)
+        else:
+            added = 0
+        if added:
             total_added += added
             results[section_def["name"]] = added
         else:

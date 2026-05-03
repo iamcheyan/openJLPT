@@ -24,8 +24,9 @@
     "gemini": {
       "label": "Google Gemini",
       "api_key_env": "GEMINI_API_KEY",
+      "api_key_envs": ["GEMINI_API_KEY", "GEMINI_API_KEY_2"],
       "base_url_env": "GEMINI_BASE_URL",
-      "model": "gemini-2.0-flash-lite",
+      "model": "gemini-2.5-flash-lite",
       "format": "gemini"
     },
     "nvidia": {
