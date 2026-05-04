@@ -36,7 +36,14 @@ async function loadExamData() {
     const promises = Object.keys(SECTION_CONFIG).map(async id => {
         const cfg = SECTION_CONFIG[id];
         try {
-            const r = await fetch(`${window.DATA_ROOT}/${level}/${id}.json`); if (!r.ok) return;
+            let r;
+            try {
+                r = await fetch(`${window.DATA_ROOT}/${level}/${id}.json`);
+                if (!r.ok) throw new Error();
+            } catch (e) {
+                r = await fetch(`https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`);
+                if (!r.ok) return;
+            }
             const d = await r.json(); const raw = d.questions || []; const proc = [];
             if (id === "grammar_passage") raw.forEach(it => { const p = highlightBlanks(it.passage || ""); (it.blanks || []).forEach(b => proc.push({ s:cfg.s, pas:p, txt:`（　${b.num}　）`, opts:b.options||[], ans:b.answer||0, exp:b.explanation||"", translation:b.translation })); });
             else if (id.startsWith("reading_")) {
