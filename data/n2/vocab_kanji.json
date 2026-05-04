@@ -4,7 +4,7 @@
     "question_type": "vocab_kanji",
     "name": "漢字の表記",
     "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを１・２・３・４から一つ選びなさい。",
-    "count": 1095
+    "count": 1096
   },
   "questions": [
     {
@@ -27353,6 +27353,31 @@
       "level": "N2",
       "question_type": "vocab_kanji",
       "id": "n2-vocab_kanji-1095"
+    },
+    {
+      "sentence": "人生は予期せぬ《であい》によって大きく変わることがある。",
+      "target": "であい",
+      "options": [
+        "道",
+        "出逢い",
+        "出合い",
+        "出合"
+      ],
+      "answer": 2,
+      "explanation": "1) 正確な漢字「出合い」は、「出」と「合」で構成され、人や物との偶然の出会いを意味します。N2レベルでよく使われる表現です。\n2) 「出逢い」は、「逢」という漢字を使った表現ですが、「出合い」の方がより一般的で、漢字表記として自然です。「逢」は「会う」という意味を含みますが、「出合い」のニュアンスとは少し異なります。\n3) 「出合」は、「出合い」の「い」を省略した形ですが、文脈によっては不自然になる場合があります。また、漢字の組み合わせとして「出合い」がより正式です。\n4) 常见书写错误提示：将表示“相遇”的“合”与表示“会面”的“逢”混淆，或省略表示连音的假名。",
+      "generated_by": "gemini:Google Gemini",
+      "generated_provider": "gemini",
+      "generated_model": "gemini-2.5-flash-lite",
+      "reviewed_by": "zhipu",
+      "reviewed_provider": "zhipu",
+      "reviewed_provider_label": "智谱AI",
+      "reviewed_model": "glm-4-flash",
+      "review_explanation": "本题答案正确，解释详细且合理。\n答案解释：正确答案为‘出合い’，表示偶然的相遇，符合句意。\n干扰项分析：\n- ‘道’意为‘道路’，与句意不符。\n- ‘出逢い’虽然也表示相遇，但在此句中‘出合い’更为常见和自然。\n- ‘出合’是‘出合い’的省略形式，但在某些语境中可能显得不自然。\n语法/词汇重点：本题考查了日语中表示‘相遇’的词汇，以及汉字的正确使用。\n学习建议：建议学习者注意区分‘出合い’和‘出逢い’的用法，并掌握其他表示‘相遇’的日语表达方式。",
+      "verified": true,
+      "created_at": "2026-05-04T18:18:18",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1096"
     }
   ]
 }
