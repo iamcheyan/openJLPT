@@ -99,13 +99,15 @@ async function syncFromCloud() {
     if (updatedCount > 0) {
         addLog(`同期完了: ${updatedCount} 個のセクションを更新しました`);
         if (logTitle) logTitle.textContent = "同期完了";
+        addLog(`アプリケーションを再起動しています...`);
+        setTimeout(() => window.location.reload(), 2000);
     } else {
         addLog(`すべてのデータはすでに最新の状態です`);
         if (logTitle) logTitle.textContent = "更新なし";
+        setTimeout(() => {
+            if (overlay) overlay.style.display = 'none';
+        }, 1500);
     }
-    
-    addLog(`アプリケーションを再起動しています...`);
-    setTimeout(() => window.location.reload(), 2000);
 }
 
 // UI Utilities
@@ -171,10 +173,21 @@ async function loadExamData() {
             else if (id.startsWith("reading_")) {
                 raw.forEach(it => {
                     const p = it.passage || it.content || "";
+                    const trans = it.translation || ""; // 这里的 it 是整个文章项
                     const qList = it.questions || it.questionList || (it.question ? [it] : []);
-                    qList.forEach(q => {
+                    qList.forEach((q, qidx) => {
                         const qTxt = q.question || q.text || "";
-                        if (qTxt) proc.push({ s:cfg.s, pas:p, txt:qTxt, opts:q.options||[], ans:q.answer||0, exp:q.explanation||"", translation:q.translation || it.translation });
+                        // 只在每一篇文章的第一道题上关联全篇翻译，避免每一题都带
+                        if (qTxt) proc.push({ 
+                            s:cfg.s, 
+                            pas:p, 
+                            pas_trans: (qidx === 0 ? trans : ""), // 只有第一题带文章翻译，用于渲染
+                            txt:qTxt, 
+                            opts:q.options||[], 
+                            ans:q.answer||0, 
+                            exp:q.explanation||"", 
+                            translation:q.translation // 这里的 translation 是小题的翻译（如果有）
+                        });
                     });
                 });
             }
@@ -245,10 +258,12 @@ function selectExamQuestions() {
 function tryLoadState() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch(e) { return null; } }
 function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify({ selectedIndices: savedSelectedIndices, selections: selections, answered: answered, score: score, timestamp: new Date().toISOString() })); }
 
-function showCustomModal(t, b, acts) {
+function showCustomModal(t, b, acts, isHtml = false) {
     const overlay = document.getElementById('modal-overlay');
     document.getElementById('modal-title').innerText = t; 
-    document.getElementById('modal-body').innerText = b;
+    const body = document.getElementById('modal-body');
+    if (isHtml) body.innerHTML = b; else body.innerText = b;
+    
     const el = document.getElementById('modal-actions'); 
     el.innerHTML = '';
     acts.forEach(a => { 
@@ -264,12 +279,68 @@ function showCustomModal(t, b, acts) {
     });
     overlay.classList.add('active');
     
-    // 点击遮罩关闭 (只给 overlay 加，不给 card 加)
-    overlay.onclick = (e) => {
-        if (e.target === overlay) {
-            overlay.classList.remove('active');
-        }
-    };
+    overlay.onclick = (e) => { if (e.target === overlay) overlay.classList.remove('active'); };
+}
+
+function openSettings() {
+    const isFuri = localStorage.getItem('openjlpt_furigana') === '1';
+    const currentSize = localStorage.getItem('openjlpt_fontsize') || '16';
+    const currentFont = localStorage.getItem('openjlpt_fontfamily') || 'mincho';
+
+    const html = `
+        <div class="settings-container">
+            <div class="settings-row">
+                <div class="settings-label">ふりがな表示</div>
+                <div class="settings-control">
+                    <label class="switch">
+                        <input type="checkbox" id="set-furi" ${isFuri?'checked':''} onchange="updateSet('furi', this.checked)">
+                        <span class="slider-round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="settings-row">
+                <div class="settings-label">字体</div>
+                <div class="settings-control">
+                    <button class="font-btn ${currentFont==='mincho'?'active':''}" onclick="updateSet('font', 'mincho')">明朝</button>
+                    <button class="font-btn ${currentFont==='gothic'?'active':''}" onclick="updateSet('font', 'gothic')">ゴシック</button>
+                </div>
+            </div>
+            <div class="settings-row">
+                <div class="settings-label">字号</div>
+                <div class="settings-control">
+                    <input type="range" min="14" max="26" value="${currentSize}" oninput="updateSet('size', this.value)">
+                    <span style="font-size:12px; font-weight:bold; width:20px;">${currentSize}</span>
+                </div>
+            </div>
+        </div>
+    `;
+
+    showCustomModal('設定', html, [{ label: '閉じる', primary: true }], true);
+}
+
+function updateSet(type, val) {
+    if (type === 'furi') {
+        localStorage.setItem('openjlpt_furigana', val ? '1' : '0');
+        document.body.classList.toggle('show-furigana', val);
+    } else if (type === 'font') {
+        localStorage.setItem('openjlpt_fontfamily', val);
+        // 强力切换：移除所有字体类并添加新的
+        document.body.classList.remove('font-mincho', 'font-gothic');
+        document.body.classList.add('font-' + val);
+        
+        // 同步更新设置面板里的按钮状态
+        document.querySelectorAll('.font-btn').forEach(b => {
+            const isTarget = (val === 'mincho' && b.innerText.includes('明朝')) || 
+                             (val === 'gothic' && b.innerText.includes('ゴシック'));
+            b.classList.toggle('active', isTarget);
+        });
+    } else if (type === 'size') {
+        localStorage.setItem('openjlpt_fontsize', val);
+        // 直接设置到根节点，确保 var() 能读到最新值
+        document.documentElement.style.setProperty('--base-font-size', val + 'px');
+        const span = document.querySelector('.settings-control span');
+        if (span) span.innerText = val;
+    }
 }
 
 function refreshExam() {
@@ -358,7 +429,15 @@ async function buildUI() {
         const correctAns = q.ans;
 
         let h = ''; 
-        if (q.pas && (i === 0 || QUESTIONS[i-1].pas !== q.pas)) h += `<div class="passage">${applyFurigana(q.pas)}</div>`;
+        if (q.pas && (i === 0 || QUESTIONS[i-1].pas !== q.pas)) {
+            h += `<div class="passage-container">
+                    <div class="passage">${applyFurigana(q.pas)}</div>`;
+            if (q.pas_trans) {
+                // 添加隐藏的全文翻译区块，关联到文章 ID
+                h += `<div class="passage-translation" id="pas-trans-${i}">${q.pas_trans}</div>`;
+            }
+            h += `</div>`;
+        }
         h += `<div class="question-text">${i + 1}. ${applyFurigana(q.txt)}</div>`;
         if (q.star) h += `<div class="star-line">${applyFurigana(q.star)}</div>`;
         
@@ -384,12 +463,47 @@ async function buildUI() {
     document.getElementById('loading-overlay')?.classList.add('hidden');
 }
 
-function check(qN, sel, cor) { if (results[qN-1] !== null) return; results[qN-1] = (sel === cor); selections[qN-1] = sel; answered++; if (results[qN-1]) score++; document.getElementById('progress').innerText = answered; document.getElementById('score').innerText = score; document.getElementById('mobile-progress').innerText = answered; document.getElementById('mobile-score').innerText = score; const b = document.getElementById('q' + qN), ex = document.getElementById('exp' + qN), navA = document.getElementById('nav' + qN), os = b.querySelectorAll('.options li'); if (sel === cor) { os[sel].classList.add('correct'); navA.className = 'done-correct'; } else { os[sel].classList.add('wrong'); os[cor].classList.add('correct'); navA.className = 'done-wrong'; } ex.classList.add('show'); saveState(); }
+function check(qN, sel, cor) { 
+    if (results[qN-1] !== null) return; 
+    results[qN-1] = (sel === cor); 
+    selections[qN-1] = sel; 
+    answered++; 
+    if (results[qN-1]) score++; 
+    document.getElementById('progress').innerText = answered; 
+    document.getElementById('score').innerText = score; 
+    document.getElementById('mobile-progress').innerText = answered; 
+    document.getElementById('mobile-score').innerText = score; 
+    
+    const b = document.getElementById('q' + qN), ex = document.getElementById('exp' + qN), navA = document.getElementById('nav' + qN), os = b.querySelectorAll('.options li'); 
+    
+    // 自动显示该文章关联的翻译 (如果有)
+    // 逻辑：向后或向前搜索同一个文章容器内的翻译区块
+    let curr = b;
+    while (curr) {
+        const pt = curr.querySelector('.passage-translation');
+        if (pt) { pt.classList.add('show'); break; }
+        // 如果当前块没找到，尝试找前一个块（处理一篇文章多道题的情况）
+        curr = curr.previousElementSibling;
+        if (curr && !curr.classList.contains('question-block')) break;
+    }
+    
+    if (sel === cor) { os[sel].classList.add('correct'); navA.className = 'done-correct'; } 
+    else { os[sel].classList.add('wrong'); os[cor].classList.add('correct'); navA.className = 'done-wrong'; } 
+    ex.classList.add('show'); 
+    saveState(); 
+}
 function toggleSidebar() { if (window.matchMedia('(max-width: 900px)').matches) { document.body.classList.toggle('mobile-nav-open'); return; } document.body.classList.toggle('collapsed'); document.getElementById('toggle-btn').innerText = document.body.classList.contains('collapsed') ? '▶' : '◀'; }
 function closeMobileNav() { document.body.classList.remove('mobile-nav-open'); }
 function openMobileNav() { document.body.classList.add('mobile-nav-open'); }
 function toggleFurigana() { const c = document.getElementById('furigana-toggle').checked; document.body.classList.toggle('show-furigana', c); localStorage.setItem('openjlpt_furigana', c ? '1' : '0'); }
-function navigateQuestion(d) { const n = Math.min(totalQuestions, Math.max(1, 1 + d)); document.getElementById('q' + n)?.scrollIntoView({ behavior: 'auto', block: 'start' }); }
+let currentNavIndex = 1;
+function navigateQuestion(d) { 
+    currentNavIndex = Math.min(totalQuestions, Math.max(1, currentNavIndex + d)); 
+    const el = document.getElementById('q' + currentNavIndex);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
 function initNav() {
     const n = document.getElementById('nav'); n.innerHTML = '';
     const LBL = { 
@@ -406,7 +520,14 @@ function initNav() {
             currentGrid = document.createElement('div'); currentGrid.className = 'nav-grid';
             n.appendChild(currentGrid);
         }
-        const a = document.createElement('a'); a.innerText = i + 1; a.id = 'nav' + (i + 1); a.href = '#q' + (i + 1); a.onclick = closeMobileNav;
+        const a = document.createElement('a'); 
+        a.innerText = i + 1; 
+        a.id = 'nav' + (i + 1); 
+        a.href = '#q' + (i + 1); 
+        a.onclick = () => { 
+            currentNavIndex = i + 1; 
+            closeMobileNav(); 
+        };
         currentGrid.appendChild(a);
         if (selections[i] !== null) a.className = results[i] ? 'done-correct' : 'done-wrong';
     });
@@ -421,11 +542,20 @@ function triggerManualSync() {
 
 // Global Init
 window.addEventListener('DOMContentLoaded', () => {
+    // 恢复振假名设置
     if (localStorage.getItem('openjlpt_furigana') === '1') { 
         document.body.classList.add('show-furigana'); 
         if(document.getElementById('furigana-toggle')) document.getElementById('furigana-toggle').checked = true; 
     }
     
+    // 恢复字体设置 (默认明朝)
+    const savedFont = localStorage.getItem('openjlpt_fontfamily') || 'mincho';
+    document.body.classList.add('font-' + savedFont);
+
+    // 恢复字号设置 (默认 16px)
+    const savedSize = localStorage.getItem('openjlpt_fontsize') || '16';
+    document.documentElement.style.setProperty('--base-font-size', savedSize + 'px');
+
     // 如果不是 file: 协议（安卓环境），隐藏侧边栏的同步按钮
     if (window.location.protocol !== 'file:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
         const syncBtn = document.querySelector('[onclick="triggerManualSync()"]');

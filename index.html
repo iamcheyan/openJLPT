@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>openjlpt</title>
+    <title>openJLPT</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="assets/app_icon.png">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
@@ -17,21 +17,21 @@
     <div id="toggle-btn" class="toggle-btn" onclick="toggleSidebar()">◀</div>
     <div id="sidebar-backdrop" class="sidebar-backdrop" onclick="closeMobileNav()"></div>
     <div class="mobile-exam-bar">
+        <button type="button" onclick="openMobileNav()" class="icon-btn">☰</button>
+        <button type="button" onclick="openSettings()" class="icon-btn">⚙</button>
         <div class="mobile-status">進捗 <span id="mobile-progress">0</span>/<span id="mobile-total">0</span>　得点 <span id="mobile-score">0</span></div>
-        <button type="button" onclick="navigateQuestion(-1)">前</button>
-        <button type="button" onclick="navigateQuestion(1)">次</button>
-        <button type="button" onclick="openMobileNav()">問題</button>
+        <button type="button" onclick="navigateQuestion(-1)" class="icon-btn" title="前へ">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <button type="button" onclick="navigateQuestion(1)" class="icon-btn" title="次へ">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
     </div>
 
     <div class="sidebar">
         <div class="stats-card">
             <div class="stats-item"><span>進捗</span> <span class="val"><span id="progress">0</span>/<span id="total">0</span></span></div>
             <div class="stats-item"><span>得点</span> <span class="val" id="score">0</span></div>
-            <div style="margin-top: 10px; padding-top: 10px; border-top: 2px solid #000;">
-                <label style="font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 10px; font-weight: bold;">
-                    <input type="checkbox" id="furigana-toggle" onchange="toggleFurigana()" style="width:18px;height:18px;"> ふりがな表示
-                </label>
-            </div>
         </div>
         <div style="margin-bottom: 2px; font-size: 11px; font-weight: bold;">問題ナビゲーション</div>
         <div id="nav" style="overflow-y: auto; flex: 1; padding-right: 5px;"></div>
@@ -61,7 +61,14 @@
                     <div class="custom-select-trigger" id="level-select-trigger">LEVEL</div>
                     <div class="custom-options" id="level-options"></div>
                 </div>
-                <button class="refresh-btn" onclick="refreshExam()">新しい問題</button>
+                <button class="icon-btn" onclick="refreshExam()" title="新しい問題">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="12" y1="18" x2="12" y2="12"></line>
+                        <line x1="9" y1="15" x2="15" y2="15"></line>
+                    </svg>
+                </button>
             </div>
         </header>
         <div id="sections-container">

@@ -207,13 +207,20 @@ body.show-furigana rt {
     padding: 40px;
     max-width: 420px;
     width: 90%;
-    box-shadow: 20px 20px 0px rgba(0,0,0,0.03);
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.03);
     animation: modalFadeIn 0.3s ease-out;
 }
 
 @keyframes modalFadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .modal-card h2 {
@@ -301,7 +308,7 @@ body.collapsed .toggle-btn {
 
 h2 {
     font-size: 26px;
-    margin: 45px 0 15px;
+    /* margin: 45px 0 15px; */
     font-weight: bold;
     border-left: 8px solid #000;
     padding-left: 15px;
@@ -442,7 +449,7 @@ h3 {
 
     .mobile-exam-bar {
         display: grid;
-        grid-template-columns: 1fr auto auto auto;
+        grid-template-columns: auto auto 1fr auto auto;
         align-items: center;
         gap: 8px;
         position: fixed;
@@ -452,12 +459,13 @@ h3 {
         z-index: 1000;
         padding: 10px 12px;
         background: #fff;
-        border-top: 2px solid #000;
+        /* border-top: 2px solid #000; */
     }
 
     .mobile-status {
         font-size: 12px;
         font-weight: bold;
+        text-align: center;
     }
 
     .mobile-exam-bar button {
@@ -511,7 +519,8 @@ h3 {
 }
 
 /* Sync UI */
-.sync-prompt, .sync-overlay {
+.sync-prompt,
+.sync-overlay {
     position: fixed;
     inset: 0;
     background: #fff;
@@ -528,15 +537,17 @@ h3 {
     border: 1px solid #000;
     padding: 40px;
     background: #fff;
-    box-shadow: 15px 15px 0px rgba(0,0,0,0.05);
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
 .sync-box::before {
     content: '';
     position: absolute;
-    top: 10px; right: 10px;
-    width: 60px; height: 60px;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
     background: url('app_icon.png') no-repeat center/contain;
     opacity: 0.1;
 }
@@ -574,8 +585,17 @@ h3 {
     padding: 2px 0;
 }
 
-.sync-log-line.new { color: #d32f2f; font-weight: bold; }
-.sync-log-line.ok { color: #2e7d32; }
+.sync-log-line.new {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* 更新：绿色 */
+.sync-log-line.ok {
+    color: #999;
+}
+
+/* 已最新：灰色 */
 
 .sync-btn {
     display: block;
@@ -590,7 +610,9 @@ h3 {
     transition: background 0.2s;
 }
 
-.sync-btn:hover { background: #333; }
+.sync-btn:hover {
+    background: #333;
+}
 
 .progress-container {
     width: 100%;
@@ -682,12 +704,26 @@ h3 {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
     /* 针对墨水屏优化：每 1/4 秒跳动一次，减少残影 */
-    25% { transform: rotate(90deg); }
-    50% { transform: rotate(180deg); }
-    75% { transform: rotate(270deg); }
-    100% { transform: rotate(360deg); }
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .loading-text {
@@ -711,4 +747,126 @@ h3 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #333;
+}
+
+/* 统一图标按钮尺寸与边框，确保与选择框对齐 */
+.icon-btn {
+    height: 40px !important;
+    min-width: 40px !important;
+    border: 2px solid #000 !important;
+    box-sizing: border-box !important;
+}
+
+/* 移除底部导航的原生高度限制，统一使用 icon-btn */
+.mobile-exam-bar button {
+    height: 40px;
+    min-width: 40px;
+    padding: 0;
+}
+
+/* --- 强制覆盖：高级设置面板 UI --- */
+#modal-body {
+    text-align: left !important;
+    padding: 15px 5px !important;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.settings-label {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+/* 自定义开关 (Switch) 替代原生 Checkbox */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider-round {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #fff;
+    border: 2.5px solid #000;
+    transition: .3s;
+}
+
+.slider-round:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 2.5px;
+    background-color: #000;
+    transition: .3s;
+}
+
+input:checked+.slider-round {
+    background-color: #000;
+}
+
+input:checked+.slider-round:before {
+    background-color: #fff;
+    transform: translateX(19px);
+}
+
+/* 字体切换按钮：和纸质感 */
+.font-btn {
+    padding: 6px 14px;
+    border: 2.5px solid #000;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.font-btn.active {
+    background: #000;
+    color: #fff;
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+/* 自定义滑块：极简黑白 */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2.5px solid #000;
+    cursor: pointer;
+    border-radius: 0;
 }
