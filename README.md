@@ -6,6 +6,8 @@
 
 ---
 
+![App Icon](assets/app_icon.png)
+
 ## ✨ 核心特性
 
 - 🌚 **墨水平深度优化**：纯黑白极简 UI，高对比度设计，无动画刷新，适配各种 E-ink 屏（Kindle, Boox, 文石等）。
@@ -38,7 +40,7 @@ python3 server.py --port 8080
 ### 2. 安卓版 (WebView Shell)
 - **云端构建**：推送代码到 GitHub 后，在 **Actions** 选项卡下载自动编译的 `openjlpt-debug-apk`。
 - **智能同步 (Cloud Sync)**：
-    - **自动下载**：App 内置了云端补位逻辑。如果本地没有题库，它会**自动从 GitHub 加载**。这意味着你无需拷贝文件，开箱即用。
+    - **自动下载**：App 内内置了云端补位逻辑。如果本地没有题库，它会**自动从 GitHub 加载**。这意味着你无需拷贝文件，开箱即用。
     - **离线部署 (可选)**：为了在完全断网环境下使用，你可以将 `data/` 文件夹拷贝到手机内存中。
 
 ```text
@@ -59,6 +61,22 @@ python3 tools/sync_data.py user:password
 
 ---
 
+## 🧠 题库管理与维护
+
+项目内置了一套基于 AI 的题库自动修复与生成流程。
+
+### 智能修复脚本
+运行以下命令可以自动从词汇表生成高质量题目（带例句、详细解析及多模型审核）：
+```bash
+bash fix_vocab_data.sh
+```
+
+- **智能去重/同步**：启动时自动同步 JSON 题库与状态文件，跳过已完成词汇。
+- **覆盖修复**：若发现旧题目缺少例句、解析过短或未经审核，会自动用 AI 生成的新版进行覆盖。
+- **多模型协作**：集成 Gemini, DeepSeek, 智谱, 火山ARK 等模型，实现生成与交叉审核。
+
+---
+
 ## 🛠 技术栈
 
 - **Core**: Vanilla HTML5 / Modern JavaScript / CSS3
@@ -72,7 +90,7 @@ python3 tools/sync_data.py user:password
 
 ```text
 ├── android/            # 安卓原生外壳源码
-├── assets/             # 核心引擎 (CSS, JS, 离线词典)
+├── assets/             # 核心引擎 (CSS, JS, 图标, 离线词典)
 ├── data/               # 题库数据 (N1-N5, JSON格式)
 ├── .github/workflows/  # GitHub Actions 自动打包脚本
 ├── index.html          # 动态练习生成引擎

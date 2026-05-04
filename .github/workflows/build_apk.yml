@@ -24,10 +24,13 @@ jobs:
       - name: Prepare Web Assets
         run: |
           mkdir -p android/app/src/main/assets
+          # 拷贝 assets 目录下的内容到安卓资源目录下的 assets 子目录
           cp -r assets android/app/src/main/assets/
+          # 拷贝入口 HTML 并重命名为 index.html
           cp template/exam_base.html android/app/src/main/assets/index.html
+          # 拷贝清单文件
           cp manifest.json android/app/src/main/assets/
-          rm -rf android/app/src/main/assets/data
+          # 清理不必要的大文件以减小 APK 体积
           rm -rf android/app/src/main/assets/assets/libs/dict/*.gz
 
       - name: Build Debug APK

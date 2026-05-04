@@ -162,7 +162,7 @@ def load_env(path):
 # Vocabulary state management (for vocab_reading / vocab_kanji)
 # ============================================================
 
-VOCAB_SECTIONS = ("vocab_reading", "vocab_kanji")
+VOCAB_SECTIONS = ("vocab_reading", "vocab_kanji", "vocab_context", "vocab_usage")
 
 
 def load_n2_vocab_records(vocab_dir):
@@ -202,6 +202,12 @@ def init_vocab_state(records, state_path):
             "vocab_kanji": "pending",
             "vocab_kanji_attempts": 0,
             "vocab_kanji_issue": "",
+            "vocab_context": "pending",
+            "vocab_context_attempts": 0,
+            "vocab_context_issue": "",
+            "vocab_usage": "pending",
+            "vocab_usage_attempts": 0,
+            "vocab_usage_issue": "",
         }
     os.makedirs(os.path.dirname(state_path), exist_ok=True)
     with open(state_path, "w", encoding="utf-8") as f:
@@ -256,27 +262,54 @@ def load_existing_vocab_targets(data_dir, section_id):
 
 
 def repair_vocab_state(vocab_state, state_path, data_dir):
-    """把状态中 generated 但题库 JSON 缺失的词重置为 pending。
-
-    旧版本会先把词标记为 generated，等整个题型完成后才统一写 JSON。
-    如果进程中断，会留下 generated 状态但没有实际题目。启动时修复这类不一致。
+    """双向修复状态：
+    1. 标记为 generated 但 JSON 缺失或质量太差的 -> 重置为 pending
+    2. 标记为 pending 但 JSON 中已有高质量题目的 -> 标记为 generated (省钱)
     """
-    repaired = 0
+    repaired_to_pending = 0
+    synced_to_generated = 0
+    
     for section_id in VOCAB_SECTIONS:
-        existing_targets = load_existing_vocab_targets(data_dir, section_id)
-        for record in vocab_state.values():
-            if record.get(section_id) != "generated":
-                continue
-            target = record.get("kanji") if section_id == "vocab_reading" else record.get("kana")
-            if target in existing_targets:
-                continue
-            record[section_id] = "pending"
-            record[f"{section_id}_issue"] = "state_repaired_missing_json"
-            repaired += 1
+        path = os.path.join(data_dir, f"{section_id}.json")
+        if not os.path.exists(path): continue
+        
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        # 构建高质量 target 集合
+        high_quality_targets = set()
+        for q in data.get("questions", []):
+            target = q.get("target")
+            # 判定标准：有例句 且 解析长度足够 且 已审核
+            is_good = (
+                q.get("sentence") and 
+                len(q.get("explanation", "")) > 20 and 
+                q.get("verified")
+            )
+            if target and is_good:
+                high_quality_targets.add(target)
 
-    if repaired:
+        # 遍历状态进行同步
+        for record in vocab_state.values():
+            target = record.get("kanji") if section_id == "vocab_reading" else record.get("kana")
+            current_status = record.get(section_id)
+            
+            if current_status == "generated":
+                if target not in high_quality_targets:
+                    # 状态说生成了，但 JSON 里没有或质量差，打回重做
+                    record[section_id] = "pending"
+                    record[f"{section_id}_issue"] = "state_repaired_missing_or_poor_json"
+                    repaired_to_pending += 1
+            elif current_status == "pending":
+                if target in high_quality_targets:
+                    # 状态说没生成，但 JSON 里已经修好了，同步状态
+                    record[section_id] = "generated"
+                    record[f"{section_id}_issue"] = ""
+                    synced_to_generated += 1
+
+    if repaired_to_pending or synced_to_generated:
         save_vocab_state(state_path, vocab_state)
-        print(f"词汇状态修复完成: {repaired} 个 generated 但未入库的词已重置为 pending")
+        print(f"词汇状态同步完成: {repaired_to_pending} 个重置为 pending, {synced_to_generated} 个同步为 generated (已跳过)")
 
 
 def print_vocab_status(vocab_state, section_defs):
@@ -499,33 +532,64 @@ def check_provider(provider, timeout=15):
 # ============================================================
 
 def extract_json(text):
-    """Extract JSON array from API response."""
+    """从 API 响应中提取 JSON 数组。极强鲁棒版。"""
     if not text or text.startswith("ERROR"):
         return None
     text = text.strip()
-    if text.startswith("```"):
-        lines = text.split("\n")
-        lines = [l for l in lines if not l.startswith("```")]
-        text = "\n".join(lines).strip()
-    start = text.find("[")
-    end = text.rfind("]")
-    if start != -1 and end != -1:
-        text = text[start:end+1]
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+    
+    # 1. 预处理：移除 Markdown 标签
+    if "```" in text:
+        import re
+        match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+        if match:
+            text = match.group(1).strip()
 
+    # 2. 尝试寻找所有可能的 [ ... ] 块并解析
+    # 从后往前找最后一个 ]，从前往后找第一个 [
+    # 如果失败，逐步缩小范围
+    start_pos = 0
+    while True:
+        first_bracket = text.find("[", start_pos)
+        if first_bracket == -1: break
+        
+        last_bracket = text.rfind("]")
+        if last_bracket == -1 or last_bracket <= first_bracket: break
+        
+        candidate = text[first_bracket:last_bracket+1]
+        try:
+            return json.loads(candidate)
+        except json.JSONDecodeError:
+            pass
+            
+        # 如果解析失败，尝试移动起始点继续寻找下一个 [
+        start_pos = first_bracket + 1
+        if start_pos >= len(text): break
+
+    # 3. 最后的挣扎：如果是一个对象包裹的数组，比如 {"questions": [...]}
+    start_obj = text.find("{")
+    end_obj = text.rfind("}")
+    if start_obj != -1 and end_obj != -1:
+        try:
+            obj = json.loads(text[start_obj:end_obj+1])
+            if isinstance(obj, dict):
+                for val in obj.values():
+                    if isinstance(val, list): return val
+        except: pass
+
+    return None
 
 def extract_json_object(text):
-    """Extract JSON object from API response."""
+    """从 API 响应中提取 JSON 对象。"""
     if not text or text.startswith("ERROR"):
         return None
     text = text.strip()
-    if text.startswith("```"):
-        lines = text.split("\n")
-        lines = [l for l in lines if not l.startswith("```")]
-        text = "\n".join(lines).strip()
+    
+    if "```" in text:
+        import re
+        match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+        if match:
+            text = match.group(1).strip()
+
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end != -1:
@@ -615,6 +679,51 @@ def build_kanji_prompt(words):
   ...
 ]"""
 
+def build_usage_prompt(words):
+    """为用法题构建 prompt。words: [{kanji, kana}, ...]"""
+    lines = []
+    for i, w in enumerate(words, 1):
+        lines.append(f"{i}. 目标词：《{w['kanji']}》（读音：{w['kana']}）")
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标词各出一道「用法」题目。
+每道题要求：针对该词提供4个不同的日语句子，其中只有1个句子中该词的用法是正确的，另外3个句子中该词的用法是错误的（如搭配错误、词义误用、语境不当）。
+
+{word_list}
+
+【输出格式】严格输出JSON数组：
+[
+  {{
+    "target": "目标词",
+    "options": ["句子1", "句子2", "句子3", "句子4"],
+    "answer": 0,
+    "explanation": "中文详细解析，必须包含：1)正确答案为什么对 2)每个干扰项（错误句子）具体错在哪里（词义误用/搭配不当等） 3)该词的核心用法提示"
+  }},
+  ...
+]"""
+
+def build_context_prompt(words):
+    """为文脉规定题构建 prompt。"""
+    lines = []
+    for i, w in enumerate(words, 1):
+        lines.append(f"{i}. 目标词：《{w['kanji']}》（读音：{w['kana']}）")
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标词各出一道「文脈規定」题目。
+每道题要求：写一个包含（　）的日语句子，正确答案应为目标词，并提供3个干扰词。
+
+{word_list}
+
+【输出格式】严格输出JSON数组：
+[
+  {{
+    "sentence": "含（　）的完整日语句子",
+    "target": "目标词",
+    "options": ["目标词", "干扰词1", "干扰词2", "干扰词3"],
+    "answer": 0,
+    "explanation": "中文详细解析，包含正确词汇的搭配说明及干扰项的辨析。"
+  }},
+  ...
+]"""
+
 
 def generate_vocab_questions(provider, section_id, words, timeout, logger=None):
     """专门为读音/汉字题生成。返回 (items, 实际使用的words)。"""
@@ -622,6 +731,10 @@ def generate_vocab_questions(provider, section_id, words, timeout, logger=None):
         prompt = build_reading_prompt(words)
     elif section_id == "vocab_kanji":
         prompt = build_kanji_prompt(words)
+    elif section_id == "vocab_usage":
+        prompt = build_usage_prompt(words)
+    elif section_id == "vocab_context":
+        prompt = build_context_prompt(words)
     else:
         return None, []
 
@@ -654,10 +767,45 @@ def assemble_vocab_item(raw_item, word, section_id, logger=None):
     elif section_id == "vocab_kanji":
         target = word["kana"]
         correct = word["kanji"]
+    elif section_id == "vocab_usage" or section_id == "vocab_context":
+        target = word["kanji"]
+        correct = word["kanji"]  # 在用法/文脉中，正确答案就是目标词本身
     else:
         return None, ["未知题型"]
 
+    # --- 逻辑 A: 用法题 (vocab_usage) ---
+    if section_id == "vocab_usage":
+        options = raw_item.get("options", [])
+        if len(options) < 4:
+            return None, ["选项不足"]
+        item = {
+            "target": target,
+            "options": options,
+            "answer": raw_item.get("answer", 0),
+            "explanation": raw_item.get("explanation", ""),
+        }
+        # 校验：正确选项里必须包含目标词
+        correct_text = options[item["answer"]] if 0 <= item["answer"] < 4 else ""
+        if target not in correct_text:
+            errors.append(f"正确选项中未包含目标词: {target}")
+        return item, errors
+
+    # --- 逻辑 B: 读音/汉字/文脉 (需要拼装干扰项) ---
     distractors = raw_item.get("distractors", [])
+    # 文脉规定题 AI 有时直接给 options
+    if section_id == "vocab_context" and not distractors:
+        options = raw_item.get("options", [])
+        if len(options) >= 4:
+            # 直接使用 AI 给出的 options
+            item = {
+                "sentence": raw_item.get("sentence", ""),
+                "target": target,
+                "options": options,
+                "answer": raw_item.get("answer", 0),
+                "explanation": raw_item.get("explanation", ""),
+            }
+            return item, errors
+
     if len(distractors) < 3:
         errors.append(f"干扰项不足: {len(distractors)}")
         if logger:
@@ -707,9 +855,9 @@ def assemble_vocab_item(raw_item, word, section_id, logger=None):
     }
 
     # 本地硬校验
-    if not item["sentence"]:
+    if not item["sentence"] and section_id != "vocab_usage":
         errors.append("缺少sentence")
-    if f"《{target}》" not in item["sentence"] and target not in item["sentence"]:
+    if section_id != "vocab_usage" and f"《{target}》" not in item["sentence"] and target not in item["sentence"]:
         errors.append(f"例句中未包含目标词: {target}")
     if len(set(options)) < 4:
         errors.append("存在重复选项")
@@ -1475,40 +1623,75 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
 
 
 def save_to_json(section_id, questions, data_dir):
-    """将题目追加到对应的JSON文件。"""
+    """将题目追加到对应的JSON文件。支持智能覆盖（修复旧数据）。"""
     path = os.path.join(data_dir, f"{section_id}.json")
 
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     existing = data.get("questions", [])
+    added_count = 0
+    updated_count = 0
+
     if section_id in VOCAB_SECTIONS:
-        existing_targets = {
-            q.get("target")
-            for q in existing
-            if isinstance(q, dict) and q.get("target")
-        }
-        questions = [
-            q for q in questions
-            if not q.get("target") or q.get("target") not in existing_targets
-        ]
-        if not questions:
-            return 0
+        # 构建 target -> index 的映射，方便查找和更新
+        target_map = {}
+        for idx, q in enumerate(existing):
+            t = q.get("target")
+            if t: target_map[t] = idx
 
-    start_idx = len(existing)
+        final_questions = []
+        for new_q in questions:
+            target = new_q.get("target")
+            if target in target_map:
+                old_idx = target_map[target]
+                old_q = existing[old_idx]
+                
+                # 判定是否需要修复/覆盖: 
+                # 1. 旧题没有例句 2. 旧题解析太短 (<20字) 3. 旧题没有审核信息
+                is_simple = (
+                    not old_q.get("sentence") or 
+                    len(old_q.get("explanation", "")) < 20 or 
+                    not old_q.get("verified")
+                )
+                
+                if is_simple:
+                    # 覆盖旧题
+                    new_q["id"] = old_q.get("id", f"n2-{section_id}-{old_idx+1:03d}")
+                    existing[old_idx] = new_q
+                    updated_count += 1
+                else:
+                    # 已经是高质量题，跳过
+                    continue
+            else:
+                # 全新题目，准备追加
+                final_questions.append(new_q)
 
-    for i, q in enumerate(questions):
-        q["id"] = f"n2-{section_id}-{start_idx + i + 1:03d}"
-        q["level"] = "N2"
-        q["question_type"] = section_id
+        # 处理全新题目
+        start_idx = len(existing)
+        for i, q in enumerate(final_questions):
+            q["id"] = f"n2-{section_id}-{start_idx + i + 1:03d}"
+            existing.append(q)
+            added_count += 1
+        
+        data["questions"] = existing
+    else:
+        # 非词汇题型，走简单追加逻辑
+        start_idx = len(existing)
+        for i, q in enumerate(questions):
+            q["id"] = f"n2-{section_id}-{start_idx + i + 1:03d}"
+            existing.append(q)
+            added_count += 1
+        data["questions"] = existing
 
-    data["questions"].extend(questions)
     data["meta"]["count"] = len(data["questions"])
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    return len(questions)
+    if updated_count > 0:
+        print(f"      智能覆盖修复: {updated_count} 题")
+    return added_count + updated_count
 
 
 def main():

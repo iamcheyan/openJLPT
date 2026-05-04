@@ -469,79 +469,35 @@ h3 {
 
 .sync-box {
     width: 100%;
-    max-width: 460px;
-    border: 1px solid #000;
-    padding: 40px;
-    background: #fff;
-    box-shadow: 15px 15px 0px rgba(0,0,0,0.05);
-    position: relative;
-}
-
-.sync-box::before {
-    content: '';
-    position: absolute;
-    top: 10px; right: 10px;
-    width: 60px; height: 60px;
-    background: url('app_icon.png') no-repeat center/contain;
-    opacity: 0.1;
+    max-width: 400px;
+    border: 3px solid #000;
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .sync-box h2 {
-    border: none;
-    padding: 0;
-    margin-bottom: 10px;
-    font-size: 22px;
-    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
 }
-
-.sync-box p {
-    font-size: 14px;
-    color: #666;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.sync-log-area {
-    background: #f9f9f9;
-    border: 1px solid #eee;
-    padding: 12px;
-    font-family: "Hiragino Sans", "Courier New", monospace;
-    font-size: 11px;
-    line-height: 1.6;
-    height: 120px;
-    overflow-y: auto;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.sync-log-line {
-    border-bottom: 1px solid #f0f0f0;
-    padding: 2px 0;
-}
-
-.sync-log-line.new { color: #d32f2f; font-weight: bold; }
-.sync-log-line.ok { color: #2e7d32; }
 
 .sync-btn {
     display: block;
     width: 100%;
-    padding: 14px;
+    margin-top: 20px;
+    padding: 15px;
     background: #000;
     color: #fff;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.2s;
 }
-
-.sync-btn:hover { background: #333; }
 
 .progress-container {
     width: 100%;
-    height: 4px;
-    background: #eee;
-    margin-top: 10px;
+    height: 30px;
+    border: 2px solid #000;
+    margin-top: 20px;
 }
 
 .progress-bar {
