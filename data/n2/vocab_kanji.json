@@ -4,7 +4,7 @@
     "question_type": "vocab_kanji",
     "name": "漢字の表記",
     "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを１・２・３・４から一つ選びなさい。",
-    "count": 1096
+    "count": 1102
   },
   "questions": [
     {
@@ -116,7 +116,7 @@
         "証めた"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "「みとめた」の正しい漢字は「認めた」です。（中文：承认、认可）「承めた」「証めた」「確めた」はいずれも誤字です。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -136,7 +136,7 @@
         "飲殺"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "「いんさつ」の正しい漢字は「印刷」です。（中文：印刷）「刷」の字に注意。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -156,7 +156,7 @@
         "溶かな"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "「ゆたかな」の正しい漢字は「豊かな」です。（中文：丰富的、富饶的）「豊」の字形に注意。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -5245,7 +5245,7 @@
         "気温"
       ],
       "answer": 2,
-      "explanation": "",
+      "explanation": "「らん」の正しい漢字は「欄」です。（中文：栏、栏目）書類や表のマス目・区切りを指します。",
       "generated_by": "deepseek:DeepSeek",
       "generated_provider": "deepseek",
       "generated_model": "deepseek-chat",
@@ -10283,7 +10283,7 @@
       "created_at": "2026-05-04T12:44:52",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-413"
+      "id": "n2-vocab_kanji-1103"
     },
     {
       "sentence": "この書類は至急《ゆうそう》してください。",
@@ -10308,7 +10308,7 @@
       "created_at": "2026-05-04T12:44:56",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-414"
+      "id": "n2-vocab_kanji-1104"
     },
     {
       "sentence": "専門家はこれが本物だと《だんてい》した。",
@@ -10333,7 +10333,7 @@
       "created_at": "2026-05-04T12:45:01",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-415"
+      "id": "n2-vocab_kanji-1105"
     },
     {
       "sentence": "昨夜の雪で、街全体が《まっしろ》に染まった。",
@@ -10358,7 +10358,7 @@
       "created_at": "2026-05-04T12:45:02",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-416"
+      "id": "n2-vocab_kanji-1106"
     },
     {
       "sentence": "夏祭りの夜、駅前の《ひろば》にはたくさんの屋台が並んでいた。",
@@ -10383,7 +10383,7 @@
       "created_at": "2026-05-04T12:45:11",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-417"
+      "id": "n2-vocab_kanji-1107"
     },
     {
       "sentence": "この溶液の《のうど》が高すぎるので、水で薄めてください。",
@@ -10408,7 +10408,7 @@
       "created_at": "2026-05-04T12:45:22",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-418"
+      "id": "n2-vocab_kanji-1108"
     },
     {
       "sentence": "あの国は長年《せんせい》体制を敷いてきたが、最近は民主化の動きが活発になってきた。",
@@ -10433,7 +10433,7 @@
       "created_at": "2026-05-04T12:46:09",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-419"
+      "id": "n2-vocab_kanji-1109"
     },
     {
       "sentence": "深夜の工事《ざつおん》で、近所の住民たちは眠れない日が続いている。",
@@ -10458,7 +10458,7 @@
       "created_at": "2026-05-04T12:46:37",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-420"
+      "id": "n2-vocab_kanji-1110"
     },
     {
       "sentence": "日本では結婚後、妻が夫の《せい》を名乗るケースが今でも多い。",
@@ -10483,7 +10483,7 @@
       "created_at": "2026-05-04T12:47:09",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-421"
+      "id": "n2-vocab_kanji-1111"
     },
     {
       "sentence": "この製品は《くふう》が凝っている。",
@@ -10508,7 +10508,7 @@
       "created_at": "2026-05-04T12:47:17",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-422"
+      "id": "n2-vocab_kanji-1112"
     },
     {
       "sentence": "毎週土曜日は、《ぞうきん》がけをして部屋をきれいに掃除する習慣がある。",
@@ -10533,7 +10533,7 @@
       "created_at": "2026-05-04T12:47:37",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-423"
+      "id": "n2-vocab_kanji-1113"
     },
     {
       "sentence": "あなたの努力は、目標達成に《たる》ほど十分である。",
@@ -10558,7 +10558,7 @@
       "created_at": "2026-05-04T12:48:11",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-424"
+      "id": "n2-vocab_kanji-1114"
     },
     {
       "sentence": "食事の前に、テーブルに《しょっき》を並べてください。",
@@ -10583,7 +10583,7 @@
       "created_at": "2026-05-04T12:48:29",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-425"
+      "id": "n2-vocab_kanji-1115"
     },
     {
       "sentence": "試験勉強のために、週末は《じしゅう》に時間を充てることにした。",
@@ -10608,7 +10608,7 @@
       "created_at": "2026-05-04T12:48:41",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-426"
+      "id": "n2-vocab_kanji-1116"
     },
     {
       "sentence": "子供たちが公園の池で《きんぎょ》に餌をやっている。",
@@ -10633,7 +10633,7 @@
       "created_at": "2026-05-04T12:49:10",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-427"
+      "id": "n2-vocab_kanji-1117"
     },
     {
       "sentence": "《ちかぢか》、新しい映画が公開される予定です。",
@@ -10658,7 +10658,7 @@
       "created_at": "2026-05-04T12:49:14",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-428"
+      "id": "n2-vocab_kanji-1118"
     },
     {
       "sentence": "《ほんらい》、この施設は地域の高齢者の憩いの場として作られたものだが、今は若者もカフェ代わりに使っている。",
@@ -10683,7 +10683,7 @@
       "created_at": "2026-05-04T12:49:26",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-429"
+      "id": "n2-vocab_kanji-1119"
     },
     {
       "sentence": "このアプリは、スマホとパソコンを簡単に《せつぞく》できるので、在宅勤務にすごく便利だ。",
@@ -10708,7 +10708,7 @@
       "created_at": "2026-05-04T12:49:38",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-430"
+      "id": "n2-vocab_kanji-1120"
     },
     {
       "sentence": "JLPT試験当日は、筆記用具の《よび》を忘れずに持ってきてください。",
@@ -10733,7 +10733,7 @@
       "created_at": "2026-05-04T12:50:10",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-431"
+      "id": "n2-vocab_kanji-1121"
     },
     {
       "sentence": "エンジンの回転数が上がり、車の《かそく》が始まった。",
@@ -10758,7 +10758,7 @@
       "created_at": "2026-05-04T12:50:18",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-432"
+      "id": "n2-vocab_kanji-1122"
     },
     {
       "sentence": "隣の部屋から《そうぞうしい》音が聞こえてきて、勉強に集中できない。",
@@ -10783,7 +10783,7 @@
       "created_at": "2026-05-04T12:50:38",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-433"
+      "id": "n2-vocab_kanji-1123"
     },
     {
       "sentence": "彼は家の《ちょうなん》として、責任感が強い。",
@@ -10808,7 +10808,7 @@
       "created_at": "2026-05-04T12:50:41",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-434"
+      "id": "n2-vocab_kanji-1124"
     },
     {
       "sentence": "レポートはワードで《または》PDFで提出してください。",
@@ -10833,7 +10833,7 @@
       "created_at": "2026-05-04T12:50:44",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-435"
+      "id": "n2-vocab_kanji-1125"
     },
     {
       "sentence": "この地域には《げんし》的な生活様式が残っている。",
@@ -10858,7 +10858,7 @@
       "created_at": "2026-05-04T12:50:46",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-436"
+      "id": "n2-vocab_kanji-1126"
     },
     {
       "sentence": "二つの箱の《だいしょう》を比べて、より広い方を選んでください。",
@@ -10883,7 +10883,7 @@
       "created_at": "2026-05-04T12:51:20",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-437"
+      "id": "n2-vocab_kanji-1127"
     },
     {
       "sentence": "交通事故の知らせを受けて、彼女の顔は《まっさお》になった。",
@@ -10908,7 +10908,7 @@
       "created_at": "2026-05-04T12:51:32",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-438"
+      "id": "n2-vocab_kanji-1128"
     },
     {
       "sentence": "町内会の役員が、今月分の町内費の《しゅうきん》に回ってきている。",
@@ -10933,7 +10933,7 @@
       "created_at": "2026-05-04T12:51:44",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-439"
+      "id": "n2-vocab_kanji-1129"
     },
     {
       "sentence": "このタンクの《ようせき》は、一度に３００リットルも入る。",
@@ -10958,7 +10958,7 @@
       "created_at": "2026-05-04T12:51:53",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-440"
+      "id": "n2-vocab_kanji-1130"
     },
     {
       "sentence": "転勤のため、家族全員の引っ越し費用を会社に《しんせい》した。",
@@ -10983,7 +10983,7 @@
       "created_at": "2026-05-04T12:52:21",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-441"
+      "id": "n2-vocab_kanji-1131"
     },
     {
       "sentence": "今度《らいにち》するフランスのバレエ団は、東京と大阪で計5回公演を行う予定だと発表されました。",
@@ -11008,7 +11008,7 @@
       "created_at": "2026-05-04T12:52:32",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-442"
+      "id": "n2-vocab_kanji-1132"
     },
     {
       "sentence": "今回の環境問題に関する会議では、各国代表が地球温暖化対策について真剣に《ろんずる》場面が多かった。",
@@ -11033,7 +11033,7 @@
       "created_at": "2026-05-04T12:52:38",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-443"
+      "id": "n2-vocab_kanji-1133"
     },
     {
       "sentence": "その会社では、重要な意思決定は《じゅうやく》の会議で行われます。",
@@ -11058,7 +11058,7 @@
       "created_at": "2026-05-04T12:52:44",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-444"
+      "id": "n2-vocab_kanji-1134"
     },
     {
       "sentence": "氷が温かいお湯の中ですぐに《とける》。",
@@ -11083,7 +11083,7 @@
       "created_at": "2026-05-04T12:52:48",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-445"
+      "id": "n2-vocab_kanji-1135"
     },
     {
       "sentence": "子供たちが青空に向かって《ふうせん》を飛ばしている。",
@@ -11108,7 +11108,7 @@
       "created_at": "2026-05-04T12:53:25",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-446"
+      "id": "n2-vocab_kanji-1136"
     },
     {
       "sentence": "彼はユニークな《はっそう》で、いつも周りを驚かせる。",
@@ -11133,7 +11133,7 @@
       "created_at": "2026-05-04T12:53:27",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-447"
+      "id": "n2-vocab_kanji-1137"
     },
     {
       "sentence": "昨夜の雨で、山奥の小川の水が《すむ》ようになり、川底の小石まで見えた。",
@@ -11158,7 +11158,7 @@
       "created_at": "2026-05-04T12:54:23",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-448"
+      "id": "n2-vocab_kanji-1138"
     },
     {
       "sentence": "最近仕事の負担が新人に《かたよる》ようになって、上司に相談しようと思っている。",
@@ -11183,7 +11183,7 @@
       "created_at": "2026-05-04T12:54:26",
       "level": "N2",
       "question_type": "vocab_kanji",
-      "id": "n2-vocab_kanji-449"
+      "id": "n2-vocab_kanji-1139"
     },
     {
       "sentence": "JLPT N2の勉強では、文法問題と長文読解の《じゅうてん》を置いて学習を進めることが重要だ。",
@@ -27378,6 +27378,156 @@
       "level": "N2",
       "question_type": "vocab_kanji",
       "id": "n2-vocab_kanji-1096"
+    },
+    {
+      "sentence": "学校で《りか》の実験をするのが好きです。",
+      "target": "りか",
+      "options": [
+        "理料",
+        "理科",
+        "理花",
+        "利花"
+      ],
+      "answer": 1,
+      "explanation": "1) 正确汉字「理科」是对的：'理'读作「り」，部首为「玉」（王），意为道理；'科'读作「か」，部首为「禾」，意为学科。合起来表示自然科学学科。2) 干扰项分析：'利花'是同音异义错误，'利'读作「り」，意为利益，与'理'同音但部首不同；'花'读作「か」，意为花，与'科'同音但意思无关。'理花'是形似字错误，'花'与'科'字形相似，但'花'部首为草字头，意思不同。'理料'是同音异义错误，'料'读作「りょう」，意为材料，与'科'形似但读音和意思不同。3) 常见书写错误提示：注意'科'不要写成形似的'料'或同音的'花'，'理'不要写成同音的'利'。",
+      "generated_by": "mimo:小米MiMo",
+      "generated_provider": "mimo",
+      "generated_model": "mimo-v2.5-pro",
+      "reviewed_by": "ark",
+      "reviewed_provider": "ark",
+      "reviewed_provider_label": "火山ARK",
+      "reviewed_model": "doubao-seed-2-0-code",
+      "review_explanation": "### 答案解释\n正确答案为「理科」，对应0-indexed的answer=1。词汇「理科（りか）」是学校自然科学类学科的统称，完全匹配句子「学校で実験をする」（在学校做实验）的语境。\n\n### 干扰项分析\n选项0「理料」：错误，「料」发音为「りょう」而非题干标注的「か」，且「理料」为不规范/不常用的组合词；选项2「理花」：错误，「花」发音虽为「か」，但「理花」是女性常见人名（りか、りけ）或指打理花卉，不符合学科场景；选项3「利花」：错误，「利」虽发音「り」，但意为「利益、便利」，「利花」同样是女性人名，与学科无关。\n\n### 语法/词汇重点\n语法点：「动词连体形+のが好きです」，「の」将前面的动词短语「学校で理科の実験をする」名词化，整体作「好き」的主语；词汇重点：N2学校生活类核心汉字词「理科」，需区分同音字（理/利，か对应字：科/花等）和形似字（科/料）。\n\n### 学习建议\n1. 整理N2同音/形似核心汉字词，按「学校、家庭、工作、生活」等高频场景分类记忆；2. 汉字假名对应题优先结合语境排除选项，再核对读音和字形；3. 通过汉字部首辅助区分：「利」部首「刂」多和动作/利益相关，「理」部首「王（玉）」原指玉石纹理，引申为「道理、学科」等。",
+      "verified": true,
+      "created_at": "2026-05-04T18:21:35",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1097"
+    },
+    {
+      "sentence": "このプラスチックは《とうめい》で、中が見えます。",
+      "target": "とうめい",
+      "options": [
+        "頭明",
+        "透萌",
+        "投明",
+        "透明"
+      ],
+      "answer": 3,
+      "explanation": "1) 正确汉字“透明”中，“透”是“透彻、穿透”之意，“明”是“明亮、清晰”之意，组合起来表示“物体清澈、光线可穿透”，是固定词汇。读音“とう”对应“透”，“めい”对应“明”。\n2) 干扰项分析：\n- “頭明”：同音异义词。“頭”读“とう”，“明”读“めい”，字音相同，但“頭明”意为“头脑聪明”，与“透明”词义完全不同，属于同音干扰。\n- “透萌”：形似字混淆。“萌”与“明”字形相似（下方均为“明”的部件），但“萌”读作“めい”时非常用音读，且词义为“发芽、萌芽”，在“透～”结构中语义不通。\n- “投明”：同音异义词。“投”读“とう”，“明”读“めい”，字音相同，但“投明”意为“投奔光明”或“陈述说明”，与“透明”无关。\n3) 常见书写错误提示：学生易将“明”误写为同音或形近的“萌”“盟”等字，或将“透”误写为“頭”“投”等同音字。",
+      "generated_by": "mimo:小米MiMo",
+      "generated_provider": "mimo",
+      "generated_model": "mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "reviewed_provider": "zhipu",
+      "reviewed_provider_label": "智谱AI",
+      "reviewed_model": "glm-4-flash",
+      "review_explanation": "本题答案正确，符合JLPT N2级别难度。句子自然，语法正确。解释详细，包含了正确答案分析、每个干扰项错因以及知识点提示。\n答案解释：正确答案是‘透明’，表示物体清澈、光线可穿透，是固定词汇。\n干扰项分析：\n- ‘頭明’是同音异义词，意为‘头脑聪明’，与‘透明’词义不同。\n- ‘透萌’是形似字混淆，‘萌’与‘明’字形相似，但‘萌’读作‘めい’时非常用音读，且词义为‘发芽、萌芽’，在‘透～’结构中语义不通。\n- ‘投明’是同音异义词，意为‘投奔光明’或‘陈述说明’，与‘透明’无关。\n语法/词汇重点：本题考察了固定词汇‘透明’的用法，以及同音异义词和形似字的辨析。\n学习建议：在学习日语词汇时，应注意同音异义词和形似字的区分，加强固定词汇的记忆。",
+      "verified": true,
+      "created_at": "2026-05-04T18:21:43",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1098"
+    },
+    {
+      "sentence": "政治的な《たいりつ》が社会の分裂を招くことがあります。",
+      "target": "たいりつ",
+      "options": [
+        "対律",
+        "大立",
+        "体立",
+        "対立"
+      ],
+      "answer": 3,
+      "explanation": "1) 正确汉字「対立」中，「対」（寸部）表示相对或对立，「立」（立部）表示站立或建立，合起来指对立，读音「たいりつ」准确。2) 干扰项解析：「大立」中「大」是同音异义字（读音たい），但意为大小，与对立无关；「体立」中「体」是同音异义字，意为身体，不表示对立关系；「対律」中「律」是同音异义字（读音りつ），但意为法律或规律，而正确字「立」表示建立或站立的状态。3) 常见书写错误提示：易将「対」误写为同音字「大」或「体」，或将「立」误写为同音字「律」，需结合汉字意义记忆。",
+      "generated_by": "mimo:小米MiMo",
+      "generated_provider": "mimo",
+      "generated_model": "mimo-v2.5-pro",
+      "reviewed_by": "zhipu",
+      "reviewed_provider": "zhipu",
+      "reviewed_provider_label": "智谱AI",
+      "reviewed_model": "glm-4-flash",
+      "review_explanation": "答案正确，选项中的「対立」是正确答案，与题目中的「たいりつ」相符。干扰项分析合理，没有两个选项意思相同。难度符合N2级别，句子自然，语法正确。解释详细，包含了正确答案分析、每个干扰项错因以及知识点提示。",
+      "verified": true,
+      "created_at": "2026-05-04T18:25:54",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1099"
+    },
+    {
+      "sentence": "このプロジェクトの担当者は、私に〇〇が《してい》されました。",
+      "target": "してい",
+      "options": [
+        "指的",
+        "指邸",
+        "増し",
+        "指定"
+      ],
+      "answer": 3,
+      "explanation": "1) 正确汉字「指定」是指明、规定。例句中「担当者は私に指定されました」意为“被指定为这个项目的负责人”，读音为「してい」，符合题意。2) 干扰项「指邸」：『邸』字通常用于表示较大的住宅或官邸，与“规定”的意思无关，读音也不同。干扰项「指的」：『的』字通常用作助词或形容词词缀，与“规定”的意思无关，读音也不同。3) 常见误写：将「定」误写成形似的「的」或与其他读音相近的「邸」。",
+      "generated_by": "gemini:Google Gemini",
+      "generated_provider": "gemini",
+      "generated_model": "gemini-2.5-flash-lite",
+      "reviewed_by": "zhipu",
+      "reviewed_provider": "zhipu",
+      "reviewed_provider_label": "智谱AI",
+      "reviewed_model": "glm-4-flash",
+      "review_explanation": "答案解释：此题的正确答案是‘指定’，它正确地描述了句子中‘〇〇が《してい》されました’这一结构的意义，即某人被指定为项目的负责人。干扰项分析：选项中的‘指的’和‘指邸’都和正确答案无关，‘指的’用于表达目的或对象，而‘指邸’则是与官邸或大宅邸相关的词汇，与句意不符。语法/词汇重点：本题考察的是对动词‘指定’及其形式变化的理解。学习建议：在备考N2时，要注意对动词的不同用法和变位形式进行深入学习，并加强对语境的理解能力。",
+      "verified": true,
+      "created_at": "2026-05-04T18:26:54",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1100"
+    },
+    {
+      "sentence": "この合金は、独特の光沢を持つ《どう》でできています。",
+      "target": "どう",
+      "options": [
+        "銅鑼",
+        "銅",
+        "同",
+        "銅鉄"
+      ],
+      "answer": 1,
+      "explanation": "1. 正确汉字“銅”表示“铜”这种金属。它是一个金属偏旁的字，代表其作为金属的属性。\n2. 干扰项1“同”：“同”表示“相同”，读音虽然相同，但字形和意义与“铜”完全不同，属于同音异义字。\n3. 干扰项2“銅鑼”：“銅鑼”是一个实际存在的词语，指一种打击乐器，虽然包含“銅”字，但“鑼”字的加入使其意义变为乐器，而不是单纯的金属“铜”。\n4. 干扰项3“銅鉄”：“銅”和“鉄”（铁）都是金属，但“銅鉄”并非一个规范的词语，通常是两种金属并列，而非一个统一的名称，容易造成混淆。\n5. 常见误写提示：人们可能会因为读音相同而使用“同”，或者在“銅”字后面加上表示其他物质的字，形成不恰当的组合。",
+      "generated_by": "gemini:Google Gemini",
+      "generated_provider": "gemini",
+      "generated_model": "gemini-2.5-flash-lite",
+      "reviewed_by": "ark",
+      "reviewed_provider": "ark",
+      "reviewed_provider_label": "火山ARK",
+      "reviewed_model": "doubao-seed-2-0-code",
+      "review_explanation": "### 答案解释\n本题为汉字读音+语义匹配的JLPT N2常考基础辨析题。题目要求补全「独特の光沢を持つ《どう》」的对应汉字：\n- 正确选项索引为1，对应汉字「銅」，音读「どう」，语义为「铜（金属元素）」，填入后句子「この合金は、独特の光沢を持つ銅でできています」（这种合金由具有独特光泽的铜制成）语法通顺、语义明确；correct_answer_text也完全匹配。\n\n### 干扰项分析\n干扰项均设置合理，无重复语义项：\n1. 选项0「銅鑼」：音读「どうら」，多了促音后音节「ら」，读音不符合题干「どう」；且指打击乐器铜锣，不是单纯的金属铜，语义错位。\n2. 选项2「同」：音读「どう」但为同音异义字，词性多为形容动词/副词/名词前缀，不能单独作表示材质的核心名词，语法+语义双错。\n3. 选项3「銅鉄」：无规范固定音读「どう」（单独读或并列读时多为「どう・てつ」或构词前缀的缩略但不用于此单材质场景），且并非单一金属或通用常用合金的固定名称，不符合语境。\n\n### 语法/词汇重点\n1. **汉字辨析核心**：区分「同音/形近但偏旁语义不同」的汉字——「銅」带「金（かねへん）」金属偏旁，明确指向金属材质；「同」为「口部」表相同义。\n2. **句子语法结构**：「～でできています」用于说明物品的材质/构成；「独特の光沢を持つ」为动词短语作定语修饰名词「銅」。\n\n### 学习建议\nN2汉字/词汇题常结合「日常/科技相关物质名词」「同音异义/偏旁误导词」考查：\n- 优先通过**偏旁/部首**缩小核心语义范围（比如金属类多带金部）；\n- 积累「常见物质名词的音训读」并结合语境记忆；\n- 遇到「复合字干扰项」要确认读音是否完整匹配，且语义是否是「单一核心名词」。\n\n（注：原题explanation的干扰项编号采用了1-based，但核心分析内容对应正确的选项，仅需调整表述即可完美适配规范）",
+      "verified": true,
+      "created_at": "2026-05-04T18:27:37",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1101"
+    },
+    {
+      "sentence": "長年連れ添った《ふさい》は、お互いを深く理解し合っている。",
+      "target": "ふさい",
+      "options": [
+        "婦配",
+        "創作",
+        "夫婦",
+        "夫妻"
+      ],
+      "answer": 3,
+      "explanation": "1. 正确汉字“夫妻”中的“夫”（ふ）和“妻”（さい）组合，是表示丈夫和妻子的标准词汇，读音也完全匹配。\n2. 干扰项“夫婦”（ふうふ）读音相似，但“夫婦”更侧重于婚姻关系本身，而非特指两个人。\n3. 干扰项“婦配”（ふはい）中的“配”在此语境下通常表示搭配或匹配，与“妻”的含义有别，属于形似或部首混淆（“妻”和“配”部分部首相似）。\n4. 常见书写错误提示：容易将表示女性配偶的“妻”误写为其他字形相似或读音相近的字。",
+      "generated_by": "gemini:Google Gemini",
+      "generated_provider": "gemini",
+      "generated_model": "gemini-2.5-flash-lite",
+      "reviewed_by": "zhipu",
+      "reviewed_provider": "zhipu",
+      "reviewed_provider_label": "智谱AI",
+      "reviewed_model": "glm-4-flash",
+      "review_explanation": "该题目符合JLPT N2级别的要求。答案解释正确，'夫妻'（ふうさい）是正确答案，表示丈夫和妻子，与句子中的'長年連れ添った'（长期相伴）相匹配。干扰项分析合理，'夫婦'（ふうふ）虽然读音相似，但侧重于婚姻关系本身，而非特指两个人；'婦配'（ふはい）中的'配'在此语境下表示搭配或匹配，与'妻'的含义不同，属于形似或部首混淆。句子自然，语法正确。explanation部分详细，包含了正确答案分析、每个干扰项错因以及常见书写错误提示，符合审核标准。",
+      "verified": true,
+      "created_at": "2026-05-04T18:27:40",
+      "level": "N2",
+      "question_type": "vocab_kanji",
+      "id": "n2-vocab_kanji-1102"
     }
   ]
 }

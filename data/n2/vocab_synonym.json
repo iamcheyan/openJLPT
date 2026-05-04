@@ -136,7 +136,7 @@
         "面白い"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "1. 正确项分析：「妥当だ」的同义词（类义词）为「正しい」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -156,7 +156,7 @@
         "素早く"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "1. 正确项分析：「冷静に」的同义词（类义词）为「熱心に」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -176,7 +176,7 @@
         "熱心に"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "1. 正确项分析：「せっせと」的同义词（类义词）为「のんびり」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -196,7 +196,7 @@
         "濡れて"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "1. 正确项分析：「くたびれて」的同义词（类义词）为「古くなって」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -216,7 +216,7 @@
         "幸いに"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "1. 正确项分析：「あいにく」的同义词（类义词）为「突然」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -562,7 +562,7 @@
       "generated_by": "antigravity_manual"
     },
     {
-      "id": "n2-vocab_synonym-021",
+      "id": "n2-vocab_synonym-021b",
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼女は日本の《工芸》品に興味を持っている。",
@@ -1120,16 +1120,16 @@
       "generated_by": "antigravity_batch_script"
     },
     {
-      "sentence": "（磁石）の類義語を選びなさい。",
+      "sentence": "《磁石》で方位を確認する。",
       "target": "磁石",
       "options": [
-        "民間",
-        "磁石",
-        "剃る",
-        "括弧"
+        "じしゃく",
+        "コンパス",
+        "方位計",
+        "羅針盤"
       ],
-      "answer": 1,
-      "explanation": "「磁石」の意味は「magnet」です。",
+      "answer": 0,
+      "explanation": "1. 正确项分析：「磁石（じしゃく）」即磁铁、磁石。",
       "id": "n2-vocab_synonym-061",
       "level": "N2",
       "question_type": "vocab_synonym",
@@ -12693,16 +12693,16 @@
       "generated_by": "antigravity_batch_script"
     },
     {
-      "sentence": "（冷ます）と意味が最も近いものを選びなさい。",
+      "sentence": "スープを少し《冷まして》から飲む。",
       "target": "冷ます",
       "options": [
-        "冷ます",
-        "日程",
-        "線路",
-        "見慣れる"
+        "さます",
+        "温める",
+        "捨てる",
+        "沸かす"
       ],
       "answer": 0,
-      "explanation": "「冷ます」の意味は「to cool,to dampen,to let cool」です。",
+      "explanation": "1. 正确项分析：「冷ます（さます）」意为使冷却、冷却（他动词）。",
       "id": "n2-vocab_synonym-0704",
       "level": "N2",
       "question_type": "vocab_synonym",
@@ -17840,16 +17840,16 @@
       "generated_by": "antigravity_batch_script"
     },
     {
-      "sentence": "（茶色い）と意味が最も近いものを選びなさい。",
+      "sentence": "《茶色い》熊が森にいる。",
       "target": "茶色い",
       "options": [
-        "茶色い",
-        "判事",
-        "手拭い",
-        "接続"
+        "ちゃいろい",
+        "黒い",
+        "白い",
+        "赤い"
       ],
       "answer": 0,
-      "explanation": "「茶色い」の意味は「」です。",
+      "explanation": "1. 正确项分析：「茶色い（ちゃいろい）」意为茶色、棕色。",
       "id": "n2-vocab_synonym-0990",
       "level": "N2",
       "question_type": "vocab_synonym",
@@ -23281,13 +23281,13 @@
       "sentence": "最近はこの辺りも《物騒》だ。",
       "target": "物騒",
       "options": [
-        "物騒",
-        "静か",
-        "賑やか",
-        "平和"
+        "危険な",
+        "安全な",
+        "平和な",
+        "静かな"
       ],
       "answer": 0,
-      "explanation": "1. 正确项分析：「物騒（ぶっそう）」意为骚然、不安定、危险。",
+      "explanation": "1. 正确项分析：「物騒（ぶっそう）」意为骚然、不安定、危险，与「危険な」意思最接近。",
       "created_at": "2026-05-04T17:58:00.568940",
       "verified": true,
       "generated_by": "antigravity_batch_script"
