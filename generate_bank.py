@@ -1270,7 +1270,7 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
     no_progress_rounds = 0
 
     while True:
-        words = pick_pending_words(vocab_state, section_id, count=3)
+        words = pick_pending_words(vocab_state, section_id, count=5)
         if not words:
             print(f"  无更多 pending 词汇，{section_name} 完成")
             break
@@ -1350,7 +1350,6 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     else:
                         print(f"      未通过审核")
                         mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
-                time.sleep(1)
         else:
             print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
             for item, word in assembled:

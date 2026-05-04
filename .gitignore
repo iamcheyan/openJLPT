@@ -1,136 +1,31 @@
-# 系统文件
-.DS_Store
-Thumbs.db
-*.orig
+# OpenJLPT Git Ignore
 
-# 临时文件
-*.swp
-*.swo
-*~
-.python-version
-.nvimlog
-.direnv/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Python environments
-.venv/
 venv/
-env/
-ENV/
-.envrc
+.venv/
 
-# Python tooling
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.pyre/
-.tox/
-.nox/
-.coverage
-.coverage.*
-htmlcov/
-coverage.xml
-*.cover
-*.egg-info/
-pip-wheel-metadata/
-
-# Node / frontend tooling
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.npm/
-.yarn/
-.pnpm-store/
-dist/
-build/
-.vite/
-
-# Logs and runtime scratch files
-*.log
-logs/
-tmp/
-temp/
-.tmp/
-.temp/
-
-# Local generated exports and archives
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-
-# zsh 缓存
-.zinit/
-.zcompdump*
-.zsh_history
-
-# Powerlevel10k 缓存
-.p10k.zsh.backup
-
-# 字体缓存（从 GitHub 下载）
-.cache/fonts/
-
-# 子仓库配置
-aliases
-aliases/
-rime
-rime/
-chezmoi
-chezmoi/
-aws
-aws/
-/chezmoi
-/aws
-/rime
-/aliases
-
-config/nvim/lua/plugins/im-select.lua
-
-
-config/nvim/tmp/*
-config/yazi/flavors/*
-config/sway/*
-config/nvim/sbzr.nvim.im.db/*
-config/nvim/local/sbzr.nvim.im
-
-# 环境变量文件
-# 默认拦截本地环境变量和凭据文件
+# Environment & secrets
 .env
-agents/*/.env
-.env.*
-*.env.local
-*.local.env
-*.credentials
-*.creds
-*.secret
-*.secrets
-*.token
-*.tokens
-private_dot_env
-dot_env
-env
 
-# 允许提交的示例文件
-!.env.example
-!.env.sample
-!.env.template
+# Generated logs
+logs/
 
-# 具体已知本地敏感文件
-plugins/avante/.env
-config/nvim/.nvimlog
-config/nvim/tmp/
-config/nvim/sbzr.nvim.im.db/
-config/nvim/lazy-lock.json
-config/git-credentials
-pat.sh
-a.out
+# Generated files
+data_n2.js
+exam_n2_offline.html
+index.html
+full_exam.html
 
-# chezmoi
-age.key
-dot_config/claude2kimi/private_dot_env
+# Assets (Third-party libraries and large files)
+assets/libs/
+assets/libs/dict/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User data (localStorage handles this in browser, but just in case)
+.gemini/
