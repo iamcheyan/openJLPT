@@ -1,0 +1,1287 @@
+{
+  "n2-vocab_reading-144": {
+    "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
+    "target": "活躍",
+    "in_brackets": "伯父さん"
+  },
+  "n2-vocab_reading-145": {
+    "sentence": "日本語の文では《主語》が省略されることが多い。",
+    "target": "伯父さん",
+    "in_brackets": "主語"
+  },
+  "n2-vocab_reading-146": {
+    "sentence": "長年の経験から、彼はその技術を《心得る》ようになった。",
+    "target": "主語",
+    "in_brackets": "心得る"
+  },
+  "n2-vocab_reading-147": {
+    "sentence": "花瓶に花を《挿す》と、部屋の雰囲気が明るくなった。",
+    "target": "心得る",
+    "in_brackets": "挿す"
+  },
+  "n2-vocab_reading-148": {
+    "sentence": "この《図表》を見れば、売上推移が一目で分かる。",
+    "target": "挿す",
+    "in_brackets": "図表"
+  },
+  "n2-vocab_reading-149": {
+    "sentence": "彼は大手《商社》に就職が決まったそうだ。",
+    "target": "図表",
+    "in_brackets": "商社"
+  },
+  "n2-vocab_reading-150": {
+    "sentence": "壁と机の《隙間》にボールペンを落としてしまった。",
+    "target": "商社",
+    "in_brackets": "隙間"
+  },
+  "n2-vocab_reading-151": {
+    "sentence": "駅の《応接》室でお客様を待っている。",
+    "target": "隙間",
+    "in_brackets": "応接"
+  },
+  "n2-vocab_reading-152": {
+    "sentence": "噴火した《火口》の周辺は立ち入り禁止になった。",
+    "target": "応接",
+    "in_brackets": "火口"
+  },
+  "n2-vocab_reading-153": {
+    "sentence": "この実験には精密な《器具》が必要だ。",
+    "target": "火口",
+    "in_brackets": "器具"
+  },
+  "n2-vocab_reading-154": {
+    "sentence": "母は《醤油》をちょっと多めに入れると味が決まると言う。",
+    "target": "器具",
+    "in_brackets": "醤油"
+  },
+  "n2-vocab_reading-155": {
+    "sentence": "電車に《乗車》するときは、順番を守りましょう。",
+    "target": "醤油",
+    "in_brackets": "乗車"
+  },
+  "n2-vocab_reading-156": {
+    "sentence": "彼の発言は周りの《勘違い》を招いてしまった。",
+    "target": "乗車",
+    "in_brackets": "勘違い"
+  },
+  "n2-vocab_reading-157": {
+    "sentence": "それぞれの《個体》によって性質が異なる。",
+    "target": "勘違い",
+    "in_brackets": "個体"
+  },
+  "n2-vocab_reading-158": {
+    "sentence": "休み時間に子供たちは《校庭》で遊んでいる。",
+    "target": "個体",
+    "in_brackets": "校庭"
+  },
+  "n2-vocab_reading-159": {
+    "sentence": "ピラミッドのような大きな建物を《崩す》には、多くの人手が必要だ。",
+    "target": "校庭",
+    "in_brackets": "崩す"
+  },
+  "n2-vocab_reading-160": {
+    "sentence": "古くなった布を手で《裂く》と、奇妙な音がした。",
+    "target": "崩す",
+    "in_brackets": "裂く"
+  },
+  "n2-vocab_reading-161": {
+    "sentence": "この《大通り》をまっすぐ行くと、駅に着きます。",
+    "target": "裂く",
+    "in_brackets": "大通り"
+  },
+  "n2-vocab_reading-162": {
+    "sentence": "会議の《延長》が決まり、予定より一時間長くなった。",
+    "target": "大通り",
+    "in_brackets": "延長"
+  },
+  "n2-vocab_reading-163": {
+    "sentence": "彼は自分の手柄について《謙遜》して話した。",
+    "target": "延長",
+    "in_brackets": "謙遜"
+  },
+  "n2-vocab_reading-164": {
+    "sentence": "子供がボールを遠くに《蹴る》のが上手になった。",
+    "target": "謙遜",
+    "in_brackets": "蹴る"
+  },
+  "n2-vocab_reading-165": {
+    "sentence": "今月の《下旬》にはプロジェクトが完了する見込みだ。",
+    "target": "蹴る",
+    "in_brackets": "下旬"
+  },
+  "n2-vocab_reading-166": {
+    "sentence": "この街には《運河》が張り巡らされており、水の都と呼ばれている。",
+    "target": "下旬",
+    "in_brackets": "運河"
+  },
+  "n2-vocab_reading-167": {
+    "sentence": "祖父は毎日のように近所の友達と《碁》を打っている。",
+    "target": "運河",
+    "in_brackets": "碁"
+  },
+  "n2-vocab_reading-168": {
+    "sentence": "この地域は《交通機関》が不便で、車がないと暮らしにくい。",
+    "target": "碁",
+    "in_brackets": "交通機関"
+  },
+  "n2-vocab_reading-169": {
+    "sentence": "パーティーの始まりに《乾杯》の音頭を取った。",
+    "target": "交通機関",
+    "in_brackets": "乾杯"
+  },
+  "n2-vocab_reading-170": {
+    "sentence": "彼は私の唯一の《親類》で、何かと相談に乗ってくれる。",
+    "target": "乾杯",
+    "in_brackets": "親類"
+  },
+  "n2-vocab_reading-171": {
+    "sentence": "この理論は実際のビジネスに《応用》することができる。",
+    "target": "親類",
+    "in_brackets": "応用"
+  },
+  "n2-vocab_reading-172": {
+    "sentence": "《各自》で必要な書類を持参してください。",
+    "target": "応用",
+    "in_brackets": "各自"
+  },
+  "n2-vocab_reading-173": {
+    "sentence": "水は《液体》の一種で、温度によって固体や気体に変わる。",
+    "target": "各自",
+    "in_brackets": "液体"
+  },
+  "n2-vocab_reading-174": {
+    "sentence": "この書類には《期限》があるので、来週までに提出しなければならない。",
+    "target": "液体",
+    "in_brackets": "期限"
+  },
+  "n2-vocab_reading-175": {
+    "sentence": "仕事の《差し支え》がないように、体調管理には気をつけている。",
+    "target": "期限",
+    "in_brackets": "差し支え"
+  },
+  "n2-vocab_reading-176": {
+    "sentence": "お客様の《応対》は、新人が担当することになった。",
+    "target": "差し支え",
+    "in_brackets": "応対"
+  },
+  "n2-vocab_reading-177": {
+    "sentence": "趣味の《好き好き》は人それぞれだから、無理に合わせる必要はない。",
+    "target": "応対",
+    "in_brackets": "好き好き"
+  },
+  "n2-vocab_reading-178": {
+    "sentence": "彼は事故で《重体》に陥り、すぐに手術を受けた。",
+    "target": "好き好き",
+    "in_brackets": "重体"
+  },
+  "n2-vocab_reading-179": {
+    "sentence": "彼は《大学院》で経済学の研究を続けている。",
+    "target": "重体",
+    "in_brackets": "大学院"
+  },
+  "n2-vocab_reading-180": {
+    "sentence": "壁にポスターを《着ける》のに、両面テープを使った。",
+    "target": "大学院",
+    "in_brackets": "着ける"
+  },
+  "n2-vocab_reading-181": {
+    "sentence": "足りない予算は外部からの支援で《補う》ことになった。",
+    "target": "着ける",
+    "in_brackets": "補う"
+  },
+  "n2-vocab_reading-182": {
+    "sentence": "書道で使う《墨》をすっていると、心が落ち着く。",
+    "target": "補う",
+    "in_brackets": "墨"
+  },
+  "n2-vocab_reading-183": {
+    "sentence": "彼女は病気で顔色が《青白い》ので、早退させた。",
+    "target": "墨",
+    "in_brackets": "青白い"
+  },
+  "n2-vocab_reading-184": {
+    "sentence": "食事の前に《手洗い》をしっかり済ませましょう。",
+    "target": "青白い",
+    "in_brackets": "手洗い"
+  },
+  "n2-vocab_reading-185": {
+    "sentence": "ウールのセーターが洗濯で《縮れる》ことがあるので注意が必要だ。",
+    "target": "手洗い",
+    "in_brackets": "縮れる"
+  },
+  "n2-vocab_reading-186": {
+    "sentence": "この工場では多くの《工員》が働いている。",
+    "target": "縮れる",
+    "in_brackets": "工員"
+  },
+  "n2-vocab_reading-187": {
+    "sentence": "テストの《中間》地点で、一度結果を確認しよう。",
+    "target": "工員",
+    "in_brackets": "中間"
+  },
+  "n2-vocab_reading-188": {
+    "sentence": "このバスは次の駅で《停止》します。",
+    "target": "中間",
+    "in_brackets": "停止"
+  },
+  "n2-vocab_reading-189": {
+    "sentence": "ストーブで部屋を《暖める》と、窓に結露ができた。",
+    "target": "停止",
+    "in_brackets": "暖める"
+  },
+  "n2-vocab_reading-190": {
+    "sentence": "停電で部屋の中が《真っ暗》になり、何も見えなくなった。",
+    "target": "暖める",
+    "in_brackets": "真っ暗"
+  },
+  "n2-vocab_reading-191": {
+    "sentence": "この荷物は《速達》で送ってください。",
+    "target": "真っ暗",
+    "in_brackets": "速達"
+  },
+  "n2-vocab_reading-192": {
+    "sentence": "会場からは拍手が《続々》と沸き起こった。",
+    "target": "速達",
+    "in_brackets": "続々"
+  },
+  "n2-vocab_reading-193": {
+    "sentence": "来月の出張で《関東》地方を回る予定だ。",
+    "target": "続々",
+    "in_brackets": "関東"
+  },
+  "n2-vocab_reading-194": {
+    "sentence": "この問題の《重点》は、いかにコストを削減するかだ。",
+    "target": "関東",
+    "in_brackets": "重点"
+  },
+  "n2-vocab_reading-195": {
+    "sentence": "新しい町にもようやく《落着く》ことができた。",
+    "target": "重点",
+    "in_brackets": "落着く"
+  },
+  "n2-vocab_reading-196": {
+    "sentence": "彼は《外科》の医者として、多くの手術を成功させてきた。",
+    "target": "落着く",
+    "in_brackets": "外科"
+  },
+  "n2-vocab_reading-197": {
+    "sentence": "駅の《正面》出口で待ち合わせをしよう。",
+    "target": "外科",
+    "in_brackets": "正面"
+  },
+  "n2-vocab_reading-198": {
+    "sentence": "電車が駅に《停車》するまで、ホームで待っていた。",
+    "target": "正面",
+    "in_brackets": "停車"
+  },
+  "n2-vocab_reading-199": {
+    "sentence": "彼は《大工》の技術を二十年かけて習得した。",
+    "target": "停車",
+    "in_brackets": "大工"
+  },
+  "n2-vocab_reading-200": {
+    "sentence": "この倉庫ではワインを《貯蔵》している。",
+    "target": "大工",
+    "in_brackets": "貯蔵"
+  },
+  "n2-vocab_reading-201": {
+    "sentence": "泥棒が家に《侵入》した形跡がある。",
+    "target": "貯蔵",
+    "in_brackets": "侵入"
+  },
+  "n2-vocab_reading-202": {
+    "sentence": "セキュリティを《強化》するため、新しいシステムを導入した。",
+    "target": "侵入",
+    "in_brackets": "強化"
+  },
+  "n2-vocab_reading-203": {
+    "sentence": "母に「早く帰りなさい」と《言い付ける》られた。",
+    "target": "強化",
+    "in_brackets": "言い付ける"
+  },
+  "n2-vocab_reading-204": {
+    "sentence": "この製品は安全《基準》を満たしている。",
+    "target": "言い付ける",
+    "in_brackets": "基準"
+  },
+  "n2-vocab_reading-205": {
+    "sentence": "工事の音が《騒々しい》ので、なかなか集中できない。",
+    "target": "基準",
+    "in_brackets": "騒々しい"
+  },
+  "n2-vocab_reading-206": {
+    "sentence": "祖母は手作りの《編物》をたくさん作ってくれる。",
+    "target": "騒々しい",
+    "in_brackets": "編物"
+  },
+  "n2-vocab_reading-207": {
+    "sentence": "皿を《重ねる》ときは、割れないように気をつけてください。",
+    "target": "編物",
+    "in_brackets": "重ねる"
+  },
+  "n2-vocab_reading-208": {
+    "sentence": "彼女は話すとき、よく《唇》を噛む癖がある。",
+    "target": "重ねる",
+    "in_brackets": "唇"
+  },
+  "n2-vocab_reading-209": {
+    "sentence": "今年の予算は去年と比べて《増減》がほとんどない。",
+    "target": "唇",
+    "in_brackets": "増減"
+  },
+  "n2-vocab_reading-210": {
+    "sentence": "社長に《次ぐ》権限を持つのは専務だ。",
+    "target": "増減",
+    "in_brackets": "次ぐ"
+  },
+  "n2-vocab_reading-211": {
+    "sentence": "トラックに荷物を《積む》作業は夕方までかかった。",
+    "target": "次ぐ",
+    "in_brackets": "積む"
+  },
+  "n2-vocab_reading-212": {
+    "sentence": "《公衆》の前で話すのは、とても緊張する。",
+    "target": "積む",
+    "in_brackets": "公衆"
+  },
+  "n2-vocab_reading-213": {
+    "sentence": "セメントが《固まる》まで、二十四時間待たなければならない。",
+    "target": "公衆",
+    "in_brackets": "固まる"
+  },
+  "n2-vocab_reading-214": {
+    "sentence": "エアコンで部屋の温度を《調節》した。",
+    "target": "固まる",
+    "in_brackets": "調節"
+  },
+  "n2-vocab_reading-215": {
+    "sentence": "彼の助けが本当に《助かる》と思った。",
+    "target": "調節",
+    "in_brackets": "助かる"
+  },
+  "n2-vocab_reading-216": {
+    "sentence": "この地域では《果実》の栽培が盛んだ。",
+    "target": "助かる",
+    "in_brackets": "果実"
+  },
+  "n2-vocab_reading-217": {
+    "sentence": "彼のスピーチは会場の《応援》を集めた。",
+    "target": "果実",
+    "in_brackets": "応援"
+  },
+  "n2-vocab_reading-218": {
+    "sentence": "天井から電気を《吊す》ために、工事を頼んだ。",
+    "target": "応援",
+    "in_brackets": "吊す"
+  },
+  "n2-vocab_reading-219": {
+    "sentence": "昨夜、友達と《演劇》を観に行った。",
+    "target": "吊す",
+    "in_brackets": "演劇"
+  },
+  "n2-vocab_reading-220": {
+    "sentence": "この車は《性能》が良いので、長距離の運転に向いている。",
+    "target": "演劇",
+    "in_brackets": "性能"
+  },
+  "n2-vocab_reading-221": {
+    "sentence": "現在の政治《体制》について議論が行われている。",
+    "target": "性能",
+    "in_brackets": "体制"
+  },
+  "n2-vocab_reading-222": {
+    "sentence": "前の車を《追い越す》ときは、スピードに注意してください。",
+    "target": "体制",
+    "in_brackets": "追い越す"
+  },
+  "n2-vocab_reading-223": {
+    "sentence": "環境問題への《対策》が急務となっている。",
+    "target": "追い越す",
+    "in_brackets": "対策"
+  },
+  "n2-vocab_reading-224": {
+    "sentence": "彼は仕事の《中途》で辞めてしまった。",
+    "target": "対策",
+    "in_brackets": "中途"
+  },
+  "n2-vocab_reading-225": {
+    "sentence": "彼の成長が《頼もしい》と感じる。",
+    "target": "中途",
+    "in_brackets": "頼もしい"
+  },
+  "n2-vocab_reading-226": {
+    "sentence": "この仕事には《高度》な専門知識が必要だ。",
+    "target": "頼もしい",
+    "in_brackets": "高度"
+  },
+  "n2-vocab_reading-227": {
+    "sentence": "稲刈りの季節、村の《田ぼ》は黄金色に染まる。",
+    "target": "高度",
+    "in_brackets": "田ぼ"
+  },
+  "n2-vocab_reading-228": {
+    "sentence": "偶然の《出合い》がきっかけで、二人は結婚した。",
+    "target": "田ぼ",
+    "in_brackets": "出合い"
+  },
+  "n2-vocab_reading-229": {
+    "sentence": "抽選で当たった《賞品》は、旅行券だった。",
+    "target": "出合い",
+    "in_brackets": "賞品"
+  },
+  "n2-vocab_reading-230": {
+    "sentence": "工場の《倉庫》には、製品が山積みになっている。",
+    "target": "賞品",
+    "in_brackets": "倉庫"
+  },
+  "n2-vocab_reading-231": {
+    "sentence": "彼の言動に《心当たり》がないか、よく考えてみた。",
+    "target": "倉庫",
+    "in_brackets": "心当たり"
+  },
+  "n2-vocab_reading-232": {
+    "sentence": "この辺りは《耕地》が広がる田園地帯だ。",
+    "target": "心当たり",
+    "in_brackets": "耕地"
+  },
+  "n2-vocab_reading-233": {
+    "sentence": "《近々》新しい店をオープンする予定だ。",
+    "target": "耕地",
+    "in_brackets": "近々"
+  },
+  "n2-vocab_reading-234": {
+    "sentence": "このクーポンは全国の店舗で《通用》する。",
+    "target": "近々",
+    "in_brackets": "通用"
+  },
+  "n2-vocab_reading-235": {
+    "sentence": "彼は《学力》試験で一番いい成績を取った。",
+    "target": "通用",
+    "in_brackets": "学力"
+  },
+  "n2-vocab_reading-236": {
+    "sentence": "セーターが洗濯で《縮む》のを防ぐために、ネットに入れた。",
+    "target": "学力",
+    "in_brackets": "縮む"
+  },
+  "n2-vocab_reading-237": {
+    "sentence": "机の上に書類が《溜まる》ので、週末に片付けている。",
+    "target": "縮む",
+    "in_brackets": "溜まる"
+  },
+  "n2-vocab_reading-238": {
+    "sentence": "井戸から水を《汲む》のは重労働だ。",
+    "target": "溜まる",
+    "in_brackets": "汲む"
+  },
+  "n2-vocab_reading-239": {
+    "sentence": "道路にはいろいろな交通《記号》が設置されている。",
+    "target": "汲む",
+    "in_brackets": "記号"
+  },
+  "n2-vocab_reading-240": {
+    "sentence": "《明け方》になると、鳥のさえずりが聞こえてくる。",
+    "target": "記号",
+    "in_brackets": "明け方"
+  },
+  "n2-vocab_reading-241": {
+    "sentence": "その島には活《火山》がある。",
+    "target": "明け方",
+    "in_brackets": "火山"
+  },
+  "n2-vocab_reading-242": {
+    "sentence": "台風で屋根の《瓦》が何枚か飛ばされてしまった。",
+    "target": "火山",
+    "in_brackets": "瓦"
+  },
+  "n2-vocab_reading-243": {
+    "sentence": "SNSでの《繋がり》を大切にしている。",
+    "target": "瓦",
+    "in_brackets": "繋がり"
+  },
+  "n2-vocab_reading-244": {
+    "sentence": "その地域では《飢饉》により多くの人が苦しんだ。",
+    "target": "繋がり",
+    "in_brackets": "飢饉"
+  },
+  "n2-vocab_reading-245": {
+    "sentence": "彼は会社の《重役》にまで昇進した。",
+    "target": "飢饉",
+    "in_brackets": "重役"
+  },
+  "n2-vocab_reading-246": {
+    "sentence": "旅館の部屋には《草履》が並べてあった。",
+    "target": "重役",
+    "in_brackets": "草履"
+  },
+  "n2-vocab_reading-247": {
+    "sentence": "申込書に《姓》と名前を記入してください。",
+    "target": "草履",
+    "in_brackets": "姓"
+  },
+  "n2-vocab_reading-248": {
+    "sentence": "二つの橋を《繋げる》工事が来月から始まる。",
+    "target": "姓",
+    "in_brackets": "繋げる"
+  },
+  "n2-vocab_reading-249": {
+    "sentence": "さまざまな《角度》から問題を検討する必要がある。",
+    "target": "繋げる",
+    "in_brackets": "角度"
+  },
+  "n2-vocab_reading-250": {
+    "sentence": "点と点を結んで《直線》を引いてください。",
+    "target": "角度",
+    "in_brackets": "直線"
+  },
+  "n2-vocab_reading-251": {
+    "sentence": "彼は重い荷物を《担ぐ》のが得意だ。",
+    "target": "直線",
+    "in_brackets": "担ぐ"
+  },
+  "n2-vocab_reading-252": {
+    "sentence": "庭の《手入れ》をしないと、草が伸び放題になる。",
+    "target": "担ぐ",
+    "in_brackets": "手入れ"
+  },
+  "n2-vocab_reading-253": {
+    "sentence": "新製品の《売行き》は非常に好調だ。",
+    "target": "手入れ",
+    "in_brackets": "売行き"
+  },
+  "n2-vocab_reading-254": {
+    "sentence": "《車庫》に車をしまってから、家に入った。",
+    "target": "売行き",
+    "in_brackets": "車庫"
+  },
+  "n2-vocab_reading-255": {
+    "sentence": "彼の意見は予想に《反る》結果となった。",
+    "target": "車庫",
+    "in_brackets": "反る"
+  },
+  "n2-vocab_reading-256": {
+    "sentence": "電灯を《点ける》と、部屋が明るくなった。",
+    "target": "反る",
+    "in_brackets": "点ける"
+  },
+  "n2-vocab_reading-257": {
+    "sentence": "この《地名》の由来について調べてみた。",
+    "target": "点ける",
+    "in_brackets": "地名"
+  },
+  "n2-vocab_reading-258": {
+    "sentence": "水が日光で《蒸発》する様子を観察した。",
+    "target": "地名",
+    "in_brackets": "蒸発"
+  },
+  "n2-vocab_reading-259": {
+    "sentence": "線をまっすぐ引くには《定規》を使うと便利だ。",
+    "target": "蒸発",
+    "in_brackets": "定規"
+  },
+  "n2-vocab_reading-260": {
+    "sentence": "彼は《頭脳》明晰で、難しい問題も即座に解決する。",
+    "target": "定規",
+    "in_brackets": "頭脳"
+  },
+  "n2-vocab_reading-261": {
+    "sentence": "古い習慣を《改める》必要があると感じた。",
+    "target": "頭脳",
+    "in_brackets": "改める"
+  },
+  "n2-vocab_reading-262": {
+    "sentence": "店の《看板》は目立つ場所に設置されている。",
+    "target": "改める",
+    "in_brackets": "看板"
+  },
+  "n2-vocab_reading-263": {
+    "sentence": "《短期》間で語学力を上げるのは難しい。",
+    "target": "看板",
+    "in_brackets": "短期"
+  },
+  "n2-vocab_reading-264": {
+    "sentence": "赤ちゃんにあまり《近付ける》と、驚かせてしまうよ。",
+    "target": "短期",
+    "in_brackets": "近付ける"
+  },
+  "n2-vocab_reading-265": {
+    "sentence": "彼女はピアノ以外にもいくつか《楽器》を演奏できる。",
+    "target": "近付ける",
+    "in_brackets": "楽器"
+  },
+  "n2-vocab_reading-266": {
+    "sentence": "このテーマに関する《書籍》を何冊か購入した。",
+    "target": "楽器",
+    "in_brackets": "書籍"
+  },
+  "n2-vocab_reading-267": {
+    "sentence": "そのことは私も《存じる》ています。",
+    "target": "書籍",
+    "in_brackets": "存じる"
+  },
+  "n2-vocab_reading-268": {
+    "sentence": "このアパートは《出入り》が自由で、鍵もかかっていない。",
+    "target": "存じる",
+    "in_brackets": "出入り"
+  },
+  "n2-vocab_reading-269": {
+    "sentence": "昔ながらの《算盤》を使って計算する職人もいる。",
+    "target": "出入り",
+    "in_brackets": "算盤"
+  },
+  "n2-vocab_reading-270": {
+    "sentence": "《以後》は気をつけて行動するように言われた。",
+    "target": "算盤",
+    "in_brackets": "以後"
+  },
+  "n2-vocab_reading-271": {
+    "sentence": "《第一》に安全を考えて行動してください。",
+    "target": "以後",
+    "in_brackets": "第一"
+  },
+  "n2-vocab_reading-272": {
+    "sentence": "ズボンの丈を《縮める》ように仕立て屋に頼んだ。",
+    "target": "第一",
+    "in_brackets": "縮める"
+  },
+  "n2-vocab_reading-273": {
+    "sentence": "このマンションは《都心》に位置しているので、通勤に便利だ。",
+    "target": "縮める",
+    "in_brackets": "都心"
+  },
+  "n2-vocab_reading-274": {
+    "sentence": "この箱の《体積》を計算してください。",
+    "target": "都心",
+    "in_brackets": "体積"
+  },
+  "n2-vocab_reading-275": {
+    "sentence": "朝の《体操》は体を目覚めさせるのに効果的だ。",
+    "target": "体積",
+    "in_brackets": "体操"
+  },
+  "n2-vocab_reading-276": {
+    "sentence": "今月の《中旬》に中間試験が行われる。",
+    "target": "体操",
+    "in_brackets": "中旬"
+  },
+  "n2-vocab_reading-277": {
+    "sentence": "この部品は新しいものと《代える》ことができます。",
+    "target": "中旬",
+    "in_brackets": "代える"
+  },
+  "n2-vocab_reading-278": {
+    "sentence": "彼の予想は《的確》で、よく当たる。",
+    "target": "代える",
+    "in_brackets": "的確"
+  },
+  "n2-vocab_reading-279": {
+    "sentence": "この回路には強い《電流》が流れている。",
+    "target": "的確",
+    "in_brackets": "電流"
+  },
+  "n2-vocab_reading-280": {
+    "sentence": "シマウマの《縞》模様は個体によって異なる。",
+    "target": "電流",
+    "in_brackets": "縞"
+  },
+  "n2-vocab_reading-281": {
+    "sentence": "彼の意見は《大して》重要ではないと思う。",
+    "target": "縞",
+    "in_brackets": "大して"
+  },
+  "n2-vocab_reading-282": {
+    "sentence": "彼女の《長所》は、どんな状況でも冷静さを失わないことだ。",
+    "target": "大して",
+    "in_brackets": "長所"
+  },
+  "n2-vocab_reading-283": {
+    "sentence": "日が《照る》うちに洗濯物を外に干そう。",
+    "target": "長所",
+    "in_brackets": "照る"
+  },
+  "n2-vocab_reading-284": {
+    "sentence": "水彩画を描くために《絵の具》を買いに行った。",
+    "target": "照る",
+    "in_brackets": "絵の具"
+  },
+  "n2-vocab_reading-285": {
+    "sentence": "最近、この地域では《盗難》事件が増えている。",
+    "target": "絵の具",
+    "in_brackets": "盗難"
+  },
+  "n2-vocab_reading-286": {
+    "sentence": "彼は駅で《立ち止まる》と、何かを考え込んだ。",
+    "target": "盗難",
+    "in_brackets": "立ち止まる"
+  },
+  "n2-vocab_reading-287": {
+    "sentence": "身近な例を《例える》と、わかりやすい説明になる。",
+    "target": "立ち止まる",
+    "in_brackets": "例える"
+  },
+  "n2-vocab_reading-288": {
+    "sentence": "不況により、多くの企業が事業を《縮小》している。",
+    "target": "例える",
+    "in_brackets": "縮小"
+  },
+  "n2-vocab_reading-289": {
+    "sentence": "冬の夜、外で《凍える》ほど寒かった。",
+    "target": "縮小",
+    "in_brackets": "凍える"
+  },
+  "n2-vocab_reading-290": {
+    "sentence": "明日、出張で大阪に《発つ》予定だ。",
+    "target": "凍える",
+    "in_brackets": "発つ"
+  },
+  "n2-vocab_reading-291": {
+    "sentence": "彼は《素人》ながらも、素晴らしい作品を完成させた。",
+    "target": "発つ",
+    "in_brackets": "素人"
+  },
+  "n2-vocab_reading-292": {
+    "sentence": "話が本題から《逸れる》ので、元に戻しましょう。",
+    "target": "素人",
+    "in_brackets": "逸れる"
+  },
+  "n2-vocab_reading-293": {
+    "sentence": "廊下の《突き当たり》にトイレがあります。",
+    "target": "逸れる",
+    "in_brackets": "突き当たり"
+  },
+  "n2-vocab_reading-294": {
+    "sentence": "試験の《点数》が思ったより悪かったので、落ち込んだ。",
+    "target": "突き当たり",
+    "in_brackets": "点数"
+  },
+  "n2-vocab_reading-295": {
+    "sentence": "申込書に《氏名》を記入する欄がある。",
+    "target": "点数",
+    "in_brackets": "氏名"
+  },
+  "n2-vocab_reading-296": {
+    "sentence": "原稿の《下書き》ができたので、先生に見てもらった。",
+    "target": "氏名",
+    "in_brackets": "下書き"
+  },
+  "n2-vocab_reading-297": {
+    "sentence": "今日はどこにも《出掛ける》ずに、家で本を読んでいた。",
+    "target": "下書き",
+    "in_brackets": "出掛ける"
+  },
+  "n2-vocab_reading-298": {
+    "sentence": "日本語の動詞には《送り仮名》がつく。",
+    "target": "出掛ける",
+    "in_brackets": "送り仮名"
+  },
+  "n2-vocab_reading-299": {
+    "sentence": "暑いので、うちわで《扇ぐ》と涼しくなる。",
+    "target": "送り仮名",
+    "in_brackets": "扇ぐ"
+  },
+  "n2-vocab_reading-0302": {
+    "sentence": "彼は子供の頃よく災難に《遭った》ものだ。",
+    "target": "遭う",
+    "in_brackets": "遭った"
+  },
+  "n2-vocab_reading-0307": {
+    "sentence": "彼は具体例を《挙げて》わかりやすく説明した。",
+    "target": "挙げる",
+    "in_brackets": "挙げて"
+  },
+  "n2-vocab_reading-0308": {
+    "sentence": "彼女は子供の頃から芸術家に《憧れて》いた。",
+    "target": "憧れる",
+    "in_brackets": "憧れて"
+  },
+  "n2-vocab_reading-0315": {
+    "sentence": "酔っ払った男が駅前で《暴れて》いて、警察が駆けつけた。",
+    "target": "暴れる",
+    "in_brackets": "暴れて"
+  },
+  "n2-vocab_reading-0325": {
+    "sentence": "彼は若い頃に多くの小説を《著した》ことで知られている。",
+    "target": "著す",
+    "in_brackets": "著した"
+  },
+  "n2-vocab_reading-0329": {
+    "sentence": "彼が突然その話を《言い出した》ので、みんな驚いた。",
+    "target": "言い出す",
+    "in_brackets": "言い出した"
+  },
+  "n2-vocab_reading-0351": {
+    "sentence": "彼は後輩の前でいつも《威張って》いるから嫌われる。",
+    "target": "威張る",
+    "in_brackets": "威張って"
+  },
+  "n2-vocab_reading-0358": {
+    "sentence": "長い冬の間、人々は食べ物に《飢えた》。",
+    "target": "飢える",
+    "in_brackets": "飢えた"
+  },
+  "n2-vocab_reading-0360": {
+    "sentence": "彼女は満足そうな笑みを口元に《浮かべた》。",
+    "target": "浮かべる",
+    "in_brackets": "浮かべた"
+  },
+  "n2-vocab_reading-0362": {
+    "sentence": "お客様からのご要望を確かに《承りました》。",
+    "target": "承る",
+    "in_brackets": "承りました"
+  },
+  "n2-vocab_reading-0366": {
+    "sentence": "この洗剤は水で《薄めて》から使ってください。",
+    "target": "薄める",
+    "in_brackets": "薄めて"
+  },
+  "n2-vocab_reading-0371": {
+    "sentence": "この写真には遠くの山がきれいに《写って》いる。",
+    "target": "写る",
+    "in_brackets": "写って"
+  },
+  "n2-vocab_reading-0372": {
+    "sentence": "彼女の姿が窓ガラスに《映った》。",
+    "target": "映る",
+    "in_brackets": "映った"
+  },
+  "n2-vocab_reading-0376": {
+    "sentence": "布団を乾かすために、《裏返して》干した。",
+    "target": "裏返す",
+    "in_brackets": "裏返して"
+  },
+  "n2-vocab_reading-0385": {
+    "sentence": "新発売のゲームソフトはすぐに《売り切れた》。",
+    "target": "売り切れる",
+    "in_brackets": "売り切れた"
+  },
+  "n2-vocab_reading-0398": {
+    "sentence": "安全確認を《怠ると》、大事故につながる恐れがある。",
+    "target": "怠る",
+    "in_brackets": "怠ると"
+  },
+  "n2-vocab_reading-0404": {
+    "sentence": "彼から多くのことを《教わった》。",
+    "target": "教わる",
+    "in_brackets": "教わった"
+  },
+  "n2-vocab_reading-0409": {
+    "sentence": "後ろから大声を出して彼を《驚かした》。",
+    "target": "驚かす",
+    "in_brackets": "驚かした"
+  },
+  "n2-vocab_reading-0414": {
+    "sentence": "彼は自分が正しいと《思い込んでいる》。",
+    "target": "思い込む",
+    "in_brackets": "思い込んでいる"
+  },
+  "n2-vocab_reading-0416": {
+    "sentence": "解決策をすぐに《思い付いた》。",
+    "target": "思い付く",
+    "in_brackets": "思い付いた"
+  },
+  "n2-vocab_reading-0473": {
+    "sentence": "机の上がやっと《片付》いた。",
+    "target": "片付く",
+    "in_brackets": "片付"
+  },
+  "n2-vocab_reading-0476": {
+    "sentence": "栄養が《片寄》らないようにバランスよく食べよう。",
+    "target": "片寄る",
+    "in_brackets": "片寄"
+  },
+  "n2-vocab_reading-0488": {
+    "sentence": "このカフェは喫茶店と本屋を《兼ね》ている。",
+    "target": "兼ねる",
+    "in_brackets": "兼ね"
+  },
+  "n2-vocab_reading-0490": {
+    "sentence": "料理に蓋を《被せ》てしばらく蒸らした。",
+    "target": "被せる",
+    "in_brackets": "被せ"
+  },
+  "n2-vocab_reading-0557": {
+    "sentence": "地震の揺れで棚の上の本が《崩れ》て、足の上に落ちてきた。",
+    "target": "崩れる",
+    "in_brackets": "崩れ"
+  },
+  "n2-vocab_reading-0558": {
+    "sentence": "氷を《砕い》て冷たい飲み物に入れると、すぐに冷えて美味しい。",
+    "target": "砕く",
+    "in_brackets": "砕い"
+  },
+  "n2-vocab_reading-0559": {
+    "sentence": "窓ガラスに石が当たって、ひび割れから粉々に《砕け》た。",
+    "target": "砕ける",
+    "in_brackets": "砕け"
+  },
+  "n2-vocab_reading-0560": {
+    "sentence": "船で川を《下》って三日目に目的地に着いた。",
+    "target": "下る",
+    "in_brackets": "下"
+  },
+  "n2-vocab_reading-0562": {
+    "sentence": "先生が教室でテスト用紙を一人ずつ《配》った。",
+    "target": "配る",
+    "in_brackets": "配"
+  },
+  "n2-vocab_reading-0566": {
+    "sentence": "日曜日に子供と一緒に本棚を《組み立て》た。",
+    "target": "組み立てる",
+    "in_brackets": "組み立て"
+  },
+  "n2-vocab_reading-0567": {
+    "sentence": "相手の事情も《酌》んであげなければならない。",
+    "target": "酌む",
+    "in_brackets": "酌"
+  },
+  "n2-vocab_reading-0569": {
+    "sentence": "彼はあの時もっと早く決断しなかったことを《悔や》んでいる。",
+    "target": "悔やむ",
+    "in_brackets": "悔や"
+  },
+  "n2-vocab_reading-0570": {
+    "sentence": "彼はタバコを《咥》えたまま人と話すのが癖だ。",
+    "target": "咥える",
+    "in_brackets": "咥"
+  },
+  "n2-vocab_reading-0587": {
+    "sentence": "彼はナイフで鉛筆を丁寧に《削》った。",
+    "target": "削る",
+    "in_brackets": "削"
+  },
+  "n2-vocab_reading-0636": {
+    "sentence": "トーストを《焦がし》てしまい、台所中に煙が充満した。",
+    "target": "焦がす",
+    "in_brackets": "焦がし"
+  },
+  "n2-vocab_reading-0639": {
+    "sentence": "ケーキが《焦げ》ないようにオーブンの温度に注意した。",
+    "target": "焦げる",
+    "in_brackets": "焦げ"
+  },
+  "n2-vocab_reading-0648": {
+    "sentence": "彼に「また後で連絡する」と《言付けて》いただけませんか。",
+    "target": "言付ける",
+    "in_brackets": "言付けて"
+  },
+  "n2-vocab_reading-0651": {
+    "sentence": "涙が彼女の頬を伝って静かに《零れた》。",
+    "target": "零れる",
+    "in_brackets": "零れた"
+  },
+  "n2-vocab_reading-0656": {
+    "sentence": "子供がボールを楽しそうに《転がし》て遊んでいる。",
+    "target": "転がす",
+    "in_brackets": "転がし"
+  },
+  "n2-vocab_reading-0657": {
+    "sentence": "ボールが坂道を勢いよく《転がっ》ていった。",
+    "target": "転がる",
+    "in_brackets": "転がっ"
+  },
+  "n2-vocab_reading-0667": {
+    "sentence": "財布を落としたので、あちこち《捜して》いる。",
+    "target": "捜す",
+    "in_brackets": "捜して"
+  },
+  "n2-vocab_reading-0677": {
+    "sentence": "彼女は彼の耳元で何かを《囁いた》。",
+    "target": "囁く",
+    "in_brackets": "囁いた"
+  },
+  "n2-vocab_reading-0678": {
+    "sentence": "指にとげが《刺さっ》て痛い。",
+    "target": "刺さる",
+    "in_brackets": "刺さっ"
+  },
+  "n2-vocab_reading-0681": {
+    "sentence": "収入から支出を《差し引い》た残りが今月の貯金だ。",
+    "target": "差し引き",
+    "in_brackets": "差し引い"
+  },
+  "n2-vocab_reading-0683": {
+    "sentence": "蜂に《刺さ》れないように注意してください。",
+    "target": "刺す",
+    "in_brackets": "刺さ"
+  },
+  "n2-vocab_reading-0684": {
+    "sentence": "彼女は花瓶に水を《注し》て生花を生けた。",
+    "target": "注す",
+    "in_brackets": "注し"
+  },
+  "n2-vocab_reading-0685": {
+    "sentence": "朝日が窓から部屋に優しく《射し》込んでいる。",
+    "target": "射す",
+    "in_brackets": "射し"
+  },
+  "n2-vocab_reading-0693": {
+    "sentence": "スープが《冷め》ないうちに早く食べてください。",
+    "target": "冷める",
+    "in_brackets": "冷め"
+  },
+  "n2-vocab_reading-0697": {
+    "sentence": "工事現場の近くは一日中《騒がしく》て、勉強に集中できない。",
+    "target": "騒がしい",
+    "in_brackets": "騒がしく"
+  },
+  "n2-vocab_reading-0711": {
+    "sentence": "庭の木々が《茂り》すぎて、日当たりが悪くなってしまった。",
+    "target": "茂る",
+    "in_brackets": "茂り"
+  },
+  "n2-vocab_reading-0717": {
+    "sentence": "夜が更けるにつれて、街の騒音も次第に《静まって》きた。",
+    "target": "静まる",
+    "in_brackets": "静まって"
+  },
+  "n2-vocab_reading-0737": {
+    "sentence": "スポンジをしっかり《絞っ》てから、机を拭いてください。",
+    "target": "絞る",
+    "in_brackets": "絞っ"
+  },
+  "n2-vocab_reading-0741": {
+    "sentence": "雨の日は洗濯物が《湿って》しまい、乾きにくい。",
+    "target": "湿る",
+    "in_brackets": "湿って"
+  },
+  "n2-vocab_reading-0791": {
+    "sentence": "《消防署》では二十四時間体制で消防士が待機している。",
+    "target": "小便",
+    "in_brackets": "消防署"
+  },
+  "n2-vocab_reading-0792": {
+    "sentence": "長くなりましたので、詳細な説明は《省略》させていただきます。",
+    "target": "消防署",
+    "in_brackets": "省略"
+  },
+  "n2-vocab_reading-0895": {
+    "sentence": "この新しい体育館は最新の空調設備を《具え》ている。",
+    "target": "具える",
+    "in_brackets": "具え"
+  },
+  "n2-vocab_reading-0899": {
+    "sentence": "子どもたちは新しいノートを机の上にきちんと《揃えた》。",
+    "target": "揃える",
+    "in_brackets": "揃えた"
+  },
+  "n2-vocab_reading-0900": {
+    "sentence": "その点につきましては、私もそう《存じます》。",
+    "target": "存ずる",
+    "in_brackets": "存じます"
+  },
+  "n2-vocab_reading-0922": {
+    "sentence": "使い終わったら折りたたみ傘をきちんと《畳んで》ください。",
+    "target": "畳む",
+    "in_brackets": "畳んで"
+  },
+  "n2-vocab_reading-0943": {
+    "sentence": "彼は手紙を読んだ後、怒ってびりびりに《千切った》。",
+    "target": "千切る",
+    "in_brackets": "千切った"
+  },
+  "n2-vocab_reading-0948": {
+    "sentence": "秋が深まると公園の葉っぱが《茶色く》変わっていく。",
+    "target": "茶色い",
+    "in_brackets": "茶色く"
+  },
+  "n2-vocab_reading-0951": {
+    "sentence": "この画家の作品は非常に《抽象的》で、見る人によって解釈が異なる。",
+    "target": "抽象",
+    "in_brackets": "抽象的"
+  },
+  "n2-vocab_reading-0970": {
+    "sentence": "机の上に書類が《散らかって》いて、必要な書類がすぐに見つからない。",
+    "target": "散らかる",
+    "in_brackets": "散らかって"
+  },
+  "n2-vocab_reading-0971": {
+    "sentence": "強い風が雲を《散らし》て、青空が広がってきた。",
+    "target": "散らす",
+    "in_brackets": "散らし"
+  },
+  "n2-vocab_reading-0973": {
+    "sentence": "桜の花びらが風に舞いながら、美しく《散って》いった。",
+    "target": "散る",
+    "in_brackets": "散って"
+  },
+  "n2-vocab_reading-0978": {
+    "sentence": "この抜け道は大通りに《通じて》いるので、渋滞を避けられる。",
+    "target": "通ずる",
+    "in_brackets": "通じて"
+  },
+  "n2-vocab_reading-0986": {
+    "sentence": "この酒蔵では昔ながらの伝統的な方法で日本酒を《造って》いる。",
+    "target": "造る",
+    "in_brackets": "造って"
+  },
+  "n2-vocab_reading-0987": {
+    "sentence": "梅酒を作るには、梅をホワイトリカーに《浸けて》数か月間熟成させる必要がある。",
+    "target": "浸ける",
+    "in_brackets": "浸けて"
+  },
+  "n2-vocab_reading-1184": {
+    "sentence": "航空券のキャンセルをしたら、手数料を引いた金額が《払い戻さ》れた。",
+    "target": "払い戻す",
+    "in_brackets": "払い戻さ"
+  },
+  "n2-vocab_reading-1186": {
+    "sentence": "試験に向けて《張り切って》勉強しているが、体調を崩さないように気をつけたい。",
+    "target": "張り切る",
+    "in_brackets": "張り切って"
+  },
+  "n2-vocab_reading-1199": {
+    "sentence": "彼は難しいプロジェクトを《引き受ける》ことに躊躇しなかった。",
+    "target": "引受る",
+    "in_brackets": "引き受ける"
+  },
+  "n2-vocab_reading-1200": {
+    "sentence": "途中で道を間違えたので、来た道を《引き返す》ことにした。",
+    "target": "引返す",
+    "in_brackets": "引き返す"
+  },
+  "n2-vocab_reading-1202": {
+    "sentence": "銀行でお金を《引き出す》のに、身分証明書が必要だ。",
+    "target": "引出す",
+    "in_brackets": "引き出す"
+  },
+  "n2-vocab_reading-1203": {
+    "sentence": "友人が早く帰ろうとしたので、もう少しいてほしいと《引き止めた》。",
+    "target": "引き止める",
+    "in_brackets": "引き止めた"
+  },
+  "n2-vocab_reading-1208": {
+    "sentence": "セーターの袖がドアの取っ手に《引っ掛かって》、糸がほつれてしまった。",
+    "target": "引っ掛かる",
+    "in_brackets": "引っ掛かって"
+  },
+  "n2-vocab_reading-1210": {
+    "sentence": "子どもが走り回って、テーブルの上のコップを《引っ繰り返した》。",
+    "target": "引っ繰り返す",
+    "in_brackets": "引っ繰り返した"
+  },
+  "n2-vocab_reading-1223": {
+    "sentence": "この薬は一日の《日々》を決めて、決められた量を飲んでください。",
+    "target": "日日",
+    "in_brackets": "日々"
+  },
+  "n2-vocab_reading-1224": {
+    "sentence": "瓶の蓋が固くて、力を込めて《捻った》が、なかなか開かなかった。",
+    "target": "捻る",
+    "in_brackets": "捻った"
+  },
+  "n2-vocab_reading-1228": {
+    "sentence": "隣の部屋のテレビの音が《響いて》きて、勉強に集中できない。",
+    "target": "響く",
+    "in_brackets": "響いて"
+  },
+  "n2-vocab_reading-1239": {
+    "sentence": "テーブルの上に地図を《広げて》、旅行のルートを確認した。",
+    "target": "広げる",
+    "in_brackets": "広げて"
+  },
+  "n2-vocab_reading-1243": {
+    "sentence": "彼はボランティア活動を通して、地域交流の大切さを《広めている》。",
+    "target": "広める",
+    "in_brackets": "広めている"
+  },
+  "n2-vocab_reading-1247": {
+    "sentence": "貯金をしても利息がほとんどつかないので、なかなかお金が《殖えない》。",
+    "target": "殖える",
+    "in_brackets": "殖えない"
+  },
+  "n2-vocab_reading-1252": {
+    "sentence": "テーブルを濡れた布で《拭いて》から、乾いた布で改めて拭いた。",
+    "target": "拭く",
+    "in_brackets": "拭いて"
+  },
+  "n2-vocab_reading-1255": {
+    "sentence": "参加費には昼食代も《含まれている》ので、別途支払う必要はない。",
+    "target": "含める",
+    "in_brackets": "含まれている"
+  },
+  "n2-vocab_reading-1256": {
+    "sentence": "子供たちが風船を《膨らませよう》と、頬いっぱいに息を吸い込んだ。",
+    "target": "膨らます",
+    "in_brackets": "膨らませよう"
+  },
+  "n2-vocab_reading-1261": {
+    "sentence": "事故の影響で道路が《塞がって》いて、迂回しなければならなかった。",
+    "target": "塞がる",
+    "in_brackets": "塞がって"
+  },
+  "n2-vocab_reading-1278": {
+    "sentence": "投資を始めて、少しずつ資産を《殖やして》いきたいと考えている。",
+    "target": "殖やす",
+    "in_brackets": "殖やして"
+  },
+  "n2-vocab_reading-1384": {
+    "sentence": "昨夜は《蒸し暑く》て、なかなか眠れなかった。",
+    "target": "蒸し暑い",
+    "in_brackets": "蒸し暑く"
+  },
+  "n2-vocab_reading-1399": {
+    "sentence": "彼女は才能に《恵まれて》いるだけでなく、努力も惜しまない。",
+    "target": "恵まれる",
+    "in_brackets": "恵まれて"
+  },
+  "n2-vocab_reading-1401": {
+    "sentence": "彼は一流の料理人を《目指して》毎日修業を続けている。",
+    "target": "目指す",
+    "in_brackets": "目指して"
+  },
+  "n2-vocab_reading-1404": {
+    "sentence": "彼女は派手な服装でいつも《目立って》いる。",
+    "target": "目立つ",
+    "in_brackets": "目立って"
+  },
+  "n2-vocab_reading-1409": {
+    "sentence": "書類の整理が《面倒臭くて》なかなか始められない。",
+    "target": "面倒臭い",
+    "in_brackets": "面倒臭くて"
+  },
+  "n2-vocab_reading-1411": {
+    "sentence": "彼は株の取引で大金を《儲けた》そうだ。",
+    "target": "儲ける",
+    "in_brackets": "儲けた"
+  },
+  "n2-vocab_reading-1415": {
+    "sentence": "海に《潜って》美しい珊瑚礁を見てみたい。",
+    "target": "潜る",
+    "in_brackets": "潜って"
+  },
+  "n2-vocab_reading-1419": {
+    "sentence": "この古い写真は、家族の長い歴史を《物語って》いる。",
+    "target": "物語る",
+    "in_brackets": "物語って"
+  },
+  "n2-vocab_reading-1422": {
+    "sentence": "肩が凝ったので、母に《揉んで》もらったら楽になった。",
+    "target": "揉む",
+    "in_brackets": "揉んで"
+  },
+  "n2-vocab_reading-1441": {
+    "sentence": "古くなったズボンの膝部分が《破れて》しまった。",
+    "target": "破れる",
+    "in_brackets": "破れて"
+  },
+  "n2-vocab_reading-1442": {
+    "sentence": "このパンはとても《軟らかくて》、まるでスポンジのようだ。",
+    "target": "軟らかい",
+    "in_brackets": "軟らかくて"
+  },
+  "n2-vocab_reading-1473": {
+    "sentence": "白いシャツにコーヒーをこぼして《汚して》しまった。",
+    "target": "汚す",
+    "in_brackets": "汚して"
+  },
+  "n2-vocab_reading-1474": {
+    "sentence": "机を壁に《寄せて》部屋を広く使っている。",
+    "target": "寄せる",
+    "in_brackets": "寄せて"
+  },
+  "n2-vocab_kanji-919": {
+    "sentence": "細い金属の棒を無理に《まげると》、折れてしまう可能性がある。",
+    "target": "まげる",
+    "in_brackets": "まげると"
+  }
+}

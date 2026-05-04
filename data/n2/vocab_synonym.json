@@ -386,7 +386,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "注文していた洋服が、ようやく《仕上がった》。",
-      "target": "仕上がる",
+      "target": "仕上がった",
       "options": [
         "完成した",
         "始まった",
@@ -710,7 +710,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "パンを焼きすぎて、真っ黒に《焦がして》しまった。",
-      "target": "焦がす",
+      "target": "焦がして",
       "options": [
         "焼いて黒くする",
         "白く洗う",
@@ -962,7 +962,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "夜になると、街はしんと《静まった》。",
-      "target": "静まる",
+      "target": "静まった",
       "options": [
         "静かになった",
         "にぎやかになった",
@@ -980,7 +980,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "社会人としてのマナーを十分に《心得て》いる。",
-      "target": "心得る",
+      "target": "心得て",
       "options": [
         "理解して",
         "忘れて",
@@ -998,7 +998,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "不注意で服を《汚して》しまった。",
-      "target": "汚す",
+      "target": "汚して",
       "options": [
         "汚くして",
         "きれいに洗って",
@@ -1016,7 +1016,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼の话はいつも《脱线》する。",
-      "target": "脱線",
+      "target": "脱线",
       "options": [
         "本筋からそれる",
         "非常に面白い",
@@ -1034,7 +1034,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "車に《気を付けて》渡ってください。",
-      "target": "気を付ける",
+      "target": "気を付けて",
       "options": [
         "注意して",
         "安心して",
@@ -1088,7 +1088,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この問題を《巡って》、激しい議論が交わされた。",
-      "target": "巡る",
+      "target": "巡って",
       "options": [
         "関して",
         "避けて",
@@ -1177,7 +1177,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "野菜を水に《浸けて》おく。",
-      "target": "浸ける",
+      "target": "浸けて",
       "options": [
         "中に入れる",
         "外に出す",
@@ -1267,7 +1267,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "会議が予定より《長引いて》しまった。",
-      "target": "長引く",
+      "target": "長引いて",
       "options": [
         "時間がかかる",
         "早く終わる",
@@ -1519,7 +1519,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼の表情が苦労を《物語って》いる。",
-      "target": "物語る",
+      "target": "物語って",
       "options": [
         "表している",
         "隠している",
@@ -1555,7 +1555,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "部屋を《散らかして》はいけません。",
-      "target": "散らかす",
+      "target": "散らかして",
       "options": [
         "汚く広げる",
         "きれいに片付ける",
@@ -1627,7 +1627,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "今、若者の間でこの歌が《流行って》いる。",
-      "target": "流行る",
+      "target": "流行って",
       "options": [
         "人気がある",
         "嫌われている",
@@ -1663,7 +1663,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "外が《騒々しく》て、眠れない。",
-      "target": "騒々しい",
+      "target": "騒々しく",
       "options": [
         "うるさくて",
         "静かで",
@@ -1771,7 +1771,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "自分の可能性を《信じて》進む。",
-      "target": "信ずる",
+      "target": "信じて",
       "options": [
         "疑わない",
         "疑う",
@@ -2041,7 +2041,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "太陽が水平線に《沈んで》いく。",
-      "target": "沈む",
+      "target": "沈んで",
       "options": [
         "下に落ちていく",
         "上に昇っていく",
@@ -2491,7 +2491,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "平和な社会で《ある》ことを願う。",
-      "target": "在る",
+      "target": "ある",
       "options": [
         "存在する",
         "消える",
@@ -2617,7 +2617,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "海面にきれいな貝殻が《浮んで》いる。",
-      "target": "浮ぶ",
+      "target": "浮んで",
       "options": [
         "浮いている",
         "沈んでいる",
@@ -2653,7 +2653,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "早く病気を《治して》ください。",
-      "target": "治す",
+      "target": "治して",
       "options": [
         "健康な状態に戻す",
         "悪くする",
@@ -2707,7 +2707,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "旅行中に大雨に《遭って》大変だった。",
-      "target": "遭う",
+      "target": "遭って",
       "options": [
         "（悪いことに）出会う",
         "避ける",
@@ -2761,7 +2761,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "パンが《焦げて》真っ黒になった。",
-      "target": "焦げる",
+      "target": "焦げて",
       "options": [
         "焼けて黒くなる",
         "溶ける",
@@ -3049,7 +3049,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "料理が《余って》しまったので、冷蔵庫に入れる。",
-      "target": "余る",
+      "target": "余って",
       "options": [
         "残る",
         "足りない",
@@ -3535,7 +3535,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "太陽が《照って》、外はとても暑い。",
-      "target": "照る",
+      "target": "照って",
       "options": [
         "光り輝く",
         "降る",
@@ -3571,7 +3571,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "大雨で崖が《崩れて》しまった。",
-      "target": "崩れる",
+      "target": "崩れて",
       "options": [
         "形が壊れる",
         "固まる",
@@ -3805,7 +3805,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "古い写真を見て、故郷が《懐かしく》なった。",
-      "target": "懐かしい",
+      "target": "懐かしく",
       "options": [
         "昔を思い出して愛おしい",
         "寂しい",
@@ -3841,7 +3841,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼の言いたいことがようやく《分かった》。",
-      "target": "分る",
+      "target": "分かった",
       "options": [
         "理解できた",
         "聞こえた",
@@ -3931,7 +3931,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "指にトゲが《刺さって》痛い。",
-      "target": "刺す",
+      "target": "刺さって",
       "options": [
         "突き抜ける",
         "切る",
@@ -3949,7 +3949,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "急用ができたので、別の人が《代わって》出席した。",
-      "target": "代る",
+      "target": "代わって",
       "options": [
         "交代する",
         "一緒にいく",
@@ -4093,7 +4093,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "湖の面に富士山が《映って》いる。",
-      "target": "映る",
+      "target": "映って",
       "options": [
         "反射して見える",
         "沈んでいる",
@@ -4345,7 +4345,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "予定がぎっしり《詰まって》いる。",
-      "target": "詰まる",
+      "target": "詰まって",
       "options": [
         "余裕がない状態",
         "空いている",
@@ -4543,7 +4543,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "コップから水が《零れた》。",
-      "target": "零れる",
+      "target": "零れた",
       "options": [
         "こぼれた",
         "増えた",
@@ -4687,7 +4687,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "料理が《出来上がった》。",
-      "target": "出来上がる",
+      "target": "出来上がった",
       "options": [
         "完成した",
         "始まった",
@@ -4795,7 +4795,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "事故の現場を《通り掛かった》。",
-      "target": "通り掛かる",
+      "target": "通り掛かった",
       "options": [
         "偶然そこを通る",
         "わざわざ行く",
@@ -4849,7 +4849,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "文章の《长短》を調節する。",
-      "target": "長短",
+      "target": "长短",
       "options": [
         "長いことと短いこと",
         "良いことと悪いこと",
@@ -5065,7 +5065,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "必要な書類がすべて《揃った》。",
-      "target": "揃う",
+      "target": "揃った",
       "options": [
         "全部集まる",
         "足りない",
@@ -5173,7 +5173,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "新聞の《投书》欄を読む。",
-      "target": "投書",
+      "target": "投书",
       "options": [
         "読者の意見を投稿すること",
         "広告",
@@ -5263,7 +5263,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この小説を英語に《訳した》。",
-      "target": "訳す",
+      "target": "訳した",
       "options": [
         "翻訳する",
         "書く",
@@ -5335,7 +5335,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "人気の限定商品はすぐに《売り切れた》。",
-      "target": "売り切れる",
+      "target": "売り切れた",
       "options": [
         "完売した",
         "安くなった",
@@ -5353,7 +5353,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "駅の近くに大きなマンションが《建った》。",
-      "target": "建つ",
+      "target": "建った",
       "options": [
         "建設された",
         "壊された",
@@ -5389,7 +5389,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "アイスクリームが暑さで《溶けて》しまった。",
-      "target": "溶ける",
+      "target": "溶けて",
       "options": [
         "液体になる",
         "固まる",
@@ -5479,7 +5479,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼はショックで顔が《青白く》なっていた。",
-      "target": "青白い",
+      "target": "青白く",
       "options": [
         "蒼白な",
         "真っ赤な",
@@ -5587,7 +5587,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "具体例を《挙げて》説明する。",
-      "target": "挙げる",
+      "target": "挙げて",
       "options": [
         "例を出す",
         "隠す",
@@ -5677,7 +5677,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "お風呂に入って体が《暖まった》。",
-      "target": "暖まる",
+      "target": "暖まった",
       "options": [
         "温かくなる",
         "冷たくなる",
@@ -5785,7 +5785,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "子供を《甘やかして》育てるのは良くない。",
-      "target": "甘やかす",
+      "target": "甘やかして",
       "options": [
         "厳しくしない",
         "厳しくする",
@@ -6019,7 +6019,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "先生に掃除を《言い付けられた》。",
-      "target": "言い付ける",
+      "target": "言い付けられた",
       "options": [
         "命令される",
         "相談される",
@@ -6487,7 +6487,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "世界には食べ物がなくて《飢えている》人がいる。",
-      "target": "飢える",
+      "target": "飢えている",
       "options": [
         "お腹が空いて苦しむ",
         "喉が渇く",
@@ -6523,7 +6523,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "池に蓮の花が《浮いている》。",
-      "target": "浮く",
+      "target": "浮いている",
       "options": [
         "浮上している",
         "沈んでいる",
@@ -6541,7 +6541,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ご注文を《承りました》。",
-      "target": "承る",
+      "target": "承りました",
       "options": [
         "引き受けた",
         "断った",
@@ -6559,7 +6559,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "このクラスの数学を《受け持っている》。",
-      "target": "受け持つ",
+      "target": "受け持っている",
       "options": [
         "担当する",
         "休む",
@@ -6631,7 +6631,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼はその噂を《打ち消した》。",
-      "target": "打ち消す",
+      "target": "打ち消した",
       "options": [
         "否定する",
         "認める",
@@ -6685,7 +6685,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この写真はきれいに《写っている》。",
-      "target": "写る",
+      "target": "写っている",
       "options": [
         "撮影されている",
         "汚れている",
@@ -7261,7 +7261,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《おおよそ》の金額を見積もる。",
-      "target": "大凡",
+      "target": "おおよそ",
       "options": [
         "だいたい",
         "正確な",
@@ -7351,7 +7351,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "努力を《怠って》はいけない。",
-      "target": "怠る",
+      "target": "怠って",
       "options": [
         "なまける",
         "続ける",
@@ -7441,7 +7441,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "父の兄は私にとって《伯父》だ。",
-      "target": "伯父さん",
+      "target": "伯父",
       "options": [
         "おじ",
         "おば",
@@ -7477,7 +7477,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "母の弟は私にとって《叔父》だ。",
-      "target": "叔父さん",
+      "target": "叔父",
       "options": [
         "おじ",
         "おば",
@@ -7513,7 +7513,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ようやく気持ちが《落着いた》。",
-      "target": "落着く",
+      "target": "落着いた",
       "options": [
         "冷静になる",
         "興奮する",
@@ -7585,7 +7585,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "後ろから声をかけて彼を《驚かした》。",
-      "target": "驚かす",
+      "target": "驚かした",
       "options": [
         "びっくりさせる",
         "喜ばせる",
@@ -7639,7 +7639,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼は自分が正しいと《思い込んでいる》。",
-      "target": "思い込む",
+      "target": "思い込んでいる",
       "options": [
         "信じて疑わない",
         "疑っている",
@@ -7675,7 +7675,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "良いアイデアを《思い付いた》。",
-      "target": "思い付く",
+      "target": "思い付いた",
       "options": [
         "ふと考える",
         "忘れる",
@@ -8251,7 +8251,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "言葉を音楽に《代えて》表現する。",
-      "target": "代える",
+      "target": "代えて",
       "options": [
         "置き換える",
         "変える",
@@ -8269,7 +8269,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "乾燥して板が《反って》しまった。",
-      "target": "反る",
+      "target": "反って",
       "options": [
         "曲がる",
         "折れる",
@@ -8341,7 +8341,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "漢字の《書取り》の練習をする。",
-      "target": "書取",
+      "target": "書取り",
       "options": [
         "ディクテーション",
         "読解",
@@ -8701,7 +8701,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "部屋を花で《飾る》。",
-      "target": "飾り",
+      "target": "飾る",
       "options": [
         "デコレーション",
         "掃除",
@@ -8935,7 +8935,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "部屋がようやく《片付いた》。",
-      "target": "片付く",
+      "target": "片付いた",
       "options": [
         "整理される",
         "汚れる",
@@ -8989,7 +8989,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "日柱が《傾いている》。",
-      "target": "傾く",
+      "target": "傾いている",
       "options": [
         "斜めになる",
         "真っ直ぐだ",
@@ -9007,7 +9007,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "考え方が《片寄っている》。",
-      "target": "片寄る",
+      "target": "片寄っている",
       "options": [
         "不公平だ",
         "正しい",
@@ -9205,7 +9205,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼は社長と会長を《兼ねている》。",
-      "target": "兼ねる",
+      "target": "兼ねている",
       "options": [
         "両方の役職を持つ",
         "片方だけやる",
@@ -9367,7 +9367,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "花が《枯れて》しまった。",
-      "target": "枯れる",
+      "target": "枯れて",
       "options": [
         "水分がなくなって死ぬ",
         "咲く",
@@ -9385,7 +9385,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "のどが《渇いた》ので水を飲む。",
-      "target": "渇く",
+      "target": "渇いた",
       "options": [
         "水分が欲しくなる",
         "お腹が空く",
@@ -9997,7 +9997,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "客を《客間》へ案内する。",
-      "target": "客间",
+      "target": "客間",
       "options": [
         "応接間",
         "寝室",
@@ -10177,7 +10177,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "美しい《曲線》を描く建物。",
-      "target": "曲线",
+      "target": "曲線",
       "options": [
         "カーブ",
         "直線",
@@ -10195,7 +10195,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《規律》正しい生活を送る。",
-      "target": "规律",
+      "target": "規律",
       "options": [
         "ルール",
         "適当",
@@ -10213,7 +10213,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "刀で竹を《斬る》。",
-      "target": "斩る",
+      "target": "斬る",
       "options": [
         "きる",
         "折る",
@@ -10447,7 +10447,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "落としたグラスが《砕けた》。",
-      "target": "砕ける",
+      "target": "砕けた",
       "options": [
         "壊れて細かくなる",
         "曲がる",
@@ -10573,7 +10573,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "酒を《酌み》交わす。",
-      "target": "酌む",
+      "target": "酌み",
       "options": [
         "つぐ",
         "飲む",
@@ -10627,7 +10627,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "タバコを口に《くわえる》。",
-      "target": "咥える",
+      "target": "くわえる",
       "options": [
         "口にはさむ",
         "食べる",
@@ -11383,7 +11383,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《高級》なホテルに泊まる。",
-      "target": "高级",
+      "target": "高級",
       "options": [
         "ハイグレード",
         "安い",
@@ -12013,7 +12013,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "長い間《御無沙汰》しておりました。",
-      "target": "御无沙汰",
+      "target": "御無沙汰",
       "options": [
         "連絡しないこと",
         "挨拶すること",
@@ -12103,7 +12103,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ボールが坂を《転がっていく》。",
-      "target": "転がる",
+      "target": "転がっていく",
       "options": [
         "ころがる",
         "飛ぶ",
@@ -12157,7 +12157,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "お茶を《冷まして》から飲む。",
-      "target": "冷ます",
+      "target": "冷まして",
       "options": [
         "温度を下げる",
         "温める",
@@ -12319,7 +12319,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "川を《遡って》源流へ向かう。",
-      "target": "遡る",
+      "target": "遡って",
       "options": [
         "さかのぼる",
         "下る",
@@ -12463,7 +12463,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "指にトゲが《刺さった》。",
-      "target": "刺さる",
+      "target": "刺さった",
       "options": [
         "突き刺さる",
         "抜ける",
@@ -12571,7 +12571,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "西日が《射して》くる。",
-      "target": "射す",
+      "target": "射して",
       "options": [
         "光が入る",
         "風が吹く",
@@ -12679,7 +12679,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "放置していた自転車が《錆びて》しまった。",
-      "target": "錆びる",
+      "target": "錆びて",
       "options": [
         "酸化してボロボロになる",
         "ピカピカになる",
@@ -12694,7 +12694,7 @@
     },
     {
       "sentence": "スープを少し《冷まして》から飲む。",
-      "target": "冷ます",
+      "target": "冷まして",
       "options": [
         "さます",
         "温める",
@@ -12732,7 +12732,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "スープが《冷めて》しまった。",
-      "target": "冷める",
+      "target": "冷めて",
       "options": [
         "温度が下がること",
         "温まること",
@@ -13020,7 +13020,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "新しいクラスの《時間割》を確認する。",
-      "target": "时间割",
+      "target": "時間割",
       "options": [
         "スケジュール",
         "教科書",
@@ -13092,7 +13092,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "雑草が《茂っている》庭。",
-      "target": "茂る",
+      "target": "茂っている",
       "options": [
         "草木が生い茂る",
         "枯れる",
@@ -13128,7 +13128,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼は《始終》文句を言っている。",
-      "target": "始终",
+      "target": "始終",
       "options": [
         "いつも",
         "たまに",
@@ -13200,7 +13200,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この車の最高《時速》は二百キロだ。",
-      "target": "时速",
+      "target": "時速",
       "options": [
         "一時間に進む距離",
         "分速",
@@ -13218,7 +13218,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "先祖から《子孫》へと代々受け継がれる。",
-      "target": "子孙",
+      "target": "子孫",
       "options": [
         "あとの世代",
         "親",
@@ -13416,7 +13416,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《実例》を挙げて説明する。",
-      "target": "实例",
+      "target": "実例",
       "options": [
         "実際の例",
         "仮説",
@@ -13614,7 +13614,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "洗濯物が《湿っている》。",
-      "target": "湿る",
+      "target": "湿っている",
       "options": [
         "乾いていない",
         "乾いている",
@@ -13686,7 +13686,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《車掌》さんに切符を見せる。",
-      "target": "车掌",
+      "target": "車掌",
       "options": [
         "電車の乗務員",
         "運転手",
@@ -14208,7 +14208,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼女は《純情》な心の持ち主だ。",
-      "target": "纯情",
+      "target": "純情",
       "options": [
         "清らかな様子",
         "乱暴な様子",
@@ -14748,7 +14748,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《書籍》をネットで注文する。",
-      "target": "书籍",
+      "target": "書籍",
       "options": [
         "本",
         "映画",
@@ -14784,7 +14784,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《書店》で新刊をチェックする。",
-      "target": "书店",
+      "target": "書店",
       "options": [
         "本屋",
         "パン屋",
@@ -14856,7 +14856,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "会議のための《資料》を配布する。",
-      "target": "资料",
+      "target": "資料",
       "options": [
         "データや書類",
         "道具",
@@ -14982,7 +14982,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "パスポートの《申請》を行う。",
-      "target": "申请",
+      "target": "申請",
       "options": [
         "申し込むこと",
         "断ること",
@@ -15036,7 +15036,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "医者の《診断》を受ける。",
-      "target": "诊断",
+      "target": "診断",
       "options": [
         "診察の結果",
         "手術",
@@ -15144,7 +15144,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "お正月は《親類》が集まる。",
-      "target": "亲类",
+      "target": "親類",
       "options": [
         "親戚",
         "友達",
@@ -15162,7 +15162,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "船は北へと《針路》をとった。",
-      "target": "针路",
+      "target": "針路",
       "options": [
         "進む方向",
         "速さ",
@@ -15504,7 +15504,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《透き通った》きれいな水。",
-      "target": "透き通る",
+      "target": "透き通った",
       "options": [
         "透明な",
         "濁った",
@@ -15666,7 +15666,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "秋の空が《澄み渡っている》。",
-      "target": "澄む",
+      "target": "澄み渡っている",
       "options": [
         "清らかになる",
         "濁る",
@@ -15684,7 +15684,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "身を《清めて》参拝する。",
-      "target": "清む",
+      "target": "清めて",
       "options": [
         "きれいにする",
         "汚す",
@@ -15810,7 +15810,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "下書きを《清書》する。",
-      "target": "清书",
+      "target": "清書",
       "options": [
         "きれいに書き直す",
         "汚す",
@@ -16152,7 +16152,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "締め切りが《迫って》いる。",
-      "target": "迫る",
+      "target": "迫って",
       "options": [
         "近づいてくる",
         "遅れる",
@@ -16584,7 +16584,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼はテニス部に《属して》いる。",
-      "target": "属する",
+      "target": "属して",
       "options": [
         "所属している",
         "離れている",
@@ -16818,7 +16818,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "お名前はかねがね《存じて》おります。",
-      "target": "存じる",
+      "target": "存じて",
       "options": [
         "知って",
         "忘れて",
@@ -16836,7 +16836,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "そのように《存じます》。",
-      "target": "存ずる",
+      "target": "存じます",
       "options": [
         "思います",
         "言います",
@@ -17142,7 +17142,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "二つの勢力が《対立》している。",
-      "target": "对立",
+      "target": "対立",
       "options": [
         "争っている",
         "協力している",
@@ -17304,7 +17304,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼のアドバイスのおかげで《助かった》。",
-      "target": "助かる",
+      "target": "助かった",
       "options": [
         "役に立った",
         "困った",
@@ -17358,7 +17358,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "明日の朝、成田を《発つ》。",
-      "target": "发つ",
+      "target": "発つ",
       "options": [
         "出発する",
         "到着する",
@@ -17430,7 +17430,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ストレスが《溜まっている》。",
-      "target": "溜まる",
+      "target": "溜まっている",
       "options": [
         "たまっている",
         "減っている",
@@ -17466,7 +17466,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この説明だけで《足りる》だろうか。",
-      "target": "足る",
+      "target": "足りる",
       "options": [
         "十分だ",
         "不足だ",
@@ -17646,7 +17646,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "危ないから火に《近寄らない》でください。",
-      "target": "近寄る",
+      "target": "近寄らない",
       "options": [
         "ちかよる",
         "離れる",
@@ -17754,7 +17754,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "洗濯したらセーターが《縮んだ》。",
-      "target": "縮む",
+      "target": "縮んだ",
       "options": [
         "ちぢんだ",
         "伸びた",
@@ -17772,7 +17772,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "身を《縮めて》隠れる。",
-      "target": "縮める",
+      "target": "縮めて",
       "options": [
         "ちぢめる",
         "伸ばす",
@@ -17790,7 +17790,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "髪の毛が《縮れている》。",
-      "target": "縮れる",
+      "target": "縮れている",
       "options": [
         "ウェーブしている",
         "まっすぐな",
@@ -18041,7 +18041,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "自分の《長所》を伸ばす。",
-      "target": "长所",
+      "target": "長所",
       "options": [
         "良いところ",
         "悪いところ",
@@ -18113,7 +18113,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "紙を《長方形》に切る。",
-      "target": "长方形",
+      "target": "長方形",
       "options": [
         "レクタングル",
         "正方形",
@@ -18167,7 +18167,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "定規を使って《直線》を引く。",
-      "target": "直线",
+      "target": "直線",
       "options": [
         "まっすぐな線",
         "曲線",
@@ -18293,7 +18293,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "机の上が《散らかっている》。",
-      "target": "散らかる",
+      "target": "散らかっている",
       "options": [
         "乱雑になっている",
         "片付いている",
@@ -18437,7 +18437,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼の話は理屈が《通じている》。",
-      "target": "通ずる",
+      "target": "通じている",
       "options": [
         "つながっている",
         "切れている",
@@ -18509,7 +18509,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼女と《付き合う》。",
-      "target": "付合う",
+      "target": "付き合う",
       "options": [
         "交際する",
         "喧嘩する",
@@ -18581,7 +18581,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "電気が《点いた》。",
-      "target": "点く",
+      "target": "点いた",
       "options": [
         "ついた",
         "消えた",
@@ -18599,7 +18599,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "痛いところを《突かれた》。",
-      "target": "突く",
+      "target": "突かれた",
       "options": [
         "指摘された",
         "褒められた",
@@ -18743,7 +18743,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "電話が《繋がらない》。",
-      "target": "繋がる",
+      "target": "繋がらない",
       "options": [
         "つながらない",
         "切れない",
@@ -18779,7 +18779,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "空き缶を《潰す》。",
-      "target": "溃れる",
+      "target": "潰す",
       "options": [
         "つぶす",
         "膨らます",
@@ -18851,7 +18851,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "収入と支出が《釣り合って》いる。",
-      "target": "釣り合う",
+      "target": "釣り合って",
       "options": [
         "バランスがとれている",
         "偏っている",
@@ -19301,7 +19301,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《鉄砲》を構える。",
-      "target": "铁炮",
+      "target": "鉄砲",
       "options": [
         "てっぽう",
         "弓矢",
@@ -19409,7 +19409,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "話が意外な《展開》を見せる。",
-      "target": "展开",
+      "target": "展開",
       "options": [
         "進展",
         "停止",
@@ -19445,7 +19445,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "切れた《電球》を交換する。",
-      "target": "电球",
+      "target": "電球",
       "options": [
         "でんきゅう",
         "電池",
@@ -19643,7 +19643,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《銅》メダルを獲得する。",
-      "target": "铜",
+      "target": "銅",
       "options": [
         "どう",
         "金",
@@ -19697,7 +19697,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《統計》データを分析する。",
-      "target": "统计",
+      "target": "統計",
       "options": [
         "とうけい",
         "計算",
@@ -19715,7 +19715,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "不審な《動作》をする人。",
-      "target": "动作",
+      "target": "動作",
       "options": [
         "動き",
         "言葉",
@@ -19931,7 +19931,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "鉛筆の先を《尖らせる》。",
-      "target": "尖る",
+      "target": "尖らせる",
       "options": [
         "鋭くする",
         "丸くする",
@@ -19967,7 +19967,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "一歩《退いて》考える。",
-      "target": "退く",
+      "target": "退いて",
       "options": [
         "さがって",
         "進んで",
@@ -20165,7 +20165,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "準備が《整った》。",
-      "target": "整う",
+      "target": "整った",
       "options": [
         "準備ができる",
         "壊れる",
@@ -20363,7 +20363,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "担当者に《内線》でつなぐ。",
-      "target": "内线",
+      "target": "内線",
       "options": [
         "社内の電話",
         "社外の電話",
@@ -20489,7 +20489,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "事故で家族を《亡くした》。",
-      "target": "亡くす",
+      "target": "亡くした",
       "options": [
         "死なせる",
         "失う",
@@ -20615,7 +20615,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《並木》道を散歩する。",
-      "target": "并木",
+      "target": "並木",
       "options": [
         "木が並んでいる道",
         "草が生えている道",
@@ -20633,7 +20633,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "前例に《倣って》処理する。",
-      "target": "倣う",
+      "target": "倣って",
       "options": [
         "ならって",
         "逆らって",
@@ -20669,7 +20669,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "柿が《生っている》。",
-      "target": "生る",
+      "target": "生っている",
       "options": [
         "実ができている",
         "枯れている",
@@ -20759,7 +20759,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "野菜が《煮えた》。",
-      "target": "煮える",
+      "target": "煮えた",
       "options": [
         "火が通って柔らかくなった",
         "焦げた",
@@ -20777,7 +20777,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "どこからか花の香りが《匂って》くる。",
-      "target": "匂う",
+      "target": "匂って",
       "options": [
         "におって",
         "光って",
@@ -20795,7 +20795,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "せっかくのチャンスを《逃がした》。",
-      "target": "逃がす",
+      "target": "逃がした",
       "options": [
         "のがした",
         "つかんだ",
@@ -20849,7 +20849,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "川の水が《濁っている》。",
-      "target": "濁る",
+      "target": "濁っている",
       "options": [
         "にごっている",
         "澄んでいる",
@@ -21029,7 +21029,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "雨で服を《濡らした》。",
-      "target": "濡らす",
+      "target": "濡らした",
       "options": [
         "ぬらした",
         "乾かした",
@@ -21317,7 +21317,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "会議が予定より《延びた》。",
-      "target": "延びる",
+      "target": "延びた",
       "options": [
         "長引いた",
         "終わった",
@@ -21785,7 +21785,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ロケットを《発射》する。",
-      "target": "发射",
+      "target": "発射",
       "options": [
         "はっしゃ",
         "離陸",
@@ -21803,7 +21803,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "自由な《発想》を大切にする。",
-      "target": "发想",
+      "target": "発想",
       "options": [
         "アイデア",
         "結果",
@@ -21821,7 +21821,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "水力《発電》所。",
-      "target": "发电",
+      "target": "発電",
       "options": [
         "はつでん",
         "送電",
@@ -21893,7 +21893,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "電話したが《話し中》だった。",
-      "target": "話中",
+      "target": "話し中",
       "options": [
         "通話中",
         "留守",
@@ -22037,7 +22037,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "この歌は若者に《流行っている》。",
-      "target": "流行る",
+      "target": "流行っている",
       "options": [
         "流行している",
         "嫌われている",
@@ -22073,7 +22073,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《針金》を曲げる。",
-      "target": "针金",
+      "target": "針金",
       "options": [
         "はりがね",
         "糸",
@@ -22091,7 +22091,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "試合を前に《張り切って》いる。",
-      "target": "張り切る",
+      "target": "張り切って",
       "options": [
         "意欲に満ちている",
         "疲れている",
@@ -22253,7 +22253,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "厄介な仕事を引き《受ける》。",
-      "target": "引受る",
+      "target": "受ける",
       "options": [
         "ひきうける",
         "断る",
@@ -22271,7 +22271,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "忘れ物に気づいて家に《引き返す》。",
-      "target": "引返す",
+      "target": "引き返す",
       "options": [
         "ひきかえす",
         "戻る",
@@ -22289,7 +22289,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "銀行からお金を《引き出す》。",
-      "target": "引出す",
+      "target": "引き出す",
       "options": [
         "ひきだす",
         "預ける",
@@ -22325,7 +22325,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "強い《日差し》を避ける。",
-      "target": "陽射",
+      "target": "日差し",
       "options": [
         "ひざし",
         "雨",
@@ -22379,7 +22379,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "講義の内容を《筆記》する。",
-      "target": "笔记",
+      "target": "筆記",
       "options": [
         "書き留めること",
         "聞くこと",
@@ -22415,7 +22415,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "おもちゃの箱が《引っ繰り返った》。",
-      "target": "引っ繰り返る",
+      "target": "引っ繰り返った",
       "options": [
         "ひっくりかえった",
         "並んだ",
@@ -22685,7 +22685,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "本の《表紙》を飾る。",
-      "target": "表纸",
+      "target": "表紙",
       "options": [
         "ひょうし",
         "内容",
@@ -22703,7 +22703,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "試験の《標準》レベル。",
-      "target": "标准",
+      "target": "標準",
       "options": [
         "ひょうじゅん",
         "最低",
@@ -23045,7 +23045,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "送料を《含めて》一万円です。",
-      "target": "含める",
+      "target": "含めて",
       "options": [
         "ふくめて",
         "除いて",
@@ -23153,7 +23153,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "道が《塞がって》いる。",
-      "target": "塞がる",
+      "target": "塞がって",
       "options": [
         "ふさがって",
         "通って",
@@ -23189,7 +23189,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ご《無沙汰》しております。",
-      "target": "无沙汰",
+      "target": "無沙汰",
       "options": [
         "ぶさた",
         "挨拶",
@@ -23459,7 +23459,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "火山が《噴火》する。",
-      "target": "喷火",
+      "target": "噴火",
       "options": [
         "ふんか",
         "爆発",
@@ -23531,7 +23531,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "公園に《噴水》がある。",
-      "target": "喷水",
+      "target": "噴水",
       "options": [
         "ふんすい",
         "滝",
@@ -23657,7 +23657,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "図書を《分類》する。",
-      "target": "分类",
+      "target": "分類",
       "options": [
         "ぶんるい",
         "整理",
@@ -23675,7 +23675,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "大会が《閉会》する。",
-      "target": "闭会",
+      "target": "閉会",
       "options": [
         "おわること",
         "はじまること",
@@ -23711,7 +23711,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "二つの作業を《並行》して進める。",
-      "target": "并行",
+      "target": "並行",
       "options": [
         "同時におこなう",
         "別々におこなう",
@@ -23801,7 +23801,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "車のドアが《凹んで》しまった。",
-      "target": "凹む",
+      "target": "凹んで",
       "options": [
         "へこんで",
         "壊れて",
@@ -23819,7 +23819,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《臍》の緒を切る。",
-      "target": "脐",
+      "target": "臍",
       "options": [
         "へそ",
         "肩",
@@ -23855,7 +23855,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "軽井沢に《別荘》を持っている。",
-      "target": "别荘",
+      "target": "別荘",
       "options": [
         "べっそう",
         "本宅",
@@ -23873,7 +23873,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "荷物を《別々》に包装する。",
-      "target": "别々",
+      "target": "別々",
       "options": [
         "べつべつに",
         "一緒に",
@@ -23891,7 +23891,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "雑誌の《編集》に携わる。",
-      "target": "编集",
+      "target": "編集",
       "options": [
         "へんしゅう",
         "執筆",
@@ -23999,7 +23999,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "来年度の経営《方針》を立てる。",
-      "target": "方针",
+      "target": "方針",
       "options": [
         "ほうしん",
         "結果",
@@ -24035,7 +24035,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "自然界の《法則》を解明する。",
-      "target": "法则",
+      "target": "法則",
       "options": [
         "ほうそく",
         "規則",
@@ -24179,7 +24179,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《牧場》で牛が草を食べている。",
-      "target": "牧场",
+      "target": "牧場",
       "options": [
         "ぼくじょう",
         "農場",
@@ -24557,7 +24557,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "水と油は《混ざらない》。",
-      "target": "混ざる",
+      "target": "混ざらない",
       "options": [
         "まざらない",
         "溶けない",
@@ -24611,7 +24611,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "仕事に私情を《交じえない》。",
-      "target": "交じる",
+      "target": "交じえない",
       "options": [
         "まじえない",
         "隠さない",
@@ -24827,7 +24827,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "意見が《纏まった》。",
-      "target": "纏まる",
+      "target": "纏まった",
       "options": [
         "まとまった",
         "分かれた",
@@ -24935,7 +24935,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "テストで《満点》を取る。",
-      "target": "满点",
+      "target": "満点",
       "options": [
         "まんてん",
         "欠点",
@@ -25061,7 +25061,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "目的地までの《道順》を教える。",
-      "target": "道顺",
+      "target": "道順",
       "options": [
         "みちじゅん",
         "距離",
@@ -25079,7 +25079,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "無くした鍵が《見付かった》。",
-      "target": "見付かる",
+      "target": "見付かった",
       "options": [
         "みつかった",
         "無くした",
@@ -25133,7 +25133,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《見慣れた》風景。",
-      "target": "見慣れる",
+      "target": "見慣れた",
       "options": [
         "みなれた",
         "珍しい",
@@ -25277,7 +25277,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "医者に《診て》もらう。",
-      "target": "診る",
+      "target": "診て",
       "options": [
         "みる",
         "見る",
@@ -25331,7 +25331,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "目的地に《向かう》。",
-      "target": "向う",
+      "target": "向かう",
       "options": [
         "むかう",
         "離れる",
@@ -25889,7 +25889,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "お正月に《餅》を食べる。",
-      "target": "饼",
+      "target": "餅",
       "options": [
         "もち",
         "パン",
@@ -25925,7 +25925,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "彼の顔が苦労を《物語っている》。",
-      "target": "物語る",
+      "target": "物語っている",
       "options": [
         "示している",
         "隠している",
@@ -26087,7 +26087,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "《薬缶》でお湯を沸かす。",
-      "target": "药缶",
+      "target": "薬缶",
       "options": [
         "やかん",
         "鍋",
@@ -26195,7 +26195,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "熱湯で《火傷》をした。",
-      "target": "火伤",
+      "target": "火傷",
       "options": [
         "やけど",
         "怪我",
@@ -26285,7 +26285,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ズボンが《破れた》。",
-      "target": "破れる",
+      "target": "破れた",
       "options": [
         "やぶれた",
         "汚れた",
@@ -26501,7 +26501,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "ロープを《緩く》結ぶ。",
-      "target": "緩い",
+      "target": "緩く",
       "options": [
         "ゆるい",
         "きつい",
@@ -26915,7 +26915,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "アンケートの備考《欄》。",
-      "target": "栏",
+      "target": "欄",
       "options": [
         "らん",
         "本文",
@@ -27275,7 +27275,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "道が二つに《分かれている》。",
-      "target": "分かれる",
+      "target": "分かれている",
       "options": [
         "わかれている",
         "繋がっている",
@@ -27311,7 +27311,7 @@
       "level": "N2",
       "question_type": "vocab_synonym",
       "sentence": "温泉が《湧き》出ている。",
-      "target": "湧く",
+      "target": "湧き",
       "options": [
         "わく",
         "枯れる",
