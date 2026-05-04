@@ -3058,8 +3058,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この文章は《主語》が抜けているので、意味が分かりにくい。",
+      "target": "主語",
       "options": [
         "しゅお",
         "しゅごい",
@@ -3067,7 +3067,7 @@
         "しゅごう"
       ],
       "answer": 2,
-      "explanation": "「主語」の読みは「しゅご」です。意味：(gram) subject（叔叔来玩，给我带了礼物。）",
+      "explanation": "「主語」の読みは「しゅご」です。意味：(gram) subject（这篇文章漏掉了主语，所以意思很难理解。）",
       "id": "n2-vocab_reading-146",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3075,8 +3075,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "社会人としてのマナーをしっかり《心得る》べきだ。",
+      "target": "心得る",
       "options": [
         "こころえるい",
         "こころえる",
@@ -3084,7 +3084,7 @@
         "こころえるう"
       ],
       "answer": 1,
-      "explanation": "「心得る」の読みは「こころえる」です。意味：to be informed,to have thorough knowledge（叔叔来玩，给我带了礼物。）",
+      "explanation": "「心得る」の読みは「こころえる」です。意味：to be informed,to have thorough knowledge（应该牢记作为社会人的礼仪。）",
       "id": "n2-vocab_reading-147",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3092,8 +3092,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "花瓶にきれいな花を《挿す》。",
+      "target": "挿す",
       "options": [
         "さす",
         "さすい",
@@ -3101,7 +3101,7 @@
         "さすう"
       ],
       "answer": 0,
-      "explanation": "「挿す」の読みは「さす」です。意味：to insert,to put in,to graft,to wear in belt（叔叔来玩，给我带了礼物。）",
+      "explanation": "「挿す」の読みは「さす」です。意味：to insert,to put in,to graft,to wear in belt（在花瓶里插上漂亮的花。）",
       "id": "n2-vocab_reading-148",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3109,8 +3109,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "データを分かりやすくするために、《図表》を使って説明した。",
+      "target": "図表",
       "options": [
         "ずひょ",
         "ずひょお",
@@ -3118,7 +3118,7 @@
         "ずひょうい"
       ],
       "answer": 2,
-      "explanation": "「図表」の読みは「ずひょう」です。意味：chart,diagram,graph（叔叔来玩，给我带了礼物。）",
+      "explanation": "「図表」の読みは「ずひょう」です。意味：chart,diagram,graph（为了使数据易于理解，使用图表进行了说明。）",
       "id": "n2-vocab_reading-149",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3126,8 +3126,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は大学卒業後、大手の《商社》に就職した。",
+      "target": "商社",
       "options": [
         "しょうしお",
         "しょうしゃ",
@@ -3135,7 +3135,7 @@
         "しょうしゃい"
       ],
       "answer": 1,
-      "explanation": "「商社」の読みは「しょうしゃ」です。意味：trading company,firm（叔叔来玩，给我带了礼物。）",
+      "explanation": "「商社」の読みは「しょうしゃ」です。意味：trading company,firm（他大学毕业后，在一家大型贸易公司就职。）",
       "id": "n2-vocab_reading-150",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3143,8 +3143,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "ドアの《隙間》から冷たい風が入ってくる。",
+      "target": "隙間",
       "options": [
         "すきお",
         "すきまい",
@@ -3152,7 +3152,7 @@
         "すきまう"
       ],
       "answer": 2,
-      "explanation": "「隙間」の読みは「すきま」です。意味：crevice,crack,gap,opening（叔叔来玩，给我带了礼物。）",
+      "explanation": "「隙間」の読みは「すきま」です。意味：crevice,crack,gap,opening（冷风从门的缝隙里吹进来。）",
       "id": "n2-vocab_reading-151",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3160,8 +3160,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "社長は《応接》室で客と面会している。",
+      "target": "応接",
       "options": [
         "おうせつ",
         "おうせお",
@@ -3169,7 +3169,7 @@
         "おうせつい"
       ],
       "answer": 0,
-      "explanation": "「応接」的正确读音是「おうせつ」。「おうせお」は誤読；「おせつ」は誤読；「おうせつい」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「応接」的正确读音是「おうせつ」。「おうせお」は誤読；「おせつ」は誤読；「おうせつい」は誤読。（社长正在接待室与客人会谈。）",
       "id": "n2-vocab_reading-152",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3177,8 +3177,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "火山の《火口》から煙が上がっているのが見える。",
+      "target": "火口",
       "options": [
         "かこうい",
         "かこお",
@@ -3186,7 +3186,7 @@
         "かこう"
       ],
       "answer": 3,
-      "explanation": "「火口」の読みは「かこう」です。意味：a burner,origin of a fire（叔叔来玩，给我带了礼物。）",
+      "explanation": "「火口」の読みは「かこう」です。意味：a burner,origin of a fire（可以看到火山口正在冒烟。）",
       "id": "n2-vocab_reading-153",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3194,8 +3194,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "実験を始める前に、必要な《器具》をそろえてください。",
+      "target": "器具",
       "options": [
         "きお",
         "きぐい",
@@ -3203,7 +3203,7 @@
         "きぐう"
       ],
       "answer": 2,
-      "explanation": "「器具」的正确读音是「きぐ」。「きお」は誤読；「きぐい」は誤読；「きぐう」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「器具」的正确读音是「きぐ」。「きお」は誤読；「きぐい」は誤読；「きぐう」は誤読。（实验开始前，请备齐所需的器具。）",
       "id": "n2-vocab_reading-154",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3211,8 +3211,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "刺身を食べる時は、《醤油》をつけて食べるのが一般的だ。",
+      "target": "醤油",
       "options": [
         "しょうお",
         "しょうゆい",
@@ -3220,7 +3220,7 @@
         "しょうゆ"
       ],
       "answer": 3,
-      "explanation": "「醤油」的正确读音是「しょうゆ」。「しょうお」は誤読；「しょうゆい」は誤読；「しょゆ」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「醤油」的正确读音是「しょうゆ」。「しょうお」は誤読；「しょうゆい」は誤読；「しょゆ」は誤読。（吃生鱼片时，通常是蘸着酱油吃。）",
       "id": "n2-vocab_reading-155",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3228,8 +3228,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《乗車》券をお持ちでない方は、窓口で購入してください。",
+      "target": "乗車",
       "options": [
         "じょしゃ",
         "じょうしゃ",
@@ -3237,7 +3237,7 @@
         "しょうしゃ"
       ],
       "answer": 1,
-      "explanation": "「乗車」の読みは「じょうしゃ」です。意味：taking a train,entraining（叔叔来玩，给我带了礼物。）",
+      "explanation": "「乗車」の読みは「じょうしゃ」です。意味：taking a train,entraining（没有乘车券的人，请在窗口购买。）",
       "id": "n2-vocab_reading-156",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3245,8 +3245,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼の言葉を《勘違い》して、怒ってしまった。",
+      "target": "勘違い",
       "options": [
         "かんちがお",
         "かんちがいい",
@@ -3254,7 +3254,7 @@
         "かんちがいう"
       ],
       "answer": 2,
-      "explanation": "「勘違い」の読みは「かんちがい」です。意味：misunderstanding,wrong guess（叔叔来玩，给我带了礼物。）",
+      "explanation": "「勘違い」の読みは「かんちがい」です。意味：misunderstanding,wrong guess（误解了他的话，结果生气了。）",
       "id": "n2-vocab_reading-157",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3262,8 +3262,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "水は冷やすと氷という《個体》になる。",
+      "target": "個体",
       "options": [
         "こたいい",
         "こたい",
@@ -3271,7 +3271,7 @@
         "こたいう"
       ],
       "answer": 1,
-      "explanation": "「個体」の読みは「こたい」です。意味：an individual（叔叔来玩，给我带了礼物。）",
+      "explanation": "「個体」の読みは「こたい」です。意味：an individual（水冷却后会变成冰这种固体。）",
       "id": "n2-vocab_reading-158",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3279,8 +3279,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "休み時間になると、子供たちが《校庭》で元気に遊んでいる。",
+      "target": "校庭",
       "options": [
         "こうていい",
         "こうてい",
@@ -3288,7 +3288,7 @@
         "こうてお"
       ],
       "answer": 1,
-      "explanation": "「校庭」的正确读音是「こうてい」。「こうていい」は誤読；「こてい」は誤読；「こうてお」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「校庭」的正确读音是「こうてい」。「こうていい」は誤読；「こてい」は誤読；「こうてお」は誤読。（一到休息时间，孩子们就在操场上活力十足地玩耍。）",
       "id": "n2-vocab_reading-159",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3296,8 +3296,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "体調を《崩す》と、仕事に支障が出る。",
+      "target": "崩す",
       "options": [
         "くずすい",
         "くずす",
@@ -3305,7 +3305,7 @@
         "くずすう"
       ],
       "answer": 1,
-      "explanation": "「崩す」の読みは「くずす」です。意味：to destroy,to pull down,to make change (money)（叔叔来玩，给我带了礼物。）",
+      "explanation": "「崩す」の読みは「くずす」です。意味：to destroy,to pull down,to make change (money)（一旦搞坏身体，就会对工作产生影响。）",
       "id": "n2-vocab_reading-160",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3313,8 +3313,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "布を二つに《裂く》。",
+      "target": "裂く",
       "options": [
         "さお",
         "さくい",
@@ -3322,7 +3322,7 @@
         "さくう"
       ],
       "answer": 2,
-      "explanation": "「裂く」の読みは「さく」です。意味：to tear,to split（叔叔来玩，给我带了礼物。）",
+      "explanation": "「裂く」の読みは「さく」です。意味：to tear,to split（把布撕成两半。）",
       "id": "n2-vocab_reading-161",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3330,8 +3330,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この《大通り》には、有名な店がたくさん並んでいる。",
+      "target": "大通り",
       "options": [
         "おおどおりい",
         "おおどおり",
@@ -3339,7 +3339,7 @@
         "おおどおりう"
       ],
       "answer": 1,
-      "explanation": "「大通り」の読みは「おおどおり」です。意味：main street（叔叔来玩，给我带了礼物。）",
+      "explanation": "「大通り」の読みは「おおどおり」です。意味：main street（这条大街上排列着很多有名的商店。）",
       "id": "n2-vocab_reading-162",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3347,8 +3347,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "試合が同点だったので、《延長》戦が行われた。",
+      "target": "延長",
       "options": [
         "えんちょう",
         "えんちょ",
@@ -3356,7 +3356,7 @@
         "えんちょお"
       ],
       "answer": 0,
-      "explanation": "「延長」の読みは「えんちょう」です。意味：extension,elongation,prolongation,lengthening（叔叔来玩，给我带了礼物。）",
+      "explanation": "「延長」の読みは「えんちょう」です。意味：extension,elongation,prolongation,lengthening（因为比赛不分胜负，所以进行了加时赛。）",
       "id": "n2-vocab_reading-163",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3364,8 +3364,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は自分の成功を《謙遜》して話した。",
+      "target": "謙遜",
       "options": [
         "けんそお",
         "けんそんい",
@@ -3373,7 +3373,7 @@
         "けんそんう"
       ],
       "answer": 2,
-      "explanation": "「謙遜」の読みは「けんそん」です。意味：humble,humility,modesty（叔叔来玩，给我带了礼物。）",
+      "explanation": "「謙遜」の読みは「けんそん」です。意味：humble,humility,modesty（他谦虚地讲述了自己的成功。）",
       "id": "n2-vocab_reading-164",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3381,8 +3381,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "子供がボールを思い切り《蹴る》。",
+      "target": "蹴る",
       "options": [
         "けるい",
         "ける",
@@ -3390,7 +3390,7 @@
         "けるう"
       ],
       "answer": 1,
-      "explanation": "「蹴る」的正确读音是「ける」。「けるい」は誤読；「けお」は誤読；「けるう」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「蹴る」的正确读音是「ける」。「けるい」は誤読；「けお」は誤読；「けるう」は誤読。（孩子用力踢球。）",
       "id": "n2-vocab_reading-165",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3398,8 +3398,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "今月の《下旬》に旅行に行く予定です。",
+      "target": "下旬",
       "options": [
         "げじゅんい",
         "げしゅん",
@@ -3407,7 +3407,7 @@
         "げじゅん"
       ],
       "answer": 3,
-      "explanation": "「下旬」の読みは「げじゅん」です。意味：month (last third of)（叔叔来玩，给我带了礼物。）",
+      "explanation": "「下旬」の読みは「げじゅん」です。意味：month (last third of)（计划在本月下旬去旅行。）",
       "id": "n2-vocab_reading-166",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3415,8 +3415,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この町には古い《運河》が流れている。",
+      "target": "運河",
       "options": [
         "うんが",
         "うんがい",
@@ -3424,7 +3424,7 @@
         "うんお"
       ],
       "answer": 0,
-      "explanation": "「運河」の読みは「うんが」です。意味：canal,waterway（叔叔来玩，给我带了礼物。）",
+      "explanation": "「運河」の読みは「うんが」です。意味：canal,waterway（这个小镇流淌着古老的运河。）",
       "id": "n2-vocab_reading-167",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3432,8 +3432,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "祖父は毎日、《碁》を打つのを楽しみにしている。",
+      "target": "碁",
       "options": [
         "ご",
         "ごい",
@@ -3441,7 +3441,7 @@
         "ごう"
       ],
       "answer": 0,
-      "explanation": "「碁」の読みは「ご」です。意味：Go (board game of capturing territory)（叔叔来玩，给我带了礼物。）",
+      "explanation": "「碁」の読みは「ご」です。意味：Go (board game of capturing territory)（祖父每天都期待着下围棋。）",
       "id": "n2-vocab_reading-168",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3449,8 +3449,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "台風の影響で、公共の《交通機関》が乱れている。",
+      "target": "交通機関",
       "options": [
         "こうつうきかお",
         "こうつうきかんい",
@@ -3458,7 +3458,7 @@
         "こうつうきかん"
       ],
       "answer": 3,
-      "explanation": "「交通機関」の読みは「こうつうきかん」です。意味：transportation facilities（叔叔来玩，给我带了礼物。）",
+      "explanation": "「交通機関」の読みは「こうつうきかん」です。意味：transportation facilities（受台风影响，公共交通工具出现了混乱。）",
       "id": "n2-vocab_reading-169",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3466,8 +3466,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "パーティーの始まりに、みんなで《乾杯》した。",
+      "target": "乾杯",
       "options": [
         "かんぱお",
         "かんぱいい",
@@ -3475,7 +3475,7 @@
         "かんぱいう"
       ],
       "answer": 2,
-      "explanation": "「乾杯」の読みは「かんぱい」です。意味：toast (drink)（叔叔来玩，给我带了礼物。）",
+      "explanation": "「乾杯」の読みは「かんぱい」です。意味：toast (drink)（派对开始时，大家一起干杯了。）",
       "id": "n2-vocab_reading-170",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3483,8 +3483,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "お正月には、《親類》が集まって食事をする。",
+      "target": "親類",
       "options": [
         "しんるいい",
         "しんるい",
@@ -3492,7 +3492,7 @@
         "しんるいう"
       ],
       "answer": 1,
-      "explanation": "「親類」の読みは「しんるい」です。意味：relation,kin（叔叔来玩，给我带了礼物。）",
+      "explanation": "「親類」の読みは「しんるい」です。意味：relation,kin（正月里，亲戚们聚集在一起吃饭。）",
       "id": "n2-vocab_reading-171",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3500,8 +3500,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この技術は、さまざまな分野に《応用》できる。",
+      "target": "応用",
       "options": [
         "おうよう",
         "およう",
@@ -3509,7 +3509,7 @@
         "おうようい"
       ],
       "answer": 0,
-      "explanation": "「応用」の読みは「おうよう」です。意味：application,put to practical use（叔叔来玩，给我带了礼物。）",
+      "explanation": "「応用」の読みは「おうよう」です。意味：application,put to practical use（这项技术可以应用到各个领域。）",
       "id": "n2-vocab_reading-172",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3517,8 +3517,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "昼食は、《各自》で用意してください。",
+      "target": "各自",
       "options": [
         "かくじ",
         "かくし",
@@ -3526,7 +3526,7 @@
         "かくじい"
       ],
       "answer": 0,
-      "explanation": "「各自」の読みは「かくじ」です。意味：individual,each（叔叔来玩，给我带了礼物。）",
+      "explanation": "「各自」の読みは「かくじ」です。意味：individual,each（午饭请各自准备。）",
       "id": "n2-vocab_reading-173",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3534,8 +3534,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この薬品は、強い酸性の《液体》です。",
+      "target": "液体",
       "options": [
         "えきたい",
         "えきたいい",
@@ -3543,7 +3543,7 @@
         "えきたいう"
       ],
       "answer": 0,
-      "explanation": "「液体」の読みは「えきたい」です。意味：liquid,fluid（叔叔来玩，给我带了礼物。）",
+      "explanation": "「液体」の読みは「えきたい」です。意味：liquid,fluid（这种药品是强酸性液体。）",
       "id": "n2-vocab_reading-174",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3551,8 +3551,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "レポートの提出《期限》を守ってください。",
+      "target": "期限",
       "options": [
         "きげんい",
         "きげお",
@@ -3560,7 +3560,7 @@
         "きげんう"
       ],
       "answer": 2,
-      "explanation": "「期限」の読みは「きげん」です。意味：term,period（叔叔来玩，给我带了礼物。）",
+      "explanation": "「期限」の読みは「きげん」です。意味：term,period（请遵守报告的提交期限。）",
       "id": "n2-vocab_reading-175",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3568,8 +3568,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "もし《差し支え》なければ、お名前を教えてください。",
+      "target": "差し支え",
       "options": [
         "さしつかえ",
         "さしつかお",
@@ -3577,7 +3577,7 @@
         "さしつかえう"
       ],
       "answer": 0,
-      "explanation": "「差し支え」の読みは「さしつかえ」です。意味：hindrance,impediment（叔叔来玩，给我带了礼物。）",
+      "explanation": "「差し支え」の読みは「さしつかえ」です。意味：hindrance,impediment（如果不方便的话，请告诉我您的名字。）",
       "id": "n2-vocab_reading-176",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3585,8 +3585,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼女は客への《応対》がとても丁寧だ。",
+      "target": "応対",
       "options": [
         "おうたお",
         "おうたいい",
@@ -3594,7 +3594,7 @@
         "おうたい"
       ],
       "answer": 3,
-      "explanation": "「応対」の読みは「おうたい」です。意味：receiving,dealing with（叔叔来玩，给我带了礼物。）",
+      "explanation": "「応対」の読みは「おうたい」です。意味：receiving,dealing with（她对客人的接待非常周到。）",
       "id": "n2-vocab_reading-177",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3602,8 +3602,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "食べ物の好みは人によって《好き好き》だ。",
+      "target": "好き好き",
       "options": [
         "すきずき",
         "すきずきい",
@@ -3611,7 +3611,7 @@
         "すきずきう"
       ],
       "answer": 0,
-      "explanation": "「好き好き」の読みは「すきずき」です。意味：matter of taste（叔叔来玩，给我带了礼物。）",
+      "explanation": "「好き好き」の読みは「すきずき」です。意味：matter of taste（对食物的喜好因人而异。）",
       "id": "n2-vocab_reading-178",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3619,8 +3619,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は交通事故で病院に運ばれ、《重体》だ。",
+      "target": "重体",
       "options": [
         "じゅたい",
         "じゅうたい",
@@ -3628,7 +3628,7 @@
         "じゅうたいい"
       ],
       "answer": 1,
-      "explanation": "「重体」の読みは「じゅうたい」です。意味：seriously ill,serious condition,critical state（叔叔来玩，给我带了礼物。）",
+      "explanation": "「重体」の読みは「じゅうたい」です。意味：seriously ill,serious condition,critical state（他因交通事故被送往医院，目前情况严重。）",
       "id": "n2-vocab_reading-179",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3636,8 +3636,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は卒業後、《大学院》に進んで研究を続けるつもりだ。",
+      "target": "大学院",
       "options": [
         "だいがくいんい",
         "だいがくいん",
@@ -3645,7 +3645,7 @@
         "だいがくいんう"
       ],
       "answer": 1,
-      "explanation": "「大学院」の読みは「だいがくいん」です。意味：graduate school（叔叔来玩，给我带了礼物。）",
+      "explanation": "「大学院」の読みは「だいがくいん」です。意味：graduate school（他打算毕业后进入研究生院继续研究。）",
       "id": "n2-vocab_reading-180",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3653,8 +3653,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "外出する時は、必ずマスクを《着ける》ようにしている。",
+      "target": "着ける",
       "options": [
         "つけお",
         "つける",
@@ -3662,7 +3662,7 @@
         "つけるう"
       ],
       "answer": 1,
-      "explanation": "「着ける」の読みは「つける」です。意味：(1) to attach,to join,to add,to append（叔叔来玩，给我带了礼物。）",
+      "explanation": "「着ける」の読みは「つける」です。意味：(1) to attach,to join,to add,to append（出门时，我一定会戴上口罩。）",
       "id": "n2-vocab_reading-181",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3670,8 +3670,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "不足している栄養をサプリメントで《補う》。",
+      "target": "補う",
       "options": [
         "おぎな",
         "おぎなう",
@@ -3679,7 +3679,7 @@
         "おぎなうい"
       ],
       "answer": 1,
-      "explanation": "「補う」の読みは「おぎなう」です。意味：to compensate for（叔叔来玩，给我带了礼物。）",
+      "explanation": "「補う」の読みは「おぎなう」です。意味：to compensate for（用补充剂补充不足的营养。）",
       "id": "n2-vocab_reading-182",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3687,8 +3687,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "書道の時間には、《墨》のいい香りが漂う。",
+      "target": "墨",
       "options": [
         "すみ",
         "すみい",
@@ -3696,7 +3696,7 @@
         "すみう"
       ],
       "answer": 0,
-      "explanation": "「墨」的正确读音是「すみ」。「すみい」は誤読；「すお」は誤読；「すみう」は誤読。（叔叔来玩，给我带了礼物。）",
+      "explanation": "「墨」的正确读音是「すみ」。「すみい」は誤読；「すお」は誤読；「すみう」は誤読。（书法课上，飘荡着墨汁的好闻香味。）",
       "id": "n2-vocab_reading-183",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3704,8 +3704,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は顔が《青白い》が、どこか具合が悪いのだろうか。",
+      "target": "青白い",
       "options": [
         "あおじろお",
         "あおじろいい",
@@ -3713,7 +3713,7 @@
         "あおじろい"
       ],
       "answer": 3,
-      "explanation": "「青白い」の読みは「あおじろい」です。意味：pale,pallid（叔叔来玩，给我带了礼物。）",
+      "explanation": "「青白い」の読みは「あおじろい」です。意味：pale,pallid（他的脸色苍白，是哪里不舒服吗？）",
       "id": "n2-vocab_reading-184",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3721,8 +3721,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "食事の前には、必ず《手洗い》をしましょう。",
+      "target": "手洗い",
       "options": [
         "てあらお",
         "てあらい",
@@ -3730,7 +3730,7 @@
         "てあらいう"
       ],
       "answer": 1,
-      "explanation": "「手洗い」の読みは「てあらい」です。意味：restroom,lavatory,hand-washing（叔叔来玩，给我带了礼物。）",
+      "explanation": "「手洗い」の読みは「てあらい」です。意味：restroom,lavatory,hand-washing（饭前请务必洗手。）",
       "id": "n2-vocab_reading-185",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3738,8 +3738,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼女の髪は生まれつき少し《縮れる》ている。",
+      "target": "縮れる",
       "options": [
         "ちぢれる",
         "ちぢれるい",
@@ -3747,7 +3747,7 @@
         "ちぢれるう"
       ],
       "answer": 0,
-      "explanation": "「縮れる」の読みは「ちぢれる」です。意味：to be wavy,to be curled（叔叔来玩，给我带了礼物。）",
+      "explanation": "「縮れる」の読みは「ちぢれる」です。意味：to be wavy,to be curled（她的头发天生就有一点卷。）",
       "id": "n2-vocab_reading-186",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3755,8 +3755,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "その工場では多くの《工員》が働いている。",
+      "target": "工員",
       "options": [
         "こういお",
         "こいん",
@@ -3764,7 +3764,7 @@
         "こういんい"
       ],
       "answer": 2,
-      "explanation": "「工員」の読みは「こういん」です。意味：factory worker（叔叔来玩，给我带了礼物。）",
+      "explanation": "「工員」の読みは「こういん」です。意味：factory worker（那家工厂有很多工人在工作。）",
       "id": "n2-vocab_reading-187",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3772,8 +3772,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "駅と学校の《中間》に図書館がある。",
+      "target": "中間",
       "options": [
         "ちゅかん",
         "ちゅうかお",
@@ -3781,7 +3781,7 @@
         "ちゅうかんい"
       ],
       "answer": 2,
-      "explanation": "「中間」の読みは「ちゅうかん」です。意味：middle,midway,interim（叔叔来玩，给我带了礼物。）",
+      "explanation": "「中間」の読みは「ちゅうかん」です。意味：middle,midway,interim（在车站和学校的中间有一座图书馆。）",
       "id": "n2-vocab_reading-188",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3789,8 +3789,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "事故のため、電車が一時《停止》している。",
+      "target": "停止",
       "options": [
         "ていし",
         "ていしい",
@@ -3798,7 +3798,7 @@
         "ていしう"
       ],
       "answer": 0,
-      "explanation": "「停止」の読みは「ていし」です。意味：suspension,interruption,stoppage,ban（叔叔来玩，给我带了礼物。）",
+      "explanation": "「停止」の読みは「ていし」です。意味：suspension,interruption,stoppage,ban（因为事故，电车暂时停止运行了。）",
       "id": "n2-vocab_reading-189",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3806,8 +3806,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "スープをレンジで《暖める》。",
+      "target": "暖める",
       "options": [
         "あたためる",
         "あたためるい",
@@ -3815,7 +3815,7 @@
         "あたためるう"
       ],
       "answer": 0,
-      "explanation": "「暖める」の読みは「あたためる」です。意味：to warm,to heat（叔叔来玩，给我带了礼物。）",
+      "explanation": "「暖める」の読みは「あたためる」です。意味：to warm,to heat（用微波炉加热汤。）",
       "id": "n2-vocab_reading-190",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3823,8 +3823,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "停電で、家の中が《真っ暗》になった。",
+      "target": "真っ暗",
       "options": [
         "まっくらい",
         "まっくお",
@@ -3832,7 +3832,7 @@
         "まっくら"
       ],
       "answer": 3,
-      "explanation": "「真っ暗」の読みは「まっくら」です。意味：total darkness,shortsightedness,pitch dark（《伯父》来玩，给了我礼物。）",
+      "explanation": "「真っ暗」の読みは「まっくら」です。意味：total darkness,shortsightedness,pitch dark（因为停电，屋子里变得漆黑一片。）",
       "id": "n2-vocab_reading-191",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3840,8 +3840,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "急ぎの用事なので、書類を《速達》で送った。",
+      "target": "速達",
       "options": [
         "そくたつ",
         "そくたつい",
@@ -3849,7 +3849,7 @@
         "そくたつう"
       ],
       "answer": 0,
-      "explanation": "「速達」の読みは「そくたつ」です。意味：express,special delivery（《伯父》来玩，给了我礼物。）",
+      "explanation": "「速達」の読みは「そくたつ」です。意味：express,special delivery（因为是急事，所以用快递寄出了文件。）",
       "id": "n2-vocab_reading-192",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3857,8 +3857,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "新しい商品が《続々》と発売されている。",
+      "target": "続々",
       "options": [
         "ぞくぞお",
         "ぞくぞくい",
@@ -3866,7 +3866,7 @@
         "ぞくぞくう"
       ],
       "answer": 2,
-      "explanation": "「続々」の読みは「ぞくぞく」です。意味：successively,one after another（《伯父》来玩，给了我礼物。）",
+      "explanation": "「続々」の読みは「ぞくぞく」です。意味：successively,one after another（新产品正在陆续发售。）",
       "id": "n2-vocab_reading-193",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3874,8 +3874,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "今年の夏は、《関東》地方で猛暑が続いている。",
+      "target": "関東",
       "options": [
         "かんとう",
         "かんとお",
@@ -3883,7 +3883,7 @@
         "かんとうい"
       ],
       "answer": 0,
-      "explanation": "「関東」の読みは「かんとう」です。意味：eastern half of Japan, including Tokyo（《伯父》来玩，给了我礼物。）",
+      "explanation": "「関東」の読みは「かんとう」です。意味：eastern half of Japan, including Tokyo（今年夏天，关东地区持续高温。）",
       "id": "n2-vocab_reading-194",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3891,8 +3891,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この電車は、次の駅が《終点》です。",
+      "target": "終点",
       "options": [
         "じゅてん",
         "しゅうてん",
@@ -3900,7 +3900,7 @@
         "じゅうてんい"
       ],
       "answer": 2,
-      "explanation": "「重点」の読みは「じゅうてん」です。意味：important point,lay stress on,colon,emphasis（《伯父》来玩，给了我礼物。）",
+      "explanation": "「重点」の読みは「じゅうてん」です。意味：important point,lay stress on,colon,emphasis（这趟电车的下一站是终点站。）",
       "id": "n2-vocab_reading-195",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3908,8 +3908,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は毎日、自転車で《通学》している。",
+      "target": "通学",
       "options": [
         "おちつく",
         "おちつお",
@@ -3917,7 +3917,7 @@
         "おちつくう"
       ],
       "answer": 0,
-      "explanation": "「落着く」の読みは「おちつく」です。意味：to calm down,to settle down（《伯父》来玩，给了我礼物。）",
+      "explanation": "「落着く」の読みは「おちつく」です。意味：to calm down,to settle down（他每天骑自行车上学。）",
       "id": "n2-vocab_reading-196",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3925,8 +3925,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "最近、《体力》が落ちてきたと感じる。",
+      "target": "体力",
       "options": [
         "げお",
         "げかい",
@@ -3934,7 +3934,7 @@
         "げかう"
       ],
       "answer": 2,
-      "explanation": "「外科」の読みは「げか」です。意味：surgical department（《伯父》来玩，给了我礼物。）",
+      "explanation": "「外科」の読みは「げか」です。意味：surgical department（最近感觉体力下降了。）",
       "id": "n2-vocab_reading-197",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3942,8 +3942,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "予算が足りないので、《中古》の車を買うことにした。",
+      "target": "中古",
       "options": [
         "しょうめんい",
         "しょうめお",
@@ -3951,7 +3951,7 @@
         "しょめん"
       ],
       "answer": 2,
-      "explanation": "「正面」の読みは「しょうめん」です。意味：the front,honesty（《伯父》来玩，给了我礼物。）",
+      "explanation": "「正面」の読みは「しょうめん」です。意味：the front,honesty（因为预算不足，决定买二手车。）",
       "id": "n2-vocab_reading-198",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3959,8 +3959,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "今日は体の《調子》がいい。",
+      "target": "調子",
       "options": [
         "ていしお",
         "ていしゃい",
@@ -3968,7 +3968,7 @@
         "ていしゃう"
       ],
       "answer": 2,
-      "explanation": "「停車」の読みは「ていしゃ」です。意味：stopping (e.g. train)（《伯父》来玩，给了我礼物。）",
+      "explanation": "「停車」の読みは「ていしゃ」です。意味：stopping (e.g. train)（今天身体状态很好。）",
       "id": "n2-vocab_reading-199",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3976,8 +3976,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "健康を維持するためには、《適度》な運動が必要だ。",
+      "target": "適度",
       "options": [
         "だいく",
         "だいくい",
@@ -3985,7 +3985,7 @@
         "だいくう"
       ],
       "answer": 0,
-      "explanation": "「大工」的正确读音是「だいく」。「だいくい」は誤読；「だいお」は誤読；「だいくう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「大工」的正确读音是「だいく」。「だいくい」は誤読；「だいお」は誤読；「だいくう」は誤読。（为了维持健康，适度的运动是必要的。）",
       "id": "n2-vocab_reading-200",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -3993,8 +3993,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "私は《地理》の授業が大好きだ。",
+      "target": "地理",
       "options": [
         "ちょぞお",
         "ちょぞうい",
@@ -4002,7 +4002,7 @@
         "ちょぞう"
       ],
       "answer": 3,
-      "explanation": "「貯蔵」の読みは「ちょぞう」です。意味：storage,preservation（《伯父》来玩，给了我礼物。）",
+      "explanation": "「貯蔵」の読みは「ちょぞう」です。意味：storage,preservation（我非常喜欢地理课。）",
       "id": "n2-vocab_reading-201",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4010,8 +4010,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "エレベーターの定期《点検》が行われている。",
+      "target": "点検",
       "options": [
         "しんにゅう",
         "しんにゅ",
@@ -4019,7 +4019,7 @@
         "しんにゅお"
       ],
       "answer": 0,
-      "explanation": "「侵入」の読みは「しんにゅう」です。意味：penetration,invasion,raid,aggression,trespass（《伯父》来玩，给了我礼物。）",
+      "explanation": "「侵入」の読みは「しんにゅう」です。意味：penetration,invasion,raid,aggression,trespass（正在进行电梯的定期检查。）",
       "id": "n2-vocab_reading-202",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4027,8 +4027,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "切れた《電球》を新しいものに交換した。",
+      "target": "電球",
       "options": [
         "きょうお",
         "きょうかい",
@@ -4036,7 +4036,7 @@
         "きょうか"
       ],
       "answer": 3,
-      "explanation": "「強化」の読みは「きょうか」です。意味：strengthen,intensify,reinforce,solidify（《伯父》来玩，给了我礼物。）",
+      "explanation": "「強化」の読みは「きょうか」です。意味：strengthen,intensify,reinforce,solidify（把烧坏的灯泡换成了新的。）",
       "id": "n2-vocab_reading-203",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4044,8 +4044,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "週末に友人と《登山》に行く予定だ。",
+      "target": "登山",
       "options": [
         "いいつけるい",
         "いいつける",
@@ -4053,7 +4053,7 @@
         "いいつけるう"
       ],
       "answer": 1,
-      "explanation": "「言い付ける」の読みは「いいつける」です。意味：to tell,to tell on (someone),to order（《伯父》来玩，给了我礼物。）",
+      "explanation": "「言い付ける」の読みは「いいつける」です。意味：to tell,to tell on (someone),to order（计划周末和朋友去登山。）",
       "id": "n2-vocab_reading-204",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4061,8 +4061,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は《都会》の生活に憧れている。",
+      "target": "都会",
       "options": [
         "きじゅん",
         "きじゅお",
@@ -4070,7 +4070,7 @@
         "きじゅんい"
       ],
       "answer": 0,
-      "explanation": "「基準」の読みは「きじゅん」です。意味：standard,basis,criteria,norm（《伯父》来玩，给了我礼物。）",
+      "explanation": "「基準」の読みは「きじゅん」です。意味：standard,basis,criteria,norm（他向往大城市的生活。）",
       "id": "n2-vocab_reading-205",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4078,8 +4078,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この辺りは、《土地》の値段が高い。",
+      "target": "土地",
       "options": [
         "そうぞうしお",
         "そぞうしい",
@@ -4087,7 +4087,7 @@
         "そうぞうしいい"
       ],
       "answer": 2,
-      "explanation": "「騒々しい」の読みは「そうぞうしい」です。意味：noisy,boisterous（《伯父》来玩，给了我礼物。）",
+      "explanation": "「騒々しい」の読みは「そうぞうしい」です。意味：noisy,boisterous（这一带的土地价格很高。）",
       "id": "n2-vocab_reading-206",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4095,8 +4095,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "風邪をひいたので、《内科》を受診した。",
+      "target": "内科",
       "options": [
         "あみもお",
         "あみもの",
@@ -4104,7 +4104,7 @@
         "あみものう"
       ],
       "answer": 1,
-      "explanation": "「編物」の読みは「あみもの」です。意味：knitting,web（《伯父》来玩，给了我礼物。）",
+      "explanation": "「編物」の読みは「あみもの」です。意味：knitting,web（因为感冒了，所以去了内科看病。）",
       "id": "n2-vocab_reading-207",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4112,8 +4112,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "その手紙の《内容》を教えてください。",
+      "target": "内容",
       "options": [
         "かさねお",
         "かさねる",
@@ -4121,7 +4121,7 @@
         "かさねるう"
       ],
       "answer": 1,
-      "explanation": "「重ねる」の読みは「かさねる」です。意味：to pile up,to put something on another,to heap up,to add,to repeat（《伯父》来玩，给了我礼物。）",
+      "explanation": "「重ねる」の読みは「かさねる」です。意味：to pile up,to put something on another,to heap up,to add,to repeat（请告诉我那封信的内容。）",
       "id": "n2-vocab_reading-208",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4129,8 +4129,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《日中》は気温が上がるので、热中症に気をつけてください。",
+      "target": "日中",
       "options": [
         "くちびる",
         "くちびるい",
@@ -4138,7 +4138,7 @@
         "くちびるう"
       ],
       "answer": 0,
-      "explanation": "「唇」的正确读音是「くちびる」。「くちびるい」は誤読；「くちびお」は誤読；「くちびるう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「唇」的正确读音是「くちびる」。「くちびるい」は誤読；「くちびお」は誤読；「くちびるう」は誤読。（白天气温会升高，请注意中暑。）",
       "id": "n2-vocab_reading-209",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4146,8 +4146,8 @@
       "created_at": "2026-05-04T00:53:52.224Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この建物は、1920《年代》に建てられた。",
+      "target": "年代",
       "options": [
         "ぞうげお",
         "ぞうげん",
@@ -4155,7 +4155,7 @@
         "ぞうげんい"
       ],
       "answer": 1,
-      "explanation": "「増減」の読みは「ぞうげん」です。意味：increase and decrease,fluctuation（《伯父》来玩，给了我礼物。）",
+      "explanation": "「増減」の読みは「ぞうげん」です。意味：increase and decrease,fluctuation（这座建筑物建于20世纪20年代。）",
       "id": "n2-vocab_reading-210",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4163,8 +4163,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "祖父母は田舎で《農家》を営んでいる。",
+      "target": "農家",
       "options": [
         "つぐ",
         "つぐい",
@@ -4172,7 +4172,7 @@
         "つぐう"
       ],
       "answer": 0,
-      "explanation": "「次ぐ」の読みは「つぐ」です。意味：to rank next to,to come after（《伯父》来玩，给了我礼物。）",
+      "explanation": "「次ぐ」の読みは「つぐ」です。意味：to rank next to,to come after（祖父母在乡下经营农场。）",
       "id": "n2-vocab_reading-211",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4180,8 +4180,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "日本の《農村》風景はとても美しい。",
+      "target": "農村",
       "options": [
         "つむ",
         "つむい",
@@ -4189,7 +4189,7 @@
         "つむう"
       ],
       "answer": 0,
-      "explanation": "「積む」の読みは「つむ」です。意味：to pile up,to stack（《伯父》来玩，给了我礼物。）",
+      "explanation": "「積む」の読みは「つむ」です。意味：to pile up,to stack（日本的农村风景非常美丽。）",
       "id": "n2-vocab_reading-212",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4197,8 +4197,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は有名な《俳優》になりたいと思っている。",
+      "target": "俳優",
       "options": [
         "こうしゅう",
         "こしゅう",
@@ -4206,7 +4206,7 @@
         "こうしゅうい"
       ],
       "answer": 0,
-      "explanation": "「公衆」の読みは「こうしゅう」です。意味：the public（《伯父》来玩，给了我礼物。）",
+      "explanation": "「公衆」の読みは「こうしゅう」です。意味：the public（他想成为有名的演员。）",
       "id": "n2-vocab_reading-213",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4214,8 +4214,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "雨が降った《場合》は、イベントは中止になります。",
+      "target": "場合",
       "options": [
         "かたまお",
         "かたまるい",
@@ -4223,7 +4223,7 @@
         "かたまるう"
       ],
       "answer": 2,
-      "explanation": "「固まる」の読みは「かたまる」です。意味：to harden,to solidify,to become firm,to become certain（《伯父》来玩，给了我礼物。）",
+      "explanation": "「固まる」の読みは「かたまる」です。意味：to harden,to solidify,to become firm,to become certain（下雨的情况下，活动将取消。）",
       "id": "n2-vocab_reading-214",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4231,8 +4231,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "待ち合わせの《場所》を確認しましょう。",
+      "target": "場所",
       "options": [
         "ちょうせお",
         "ちょせつ",
@@ -4240,7 +4240,7 @@
         "ちょうせつい"
       ],
       "answer": 2,
-      "explanation": "「調節」の読みは「ちょうせつ」です。意味：regulation,adjustment,control（《伯父》来玩，给了我礼物。）",
+      "explanation": "「調節」の読みは「ちょうせつ」です。意味：regulation,adjustment,control（确认一下碰面的地点吧。）",
       "id": "n2-vocab_reading-215",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4248,8 +4248,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "今月の《半ば》に試験がある。",
+      "target": "半ば",
       "options": [
         "たすかる",
         "たすかるい",
@@ -4257,7 +4257,7 @@
         "たすかるう"
       ],
       "answer": 0,
-      "explanation": "「助かる」の読みは「たすかる」です。意味：to be saved,to be rescued,to survive,to be helpful（《伯父》来玩，给了我礼物。）",
+      "explanation": "「助かる」の読みは「たすかる」です。意味：to be saved,to be rescued,to survive,to be helpful（这个月中旬有考试。）",
       "id": "n2-vocab_reading-216",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4265,8 +4265,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "お腹が空いたので、早く《飯》を食べよう。",
+      "target": "飯",
       "options": [
         "かじつ",
         "かしつ",
@@ -4274,7 +4274,7 @@
         "かじお"
       ],
       "answer": 0,
-      "explanation": "「果実」の読みは「かじつ」です。意味：fruit,nut,berry.（《伯父》来玩，给了我礼物。）",
+      "explanation": "「果実」の読みは「かじつ」です。意味：fruit,nut,berry.（肚子饿了，快吃饭吧。）",
       "id": "n2-vocab_reading-217",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4282,8 +4282,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "昨日の《晩》は、ぐっすり眠れた。",
+      "target": "晩",
       "options": [
         "おうえん",
         "おえん",
@@ -4291,7 +4291,7 @@
         "おうえお"
       ],
       "answer": 0,
-      "explanation": "「応援」の読みは「おうえん」です。意味：aid,assistance,help,reinforcement（《伯父》来玩，给了我礼物。）",
+      "explanation": "「応援」の読みは「おうえん」です。意味：aid,assistance,help,reinforcement（昨天晚上睡得很香。）",
       "id": "n2-vocab_reading-218",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4299,8 +4299,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "その物語は、最後は《悲劇》で終わる。",
+      "target": "悲劇",
       "options": [
         "つるお",
         "つるすい",
@@ -4308,7 +4308,7 @@
         "つるすう"
       ],
       "answer": 2,
-      "explanation": "「吊す」的正确读音是「つるす」。「つるお」は誤読；「つるすい」は誤読；「つるすう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「吊す」的正确读音是「つるす」。「つるお」は誤読；「つるすい」は誤読；「つるすう」は誤読。（那个故事最后以悲剧收场。）",
       "id": "n2-vocab_reading-219",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4316,8 +4316,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《非常》の際は、階段を使って避難してください。",
+      "target": "非常",
       "options": [
         "えんげき",
         "えんげきい",
@@ -4325,7 +4325,7 @@
         "えんげきう"
       ],
       "answer": 0,
-      "explanation": "「演劇」の読みは「えんげき」です。意味：play (theatrical)（《伯父》来玩，给了我礼物。）",
+      "explanation": "「演劇」の読みは「えんげき」です。意味：play (theatrical)（紧急情况下，请走楼梯避难。）",
       "id": "n2-vocab_reading-220",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4333,8 +4333,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼女は誰もが認める《美女》だ。",
+      "target": "美女",
       "options": [
         "せいのうい",
         "せいのお",
@@ -4342,7 +4342,7 @@
         "せいの"
       ],
       "answer": 2,
-      "explanation": "「性能」の読みは「せいのう」です。意味：ability,efficiency（《伯父》来玩，给了我礼物。）",
+      "explanation": "「性能」の読みは「せいのう」です。意味：ability,efficiency（她是大家公认的美女。）",
       "id": "n2-vocab_reading-221",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4350,8 +4350,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "転んで《膝》をすりむいてしまった。",
+      "target": "膝",
       "options": [
         "たいせいい",
         "たいせい",
@@ -4359,7 +4359,7 @@
         "たいせいう"
       ],
       "answer": 1,
-      "explanation": "「体制」の読みは「たいせい」です。意味：order,system,structure,set-up,organization（《伯父》来玩，给了我礼物。）",
+      "explanation": "「体制」の読みは「たいせい」です。意味：order,system,structure,set-up,organization（摔倒擦伤了膝盖。）",
       "id": "n2-vocab_reading-222",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4367,8 +4367,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "冬は乾燥して、《皮膚》が荒れやすい。",
+      "target": "皮膚",
       "options": [
         "おいこお",
         "おいこすい",
@@ -4376,7 +4376,7 @@
         "おいこすう"
       ],
       "answer": 2,
-      "explanation": "「追い越す」の読みは「おいこす」です。意味：to pass (e.g. car),to outdistance,to outstrip（《伯父》来玩，给了我礼物。）",
+      "explanation": "「追い越す」の読みは「おいこす」です。意味：to pass (e.g. car),to outdistance,to outstrip（冬天干燥，皮肤容易粗糙。）",
       "id": "n2-vocab_reading-223",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4384,8 +4384,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "旅行の《費用》を貯めるために、アルバイトをしている。",
+      "target": "費用",
       "options": [
         "たいさくい",
         "たいさく",
@@ -4393,7 +4393,7 @@
         "たいさくう"
       ],
       "answer": 1,
-      "explanation": "「対策」の読みは「たいさく」です。意味：counter-plan,counter-measure（《伯父》来玩，给了我礼物。）",
+      "explanation": "「対策」の読みは「たいさく」です。意味：counter-plan,counter-measure（为了存旅行费，正在打工。）",
       "id": "n2-vocab_reading-224",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4401,8 +4401,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼の仕事ぶりは、上司から高く《評価》されている。",
+      "target": "評価",
       "options": [
         "ちゅうと",
         "ちゅうお",
@@ -4410,7 +4410,7 @@
         "ちゅうとい"
       ],
       "answer": 0,
-      "explanation": "「中途」の読みは「ちゅうと」です。意味：in the middle,half-way（《伯父》来玩，给了我礼物。）",
+      "explanation": "「中途」の読みは「ちゅうと」です。意味：in the middle,half-way（他的工作表现受到上司的高度评价。）",
       "id": "n2-vocab_reading-225",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4418,8 +4418,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この製品の質は、《標準》的なレベルだ。",
+      "target": "標準",
       "options": [
         "たのもしい",
         "たのもしいい",
@@ -4427,7 +4427,7 @@
         "たのもしいう"
       ],
       "answer": 0,
-      "explanation": "「頼もしい」の読みは「たのもしい」です。意味：reliable,trustworthy,hopeful,promising（《伯父》来玩，给了我礼物。）",
+      "explanation": "「頼もしい」の読みは「たのもしい」です。意味：reliable,trustworthy,hopeful,promising（这个产品的质量处于标准水平。）",
       "id": "n2-vocab_reading-226",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4435,8 +4435,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼女の《表情》から、うれしさが伝わってくる。",
+      "target": "表情",
       "options": [
         "こうど",
         "こど",
@@ -4444,7 +4444,7 @@
         "こうお"
       ],
       "answer": 0,
-      "explanation": "「高度」の読みは「こうど」です。意味：altitude,height,advanced（《伯父》来玩，给了我礼物。）",
+      "explanation": "「高度」の読みは「こうど」です。意味：altitude,height,advanced（从她的表情可以感受到喜悦。）",
       "id": "n2-vocab_reading-227",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4452,8 +4452,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "すべての人は、《平等》に扱われるべきだ。",
+      "target": "平等",
       "options": [
         "たんぼ",
         "たんお",
@@ -4461,7 +4461,7 @@
         "たんぼう"
       ],
       "answer": 0,
-      "explanation": "「田ぼ」の読みは「たんぼ」です。意味：paddy field,farm（《伯父》来玩，给了我礼物。）",
+      "explanation": "「田ぼ」の読みは「たんぼ」です。意味：paddy field,farm（所有人应当被平等对待。）",
       "id": "n2-vocab_reading-228",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4469,8 +4469,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "湖の《表面》がキラキラと輝いている。",
+      "target": "表面",
       "options": [
         "であい",
         "であいい",
@@ -4478,7 +4478,7 @@
         "であいう"
       ],
       "answer": 0,
-      "explanation": "「出合い」の読みは「であい」です。意味：an encounter（《伯父》来玩，给了我礼物。）",
+      "explanation": "「出合い」の読みは「であい」です。意味：an encounter（湖面闪烁着光芒。）",
       "id": "n2-vocab_reading-229",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4486,8 +4486,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この機械の故障している《部分》を特定した。",
+      "target": "部分",
       "options": [
         "しょうひん",
         "しょうひお",
@@ -4495,7 +4495,7 @@
         "しょひん"
       ],
       "answer": 0,
-      "explanation": "「賞品」の読みは「しょうひん」です。意味：prize,trophy（《伯父》来玩，给了我礼物。）",
+      "explanation": "「賞品」の読みは「しょうひん」です。意味：prize,trophy（确定了这台机器故障的部分。）",
       "id": "n2-vocab_reading-230",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4503,8 +4503,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "駅の《付近》には、多くのレストランがある。",
+      "target": "付近",
       "options": [
         "そうお",
         "そうこい",
@@ -4512,7 +4512,7 @@
         "そうこ"
       ],
       "answer": 3,
-      "explanation": "「倉庫」の読みは「そうこ」です。意味：storehouse,warehouse,godown（《伯父》来玩，给了我礼物。）",
+      "explanation": "「倉庫」の読みは「そうこ」です。意味：storehouse,warehouse,godown（车站附近有很多餐厅。）",
       "id": "n2-vocab_reading-231",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4520,8 +4520,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は、美しい《夫人》を連れてパーティーに出席した。",
+      "target": "夫人",
       "options": [
         "こころあたりい",
         "こころあたり",
@@ -4529,7 +4529,7 @@
         "こころあたりう"
       ],
       "answer": 1,
-      "explanation": "「心当たり」の読みは「こころあたり」です。意味：having some knowledge of,happening to know（《伯父》来玩，给了我礼物。）",
+      "explanation": "「心当たり」の読みは「こころあたり」です。意味：having some knowledge of,happening to know（他带着美丽的夫人出席了派对。）",
       "id": "n2-vocab_reading-232",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4537,8 +4537,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "突然の《不幸》に見舞われ、言葉も出ない。",
+      "target": "不幸",
       "options": [
         "こち",
         "こうち",
@@ -4546,7 +4546,7 @@
         "こうちい"
       ],
       "answer": 1,
-      "explanation": "「耕地」の読みは「こうち」です。意味：arable land（《伯父》来玩，给了我礼物。）",
+      "explanation": "「耕地」の読みは「こうち」です。意味：arable land（遭遇突如其来的不幸，无话可说。）",
       "id": "n2-vocab_reading-233",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4554,8 +4554,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "被災地に救援《物資》が届けられた。",
+      "target": "物資",
       "options": [
         "ちかぢお",
         "ちかぢかい",
@@ -4563,7 +4563,7 @@
         "ちかぢかう"
       ],
       "answer": 2,
-      "explanation": "「近々」の読みは「ちかぢか」です。意味：nearness,before long（《伯父》来玩，给了我礼物。）",
+      "explanation": "「近々」の読みは「ちかぢか」です。意味：nearness,before long（救援物资已被送到灾区。）",
       "id": "n2-vocab_reading-234",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4571,8 +4571,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この《物質》は、熱に非常に弱い。",
+      "target": "物質",
       "options": [
         "つうよお",
         "つうよう",
@@ -4580,7 +4580,7 @@
         "つうようい"
       ],
       "answer": 1,
-      "explanation": "「通用」の読みは「つうよう」です。意味：popular use,circulation（《伯父》来玩，给了我礼物。）",
+      "explanation": "「通用」の読みは「つうよう」です。意味：popular use,circulation（这种物质对热非常敏感。）",
       "id": "n2-vocab_reading-235",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4588,8 +4588,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "空に不思議な《物体》が浮いているのが見えた。",
+      "target": "物体",
       "options": [
         "がくりょお",
         "がくりょく",
@@ -4597,7 +4597,7 @@
         "がくりょくう"
       ],
       "answer": 1,
-      "explanation": "「学力」の読みは「がくりょく」です。意味：scholarship,knowledge,literary ability（《伯父》来玩，给了我礼物。）",
+      "explanation": "「学力」の読みは「がくりょく」です。意味：scholarship,knowledge,literary ability（看到天空漂浮着一个奇怪的物体。）",
       "id": "n2-vocab_reading-236",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4605,8 +4605,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "使わない道具は、《物置》にしまっておこう。",
+      "target": "物置",
       "options": [
         "ちぢお",
         "ちぢむい",
@@ -4614,7 +4614,7 @@
         "ちぢむう"
       ],
       "answer": 2,
-      "explanation": "「縮む」の読みは「ちぢむ」です。意味：to shrink,to be contracted（《伯父》来玩，给了我礼物。）",
+      "explanation": "「縮む」の読みは「ちぢむ」です。意味：to shrink,to be contracted（不用的工具放进储藏室吧。）",
       "id": "n2-vocab_reading-237",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4622,8 +4622,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《物事》を客観的に見ることが大切だ。",
+      "target": "物事",
       "options": [
         "たまお",
         "たまるい",
@@ -4631,7 +4631,7 @@
         "たまるう"
       ],
       "answer": 2,
-      "explanation": "「溜まる」の読みは「たまる」です。意味：to collect,to gather,to save（《伯父》来玩，给了我礼物。）",
+      "explanation": "「溜まる」の読みは「たまる」です。意味：to collect,to gather,to save（客观地看待事物是很重要的。）",
       "id": "n2-vocab_reading-238",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4639,8 +4639,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は《文芸》雑誌の編集者として働いている。",
+      "target": "文芸",
       "options": [
         "くむ",
         "くむい",
@@ -4648,7 +4648,7 @@
         "くむう"
       ],
       "answer": 0,
-      "explanation": "「汲む」の読みは「くむ」です。意味：(1) to draw (water),to dip,to scoop,to pump（《伯父》来玩，给了我礼物。）",
+      "explanation": "「汲む」の読みは「くむ」です。意味：(1) to draw (water),to dip,to scoop,to pump（他作为文艺杂志的编辑工作。）",
       "id": "n2-vocab_reading-239",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4656,8 +4656,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "古代《文明》の謎を解き明かしたい。",
+      "target": "文明",
       "options": [
         "きご",
         "きごう",
@@ -4665,7 +4665,7 @@
         "きごお"
       ],
       "answer": 1,
-      "explanation": "「記号」の読みは「きごう」です。意味：symbol,code（《伯父》来玩，给了我礼物。）",
+      "explanation": "「記号」の読みは「きごう」です。意味：symbol,code（我想解开古代文明之谜。）",
       "id": "n2-vocab_reading-240",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4673,8 +4673,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼女は医学の《分野》で、大きな功績を残した。",
+      "target": "分野",
       "options": [
         "あけがた",
         "あけがたい",
@@ -4682,7 +4682,7 @@
         "あけがたう"
       ],
       "answer": 0,
-      "explanation": "「明け方」的正确读音是「あけがた」。「あけがたい」は誤読；「あけがお」は誤読；「あけがたう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「明け方」的正确读音是「あけがた」。「あけがたい」は誤読；「あけがお」は誤読；「あけがたう」は誤読。（她在医学领域留下了巨大的功绩。）",
       "id": "n2-vocab_reading-241",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4690,8 +4690,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "今年のテストの《平均》点は、去年より高かった。",
+      "target": "平均",
       "options": [
         "かざん",
         "かざお",
@@ -4699,7 +4699,7 @@
         "かざんう"
       ],
       "answer": 0,
-      "explanation": "「火山」的正确读音是「かざん」。「かざお」は誤読；「かざんい」は誤読；「かざんう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「火山」的正确读音是「かざん」。「かざお」は誤読；「かざんい」は誤読；「かざんう」は誤読。（今年考试的平均分比去年高。）",
       "id": "n2-vocab_reading-242",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4707,8 +4707,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "世界《平和》を心から願っている。",
+      "target": "平和",
       "options": [
         "かわら",
         "かわらい",
@@ -4716,7 +4716,7 @@
         "かわらう"
       ],
       "answer": 0,
-      "explanation": "「瓦」的正确读音是「かわら」。「かわらい」は誤読；「かわお」は誤読；「かわらう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「瓦」的正确读音是「かわら」。「かわらい」は誤読；「かわお」は誤読；「かわらう」は誤読。（衷心祝愿世界和平。）",
       "id": "n2-vocab_reading-243",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4724,8 +4724,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "夏休みは、軽井沢の《別荘》で過ごした。",
+      "target": "別荘",
       "options": [
         "つながり",
         "つながりい",
@@ -4733,7 +4733,7 @@
         "つながりう"
       ],
       "answer": 0,
-      "explanation": "「繋がり」の読みは「つながり」です。意味：connection,link,relationship（《伯父》来玩，给了我礼物。）",
+      "explanation": "「繋がり」の読みは「つながり」です。意味：connection,link,relationship（暑假在轻井泽的别墅里度过。）",
       "id": "n2-vocab_reading-244",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4741,8 +4741,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "メールを送ったが、まだ《返事》が来ない。",
+      "target": "返事",
       "options": [
         "ききお",
         "ききんい",
@@ -4750,7 +4750,7 @@
         "ききんう"
       ],
       "answer": 2,
-      "explanation": "「飢饉」的正确读音是「ききん」。「ききお」は誤読；「ききんい」は誤読；「ききんう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「飢饉」的正确读音是「ききん」。「ききお」は誤読；「ききんい」は誤読；「ききんう」は誤読。（发了邮件，但还没收到回信。）",
       "id": "n2-vocab_reading-245",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4758,8 +4758,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《防犯》のために、窓に補助錠を取り付けた。",
+      "target": "防犯",
       "options": [
         "じゅうやく",
         "じゅやく",
@@ -4767,7 +4767,7 @@
         "じゅうやくい"
       ],
       "answer": 0,
-      "explanation": "「重役」の読みは「じゅうやく」です。意味：director,high executive（《伯父》来玩，给了我礼物。）",
+      "explanation": "「重役」の読みは「じゅうやく」です。意味：director,high executive（为了防盗，在窗户上安装了辅助锁。）",
       "id": "n2-vocab_reading-246",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4775,8 +4775,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "地図とコンパスを使って、《方位》を確認する。",
+      "target": "方位",
       "options": [
         "ぞうり",
         "ぞり",
@@ -4784,7 +4784,7 @@
         "ぞうりい"
       ],
       "answer": 0,
-      "explanation": "「草履」の読みは「ぞうり」です。意味：zoori (Japanese footwear),sandals（《伯父》来玩，给了我礼物。）",
+      "explanation": "「草履」の読みは「ぞうり」です。意味：zoori (Japanese footwear),sandals（使用地图和指南针确认方位。）",
       "id": "n2-vocab_reading-247",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4792,8 +4792,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "どちらの《方角》に進めばいいか分からなくなった。",
+      "target": "方角",
       "options": [
         "せい",
         "せいい",
@@ -4801,7 +4801,7 @@
         "せいう"
       ],
       "answer": 0,
-      "explanation": "「姓」の読みは「せい」です。意味：surname,family name（《伯父》来玩，给了我礼物。）",
+      "explanation": "「姓」の読みは「せい」です。意味：surname,family name（不知道该往哪个方向走。）",
       "id": "n2-vocab_reading-248",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4809,8 +4809,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "会社は来年度の経営《方針》を発表した。",
+      "target": "方針",
       "options": [
         "つなげお",
         "つなげるい",
@@ -4818,7 +4818,7 @@
         "つなげるう"
       ],
       "answer": 2,
-      "explanation": "「繋げる」の読みは「つなげる」です。意味：to connect（《伯父》来玩，给了我礼物。）",
+      "explanation": "「繋げる」の読みは「つなげる」です。意味：to connect（公司发布了下一年度的经营方针。）",
       "id": "n2-vocab_reading-249",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4826,8 +4826,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "問題を解決するための良い《方法》を考えよう。",
+      "target": "方法",
       "options": [
         "かくど",
         "かくお",
@@ -4835,7 +4835,7 @@
         "かくどう"
       ],
       "answer": 0,
-      "explanation": "「角度」的正确读音是「かくど」。「かくお」は誤読；「かくどい」は誤読；「かくどう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「角度」的正确读音是「かくど」。「かくお」は誤読；「かくどい」は誤読；「かくどう」は誤読。（考虑一个解决问题的好办法吧。）",
       "id": "n2-vocab_reading-250",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4843,8 +4843,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "新宿《方面》の電車は、こちらから乗れます。",
+      "target": "方面",
       "options": [
         "ちょくせお",
         "ちょくせんい",
@@ -4852,7 +4852,7 @@
         "ちょくせんう"
       ],
       "answer": 2,
-      "explanation": "「直線」の読みは「ちょくせん」です。意味：straight line（《伯父》来玩，给了我礼物。）",
+      "explanation": "「直線」の読みは「ちょくせん」です。意味：straight line（去往新宿方向的电车从这里上。）",
       "id": "n2-vocab_reading-251",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4860,8 +4860,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "取引先を《訪問》する際は、事前に予約が必要だ。",
+      "target": "訪問",
       "options": [
         "かつぐ",
         "かつお",
@@ -4869,7 +4869,7 @@
         "かつぐう"
       ],
       "answer": 0,
-      "explanation": "「担ぐ」の読みは「かつぐ」です。意味：to shoulder,to carry on shoulder（《伯父》来玩，给了我礼物。）",
+      "explanation": "「担ぐ」の読みは「かつぐ」です。意味：to shoulder,to carry on shoulder（访问客户时，需要提前预约。）",
       "id": "n2-vocab_reading-252",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4877,8 +4877,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は日本語の小説を英語に《翻訳》している。",
+      "target": "翻訳",
       "options": [
         "ていお",
         "ていれい",
@@ -4886,7 +4886,7 @@
         "ていれう"
       ],
       "answer": 2,
-      "explanation": "「手入れ」の読みは「ていれ」です。意味：repairs,maintenance（《伯父》来玩，给了我礼物。）",
+      "explanation": "「手入れ」の読みは「ていれ」です。意味：repairs,maintenance（他正在将日文小说翻译成英文。）",
       "id": "n2-vocab_reading-253",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4894,8 +4894,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《本格》的なイタリア料理を味わうことができる店だ。",
+      "target": "本格",
       "options": [
         "れゆき",
         "うれゆきい",
@@ -4903,7 +4903,7 @@
         "うれゆお"
       ],
       "answer": 2,
-      "explanation": "「売行き」的正确读音是「うれゆき」。「れゆき」は誤読；「うれゆきい」は誤読；「うれゆお」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「売行き」的正确读音是「うれゆき」。「れゆき」は誤読；「うれゆきい」は誤読；「うれゆお」は誤読。（这是一家可以品尝到地道意大利菜的店。）",
       "id": "n2-vocab_reading-254",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4911,8 +4911,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "お《盆》には、家族で実家に帰省する。",
+      "target": "盆",
       "options": [
         "しゃこい",
         "しゃこ",
@@ -4920,7 +4920,7 @@
         "しゃこう"
       ],
       "answer": 1,
-      "explanation": "「車庫」の読みは「しゃこ」です。意味：garage,car shed（《伯父》来玩，给了我礼物。）",
+      "explanation": "「車庫」の読みは「しゃこ」です。意味：garage,car shed（盂兰盆节期间，全家回到老家探亲。）",
       "id": "n2-vocab_reading-255",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4928,8 +4928,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《本人》であることを証明するために、免許証を提示した。",
+      "target": "本人",
       "options": [
         "かえる",
         "かえるい",
@@ -4937,7 +4937,7 @@
         "かえるう"
       ],
       "answer": 0,
-      "explanation": "「反る」の読みは「かえる」です。意味：to warp,to be warped,to curve（《伯父》来玩，给了我礼物。）",
+      "explanation": "「反る」の読みは「かえる」です。意味：to warp,to be warped,to curve（为了证明是本人，出示了驾驶执照。）",
       "id": "n2-vocab_reading-256",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4945,8 +4945,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この町は《盆地》にあるため、夏はとても暑い。",
+      "target": "盆地",
       "options": [
         "つける",
         "つけるい",
@@ -4954,7 +4954,7 @@
         "つけるう"
       ],
       "answer": 0,
-      "explanation": "「点ける」の読みは「つける」です。意味：to turn on,to switch on,to light up（《伯父》来玩，给了我礼物。）",
+      "explanation": "「点ける」の読みは「つける」です。意味：to turn on,to switch on,to light up（因为这个城镇位于盆地，所以夏天非常热。）",
       "id": "n2-vocab_reading-257",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4962,8 +4962,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "コピーの《枚数》を間違えてしまった。",
+      "target": "枚数",
       "options": [
         "ちめお",
         "ちめいい",
@@ -4971,7 +4971,7 @@
         "ちめいう"
       ],
       "answer": 2,
-      "explanation": "「地名」的正确读音是「ちめい」。「ちめお」は誤読；「ちめいい」は誤読；「ちめいう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「地名」的正确读音是「ちめい」。「ちめお」は誤読；「ちめいい」は誤読；「ちめいう」は誤読。（复印的张数搞错了。）",
       "id": "n2-vocab_reading-258",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4979,8 +4979,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼は3人兄弟の《末っ子》だ。",
+      "target": "末っ子",
       "options": [
         "しょうはつ",
         "じょうはつ",
@@ -4988,7 +4988,7 @@
         "じょうはつい"
       ],
       "answer": 1,
-      "explanation": "「蒸発」の読みは「じょうはつ」です。意味：evaporation,unexplained disappearance（《伯父》来玩，给了我礼物。）",
+      "explanation": "「蒸発」の読みは「じょうはつ」です。意味：evaporation,unexplained disappearance（他是三兄弟中的老末。）",
       "id": "n2-vocab_reading-259",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -4996,8 +4996,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《見掛け》によらず、彼はとても力持ちだ。",
+      "target": "見掛け",
       "options": [
         "じょうぎ",
         "じょぎ",
@@ -5005,7 +5005,7 @@
         "じょうぎい"
       ],
       "answer": 0,
-      "explanation": "「定規」の読みは「じょうぎ」です。意味：(measuring) ruler（《伯父》来玩，给了我礼物。）",
+      "explanation": "「定規」の読みは「じょうぎ」です。意味：(measuring) ruler（看不出来，他力气很大。）",
       "id": "n2-vocab_reading-260",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5013,8 +5013,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "何があっても、私はあなたの《味方》です。",
+      "target": "味方",
       "options": [
         "ずの",
         "ずのお",
@@ -5022,7 +5022,7 @@
         "ずのうい"
       ],
       "answer": 2,
-      "explanation": "「頭脳」の読みは「ずのう」です。意味：head,brains,intellect（《伯父》来玩，给了我礼物。）",
+      "explanation": "「頭脳」の読みは「ずのう」です。意味：head,brains,intellect（无论发生什么，我都是你这边的。）",
       "id": "n2-vocab_reading-261",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5030,8 +5030,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "その映画の《魅力》は、俳優の演技にある。",
+      "target": "魅力",
       "options": [
         "あらためるい",
         "あらためる",
@@ -5039,7 +5039,7 @@
         "あらためるう"
       ],
       "answer": 1,
-      "explanation": "「改める」の読みは「あらためる」です。意味：to change,to alter,to reform,to revise（《伯父》来玩，给了我礼物。）",
+      "explanation": "「改める」の読みは「あらためる」です。意味：to change,to alter,to reform,to revise（那部电影的魅力在于演员的演技。）",
       "id": "n2-vocab_reading-262",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5047,8 +5047,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "子供たちが輝く《未来》を築けるように願っている。",
+      "target": "未来",
       "options": [
         "かんばん",
         "かんはん",
@@ -5056,7 +5056,7 @@
         "かんばお"
       ],
       "answer": 0,
-      "explanation": "「看板」の読みは「かんばん」です。意味：sign,signboard,doorplate,poster（《伯父》来玩，给了我礼物。）",
+      "explanation": "「看板」の読みは「かんばん」です。意味：sign,signboard,doorplate,poster（希望孩子们能建立辉煌的未来。）",
       "id": "n2-vocab_reading-263",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5064,8 +5064,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "世界には多くの《民族》が暮らしている。",
+      "target": "民族",
       "options": [
         "たんき",
         "たんきい",
@@ -5073,7 +5073,7 @@
         "たんきう"
       ],
       "answer": 0,
-      "explanation": "「短期」的正确读音是「たんき」。「たんきい」は誤読；「たんお」は誤読；「たんきう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「短期」的正确读音是「たんき」。「たんきい」は誤読；「たんお」は誤読；「たんきう」は誤読。（世界上生活着很多民族。）",
       "id": "n2-vocab_reading-264",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5081,8 +5081,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "夜空には、《無数》の星が輝いている。",
+      "target": "無数",
       "options": [
         "ちかづけお",
         "ちかづけるい",
@@ -5090,7 +5090,7 @@
         "ちかづけるう"
       ],
       "answer": 2,
-      "explanation": "「近付ける」の読みは「ちかづける」です。意味：to bring near,to put close,to let come near,to associate with（《伯父》来玩，给了我礼物。）",
+      "explanation": "「近付ける」の読みは「ちかづける」です。意味：to bring near,to put close,to let come near,to associate with（夜空中闪耀着无数星星。）",
       "id": "n2-vocab_reading-265",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5098,8 +5098,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この小説は、时代を超えて爱される《名作》だ。",
+      "target": "名作",
       "options": [
         "がき",
         "がっお",
@@ -5107,7 +5107,7 @@
         "がっき"
       ],
       "answer": 3,
-      "explanation": "「楽器」の読みは「がっき」です。意味：musical instrument（《伯父》来玩，给了我礼物。）",
+      "explanation": "「楽器」の読みは「がっき」です。意味：musical instrument（这部小说是跨越时代的杰作。）",
       "id": "n2-vocab_reading-266",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5115,8 +5115,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "夜に爪を切ると親の死に目に会えないというのは、《迷信》だ。",
+      "target": "迷信",
       "options": [
         "しょせお",
         "しょせきい",
@@ -5124,7 +5124,7 @@
         "しょせきう"
       ],
       "answer": 2,
-      "explanation": "「書籍」の読みは「しょせき」です。意味：book,publication（《伯父》来玩，给了我礼物。）",
+      "explanation": "「書籍」の読みは「しょせき」です。意味：book,publication（晚上剪指甲见不到父母临终是迷信。）",
       "id": "n2-vocab_reading-267",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5132,8 +5132,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "その件については、よく《存じる》あげております。",
+      "target": "存じる",
       "options": [
         "ぞんじる",
         "ぞんじるい",
@@ -5141,7 +5141,7 @@
         "ぞんじお"
       ],
       "answer": 0,
-      "explanation": "「存じる」の読みは「ぞんじる」です。意味：(hum) to know（《伯父》来玩，给了我礼物。）",
+      "explanation": "「存じる」の読みは「ぞんじる」です。意味：(hum) to know（关于那件事，我很清楚。）",
       "id": "n2-vocab_reading-268",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5149,8 +5149,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "このビルは人の《出入り》が激しい。",
+      "target": "出入り",
       "options": [
         "でいり",
         "でいりい",
@@ -5158,7 +5158,7 @@
         "でいりう"
       ],
       "answer": 0,
-      "explanation": "「出入り」の読みは「でいり」です。意味：in and out,coming and going,free association,income and expenditure,debits and credit（《伯父》来玩，给了我礼物。）",
+      "explanation": "「出入り」の読みは「でいり」です。意味：in and out,coming and going,free association,income and expenditure,debits and credit（这栋大楼人员进出很频繁。）",
       "id": "n2-vocab_reading-269",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5166,8 +5166,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "昔は、《算盤》を使って計算していた。",
+      "target": "算盤",
       "options": [
         "そろばん",
         "そろばお",
@@ -5175,7 +5175,7 @@
         "そろばんい"
       ],
       "answer": 0,
-      "explanation": "「算盤」的正确读音是「そろばん」。「そろばお」は誤読；「そろはん」は誤読；「そろばんい」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「算盤」的正确读音是「そろばん」。「そろばお」は誤読；「そろはん」は誤読；「そろばんい」は誤読。（以前使用算盘进行计算。）",
       "id": "n2-vocab_reading-270",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5183,8 +5183,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "5時《以後》は外出を控えてください。",
+      "target": "以後",
       "options": [
         "いお",
         "いご",
@@ -5192,7 +5192,7 @@
         "いごう"
       ],
       "answer": 1,
-      "explanation": "「以後」の読みは「いご」です。意味：after this,from now on,hereafter,thereafter（《伯父》来玩，给了我礼物。）",
+      "explanation": "「以後」の読みは「いご」です。意味：after this,from now on,hereafter,thereafter（5点以后请尽量不要外出。）",
       "id": "n2-vocab_reading-271",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5200,8 +5200,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "何よりも健康が《第一》だ。",
+      "target": "第一",
       "options": [
         "だいいち",
         "だいいちい",
@@ -5209,7 +5209,7 @@
         "だいいちう"
       ],
       "answer": 0,
-      "explanation": "「第一」の読みは「だいいち」です。意味：first,foremost,# 1（《伯父》来玩，给了我礼物。）",
+      "explanation": "「第一」の読みは「だいいち」です。意味：first,foremost,# 1（健康比什么都重要。）",
       "id": "n2-vocab_reading-272",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5217,8 +5217,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "記録を1秒《縮める》ことができた。",
+      "target": "縮める",
       "options": [
         "ちぢめる",
         "ちぢめるい",
@@ -5226,7 +5226,7 @@
         "ちぢめるう"
       ],
       "answer": 0,
-      "explanation": "「縮める」の読みは「ちぢめる」です。意味：to shorten,to reduce,to boil down,to shrink（《伯父》来玩，给了我礼物。）",
+      "explanation": "「縮める」の読みは「ちぢめる」です。意味：to shorten,to reduce,to boil down,to shrink（成功缩短了1秒的纪录。）",
       "id": "n2-vocab_reading-273",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5234,8 +5234,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《都心》から離れた静かな場所に住みたい。",
+      "target": "都心",
       "options": [
         "としん",
         "としんい",
@@ -5243,7 +5243,7 @@
         "としんう"
       ],
       "answer": 0,
-      "explanation": "「都心」の読みは「としん」です。意味：heart (of city)（《伯父》来玩，给了我礼物。）",
+      "explanation": "「都心」の読みは「としん」です。意味：heart (of city)（想住在远离市中心的安静地方。）",
       "id": "n2-vocab_reading-274",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5251,8 +5251,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "この立体の《体積》を求めてください。",
+      "target": "体積",
       "options": [
         "たいせきい",
         "たいせお",
@@ -5260,7 +5260,7 @@
         "たいせきう"
       ],
       "answer": 2,
-      "explanation": "「体積」の読みは「たいせき」です。意味：capacity,volume（《伯父》来玩，给了我礼物。）",
+      "explanation": "「体積」の読みは「たいせき」です。意味：capacity,volume（请计算这个立体的体积。）",
       "id": "n2-vocab_reading-275",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5268,8 +5268,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "毎朝、ラジオ《体操》を習慣にしている。",
+      "target": "体操",
       "options": [
         "たいそお",
         "たいそ",
@@ -5277,7 +5277,7 @@
         "たいそうい"
       ],
       "answer": 2,
-      "explanation": "「体操」の読みは「たいそう」です。意味：gymnastics,physical exercises,calisthenics（《伯父》来玩，给了我礼物。）",
+      "explanation": "「体操」の読みは「たいそう」です。意味：gymnastics,physical exercises,calisthenics（每天早晨习惯做广播体操。）",
       "id": "n2-vocab_reading-276",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5285,8 +5285,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "桜は4月の《中旬》に満開になるだろう。",
+      "target": "中旬",
       "options": [
         "ちゅうじゅんい",
         "ちゅうしゅん",
@@ -5294,7 +5294,7 @@
         "ちゅうじゅん"
       ],
       "answer": 3,
-      "explanation": "「中旬」の読みは「ちゅうじゅん」です。意味：second third of a month（《伯父》来玩，给了我礼物。）",
+      "explanation": "「中旬」の読みは「ちゅうじゅん」です。意味：second third of a month（樱花大概会在4月中旬盛开吧。）",
       "id": "n2-vocab_reading-277",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5302,8 +5302,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "壊れた部品を新しいものに《代える》。",
+      "target": "代える",
       "options": [
         "かえる",
         "かえるい",
@@ -5311,7 +5311,7 @@
         "かえるう"
       ],
       "answer": 0,
-      "explanation": "「代える」の読みは「かえる」です。意味：to exchange,to interchange,to substitute,to replace（《伯父》来玩，给了我礼物。）",
+      "explanation": "「代える」の読みは「かえる」です。意味：to exchange,to interchange,to substitute,to replace（把坏掉的零件换成新的。）",
       "id": "n2-vocab_reading-278",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5319,8 +5319,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "上司の《的確》なアドバイスで、助かった。",
+      "target": "的確",
       "options": [
         "てきかく",
         "てきかくい",
@@ -5328,7 +5328,7 @@
         "てきかくう"
       ],
       "answer": 0,
-      "explanation": "「的確」の読みは「てきかく」です。意味：precise,accurate（《伯父》来玩，给了我礼物。）",
+      "explanation": "「的確」の読みは「てきかく」です。意味：precise,accurate（幸亏上司的准确建议，我才得救。）",
       "id": "n2-vocab_reading-279",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5336,8 +5336,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "回路に《電流》が流れているか確認する。",
+      "target": "電流",
       "options": [
         "でんりゅ",
         "でんりゅうい",
@@ -5345,7 +5345,7 @@
         "でんりゅう"
       ],
       "answer": 3,
-      "explanation": "「電流」の読みは「でんりゅう」です。意味：electric current（《伯父》来玩，给了我礼物。）",
+      "explanation": "「電流」の読みは「でんりゅう」です。意味：electric current（确认电路中是否有电流流过。）",
       "id": "n2-vocab_reading-280",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5353,8 +5353,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "このシャツの《縞》模様が気に入っている。",
+      "target": "縞",
       "options": [
         "しま",
         "しまい",
@@ -5362,7 +5362,7 @@
         "しまう"
       ],
       "answer": 0,
-      "explanation": "「縞」的正确读音是「しま」。「しまい」は誤読；「しお」は誤読；「しまう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「縞」的正确读音是「しま」。「しまい」は誤読；「しお」は誤読；「しまう」は誤読。（我很喜欢这件衬衫的条纹图案。）",
       "id": "n2-vocab_reading-281",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5370,8 +5370,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "雨は降っているが、《大して》強くはない。",
+      "target": "大して",
       "options": [
         "たいして",
         "たいしお",
@@ -5379,7 +5379,7 @@
         "たいしてう"
       ],
       "answer": 0,
-      "explanation": "「大して」の読みは「たいして」です。意味：(not so) much,(not) very（《伯父》来玩，给了我礼物。）",
+      "explanation": "「大して」の読みは「たいして」です。意味：(not so) much,(not) very（虽然在下雨，但并不大。）",
       "id": "n2-vocab_reading-282",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5387,8 +5387,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "自分の《長所》をアピールすることが大切だ。",
+      "target": "長所",
       "options": [
         "ちょうしょい",
         "ちょしょ",
@@ -5396,7 +5396,7 @@
         "ちょうしお"
       ],
       "answer": 2,
-      "explanation": "「長所」の読みは「ちょうしょ」です。意味：(1) strong point,merit,(2) advantage（《伯父》来玩，给了我礼物。）",
+      "explanation": "「長所」の読みは「ちょうしょ」です。意味：(1) strong point,merit,(2) advantage（展现自己的优点是很重要的。）",
       "id": "n2-vocab_reading-283",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5404,8 +5404,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "日が《照る》と、気温が急に上がる。",
+      "target": "照る",
       "options": [
         "てるい",
         "てお",
@@ -5413,7 +5413,7 @@
         "てるう"
       ],
       "answer": 2,
-      "explanation": "「照る」的正确读音是「てる」。「てるい」は誤読；「てお」は誤読；「てるう」は誤読。（《伯父》来玩，给了我礼物。）",
+      "explanation": "「照る」的正确读音是「てる」。「てるい」は誤読；「てお」は誤読；「てるう」は誤読。（太阳一晒，气温就会急剧升高。）",
       "id": "n2-vocab_reading-284",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5421,8 +5421,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《絵の具》を混ぜて、新しい色を作る。",
+      "target": "絵の具",
       "options": [
         "えのぐ",
         "えのぐい",
@@ -5430,7 +5430,7 @@
         "えのぐう"
       ],
       "answer": 0,
-      "explanation": "「絵の具」の読みは「えのぐ」です。意味：colors,paints（《伯父》来玩，给了我礼物。）",
+      "explanation": "「絵の具」の読みは「えのぐ」です。意味：colors,paints（混合颜料，制作新的颜色。）",
       "id": "n2-vocab_reading-285",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5438,8 +5438,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "自転車の《盗難》に遭わないように鍵をかける。",
+      "target": "盗難",
       "options": [
         "となん",
         "とうなん",
@@ -5447,7 +5447,7 @@
         "とうなんい"
       ],
       "answer": 1,
-      "explanation": "「盗難」の読みは「とうなん」です。意味：theft,robbery（《伯父》来玩，给了我礼物。）",
+      "explanation": "「盗難」の読みは「とうなん」です。意味：theft,robbery（为了防止自行车被盗，要锁上。）",
       "id": "n2-vocab_reading-286",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5455,8 +5455,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "信号が赤になったので、《立ち止まる》。",
+      "target": "立ち止まる",
       "options": [
         "たちどまるい",
         "たちどまる",
@@ -5464,7 +5464,7 @@
         "たちどまるう"
       ],
       "answer": 1,
-      "explanation": "「立ち止まる」の読みは「たちどまる」です。意味：to stop,to halt,to stand still（《伯父》来玩，给了我礼物。）",
+      "explanation": "「立ち止まる」の読みは「たちどまる」です。意味：to stop,to halt,to stand still（因为信号灯变红了，所以停下脚步。）",
       "id": "n2-vocab_reading-287",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5472,8 +5472,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "人生を旅に《例える》ことがよくある。",
+      "target": "例える",
       "options": [
         "たとえお",
         "たとえる",
@@ -5481,7 +5481,7 @@
         "たとえるう"
       ],
       "answer": 1,
-      "explanation": "「例える」の読みは「たとえる」です。意味：to compare,to liken,to speak figuratively,to illustrate,to use a simile（《伯父》来玩，给了我礼物。）",
+      "explanation": "「例える」の読みは「たとえる」です。意味：to compare,to liken,to speak figuratively,to illustrate,to use a simile（经常把人生比作旅程。）",
       "id": "n2-vocab_reading-288",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5489,8 +5489,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "不況のため、事業を《縮小》せざるを得ない。",
+      "target": "縮小",
       "options": [
         "しゅくしょう",
         "しゅくしょ",
@@ -5498,7 +5498,7 @@
         "しゅくしょお"
       ],
       "answer": 0,
-      "explanation": "「縮小」の読みは「しゅくしょう」です。意味：reduction,curtailment（《伯父》来玩，给了我礼物。）",
+      "explanation": "「縮小」の読みは「しゅくしょう」です。意味：reduction,curtailment（由于不景气，不得不缩小业务规模。）",
       "id": "n2-vocab_reading-289",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5506,8 +5506,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "あまりの寒さに、指先が《凍える》。",
+      "target": "凍える",
       "options": [
         "こごえお",
         "こごえるい",
@@ -5515,7 +5515,7 @@
         "こごえるう"
       ],
       "answer": 2,
-      "explanation": "「凍える」の読みは「こごえる」です。意味：to freeze,to be chilled,to be frozen（《伯父》来玩，给了我礼物。）",
+      "explanation": "「凍える」の読みは「こごえる」です。意味：to freeze,to be chilled,to be frozen（天太冷了，指尖都要冻僵了。）",
       "id": "n2-vocab_reading-290",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5523,8 +5523,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "明日の早朝、飛行機でアメリカへ《発つ》。",
+      "target": "発つ",
       "options": [
         "たつ",
         "たつい",
@@ -5532,7 +5532,7 @@
         "たつう"
       ],
       "answer": 0,
-      "explanation": "「発つ」の読みは「たつ」です。意味：to depart (on a plane, train, etc.)（《伯父》来玩，给了我礼物。）",
+      "explanation": "「発つ」の読みは「たつ」です。意味：to depart (on a plane, train, etc.)（明天一早乘飞机前往美国。）",
       "id": "n2-vocab_reading-291",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5540,8 +5540,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "彼はその道ではまだ《素人》だ。",
+      "target": "素人",
       "options": [
         "しろうと",
         "しろと",
@@ -5549,7 +5549,7 @@
         "しろうとい"
       ],
       "answer": 0,
-      "explanation": "「素人」の読みは「しろうと」です。意味：amateur,novice（《伯父》来玩，给了我礼物。）",
+      "explanation": "「素人」の読みは「しろうと」です。意味：amateur,novice（他在那一行还是个外行。）",
       "id": "n2-vocab_reading-292",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5557,8 +5557,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "話が本筋から《逸れる》てしまった。",
+      "target": "逸れる",
       "options": [
         "それお",
         "それるい",
@@ -5566,7 +5566,7 @@
         "それるう"
       ],
       "answer": 2,
-      "explanation": "「逸れる」の読みは「それる」です。意味：to stray (turn) from subject,to get lost,to go astray（《伯父》来玩，给了我礼物。）",
+      "explanation": "「逸れる」の読みは「それる」です。意味：to stray (turn) from subject,to get lost,to go astray（话题偏离了主旨。）",
       "id": "n2-vocab_reading-293",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5574,8 +5574,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "廊下の《突き当たり》を右に曲がってください。",
+      "target": "突き当たり",
       "options": [
         "つきあたり",
         "つきあたりい",
@@ -5583,7 +5583,7 @@
         "つきあたりう"
       ],
       "answer": 0,
-      "explanation": "「突き当たり」の読みは「つきあたり」です。意味：end (e.g. of street)（《伯父》来玩，给了我礼物。）",
+      "explanation": "「突き当たり」の読みは「つきあたり」です。意味：end (e.g. of street)（请在走廊尽头右转。）",
       "id": "n2-vocab_reading-294",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5591,8 +5591,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "もっといい《点数》が取れるように頑張ります。",
+      "target": "点数",
       "options": [
         "てんすう",
         "てんす",
@@ -5600,7 +5600,7 @@
         "てんすお"
       ],
       "answer": 0,
-      "explanation": "「点数」の読みは「てんすう」です。意味：marks,points,score,runs（《伯父》来玩，给了我礼物。）",
+      "explanation": "「点数」の読みは「てんすう」です。意味：marks,points,score,runs（为了取得更好的分数而努力。）",
       "id": "n2-vocab_reading-295",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5608,8 +5608,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "こちらに《氏名》と住所を記入してください。",
+      "target": "氏名",
       "options": [
         "しめい",
         "しめいい",
@@ -5617,7 +5617,7 @@
         "しめいう"
       ],
       "answer": 0,
-      "explanation": "「氏名」の読みは「しめい」です。意味：full name,identity（《伯父》来玩，给了我礼物。）",
+      "explanation": "「氏名」の読みは「しめい」です。意味：full name,identity（请在这里填写姓名和住址。）",
       "id": "n2-vocab_reading-296",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5625,8 +5625,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "清書する前に、まずは《下書き》をする。",
+      "target": "下書き",
       "options": [
         "したがき",
         "したがきい",
@@ -5634,7 +5634,7 @@
         "したがきう"
       ],
       "answer": 0,
-      "explanation": "「下書き」の読みは「したがき」です。意味：rough copy,draft（《伯父》来玩，给了我礼物。）",
+      "explanation": "「下書き」の読みは「したがき」です。意味：rough copy,draft（在誊写之前，先打个草稿。）",
       "id": "n2-vocab_reading-297",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5642,8 +5642,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "天気がいいので、散歩に《出掛ける》。",
+      "target": "出掛ける",
       "options": [
         "でかける",
         "でかけるい",
@@ -5651,7 +5651,7 @@
         "でかけるう"
       ],
       "answer": 0,
-      "explanation": "「出掛ける」の読みは「でかける」です。意味：to depart,to set out,to start,to be going out（《伯父》来玩，给了我礼物。）",
+      "explanation": "「出掛ける」の読みは「でかける」です。意味：to depart,to set out,to start,to be going out（天气很好，出门散步。）",
       "id": "n2-vocab_reading-298",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5659,8 +5659,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "《送り仮名》を間違えると、違う意味になることがある。",
+      "target": "送り仮名",
       "options": [
         "おくりがない",
         "おくりがな",
@@ -5668,7 +5668,7 @@
         "おくりがなう"
       ],
       "answer": 1,
-      "explanation": "「送り仮名」の読みは「おくりがな」です。意味：part of word written in kana（《伯父》来玩，给了我礼物。）",
+      "explanation": "「送り仮名」の読みは「おくりがな」です。意味：part of word written in kana（送假名弄错的话，有时意思会变。）",
       "id": "n2-vocab_reading-299",
       "level": "N2",
       "question_type": "vocab_reading",
@@ -5676,8 +5676,8 @@
       "created_at": "2026-05-04T00:53:52.225Z"
     },
     {
-      "sentence": "《伯父さん》が遊びに来て、お土産をくれた。",
-      "target": "伯父さん",
+      "sentence": "暑いので、うちわで《扇ぐ》。",
+      "target": "扇ぐ",
       "options": [
         "あおぐ",
         "あおお",
@@ -5685,7 +5685,7 @@
         "あおぐう"
       ],
       "answer": 0,
-      "explanation": "「扇ぐ」の読みは「あおぐ」です。意味：to fan,to flap（《伯父》来玩，给了我礼物。）",
+      "explanation": "「扇ぐ」の読みは「あおぐ」です。意味：to fan,to flap（太热了，用扇子扇一扇。）",
       "id": "n2-vocab_reading-300",
       "level": "N2",
       "question_type": "vocab_reading",
