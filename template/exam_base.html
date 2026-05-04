@@ -298,8 +298,22 @@ function selectExamQuestions() {
         return;
     }
 
-    // First visit: randomly select questions
-    const counts = (typeof SECTION_COUNTS !== 'undefined') ? SECTION_COUNTS : {};
+    // 严格按照完整试卷结构抽题
+    const EXAM_LIMITS = {
+        1: 5,   // ① 漢字の読み方
+        2: 5,   // ② 漢字の表記
+        3: 7,   // ③ 文脈規定
+        4: 5,   // ④ 言い換え・類義
+        5: 5,   // ⑤ 用法
+        6: 12,  // ⑥ 文の文法
+        7: 5,   // ⑦ 文の組み立て
+        8: null, // ⑧ 文章の文法（全問）
+        9: null, // ⑨ 短文読解（全問）
+        10: null,// ⑩ 中文読解（全問）
+        11: null,// ⑪ 長文読解（全問）
+        12: null,// ⑫ 情報検索（全問）
+    };
+
     const bySection = {};
     QUESTIONS.forEach((q, i) => {
         if (!bySection[q.s]) bySection[q.s] = [];
@@ -309,11 +323,13 @@ function selectExamQuestions() {
     const selectedIndices = [];
     for (const [sStr, indices] of Object.entries(bySection)) {
         const s = Number(sStr);
-        const limit = counts[s];
-        if (limit === undefined || limit === null || limit >= indices.length) {
+        const limit = EXAM_LIMITS[s];
+        if (limit === null || limit === undefined) {
+            // 全問
+            selectedIndices.push(...indices);
+        } else if (limit >= indices.length) {
             selectedIndices.push(...indices);
         } else {
-            // Shuffle and pick
             const shuffled = indices.slice();
             for (let i = shuffled.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));

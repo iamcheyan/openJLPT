@@ -24,7 +24,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 SECTION_CONFIG = {
     "vocab_reading":    {"s": 1, "count": 5},
     "vocab_kanji":      {"s": 2, "count": 5},
-    "vocab_context":    {"s": 3, "count": 5},
+    "vocab_context":    {"s": 3, "count": 7},
     "vocab_synonym":    {"s": 4, "count": 5},
     "vocab_usage":      {"s": 5, "count": 5},
     "grammar_fill":     {"s": 6, "count": 12},
@@ -339,11 +339,13 @@ class ExamHandler(BaseHTTPRequestHandler):
         from urllib.parse import urlparse, parse_qs
         parsed = urlparse(self.path)
         params = parse_qs(parsed.query)
-        level = params.get("level", [DEFAULT_LEVEL])[0].lower()
-        if level not in VALID_LEVELS:
-            level = DEFAULT_LEVEL
+        path = parsed.path
 
-        if parsed.path == "/" or parsed.path == "":
+        # 主页：动态生成试卷
+        if path == "/" or path == "":
+            level = params.get("level", [DEFAULT_LEVEL])[0].lower()
+            if level not in VALID_LEVELS:
+                level = DEFAULT_LEVEL
             banks = load_banks(level)
             html = build_html(banks, level)
             body = html.encode("utf-8")
@@ -352,9 +354,38 @@ class ExamHandler(BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
-        else:
-            self.send_response(404)
+            return
+
+        # 静态文件：template/ 和 data/
+        safe_path = path.lstrip("/")
+        # 防止路径穿越
+        if ".." in safe_path or safe_path.startswith("/"):
+            self.send_response(403)
             self.end_headers()
+            return
+
+        file_path = os.path.join(BASE_DIR, safe_path)
+        if os.path.isfile(file_path):
+            ext = os.path.splitext(file_path)[1].lower()
+            ct = {".html": "text/html; charset=utf-8",
+                  ".json": "application/json; charset=utf-8",
+                  ".css": "text/css", ".js": "application/javascript",
+                  ".png": "image/png", ".jpg": "image/jpeg",
+                  ".svg": "image/svg+xml"}.get(ext, "application/octet-stream")
+            try:
+                with open(file_path, "rb") as f:
+                    body = f.read()
+                self.send_response(200)
+                self.send_header("Content-Type", ct)
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+            except (BrokenPipeError, ConnectionResetError):
+                pass
+            return
+
+        self.send_response(404)
+        self.end_headers()
 
 
 def _listening_socket_inodes(port):
