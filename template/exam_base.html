@@ -291,8 +291,8 @@ function selectExamQuestions() {
     const saved = loadExamState();
     if (saved && saved.selectedIndices && saved.selectedIndices.length > 0) {
         // Restore previously selected questions
-        const indices = saved.selectedIndices;
-        const selected = indices.map(i => QUESTIONS[i]).filter(Boolean);
+        savedSelectedIndices = saved.selectedIndices;
+        const selected = savedSelectedIndices.map(i => QUESTIONS[i]).filter(Boolean);
         QUESTIONS.length = 0;
         QUESTIONS.push(...selected);
         return;
@@ -327,6 +327,7 @@ function selectExamQuestions() {
     selectedIndices.sort((a, b) => a - b);
 
     // Save indices before replacing QUESTIONS
+    savedSelectedIndices = selectedIndices;
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
         selectedIndices: selectedIndices,
         selections: [],
@@ -340,10 +341,11 @@ function selectExamQuestions() {
     QUESTIONS.push(...selected);
 }
 
+let savedSelectedIndices = [];
+
 function saveExamState() {
-    const saved = loadExamState() || {};
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        selectedIndices: saved.selectedIndices || [],
+        selectedIndices: savedSelectedIndices,
         selections: selections,
         answered: answered,
         score: score,
@@ -616,16 +618,13 @@ async function buildUI() {
         if (selections[i] !== null) {
             const block = document.getElementById('q' + (i+1));
             const exp = document.getElementById('exp' + (i+1));
-            const navA = document.getElementById('nav' + (i+1));
             if (!block) continue;
             const options = block.querySelectorAll('.options li');
             if (results[i]) {
                 options[selections[i]].classList.add('correct');
-                if (navA) navA.className = 'done-correct';
             } else {
                 options[selections[i]].classList.add('wrong');
                 options[QUESTIONS[i].ans].classList.add('correct');
-                if (navA) navA.className = 'done-wrong';
             }
             if (exp) exp.classList.add('show');
         }
@@ -639,6 +638,7 @@ async function buildUI() {
 function check(qNum, selected, correct) {
     if (results[qNum-1] !== null) return;
     results[qNum-1] = (selected === correct);
+    selections[qNum-1] = selected;
     answered++; if (results[qNum-1]) score++;
     document.getElementById('progress').innerText = answered;
     document.getElementById('score').innerText = score;
@@ -651,6 +651,7 @@ function check(qNum, selected, correct) {
     if (selected === correct) { options[selected].classList.add('correct'); navA.className = 'done-correct'; }
     else { options[selected].classList.add('wrong'); options[correct].classList.add('correct'); navA.className = 'done-wrong'; }
     exp.classList.add('show');
+    saveExamState();
 }
 
 function toggleSidebar() {
@@ -661,7 +662,18 @@ function toggleSidebar() {
     const body = document.body;
     const btn = document.getElementById('toggle-btn');
     body.classList.toggle('collapsed');
-    btn.innerText = body.classList.contains('collapsed') ? '▶' : '◀';
+    const collapsed = body.classList.contains('collapsed');
+    btn.innerText = collapsed ? '▶' : '◀';
+    localStorage.setItem('openjlpt_sidebar', collapsed ? '1' : '0');
+}
+
+function restoreSidebar() {
+    if (window.matchMedia('(max-width: 900px)').matches) return;
+    const collapsed = localStorage.getItem('openjlpt_sidebar') === '1';
+    if (collapsed) {
+        document.body.classList.add('collapsed');
+        document.getElementById('toggle-btn').innerText = '▶';
+    }
 }
 
 function openMobileNav() {
@@ -737,9 +749,17 @@ function initNav() {
         a.addEventListener('click', closeMobileNav);
         nav.appendChild(a);
     }
+    // Restore nav state after elements are created
+    for (let i = 0; i < totalQuestions; i++) {
+        if (selections[i] !== null) {
+            const navA = document.getElementById('nav' + (i+1));
+            if (navA) navA.className = results[i] ? 'done-correct' : 'done-wrong';
+        }
+    }
 }
 document.addEventListener('keydown', handleVolumeNavigation, { passive: false });
 restoreFuriganaSetting();
+restoreSidebar();
 buildUI().then(initNav);
 </script>
 </body>

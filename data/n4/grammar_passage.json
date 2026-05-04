@@ -3,35 +3,469 @@
     "level": "N4",
     "question_type": "grammar_passage",
     "name": "文章の文法",
-    "count": 1
+    "instruction": "次の文章を読んで、文章全体の内容を考えて、＿＿の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 10
   },
   "questions": [
     {
       "id": "n4-grammar_passage-001",
       "level": "N4",
       "question_type": "grammar_passage",
-      "passage": "私の趣味は写真を（　1　）ことです。去年の誕生日に父からカメラを（　2　）、いろいろな場所へ行って写真を撮っています。来月は北海道へ（　3　）と思っています。きれいな景色をたくさん撮りたいです。",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
       "blanks": [
         {
-          "num": 1,
-          "options": ["撮る", "撮った", "撮って", "撮り"],
-          "answer": 0,
-          "explanation": "「（動詞辞书形）＋こと」で名詞化します。"
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
         },
         {
-          "num": 2,
-          "options": ["もらって", "あげて", "くれて", "くださって"],
-          "answer": 0,
-          "explanation": "自分がもらった場合は「もらって」を使います。"
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
         },
         {
-          "num": 3,
-          "options": ["行こう", "行け", "行き", "行けそう"],
-          "answer": 0,
-          "explanation": "「（意向形）＋と思っています」は、これからの計画を表します。"
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
         }
       ],
-      "verified": true
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-002",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-003",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-004",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-005",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-006",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-007",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-008",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-009",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n4-grammar_passage-010",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "あしたは（　1　）です。（　2　）へ行きます。（　3　）楽しみです。お弁当を（　4　）行きます。",
+      "blanks": [
+        {
+          "options": [
+            "休み",
+            "仕事",
+            "学校",
+            "試験"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "海",
+            "山",
+            "川",
+            "町"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "もっと",
+            "よく",
+            "いつも"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "作って",
+            "作ったり",
+            "作るし",
+            "作るから"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
     }
   ]
 }

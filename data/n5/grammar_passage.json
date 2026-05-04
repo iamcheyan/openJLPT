@@ -3,35 +3,469 @@
     "level": "N5",
     "question_type": "grammar_passage",
     "name": "文章の文法",
-    "count": 1
+    "instruction": "次の文章を読んで、文章全体の内容を考えて、＿＿の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 10
   },
   "questions": [
     {
       "id": "n5-grammar_passage-001",
       "level": "N5",
       "question_type": "grammar_passage",
-      "passage": "田中さんは毎朝７時に（　1　）。朝ごはんを食べてから、８時に（　2　）へ行きます。会社で夜６時まで働きます。夜、家（　3　）帰ってから、テレビを見ます。",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
       "blanks": [
         {
-          "num": 1,
-          "options": ["おきます", "ねます", "たべます", "のみます"],
-          "answer": 0,
-          "explanation": "「朝７時に」から「おきます（起きます）」が適切です。"
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
         },
         {
-          "num": 2,
-          "options": ["会社", "学校", "デパート", "公園"],
-          "answer": 0,
-          "explanation": "「会社で……働きます」という記述から「会社」へ行くことが分かります。"
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
         },
         {
-          "num": 3,
-          "options": ["へ", "を", "は", "が"],
-          "answer": 0,
-          "explanation": "移動の方向を表す助詞「へ」または「に」を使います。"
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
         }
       ],
-      "verified": true
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-002",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-003",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-004",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-005",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-006",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-007",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-008",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-009",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
+    },
+    {
+      "id": "n5-grammar_passage-010",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "これは（　1　）の本です。（　2　）おもしろいです。（　3　）で読みました。（　4　）に貸します。",
+      "blanks": [
+        {
+          "options": [
+            "わたし",
+            "あなた",
+            "だれ",
+            "だれか"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "ちょっと"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "うち",
+            "学校",
+            "駅",
+            "公園"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "ともだち",
+            "先生",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": 0
+        }
+      ],
+      "verified": true,
+      "created_at": "2026-05-04T11:00:00"
     }
   ]
 }
