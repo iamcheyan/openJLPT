@@ -19,6 +19,8 @@ body {
     color: #000;
     display: flex;
     min-height: 100vh;
+    padding-bottom: 72px;
+    /* 为底部工具栏留出空间 */
     -webkit-font-smoothing: antialiased;
 }
 
@@ -270,40 +272,20 @@ body.show-furigana rt {
     background: #333;
 }
 
+/* toggle-btn は mobile-exam-bar のハンバーガーボタンに統合済み */
 .toggle-btn {
-    position: fixed;
-    left: calc(var(--sidebar-width) - 1px);
-    top: 20px;
-    z-index: 1001;
-    background: #fff;
-    border: 2px solid #000;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
+    display: none;
 }
 
 body.collapsed .sidebar {
     transform: translateX(-100%);
 }
 
-body.collapsed .main-content {
-    margin-left: 0;
-}
-
-body.collapsed .toggle-btn {
-    left: 10px;
-}
-
 .main-content {
-    margin-left: var(--sidebar-width);
-    flex: 1;
+    margin: 0 auto;
     padding: 40px 60px;
     max-width: 1000px;
+    width: 100%;
 }
 
 h2 {
@@ -410,14 +392,53 @@ h3 {
     font-weight: bold;
 }
 
+/* Mobile Exam Bar — E-ink 最適化・全画面共通 */
+.mobile-exam-bar {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto auto;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 880px;
+    bottom: 16px;
+    z-index: 1000;
+    padding: 8px 12px;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+
+.mobile-status {
+    font-family: "Hiragino Sans", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.mobile-exam-bar button {
+    border: 2px solid #000;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+}
+
+.mobile-exam-bar button:active {
+    background: #eee;
+}
+
 @media (max-width: 900px) {
     body {
         display: block;
-        padding-bottom: 72px;
-    }
-
-    .toggle-btn {
-        display: none;
     }
 
     .sidebar {
@@ -448,36 +469,13 @@ h3 {
     }
 
     .mobile-exam-bar {
-        display: grid;
-        grid-template-columns: auto auto 1fr auto auto;
-        align-items: center;
-        gap: 8px;
-        position: fixed;
         left: 0;
-        right: 0;
         bottom: 0;
-        z-index: 1000;
-        padding: 10px 12px;
-        background: #fff;
-        /* border-top: 2px solid #000; */
-    }
-
-    .mobile-status {
-        font-size: 12px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .mobile-exam-bar button {
-        border: 2px solid #000;
-        background: #fff;
-        height: 44px;
-        padding: 0 12px;
-        font-weight: bold;
+        margin: 0;
+        max-width: none;
     }
 
     .main-content {
-        margin-left: 0;
         padding: 20px 15px;
     }
 }
@@ -757,12 +755,7 @@ h3 {
     box-sizing: border-box !important;
 }
 
-/* 移除底部导航的原生高度限制，统一使用 icon-btn */
-.mobile-exam-bar button {
-    height: 40px;
-    min-width: 40px;
-    padding: 0;
-}
+/* mobile-exam-bar button 样式已合并到全局规则中 */
 
 /* --- 强制覆盖：高级设置面板 UI --- */
 #modal-body {
