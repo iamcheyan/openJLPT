@@ -24,9 +24,8 @@ jobs:
           mkdir -p android/app/src/main/assets
           # Copy all UI files to assets
           cp -r assets android/app/src/main/assets/
-          cp index.html android/app/src/main/assets/
+          cp template/exam_base.html android/app/src/main/assets/index.html
           cp manifest.json android/app/src/main/assets/
-          # Ensure libs are included if they are outside assets
           # Remove data folder to keep APK small (loaded from external storage)
           rm -rf android/app/src/main/assets/data
           rm -rf android/app/src/main/assets/assets/libs/dict/*.gz
