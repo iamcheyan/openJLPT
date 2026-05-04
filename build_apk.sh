@@ -20,17 +20,9 @@ if [[ $SYNC_PARAM == sync:* ]]; then
     echo ">>> 检测到同步需求: 用户=$REMOTE_USER, 主机=$REMOTE_HOST"
 fi
 
-echo ">>> 开始准备 Web 资源..."
-mkdir -p android/app/src/main/assets/assets
-cp template/exam_base.html android/app/src/main/assets/index.html
-cp -r assets/* android/app/src/main/assets/assets/
-cp manifest.json android/app/src/main/assets/
-rm -rf android/app/src/main/assets/assets/libs/dict/*.gz
-echo ">>> Web 资源准备就绪。"
-
-echo ">>> 正在启动 Gradle 编译..."
+echo ">>> 正在启动 Gradle 编译（自动同步 Web 资源）..."
 cd android
-./gradlew assembleDebug
+./gradlew clean assembleDebug
 cd ..
 
 # 生成产物路径
