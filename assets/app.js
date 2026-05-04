@@ -2,7 +2,7 @@
  * OpenJLPT Unified Logic
  */
 
-const SECTION_CONFIG = { "vocab_reading": {s:1, count:5}, "vocab_kanji": {s:2, count:5}, "vocab_context": {s:3, count:7}, "vocab_synonym": {s:4, count:5}, "vocab_usage": {s:5, count:5}, "vocab_compound": {s:13, count:5}, "grammar_fill": {s:6, count:12}, "grammar_order": {s:7, count:5}, "grammar_passage": {s:8, count:null}, "reading_short": {s:9, count:null}, "reading_medium": {s:10, count:null}, "reading_long": {s:11, count:null}, "reading_search": {s:12, count:null} };
+const SECTION_CONFIG = { "vocab_reading": {s:1, count:5}, "vocab_kanji": {s:2, count:5}, "vocab_compound": {s:3, count:5}, "vocab_context": {s:4, count:7}, "vocab_synonym": {s:5, count:5}, "vocab_usage": {s:6, count:5}, "grammar_fill": {s:7, count:12}, "grammar_order": {s:8, count:5}, "grammar_passage": {s:9, count:null}, "reading_short": {s:10, count:null}, "reading_medium": {s:11, count:null}, "reading_long": {s:12, count:null}, "reading_search": {s:13, count:null} };
 const STORAGE_KEY_PREFIX = 'openjlpt_exam_';
 let STORAGE_KEY = '';
 
@@ -229,7 +229,7 @@ function selectExamQuestions() {
     }
 
     const LIMITS = {
-        "1": 5, "2": 5, "3": 5, "4": 7, "5": 5, "6": 17, "7": 5, "8": 5, "9": 5, "10": 9, "11": 5, "12": 2, "13": 5
+        "1": 5, "2": 5, "3": 5, "4": 7, "5": 5, "6": 5, "7": 17, "8": 5, "9": 5, "10": 5, "11": 9, "12": 5, "13": 2
     };
     const byS = {}; QUESTIONS.forEach((q, i) => { if (!byS[q.s]) byS[q.s] = []; byS[q.s].push(i); });
     const sel = [];
@@ -627,10 +627,10 @@ document.addEventListener('volumekey', function(e) {
 });
 function initNav() {
     const n = document.getElementById('nav'); n.innerHTML = '';
-    const LBL = { 
-        1:'① 漢字の読み方', 2:'② 漢字の表記', 3:'③ 文脈規定', 4:'④ 言い換え・類義', 
-        5:'⑤ 用法', 6:'⑥ 文の文法', 7:'⑦ 文の組み立て', 8:'⑧ 文章の文法', 
-        9:'⑨ 短文読解', 10:'⑩ 中文読解', 11:'⑪ 長文読解', 12:'⑫ 情報検索' 
+    const LBL = {
+        1:'① 漢字の読み方', 2:'② 漢字の表記', 3:'③ 複合語・接辞', 4:'④ 文脈規定', 5:'⑤ 言い換え・類義',
+        6:'⑥ 用法', 7:'⑦ 文の文法', 8:'⑧ 文の組み立て', 9:'⑨ 文章の文法',
+        10:'⑩ 短文読解', 11:'⑪ 中文読解', 12:'⑫ 長文読解', 13:'⑬ 情報検索'
     };
     let currentS = -1; let currentGrid = null;
     QUESTIONS.forEach((q, i) => {
