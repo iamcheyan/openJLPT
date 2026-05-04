@@ -17,6 +17,11 @@
     animation: none !important;
 }
 
+/* 墨水屏优化例外：加载旋转器需要动画以示程序运行中 */
+.loading-spinner {
+    animation: spin 1s linear infinite !important;
+}
+
 body {
     font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
     background: #fff;
@@ -714,7 +719,8 @@ h3 {
 }
 
 @keyframes spin {
-    /* 墨水屏优化：动画已禁用 */
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .loading-text {
