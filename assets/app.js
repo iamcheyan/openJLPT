@@ -47,26 +47,65 @@ async function syncFromCloud() {
     const level = window.CURRENT_LEVEL || 'n2';
     const overlay = document.getElementById('sync-overlay');
     const progress = document.getElementById('sync-progress-bar');
-    const log = document.getElementById('sync-log');
+    const logTitle = document.getElementById('sync-log');
+    const logDetails = document.getElementById('sync-log-details');
+    
     if (overlay) overlay.style.display = 'flex';
+    if (logDetails) logDetails.innerHTML = '';
+    
+    const addLog = (msg, type='') => {
+        if (!logDetails) return;
+        const line = document.createElement('div');
+        line.className = 'sync-log-line ' + type;
+        line.textContent = `> ${msg}`;
+        logDetails.appendChild(line);
+        logDetails.scrollTop = logDetails.scrollHeight;
+    };
+
+    addLog(`同期プロセスの開始: LEVEL ${level.toUpperCase()}`);
+    addLog(`GitHub リポジトリに接続中...`);
     
     const ids = Object.keys(SECTION_CONFIG);
-    let count = 0;
-    for (const id of ids) {
-        if (log) log.textContent = `Downloading: ${id}...`;
+    let updatedCount = 0;
+    
+    for (let i = 0; i < ids.length; i++) {
+        const id = ids[i];
+        addLog(`チェック中: ${id}...`);
+        
         try {
             const url = `https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`;
             const r = await fetch(url);
             if (r.ok) {
                 const json = await r.json();
-                await DataCache.set(`${level}_${id}`, json);
+                const local = await DataCache.get(`${level}_${id}`);
+                
+                // コンテンツの比較
+                if (local && JSON.stringify(local) === JSON.stringify(json)) {
+                    addLog(`${id}: 最新の状態です`, 'ok');
+                } else {
+                    await DataCache.set(`${level}_${id}`, json);
+                    addLog(`${id}: データを更新しました`, 'new');
+                    updatedCount++;
+                }
             }
-        } catch (e) { console.error(e); }
-        count++;
-        if (progress) progress.style.width = (count / ids.length * 100) + "%";
+        } catch (e) { 
+            addLog(`${id}: 取得エラー`, 'err');
+        }
+        
+        if (progress) progress.style.width = ((i + 1) / ids.length * 100) + "%";
+        await new Promise(res => setTimeout(res, 150)); // E-inkフレンドリーな待機
     }
-    if (log) log.textContent = "Sync Complete! Reloading...";
-    setTimeout(() => window.location.reload(), 1000);
+
+    if (updatedCount > 0) {
+        addLog(`同期完了: ${updatedCount} 個のセクションを更新しました`);
+        if (logTitle) logTitle.textContent = "同期完了";
+    } else {
+        addLog(`すべてのデータはすでに最新の状態です`);
+        if (logTitle) logTitle.textContent = "更新なし";
+    }
+    
+    addLog(`アプリケーションを再起動しています...`);
+    setTimeout(() => window.location.reload(), 2000);
 }
 
 // UI Utilities
@@ -309,9 +348,9 @@ function initNav() {
 }
 
 function triggerManualSync() {
-    showCustomModal('词库更新', '云端词库同步将覆盖本地所有题目并重置当前进度。确认更新吗？', [
-        { label: '取消' },
-        { label: '确认更新', primary: true, onClick: () => { syncFromCloud(); } }
+    showCustomModal('データの同期', 'クラウドから最新の問題データを取得します。現在の学習進捗はリセットされますが、よろしいですか？', [
+        { label: 'キャンセル' },
+        { label: '更新を実行', primary: true, onClick: () => { syncFromCloud(); } }
     ]);
 }
 

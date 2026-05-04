@@ -13,19 +13,33 @@ venv/
 # Generated logs
 logs/
 
-# Generated files
+# Android Build Artifacts (Crucial)
+android/app/build/
+android/.gradle/
+android/local.properties
+android/captures/
+.externalNativeBuild/
+.cxx/
+
+# Sync/Copy Artifacts in Android Project
+# 我们不提交安卓 assets 下的文件，因为它们是从根目录同步过去的
+android/app/src/main/assets/
+
+# Build Output
+build_output/
+*.apk
+
+# Web Generated files
 data_n2.js
 exam_n2_offline.html
-index.html
-full_exam.html
+# index.html 和 full_exam.html 是核心代码，需要保留
 
-# Assets (Third-party libraries and large files)
-assets/libs/
-assets/libs/dict/
+# Assets (Third-party large binaries)
+assets/libs/dict/*.gz
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# User data (localStorage handles this in browser, but just in case)
-.gemini/
+# Documentation
+resources/
