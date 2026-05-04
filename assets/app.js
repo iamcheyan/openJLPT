@@ -379,30 +379,13 @@ function updateSet(type, val) {
 }
 
 function refreshExam() {
-    if (answered === 0) { localStorage.removeItem(STORAGE_KEY); location.reload(); return; }
     showCustomModal('再生成の確認', '現在の進捗を破棄して、新しい問題セットを生成しますか？', [
         { label: 'キャンセル' }, 
         { label: '再生成する', primary: true, onClick: () => { localStorage.removeItem(STORAGE_KEY); location.reload(); } }
     ]);
 }
 
-function toggleStatsOverlay() {
-    const ov = document.getElementById('stats-overlay'); if (!ov) return;
-    if (!ov.classList.contains('open')) {
-        const b = document.getElementById('stats-overlay-body'); b.innerHTML = ''; let gt = 0;
-        const LBL = { 
-            1:'① 漢字の読み方', 2:'② 漢字の表記', 3:'③ 文脈規定', 4:'④ 言い換え・類義', 
-            5:'⑤ 用法', 6:'⑥ 文の文法', 7:'⑦ 文の組み立て', 8:'⑧ 文章の文法', 
-            9:'⑨ 短文読解', 10:'⑩ 中文読解', 11:'⑪ 長文読解', 12:'⑫ 情報検索' 
-        };
-        Object.values(BANK_STATS || {}).sort((a,b)=>a.s-b.s).forEach(s => { 
-            b.innerHTML += `<div class="stats-row"><span>${LBL[s.s]||s.name}</span><b>${s.total} 問</b></div>`; 
-            gt += s.total; 
-        });
-        b.innerHTML += `<div class="stats-total-row"><span>合計</span><span>${gt} 問</span></div>`;
-    }
-    ov.classList.toggle('open');
-}
+
 
 function initLevelSwitcher() {
     const level = window.CURRENT_LEVEL || 'n2', levels = ['n1', 'n2', 'n3', 'n4', 'n5'];

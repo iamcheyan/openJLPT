@@ -507,31 +507,7 @@ h3 {
     text-decoration: underline;
 }
 
-/* Stats Overlay */
-.stats-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    z-index: 2000;
-    background: #fff;
-    overflow-y: auto;
-}
 
-.stats-overlay.open {
-    display: block;
-}
-
-.stats-overlay-header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    border-bottom: 3px solid #000;
-    background: #fff;
-    z-index: 10;
-}
 
 /* Sync UI */
 .sync-prompt,
@@ -642,54 +618,7 @@ h3 {
     width: 0%;
 }
 
-.stats-overlay-header h2 {
-    margin: 0;
-    border: none;
-    padding: 0;
-}
 
-.stats-close-btn {
-    border: 2px solid #000;
-    background: #fff;
-    padding: 8px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: "Hiragino Sans", sans-serif;
-}
-
-.stats-overlay-body {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-}
-
-.stats-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #eee;
-    font-size: 18px;
-}
-
-.stats-row span {
-    font-weight: 500;
-}
-
-.stats-row b {
-    font-family: "Hiragino Sans", sans-serif;
-    font-size: 20px;
-}
-
-.stats-total-row {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 3px double #000;
-    display: flex;
-    justify-content: space-between;
-    font-size: 24px;
-    font-weight: bold;
-}
 
 /* Loading Overlay */
 .loading-overlay {
