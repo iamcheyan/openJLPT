@@ -504,13 +504,14 @@ async function buildUI() {
         h += `<ul class="options">`;
         const opts = Array.isArray(q.opts) ? q.opts : [...(q.star || '').replace(/　/g, ' ').matchAll(/[１２３４1-4]\.\s*([^１２３４1-4]+?)(?=\s*[１２３４1-4]\.|$)/g)].map(m => m[1].trim());
         
-        opts.forEach((o, oi) => { 
+        opts.forEach((o, oi) => {
             let cls = '';
             if (isAnswered) {
                 if (oi === correctAns) cls = 'correct';
                 else if (oi === userSel) cls = 'wrong';
             }
-            h += `<li class="${cls}" onclick="check(${i + 1}, ${oi}, ${q.ans})">${oi + 1}. ${applyFurigana(o)}</li>`; 
+            const optText = q.s === 2 ? o : applyFurigana(o);
+            h += `<li class="${cls}" onclick="check(${i + 1}, ${oi}, ${q.ans})">${oi + 1}. ${optText}</li>`;
         });
         
         let ex = q.exp || `正解：${q.ans + 1}`; 
