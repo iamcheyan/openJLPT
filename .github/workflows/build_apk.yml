@@ -17,24 +17,18 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: gradle
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
 
       - name: Prepare Web Assets
         run: |
           mkdir -p android/app/src/main/assets
-          # Copy all UI files to assets
           cp -r assets android/app/src/main/assets/
           cp template/exam_base.html android/app/src/main/assets/index.html
           cp manifest.json android/app/src/main/assets/
-          # Remove data folder to keep APK small (loaded from external storage)
           rm -rf android/app/src/main/assets/data
           rm -rf android/app/src/main/assets/assets/libs/dict/*.gz
-
-      - name: Grant Execute Permission for Gradlew
-        run: |
-          cd android
-          gradle wrapper
-          chmod +x gradlew
 
       - name: Build Debug APK
         run: |
