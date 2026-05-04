@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT N2 完全模擬試験 — Full Template</title>
+    <title>JLPT N2</title>
     <style>
         :root {
             --correct-color: #67c23a;
@@ -125,6 +125,8 @@
             gap: 5px;
             overflow-y: auto;
             flex: 1;
+            padding-right: 10px;
+            ;
         }
 
         .nav-grid a {
@@ -158,6 +160,133 @@
         .sidebar-backdrop,
         .mobile-exam-bar {
             display: none;
+        }
+
+        /* Custom UI Components */
+        .custom-select-wrapper {
+            position: relative;
+            user-select: none;
+            /* width: 100px; */
+        }
+
+        .custom-select-trigger {
+            height: 38px;
+            /* Fixed height */
+            padding: 0 12px;
+            border: 1px solid #000;
+            background: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .custom-select-trigger::after {
+            content: '▼';
+            font-size: 10px;
+            margin-left: 8px;
+        }
+
+        .custom-options {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border: 1px solid #000;
+            border-top: none;
+            display: none;
+            z-index: 1000;
+        }
+
+        .custom-select-wrapper.open .custom-options {
+            display: block;
+        }
+
+        .custom-option {
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .custom-option:hover {
+            background: #f0f0f0;
+        }
+
+        .custom-option.selected {
+            background: #000;
+            color: #fff;
+        }
+
+        /* Custom Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            backdrop-filter: blur(2px);
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-card {
+            background: #fff;
+            border: 2px solid #000;
+            padding: 24px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
+            transform: translateY(20px);
+            transition: transform 0.3s;
+        }
+
+        .modal-overlay.active .modal-card {
+            transform: translateY(0);
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .modal-body {
+            font-size: 15px;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        .modal-btn {
+            padding: 8px 16px;
+            border: 1px solid #000;
+            background: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .modal-btn-primary {
+            background: #000;
+            color: #fff;
+        }
+
+        .modal-btn:hover {
+            opacity: 0.8;
         }
 
         .toggle-btn {
@@ -478,14 +607,19 @@
         }
 
         .refresh-btn {
-            display: inline-block;
-            padding: 6px 12px;
+            height: 38px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 16px;
             border: 1px solid #000;
             background: #fff;
             font-size: 13px;
+            font-weight: bold;
             font-family: "Hiragino Sans", sans-serif;
             cursor: pointer;
             white-space: nowrap;
+            box-sizing: border-box;
         }
 
         .refresh-btn:hover {
@@ -593,7 +727,7 @@
         }
 
         .sidebar-stats-link {
-            margin-top: auto;
+            margin-top: 20px;
             padding-top: 12px;
             border-top: 1px solid #000;
             font-size: 12px;
@@ -684,11 +818,14 @@
     <div class="main-content">
         <header class="exam-header">
             <div>
-                <h1 id="exam-title">JLPT 模擬試験</h1>
+                <h1 id="exam-title">JLPT</h1>
                 <p>言語知識・読解</p>
             </div>
-            <div style="display:flex;gap:8px;align-items:center">
-                <div class="level-switcher" id="level-switcher"></div>
+            <div style="display:flex;gap:12px;align-items:center">
+                <div class="custom-select-wrapper" id="level-select-wrapper">
+                    <div class="custom-select-trigger" id="level-select-trigger">LEVEL</div>
+                    <div class="custom-options" id="level-options"></div>
+                </div>
                 <button class="refresh-btn" onclick="refreshExam()">新しい問題</button>
             </div>
         </header>
@@ -743,6 +880,14 @@
         <h3>⑫ 情報検索</h3>
         <div class="instruction">右のページは、ある案内である。下の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。</div>
         <div id="section-12"></div>
+    </div>
+
+    <div id="custom-modal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-title" id="modal-title">确认</div>
+            <div class="modal-body" id="modal-body"></div>
+            <div class="modal-actions" id="modal-actions"></div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js"></script>
@@ -848,12 +993,39 @@
             localStorage.removeItem(STORAGE_KEY);
         }
 
+        function showCustomModal(title, body, actions) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-body').innerText = body;
+            const actionsEl = document.getElementById('modal-actions');
+            actionsEl.innerHTML = '';
+            actions.forEach(act => {
+                const btn = document.createElement('button');
+                btn.className = 'modal-btn ' + (act.primary ? 'modal-btn-primary' : '');
+                btn.innerText = act.label;
+                btn.onclick = () => {
+                    document.getElementById('custom-modal').classList.remove('active');
+                    if (act.onClick) act.onClick();
+                };
+                actionsEl.appendChild(btn);
+            });
+            document.getElementById('custom-modal').classList.add('active');
+        }
+
         function refreshExam() {
-            if (answered > 0 && !confirm('新しい問題を生成しますか？\n現在の回答は削除されます。')) {
+            if (answered === 0) {
+                clearExamState();
+                location.reload();
                 return;
             }
-            clearExamState();
-            location.reload();
+            showCustomModal('更新确认', '当前的答题进度将被清除，确认要重新生成吗？', [
+                { label: '取消' },
+                {
+                    label: '确认更新', primary: true, onClick: () => {
+                        clearExamState();
+                        location.reload();
+                    }
+                }
+            ]);
         }
 
         // ============================
@@ -943,26 +1115,32 @@
         (function initLevelSwitcher() {
             const level = (typeof CURRENT_LEVEL !== 'undefined') ? CURRENT_LEVEL : 'n2';
             const levels = ['n1', 'n2', 'n3', 'n4', 'n5'];
+            document.getElementById('exam-title').innerText = `JLPT ${level.toUpperCase()}`;
 
-            // Update title
-            const titleEl = document.getElementById('exam-title');
-            if (titleEl) titleEl.textContent = `JLPT ${level.toUpperCase()} 模擬試験`;
+            const trigger = document.getElementById('level-select-trigger');
+            const optionsEl = document.getElementById('level-options');
+            const wrapper = document.getElementById('level-select-wrapper');
 
-            // Update stats overlay title
-            const statsTitle = document.querySelector('.stats-overlay-header h2');
-            if (statsTitle) statsTitle.textContent = `${level.toUpperCase()} 題型統計`;
+            trigger.innerText = level.toUpperCase();
 
-            // Build level switcher buttons
-            const container = document.getElementById('level-switcher');
-            if (container) {
-                levels.forEach(lv => {
-                    const a = document.createElement('a');
-                    a.className = 'level-btn' + (lv === level ? ' active' : '');
-                    a.textContent = lv.toUpperCase();
-                    a.href = '/?level=' + lv;
-                    container.appendChild(a);
-                });
-            }
+            levels.forEach(lv => {
+                const opt = document.createElement('div');
+                opt.className = 'custom-option' + (lv === level ? ' selected' : '');
+                opt.innerText = lv.toUpperCase();
+                opt.onclick = () => {
+                    location.href = '/?level=' + lv;
+                };
+                optionsEl.appendChild(opt);
+            });
+
+            trigger.onclick = (e) => {
+                e.stopPropagation();
+                wrapper.classList.toggle('open');
+            };
+
+            document.addEventListener('click', () => {
+                wrapper.classList.remove('open');
+            });
         })();
 
         const savedState = loadExamState();

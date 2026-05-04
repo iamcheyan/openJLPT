@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JLPT N2 模擬試験 — OpenJLPT</title>
+<title>JLPT N2 — OpenJLPT</title>
 <style>
   :root {
     --accent: #2563eb;
@@ -238,15 +238,28 @@
   /* Hidden */
   .hidden { display: none !important; }
 
-  /* Refresh button */
-  .btn-refresh {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 8px 16px; border: 1px solid var(--border);
-    border-radius: var(--radius); font-size: 13px; font-weight: 600;
-    cursor: pointer; background: var(--bg); color: var(--text-secondary);
-    margin-top: 12px; transition: all .15s;
+  /* Custom Modal */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+    display: none; align-items: center; justify-content: center; z-index: 9999;
+    backdrop-filter: blur(4px);
   }
-  .btn-refresh:hover { background: var(--border); color: var(--text); }
+  .modal-overlay.active { display: flex; }
+  .modal-card {
+    background: var(--card); border-radius: 12px; padding: 24px;
+    max-width: 400px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+    transform: translateY(20px); transition: transform 0.3s;
+  }
+  .modal-overlay.active .modal-card { transform: translateY(0); }
+  .modal-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+  .modal-body { font-size: 15px; margin-bottom: 24px; line-height: 1.6; color: var(--text-secondary); }
+  .modal-actions { display: flex; justify-content: flex-end; gap: 12px; }
+  .modal-btn {
+    padding: 10px 20px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--card); font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .modal-btn-primary { background: var(--accent); color: #fff; border: none; }
+  .modal-btn:hover { opacity: 0.9; }
 
   /* Responsive */
   @media (max-width: 480px) {
@@ -269,7 +282,7 @@
 <!-- START -->
 <div id="start-screen" class="screen">
   <div class="hero">
-    <h2>JLPT N2 模擬試験</h2>
+    <h2>JLPT N2</h2>
     <p>言語知識（文字・語彙・文法）・読解<br>105分 / 全 <span id="start-total">—</span> 問</p>
     <div class="info-grid">
       <div class="info-card"><div class="num" id="info-vocab">—</div><div class="label">文字・語彙</div></div>
@@ -344,6 +357,14 @@
       <button class="btn btn-secondary" onclick="app.restart()">もう一回</button>
     </div>
     <div id="review-area"></div>
+  </div>
+</div>
+
+<div id="custom-modal" class="modal-overlay">
+  <div class="modal-card">
+    <div class="modal-title" id="modal-title">确认</div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-actions" id="modal-actions"></div>
   </div>
 </div>
 
@@ -996,9 +1017,30 @@
     localStorage.setItem('openjlpt_progress', JSON.stringify(data));
   }
 
+  function showCustomModal(title, body, actions) {
+    document.getElementById('modal-title').innerText = title;
+    document.getElementById('modal-body').innerText = body;
+    const actionsEl = document.getElementById('modal-actions');
+    actionsEl.innerHTML = '';
+    actions.forEach(act => {
+      const btn = document.createElement('button');
+      btn.className = 'modal-btn ' + (act.primary ? 'modal-btn-primary' : '');
+      btn.innerText = act.label;
+      btn.onclick = () => {
+        document.getElementById('custom-modal').classList.remove('active');
+        if (act.onClick) act.onClick();
+      };
+      actionsEl.appendChild(btn);
+    });
+    document.getElementById('custom-modal').classList.add('active');
+  }
+
   function loadSaved() {
     const raw = localStorage.getItem('openjlpt_progress');
-    if (!raw) { alert('保存された進捗がありません'); return; }
+    if (!raw) {
+      showCustomModal('提示', '未找到保存的进度', [{ label: '确定', primary: true }]);
+      return;
+    }
     const data = JSON.parse(raw);
     if (data.examFinished) {
       state.answers = data.answers || {};
@@ -1030,7 +1072,15 @@
 
   function refreshQuestions() {
     const hasAnswers = Object.keys(state.answers).length > 0;
-    if (hasAnswers && !confirm('新しい問題を生成しますか？\n現在の回答は削除されます。')) {
+    if (hasAnswers) {
+      showCustomModal('更新确认', '当前的答题进度将被清除，确认要重新生成吗？', [
+        { label: '取消' },
+        { label: '确认更新', primary: true, onClick: () => {
+          localStorage.removeItem('openjlpt_progress');
+          localStorage.removeItem(EXAM_SELECTION_KEY);
+          location.reload();
+        }}
+      ]);
       return;
     }
     localStorage.removeItem('openjlpt_progress');
