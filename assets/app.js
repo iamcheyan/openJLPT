@@ -2,7 +2,7 @@
  * OpenJLPT Unified Logic
  */
 
-const SECTION_CONFIG = { "vocab_reading": {s:1, count:5}, "vocab_kanji": {s:2, count:5}, "vocab_context": {s:3, count:7}, "vocab_synonym": {s:4, count:5}, "vocab_usage": {s:5, count:5}, "grammar_fill": {s:6, count:12}, "grammar_order": {s:7, count:5}, "grammar_passage": {s:8, count:null}, "reading_short": {s:9, count:null}, "reading_medium": {s:10, count:null}, "reading_long": {s:11, count:null}, "reading_search": {s:12, count:null} };
+const SECTION_CONFIG = { "vocab_reading": {s:1, count:5}, "vocab_kanji": {s:2, count:5}, "vocab_context": {s:3, count:7}, "vocab_synonym": {s:4, count:5}, "vocab_usage": {s:5, count:5}, "vocab_compound": {s:13, count:5}, "grammar_fill": {s:6, count:12}, "grammar_order": {s:7, count:5}, "grammar_passage": {s:8, count:null}, "reading_short": {s:9, count:null}, "reading_medium": {s:10, count:null}, "reading_long": {s:11, count:null}, "reading_search": {s:12, count:null} };
 const STORAGE_KEY_PREFIX = 'openjlpt_exam_';
 let STORAGE_KEY = '';
 
@@ -192,7 +192,7 @@ async function loadExamData() {
                 });
             }
             else if (id === "grammar_order") raw.forEach(q => { const f = q.fragments || q.options || [], sp = f.map((v, i) => `${['１','２','３','４'][i]}. ${v}`); proc.push({ s:cfg.s, txt:highlightBlanks(q.sentence||""), star:sp.join("　"), opts:f, ans:q.answer||0, exp:q.explanation||"", translation:q.translation }); });
-            else raw.forEach(q => { let tx = q.sentence || ""; const t = q.target || "", o = q.options || [], a = q.answer || 0; if (id==="vocab_usage") tx = `<span class="target-word">${t}</span>`; else if (["vocab_reading","vocab_kanji","vocab_synonym"].includes(id)) tx = wrapTargetWord(tx, t); else if (id==="vocab_context") { tx = highlightBlanks(tx); if (!tx.includes('target-word')) tx = tryExtractTarget(tx, o, a); } else if (id==="grammar_fill") tx = highlightBlanks(tx); proc.push({ s:cfg.s, txt:tx, opts:o, ans:a, exp:q.explanation||"", translation:q.translation }); });
+            else raw.forEach(q => { let tx = q.sentence || ""; const t = q.target || "", o = q.options || [], a = q.answer || 0; if (id==="vocab_usage") tx = `<span class="target-word">${t}</span>`; else if (["vocab_reading","vocab_kanji","vocab_synonym"].includes(id)) tx = wrapTargetWord(tx, t); else if (id==="vocab_context"||id==="vocab_compound") { tx = highlightBlanks(tx); if (!tx.includes('target-word')) tx = tryExtractTarget(tx, o, a); } else if (id==="grammar_fill") tx = highlightBlanks(tx); proc.push({ s:cfg.s, txt:tx, opts:o, ans:a, exp:q.explanation||"", translation:q.translation }); });
             
             if (proc.length > 0) {
                 all.push(...proc);
@@ -228,15 +228,15 @@ function selectExamQuestions() {
         return;
     }
 
-    const LIMITS = { 
-        "1": 5, "2": 5, "3": 5, "4": 7, "5": 5, "6": 17, "7": 5, "8": 5, "9": 5, "10": 9, "11": 5, "12": 2 
+    const LIMITS = {
+        "1": 5, "2": 5, "3": 5, "4": 7, "5": 5, "6": 17, "7": 5, "8": 5, "9": 5, "10": 9, "11": 5, "12": 2, "13": 5
     };
     const byS = {}; QUESTIONS.forEach((q, i) => { if (!byS[q.s]) byS[q.s] = []; byS[q.s].push(i); });
     const sel = [];
     console.log("Section counts in bank:", Object.fromEntries(Object.entries(byS).map(([s, ids]) => [s, ids.length])));
     
-    // Explicitly iterate 1-12 to ensure no section is missed
-    for (let s = 1; s <= 12; s++) {
+    // Explicitly iterate 1-13 to ensure no section is missed
+    for (let s = 1; s <= 13; s++) {
         const ids = byS[s]; if (!ids) continue;
         const lim = LIMITS[String(s)];
         if (lim === undefined || lim >= ids.length) {
