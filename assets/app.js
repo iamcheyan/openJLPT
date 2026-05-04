@@ -13,6 +13,65 @@ function wrapTargetWord(s, t) { if (!t || !s) return s; return s.includes(`《${
 function highlightBlanks(t) { return t ? t.replace(/★/g, '<span class="target-word">★</span>').replace(/（[ 　\d]*）/g, m => `<span class="target-word">${m}</span>`) : t; }
 function tryExtractTarget(s, o, a) { if (!s || !o || a===undefined) return s; const w = o[a], st = w.replace(/[するだです]+$/, ''); const cs = [w]; if (st!==w) cs.unshift(st); for (const c of cs) if (s.includes(c)) return s.replace(c, '<span class="target-word">（　）</span>'); return s; }
 
+// --- IndexedDB Cache Manager ---
+const DB_NAME = "OpenJLPT_Cache";
+const STORE_NAME = "questions";
+const dbPromise = new Promise((resolve, reject) => {
+    const req = indexedDB.open(DB_NAME, 1);
+    req.onupgradeneeded = () => req.result.createObjectStore(STORE_NAME);
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+});
+
+const DataCache = {
+    async get(key) {
+        const db = await dbPromise;
+        return new Promise(r => {
+            const req = db.transaction(STORE_NAME).objectStore(STORE_NAME).get(key);
+            req.onsuccess = () => r(req.result);
+        });
+    },
+    async set(key, val) {
+        const db = await dbPromise;
+        const tx = db.transaction(STORE_NAME, "readwrite");
+        tx.objectStore(STORE_NAME).put(val, key);
+    },
+    async hasData(level) {
+        const firstFile = Object.keys(SECTION_CONFIG)[0];
+        const data = await this.get(`${level}_${firstFile}`);
+        return !!data;
+    }
+};
+
+async function syncFromCloud() {
+    const level = window.CURRENT_LEVEL || 'n2';
+    const overlay = document.getElementById('sync-overlay');
+    const progress = document.getElementById('sync-progress-bar');
+    const log = document.getElementById('sync-log');
+    if (overlay) overlay.style.display = 'flex';
+    
+    const ids = Object.keys(SECTION_CONFIG);
+    let count = 0;
+    for (const id of ids) {
+        if (log) log.textContent = `Downloading: ${id}...`;
+        try {
+            const url = `https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`;
+            const r = await fetch(url);
+            if (r.ok) {
+                const json = await r.json();
+                await DataCache.set(`${level}_${id}`, json);
+            }
+        } catch (e) { console.error(e); }
+        count++;
+        if (progress) progress.style.width = (count / ids.length * 100) + "%";
+    }
+    if (log) log.textContent = "Sync Complete! Reloading...";
+    setTimeout(() => window.location.reload(), 1000);
+}
+
+// UI Utilities
+function toggleFurigana() { document.body.classList.toggle('hide-furigana', !document.getElementById('furigana-toggle').checked); localStorage.setItem('openjlpt_furigana', document.getElementById('furigana-toggle').checked); }
+
 // Base path for data - can be overridden by the host (e.g., an Android app shell)
 window.DATA_ROOT = window.DATA_ROOT || 'data';
 
@@ -25,26 +84,39 @@ async function loadExamData() {
         document.getElementById('exam-title').textContent = `JLPT ${level.toUpperCase()} ${window.EXAM_MODE === 'full' ? '(Full)' : ''}`;
     }
 
+    // Check if data exists in Cache
+    const hasCache = await DataCache.hasData(level);
+    if (!hasCache && QUESTIONS.length === 0) {
+        console.log("No local data found. Showing sync prompt.");
+        const prompt = document.getElementById('sync-prompt');
+        if (prompt) prompt.style.display = 'flex';
+        return;
+    }
+
     if (QUESTIONS.length > 0) {
         console.log("Using pre-loaded questions.");
         await finishLoading();
         return;
     }
 
-    console.log(`Fetching questions from ${window.DATA_ROOT}/${level}/...`);
+    console.log(`Fetching questions for ${level}...`);
     const all = []; const stats = {};
     const promises = Object.keys(SECTION_CONFIG).map(async id => {
         const cfg = SECTION_CONFIG[id];
         try {
-            let r;
-            try {
-                r = await fetch(`${window.DATA_ROOT}/${level}/${id}.json`);
-                if (!r.ok) throw new Error();
-            } catch (e) {
-                r = await fetch(`https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`);
-                if (!r.ok) return;
+            let r, d;
+            // 1. Try Cache
+            d = await DataCache.get(`${level}_${id}`);
+            if (!d) {
+                // 2. Try Local File
+                try {
+                    r = await fetch(`${window.DATA_ROOT}/${level}/${id}.json`);
+                    if (r.ok) d = await r.json();
+                } catch(e) {}
             }
-            const d = await r.json(); const raw = d.questions || []; const proc = [];
+            if (!d) return;
+
+            const raw = d.questions || []; const proc = [];
             if (id === "grammar_passage") raw.forEach(it => { const p = highlightBlanks(it.passage || ""); (it.blanks || []).forEach(b => proc.push({ s:cfg.s, pas:p, txt:`（　${b.num}　）`, opts:b.options||[], ans:b.answer||0, exp:b.explanation||"", translation:b.translation })); });
             else if (id.startsWith("reading_")) {
                 raw.forEach(it => {
