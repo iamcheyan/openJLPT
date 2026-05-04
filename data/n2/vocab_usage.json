@@ -472,5 +472,60 @@
       "verified": true,
       "created_at": "2026-05-04T09:49:00"
     }
-  ]
+  },
+  {
+    "target": "たじろぐ",
+    "options": [
+      "彼は突然の質問にたじろいで、答えを探した。",
+      "彼はたじろぐ料理をゆっくり食べた。",
+      "たじろぐ観客の前で歌った。",
+      "彼はたじろぐ気持ちで雑誌を読んだ。"
+    ],
+    "answer": 0,
+    "explanation": "「たじろぐ」は思わずためらう、たじろぐという意味です。突然の問題に直面して戸惑う表現として1が正しい用法です。他の選択肢はこの語の自然な使い方ではありません。",
+    "generated_by": "assistant",
+    "reviewed_by": "assistant",
+    "verified": true,
+    "created_at": "2026-05-04T00:00:00",
+    "id": "n2-vocab_usage-012",
+    "level": "N2",
+    "question_type": "vocab_usage"
+  },
+  {
+    "target": "安易",
+    "options": [
+      "その問題を安易に考えると、あとで苦労するだろう。",
+      "彼は安易に料理を作って、味が良くなかった。",
+      "彼女は安易に明日を心配した。",
+      "安易な錠前を開けた。"
+    ],
+    "answer": 0,
+    "explanation": "「安易に」は安易さ、軽率さを表し、簡単に考えることを意味します。1はその意味で自然な使い方です。ほかの選択肢は語感や用法が不自然です。",
+    "generated_by": "assistant",
+    "reviewed_by": "assistant",
+    "verified": true,
+    "created_at": "2026-05-04T00:00:00",
+    "id": "n2-vocab_usage-013",
+    "level": "N2",
+    "question_type": "vocab_usage"
+  },
+  {
+    "target": "こまめ",
+    "options": [
+      "彼はこまめに部屋を掃除している。",
+      "こまめな雨が降ってきた。",
+      "彼女の態度はこまめだった。",
+      "こまめな机で勉強する。"
+    ],
+    "answer": 0,
+    "explanation": "「こまめに」は頻繁にこまめに何かをする様子を表します。部屋をこまめに掃除するのが自然な用法です。他の選択肢は「こまめ」の意味・使い方に適さず、不自然です。",
+    "generated_by": "assistant",
+    "reviewed_by": "assistant",
+    "verified": true,
+    "created_at": "2026-05-04T00:00:00",
+    "id": "n2-vocab_usage-014",
+    "level": "N2",
+    "question_type": "vocab_usage"
+  }
+]
 }
