@@ -287,6 +287,8 @@ function openSettings() {
     const currentSize = localStorage.getItem('openjlpt_fontsize') || '16';
     const currentFont = localStorage.getItem('openjlpt_fontfamily') || 'mincho';
 
+    const isAndroid = window.location.protocol === 'file:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
     const html = `
         <div class="settings-container">
             <div class="settings-row">
@@ -312,10 +314,40 @@ function openSettings() {
                     <span style="font-size:12px; font-weight:bold; width:20px;">${currentSize}</span>
                 </div>
             </div>
+            ${isAndroid ? `
+            <div class="settings-row">
+                <div class="settings-label">データ同期</div>
+                <div class="settings-control">
+                    <button class="font-btn" onclick="triggerManualSync(); this.closest('.modal-overlay').classList.remove('active');">☁ 同期する</button>
+                </div>
+            </div>
+            ` : ''}
+            <div class="settings-row">
+                <div class="settings-label">バージョン</div>
+                <div class="settings-control">
+                    <span id="settings-version" style="font-size:12px;">取得中...</span>
+                </div>
+            </div>
         </div>
     `;
 
     showCustomModal('設定', html, [{ label: '閉じる', primary: true }], true);
+
+    // Fetch GitHub commit version
+    fetch('https://api.github.com/repos/iamcheyan/openJLPT/commits/master')
+        .then(r => r.json())
+        .then(data => {
+            const el = document.getElementById('settings-version');
+            if (el && data.sha) {
+                const short = data.sha.substring(0, 7);
+                const date = (data.commit?.committer?.date || '').substring(0, 10);
+                el.textContent = `${short} (${date})`;
+            }
+        })
+        .catch(() => {
+            const el = document.getElementById('settings-version');
+            if (el) el.textContent = '取得失敗';
+        });
 }
 
 function updateSet(type, val) {
@@ -590,15 +622,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const savedSize = localStorage.getItem('openjlpt_fontsize') || '16';
     document.documentElement.style.setProperty('--base-font-size', savedSize + 'px');
 
-    // 恢复侧边栏状态
-    if (localStorage.getItem('openjlpt_sidebar_collapsed') === '1') {
+    // 默认折叠侧边栏（仅在用户明确展开时显示）
+    if (localStorage.getItem('openjlpt_sidebar_collapsed') !== '0') {
         document.body.classList.add('collapsed');
-    }
-
-    // 如果不是 file: 协议（安卓环境），隐藏侧边栏的同步按钮
-    if (window.location.protocol !== 'file:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-        const syncBtn = document.querySelector('[onclick="triggerManualSync()"]');
-        if (syncBtn) syncBtn.style.display = 'none';
     }
 
     document.addEventListener('keydown', handleVolumeNavigation, { passive: false });
