@@ -336,10 +336,13 @@ function updateSet(type, val) {
         });
     } else if (type === 'size') {
         localStorage.setItem('openjlpt_fontsize', val);
-        // 直接设置到根节点，确保 var() 能读到最新值
         document.documentElement.style.setProperty('--base-font-size', val + 'px');
-        const span = document.querySelector('.settings-control span');
-        if (span) span.innerText = val;
+        // 查找当前设置行内的 span
+        const row = document.querySelector('input[type="range"]')?.parentElement;
+        if (row) {
+            const span = row.querySelector('span');
+            if (span) span.innerText = val;
+        }
     }
 }
 
@@ -492,7 +495,14 @@ function check(qN, sel, cor) {
     ex.classList.add('show'); 
     saveState(); 
 }
-function toggleSidebar() { if (window.matchMedia('(max-width: 900px)').matches) { document.body.classList.toggle('mobile-nav-open'); return; } document.body.classList.toggle('collapsed'); document.getElementById('toggle-btn').innerText = document.body.classList.contains('collapsed') ? '▶' : '◀'; }
+function toggleSidebar() { 
+    if (window.matchMedia('(max-width: 900px)').matches) { 
+        document.body.classList.toggle('mobile-nav-open'); 
+        return; 
+    } 
+    const isCollapsed = document.body.classList.toggle('collapsed');
+    localStorage.setItem('openjlpt_sidebar_collapsed', isCollapsed ? '1' : '0');
+}
 function closeMobileNav() { document.body.classList.remove('mobile-nav-open'); }
 function openMobileNav() { document.body.classList.add('mobile-nav-open'); }
 function toggleFurigana() { const c = document.getElementById('furigana-toggle').checked; document.body.classList.toggle('show-furigana', c); localStorage.setItem('openjlpt_furigana', c ? '1' : '0'); }
@@ -555,6 +565,11 @@ window.addEventListener('DOMContentLoaded', () => {
     // 恢复字号设置 (默认 16px)
     const savedSize = localStorage.getItem('openjlpt_fontsize') || '16';
     document.documentElement.style.setProperty('--base-font-size', savedSize + 'px');
+
+    // 恢复侧边栏状态
+    if (localStorage.getItem('openjlpt_sidebar_collapsed') === '1') {
+        document.body.classList.add('collapsed');
+    }
 
     // 如果不是 file: 协议（安卓环境），隐藏侧边栏的同步按钮
     if (window.location.protocol !== 'file:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
