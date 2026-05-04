@@ -10,13 +10,13 @@
     {
       "sentence": "その会社の経済成長率は相変わらず（　）です。",
       "options": [
-        "高い",
-        "高まっている",
         "高める",
-        "高まる"
+        "高まっている",
+        "高まる",
+        "高い"
       ],
-      "answer": 0,
-      "explanation": "选项中的「高い」是副词，表示状态的最高级，这里表示公司经济成长率一直很高。而「高まっている」和「高まる」表示正在增长的状态，与句意不符。‘高める’是动词，意为提高，也不符合句意。",
+      "answer": 3,
+      "explanation": "「高い」是い形容词，意为「高的」，表示状态。句意：该公司的经济增长率依然很高。「高まっている」意为「正在高涨」，强调趋势而非状态；「高める」是他动词，意为「提高」，需要宾语；「高まる」是自动词，意为「高涨」，也强调变化过程。",
       "generated_by": "zhipu:GLM-4-Flash",
       "reviewed_by": "zhipu",
       "review_explanation": "该题目符合JLPT N2的审题标准。\n答案解释：正确答案为选项0「高い」，表示状态的最高级，符合句意。\n干扰项分析：选项1「高まっている」和选项3「高まる」表示正在增长的状态，与句意不符。选项2「高める」是动词，意为提高，也不符合句意。干扰项设置合理，没有两个选项意思相同。\n语法/词汇重点：该题考查了副词「高い」的用法，以及动词的进行时和敬语形式。\n学习建议：建议考生加强对副词和动词不同形式的识别和运用，以及理解句子中时态和敬语的使用。",
@@ -29,13 +29,13 @@
     {
       "sentence": "異文化理解の重要性を（　）ようになりました。",
       "options": [
-        "感じる",
-        "理解する",
+        "わかる",
         "知る",
-        "わかる"
+        "感じる",
+        "理解する"
       ],
-      "answer": 0,
-      "explanation": "选项中的「感じる」表示感到、觉得，与句意“感受到异文化理解的重要性”相符。而「理解する」虽然也表示理解，但更侧重于理性上的理解，而不是情感上的感受。‘知る’和‘わかる’都表示知道、了解，但在这个语境中不如‘感じる’恰当。",
+      "answer": 2,
+      "explanation": "「～の重要性を感じるようになりました」意为「开始感受到......的重要性」，是N2常见表达。「感じる」侧重情感上的感受，符合语境。「理解する」侧重理性认知，不与「重要性」自然搭配；「知る」侧重从不知到知的过程；「わかる」侧重理解明白，均为认知动词而非感受动词。",
       "generated_by": "zhipu:GLM-4-Flash",
       "reviewed_by": "zhipu",
       "review_explanation": "该题目合格。\n答案解释：正确答案为选项0「感じる」，表示感到、觉得，与句意“感受到异文化理解的重要性”相符。\n干扰项分析：「理解する」表示理解，但更侧重于理性上的理解，与句意中的情感感受不符；‘知る’和‘わかる’都表示知道、了解，但在这个语境中不如‘感じる’恰当，因此它们作为干扰项是合理的。\n语法/词汇重点：句子使用了「～の重要性を感じるようになりました」这一结构，表示“开始感受到……的重要性”，是N2级别中常见的表达方式。\n学习建议：考生需要掌握「感じる」的用法，以及如何根据上下文选择合适的动词表达情感或感受。",
@@ -48,12 +48,12 @@
     {
       "sentence": "今回のイベントは予想より来場者が少なかったが、（　）地域の人たちに社会貢献の重要性を伝えられたと思う。",
       "options": [
-        "せめて",
         "相変わらず",
+        "せっかく",
         "わざと",
-        "せっかく"
+        "せめて"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "本题考查N2副词辨析。句意：虽然这次活动的到场人数比预想的少，但我至少认为向当地居民传递了社会贡献的重要性。「せめて」意为“至少，哪怕”，表达最低限度的诉求，符合语境；「相変わらず」意为“依旧，和往常一样”，本句没有和过去状态对比的语境，不符合；「わざと」意为“故意”，代入后语义不通；「せっかく」意为“好不容易，特意”，逻辑不匹配，因此选0。",
       "generated_by": "ark:Doubao-Seed-2.0-Pro",
       "reviewed_by": "zhipu",
@@ -67,12 +67,12 @@
     {
       "sentence": "政府は今年度の（　）を5%程度に設定し、インフラ投資を拡大する方針を発表した。",
       "options": [
-        "経済成長率",
         "社会貢献度",
         "情報漏洩率",
+        "経済成長率",
         "異文化理解度"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "本题考查N2复合名词辨析。句意：政府公布了将本年度经济增长率设定在5%左右、扩大基础设施投资的方针。「経済成長率」是政府经济政策的常见核心指标，符合语境；「社会貢献度」无法被设定为具体数值的年度政策目标；「情報漏洩率」是企业或机构需要降低的负面指标，不会被政府主动设为正向目标；「異文化理解度」无法用百分比量化为国家年度施政目标，因此选0。",
       "generated_by": "ark:Doubao-Seed-2.0-Pro",
       "reviewed_by": "zhipu",
@@ -84,14 +84,14 @@
       "question_type": "vocab_context"
     },
     {
-      "sentence": "企業の成長戦略において、長期的な（　　）を持つことが重要だ。",
+      "sentence": "企業の成長戦略において、長期的な（　）を持つことが重要だ。",
       "options": [
-        "大局",
         "大局観",
         "大局感",
-        "大局性"
+        "大局性",
+        "大局"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "此题考察N2级别的复合词辨析。句意为“在企业的成长战略中，拥有长期的（  ）很重要”。选项需与“持つ”（拥有）搭配，且符合“长期、宏观视角”的语境。「大局観」是固定复合词，意为“大局观、宏观视角”，符合句意和语法。其他选项中：「大局」是名词，单独使用不自然；「大局感」「大局性」虽可理解，但不如「大局観」常用和规范。",
       "generated_by": "mimo:mimo-v2.5-pro",
       "reviewed_by": "zhipu",
@@ -103,14 +103,14 @@
       "question_type": "vocab_context"
     },
     {
-      "sentence": "毎日、駅前のパン屋で（　　）同じサンドイッチを買っている。",
+      "sentence": "毎日、駅前のパン屋で（　）同じサンドイッチを買っている。",
       "options": [
-        "相変わらず",
         "せめて",
+        "あえて",
         "わざと",
-        "あえて"
+        "相変わらず"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "此题考察N2级别的副词辨析。句意为“每天，我（  ）都在车站前的面包店买同样的三明治”。选项需体现“持续不变”的语感。「相変わらず」意为“照旧、依然”，强调持续的状态，符合句意。其他选项中：「せめて」意为“至少”；「わざと」意为“故意”；「あえて」意为“敢于、硬要”，均与“每天重复购买同一食物”的语境不符。",
       "generated_by": "mimo:mimo-v2.5-pro",
       "reviewed_by": "zhipu",
@@ -122,173 +122,40 @@
       "question_type": "vocab_context"
     },
     {
-      "sentence": "彼は（　）が鋭いので、小さなミスも見逃さない。",
-      "options": [
-        "視点",
-        "視線",
-        "観察",
-        "洞察"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-007"
-    },
-    {
-      "sentence": "試験が近くなってきたので、勉強に（　）を入れる。",
-      "options": [
-        "力",
-        "気",
-        "本腰",
-        "念"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-008"
-    },
-    {
-      "sentence": "最近、この町には（　）な高層ビルが次々と建っている。",
-      "options": [
-        "極端",
-        "窮屈",
-        "巨大",
-        "強力"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-009"
-    },
-    {
-      "sentence": "彼は（　）性格で、誰とでもすぐに仲良くなる。",
-      "options": [
-        "社交的な",
-        "積極的な",
-        "楽天的な",
-        "肯定的な"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-010"
-    },
-    {
-      "sentence": "資料を（　）に並べて、ファイリングする。",
-      "options": [
-        "出たら目に",
-        "順序よく",
-        "交互に",
-        "頻繁に"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-011"
-    },
-    {
-      "sentence": "このボタンを押すと、画面が（　）切り替わります。",
-      "options": [
-        "いっきに",
-        "とっくに",
-        "すみやかに",
-        "ようやく"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-012"
-    },
-    {
-      "sentence": "彼は怒ると（　）が変わったように大声を出す。",
-      "options": [
-        "外見",
-        "表情",
-        "様子",
-        "人格"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
-      "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "question_type": "vocab_context",
-      "id": "n2-vocab_context-013"
-    },
-    {
       "sentence": "新しいプロジェクトのリーダーに任命されて、（　）を感じている。",
       "options": [
-        "責任",
-        "義務",
         "負担",
+        "義務",
+        "責任",
         "任務"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "「責任を感じる」是固定搭配，意为感受到责任。句意：被任命为新项目的负责人，感到了责任。「義務」侧重于法律或道德上的义务，不与「感じる」自然搭配；「負担」意为负担，侧重于压力和重担；「任務」意为任务，侧重于具体的工作内容，均不如「責任」符合语境。",
       "generated_by": "claude:claude-sonnet-4-6",
       "reviewed_by": "claude",
       "review_explanation": "该题目合格。「責任を感じる」是日语中的常见搭配，表示感受到责任感。干扰项中「義務」「負担」「任務」虽然都是抽象名词，但在与「感じる」的搭配以及语境适配度上均不如「責任」。难度符合N2级别。",
       "verified": true,
       "created_at": "2026-05-04T09:30:00",
-      "id": "n2-vocab_context-014",
+      "id": "n2-vocab_context-007",
       "level": "N2",
       "question_type": "vocab_context"
     },
     {
       "sentence": "この機械は操作が複雑で、初心者には（　）だろう。",
       "options": [
-        "難しい",
         "厳しい",
-        "面倒",
-        "不便"
+        "不便",
+        "難しい",
+        "面倒"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "「難しい」意为困难的，用于描述某事对某人来说有难度，符合句意。句意：这台机器操作复杂，对初学者来说可能很难。「厳しい」侧重于严厉、严格，不用于描述操作难度；「面倒」意为麻烦，侧重于繁琐而非困难；「不便」意为不方便，侧重于使用上的不便而非操作难度。",
       "generated_by": "claude:claude-sonnet-4-6",
       "reviewed_by": "claude",
       "review_explanation": "该题目合格。考查形容词在具体语境中的辨析。「難しい」用于描述事物对特定人群的难度，是最恰当的选择。其他干扰项均属于N2常见形容词但语义不完全匹配。",
       "verified": true,
       "created_at": "2026-05-04T09:30:00",
-      "id": "n2-vocab_context-015",
+      "id": "n2-vocab_context-008",
       "level": "N2",
       "question_type": "vocab_context"
     },
@@ -296,8 +163,8 @@
       "sentence": "彼の説明は（　）すぎて、何を言いたいのかわからなかった。",
       "options": [
         "抽象的",
-        "具体的",
         "客観的",
+        "具体的",
         "積極的"
       ],
       "answer": 0,
@@ -307,846 +174,911 @@
       "review_explanation": "该题目合格。考查ナ形容词在语境中的运用。「抽象的」与后句的困惑形成合理的因果逻辑，干扰项均为N2级常见形容动词但语义不匹配。",
       "verified": true,
       "created_at": "2026-05-04T09:30:00",
-      "id": "n2-vocab_context-016",
+      "id": "n2-vocab_context-009",
       "level": "N2",
       "question_type": "vocab_context"
     },
     {
       "sentence": "医者に運動不足だと言われて、毎朝ジョギングを（　）ことにした。",
       "options": [
-        "する",
-        "やる",
         "やめる",
-        "続ける"
+        "続ける",
+        "する",
+        "やる"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "「〜ことにする」表示自己决定做某事，前接动词基本形。句意：被医生说运动不足后，决定每天早上慢跑。「する」是正式的动词，与「ことにする」搭配表示做出决定；「やる」虽也有做的意思，但较口语化，与「ことにする」搭配不如「する」自然；「やめる」意为停止，与前句被医生建议运动的逻辑矛盾；「続ける」意为继续，但前文并未提到已经开始慢跑。",
       "generated_by": "claude:claude-sonnet-4-6",
       "reviewed_by": "claude",
       "review_explanation": "该题目合格。考查「〜ことにする」的接续及动词辨析。根据前文「運動不足だと言われて」的语境，应该选择表示开始做某事的动词。「する」与「ことにする」是固定搭配。",
       "verified": true,
       "created_at": "2026-05-04T09:30:00",
-      "id": "n2-vocab_context-017",
+      "id": "n2-vocab_context-010",
       "level": "N2",
       "question_type": "vocab_context"
     },
     {
       "sentence": "台風の影響で、明日のイベントは（　）になりました。",
       "options": [
-        "中止",
-        "防止",
         "禁止",
-        "停止"
+        "防止",
+        "停止",
+        "中止"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "「中止」意为取消、中止，用于表示预定的活动被取消。句意：受台风影响，明天的活动取消了。「防止」意为防止、预防，用于阻止不好的事情发生；「禁止」意为禁止，用于法律或规则上的不允许；「停止」意为停止，侧重于正在进行的事物停下来，不用于预定活动的取消。",
       "generated_by": "claude:claude-sonnet-4-6",
       "reviewed_by": "claude",
       "review_explanation": "该题目合格。考查「中止」「防止」「禁止」「停止」四个含「止」字的复合词辨析。只有「中止」用于预定活动的取消，其他三个词各有其特定使用场景。",
       "verified": true,
       "created_at": "2026-05-04T09:30:00",
-      "id": "n2-vocab_context-018",
+      "id": "n2-vocab_context-011",
       "level": "N2",
       "question_type": "vocab_context"
     },
     {
+      "sentence": "この問題は（　）簡単だとは言えない。よく考える必要がある。",
+      "options": [
+        "なにぶん",
+        "さすがに",
+        "概して",
+        "一概に"
+      ],
+      "answer": 3,
+      "explanation": "「一概に」常与否定形搭配，意为「不能一概地......「。句意：这个问题不能一概而论地说简单。「概して」意为「大体上「，不与否定搭配；「さすがに」意为「到底是「；「なにぶん」意为「毕竟「。",
+      "id": "n2-vocab_context-012",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "約束の時間に遅れて、（　）悪いと思っていた。",
+      "options": [
+        "なにぶん",
+        "一概に",
+        "さすがに",
+        "概して"
+      ],
+      "answer": 2,
+      "explanation": "「さすがに」意为「到底是、毕竟「，表示基于某种情况自然得出的结论。句意：迟到了约定的时间，到底是觉得不好意思。「一概に」常与否定搭配；「概して」意为「大体上「；「なにぶん」意为「因为某种原因「。",
+      "id": "n2-vocab_context-013",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "彼女は朝から晩まで（　）研究に没頭している。",
+      "options": [
+        "さすがに",
+        "万一",
+        "ひたすら",
+        "あくまで"
+      ],
+      "answer": 2,
+      "explanation": "「ひたすら」意为「一心一意地、只顾「，表示专心致志地做某事。句意：她从早到晚一心一意地埋头研究。「あくまで」意为「坚持到底「，侧重态度坚决；「さすがに」意为「到底是「；「万一」意为「万一「。",
+      "id": "n2-vocab_context-014",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "（　）のことがあったら、すぐに連絡してください。",
+      "options": [
+        "万一",
+        "ひたすら",
+        "なにぶん",
+        "あくまで"
+      ],
+      "answer": 0,
+      "explanation": "「万一」意为「万一、假如「，用于假设不太可能发生的事情。句意：万一有什么事，请立刻联系。「ひたすら」意为「一心一意「；「あくまで」意为「坚持到底「；「なにぶん」意为「因为、毕竟「。",
+      "id": "n2-vocab_context-015",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "彼の話を聞いて、（　）感動して涙が出た。",
+      "options": [
+        "わずかに",
+        "うっかり",
+        "たちまち",
+        "しだいに"
+      ],
+      "answer": 2,
+      "explanation": "「たちまち」意为「转眼间、立刻「，表示变化发生得非常快。句意：听了他的话，立刻感动得流下了眼泪。「うっかり」意为「不小心「；「しだいに」意为「渐渐地「，表示缓慢变化；「わずかに」意为「稍微、仅「。",
+      "id": "n2-vocab_context-016",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "会議の資料を（　）確認してから、提出した。",
+      "options": [
+        "しっかり",
+        "たちまち",
+        "うっかり",
+        "はっきり"
+      ],
+      "answer": 0,
+      "explanation": "「しっかり」意为「好好地、扎实地「，表示认真仔细地做某事。句意：好好地确认了会议资料之后才提交。「はっきり」意为「清楚地「；「うっかり」意为「不小心地「，含负面含义；「たちまち」意为「立刻「。",
+      "id": "n2-vocab_context-017",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "（　）雨が降るかもしれないから、傘を持って行こう。",
+      "options": [
+        "たとえ",
+        "むしろ",
+        "おそらく",
+        "なるべく"
+      ],
+      "answer": 2,
+      "explanation": "「おそらく」意为「恐怕、大概「，表示推测。句意：恐怕会下雨，带伞去吧。「たとえ」意为「即使「，常与「ても」搭配；「なるべく」意为「尽量「；「むしろ」意为「倒不如「。",
+      "id": "n2-vocab_context-018",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "この仕事は私が（　）ので、何かあれば私に連絡してください。",
+      "options": [
+        "受け継ぐ",
+        "受け入れる",
+        "受け取る",
+        "受け持つ"
+      ],
+      "answer": 3,
+      "explanation": "「受け持つ」意为「担任、负责「，指负责某项工作或学生等。句意：这项工作由我负责，有事请联系我。「受け取る」意为「收到「；「受け入れる」意为「接纳、接受「；「受け継ぐ」意为「继承「。",
       "id": "n2-vocab_context-019",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "血圧",
-      "options": [
-        "目的",
-        "血圧",
-        "関係",
-        "理由"
-      ],
-      "answer": 1,
-      "explanation": "「血圧」の意味は「blood pressure」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "来月のイベントの準備を（　）ことにした。",
+      "options": [
+        "引き受ける",
+        "引き起こす",
+        "引き返す",
+        "引き止める"
+      ],
+      "answer": 0,
+      "explanation": "「引き受ける」意为「承担、接受「，表示主动接受某项任务。句意：决定承担下个月活动的准备工作。「引き起こす」意为「引起「；「引き返す」意为「返回「；「引き止める」意为「挽留「。",
       "id": "n2-vocab_context-020",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "定員",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "定員"
-      ],
-      "answer": 3,
-      "explanation": "「定員」の意味は「fixed number of regular personnel,capacity (of boat, etc.)」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "昨日の会議で社長の発言を（　）てしまった。",
+      "options": [
+        "見落とす",
+        "見積もる",
+        "見直す",
+        "見回す"
+      ],
+      "answer": 0,
+      "explanation": "「見落とす」意为「看漏、忽略「，表示应该注意到却没有注意到。句意：昨天的会议上漏看了社长的发言。「見回す」意为「环顾「；「見積もる」意为「估算「；「見直す」意为「重新审视「。",
       "id": "n2-vocab_context-021",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "塩辛い",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "塩辛い"
-      ],
-      "answer": 3,
-      "explanation": "「塩辛い」の意味は「salty (taste)」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "部品を正確に（　）のは難しい作業だ。",
+      "options": [
+        "組み立てる",
+        "組み入る",
+        "組み合わせる",
+        "組み込む"
+      ],
+      "answer": 0,
+      "explanation": "「組み立てる」意为「组装、装配「，指把零件组装成成品。句意：准确地组装零件是项困难的工作。「組み込む」意为「编入、纳入「；「組み合わせる」意为「组合「；「組み入る」不是常用词。",
       "id": "n2-vocab_context-022",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "社説",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "社説"
-      ],
-      "answer": 3,
-      "explanation": "「社説」の意味は「editorial,leading article」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "同じミスを（　）ないよう、注意してほしい。",
+      "options": [
+        "繰り上げ",
+        "繰り出す",
+        "繰り込む",
+        "繰り返し"
+      ],
+      "answer": 3,
+      "explanation": "「繰り返す」意为「重复「。「繰り返さない」是其否定形式。句意：请注意不要重复同样的错误。「繰り上げ」意为「提前「；「繰り込む」不是标准动词；「繰り出す」意为「推出、提出「。",
       "id": "n2-vocab_context-023",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "送料",
-      "options": [
-        "理由",
-        "目的",
-        "関係",
-        "送料"
-      ],
-      "answer": 3,
-      "explanation": "「送料」の意味は「postage,carriage」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "新しい環境への（　）には時間がかかる。",
+      "options": [
+        "取り扱い",
+        "取り引き",
+        "取り組み",
+        "取り消し"
+      ],
+      "answer": 2,
+      "explanation": "「取り組み」意为「努力、致力于「，指致力于某事的行为。句意：致力于适应新环境需要时间。「取り消し」意为「取消「；「取り扱い」意为「处理、操作「；「取り引き」意为「交易「。",
       "id": "n2-vocab_context-024",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "本来",
-      "options": [
-        "関係",
-        "理由",
-        "目的",
-        "本来"
-      ],
-      "answer": 3,
-      "explanation": "「本来」の意味は「essentially,naturally,by nature」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この問題は（　）、とても深刻なものだ。",
+      "options": [
+        "私たちについて",
+        "私たちにとって",
+        "私たちに対して",
+        "私たちに比べて"
+      ],
+      "answer": 1,
+      "explanation": "「～にとって」意为「对......来说「，表示从某个立场或角度出发。句意：这个问题对我们来说非常严重。「に対して」表示对比或针对；「について」表示关于；「に比べて」表示与......相比。",
       "id": "n2-vocab_context-025",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "文房具",
-      "options": [
-        "目的",
-        "文房具",
-        "関係",
-        "理由"
-      ],
-      "answer": 1,
-      "explanation": "「文房具」の意味は「stationery」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "政府は若者（　）新しい支援策を発表した。",
+      "options": [
+        "にとって",
+        "によって",
+        "に対して",
+        "について"
+      ],
+      "answer": 2,
+      "explanation": "「～に対して」意为「针对......「，表示动作的对象或方向。句意：政府针对年轻人公布了新的支援政策。「にとって」意为「对......来说「；「について」意为「关于「；「によって」意为「根据、通过「。",
       "id": "n2-vocab_context-026",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "解散",
-      "options": [
-        "理由",
-        "関係",
-        "解散",
-        "目的"
-      ],
-      "answer": 2,
-      "explanation": "「解散」の意味は「breakup,dissolution」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "日本の歴史（　）レポートを書くことになった。",
+      "options": [
+        "に比べて",
+        "に対して",
+        "にとって",
+        "について"
+      ],
+      "answer": 3,
+      "explanation": "「～について」意为「关于......「，表示主题。句意：决定写一篇关于日本历史的报告。「にとって」意为「对......来说「；「に対して」意为「针对「；「に比べて」意为「与......相比「。",
       "id": "n2-vocab_context-027",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "恋しい",
-      "options": [
-        "恋しい",
-        "関係",
-        "目的",
-        "理由"
-      ],
-      "answer": 0,
-      "explanation": "「恋しい」の意味は「(1) dear,beloved,darling,(2) yearned for」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "調査の結果（　）、新しい政策を作った。",
+      "options": [
+        "に比べて",
+        "について",
+        "に基づいて",
+        "に反して"
+      ],
+      "answer": 2,
+      "explanation": "「～に基づいて」意为「基于......、根据......「，表示以某事物为依据。句意：基于调查结果，制定了新政策。「に比べて」意为「与......相比「；「に反して」意为「与......相反「；「について」意为「关于「。",
       "id": "n2-vocab_context-028",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "組合せ",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "組合せ"
-      ],
-      "answer": 3,
-      "explanation": "「組合せ」の意味は「combination」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "お客様のご要望（　）、サービスを改善していきます。",
+      "options": [
+        "にとって",
+        "について",
+        "に沿って",
+        "に対して"
+      ],
+      "answer": 2,
+      "explanation": "「～に沿って」意为「按照......、沿着......「，表示遵循某个方向或标准。句意：按照客户的需求，改善服务。「について」意为「关于「；「に対して」意为「针对「；「にとって」意为「对......来说「。",
       "id": "n2-vocab_context-029",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "死体",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "死体"
-      ],
-      "answer": 3,
-      "explanation": "「死体」の意味は「corpse」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "彼は病気（　）、大会に出場して優勝した。",
+      "options": [
+        "にもかかわらず",
+        "について",
+        "にとって",
+        "によって"
+      ],
+      "answer": 0,
+      "explanation": "「～にもかかわらず」意为「尽管......却......「，表示与预期相反的结果。句意：尽管生病，他还是参加了大会并获得了冠军。「について」意为「关于「；「にとって」意为「对......来说「；「によって」意为「根据「。",
       "id": "n2-vocab_context-030",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "超える",
-      "options": [
-        "関係",
-        "超える",
-        "理由",
-        "目的"
-      ],
-      "answer": 1,
-      "explanation": "「超える」の意味は「to exceed,to cross over,to cross」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "予想（　）、今年の冬は暖かかった。",
+      "options": [
+        "に沿って",
+        "に反して",
+        "について",
+        "に基づいて"
+      ],
+      "answer": 1,
+      "explanation": "「～に反して」意为「与......相反「，表示结果与预期相反。句意：与预想相反，今年的冬天很暖和。「に基づいて」意为「基于「；「に沿って」意为「按照「；「について」意为「关于「。",
       "id": "n2-vocab_context-031",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "電池",
-      "options": [
-        "電池",
-        "関係",
-        "理由",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「電池」の意味は「battery」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "インターネット（　）、世界中の情報にアクセスできる。",
+      "options": [
+        "を通じて",
+        "に比べて",
+        "に対して",
+        "について"
+      ],
+      "answer": 0,
+      "explanation": "「～を通じて」意为「通过......「，表示手段或媒介。句意：通过互联网，可以获取全世界的信息。「について」意为「关于「；「に対して」意为「针对「；「に比べて」意为「与......相比「。",
       "id": "n2-vocab_context-032",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "実績",
-      "options": [
-        "実績",
-        "目的",
-        "理由",
-        "関係"
-      ],
-      "answer": 0,
-      "explanation": "「実績」の意味は「achievements,actual results」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この会議は3時間（　）行われた。",
+      "options": [
+        "にわたって",
+        "について",
+        "に対して",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "「～にわたって」意为「长达......、涉及......「，表示时间或范围的延续。句意：这个会议进行了长达3个小时。「について」意为「关于「；「に対して」意为「针对「；「にとって」意为「对......来说「。",
       "id": "n2-vocab_context-033",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "美容",
-      "options": [
-        "理由",
-        "目的",
-        "関係",
-        "美容"
-      ],
-      "answer": 3,
-      "explanation": "「美容」の意味は「beauty of figure or form」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この店は昼夜（　）、いつも混んでいる。",
+      "options": [
+        "について",
+        "によって",
+        "を問わず",
+        "に対して"
+      ],
+      "answer": 2,
+      "explanation": "「～を問わず」意为「不分......、不论......「，表示不受某个条件限制。句意：这家店不分白天黑夜，总是很拥挤。「について」意为「关于「；「に対して」意为「针对「；「によって」意为「根据「。",
       "id": "n2-vocab_context-034",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "通用",
-      "options": [
-        "目的",
-        "通用",
-        "関係",
-        "理由"
-      ],
-      "answer": 1,
-      "explanation": "「通用」の意味は「popular use,circulation」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "日本語は初心者（　）、上級者も間違えやすい表現がある。",
+      "options": [
+        "について",
+        "にとって",
+        "に限らず",
+        "に対して"
+      ],
+      "answer": 2,
+      "explanation": "「～に限らず」意为「不仅限于......「，表示不仅限于某个范围。句意：日语不仅限于初学者，高级学习者也容易犯错的表达。「について」意为「关于「；「にとって」意为「对......来说「；「に対して」意为「针对「。",
       "id": "n2-vocab_context-035",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "葬式",
-      "options": [
-        "葬式",
-        "関係",
-        "理由",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「葬式」の意味は「funeral」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "約束した（　）、必ず守らなければならない。",
+      "options": [
+        "からといって",
+        "とはいえ",
+        "ものの",
+        "からには"
+      ],
+      "answer": 3,
+      "explanation": "「～からには」意为「既然......就......「，表示既然已经做了某事，就应该承担相应的义务。句意：既然约定了，就必须遵守。「からといって」意为「虽说......但......「；「とはいえ」意为「话虽如此「；「ものの」意为「虽然......但是「。",
       "id": "n2-vocab_context-036",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "農薬",
-      "options": [
-        "農薬",
-        "理由",
-        "関係",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「農薬」の意味は「agricultural chemicals」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "日本に来た（　）、できるだけ日本語を使いたい。",
+      "options": [
+        "からといって",
+        "以上は",
+        "ところで",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "「～以上は」意为「既然......就......「，与「からには」同义。句意：既然来了日本，就想尽量使用日语。「からといって」意为「虽说「；「ところで」意为「话说「；「ものの」意为「虽然「。",
       "id": "n2-vocab_context-037",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "四つ角",
-      "options": [
-        "四つ角",
-        "関係",
-        "目的",
-        "理由"
-      ],
-      "answer": 0,
-      "explanation": "「四つ角」の意味は「four corners,crossroads」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "彼女の笑顔を見ると、優しく（　）。",
+      "options": [
+        "せずにはいられない",
+        "せざるを得ない",
+        "しないではいられない",
+        "しようがない"
+      ],
+      "answer": 0,
+      "explanation": "「～ずにはいられない」意为「不能不......、忍不住......「，表示控制不住要做某事。句意：看到她的笑容，忍不住要温柔对待。「ないではいられない」也可，但「せずにはいられない」更标准；「せざるを得ない」意为「不得不「，侧重义务；「しようがない」意为「没办法「。",
       "id": "n2-vocab_context-038",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "酢",
-      "options": [
-        "酢",
-        "関係",
-        "目的",
-        "理由"
-      ],
-      "answer": 0,
-      "explanation": "「酢」の意味は「vinegar」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この地域の人口は減少（　）。",
+      "options": [
+        "した一方だ",
+        "しつつある",
+        "しかねない",
+        "しがちだ"
+      ],
+      "answer": 1,
+      "explanation": "「～つつある」意为「正在......「，表示变化正在进行中。句意：这个地区的人口正在减少。「した一方だ」意为「一直在......「；「しがちだ」意为「容易......「；「しかねない」意为「有可能......「。",
       "id": "n2-vocab_context-039",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "発射",
-      "options": [
-        "発射",
-        "関係",
-        "理由",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「発射」の意味は「firing,shooting,discharge,catapult」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この件については、すぐにお答え（　）。",
+      "options": [
+        "しきれない",
+        "しかねない",
+        "しがちです",
+        "しかねます"
+      ],
+      "answer": 3,
+      "explanation": "「～かねる」意为「难以......、不能......「，是委婉拒绝的表达。句意：关于这件事，难以立刻答复。「しかねない」意为「有可能......「；「しがちです」意为「容易......「；「しきれない」意为「做不完「。",
       "id": "n2-vocab_context-040",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "中味",
-      "options": [
-        "目的",
-        "理由",
-        "関係",
-        "中味"
-      ],
-      "answer": 3,
-      "explanation": "「中味」の意味は「contents,interior,substance,filling,(sword) blade」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "このまま放っておくと、事故が起き（　）。",
+      "options": [
+        "つつある",
+        "かねる",
+        "かねない",
+        "がちだ"
+      ],
+      "answer": 2,
+      "explanation": "「～かねない」意为「有可能......「，表示有发生不好事情的可能性。句意：就这样放着不管的话，有可能发生事故。「かねる」意为「难以「；「がちだ」意为「容易「；「つつある」意为「正在「。",
       "id": "n2-vocab_context-041",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "平仮名",
-      "options": [
-        "関係",
-        "平仮名",
-        "目的",
-        "理由"
-      ],
-      "answer": 1,
-      "explanation": "「平仮名」の意味は「hiragana,47 syllables,the cursive syllabary」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この地域では（　）な変化が起きている。",
+      "options": [
+        "深刻",
+        "重大",
+        "顕著",
+        "膨大"
+      ],
+      "answer": 2,
+      "explanation": "「顕著な」意为「显著的「，表示变化明显。句意：这个地区正在发生显著的变化。「重大な」意为「重大的「，多用于事件或决定；「深刻な」意为「严重的「，多用于问题或事态；「膨大な」意为「庞大的「，多用于数量。",
       "id": "n2-vocab_context-042",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "薬品",
-      "options": [
-        "理由",
-        "目的",
-        "関係",
-        "薬品"
-      ],
-      "answer": 3,
-      "explanation": "「薬品」の意味は「medicine(s),chemical(s)」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "地震の影響で、（　）な被害が出た。",
+      "options": [
+        "膨大",
+        "顕著",
+        "精密",
+        "深刻"
+      ],
+      "answer": 3,
+      "explanation": "「深刻な」意为「严重的「，用于描述问题或损害的程度。句意：受地震影响，出现了严重的损失。「顕著な」意为「显著的「；「精密な」意为「精密的「；「膨大な」意为「庞大的「。",
       "id": "n2-vocab_context-043",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "中身",
-      "options": [
-        "目的",
-        "関係",
-        "中身",
-        "理由"
-      ],
-      "answer": 2,
-      "explanation": "「中身」の意味は「contents,interior,substance,filling,(sword) blade」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "（　）な機械は、丁寧に取り扱う必要がある。",
+      "options": [
+        "膨大",
+        "精密",
+        "顕著",
+        "深刻"
+      ],
+      "answer": 1,
+      "explanation": "「精密な」意为「精密的「，形容机器或仪器精度高。句意：精密的机器需要小心操作。「深刻な」意为「严重的「；「顕著な」意为「显著的「；「膨大な」意为「庞大的「。",
       "id": "n2-vocab_context-044",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "静まる",
-      "options": [
-        "静まる",
-        "目的",
-        "関係",
-        "理由"
-      ],
-      "answer": 0,
-      "explanation": "「静まる」の意味は「to quieten down,to calm down,to subside」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "このレポートには（　）なデータが含まれている。",
+      "options": [
+        "精密",
+        "膨大",
+        "顕著",
+        "深刻"
+      ],
+      "answer": 1,
+      "explanation": "「膨大な」意为「庞大的「，用于形容数量非常多。句意：这份报告包含了庞大的数据。「精密な」意为「精密的「；「深刻な」意为「严重的「；「顕著な」意为「显著的「。",
       "id": "n2-vocab_context-045",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "匂う",
-      "options": [
-        "匂う",
-        "関係",
-        "理由",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「匂う」の意味は「to be fragrant,to smell,to stink」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この映画は子供には（　）かもしれない。",
+      "options": [
+        "不透明",
+        "不向き",
+        "不得意",
+        "不十分"
+      ],
+      "answer": 1,
+      "explanation": "「不向き」意为「不适合「，表示某事物不适合某个用途或对象。句意：这部电影可能不适合孩子。「不十分」意为「不充分「；「不透明」意为「不透明「；「不得意」意为「不擅长「，用于人。",
       "id": "n2-vocab_context-046",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "下水",
-      "options": [
-        "下水",
-        "目的",
-        "関係",
-        "理由"
-      ],
-      "answer": 0,
-      "explanation": "「下水」の意味は「drainage,sewage,ditch,gutter,sewerage」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "事件の（　）を警察に説明した。",
+      "options": [
+        "状態",
+        "模様",
+        "有様",
+        "様子"
+      ],
+      "answer": 3,
+      "explanation": "「様子」意为「情况、样子「，指事物的状态或经过。句意：向警察说明了事件的情况。「模様」意为「花纹、样子「，多指外观；「有様」意为「样子、光景「，较书面；「状態」意为「状态「，侧重静态描述。",
       "id": "n2-vocab_context-047",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "含める",
-      "options": [
-        "含める",
-        "関係",
-        "理由",
-        "目的"
-      ],
-      "answer": 0,
-      "explanation": "「含める」の意味は「to include,to instruct,to make one understand」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "新しい法律の（　）を検討する委員会が設立された。",
+      "options": [
+        "対応",
+        "対象",
+        "対策",
+        "対比"
+      ],
+      "answer": 2,
+      "explanation": "「対策」意为「对策、措施「，指为解决问题而采取的方法。句意：设立了讨论新法律对策的委员会。「対応」意为「对应、应对「；「対象」意为「对象「；「対比」意为「对比「。",
       "id": "n2-vocab_context-048",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "風呂敷",
-      "options": [
-        "理由",
-        "風呂敷",
-        "目的",
-        "関係"
-      ],
-      "answer": 1,
-      "explanation": "「風呂敷」の意味は「wrapping cloth,cloth wrapper」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "この仕事の（　）が複雑で、時間がかかる。",
+      "options": [
+        "手間",
+        "手順",
+        "手配",
+        "手当"
+      ],
+      "answer": 1,
+      "explanation": "「手順」意为「步骤、程序「，指做事的先后顺序。句意：这项工作的步骤很复杂，很费时间。「手配」意为「安排「；「手当」意为「津贴「；「手間」意为「费时费力「。",
       "id": "n2-vocab_context-049",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "中旬",
-      "options": [
-        "目的",
-        "関係",
-        "中旬",
-        "理由"
-      ],
-      "answer": 2,
-      "explanation": "「中旬」の意味は「second third of a month」です。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
+      "sentence": "転職の（　）を考えると、簡単には決められない。",
+      "options": [
+        "手順",
+        "手配",
+        "手当",
+        "手間"
+      ],
+      "answer": 3,
+      "explanation": "「手間」意为「费时费力「，指做某事需要花费的时间和精力。句意：考虑到换工作费时费力，不能轻易决定。「手順」意为「步骤「；「手配」意为「安排「；「手当」意为「津贴「。",
       "id": "n2-vocab_context-050",
       "level": "N2",
       "question_type": "vocab_context",
-      "sentence": "このプロジェクトの（　）を検討しています。",
-      "target": "騒がしい",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "会議の（　）は明日までにお願いします。",
       "options": [
-        "目的",
-        "関係",
-        "騒がしい",
-        "理由"
+        "手間",
+        "手順",
+        "手当",
+        "手配"
+      ],
+      "answer": 3,
+      "explanation": "「手配」意为「安排、筹备「，指为某事做准备。句意：请在明天之前安排好会议。「手順」意为「步骤「；「手当」意为「津贴「；「手間」意为「费时费力「。",
+      "id": "n2-vocab_context-051",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "政府は今回の問題の（　）に乗り出した。",
+      "options": [
+        "対策",
+        "対比",
+        "対象",
+        "対応"
+      ],
+      "answer": 3,
+      "explanation": "「対応」意为「应对、处理「，指对某个问题或情况采取行动。句意：政府开始着手处理这次的问题。「対策」意为「对策「，侧重方法；「対象」意为「对象「；「対比」意为「对比「。",
+      "id": "n2-vocab_context-052",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "彼女の演奏は、聞く人の心を（　）。",
+      "options": [
+        "引く",
+        "取る",
+        "出す",
+        "込む"
+      ],
+      "answer": 0,
+      "explanation": "「心を引く」意为「吸引人心「，是固定搭配。句意：她的演奏吸引人心。「込む」意为「进入「；「出す」意为「拿出「；「取る」意为「取「。",
+      "id": "n2-vocab_context-053",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "彼は（　）が広くて、いろんな人を知っている。",
+      "options": [
+        "顔",
+        "耳",
+        "口",
+        "目"
+      ],
+      "answer": 0,
+      "explanation": "「顔が広い」意为「交际广、认识的人多「，是惯用表达。句意：他交际很广，认识很多人。「目が広い」不是惯用表达；「耳が広い」不是标准表达；「口が広い」意为「嘴不严「。",
+      "id": "n2-vocab_context-054",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "彼の突然の発言に、みんな（　）を傾げた。",
+      "options": [
+        "手",
+        "首",
+        "肩",
+        "頭"
+      ],
+      "answer": 1,
+      "explanation": "「首を傾げる」意为「歪头、不解「，表示对某事感到疑惑。句意：对他突然的发言，大家都歪头不解。「頭を傾げる」不是惯用表达；「肩を傾げる」不是标准表达；「手を傾ける」不是标准表达。",
+      "id": "n2-vocab_context-055",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "最近、海外旅行の話を（　）ことが増えた。",
+      "options": [
+        "耳にする",
+        "手にする",
+        "目にする",
+        "口にする"
+      ],
+      "answer": 0,
+      "explanation": "「耳にする」意为「听到「，表示偶然听到某事。句意：最近听到海外旅行的话题变多了。「目にする」意为「看到「；「口にする」意为「说出「；「手にする」意为「到手「。",
+      "id": "n2-vocab_context-056",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "この子はとても活発で、親が（　）いる。",
+      "options": [
+        "手を焼いて",
+        "手をつけて",
+        "手を出して",
+        "手を引いて"
+      ],
+      "answer": 0,
+      "explanation": "「手を焼く」意为「棘手、难以对付「，表示对某人或某事感到棘手。句意：这个孩子非常活泼，让父母很棘手。「手をつける」意为「着手「；「手を出す」意为「插手「；「手を引く」意为「放手、退出「。",
+      "id": "n2-vocab_context-057",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "この書類を部長に（　）ください。",
+      "options": [
+        "届いて",
+        "預けて",
+        "渡して",
+        "届けて"
+      ],
+      "answer": 3,
+      "explanation": "「届ける」是他动词，意为「送到、递送「，表示把东西送到某人那里。句意：请把这份文件送给部长。「届く」是自动词，意为「到达「；「預ける」意为「寄存「；「渡す」意为「交给「，但「届ける」更强调送达的动作。",
+      "id": "n2-vocab_context-058",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "大切な荷物なので、（　）に扱ってください。",
+      "options": [
+        "精密",
+        "慎重",
+        "正確",
+        "丁寧"
+      ],
+      "answer": 3,
+      "explanation": "「丁寧に」意为「仔细地、小心地「，表示做事认真细致。句意：因为是重要的行李，请小心处理。「正確に」意为「正确地「；「精密に」意为「精密地「；「慎重に」意为「慎重地「，侧重态度而非动作方式。",
+      "id": "n2-vocab_context-059",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "天気予報によると、明日は晴れ（　）。",
+      "options": [
+        "というもので",
+        "とのことだ",
+        "ということで",
+        "というものだ"
+      ],
+      "answer": 1,
+      "explanation": "「～とのことだ」意为「据说......「，表示从别人那里听到的信息。句意：据天气预报说，明天是晴天。「というものだ」意为「这就是......「；「ということで」表示原因；「というもので」也是原因表达。",
+      "id": "n2-vocab_context-060",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "この計画は（　）不可能ではないが、難しいだろう。",
+      "options": [
+        "必ず",
+        "なんとか",
+        "どうにか",
+        "必ずしも"
+      ],
+      "answer": 3,
+      "explanation": "「必ずしも」常与否定搭配，意为「不一定......「。句意：这个计划不一定不可能，但会很难吧。「必ず」意为「一定「；「なんとか」意为「设法「；「どうにか」意为「总算「。",
+      "id": "n2-vocab_context-061",
+      "level": "N2",
+      "question_type": "vocab_context",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00"
+    },
+    {
+      "sentence": "（　）言えば、彼の意見の方が正しいと思う。",
+      "options": [
+        "簡単に",
+        "単純",
+        "正直",
+        "率直"
       ],
       "answer": 2,
-      "explanation": "「騒がしい」の意味は「noisy」です。",
-      "verified": true,
-      "created_at": "2026-05-04T00:41:39.791Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "炒る",
-      "options": [
-        "売り切れる",
-        "突き当たる",
-        "女房",
-        "炒る"
-      ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0353",
+      "explanation": "「正直言って」意为「老实说「，是常用表达。句意：老实说，我觉得他的意见更正确。「率直」意为「直率「；「単純」意为「单纯「；「簡単に」意为「简单地「。",
+      "id": "n2-vocab_context-062",
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "元気でね",
+      "sentence": "電気が（　）いるので、誰か来たようだ。",
       "options": [
-        "私鉄",
-        "符号",
-        "作成",
-        "元気でね"
-      ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0411",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "お出掛け",
-      "options": [
-        "広さ",
-        "お出掛け",
-        "主語",
-        "毛皮"
-      ],
-      "answer": 1,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0419",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "思いっ切り",
-      "options": [
-        "出入口",
-        "思いっ切り",
-        "車掌",
-        "締め切る"
-      ],
-      "answer": 1,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0426",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "関西",
-      "options": [
-        "関西",
-        "増大",
-        "攻める",
-        "御手洗"
-      ],
-      "answer": 0,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0526",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "咥える",
-      "options": [
-        "算数",
-        "咥える",
-        "酸性",
-        "余る"
-      ],
-      "answer": 1,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0592",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.369Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "棄てる",
-      "options": [
-        "棄てる",
-        "頂点",
-        "不規則",
-        "転がす"
-      ],
-      "answer": 0,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0876",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.370Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "清む",
-      "options": [
-        "間も無く",
-        "編集",
-        "清む",
-        "断定"
+        "つけられて",
+        "つけた",
+        "ついて",
+        "つけて"
       ],
       "answer": 2,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0882",
+      "explanation": "「電気がついている」意为「灯亮着「，是自动词的持续状态。句意：灯亮着，好像有人来了。「つけられて」是被动态；「つけて」是他动词；「つけた」是他动词过去式。",
+      "id": "n2-vocab_context-063",
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.370Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "先々週",
+      "sentence": "窓が（　）いるので、寒い。",
       "options": [
-        "中性",
-        "醜い",
-        "性能",
-        "先々週"
-      ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-0918",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.370Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "茶色い",
-      "options": [
-        "不通",
-        "乾杯",
-        "売買",
-        "茶色い"
-      ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1008",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.371Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "通ずる",
-      "options": [
-        "通ずる",
-        "務める",
-        "毛糸",
-        "矢印"
+        "開いて",
+        "開けて",
+        "開いた",
+        "開けられて"
       ],
       "answer": 0,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1040",
+      "explanation": "「窓が開いている」意为「窗户开着「，是自动词的持续状态。句意：窗户开着，所以很冷。「開けて」是他动词；「開けられて」是被动态；「開いた」是自动词过去式，但「開いている」更强调当前状态。",
+      "id": "n2-vocab_context-064",
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.371Z"
+      "created_at": "2026-05-04T10:00:00"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "転々",
+      "sentence": "この映画の（　）は、家族の絆についてだ。",
       "options": [
-        "生る",
-        "粗い",
-        "真空",
-        "転々"
+        "傾向",
+        "趣旨",
+        "趣味",
+        "趣向"
       ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1092",
+      "answer": 1,
+      "explanation": "「趣旨」意为「主旨、宗旨「，指文章或活动的主要意图。句意：这部电影的主旨是关于家庭的纽带。「趣向」意为「创意、心思「；「趣味」意为「兴趣、爱好「；「傾向」意为「倾向「。",
+      "id": "n2-vocab_context-065",
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.371Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "初めに",
-      "options": [
-        "初めに",
-        "茶色い",
-        "通ずる",
-        "外科"
-      ],
-      "answer": 0,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1206",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.371Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "斜",
-      "options": [
-        "診る",
-        "書取",
-        "言い付ける",
-        "斜"
-      ],
-      "answer": 3,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1207",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.371Z"
-    },
-    {
-      "sentence": "文脈に最も合うものを選びなさい。 を（　）する。",
-      "target": "慶ぶ",
-      "options": [
-        "慶ぶ",
-        "主役",
-        "上下",
-        "的確"
-      ],
-      "answer": 0,
-      "explanation": "意味：",
-      "id": "n2-vocab_context-1492",
-      "level": "N2",
-      "question_type": "vocab_context",
-      "verified": true,
-      "created_at": "2026-05-04T00:58:25.372Z"
+      "created_at": "2026-05-04T10:00:00"
     }
   ]
 }
