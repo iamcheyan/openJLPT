@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenJLPT</title>
+    <title>openjlpt</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="assets/app_icon.png">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
@@ -83,8 +83,12 @@
         </div>
     </div>
 
-    <div id="custom-modal" class="modal-overlay">
-        <div class="modal-card"><div class="modal-title" id="modal-title"></div><div class="modal-body" id="modal-body"></div><div class="modal-actions" id="modal-actions"></div></div>
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-card">
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+            <div class="modal-footer" id="modal-actions"></div>
+        </div>
     </div>
 
     <script src="assets/libs/kuromoji.js"></script>

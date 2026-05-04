@@ -246,15 +246,38 @@ function tryLoadState() { try { return JSON.parse(localStorage.getItem(STORAGE_K
 function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify({ selectedIndices: savedSelectedIndices, selections: selections, answered: answered, score: score, timestamp: new Date().toISOString() })); }
 
 function showCustomModal(t, b, acts) {
-    document.getElementById('modal-title').innerText = t; document.getElementById('modal-body').innerText = b;
-    const el = document.getElementById('modal-actions'); el.innerHTML = '';
-    acts.forEach(a => { const btn = document.createElement('button'); btn.className = 'modal-btn ' + (a.primary?'modal-btn-primary':''); btn.innerText = a.label; btn.onclick = () => { document.getElementById('custom-modal').classList.remove('active'); a.onClick?.(); }; el.appendChild(btn); });
-    document.getElementById('custom-modal').classList.add('active');
+    const overlay = document.getElementById('modal-overlay');
+    document.getElementById('modal-title').innerText = t; 
+    document.getElementById('modal-body').innerText = b;
+    const el = document.getElementById('modal-actions'); 
+    el.innerHTML = '';
+    acts.forEach(a => { 
+        const btn = document.createElement('button'); 
+        btn.className = 'modal-btn' + (a.primary ? ' primary' : ''); 
+        btn.innerText = a.label; 
+        btn.onclick = (e) => { 
+            e.stopPropagation();
+            overlay.classList.remove('active'); 
+            if(a.onClick) a.onClick(); 
+        }; 
+        el.appendChild(btn); 
+    });
+    overlay.classList.add('active');
+    
+    // 点击遮罩关闭 (只给 overlay 加，不给 card 加)
+    overlay.onclick = (e) => {
+        if (e.target === overlay) {
+            overlay.classList.remove('active');
+        }
+    };
 }
 
 function refreshExam() {
     if (answered === 0) { localStorage.removeItem(STORAGE_KEY); location.reload(); return; }
-    showCustomModal('更新の確認', '現在の進捗が削除されます。再生成しますか？', [{ label: 'キャンセル' }, { label: '確認', primary: true, onClick: () => { localStorage.removeItem(STORAGE_KEY); location.reload(); } }]);
+    showCustomModal('再生成の確認', '現在の進捗を破棄して、新しい問題セットを生成しますか？', [
+        { label: 'キャンセル' }, 
+        { label: '再生成する', primary: true, onClick: () => { localStorage.removeItem(STORAGE_KEY); location.reload(); } }
+    ]);
 }
 
 function toggleStatsOverlay() {
@@ -300,20 +323,62 @@ function applyFurigana(h) {
 }
 
 async function buildUI() {
-    await initFurigana(); totalQuestions = QUESTIONS.length; selections = new Array(totalQuestions).fill(null); results = new Array(totalQuestions).fill(null);
-    const saved = tryLoadState(); if (saved?.selections) { for (let i = 0; i < Math.min(saved.selections.length, totalQuestions); i++) { if (saved.selections[i] !== null) { selections[i] = saved.selections[i]; results[i] = (selections[i] === QUESTIONS[i].ans); answered++; if (results[i]) score++; } } }
-    document.getElementById('total').innerText = totalQuestions; document.getElementById('mobile-total').innerText = totalQuestions;
+    await initFurigana(); 
+    totalQuestions = QUESTIONS.length; 
+    selections = new Array(totalQuestions).fill(null); 
+    results = new Array(totalQuestions).fill(null);
+    answered = 0; score = 0; // 重置计数器
+
+    const saved = tryLoadState(); 
+    if (saved?.selections) { 
+        for (let i = 0; i < Math.min(saved.selections.length, totalQuestions); i++) { 
+            if (saved.selections[i] !== null) { 
+                selections[i] = saved.selections[i]; 
+                results[i] = (selections[i] === QUESTIONS[i].ans); 
+                answered++; 
+                if (results[i]) score++; 
+            } 
+        } 
+    }
+    
+    // 更新 UI 顶部的统计数据
+    document.getElementById('total').innerText = totalQuestions; 
+    document.getElementById('mobile-total').innerText = totalQuestions;
+    document.getElementById('progress').innerText = answered;
+    document.getElementById('mobile-progress').innerText = answered;
+    document.getElementById('score').innerText = score;
+    document.getElementById('mobile-score').innerText = score;
+
     QUESTIONS.forEach((q, i) => {
         const c = document.getElementById('section-' + q.s); if (!c) return;
         const b = document.createElement('div'); b.className = 'question-block'; b.id = 'q' + (i + 1);
-        let h = ''; if (q.pas && (i === 0 || QUESTIONS[i-1].pas !== q.pas)) h += `<div class="passage">${applyFurigana(q.pas)}</div>`;
+        
+        const isAnswered = selections[i] !== null;
+        const userSel = selections[i];
+        const correctAns = q.ans;
+
+        let h = ''; 
+        if (q.pas && (i === 0 || QUESTIONS[i-1].pas !== q.pas)) h += `<div class="passage">${applyFurigana(q.pas)}</div>`;
         h += `<div class="question-text">${i + 1}. ${applyFurigana(q.txt)}</div>`;
         if (q.star) h += `<div class="star-line">${applyFurigana(q.star)}</div>`;
+        
         h += `<ul class="options">`;
         const opts = Array.isArray(q.opts) ? q.opts : [...(q.star || '').replace(/　/g, ' ').matchAll(/[１２３４1-4]\.\s*([^１２３４1-4]+?)(?=\s*[１２３４1-4]\.|$)/g)].map(m => m[1].trim());
-        opts.forEach((o, oi) => { h += `<li onclick="check(${i + 1}, ${oi}, ${q.ans})">${oi + 1}. ${applyFurigana(o)}</li>`; });
-        let ex = q.exp || `正解：${q.ans + 1}`; if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【解説】</b><br>${q.translation}</div>`;
-        h += `</ul><div class="explanation" id="exp${i + 1}">${ex}</div>`;
+        
+        opts.forEach((o, oi) => { 
+            let cls = '';
+            if (isAnswered) {
+                if (oi === correctAns) cls = 'correct';
+                else if (oi === userSel) cls = 'wrong';
+            }
+            h += `<li class="${cls}" onclick="check(${i + 1}, ${oi}, ${q.ans})">${oi + 1}. ${applyFurigana(o)}</li>`; 
+        });
+        
+        let ex = q.exp || `正解：${q.ans + 1}`; 
+        if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【解説】</b><br>${q.translation}</div>`;
+        
+        const expCls = isAnswered ? 'explanation show' : 'explanation';
+        h += `</ul><div class="${expCls}" id="exp${i + 1}">${ex}</div>`;
         b.innerHTML = h; c.appendChild(b);
     });
     document.getElementById('loading-overlay')?.classList.add('hidden');
@@ -356,6 +421,16 @@ function triggerManualSync() {
 
 // Global Init
 window.addEventListener('DOMContentLoaded', () => {
-    if (localStorage.getItem('openjlpt_furigana') === '1') { document.body.classList.add('show-furigana'); if(document.getElementById('furigana-toggle')) document.getElementById('furigana-toggle').checked = true; }
+    if (localStorage.getItem('openjlpt_furigana') === '1') { 
+        document.body.classList.add('show-furigana'); 
+        if(document.getElementById('furigana-toggle')) document.getElementById('furigana-toggle').checked = true; 
+    }
+    
+    // 如果不是 file: 协议（安卓环境），隐藏侧边栏的同步按钮
+    if (window.location.protocol !== 'file:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        const syncBtn = document.querySelector('[onclick="triggerManualSync()"]');
+        if (syncBtn) syncBtn.style.display = 'none';
+    }
+
     loadExamData();
 });

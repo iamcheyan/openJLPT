@@ -189,7 +189,8 @@ body.show-furigana rt {
 .modal-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
     display: none;
     align-items: center;
     justify-content: center;
@@ -202,10 +203,64 @@ body.show-furigana rt {
 
 .modal-card {
     background: #fff;
-    border: 3px solid #000;
-    padding: 24px;
-    max-width: 400px;
+    border: 1px solid #000;
+    padding: 40px;
+    max-width: 420px;
     width: 90%;
+    box-shadow: 20px 20px 0px rgba(0,0,0,0.03);
+    animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-card h2 {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.modal-card p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.modal-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.modal-btn {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modal-btn.primary {
+    background: #000;
+    color: #fff;
+}
+
+.modal-btn:hover {
+    background: #f8f8f8;
+    transform: translateY(-1px);
+}
+
+.modal-btn.primary:hover {
+    background: #333;
 }
 
 .toggle-btn {
