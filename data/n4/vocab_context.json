@@ -5077,7 +5077,7 @@
       "created_at": "2026-05-04T00:53:53.826Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 a spaceを（　）する。",
+      "sentence": "a spaceを（　）する。",
       "target": "間",
       "options": [
         "間",
@@ -5094,7 +5094,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to matchを（　）する。",
+      "sentence": "to matchを（　）する。",
       "target": "合う",
       "options": [
         "最初",
@@ -5111,7 +5111,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 babyを（　）する。",
+      "sentence": "babyを（　）する。",
       "target": "赤ん坊",
       "options": [
         "食料品",
@@ -5128,7 +5128,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 shallow,superficialを（　）する。",
+      "sentence": "shallow,superficialを（　）する。",
       "target": "浅い",
       "options": [
         "見つかる",
@@ -5145,7 +5145,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 tomorrowを（　）する。",
+      "sentence": "tomorrowを（　）する。",
       "target": "明日",
       "options": [
         "知らせる",
@@ -5162,7 +5162,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 playを（　）する。",
+      "sentence": "playを（　）する。",
       "target": "遊び",
       "options": [
         "怪我",
@@ -5179,7 +5179,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to collect somethingを（　）する。",
+      "sentence": "to collect somethingを（　）する。",
       "target": "集める",
       "options": [
         "集める",
@@ -5196,7 +5196,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to apologizeを（　）する。",
+      "sentence": "to apologizeを（　）する。",
       "target": "謝る",
       "options": [
         "負ける",
@@ -5213,7 +5213,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 reliefを（　）する。",
+      "sentence": "reliefを（　）する。",
       "target": "安心",
       "options": [
         "帰り",
@@ -5230,7 +5230,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to liveを（　）する。",
+      "sentence": "to liveを（　）する。",
       "target": "生きる",
       "options": [
         "生きる",
@@ -5247,7 +5247,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 opinionを（　）する。",
+      "sentence": "opinionを（　）する。",
       "target": "意見",
       "options": [
         "意見",
@@ -5264,7 +5264,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 stoneを（　）する。",
+      "sentence": "stoneを（　）する。",
       "target": "石",
       "options": [
         "石",
@@ -5281,7 +5281,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 more than,this is allを（　）する。",
+      "sentence": "more than,this is allを（　）する。",
       "target": "以上",
       "options": [
         "以上",
@@ -5298,7 +5298,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 onceを（　）する。",
+      "sentence": "onceを（　）する。",
       "target": "一度",
       "options": [
         "一度",
@@ -5315,7 +5315,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 with utmost effortを（　）する。",
+      "sentence": "with utmost effortを（　）する。",
       "target": "一生懸命",
       "options": [
         "用意",
@@ -5332,7 +5332,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 fullを（　）する。",
+      "sentence": "fullを（　）する。",
       "target": "一杯",
       "options": [
         "一杯",
@@ -5349,7 +5349,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 threadを（　）する。",
+      "sentence": "threadを（　）する。",
       "target": "糸",
       "options": [
         "糸",
@@ -5366,7 +5366,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to prayを（　）する。",
+      "sentence": "to prayを（　）する。",
       "target": "祈る",
       "options": [
         "投げる",
@@ -5383,7 +5383,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to visitを（　）する。",
+      "sentence": "to visitを（　）する。",
       "target": "伺う",
       "options": [
         "予約",
@@ -5400,7 +5400,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 receiptを（　）する。",
+      "sentence": "receiptを（　）する。",
       "target": "受付",
       "options": [
         "送る",
@@ -5417,7 +5417,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to moveを（　）する。",
+      "sentence": "to moveを（　）する。",
       "target": "動く",
       "options": [
         "原因",
@@ -5434,7 +5434,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 withinを（　）する。",
+      "sentence": "withinを（　）する。",
       "target": "内",
       "options": [
         "食事",
@@ -5451,7 +5451,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to hitを（　）する。",
+      "sentence": "to hitを（　）する。",
       "target": "打つ",
       "options": [
         "残る",
@@ -5468,7 +5468,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to copy or photographを（　）する。",
+      "sentence": "to copy or photographを（　）する。",
       "target": "写す",
       "options": [
         "大抵",
@@ -5485,7 +5485,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to move house or transferを（　）する。",
+      "sentence": "to move house or transferを（　）する。",
       "target": "移る",
       "options": [
         "移る",
@@ -5502,7 +5502,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 reverse sideを（　）する。",
+      "sentence": "reverse sideを（　）する。",
       "target": "裏",
       "options": [
         "会場",
@@ -5519,7 +5519,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 driverを（　）する。",
+      "sentence": "driverを（　）する。",
       "target": "運転手",
       "options": [
         "科学",
@@ -5536,7 +5536,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 branch, twigを（　）する。",
+      "sentence": "branch, twigを（　）する。",
       "target": "枝",
       "options": [
         "止める",
@@ -5553,7 +5553,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 congratulationを（　）する。",
+      "sentence": "congratulationを（　）する。",
       "target": "お祝い",
       "options": [
         "お祝い",
@@ -5570,7 +5570,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 rooftopを（　）する。",
+      "sentence": "rooftopを（　）する。",
       "target": "屋上",
       "options": [
         "屋上",
@@ -5587,7 +5587,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 giftを（　）する。",
+      "sentence": "giftを（　）する。",
       "target": "贈り物",
       "options": [
         "贈り物",
@@ -5604,7 +5604,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be lateを（　）する。",
+      "sentence": "to be lateを（　）する。",
       "target": "遅れる",
       "options": [
         "下りる",
@@ -5621,7 +5621,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 closetを（　）する。",
+      "sentence": "closetを（　）する。",
       "target": "押し入れ",
       "options": [
         "押し入れ",
@@ -5638,7 +5638,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 husbandを（　）する。",
+      "sentence": "husbandを（　）する。",
       "target": "夫",
       "options": [
         "夫",
@@ -5655,7 +5655,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to dropを（　）する。",
+      "sentence": "to dropを（　）する。",
       "target": "落す",
       "options": [
         "落す",
@@ -5672,7 +5672,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to danceを（　）する。",
+      "sentence": "to danceを（　）する。",
       "target": "踊る",
       "options": [
         "触る",
@@ -5689,7 +5689,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 souvenirを（　）する。",
+      "sentence": "souvenirを（　）する。",
       "target": "お土産",
       "options": [
         "一度",
@@ -5706,7 +5706,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to rememberを（　）する。",
+      "sentence": "to rememberを（　）する。",
       "target": "思い出す",
       "options": [
         "戻る",
@@ -5723,7 +5723,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 the frontを（　）する。",
+      "sentence": "the frontを（　）する。",
       "target": "表",
       "options": [
         "表",
@@ -5740,7 +5740,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to get offを（　）する。",
+      "sentence": "to get offを（　）する。",
       "target": "下りる",
       "options": [
         "苦い",
@@ -5757,7 +5757,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 coastを（　）する。",
+      "sentence": "coastを（　）する。",
       "target": "海岸",
       "options": [
         "大事",
@@ -5774,7 +5774,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 assembly hall or meeting placeを（　）する。",
+      "sentence": "assembly hall or meeting placeを（　）する。",
       "target": "会場",
       "options": [
         "会場",
@@ -5791,7 +5791,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 conversationを（　）する。",
+      "sentence": "conversationを（　）する。",
       "target": "会話",
       "options": [
         "会話",
@@ -5808,7 +5808,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 returnを（　）する。",
+      "sentence": "returnを（　）する。",
       "target": "帰り",
       "options": [
         "訪ねる",
@@ -5825,7 +5825,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 scienceを（　）する。",
+      "sentence": "scienceを（　）する。",
       "target": "科学",
       "options": [
         "科学",
@@ -5842,7 +5842,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 fireを（　）する。",
+      "sentence": "fireを（　）する。",
       "target": "火事",
       "options": [
         "火事",
@@ -5859,7 +5859,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 hardを（　）する。",
+      "sentence": "hardを（　）する。",
       "target": "堅い",
       "options": [
         "力",
@@ -5876,7 +5876,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 hardを（　）する。",
+      "sentence": "hardを（　）する。",
       "target": "固い",
       "options": [
         "答",
@@ -5893,7 +5893,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 section managerを（　）する。",
+      "sentence": "section managerを（　）する。",
       "target": "課長",
       "options": [
         "浅い",
@@ -5910,7 +5910,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 appearanceを（　）する。",
+      "sentence": "appearanceを（　）する。",
       "target": "格好",
       "options": [
         "格好",
@@ -5927,7 +5927,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 housewifeを（　）する。",
+      "sentence": "housewifeを（　）する。",
       "target": "家内",
       "options": [
         "家内",
@@ -5944,7 +5944,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 sadを（　）する。",
+      "sentence": "sadを（　）する。",
       "target": "悲しい",
       "options": [
         "悲しい",
@@ -5961,7 +5961,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 certainly,necessarilyを（　）する。",
+      "sentence": "certainly,necessarilyを（　）する。",
       "target": "必ず",
       "options": [
         "手伝う",
@@ -5978,7 +5978,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 rich manを（　）する。",
+      "sentence": "rich manを（　）する。",
       "target": "お金持ち",
       "options": [
         "お金持ち",
@@ -5995,7 +5995,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 rich manを（　）する。",
+      "sentence": "rich manを（　）する。",
       "target": "金持ち",
       "options": [
         "景色",
@@ -6012,7 +6012,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to bite,to chewを（　）する。",
+      "sentence": "to bite,to chewを（　）する。",
       "target": "噛む",
       "options": [
         "育てる",
@@ -6029,7 +6029,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to commuteを（　）する。",
+      "sentence": "to commuteを（　）する。",
       "target": "通う",
       "options": [
         "通う",
@@ -6046,7 +6046,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 theyを（　）する。",
+      "sentence": "theyを（　）する。",
       "target": "彼ら",
       "options": [
         "女性",
@@ -6063,7 +6063,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to get dryを（　）する。",
+      "sentence": "to get dryを（　）する。",
       "target": "乾く",
       "options": [
         "背中",
@@ -6080,7 +6080,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to changeを（　）する。",
+      "sentence": "to changeを（　）する。",
       "target": "変わる",
       "options": [
         "星",
@@ -6097,7 +6097,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 relationshipを（　）する。",
+      "sentence": "relationshipを（　）する。",
       "target": "関係",
       "options": [
         "関係",
@@ -6114,7 +6114,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 female nurseを（　）する。",
+      "sentence": "female nurseを（　）する。",
       "target": "看護婦",
       "options": [
         "回る",
@@ -6131,7 +6131,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 opportunityを（　）する。",
+      "sentence": "opportunityを（　）する。",
       "target": "機会",
       "options": [
         "機会",
@@ -6148,7 +6148,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 dangerを（　）する。",
+      "sentence": "dangerを（　）する。",
       "target": "危険",
       "options": [
         "危険",
@@ -6165,7 +6165,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 steam trainを（　）する。",
+      "sentence": "steam trainを（　）する。",
       "target": "汽車",
       "options": [
         "翻訳",
@@ -6182,7 +6182,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 strictを（　）する。",
+      "sentence": "strictを（　）する。",
       "target": "厳しい",
       "options": [
         "厳しい",
@@ -6199,7 +6199,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 moodを（　）する。",
+      "sentence": "moodを（　）する。",
       "target": "気分",
       "options": [
         "親切",
@@ -6216,7 +6216,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 feeling,moodを（　）する。",
+      "sentence": "feeling,moodを（　）する。",
       "target": "気持ち",
       "options": [
         "気持ち",
@@ -6233,7 +6233,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 kimonoを（　）する。",
+      "sentence": "kimonoを（　）する。",
       "target": "着物",
       "options": [
         "運転",
@@ -6250,7 +6250,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 speedy, expressを（　）する。",
+      "sentence": "speedy, expressを（　）する。",
       "target": "急行",
       "options": [
         "妻",
@@ -6267,7 +6267,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 air,atmosphereを（　）する。",
+      "sentence": "air,atmosphereを（　）する。",
       "target": "空気",
       "options": [
         "空気",
@@ -6284,7 +6284,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 cloudを（　）する。",
+      "sentence": "cloudを（　）する。",
       "target": "雲",
       "options": [
         "小説",
@@ -6301,7 +6301,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to giveを（　）する。",
+      "sentence": "to giveを（　）する。",
       "target": "呉れる",
       "options": [
         "程",
@@ -6318,7 +6318,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to get dark,to come to an endを（　）する。",
+      "sentence": "to get dark,to come to an endを（　）する。",
       "target": "暮れる",
       "options": [
         "出席",
@@ -6335,7 +6335,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 hair or furを（　）する。",
+      "sentence": "hair or furを（　）する。",
       "target": "毛",
       "options": [
         "地理",
@@ -6352,7 +6352,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to experienceを（　）する。",
+      "sentence": "to experienceを（　）する。",
       "target": "経験",
       "options": [
         "嘘",
@@ -6369,7 +6369,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 eraserを（　）する。",
+      "sentence": "eraserを（　）する。",
       "target": "消しゴム",
       "options": [
         "消しゴム",
@@ -6386,7 +6386,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 lodgingを（　）する。",
+      "sentence": "lodgingを（　）する。",
       "target": "下宿",
       "options": [
         "拝見",
@@ -6403,7 +6403,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 researchを（　）する。",
+      "sentence": "researchを（　）する。",
       "target": "研究",
       "options": [
         "倒れる",
@@ -6420,7 +6420,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 study room,laboratoryを（　）する。",
+      "sentence": "study room,laboratoryを（　）する。",
       "target": "研究室",
       "options": [
         "戦争",
@@ -6437,7 +6437,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 childを（　）する。",
+      "sentence": "childを（　）する。",
       "target": "子",
       "options": [
         "子",
@@ -6454,7 +6454,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 this wayを（　）する。",
+      "sentence": "this wayを（　）する。",
       "target": "斯う",
       "options": [
         "両方",
@@ -6471,7 +6471,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 the manufacturing industryを（　）する。",
+      "sentence": "the manufacturing industryを（　）する。",
       "target": "工業",
       "options": [
         "工業",
@@ -6488,7 +6488,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 high school studentを（　）する。",
+      "sentence": "high school studentを（　）する。",
       "target": "高校生",
       "options": [
         "倒れる",
@@ -6505,7 +6505,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 headmasterを（　）する。",
+      "sentence": "headmasterを（　）する。",
       "target": "校長",
       "options": [
         "準備",
@@ -6522,7 +6522,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 traffic,transportationを（　）する。",
+      "sentence": "traffic,transportationを（　）する。",
       "target": "交通",
       "options": [
         "研究",
@@ -6539,7 +6539,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 auditoriumを（　）する。",
+      "sentence": "auditoriumを（　）する。",
       "target": "講堂",
       "options": [
         "熱",
@@ -6556,7 +6556,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 high schoolを（　）する。",
+      "sentence": "high schoolを（　）する。",
       "target": "高等学校",
       "options": [
         "押し入れ",
@@ -6573,7 +6573,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 internationalを（　）する。",
+      "sentence": "internationalを（　）する。",
       "target": "国際",
       "options": [
         "億",
@@ -6590,7 +6590,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (honorable) your husbandを（　）する。",
+      "sentence": "(honorable) your husbandを（　）する。",
       "target": "御主人",
       "options": [
         "高校",
@@ -6607,7 +6607,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 knowing,acquaintanceを（　）する。",
+      "sentence": "knowing,acquaintanceを（　）する。",
       "target": "ご存じ",
       "options": [
         "ご存じ",
@@ -6624,7 +6624,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 small, fineを（　）する。",
+      "sentence": "small, fineを（　）する。",
       "target": "細かい",
       "options": [
         "億",
@@ -6641,7 +6641,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 uncooked riceを（　）する。",
+      "sentence": "uncooked riceを（　）する。",
       "target": "米",
       "options": [
         "故障",
@@ -6658,7 +6658,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 frighteningを（　）する。",
+      "sentence": "frighteningを（　）する。",
       "target": "怖い",
       "options": [
         "規則",
@@ -6675,7 +6675,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be brokenを（　）する。",
+      "sentence": "to be brokenを（　）する。",
       "target": "壊れる",
       "options": [
         "泊まる",
@@ -6692,7 +6692,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 last,endを（　）する。",
+      "sentence": "last,endを（　）する。",
       "target": "最後",
       "options": [
         "最後",
@@ -6709,7 +6709,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to hang,to lower,to move backを（　）する。",
+      "sentence": "to hang,to lower,to move backを（　）する。",
       "target": "下げる",
       "options": [
         "下げる",
@@ -6726,7 +6726,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 lonelyを（　）する。",
+      "sentence": "lonelyを（　）する。",
       "target": "寂しい",
       "options": [
         "寂しい",
@@ -6743,7 +6743,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 the month after nextを（　）する。",
+      "sentence": "the month after nextを（　）する。",
       "target": "さ来月",
       "options": [
         "公務員",
@@ -6760,7 +6760,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 the week after nextを（　）する。",
+      "sentence": "the week after nextを（　）する。",
       "target": "さ来週",
       "options": [
         "枝",
@@ -6777,7 +6777,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to touchを（　）する。",
+      "sentence": "to touchを（　）する。",
       "target": "触る",
       "options": [
         "お金持ち",
@@ -6794,7 +6794,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 industryを（　）する。",
+      "sentence": "industryを（　）する。",
       "target": "産業",
       "options": [
         "産業",
@@ -6811,7 +6811,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 disappointmentを（　）する。",
+      "sentence": "disappointmentを（　）する。",
       "target": "残念",
       "options": [
         "海岸",
@@ -6828,7 +6828,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 cityを（　）する。",
+      "sentence": "cityを（　）する。",
       "target": "市",
       "options": [
         "別れる",
@@ -6845,7 +6845,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 characterを（　）する。",
+      "sentence": "characterを（　）する。",
       "target": "字",
       "options": [
         "翻訳",
@@ -6862,7 +6862,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 a particularを（　）する。",
+      "sentence": "a particularを（　）する。",
       "target": "然る",
       "options": [
         "届ける",
@@ -6879,7 +6879,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 examinationを（　）する。",
+      "sentence": "examinationを（　）する。",
       "target": "試験",
       "options": [
         "水道",
@@ -6896,7 +6896,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 eraを（　）する。",
+      "sentence": "eraを（　）する。",
       "target": "時代",
       "options": [
         "始める",
@@ -6913,7 +6913,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 islandを（　）する。",
+      "sentence": "islandを（　）する。",
       "target": "島",
       "options": [
         "島",
@@ -6930,7 +6930,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 officeを（　）する。",
+      "sentence": "officeを（　）する。",
       "target": "事務所",
       "options": [
         "壊れる",
@@ -6947,7 +6947,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 society,publicを（　）する。",
+      "sentence": "society,publicを（　）する。",
       "target": "社会",
       "options": [
         "社会",
@@ -6964,7 +6964,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 company presidentを（　）する。",
+      "sentence": "company presidentを（　）する。",
       "target": "社長",
       "options": [
         "包む",
@@ -6981,7 +6981,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 enoughを（　）する。",
+      "sentence": "enoughを（　）する。",
       "target": "十分",
       "options": [
         "十分",
@@ -6998,7 +6998,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to attendを（　）する。",
+      "sentence": "to attendを（　）する。",
       "target": "出席",
       "options": [
         "出席",
@@ -7015,7 +7015,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to departを（　）する。",
+      "sentence": "to departを（　）する。",
       "target": "出発",
       "options": [
         "出発",
@@ -7032,7 +7032,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 hobbyを（　）する。",
+      "sentence": "hobbyを（　）する。",
       "target": "趣味",
       "options": [
         "場所",
@@ -7049,7 +7049,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to inviteを（　）する。",
+      "sentence": "to inviteを（　）する。",
       "target": "招待",
       "options": [
         "招待",
@@ -7066,7 +7066,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 groceriesを（　）する。",
+      "sentence": "groceriesを（　）する。",
       "target": "食料品",
       "options": [
         "空港",
@@ -7083,7 +7083,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to notifyを（　）する。",
+      "sentence": "to notifyを（　）する。",
       "target": "知らせる",
       "options": [
         "上手い",
@@ -7100,7 +7100,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 swimmingを（　）する。",
+      "sentence": "swimmingを（　）する。",
       "target": "水泳",
       "options": [
         "経済",
@@ -7117,7 +7117,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 water supplyを（　）する。",
+      "sentence": "water supplyを（　）する。",
       "target": "水道",
       "options": [
         "予定",
@@ -7134,7 +7134,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 mathematics,arithmeticを（　）する。",
+      "sentence": "mathematics,arithmeticを（　）する。",
       "target": "数学",
       "options": [
         "昼間",
@@ -7151,7 +7151,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to make progressを（　）する。",
+      "sentence": "to make progressを（　）する。",
       "target": "進む",
       "options": [
         "怖い",
@@ -7168,7 +7168,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to liveを（　）する。",
+      "sentence": "to liveを（　）する。",
       "target": "生活",
       "options": [
         "生活",
@@ -7185,7 +7185,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 politics,governmentを（　）する。",
+      "sentence": "politics,governmentを（　）する。",
       "target": "政治",
       "options": [
         "嘘",
@@ -7202,7 +7202,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 the worldを（　）する。",
+      "sentence": "the worldを（　）する。",
       "target": "世界",
       "options": [
         "世界",
@@ -7219,7 +7219,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 seatを（　）する。",
+      "sentence": "seatを（　）する。",
       "target": "席",
       "options": [
         "席",
@@ -7236,7 +7236,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to look afterを（　）する。",
+      "sentence": "to look afterを（　）する。",
       "target": "世話",
       "options": [
         "喜ぶ",
@@ -7253,7 +7253,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 lineを（　）する。",
+      "sentence": "lineを（　）する。",
       "target": "線",
       "options": [
         "盛ん",
@@ -7270,7 +7270,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 warを（　）する。",
+      "sentence": "warを（　）する。",
       "target": "戦争",
       "options": [
         "鳴る",
@@ -7287,7 +7287,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 grandmotherを（　）する。",
+      "sentence": "grandmotherを（　）する。",
       "target": "祖母",
       "options": [
         "辞典",
@@ -7304,7 +7304,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 usuallyを（　）する。",
+      "sentence": "usuallyを（　）する。",
       "target": "大抵",
       "options": [
         "大抵",
@@ -7321,7 +7321,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 typhoonを（　）する。",
+      "sentence": "typhoonを（　）する。",
       "target": "台風",
       "options": [
         "地震",
@@ -7338,7 +7338,7 @@
       "created_at": "2026-05-04T00:58:25.561Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to break downを（　）する。",
+      "sentence": "to break downを（　）する。",
       "target": "倒れる",
       "options": [
         "親切",
@@ -7355,7 +7355,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to add a numberを（　）する。",
+      "sentence": "to add a numberを（　）する。",
       "target": "足す",
       "options": [
         "足す",
@@ -7372,7 +7372,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to visitを（　）する。",
+      "sentence": "to visitを（　）する。",
       "target": "訪ねる",
       "options": [
         "訪ねる",
@@ -7389,7 +7389,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to askを（　）する。",
+      "sentence": "to askを（　）する。",
       "target": "尋ねる",
       "options": [
         "裏",
@@ -7406,7 +7406,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 correctを（　）する。",
+      "sentence": "correctを（　）する。",
       "target": "正しい",
       "options": [
         "深い",
@@ -7423,7 +7423,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to stand something upを（　）する。",
+      "sentence": "to stand something upを（　）する。",
       "target": "立てる",
       "options": [
         "立てる",
@@ -7440,7 +7440,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to buildを（　）する。",
+      "sentence": "to buildを（　）する。",
       "target": "建てる",
       "options": [
         "電報",
@@ -7457,7 +7457,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 for exampleを（　）する。",
+      "sentence": "for exampleを（　）する。",
       "target": "例えば",
       "options": [
         "例えば",
@@ -7474,7 +7474,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 heatingを（　）する。",
+      "sentence": "heatingを（　）する。",
       "target": "暖房",
       "options": [
         "周り",
@@ -7491,7 +7491,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 geographyを（　）する。",
+      "sentence": "geographyを（　）する。",
       "target": "地理",
       "options": [
         "人口",
@@ -7508,7 +7508,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be attachedを（　）する。",
+      "sentence": "to be attachedを（　）する。",
       "target": "付く",
       "options": [
         "お金持ち",
@@ -7525,7 +7525,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to soak,to pickleを（　）する。",
+      "sentence": "to soak,to pickleを（　）する。",
       "target": "漬ける",
       "options": [
         "世話",
@@ -7542,7 +7542,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 circumstances,convenienceを（　）する。",
+      "sentence": "circumstances,convenienceを（　）する。",
       "target": "都合",
       "options": [
         "都合",
@@ -7559,7 +7559,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 templeを（　）する。",
+      "sentence": "templeを（　）する。",
       "target": "寺",
       "options": [
         "塗る",
@@ -7576,7 +7576,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 electric lightを（　）する。",
+      "sentence": "electric lightを（　）する。",
       "target": "電灯",
       "options": [
         "慣れる",
@@ -7593,7 +7593,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 telegramを（　）する。",
+      "sentence": "telegramを（　）する。",
       "target": "電報",
       "options": [
         "柔道",
@@ -7610,7 +7610,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 zooを（　）する。",
+      "sentence": "zooを（　）する。",
       "target": "動物園",
       "options": [
         "高校生",
@@ -7627,7 +7627,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 particularly,especiallyを（　）する。",
+      "sentence": "particularly,especiallyを（　）する。",
       "target": "特に",
       "options": [
         "特に",
@@ -7644,7 +7644,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 specialを（　）する。",
+      "sentence": "specialを（　）する。",
       "target": "特別",
       "options": [
         "注射",
@@ -7661,7 +7661,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 limited express train (faster than an express train)を（　）する。",
+      "sentence": "limited express train (faster than an express train)を（　）する。",
       "target": "特急",
       "options": [
         "特急",
@@ -7678,7 +7678,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to exchangeを（　）する。",
+      "sentence": "to exchangeを（　）する。",
       "target": "取り替える",
       "options": [
         "変える",
@@ -7695,7 +7695,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to fix,to repairを（　）する。",
+      "sentence": "to fix,to repairを（　）する。",
       "target": "直す",
       "options": [
         "直す",
@@ -7712,7 +7712,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be fixed,to be repairedを（　）する。",
+      "sentence": "to be fixed,to be repairedを（　）する。",
       "target": "直る",
       "options": [
         "直る",
@@ -7729,7 +7729,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to disappear,to get lostを（　）する。",
+      "sentence": "to disappear,to get lostを（　）する。",
       "target": "無くなる",
       "options": [
         "無くなる",
@@ -7746,7 +7746,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to grow accustomed toを（　）する。",
+      "sentence": "to grow accustomed toを（　）する。",
       "target": "慣れる",
       "options": [
         "辞典",
@@ -7763,7 +7763,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be similarを（　）する。",
+      "sentence": "to be similarを（　）する。",
       "target": "似る",
       "options": [
         "似る",
@@ -7780,7 +7780,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 doll, figureを（　）する。",
+      "sentence": "doll, figureを（　）する。",
       "target": "人形",
       "options": [
         "旅館",
@@ -7797,7 +7797,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to stealを（　）する。",
+      "sentence": "to stealを（　）する。",
       "target": "盗む",
       "options": [
         "席",
@@ -7814,7 +7814,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to paint,to plasterを（　）する。",
+      "sentence": "to paint,to plasterを（　）する。",
       "target": "塗る",
       "options": [
         "返事",
@@ -7831,7 +7831,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 sleeping in lateを（　）する。",
+      "sentence": "sleeping in lateを（　）する。",
       "target": "寝坊",
       "options": [
         "彼ら",
@@ -7848,7 +7848,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 sleepyを（　）する。",
+      "sentence": "sleepyを（　）する。",
       "target": "眠い",
       "options": [
         "眠い",
@@ -7865,7 +7865,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to sleepを（　）する。",
+      "sentence": "to sleepを（　）する。",
       "target": "眠る",
       "options": [
         "先ず",
@@ -7882,7 +7882,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 situationを（　）する。",
+      "sentence": "situationを（　）する。",
       "target": "場合",
       "options": [
         "場合",
@@ -7899,7 +7899,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (humble) to look atを（　）する。",
+      "sentence": "(humble) to look atを（　）する。",
       "target": "拝見",
       "options": [
         "運ぶ",
@@ -7916,7 +7916,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to transportを（　）する。",
+      "sentence": "to transportを（　）する。",
       "target": "運ぶ",
       "options": [
         "運転",
@@ -7933,7 +7933,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to beginを（　）する。",
+      "sentence": "to beginを（　）する。",
       "target": "始める",
       "options": [
         "始める",
@@ -7950,7 +7950,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 it should be soを（　）する。",
+      "sentence": "it should be soを（　）する。",
       "target": "筈",
       "options": [
         "歴史",
@@ -7967,7 +7967,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 embarrassedを（　）する。",
+      "sentence": "embarrassedを（　）する。",
       "target": "恥ずかしい",
       "options": [
         "雲",
@@ -7984,7 +7984,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 pronunciationを（　）する。",
+      "sentence": "pronunciationを（　）する。",
       "target": "発音",
       "options": [
         "堅い",
@@ -8001,7 +8001,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 television or radio programを（　）する。",
+      "sentence": "television or radio programを（　）する。",
       "target": "番組",
       "options": [
         "番組",
@@ -8018,7 +8018,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 oppositionを（　）する。",
+      "sentence": "oppositionを（　）する。",
       "target": "反対",
       "options": [
         "郊外",
@@ -8035,7 +8035,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to shine,to glitterを（　）する。",
+      "sentence": "to shine,to glitterを（　）する。",
       "target": "光る",
       "options": [
         "女性",
@@ -8052,7 +8052,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 drawer,drawing outを（　）する。",
+      "sentence": "drawer,drawing outを（　）する。",
       "target": "引き出し",
       "options": [
         "明日",
@@ -8069,7 +8069,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to withdrawを（　）する。",
+      "sentence": "to withdrawを（　）する。",
       "target": "引き出す",
       "options": [
         "引き出す",
@@ -8086,7 +8086,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 airportを（　）する。",
+      "sentence": "airportを（　）する。",
       "target": "飛行場",
       "options": [
         "逃げる",
@@ -8103,7 +8103,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to move houseを（　）する。",
+      "sentence": "to move houseを（　）する。",
       "target": "引っ越す",
       "options": [
         "虫",
@@ -8120,7 +8120,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to open an eventを（　）する。",
+      "sentence": "to open an eventを（　）する。",
       "target": "開く",
       "options": [
         "開く",
@@ -8137,7 +8137,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 daytime,during the dayを（　）する。",
+      "sentence": "daytime,during the dayを（　）する。",
       "target": "昼間",
       "options": [
         "光る",
@@ -8154,7 +8154,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 noon breakを（　）する。",
+      "sentence": "noon breakを（　）する。",
       "target": "昼休み",
       "options": [
         "柔道",
@@ -8171,7 +8171,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to increaseを（　）する。",
+      "sentence": "to increaseを（　）する。",
       "target": "増える",
       "options": [
         "増える",
@@ -8188,7 +8188,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 deepを（　）する。",
+      "sentence": "deepを（　）する。",
       "target": "深い",
       "options": [
         "深い",
@@ -8205,7 +8205,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 complexity,complicationを（　）する。",
+      "sentence": "complexity,complicationを（　）する。",
       "target": "複雑",
       "options": [
         "複雑",
@@ -8222,7 +8222,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 revisionを（　）する。",
+      "sentence": "revisionを（　）する。",
       "target": "復習",
       "options": [
         "男性",
@@ -8239,7 +8239,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 cultureを（　）する。",
+      "sentence": "cultureを（　）する。",
       "target": "文化",
       "options": [
         "規則",
@@ -8256,7 +8256,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 grammarを（　）する。",
+      "sentence": "grammarを（　）する。",
       "target": "文法",
       "options": [
         "文法",
@@ -8273,7 +8273,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 replyを（　）する。",
+      "sentence": "replyを（　）する。",
       "target": "返事",
       "options": [
         "将来",
@@ -8290,7 +8290,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 tradeを（　）する。",
+      "sentence": "tradeを（　）する。",
       "target": "貿易",
       "options": [
         "打つ",
@@ -8307,7 +8307,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to broadcastを（　）する。",
+      "sentence": "to broadcastを（　）する。",
       "target": "放送",
       "options": [
         "心配",
@@ -8324,7 +8324,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 starを（　）する。",
+      "sentence": "starを（　）する。",
       "target": "星",
       "options": [
         "星",
@@ -8341,7 +8341,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (humble) to go,to comeを（　）する。",
+      "sentence": "(humble) to go,to comeを（　）する。",
       "target": "参る",
       "options": [
         "参る",
@@ -8358,7 +8358,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 surroundingsを（　）する。",
+      "sentence": "surroundingsを（　）する。",
       "target": "周り",
       "options": [
         "考える",
@@ -8375,7 +8375,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 comicを（　）する。",
+      "sentence": "comicを（　）する。",
       "target": "漫画",
       "options": [
         "驚く",
@@ -8392,7 +8392,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 middleを（　）する。",
+      "sentence": "middleを（　）する。",
       "target": "真ん中",
       "options": [
         "支度",
@@ -8409,7 +8409,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be discoveredを（　）する。",
+      "sentence": "to be discoveredを（　）する。",
       "target": "見つかる",
       "options": [
         "見つかる",
@@ -8426,7 +8426,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to discoverを（　）する。",
+      "sentence": "to discoverを（　）する。",
       "target": "見つける",
       "options": [
         "遠慮",
@@ -8443,7 +8443,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 everybodyを（　）する。",
+      "sentence": "everybodyを（　）する。",
       "target": "皆",
       "options": [
         "近所",
@@ -8460,7 +8460,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 harbourを（　）する。",
+      "sentence": "harbourを（　）する。",
       "target": "港",
       "options": [
         "港",
@@ -8477,7 +8477,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to faceを（　）する。",
+      "sentence": "to faceを（　）する。",
       "target": "向かう",
       "options": [
         "向かう",
@@ -8494,7 +8494,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (humble) sonを（　）する。",
+      "sentence": "(humble) sonを（　）する。",
       "target": "息子",
       "options": [
         "息子",
@@ -8511,7 +8511,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 impossibleを（　）する。",
+      "sentence": "impossibleを（　）する。",
       "target": "無理",
       "options": [
         "屋上",
@@ -8528,7 +8528,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (polite) to eatを（　）する。",
+      "sentence": "(polite) to eatを（　）する。",
       "target": "召し上がる",
       "options": [
         "下着",
@@ -8545,7 +8545,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 (humble) to say,to tellを（　）する。",
+      "sentence": "(humble) to say,to tellを（　）する。",
       "target": "申し上げる",
       "options": [
         "申し上げる",
@@ -8562,7 +8562,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to turn backを（　）する。",
+      "sentence": "to turn backを（　）する。",
       "target": "戻る",
       "options": [
         "美術館",
@@ -8579,7 +8579,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 cottonを（　）する。",
+      "sentence": "cottonを（　）する。",
       "target": "木綿",
       "options": [
         "木綿",
@@ -8596,7 +8596,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to burn,to be roastedを（　）する。",
+      "sentence": "to burn,to be roastedを（　）する。",
       "target": "焼ける",
       "options": [
         "案内",
@@ -8613,7 +8613,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 kindを（　）する。",
+      "sentence": "kindを（　）する。",
       "target": "優しい",
       "options": [
         "反対",
@@ -8630,7 +8630,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to become thinを（　）する。",
+      "sentence": "to become thinを（　）する。",
       "target": "痩せる",
       "options": [
         "腕",
@@ -8647,7 +8647,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 softを（　）する。",
+      "sentence": "softを（　）する。",
       "target": "柔らかい",
       "options": [
         "音",
@@ -8664,7 +8664,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 hot waterを（　）する。",
+      "sentence": "hot waterを（　）する。",
       "target": "湯",
       "options": [
         "寄る",
@@ -8681,7 +8681,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to importを（　）する。",
+      "sentence": "to importを（　）する。",
       "target": "輸入",
       "options": [
         "輸入",
@@ -8698,7 +8698,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 fingerを（　）する。",
+      "sentence": "fingerを（　）する。",
       "target": "指",
       "options": [
         "形",
@@ -8715,7 +8715,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 dreamを（　）する。",
+      "sentence": "dreamを（　）する。",
       "target": "夢",
       "options": [
         "電報",
@@ -8732,7 +8732,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to shake,to swayを（　）する。",
+      "sentence": "to shake,to swayを（　）する。",
       "target": "揺れる",
       "options": [
         "事務所",
@@ -8749,7 +8749,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 things to doを（　）する。",
+      "sentence": "things to doを（　）する。",
       "target": "用事",
       "options": [
         "用事",
@@ -8766,7 +8766,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 arrangementを（　）する。",
+      "sentence": "arrangementを（　）する。",
       "target": "予定",
       "options": [
         "楽む",
@@ -8783,7 +8783,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to be delightedを（　）する。",
+      "sentence": "to be delightedを（　）する。",
       "target": "喜ぶ",
       "options": [
         "空く",
@@ -8800,7 +8800,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 utilizationを（　）する。",
+      "sentence": "utilizationを（　）する。",
       "target": "利用",
       "options": [
         "利用",
@@ -8817,7 +8817,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 both sidesを（　）する。",
+      "sentence": "both sidesを（　）する。",
       "target": "両方",
       "options": [
         "両方",
@@ -8834,7 +8834,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 Japanese hotelを（　）する。",
+      "sentence": "Japanese hotelを（　）する。",
       "target": "旅館",
       "options": [
         "冷房",
@@ -8851,7 +8851,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 air conditioningを（　）する。",
+      "sentence": "air conditioningを（　）する。",
       "target": "冷房",
       "options": [
         "落す",
@@ -8868,7 +8868,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 historyを（　）する。",
+      "sentence": "historyを（　）する。",
       "target": "歴史",
       "options": [
         "歴史",
@@ -8885,7 +8885,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 contactを（　）する。",
+      "sentence": "contactを（　）する。",
       "target": "連絡",
       "options": [
         "連絡",
@@ -8902,7 +8902,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to separateを（　）する。",
+      "sentence": "to separateを（　）する。",
       "target": "別れる",
       "options": [
         "決して",
@@ -8919,7 +8919,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 lost articleを（　）する。",
+      "sentence": "lost articleを（　）する。",
       "target": "忘れ物",
       "options": [
         "太る",
@@ -8936,7 +8936,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 to laugh,to smileを（　）する。",
+      "sentence": "to laugh,to smileを（　）する。",
       "target": "笑う",
       "options": [
         "娘",
@@ -8953,7 +8953,7 @@
       "created_at": "2026-05-04T00:58:25.562Z"
     },
     {
-      "sentence": "文脈に最も合うものを選びなさい。 way of swimmingを（　）する。",
+      "sentence": "way of swimmingを（　）する。",
       "target": "泳ぎ方",
       "options": [
         "付く",
