@@ -347,7 +347,12 @@ async function buildUI() {
         getOptions(q).forEach((opt, oi) => {
             html += `<li onclick="check(${i+1}, ${oi}, ${q.ans})">${oi+1}. ${applyFurigana(opt)}</li>`;
         });
-        html += `</ul><div class="explanation" id=\"exp${i+1}\">${q.exp || '正解：' + (q.ans+1)}</div>`;
+        const expId = `exp${i+1}`;
+        let expContent = q.exp || '正解：' + (q.ans+1);
+        if (q.translation) {
+            expContent += `<div class="translation-block" style="margin-top:12px; padding-top:12px; border-top:1px dashed #bbb; color:#444; font-size:14px;"><strong>【中国語訳】</strong><br>${q.translation}</div>`;
+        }
+        html += `</ul><div class="explanation" id="${expId}">${expContent}</div>`;
         block.innerHTML = html;
         container.appendChild(block);
     });

@@ -37,6 +37,14 @@
       "base_url_env": "NVIDIA_BASE_URL",
       "model": "qwen/qwen2.5-coder-32b-instruct",
       "format": "openai"
+    },
+    "deepseek": {
+      "label": "DeepSeek",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "base_url_env": "DEEPSEEK_BASE_URL",
+      "model_env": "DEEPSEEK_MODEL",
+      "model": "deepseek-chat",
+      "format": "openai"
     }
   },
   "pipeline": {

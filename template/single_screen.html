@@ -948,6 +948,14 @@
         html += `</div>`;
       }
 
+      const translation = q.meta.translation || d.translation || '';
+      if (translation) {
+        html += `<div class="explanation" style="background:#f8fafc;border-left-color:var(--text-secondary)">`;
+        html += `<div class="explanation-title" style="color:var(--text-secondary)">中国語訳</div>`;
+        html += `<div class="explanation-body">${escapeHtml(translation)}</div>`;
+        html += `</div>`;
+      }
+
       // Complete sentence for grammar_order
       if (q.typeId === 'grammar_order' && (d.complete_sentence || q.meta.complete_sentence)) {
         html += `<div class="explanation" style="background:#fef3c7;border-left-color:var(--warn)">`;
