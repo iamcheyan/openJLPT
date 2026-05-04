@@ -769,7 +769,8 @@
       "explanation": "「製品」意为产品，是固定复合词。「品」表示物品（食品、商品等）。",
       "id": "n2-vocab_compound-051",
       "level": "N2",
-      "question_type": "vocab_compound"
+      "question_type": "vocab_compound",
+      "translation": "这款商品品质优良。"
     },
     {
       "sentence": "毎月の家（　）は10万円だ。",
@@ -783,7 +784,8 @@
       "explanation": "「家賃」意为房租，是固定复合词。「賃」表示租金。「料」指费用，「費」指经费，「代」指代金。",
       "id": "n2-vocab_compound-052",
       "level": "N2",
-      "question_type": "vocab_compound"
+      "question_type": "vocab_compound",
+      "translation": "每月房租是10万日元。"
     },
     {
       "sentence": "入学（　）はいつまでに払えばいいですか。",
@@ -797,7 +799,8 @@
       "explanation": "「入学料」意为入学金，是固定教育费用用语。「料」表示一次性费用。「賃」指租金，「費」指经费，「代」指代金。",
       "id": "n2-vocab_compound-053",
       "level": "N2",
-      "question_type": "vocab_compound"
+      "question_type": "vocab_compound",
+      "translation": "入学金最晚什么时候交？"
     },
     {
       "sentence": "交通（　）は会社が負担してくれる。",
@@ -811,7 +814,8 @@
       "explanation": "「交通費」意为交通费，是固定费用用语。「費」表示日常开支。「賃」指租金，「料」指手续费，「代」指代金。",
       "id": "n2-vocab_compound-054",
       "level": "N2",
-      "question_type": "vocab_compound"
+      "question_type": "vocab_compound",
+      "translation": "交通费由公司承担。"
     },
     {
       "sentence": "電気（　）が高くなった。",
@@ -825,7 +829,8 @@
       "explanation": "「電気代」意为电费，「代」用于日常费用（ガス代、水道代等）。",
       "id": "n2-vocab_compound-055",
       "level": "N2",
-      "question_type": "vocab_compound"
+      "question_type": "vocab_compound",
+      "translation": "电费涨价了。"
     },
     {
       "sentence": "子供たちが（　）園で遊んでいる。",

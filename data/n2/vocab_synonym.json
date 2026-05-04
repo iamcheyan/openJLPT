@@ -6609,7 +6609,8 @@
       "explanation": "1. 正确项分析：「一昨日（おととい）」即前天。",
       "created_at": "2026-05-04T17:36:52.749626",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "前天，我从前天开始感冒了。"
     },
     {
       "id": "n2-vocab_synonym-0347",
@@ -6627,7 +6628,8 @@
       "explanation": "1. 正确项分析：「一昨年（おととし）」即前年。",
       "created_at": "2026-05-04T17:36:52.749629",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "前年，去年的夏天非常热。"
     },
     {
       "id": "n2-vocab_synonym-0348",
@@ -6645,7 +6647,8 @@
       "explanation": "1. 正确项分析：「一旦」在此处表示“先（暂且）”。",
       "created_at": "2026-05-04T17:36:52.749634",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "此处禁止入内，请立即出去。"
     },
     {
       "id": "n2-vocab_synonym-0349",
@@ -6663,7 +6666,8 @@
       "explanation": "1. 正确项分析：「移転」即搬迁、迁移（特别是机构或办公室）。",
       "created_at": "2026-05-04T17:36:52.749637",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "办公室搬到了车站附近。"
     },
     {
       "id": "n2-vocab_synonym-0350",
@@ -6681,7 +6685,8 @@
       "explanation": "1. 正确项分析：「井戸」即井。",
       "created_at": "2026-05-04T17:36:52.749639",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "过去人们从井里打水。"
     },
     {
       "id": "n2-vocab_synonym-0351",
@@ -16103,7 +16108,8 @@
       "explanation": "1. 正确项分析：「水蒸気（すいじょうき）」即水蒸气。",
       "created_at": "2026-05-04T17:48:02.082293",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "开水沸腾产生蒸汽。"
     },
     {
       "id": "n2-vocab_synonym-0847",
@@ -16121,7 +16127,8 @@
       "explanation": "1. 正确项分析：「水素（すいそ）」即氢气。",
       "created_at": "2026-05-04T17:48:02.082296",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "氢能源的利用。"
     },
     {
       "id": "n2-vocab_synonym-0848",
@@ -16139,7 +16146,8 @@
       "explanation": "1. 正确项分析：「垂直（すいちょく）」即垂直。",
       "created_at": "2026-05-04T17:48:02.082301",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "垂直于墙壁画一条线。"
     },
     {
       "id": "n2-vocab_synonym-0849",
@@ -16157,7 +16165,8 @@
       "explanation": "1. 正确项分析：「水滴（すいてき）」即水滴。",
       "created_at": "2026-05-04T17:48:02.082303",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "叶子上挂着水珠。"
     },
     {
       "id": "n2-vocab_synonym-0850",
@@ -16175,7 +16184,8 @@
       "explanation": "1. 正确项分析：「水筒（すいとう）」即水壶。",
       "created_at": "2026-05-04T17:48:02.082305",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "去远足带上水壶。"
     },
     {
       "id": "n2-vocab_synonym-0851",
@@ -21227,7 +21237,8 @@
       "explanation": "1. 正确项分析：「所々（ところどころ）」即到处、处处、几处。",
       "created_at": "2026-05-04T17:53:36.666773",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "到处"
     },
     {
       "id": "n2-vocab_synonym-1117",
@@ -21245,7 +21256,8 @@
       "explanation": "1. 正确项分析：「都心（としん）」即市中心。",
       "created_at": "2026-05-04T17:53:36.666775",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "市中心"
     },
     {
       "id": "n2-vocab_synonym-1118",
@@ -21263,7 +21275,8 @@
       "explanation": "1. 正确项分析：「戸棚（とだな）」即碗橱、橱柜。",
       "created_at": "2026-05-04T17:53:36.666780",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "橱柜"
     },
     {
       "id": "n2-vocab_synonym-1119",
@@ -21281,7 +21294,8 @@
       "explanation": "1. 正确项分析：「整う（ととのう）」意为备齐、整齐。",
       "created_at": "2026-05-04T17:53:36.666782",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "准备好了"
     },
     {
       "id": "n2-vocab_synonym-1120",
@@ -21299,7 +21313,8 @@
       "explanation": "1. 正确项分析：「留まる（とどまる）」意为停留、保持现状。",
       "created_at": "2026-05-04T17:53:36.666785",
       "verified": true,
-      "generated_by": "antigravity_batch_script"
+      "generated_by": "antigravity_batch_script",
+      "translation": "停留"
     },
     {
       "id": "n2-vocab_synonym-1121",
