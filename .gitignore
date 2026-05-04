@@ -43,3 +43,5 @@ Thumbs.db
 
 # Documentation
 resources/
+node_modules/
+package-lock.json
