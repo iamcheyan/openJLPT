@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 495,
+    "id": "n2-vocab_reading-0496",
+    "target": "歌謡",
+    "correct": "かよう",
+    "options": [
+      "かよお",
+      "かようい",
+      "かよ",
+      "かよう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 496,
+    "id": "n2-vocab_reading-0497",
+    "target": "殻",
+    "correct": "から",
+    "options": [
+      "から",
+      "からい",
+      "がら",
+      "かお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 497,
+    "id": "n2-vocab_reading-0498",
+    "target": "空っぽ",
+    "correct": "からっぽ",
+    "options": [
+      "からっぽ",
+      "からぽ",
+      "からっお",
+      "からっぽい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 498,
+    "id": "n2-vocab_reading-0499",
+    "target": "枯れる",
+    "correct": "かれる",
+    "options": [
+      "かれお",
+      "かれるい",
+      "かれる",
+      "がれる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 499,
+    "id": "n2-vocab_reading-0500",
+    "target": "乾かす",
+    "correct": "かわかす",
+    "options": [
+      "かわかす",
+      "がわかす",
+      "かわかすい",
+      "かわかお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 500,
+    "id": "n2-vocab_reading-0501",
+    "target": "渇く",
+    "correct": "かわく",
+    "options": [
+      "かわくい",
+      "かわく",
+      "がわく",
+      "かわお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 501,
+    "id": "n2-vocab_reading-0502",
+    "target": "為替",
+    "correct": "かわせ",
+    "options": [
+      "がわせ",
+      "かわお",
+      "かわせい",
+      "かわせ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 502,
+    "id": "n2-vocab_reading-0503",
+    "target": "代る",
+    "correct": "かわる",
+    "options": [
+      "かわお",
+      "かわるい",
+      "かわる",
+      "がわる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 503,
+    "id": "n2-vocab_reading-0504",
+    "target": "間隔",
+    "correct": "かんかく",
+    "options": [
+      "かんかく",
+      "かんかくい",
+      "がんかく",
+      "かんかお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 504,
+    "id": "n2-vocab_reading-0505",
+    "target": "換気",
+    "correct": "かんき",
+    "options": [
+      "かんお",
+      "かんきい",
+      "かんき",
+      "がんき"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 505,
+    "id": "n2-vocab_reading-0506",
+    "target": "感激",
+    "correct": "かんげき",
+    "options": [
+      "がんげき",
+      "かんげお",
+      "かんげき",
+      "かんげきい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 508,
+    "id": "n2-vocab_reading-0509",
+    "target": "感ずる",
+    "correct": "かんずる",
+    "options": [
+      "かんずる",
+      "かんずるい",
+      "かんずお",
+      "がんずる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 509,
+    "id": "n2-vocab_reading-0510",
+    "target": "間接",
+    "correct": "かんせつ",
+    "options": [
+      "かんせつ",
+      "がんせつ",
+      "かんせつい",
+      "かんせお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 510,
+    "id": "n2-vocab_reading-0511",
+    "target": "乾燥",
+    "correct": "かんそう",
+    "options": [
+      "かんそう",
+      "かんそ",
+      "かんそお",
+      "かんそうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 511,
+    "id": "n2-vocab_reading-0512",
+    "target": "感想",
+    "correct": "かんそう",
+    "options": [
+      "かんそう",
+      "かんそ",
+      "かんそうい",
+      "かんそお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 512,
+    "id": "n2-vocab_reading-0513",
+    "target": "観測",
+    "correct": "かんそく",
+    "options": [
+      "かんそくい",
+      "がんそく",
+      "かんそく",
+      "かんそお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 513,
+    "id": "n2-vocab_reading-0514",
+    "target": "寒帯",
+    "correct": "かんたい",
+    "options": [
+      "かんたい",
+      "かんたいい",
+      "かんたう",
+      "かんたお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 514,
+    "id": "n2-vocab_reading-0515",
+    "target": "官庁",
+    "correct": "かんちょう",
+    "options": [
+      "かんちょうい",
+      "かんちょお",
+      "かんちょ",
+      "かんちょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 515,
+    "id": "n2-vocab_reading-0516",
+    "target": "缶詰",
+    "correct": "かんづめ",
+    "options": [
+      "かんづめ",
+      "かんづめい",
+      "かんづお",
+      "がんづめ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 516,
+    "id": "n2-vocab_reading-0517",
+    "target": "観念",
+    "correct": "かんねん",
+    "options": [
+      "かんねお",
+      "かんねん",
+      "がんねん",
+      "かんねんい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 517,
+    "id": "n2-vocab_reading-0518",
+    "target": "看病",
+    "correct": "かんびょう",
+    "options": [
+      "かんびょ",
+      "かんびょう",
+      "かんびょうい",
+      "かんびょお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 518,
+    "id": "n2-vocab_reading-0519",
+    "target": "冠",
+    "correct": "かんむり",
+    "options": [
+      "かんむお",
+      "がんむり",
+      "かんむりい",
+      "かんむり"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 519,
+    "id": "n2-vocab_reading-0520",
+    "target": "漢和",
+    "correct": "かんわ",
+    "options": [
+      "がんわ",
+      "かんお",
+      "かんわい",
+      "かんわ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 520,
+    "id": "n2-vocab_reading-0521",
+    "target": "気圧",
+    "correct": "きあつ",
+    "options": [
+      "きあお",
+      "きあつい",
+      "きあつ",
+      "ぎあつ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 521,
+    "id": "n2-vocab_reading-0522",
+    "target": "器械",
+    "correct": "きかい",
+    "options": [
+      "きかい",
+      "きかお",
+      "きかう",
+      "きかいい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 522,
+    "id": "n2-vocab_reading-0523",
+    "target": "着替え",
+    "correct": "きがえ",
+    "options": [
+      "きがえい",
+      "きがえ",
+      "ぎがえ",
+      "きがお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 523,
+    "id": "n2-vocab_reading-0524",
+    "target": "刻む",
+    "correct": "きざむ",
+    "options": [
+      "きざむい",
+      "きざお",
+      "ぎざむ",
+      "きざむ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 524,
+    "id": "n2-vocab_reading-0525",
+    "target": "儀式",
+    "correct": "ぎしき",
+    "options": [
+      "きしき",
+      "ぎしお",
+      "ぎしきい",
+      "ぎしき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 525,
+    "id": "n2-vocab_reading-0526",
+    "target": "規準",
+    "correct": "きじゅん",
+    "options": [
+      "きじゅんい",
+      "きしゅん",
+      "きじゅん",
+      "きじゅお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 526,
+    "id": "n2-vocab_reading-0527",
+    "target": "着せる",
+    "correct": "きせる",
+    "options": [
+      "きせる",
+      "きせるい",
+      "きせお",
+      "ぎせる"
+    ],
+    "answer": 0
+  }
+]

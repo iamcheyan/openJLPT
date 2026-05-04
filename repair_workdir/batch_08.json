@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 527,
+    "id": "n2-vocab_reading-0528",
+    "target": "基礎",
+    "correct": "きそ",
+    "options": [
+      "きそ",
+      "きそい",
+      "きお",
+      "ぎそ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 528,
+    "id": "n2-vocab_reading-0529",
+    "target": "気体",
+    "correct": "きたい",
+    "options": [
+      "きたお",
+      "きたう",
+      "きたい",
+      "きたいい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 529,
+    "id": "n2-vocab_reading-0530",
+    "target": "基地",
+    "correct": "きち",
+    "options": [
+      "きち",
+      "きちい",
+      "きお",
+      "ぎち"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 530,
+    "id": "n2-vocab_reading-0531",
+    "target": "基盤",
+    "correct": "きばん",
+    "options": [
+      "きはん",
+      "きばん",
+      "きばんい",
+      "きばお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 531,
+    "id": "n2-vocab_reading-0532",
+    "target": "客席",
+    "correct": "きゃくせき",
+    "options": [
+      "ぎゃくせき",
+      "きゃくせお",
+      "きゃくせきい",
+      "きゃくせき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 532,
+    "id": "n2-vocab_reading-0533",
+    "target": "客間",
+    "correct": "きゃくま",
+    "options": [
+      "きゃくお",
+      "きゃくまい",
+      "きゃくま",
+      "ぎゃくま"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 533,
+    "id": "n2-vocab_reading-0534",
+    "target": "休業",
+    "correct": "きゅうぎょう",
+    "options": [
+      "きゅうぎょお",
+      "きゅうぎょう",
+      "きゅうぎょうい",
+      "きゅぎょう"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 534,
+    "id": "n2-vocab_reading-0535",
+    "target": "休講",
+    "correct": "きゅうこう",
+    "options": [
+      "きゅうこお",
+      "きゅうこうい",
+      "きゅこう",
+      "きゅうこう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 535,
+    "id": "n2-vocab_reading-0536",
+    "target": "休息",
+    "correct": "きゅうそく",
+    "options": [
+      "きゅうそくい",
+      "きゅそく",
+      "きゅうそく",
+      "きゅうそお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 536,
+    "id": "n2-vocab_reading-0537",
+    "target": "給与",
+    "correct": "きゅうよ",
+    "options": [
+      "きゅうよ",
+      "きゅうお",
+      "きゅよ",
+      "きゅうよい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 537,
+    "id": "n2-vocab_reading-0538",
+    "target": "休養",
+    "correct": "きゅうよう",
+    "options": [
+      "きゅうよう",
+      "きゅよう",
+      "きゅうようい",
+      "きゅうよお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 538,
+    "id": "n2-vocab_reading-0539",
+    "target": "境界",
+    "correct": "きょうかい",
+    "options": [
+      "きょかい",
+      "きょうかお",
+      "きょうかい",
+      "きょうかいい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 539,
+    "id": "n2-vocab_reading-0540",
+    "target": "行事",
+    "correct": "ぎょうじ",
+    "options": [
+      "ぎょうじい",
+      "ぎょうし",
+      "ぎょじ",
+      "ぎょうじ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 540,
+    "id": "n2-vocab_reading-0541",
+    "target": "恐縮",
+    "correct": "きょうしゅく",
+    "options": [
+      "きょうしゅお",
+      "きょうしゅく",
+      "きょしゅく",
+      "きょうしゅくい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 541,
+    "id": "n2-vocab_reading-0542",
+    "target": "教養",
+    "correct": "きょうよう",
+    "options": [
+      "きょうよお",
+      "きょうようい",
+      "きょよう",
+      "きょうよう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 542,
+    "id": "n2-vocab_reading-0543",
+    "target": "漁業",
+    "correct": "ぎょぎょう",
+    "options": [
+      "ぎょぎょお",
+      "ぎょぎょうい",
+      "ぎょぎょ",
+      "ぎょぎょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 543,
+    "id": "n2-vocab_reading-0544",
+    "target": "曲線",
+    "correct": "きょくせん",
+    "options": [
+      "ぎょくせん",
+      "きょくせお",
+      "きょくせんい",
+      "きょくせん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 544,
+    "id": "n2-vocab_reading-0545",
+    "target": "規律",
+    "correct": "きりつ",
+    "options": [
+      "ぎりつ",
+      "きりお",
+      "きりつい",
+      "きりつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 545,
+    "id": "n2-vocab_reading-0546",
+    "target": "斬る",
+    "correct": "きる",
+    "options": [
+      "ぎる",
+      "きお",
+      "きるい",
+      "きる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 546,
+    "id": "n2-vocab_reading-0547",
+    "target": "気を付ける",
+    "correct": "きをつける",
+    "options": [
+      "ぎをつける",
+      "きをつける",
+      "きをつけるい",
+      "きをつけお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 547,
+    "id": "n2-vocab_reading-0548",
+    "target": "金魚",
+    "correct": "きんぎょ",
+    "options": [
+      "ぎんぎょ",
+      "きんぎょ",
+      "きんぎょい",
+      "きんぎお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 548,
+    "id": "n2-vocab_reading-0549",
+    "target": "区域",
+    "correct": "くいき",
+    "options": [
+      "くいき",
+      "くうき",
+      "くいお",
+      "くいきい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 549,
+    "id": "n2-vocab_reading-0550",
+    "target": "偶数",
+    "correct": "ぐうすう",
+    "options": [
+      "ぐうすう",
+      "ぐすう",
+      "ぐうすうい",
+      "ぐうすお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 550,
+    "id": "n2-vocab_reading-0551",
+    "target": "空想",
+    "correct": "くうそう",
+    "options": [
+      "くうそお",
+      "くうそう",
+      "くうそうい",
+      "くそう"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 551,
+    "id": "n2-vocab_reading-0552",
+    "target": "釘",
+    "correct": "くぎ",
+    "options": [
+      "ぐぎ",
+      "くぎ",
+      "くぎい",
+      "くお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 552,
+    "id": "n2-vocab_reading-0553",
+    "target": "櫛",
+    "correct": "くし",
+    "options": [
+      "ぐし",
+      "くお",
+      "くしい",
+      "くし"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 554,
+    "id": "n2-vocab_reading-0555",
+    "target": "屑",
+    "correct": "くず",
+    "options": [
+      "くず",
+      "ぐず",
+      "くずい",
+      "くお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 556,
+    "id": "n2-vocab_reading-0557",
+    "target": "崩れる",
+    "correct": "くずれる",
+    "options": [
+      "くずれる",
+      "くずれるい",
+      "ぐずれる",
+      "くずれお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 557,
+    "id": "n2-vocab_reading-0558",
+    "target": "砕く",
+    "correct": "くだく",
+    "options": [
+      "くだお",
+      "ぐだく",
+      "くだくい",
+      "くだく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 558,
+    "id": "n2-vocab_reading-0559",
+    "target": "砕ける",
+    "correct": "くだける",
+    "options": [
+      "ぐだける",
+      "くだける",
+      "くだけるい",
+      "くだけお"
+    ],
+    "answer": 1
+  }
+]

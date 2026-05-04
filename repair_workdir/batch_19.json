@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 894,
+    "id": "n2-vocab_reading-0895",
+    "target": "具える",
+    "correct": "そなえる",
+    "options": [
+      "そなえる",
+      "ぞなえる",
+      "そなえるい",
+      "そなえお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 895,
+    "id": "n2-vocab_reading-0896",
+    "target": "蕎麦",
+    "correct": "そば",
+    "options": [
+      "そばい",
+      "そは",
+      "そば",
+      "そお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 896,
+    "id": "n2-vocab_reading-0897",
+    "target": "剃る",
+    "correct": "そる",
+    "options": [
+      "ぞる",
+      "そる",
+      "そるい",
+      "そお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 897,
+    "id": "n2-vocab_reading-0898",
+    "target": "揃う",
+    "correct": "そろう",
+    "options": [
+      "そろう",
+      "そろ",
+      "そろうい",
+      "そろお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 898,
+    "id": "n2-vocab_reading-0899",
+    "target": "揃える",
+    "correct": "そろえる",
+    "options": [
+      "そろえお",
+      "そろえるい",
+      "ぞろえる",
+      "そろえる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 899,
+    "id": "n2-vocab_reading-0900",
+    "target": "存ずる",
+    "correct": "ぞんずる",
+    "options": [
+      "ぞんずるい",
+      "そんずる",
+      "ぞんずお",
+      "ぞんずる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 900,
+    "id": "n2-vocab_reading-0901",
+    "target": "損得",
+    "correct": "そんとく",
+    "options": [
+      "そんとお",
+      "そんとくい",
+      "ぞんとく",
+      "そんとく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 901,
+    "id": "n2-vocab_reading-0902",
+    "target": "体系",
+    "correct": "たいけい",
+    "options": [
+      "たいけい",
+      "たいけいい",
+      "たうけい",
+      "たいけお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 902,
+    "id": "n2-vocab_reading-0903",
+    "target": "太鼓",
+    "correct": "たいこ",
+    "options": [
+      "たうこ",
+      "たいお",
+      "たいこい",
+      "たいこ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 903,
+    "id": "n2-vocab_reading-0904",
+    "target": "対照",
+    "correct": "たいしょう",
+    "options": [
+      "たいしょうい",
+      "たいしょお",
+      "たいしょ",
+      "たいしょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 904,
+    "id": "n2-vocab_reading-0905",
+    "target": "大小",
+    "correct": "だいしょう",
+    "options": [
+      "だいしょお",
+      "だいしょうい",
+      "だいしょ",
+      "だいしょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 905,
+    "id": "n2-vocab_reading-0906",
+    "target": "大層",
+    "correct": "たいそう",
+    "options": [
+      "たいそうい",
+      "たいそお",
+      "たいそ",
+      "たいそう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 906,
+    "id": "n2-vocab_reading-0907",
+    "target": "大分",
+    "correct": "だいぶん",
+    "options": [
+      "だいぶお",
+      "だうぶん",
+      "だいぶんい",
+      "だいぶん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 907,
+    "id": "n2-vocab_reading-0908",
+    "target": "大木",
+    "correct": "たいぼく",
+    "options": [
+      "たうぼく",
+      "たいぼお",
+      "たいぼくい",
+      "たいぼく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 908,
+    "id": "n2-vocab_reading-0909",
+    "target": "題名",
+    "correct": "だいめい",
+    "options": [
+      "だいめい",
+      "だいめいい",
+      "だいめお",
+      "だうめい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 909,
+    "id": "n2-vocab_reading-0910",
+    "target": "代名詞",
+    "correct": "だいめいし",
+    "options": [
+      "だいめいしい",
+      "だいめいし",
+      "だいめいお",
+      "だうめいし"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 910,
+    "id": "n2-vocab_reading-0911",
+    "target": "対立",
+    "correct": "たいりつ",
+    "options": [
+      "たうりつ",
+      "たいりお",
+      "たいりつい",
+      "たいりつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 911,
+    "id": "n2-vocab_reading-0912",
+    "target": "田植え",
+    "correct": "たうえ",
+    "options": [
+      "たうえい",
+      "たうお",
+      "たうえ",
+      "たえ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 912,
+    "id": "n2-vocab_reading-0913",
+    "target": "絶えず",
+    "correct": "たえず",
+    "options": [
+      "たえお",
+      "たえずい",
+      "たえず",
+      "だえず"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 913,
+    "id": "n2-vocab_reading-0914",
+    "target": "楕円",
+    "correct": "だえん",
+    "options": [
+      "だえん",
+      "だえお",
+      "だえんい",
+      "たえん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 914,
+    "id": "n2-vocab_reading-0915",
+    "target": "高める",
+    "correct": "たかめる",
+    "options": [
+      "だかめる",
+      "たかめお",
+      "たかめる",
+      "たかめるい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 915,
+    "id": "n2-vocab_reading-0916",
+    "target": "耕す",
+    "correct": "たがやす",
+    "options": [
+      "たがやす",
+      "たがやすい",
+      "たがやお",
+      "だがやす"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 916,
+    "id": "n2-vocab_reading-0917",
+    "target": "滝",
+    "correct": "たき",
+    "options": [
+      "だき",
+      "たお",
+      "たきい",
+      "たき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 917,
+    "id": "n2-vocab_reading-0918",
+    "target": "炊く",
+    "correct": "たく",
+    "options": [
+      "たく",
+      "たくい",
+      "たお",
+      "だく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 918,
+    "id": "n2-vocab_reading-0919",
+    "target": "焚く",
+    "correct": "たく",
+    "options": [
+      "たくい",
+      "たく",
+      "たお",
+      "だく"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 921,
+    "id": "n2-vocab_reading-0922",
+    "target": "畳む",
+    "correct": "たたむ",
+    "options": [
+      "たたむ",
+      "たたむい",
+      "たたお",
+      "だたむ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 922,
+    "id": "n2-vocab_reading-0923",
+    "target": "建つ",
+    "correct": "たつ",
+    "options": [
+      "たお",
+      "たつい",
+      "だつ",
+      "たつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 923,
+    "id": "n2-vocab_reading-0924",
+    "target": "脱線",
+    "correct": "だっせん",
+    "options": [
+      "だっせんい",
+      "だっせお",
+      "だっせん",
+      "だせん"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 924,
+    "id": "n2-vocab_reading-0925",
+    "target": "妥当",
+    "correct": "だとう",
+    "options": [
+      "だとうい",
+      "だとお",
+      "だと",
+      "だとう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 925,
+    "id": "n2-vocab_reading-0926",
+    "target": "足袋",
+    "correct": "たび",
+    "options": [
+      "だび",
+      "たお",
+      "たびい",
+      "たび"
+    ],
+    "answer": 3
+  }
+]

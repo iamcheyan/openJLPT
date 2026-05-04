@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+import json
+
+# Generate sentences for the 30 items in batch_07.json
+sentences = {
+    "n2-vocab_reading-0496": "彼女は日本の《歌謡》曲をよく聴いている。",
+    "n2-vocab_reading-0497": "卵の《殻》を割るときは、軽くぶつけると良い。",
+    "n2-vocab_reading-0498": "冷蔵庫の中は《空っぽ》だったので、買い物に行くことにした。",
+    "n2-vocab_reading-0499": "水をやりすぎても、植物が《枯れる》ことがあるので注意が必要だ。",
+    "n2-vocab_reading-0500": "洗濯物を《乾かす》ためにベランダに干した。",
+    "n2-vocab_reading-0501": "運動の後でのどが《渇く》ので、水をたくさん飲んだ。",
+    "n2-vocab_reading-0502": "海外送金は《為替》を使って行うことが多い。",
+    "n2-vocab_reading-0503": "季節が春に《代る》と、庭の花が咲き始める。",
+    "n2-vocab_reading-0504": "電柱の《間隔》はだいたい三十メートルだそうだ。",
+    "n2-vocab_reading-0505": "料理をすると油のにおいが残るので、《換気》扇を回した。",
+    "n2-vocab_reading-0506": "彼のスピーチに《感激》して、思わず涙が出た。",
+    "n2-vocab_reading-0509": "変化を《感ずる》のは人間の大切な能力の一つだ。",
+    "n2-vocab_reading-0510": "彼の話は《間接》的で、何が言いたいのか分かりにくい。",
+    "n2-vocab_reading-0511": "この地域は《乾燥》しているので、肌の保湿に気をつけたほうがいい。",
+    "n2-vocab_reading-0512": "映画を見た後の《感想》をクラスで発表した。",
+    "n2-vocab_reading-0513": "天体を《観測》するために望遠鏡を買った。",
+    "n2-vocab_reading-0514": "《寒帯》に近い地域では一年中雪が降る場所もある。",
+    "n2-vocab_reading-0515": "新しいビルを建てるには《官庁》の許可が必要だ。",
+    "n2-vocab_reading-0516": "非常用に《缶詰》を買いだめしておいた。",
+    "n2-vocab_reading-0517": "時間の《観念》がない人は約束に遅れやすい。",
+    "n2-vocab_reading-0518": "彼は先週入院したので、家族が交代で《看病》している。",
+    "n2-vocab_reading-0519": "王様の頭には金の《冠》が輝いていた。",
+    "n2-vocab_reading-0520": "《漢和》辞典を使って漢字の意味を調べた。",
+    "n2-vocab_reading-0521": "飛行機の中では《気圧》の変化で耳が痛くなることがある。",
+    "n2-vocab_reading-0522": "工場では最新の《器械》を使って製品を作っている。",
+    "n2-vocab_reading-0523": "旅先で《着替え》が足りなくなって困った。",
+    "n2-vocab_reading-0524": "包丁で野菜を細かく《刻む》のは根気のいる作業だ。",
+    "n2-vocab_reading-0525": "卒業《儀式》で名前を呼ばれて、舞台に上がった。",
+    "n2-vocab_reading-0526": "合格の《規準》は毎年変わるわけではない。",
+    "n2-vocab_reading-0527": "子供に服を《着せる》のは思ったより時間がかかる。",
+}
+
+# Verify count
+print(f"Total sentences: {len(sentences)}")
+
+# Write to file
+output_path = "/home/tetsuya/Development/openjlpt/repair_workdir/sentences_07.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(sentences, f, ensure_ascii=False, indent=2)
+
+print(f"Written to {output_path}")

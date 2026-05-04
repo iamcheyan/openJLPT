@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1085,
+    "id": "n2-vocab_reading-1086",
+    "target": "仲良し",
+    "correct": "なかよし",
+    "options": [
+      "なかよお",
+      "なかよしい",
+      "ながよし",
+      "なかよし"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1086,
+    "id": "n2-vocab_reading-1087",
+    "target": "慰める",
+    "correct": "なぐさめる",
+    "options": [
+      "なくさめる",
+      "なぐさめる",
+      "なぐさめるい",
+      "なぐさめお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1087,
+    "id": "n2-vocab_reading-1088",
+    "target": "亡くす",
+    "correct": "なくす",
+    "options": [
+      "なぐす",
+      "なくお",
+      "なくすい",
+      "なくす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1088,
+    "id": "n2-vocab_reading-1089",
+    "target": "為す",
+    "correct": "なす",
+    "options": [
+      "なお",
+      "なす",
+      "なすい",
+      "なず"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1089,
+    "id": "n2-vocab_reading-1090",
+    "target": "謎謎",
+    "correct": "なぞなぞ",
+    "options": [
+      "なぞなお",
+      "なぞなぞ",
+      "なぞなぞい",
+      "なそなぞ"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1090,
+    "id": "n2-vocab_reading-1091",
+    "target": "懐かしい",
+    "correct": "なつかしい",
+    "options": [
+      "なつかしお",
+      "なつかしいい",
+      "なつかしう",
+      "なつかしい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1091,
+    "id": "n2-vocab_reading-1092",
+    "target": "撫でる",
+    "correct": "なでる",
+    "options": [
+      "なてる",
+      "なでるい",
+      "なでお",
+      "なでる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1092,
+    "id": "n2-vocab_reading-1093",
+    "target": "斜め",
+    "correct": "ななめ",
+    "options": [
+      "ななめ",
+      "ななめい",
+      "ななお",
+      "っななめ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1093,
+    "id": "n2-vocab_reading-1094",
+    "target": "何々",
+    "correct": "なになに",
+    "options": [
+      "なになに",
+      "なになにい",
+      "っなになに",
+      "なになお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1095,
+    "id": "n2-vocab_reading-1096",
+    "target": "生意気",
+    "correct": "なまいき",
+    "options": [
+      "なまいき",
+      "なまうき",
+      "なまいきい",
+      "なまいお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1096,
+    "id": "n2-vocab_reading-1097",
+    "target": "並木",
+    "correct": "なみき",
+    "options": [
+      "なみき",
+      "なみお",
+      "なみきい",
+      "なみぎ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1097,
+    "id": "n2-vocab_reading-1098",
+    "target": "鳴らす",
+    "correct": "ならす",
+    "options": [
+      "ならお",
+      "ならすい",
+      "ならす",
+      "ならず"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1098,
+    "id": "n2-vocab_reading-1099",
+    "target": "生る",
+    "correct": "なる",
+    "options": [
+      "っなる",
+      "なお",
+      "なるい",
+      "なる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1099,
+    "id": "n2-vocab_reading-1100",
+    "target": "馴れる",
+    "correct": "なれる",
+    "options": [
+      "なれる",
+      "っなれる",
+      "なれるい",
+      "なれお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1100,
+    "id": "n2-vocab_reading-1101",
+    "target": "南米",
+    "correct": "なんべい",
+    "options": [
+      "なんべい",
+      "なんべいい",
+      "なんべお",
+      "なんべう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1101,
+    "id": "n2-vocab_reading-1102",
+    "target": "南北",
+    "correct": "なんぼく",
+    "options": [
+      "なんぼく",
+      "なんぼくい",
+      "なんほく",
+      "なんぼお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1102,
+    "id": "n2-vocab_reading-1103",
+    "target": "煮える",
+    "correct": "にえる",
+    "options": [
+      "にえる",
+      "っにえる",
+      "にえるい",
+      "にえお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1103,
+    "id": "n2-vocab_reading-1104",
+    "target": "匂う",
+    "correct": "におう",
+    "options": [
+      "におうい",
+      "におお",
+      "におう",
+      "にお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1104,
+    "id": "n2-vocab_reading-1105",
+    "target": "逃がす",
+    "correct": "にがす",
+    "options": [
+      "にがすい",
+      "にかす",
+      "にがす",
+      "にがお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1105,
+    "id": "n2-vocab_reading-1106",
+    "target": "憎い",
+    "correct": "にくい",
+    "options": [
+      "にくう",
+      "にくお",
+      "にくいい",
+      "にくい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1106,
+    "id": "n2-vocab_reading-1107",
+    "target": "憎む",
+    "correct": "にくむ",
+    "options": [
+      "にぐむ",
+      "にくお",
+      "にくむい",
+      "にくむ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1107,
+    "id": "n2-vocab_reading-1108",
+    "target": "憎らしい",
+    "correct": "にくらしい",
+    "options": [
+      "にくらしお",
+      "にくらしう",
+      "にくらしいい",
+      "にくらしい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1108,
+    "id": "n2-vocab_reading-1109",
+    "target": "濁る",
+    "correct": "にごる",
+    "options": [
+      "にごる",
+      "にごるい",
+      "にごお",
+      "にこる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1109,
+    "id": "n2-vocab_reading-1110",
+    "target": "虹",
+    "correct": "にじ",
+    "options": [
+      "にじ",
+      "にし",
+      "にじい",
+      "にお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1110,
+    "id": "n2-vocab_reading-1111",
+    "target": "日時",
+    "correct": "にちじ",
+    "options": [
+      "にちじ",
+      "にちお",
+      "にちし",
+      "にちじい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1111,
+    "id": "n2-vocab_reading-1112",
+    "target": "日用品",
+    "correct": "にちようひん",
+    "options": [
+      "にちようひんい",
+      "にちよひん",
+      "にちようひん",
+      "にちようひお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1112,
+    "id": "n2-vocab_reading-1113",
+    "target": "日課",
+    "correct": "にっか",
+    "options": [
+      "にっお",
+      "にっかい",
+      "にか",
+      "にっか"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1113,
+    "id": "n2-vocab_reading-1114",
+    "target": "日程",
+    "correct": "にってい",
+    "options": [
+      "にっていい",
+      "にてい",
+      "にってい",
+      "にってお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1115,
+    "id": "n2-vocab_reading-1116",
+    "target": "入社",
+    "correct": "にゅうしゃ",
+    "options": [
+      "にゅうしゃい",
+      "にゅうしお",
+      "にゅうしゃ",
+      "にゅしゃ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1116,
+    "id": "n2-vocab_reading-1117",
+    "target": "女房",
+    "correct": "にょうぼう",
+    "options": [
+      "にょうぼう",
+      "にょうぼお",
+      "にょうぼうい",
+      "にょぼう"
+    ],
+    "answer": 0
+  }
+]

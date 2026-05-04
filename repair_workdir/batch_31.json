@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1279,
+    "id": "n2-vocab_reading-1280",
+    "target": "振舞う",
+    "correct": "ふるまう",
+    "options": [
+      "ふるまお",
+      "ふるまうい",
+      "ふるま",
+      "ふるまう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1280,
+    "id": "n2-vocab_reading-1281",
+    "target": "風呂敷",
+    "correct": "ふろしき",
+    "options": [
+      "ぶろしき",
+      "ふろしお",
+      "ふろしきい",
+      "ふろしき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1281,
+    "id": "n2-vocab_reading-1282",
+    "target": "噴火",
+    "correct": "ふんか",
+    "options": [
+      "ぶんか",
+      "ふんお",
+      "ふんかい",
+      "ふんか"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1282,
+    "id": "n2-vocab_reading-1283",
+    "target": "分解",
+    "correct": "ぶんかい",
+    "options": [
+      "ぶんかう",
+      "ぶんかお",
+      "ぶんかいい",
+      "ぶんかい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1283,
+    "id": "n2-vocab_reading-1284",
+    "target": "文芸",
+    "correct": "ぶんげい",
+    "options": [
+      "ぶんげい",
+      "ぶんげいい",
+      "ぶんげお",
+      "ぶんげう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1284,
+    "id": "n2-vocab_reading-1285",
+    "target": "文献",
+    "correct": "ぶんけん",
+    "options": [
+      "ぶんけん",
+      "ぶんけんい",
+      "ぶんけお",
+      "ふんけん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1285,
+    "id": "n2-vocab_reading-1286",
+    "target": "分数",
+    "correct": "ぶんすう",
+    "options": [
+      "ぶんすう",
+      "ぶんす",
+      "ぶんすうい",
+      "ぶんすお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1286,
+    "id": "n2-vocab_reading-1287",
+    "target": "文体",
+    "correct": "ぶんたい",
+    "options": [
+      "ぶんたお",
+      "ぶんたいい",
+      "ぶんたい",
+      "ぶんたう"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1287,
+    "id": "n2-vocab_reading-1288",
+    "target": "分布",
+    "correct": "ぶんぷ",
+    "options": [
+      "ぶんお",
+      "ぶんぷ",
+      "ぶんぷい",
+      "ふんぷ"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1288,
+    "id": "n2-vocab_reading-1289",
+    "target": "文房具",
+    "correct": "ぶんぼうぐ",
+    "options": [
+      "ぶんぼうお",
+      "ぶんぼうぐい",
+      "ぶんぼぐ",
+      "ぶんぼうぐ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1289,
+    "id": "n2-vocab_reading-1290",
+    "target": "文脈",
+    "correct": "ぶんみゃく",
+    "options": [
+      "ぶんみゃく",
+      "ぶんみゃくい",
+      "ぶんみゃお",
+      "ふんみゃく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1291,
+    "id": "n2-vocab_reading-1292",
+    "target": "分類",
+    "correct": "ぶんるい",
+    "options": [
+      "ぶんるお",
+      "ぶんるいい",
+      "ぶんるう",
+      "ぶんるい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1292,
+    "id": "n2-vocab_reading-1293",
+    "target": "閉会",
+    "correct": "へいかい",
+    "options": [
+      "へいかい",
+      "へいかいい",
+      "へいかお",
+      "へうかい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1293,
+    "id": "n2-vocab_reading-1294",
+    "target": "平気",
+    "correct": "へいき",
+    "options": [
+      "へいきい",
+      "へいき",
+      "へいお",
+      "へうき"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1294,
+    "id": "n2-vocab_reading-1295",
+    "target": "並行",
+    "correct": "へいこう",
+    "options": [
+      "へいこお",
+      "へいこうい",
+      "へいこ",
+      "へいこう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1295,
+    "id": "n2-vocab_reading-1296",
+    "target": "平日",
+    "correct": "へいじつ",
+    "options": [
+      "へいじお",
+      "へいじつ",
+      "へいしつ",
+      "へいじつい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1296,
+    "id": "n2-vocab_reading-1297",
+    "target": "兵隊",
+    "correct": "へいたい",
+    "options": [
+      "へいたい",
+      "へうたい",
+      "へいたお",
+      "へいたいい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1298,
+    "id": "n2-vocab_reading-1299",
+    "target": "平野",
+    "correct": "へいや",
+    "options": [
+      "へいやい",
+      "へうや",
+      "へいや",
+      "へいお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1299,
+    "id": "n2-vocab_reading-1300",
+    "target": "臍",
+    "correct": "へそ",
+    "options": [
+      "へお",
+      "へそい",
+      "へそ",
+      "べそ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1300,
+    "id": "n2-vocab_reading-1301",
+    "target": "別荘",
+    "correct": "べっそう",
+    "options": [
+      "べっそうい",
+      "べそう",
+      "べっそ",
+      "べっそう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1301,
+    "id": "n2-vocab_reading-1302",
+    "target": "編集",
+    "correct": "へんしゅう",
+    "options": [
+      "へんしゅうい",
+      "へんしゅお",
+      "へんしゅ",
+      "へんしゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1302,
+    "id": "n2-vocab_reading-1303",
+    "target": "便所",
+    "correct": "べんじょ",
+    "options": [
+      "べんじょ",
+      "べんしょ",
+      "べんじょい",
+      "べんじお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1303,
+    "id": "n2-vocab_reading-1304",
+    "target": "望遠鏡",
+    "correct": "ぼうえんきょう",
+    "options": [
+      "ぼうえんきょう",
+      "ぼえんきょう",
+      "ぼうえんきょうい",
+      "ぼうえんきょお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1304,
+    "id": "n2-vocab_reading-1305",
+    "target": "方角",
+    "correct": "ほうがく",
+    "options": [
+      "ほうがく",
+      "ほがく",
+      "ほうがくい",
+      "ほうがお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1305,
+    "id": "n2-vocab_reading-1306",
+    "target": "箒",
+    "correct": "ほうき",
+    "options": [
+      "ほうき",
+      "ほき",
+      "ほうお",
+      "ほうきい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1306,
+    "id": "n2-vocab_reading-1307",
+    "target": "方言",
+    "correct": "ほうげん",
+    "options": [
+      "ほうげん",
+      "ほうげお",
+      "ほげん",
+      "ほうげんい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1307,
+    "id": "n2-vocab_reading-1308",
+    "target": "坊さん",
+    "correct": "ぼうさん",
+    "options": [
+      "ぼうさお",
+      "ぼうさんい",
+      "ぼさん",
+      "ぼうさん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1308,
+    "id": "n2-vocab_reading-1309",
+    "target": "方針",
+    "correct": "ほうしん",
+    "options": [
+      "ほうしんい",
+      "ほしん",
+      "ほうしん",
+      "ほうしお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1309,
+    "id": "n2-vocab_reading-1310",
+    "target": "法則",
+    "correct": "ほうそく",
+    "options": [
+      "ほうそくい",
+      "ほうそお",
+      "ほうそく",
+      "ほそく"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1310,
+    "id": "n2-vocab_reading-1311",
+    "target": "膨大",
+    "correct": "ぼうだい",
+    "options": [
+      "ぼうだいい",
+      "ぼうだお",
+      "ぼだい",
+      "ぼうだい"
+    ],
+    "answer": 3
+  }
+]

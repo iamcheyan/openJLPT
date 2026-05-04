@@ -1,0 +1,1402 @@
+[
+  {
+    "idx": 811,
+    "id": "n1-vocab_reading-0811",
+    "target": "かも知れない",
+    "sentence": "《かも知れない》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かもしれなお",
+      "かもしれないい",
+      "あああ",
+      "かもしれない"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 812,
+    "id": "n1-vocab_reading-0812",
+    "target": "粥",
+    "sentence": "《粥》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かゆい",
+      "かゆ",
+      "かお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 813,
+    "id": "n1-vocab_reading-0813",
+    "target": "痒い",
+    "sentence": "《痒い》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かゆお",
+      "かゆいい",
+      "あああ",
+      "かゆい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 814,
+    "id": "n1-vocab_reading-0814",
+    "target": "揶揄う",
+    "sentence": "《揶揄う》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "からか",
+      "からかお",
+      "からかう",
+      "からかうい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 815,
+    "id": "n1-vocab_reading-0815",
+    "target": "身体",
+    "sentence": "《身体》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "からお",
+      "からだい",
+      "からだ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 816,
+    "id": "n1-vocab_reading-0816",
+    "target": "体付き",
+    "sentence": "《体付き》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "からだつきい",
+      "からだつお",
+      "からだつき"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 817,
+    "id": "n1-vocab_reading-0817",
+    "target": "絡む",
+    "sentence": "《絡む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "からむ",
+      "からむい",
+      "からお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 818,
+    "id": "n1-vocab_reading-0818",
+    "target": "借り",
+    "sentence": "《借り》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かお",
+      "かりい",
+      "かり"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 819,
+    "id": "n1-vocab_reading-0819",
+    "target": "下吏",
+    "sentence": "《下吏》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かお",
+      "かりい",
+      "かり",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 820,
+    "id": "n1-vocab_reading-0820",
+    "target": "加留多",
+    "sentence": "《加留多》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "カルタい",
+      "カルタ",
+      "カルお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 821,
+    "id": "n1-vocab_reading-0821",
+    "target": "過労",
+    "sentence": "《過労》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かろうい",
+      "かろ",
+      "かろお",
+      "かろう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 822,
+    "id": "n1-vocab_reading-0822",
+    "target": "辛うじて",
+    "sentence": "《辛うじて》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かろうして",
+      "かろうじてい",
+      "かろじて",
+      "かろうじて"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 823,
+    "id": "n1-vocab_reading-0823",
+    "target": "側",
+    "sentence": "《側》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かお",
+      "かわい",
+      "かわ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 824,
+    "id": "n1-vocab_reading-0824",
+    "target": "可愛い",
+    "sentence": "《可愛い》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かわいお",
+      "かわいい",
+      "かわいいい",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 825,
+    "id": "n1-vocab_reading-0825",
+    "target": "可愛がる",
+    "sentence": "《可愛がる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かわいがお",
+      "かわいがる",
+      "かわいがるい",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 826,
+    "id": "n1-vocab_reading-0826",
+    "target": "可哀想",
+    "sentence": "《可哀想》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かわいそ",
+      "かわいそう",
+      "かわいそお",
+      "かわいそうい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 827,
+    "id": "n1-vocab_reading-0827",
+    "target": "可愛らしい",
+    "sentence": "《可愛らしい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かわいらしい",
+      "かわいらしお",
+      "かわいらしいい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 828,
+    "id": "n1-vocab_reading-0828",
+    "target": "交わす",
+    "sentence": "《交わす》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かわすい",
+      "かわす",
+      "あああ",
+      "かわお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 829,
+    "id": "n1-vocab_reading-0829",
+    "target": "代わる",
+    "sentence": "《代わる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かわお",
+      "かわるい",
+      "かわる"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 830,
+    "id": "n1-vocab_reading-0830",
+    "target": "代わる代わる",
+    "sentence": "《代わる代わる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かわるがわるい",
+      "かわるがわる",
+      "かわるがわお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 831,
+    "id": "n1-vocab_reading-0831",
+    "target": "乾",
+    "sentence": "《乾》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かお",
+      "かんい",
+      "かん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 832,
+    "id": "n1-vocab_reading-0832",
+    "target": "管",
+    "sentence": "《管》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かお",
+      "かんい",
+      "かん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 833,
+    "id": "n1-vocab_reading-0833",
+    "target": "幹",
+    "sentence": "《幹》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かん",
+      "あああ",
+      "かんい",
+      "かお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 834,
+    "id": "n1-vocab_reading-0834",
+    "target": "冠",
+    "sentence": "《冠》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんい",
+      "かん",
+      "かお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 835,
+    "id": "n1-vocab_reading-0835",
+    "target": "観",
+    "sentence": "《観》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かん",
+      "かんい",
+      "かお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 836,
+    "id": "n1-vocab_reading-0836",
+    "target": "館",
+    "sentence": "《館》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんい",
+      "かお",
+      "かん",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 837,
+    "id": "n1-vocab_reading-0837",
+    "target": "簡易",
+    "sentence": "《簡易》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんい",
+      "かんお",
+      "かんいい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 838,
+    "id": "n1-vocab_reading-0838",
+    "target": "感慨",
+    "sentence": "《感慨》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんがいい",
+      "あああ",
+      "かんがい",
+      "かんがお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 839,
+    "id": "n1-vocab_reading-0839",
+    "target": "簡潔",
+    "sentence": "《簡潔》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんけお",
+      "あああ",
+      "かんけつい",
+      "かんけつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 840,
+    "id": "n1-vocab_reading-0840",
+    "target": "還元",
+    "sentence": "《還元》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんげお",
+      "かんげんい",
+      "かんげん",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 841,
+    "id": "n1-vocab_reading-0841",
+    "target": "刊行",
+    "sentence": "《刊行》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんこお",
+      "かんこうい",
+      "かんこ",
+      "かんこう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 842,
+    "id": "n1-vocab_reading-0842",
+    "target": "慣行",
+    "sentence": "《慣行》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんこお",
+      "かんこ",
+      "かんこうい",
+      "かんこう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 843,
+    "id": "n1-vocab_reading-0843",
+    "target": "勧告",
+    "sentence": "《勧告》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんこお",
+      "かんこくい",
+      "かんこく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 844,
+    "id": "n1-vocab_reading-0844",
+    "target": "看護",
+    "sentence": "《看護》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんごい",
+      "かんお",
+      "あああ",
+      "かんご"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 845,
+    "id": "n1-vocab_reading-0845",
+    "target": "漢語",
+    "sentence": "《漢語》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんご",
+      "かんごい",
+      "かんお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 846,
+    "id": "n1-vocab_reading-0846",
+    "target": "換算",
+    "sentence": "《換算》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんさんい",
+      "かんさん",
+      "あああ",
+      "かんさお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 847,
+    "id": "n1-vocab_reading-0847",
+    "target": "監視",
+    "sentence": "《監視》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんお",
+      "あああ",
+      "かんし",
+      "かんしい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 848,
+    "id": "n1-vocab_reading-0848",
+    "target": "慣習",
+    "sentence": "《慣習》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんしゅ",
+      "かんしゅうい",
+      "かんしゅう",
+      "かんしゅお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 849,
+    "id": "n1-vocab_reading-0849",
+    "target": "観衆",
+    "sentence": "《観衆》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんしゅう",
+      "かんしゅ",
+      "かんしゅうい",
+      "かんしゅお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 850,
+    "id": "n1-vocab_reading-0850",
+    "target": "干渉",
+    "sentence": "《干渉》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんしょ",
+      "かんしょうい",
+      "かんしょう",
+      "かんしょお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 851,
+    "id": "n1-vocab_reading-0851",
+    "target": "感触",
+    "sentence": "《感触》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんしょお",
+      "あああ",
+      "かんしょくい",
+      "かんしょく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 852,
+    "id": "n1-vocab_reading-0852",
+    "target": "肝心",
+    "sentence": "《肝心》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんじん",
+      "かんじんい",
+      "かんじお",
+      "かんしん"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 853,
+    "id": "n1-vocab_reading-0853",
+    "target": "歓声",
+    "sentence": "《歓声》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんせお",
+      "かんせいい",
+      "かんせい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 854,
+    "id": "n1-vocab_reading-0854",
+    "target": "感染",
+    "sentence": "《感染》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんせん",
+      "あああ",
+      "かんせんい",
+      "かんせお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 855,
+    "id": "n1-vocab_reading-0855",
+    "target": "幹線",
+    "sentence": "《幹線》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんせん",
+      "かんせんい",
+      "かんせお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 856,
+    "id": "n1-vocab_reading-0856",
+    "target": "関税",
+    "sentence": "《関税》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんぜい",
+      "かんぜいい",
+      "かんぜお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 857,
+    "id": "n1-vocab_reading-0857",
+    "target": "簡素",
+    "sentence": "《簡素》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんお",
+      "かんそい",
+      "かんそ",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 858,
+    "id": "n1-vocab_reading-0858",
+    "target": "観点",
+    "sentence": "《観点》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんてお",
+      "かんてんい",
+      "かんてん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 859,
+    "id": "n1-vocab_reading-0859",
+    "target": "感度",
+    "sentence": "《感度》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんお",
+      "あああ",
+      "かんどい",
+      "かんど"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 860,
+    "id": "n1-vocab_reading-0860",
+    "target": "幹部",
+    "sentence": "《幹部》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんお",
+      "あああ",
+      "かんぶい",
+      "かんぶ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 861,
+    "id": "n1-vocab_reading-0861",
+    "target": "勘弁",
+    "sentence": "《勘弁》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "かんべん",
+      "かんべんい",
+      "かんべお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 862,
+    "id": "n1-vocab_reading-0862",
+    "target": "完璧",
+    "sentence": "《完璧》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんぺきい",
+      "あああ",
+      "かんぺき",
+      "かんぺお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 863,
+    "id": "n1-vocab_reading-0863",
+    "target": "感無量",
+    "sentence": "《感無量》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんむりょ",
+      "かんむりょう",
+      "かんむりょお",
+      "かんむりょうい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 864,
+    "id": "n1-vocab_reading-0864",
+    "target": "勧誘",
+    "sentence": "《勧誘》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんゆうい",
+      "かんゆう",
+      "かんゆお",
+      "かんゆ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 865,
+    "id": "n1-vocab_reading-0865",
+    "target": "関与",
+    "sentence": "《関与》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんよ",
+      "かんよい",
+      "かんお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 866,
+    "id": "n1-vocab_reading-0866",
+    "target": "慣用",
+    "sentence": "《慣用》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんよお",
+      "かんよ",
+      "かんようい",
+      "かんよう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 867,
+    "id": "n1-vocab_reading-0867",
+    "target": "寛容",
+    "sentence": "《寛容》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんよお",
+      "かんよう",
+      "かんよ",
+      "かんようい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 868,
+    "id": "n1-vocab_reading-0868",
+    "target": "観覧",
+    "sentence": "《観覧》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんらん",
+      "かんらんい",
+      "かんらお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 869,
+    "id": "n1-vocab_reading-0869",
+    "target": "官僚",
+    "sentence": "《官僚》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんりょ",
+      "かんりょお",
+      "かんりょう",
+      "かんりょうい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 870,
+    "id": "n1-vocab_reading-0870",
+    "target": "慣例",
+    "sentence": "《慣例》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんれお",
+      "かんれいい",
+      "かんれい",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 871,
+    "id": "n1-vocab_reading-0871",
+    "target": "還暦",
+    "sentence": "《還暦》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんれきい",
+      "かんれき",
+      "あああ",
+      "かんれお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 872,
+    "id": "n1-vocab_reading-0872",
+    "target": "貫禄",
+    "sentence": "《貫禄》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんろく",
+      "あああ",
+      "かんろくい",
+      "かんろお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 873,
+    "id": "n1-vocab_reading-0873",
+    "target": "緩和",
+    "sentence": "《緩和》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "かんお",
+      "かんわい",
+      "かんわ",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 874,
+    "id": "n1-vocab_reading-0874",
+    "target": "蓋",
+    "sentence": "《蓋》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がお",
+      "がいい",
+      "あああ",
+      "がい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 875,
+    "id": "n1-vocab_reading-0875",
+    "target": "街",
+    "sentence": "《街》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "がお",
+      "がいい",
+      "がい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 876,
+    "id": "n1-vocab_reading-0876",
+    "target": "外貨",
+    "sentence": "《外貨》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "がいお",
+      "がいかい",
+      "がいか"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 877,
+    "id": "n1-vocab_reading-0877",
+    "target": "外観",
+    "sentence": "《外観》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいかん",
+      "がいかんい",
+      "がいかお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 878,
+    "id": "n1-vocab_reading-0878",
+    "target": "外相",
+    "sentence": "《外相》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいしょうい",
+      "がいしょお",
+      "がいしょ",
+      "がいしょう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 879,
+    "id": "n1-vocab_reading-0879",
+    "target": "害する",
+    "sentence": "《害する》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいすお",
+      "がいするい",
+      "あああ",
+      "がいする"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 880,
+    "id": "n1-vocab_reading-0880",
+    "target": "概説",
+    "sentence": "《概説》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいせつ",
+      "あああ",
+      "がいせつい",
+      "がいせお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 881,
+    "id": "n1-vocab_reading-0881",
+    "target": "該当",
+    "sentence": "《該当》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいとうい",
+      "がいと",
+      "がいとお",
+      "がいとう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 882,
+    "id": "n1-vocab_reading-0882",
+    "target": "街頭",
+    "sentence": "《街頭》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいとう",
+      "がいと",
+      "がいとうい",
+      "がいとお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 883,
+    "id": "n1-vocab_reading-0883",
+    "target": "概念",
+    "sentence": "《概念》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいねん",
+      "がいねんい",
+      "がいねお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 884,
+    "id": "n1-vocab_reading-0884",
+    "target": "外来",
+    "sentence": "《外来》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいらい",
+      "がいらお",
+      "がいらいい",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 885,
+    "id": "n1-vocab_reading-0885",
+    "target": "概略",
+    "sentence": "《概略》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がいりゃくい",
+      "あああ",
+      "がいりゃく",
+      "がいりゃお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 886,
+    "id": "n1-vocab_reading-0886",
+    "target": "学芸",
+    "sentence": "《学芸》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がくげい",
+      "がくげいい",
+      "がくげお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 887,
+    "id": "n1-vocab_reading-0887",
+    "target": "学士",
+    "sentence": "《学士》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がくお",
+      "がくし",
+      "あああ",
+      "がくしい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 888,
+    "id": "n1-vocab_reading-0888",
+    "target": "学説",
+    "sentence": "《学説》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がくせお",
+      "がくせつい",
+      "あああ",
+      "がくせつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 889,
+    "id": "n1-vocab_reading-0889",
+    "target": "楽譜",
+    "sentence": "《楽譜》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がくふ",
+      "がくふい",
+      "がくお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 890,
+    "id": "n1-vocab_reading-0890",
+    "target": "学歴",
+    "sentence": "《学歴》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "がくれきい",
+      "がくれき",
+      "がくれお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 891,
+    "id": "n1-vocab_reading-0891",
+    "target": "崖",
+    "sentence": "《崖》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がけ",
+      "がけい",
+      "がお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 892,
+    "id": "n1-vocab_reading-0892",
+    "target": "雅致",
+    "sentence": "《雅致》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がちい",
+      "がお",
+      "あああ",
+      "がち"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 893,
+    "id": "n1-vocab_reading-0893",
+    "target": "合唱",
+    "sentence": "《合唱》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がっしょう",
+      "がっしょ",
+      "がっしょうい",
+      "がしょう"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 894,
+    "id": "n1-vocab_reading-0894",
+    "target": "合致",
+    "sentence": "《合致》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がっち",
+      "がち",
+      "がっちい",
+      "がっお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 895,
+    "id": "n1-vocab_reading-0895",
+    "target": "月日",
+    "sentence": "《月日》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がっぴ",
+      "がっぴい",
+      "がぴ",
+      "がっお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 896,
+    "id": "n1-vocab_reading-0896",
+    "target": "合併",
+    "sentence": "《合併》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がっぺい",
+      "がぺい",
+      "がっぺいい",
+      "がっぺお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 897,
+    "id": "n1-vocab_reading-0897",
+    "target": "癌",
+    "sentence": "《癌》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんい",
+      "がん",
+      "がお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 898,
+    "id": "n1-vocab_reading-0898",
+    "target": "眼科",
+    "sentence": "《眼科》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "がんか",
+      "がんかい",
+      "がんお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 899,
+    "id": "n1-vocab_reading-0899",
+    "target": "眼球",
+    "sentence": "《眼球》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんきゅう",
+      "がんきゅ",
+      "がんきゅお",
+      "がんきゅうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 900,
+    "id": "n1-vocab_reading-0900",
+    "target": "眼鏡",
+    "sentence": "《眼鏡》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんきょお",
+      "がんきょうい",
+      "がんきょ",
+      "がんきょう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 901,
+    "id": "n1-vocab_reading-0901",
+    "target": "頑固",
+    "sentence": "《頑固》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんこい",
+      "あああ",
+      "がんこ",
+      "がんお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 902,
+    "id": "n1-vocab_reading-0902",
+    "target": "願書",
+    "sentence": "《願書》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんしお",
+      "がんしょい",
+      "がんしょ",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 903,
+    "id": "n1-vocab_reading-0903",
+    "target": "頑丈",
+    "sentence": "《頑丈》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんじょう",
+      "がんじょ",
+      "がんしょう",
+      "がんじょうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 904,
+    "id": "n1-vocab_reading-0904",
+    "target": "岩石",
+    "sentence": "《岩石》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんせき",
+      "がんせきい",
+      "がんせお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 905,
+    "id": "n1-vocab_reading-0905",
+    "target": "元年",
+    "sentence": "《元年》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんねん",
+      "がんねんい",
+      "がんねお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 906,
+    "id": "n1-vocab_reading-0906",
+    "target": "贋物",
+    "sentence": "《贋物》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "がんぶお",
+      "がんぶつい",
+      "がんぶつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 907,
+    "id": "n1-vocab_reading-0907",
+    "target": "元来",
+    "sentence": "《元来》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "がんらい",
+      "がんらお",
+      "がんらいい",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 908,
+    "id": "n1-vocab_reading-0908",
+    "target": "生",
+    "sentence": "《生》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "き",
+      "きい",
+      "きお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 909,
+    "id": "n1-vocab_reading-0909",
+    "target": "期",
+    "sentence": "《期》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "き",
+      "きい",
+      "きお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 910,
+    "id": "n1-vocab_reading-0910",
+    "target": "企画",
+    "sentence": "《企画》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "きかく",
+      "あああ",
+      "きかくい",
+      "きかお"
+    ],
+    "answer": 0,
+    "correct": ""
+  }
+]

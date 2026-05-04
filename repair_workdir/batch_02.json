@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 331,
+    "id": "n2-vocab_reading-0332",
+    "target": "育児",
+    "correct": "いくじ",
+    "options": [
+      "いくじい",
+      "いくし",
+      "いくお",
+      "いくじ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 332,
+    "id": "n2-vocab_reading-0333",
+    "target": "生け花",
+    "correct": "いけばな",
+    "options": [
+      "いけばない",
+      "いけはな",
+      "いけばな",
+      "いけばお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 333,
+    "id": "n2-vocab_reading-0334",
+    "target": "以降",
+    "correct": "いこう",
+    "options": [
+      "いこう",
+      "いこ",
+      "いこうい",
+      "いこお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 334,
+    "id": "n2-vocab_reading-0335",
+    "target": "勇ましい",
+    "correct": "いさましい",
+    "options": [
+      "うさましい",
+      "いさましお",
+      "いさましいい",
+      "いさましい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 335,
+    "id": "n2-vocab_reading-0336",
+    "target": "衣食住",
+    "correct": "いしょくじゅう",
+    "options": [
+      "いしょくじゅう",
+      "いしょくじゅうい",
+      "いしょくじゅ",
+      "いしょくしゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 336,
+    "id": "n2-vocab_reading-0337",
+    "target": "意地悪",
+    "correct": "いじわる",
+    "options": [
+      "いじわお",
+      "いじわるい",
+      "いしわる",
+      "いじわる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 337,
+    "id": "n2-vocab_reading-0338",
+    "target": "一応",
+    "correct": "いちおう",
+    "options": [
+      "いちおうい",
+      "いちおう",
+      "いちおお",
+      "いちお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 338,
+    "id": "n2-vocab_reading-0339",
+    "target": "一段",
+    "correct": "いちだん",
+    "options": [
+      "うちだん",
+      "いちだお",
+      "いちだんい",
+      "いちだん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 339,
+    "id": "n2-vocab_reading-0340",
+    "target": "一流",
+    "correct": "いちりゅう",
+    "options": [
+      "いちりゅう",
+      "いちりゅ",
+      "いちりゅうい",
+      "いちりゅお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 340,
+    "id": "n2-vocab_reading-0341",
+    "target": "佚",
+    "correct": "いつ",
+    "options": [
+      "いつ",
+      "うつ",
+      "いつい",
+      "いお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 341,
+    "id": "n2-vocab_reading-0342",
+    "target": "一昨日",
+    "correct": "いっさくじつ",
+    "options": [
+      "いっさくしつ",
+      "いっさくじつい",
+      "いさくじつ",
+      "いっさくじつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 342,
+    "id": "n2-vocab_reading-0343",
+    "target": "一昨年",
+    "correct": "いっさくねん",
+    "options": [
+      "いっさくねん",
+      "いさくねん",
+      "いっさくねんい",
+      "いっさくねお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 343,
+    "id": "n2-vocab_reading-0344",
+    "target": "一斉",
+    "correct": "いっせい",
+    "options": [
+      "いっせいい",
+      "いせい",
+      "いっせい",
+      "いっせお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 344,
+    "id": "n2-vocab_reading-0345",
+    "target": "一旦",
+    "correct": "いったん",
+    "options": [
+      "いったお",
+      "いったん",
+      "いたん",
+      "いったんい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 345,
+    "id": "n2-vocab_reading-0346",
+    "target": "一定",
+    "correct": "いってい",
+    "options": [
+      "いってい",
+      "いってお",
+      "いてい",
+      "いっていい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 346,
+    "id": "n2-vocab_reading-0347",
+    "target": "移転",
+    "correct": "いてん",
+    "options": [
+      "いてん",
+      "いてんい",
+      "いてお",
+      "うてん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 347,
+    "id": "n2-vocab_reading-0348",
+    "target": "井戸",
+    "correct": "いど",
+    "options": [
+      "いお",
+      "うど",
+      "いど",
+      "いどい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 348,
+    "id": "n2-vocab_reading-0349",
+    "target": "緯度",
+    "correct": "いど",
+    "options": [
+      "うど",
+      "いお",
+      "いどい",
+      "いど"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 349,
+    "id": "n2-vocab_reading-0350",
+    "target": "従姉妹",
+    "correct": "いとこ",
+    "options": [
+      "いとこ",
+      "うとこ",
+      "いとお",
+      "いとこい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 350,
+    "id": "n2-vocab_reading-0351",
+    "target": "威張る",
+    "correct": "いばる",
+    "options": [
+      "いはる",
+      "いばる",
+      "いばるい",
+      "いばお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 351,
+    "id": "n2-vocab_reading-0352",
+    "target": "嫌がる",
+    "correct": "いやがる",
+    "options": [
+      "いやがる",
+      "いやがるい",
+      "いやがお",
+      "うやがる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 352,
+    "id": "n2-vocab_reading-0353",
+    "target": "煎る",
+    "correct": "いる",
+    "options": [
+      "うる",
+      "いるい",
+      "いる",
+      "いお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 354,
+    "id": "n2-vocab_reading-0355",
+    "target": "入れ物",
+    "correct": "いれもの",
+    "options": [
+      "いれもお",
+      "うれもの",
+      "いれものい",
+      "いれもの"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 355,
+    "id": "n2-vocab_reading-0356",
+    "target": "引力",
+    "correct": "いんりょく",
+    "options": [
+      "うんりょく",
+      "いんりょくい",
+      "いんりょく",
+      "いんりょお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 356,
+    "id": "n2-vocab_reading-0357",
+    "target": "植木",
+    "correct": "うえき",
+    "options": [
+      "うえき",
+      "えき",
+      "うえきい",
+      "うえお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 357,
+    "id": "n2-vocab_reading-0358",
+    "target": "飢える",
+    "correct": "うえる",
+    "options": [
+      "うえる",
+      "える",
+      "うえるい",
+      "うえお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 358,
+    "id": "n2-vocab_reading-0359",
+    "target": "浮ぶ",
+    "correct": "うかぶ",
+    "options": [
+      "うかぶ",
+      "かぶ",
+      "うかぶい",
+      "うかお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 359,
+    "id": "n2-vocab_reading-0360",
+    "target": "浮かべる",
+    "correct": "うかべる",
+    "options": [
+      "うかべる",
+      "かべる",
+      "うかべお",
+      "うかべるい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 360,
+    "id": "n2-vocab_reading-0361",
+    "target": "浮く",
+    "correct": "うく",
+    "options": [
+      "うお",
+      "く",
+      "うく",
+      "うくい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 361,
+    "id": "n2-vocab_reading-0362",
+    "target": "承る",
+    "correct": "うけたまわる",
+    "options": [
+      "うけたまわる",
+      "けたまわる",
+      "うけたまわるい",
+      "うけたまわお"
+    ],
+    "answer": 0
+  }
+]

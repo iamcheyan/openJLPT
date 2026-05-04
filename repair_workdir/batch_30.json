@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1246,
+    "id": "n2-vocab_reading-1247",
+    "target": "殖える",
+    "correct": "ふえる",
+    "options": [
+      "ふえる",
+      "ふえるい",
+      "ふえお",
+      "ぶえる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1247,
+    "id": "n2-vocab_reading-1248",
+    "target": "深まる",
+    "correct": "ふかまる",
+    "options": [
+      "ふかまるい",
+      "ぶかまる",
+      "ふかまる",
+      "ふかまお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1248,
+    "id": "n2-vocab_reading-1249",
+    "target": "不規則",
+    "correct": "ふきそく",
+    "options": [
+      "ふきそく",
+      "ふきそくい",
+      "ふきそお",
+      "ぶきそく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1249,
+    "id": "n2-vocab_reading-1250",
+    "target": "普及",
+    "correct": "ふきゅう",
+    "options": [
+      "ふきゅ",
+      "ふきゅうい",
+      "ふきゅお",
+      "ふきゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1250,
+    "id": "n2-vocab_reading-1251",
+    "target": "付近",
+    "correct": "ふきん",
+    "options": [
+      "ふきん",
+      "ふきんい",
+      "ぶきん",
+      "ふきお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1251,
+    "id": "n2-vocab_reading-1252",
+    "target": "拭く",
+    "correct": "ふく",
+    "options": [
+      "ふく",
+      "ふくい",
+      "ふお",
+      "ぶく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1252,
+    "id": "n2-vocab_reading-1253",
+    "target": "副詞",
+    "correct": "ふくし",
+    "options": [
+      "ふくしい",
+      "ふくし",
+      "ふくお",
+      "ぶくし"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1253,
+    "id": "n2-vocab_reading-1254",
+    "target": "複数",
+    "correct": "ふくすう",
+    "options": [
+      "ふくすう",
+      "ふくす",
+      "ふくすお",
+      "ふくすうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1254,
+    "id": "n2-vocab_reading-1255",
+    "target": "含める",
+    "correct": "ふくめる",
+    "options": [
+      "ふくめる",
+      "ぶくめる",
+      "ふくめるい",
+      "ふくめお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1255,
+    "id": "n2-vocab_reading-1256",
+    "target": "膨らます",
+    "correct": "ふくらます",
+    "options": [
+      "ぶくらます",
+      "ふくらまお",
+      "ふくらますい",
+      "ふくらます"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1256,
+    "id": "n2-vocab_reading-1257",
+    "target": "膨らむ",
+    "correct": "ふくらむ",
+    "options": [
+      "ふくらむい",
+      "ふくらお",
+      "ふくらむ",
+      "ぶくらむ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1258,
+    "id": "n2-vocab_reading-1259",
+    "target": "更ける",
+    "correct": "ふける",
+    "options": [
+      "ぶける",
+      "ふける",
+      "ふけるい",
+      "ふけお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1259,
+    "id": "n2-vocab_reading-1260",
+    "target": "夫妻",
+    "correct": "ふさい",
+    "options": [
+      "ふさいい",
+      "ふさい",
+      "ふさお",
+      "ふさう"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1260,
+    "id": "n2-vocab_reading-1261",
+    "target": "塞がる",
+    "correct": "ふさがる",
+    "options": [
+      "ぶさがる",
+      "ふさがる",
+      "ふさがるい",
+      "ふさがお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1261,
+    "id": "n2-vocab_reading-1262",
+    "target": "塞ぐ",
+    "correct": "ふさぐ",
+    "options": [
+      "ふさぐ",
+      "ふさぐい",
+      "ふさお",
+      "ぶさぐ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1262,
+    "id": "n2-vocab_reading-1263",
+    "target": "無沙汰",
+    "correct": "ぶさた",
+    "options": [
+      "ぶさた",
+      "ふさた",
+      "ぶさお",
+      "ぶさたい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1263,
+    "id": "n2-vocab_reading-1264",
+    "target": "武士",
+    "correct": "ぶし",
+    "options": [
+      "ぶし",
+      "ぶしい",
+      "ぶお",
+      "ふし"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1264,
+    "id": "n2-vocab_reading-1265",
+    "target": "部首",
+    "correct": "ぶしゅ",
+    "options": [
+      "ぶしゅ",
+      "ぶしゅい",
+      "ふしゅ",
+      "ぶしお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1265,
+    "id": "n2-vocab_reading-1266",
+    "target": "襖",
+    "correct": "ふすま",
+    "options": [
+      "ふすま",
+      "ふすまい",
+      "ふすお",
+      "ぶすま"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1266,
+    "id": "n2-vocab_reading-1267",
+    "target": "附属",
+    "correct": "ふぞく",
+    "options": [
+      "ぶぞく",
+      "ふぞお",
+      "ふぞくい",
+      "ふぞく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1267,
+    "id": "n2-vocab_reading-1268",
+    "target": "蓋",
+    "correct": "ふた",
+    "options": [
+      "ふた",
+      "ふたい",
+      "ぶた",
+      "ふお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1268,
+    "id": "n2-vocab_reading-1269",
+    "target": "不通",
+    "correct": "ふつう",
+    "options": [
+      "ふつう",
+      "ふつ",
+      "ふつうい",
+      "ふつお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1269,
+    "id": "n2-vocab_reading-1270",
+    "target": "物騒",
+    "correct": "ぶっそう",
+    "options": [
+      "ぶっそ",
+      "ぶそう",
+      "ぶっそう",
+      "ぶっそうい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1272,
+    "id": "n2-vocab_reading-1273",
+    "target": "吹雪",
+    "correct": "ふぶき",
+    "options": [
+      "ぶぶき",
+      "ふぶきい",
+      "ふぶき",
+      "ふぶお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1273,
+    "id": "n2-vocab_reading-1274",
+    "target": "父母",
+    "correct": "ふぼ",
+    "options": [
+      "ふぼい",
+      "ぶぼ",
+      "ふぼ",
+      "ふお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1274,
+    "id": "n2-vocab_reading-1275",
+    "target": "踏切",
+    "correct": "ふみきり",
+    "options": [
+      "ふみきり",
+      "ふみきりい",
+      "ふみきお",
+      "ぶみきり"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1275,
+    "id": "n2-vocab_reading-1276",
+    "target": "麓",
+    "correct": "ふもと",
+    "options": [
+      "ふもと",
+      "ふもとい",
+      "ふもお",
+      "ぶもと"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1276,
+    "id": "n2-vocab_reading-1277",
+    "target": "増やす",
+    "correct": "ふやす",
+    "options": [
+      "ふやす",
+      "ふやお",
+      "ふやすい",
+      "ぶやす"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1277,
+    "id": "n2-vocab_reading-1278",
+    "target": "殖やす",
+    "correct": "ふやす",
+    "options": [
+      "ぶやす",
+      "ふやお",
+      "ふやすい",
+      "ふやす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1278,
+    "id": "n2-vocab_reading-1279",
+    "target": "振り仮名",
+    "correct": "ふりがな",
+    "options": [
+      "ふりがな",
+      "ふりがない",
+      "ふりがお",
+      "ぶりがな"
+    ],
+    "answer": 0
+  }
+]

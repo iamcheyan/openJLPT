@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 926,
+    "id": "n2-vocab_reading-0927",
+    "target": "溜息",
+    "correct": "ためいき",
+    "options": [
+      "ためいきい",
+      "ためうき",
+      "ためいお",
+      "ためいき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 927,
+    "id": "n2-vocab_reading-0928",
+    "target": "溜める",
+    "correct": "ためる",
+    "options": [
+      "ためる",
+      "だめる",
+      "ためるい",
+      "ためお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 928,
+    "id": "n2-vocab_reading-0929",
+    "target": "足る",
+    "correct": "たる",
+    "options": [
+      "たるい",
+      "たる",
+      "だる",
+      "たお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 929,
+    "id": "n2-vocab_reading-0930",
+    "target": "段階",
+    "correct": "だんかい",
+    "options": [
+      "だんかいい",
+      "だんかお",
+      "だんかう",
+      "だんかい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 930,
+    "id": "n2-vocab_reading-0931",
+    "target": "炭鉱",
+    "correct": "たんこう",
+    "options": [
+      "たんこう",
+      "たんこ",
+      "たんこうい",
+      "たんこお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 931,
+    "id": "n2-vocab_reading-0932",
+    "target": "短所",
+    "correct": "たんしょ",
+    "options": [
+      "たんしょ",
+      "たんしょい",
+      "たんしお",
+      "だんしょ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 932,
+    "id": "n2-vocab_reading-0933",
+    "target": "淡水",
+    "correct": "たんすい",
+    "options": [
+      "たんすい",
+      "たんすう",
+      "たんすいい",
+      "たんすお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 933,
+    "id": "n2-vocab_reading-0934",
+    "target": "断水",
+    "correct": "だんすい",
+    "options": [
+      "だんすお",
+      "だんすいい",
+      "だんすい",
+      "だんすう"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 934,
+    "id": "n2-vocab_reading-0935",
+    "target": "単数",
+    "correct": "たんすう",
+    "options": [
+      "たんすお",
+      "たんすうい",
+      "たんす",
+      "たんすう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 935,
+    "id": "n2-vocab_reading-0936",
+    "target": "団地",
+    "correct": "だんち",
+    "options": [
+      "だんち",
+      "だんちい",
+      "だんお",
+      "たんち"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 936,
+    "id": "n2-vocab_reading-0937",
+    "target": "断定",
+    "correct": "だんてい",
+    "options": [
+      "だんてい",
+      "だんていい",
+      "だんてお",
+      "だんてう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 937,
+    "id": "n2-vocab_reading-0938",
+    "target": "短編",
+    "correct": "たんぺん",
+    "options": [
+      "だんぺん",
+      "たんぺお",
+      "たんぺんい",
+      "たんぺん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 938,
+    "id": "n2-vocab_reading-0939",
+    "target": "誓う",
+    "correct": "ちかう",
+    "options": [
+      "ちかう",
+      "ちかお",
+      "ちか",
+      "ちかうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 939,
+    "id": "n2-vocab_reading-0940",
+    "target": "地下水",
+    "correct": "ちかすい",
+    "options": [
+      "ちかすう",
+      "ちかすい",
+      "ちかすいい",
+      "ちかすお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 940,
+    "id": "n2-vocab_reading-0941",
+    "target": "近寄る",
+    "correct": "ちかよる",
+    "options": [
+      "ちかよお",
+      "ぢかよる",
+      "ちかよるい",
+      "ちかよる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 941,
+    "id": "n2-vocab_reading-0942",
+    "target": "力強い",
+    "correct": "ちからづよい",
+    "options": [
+      "ちからづよい",
+      "ちからづよいい",
+      "ちからづよお",
+      "ちからづよう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 942,
+    "id": "n2-vocab_reading-0943",
+    "target": "千切る",
+    "correct": "ちぎる",
+    "options": [
+      "ちぎる",
+      "ちぎるい",
+      "ぢぎる",
+      "ちぎお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 943,
+    "id": "n2-vocab_reading-0944",
+    "target": "地質",
+    "correct": "ちしつ",
+    "options": [
+      "ぢしつ",
+      "ちしお",
+      "ちしつい",
+      "ちしつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 944,
+    "id": "n2-vocab_reading-0945",
+    "target": "知人",
+    "correct": "ちじん",
+    "options": [
+      "ちじん",
+      "ちしん",
+      "ちじんい",
+      "ちじお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 945,
+    "id": "n2-vocab_reading-0946",
+    "target": "地帯",
+    "correct": "ちたい",
+    "options": [
+      "ちたお",
+      "ちたい",
+      "ちたう",
+      "ちたいい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 946,
+    "id": "n2-vocab_reading-0947",
+    "target": "地点",
+    "correct": "ちてん",
+    "options": [
+      "ぢてん",
+      "ちてお",
+      "ちてん",
+      "ちてんい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 947,
+    "id": "n2-vocab_reading-0948",
+    "target": "茶色い",
+    "correct": "ちゃいろい",
+    "options": [
+      "ちゃいろい",
+      "ちゃいろいい",
+      "ちゃいろお",
+      "ちゃうろい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 948,
+    "id": "n2-vocab_reading-0949",
+    "target": "着々",
+    "correct": "ちゃくちゃく",
+    "options": [
+      "ちゃくちゃく",
+      "ちゃくちゃくい",
+      "ちゃくちゃお",
+      "ぢゃくちゃく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 949,
+    "id": "n2-vocab_reading-0950",
+    "target": "茶碗",
+    "correct": "ちゃわん",
+    "options": [
+      "ちゃわお",
+      "ちゃわんい",
+      "ぢゃわん",
+      "ちゃわん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 950,
+    "id": "n2-vocab_reading-0951",
+    "target": "抽象",
+    "correct": "ちゅうしょう",
+    "options": [
+      "ちゅうしょお",
+      "ちゅうしょう",
+      "ちゅしょう",
+      "ちゅうしょうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 951,
+    "id": "n2-vocab_reading-0952",
+    "target": "中世",
+    "correct": "ちゅうせい",
+    "options": [
+      "ちゅうせい",
+      "ちゅせい",
+      "ちゅうせいい",
+      "ちゅうせお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 952,
+    "id": "n2-vocab_reading-0953",
+    "target": "中性",
+    "correct": "ちゅうせい",
+    "options": [
+      "ちゅうせい",
+      "ちゅせい",
+      "ちゅうせいい",
+      "ちゅうせお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 953,
+    "id": "n2-vocab_reading-0954",
+    "target": "中年",
+    "correct": "ちゅうねん",
+    "options": [
+      "ちゅうねお",
+      "ちゅねん",
+      "ちゅうねん",
+      "ちゅうねんい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 954,
+    "id": "n2-vocab_reading-0955",
+    "target": "超過",
+    "correct": "ちょうか",
+    "options": [
+      "ちょうか",
+      "ちょうお",
+      "ちょか",
+      "ちょうかい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 955,
+    "id": "n2-vocab_reading-0956",
+    "target": "彫刻",
+    "correct": "ちょうこく",
+    "options": [
+      "ちょうこお",
+      "ちょうこくい",
+      "ちょこく",
+      "ちょうこく"
+    ],
+    "answer": 3
+  }
+]

@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+"""Generate natural JLPT N4-level sentences for n4_batch_04.json reading questions.
+
+Each sentence uses the target word naturally with 《》 marking.
+For verbs, the stem (dictionary form minus final hiragana) is marked
+and the conjugation is placed outside the brackets.
+For nouns and adjectives, the entire word is marked.
+"""
+
+import json
+
+sentences = {
+    # idx 311 - 410
+    "n4-vocab_reading-0311": "黒板の字をノートに《写》した。",
+    "n4-vocab_reading-0312": "隣の席に《移》ってもいいですか。",
+    "n4-vocab_reading-0313": "彼女は料理が《上手い》。",
+    "n4-vocab_reading-0314": "靴の《売り場》は二階です。",
+    "n4-vocab_reading-0315": "バスの《運転手》は親切な人だった。",
+    "n4-vocab_reading-0316": "どうぞお《遠慮》なく召し上がってください。",
+    "n4-vocab_reading-0317": "友達の結婚《お祝い》に花をあげた。",
+    "n4-vocab_reading-0318": "この国の人口は一《億》人以上だ。",
+    "n4-vocab_reading-0319": "母にプレゼントを《送》った。",
+    "n4-vocab_reading-0320": "来週、会議を《行》う予定だ。",
+    "n4-vocab_reading-0321": "布団は《押し入れ》の中にしまう。",
+    "n4-vocab_reading-0322": "先生の《お嬢さん》は大学生です。",
+    "n4-vocab_reading-0323": "明日、山田さんの《お宅》に伺います。",
+    "n4-vocab_reading-0324": "私の《夫》は銀行に勤めている。",
+    "n4-vocab_reading-0325": "窓の外から変な《音》がする。",
+    "n4-vocab_reading-0326": "旅行に行ったら《お土産》を買うつもりだ。",
+    "n4-vocab_reading-0327": "あの映画を見て子供の頃を《思い出》した。",
+    "n4-vocab_reading-0328": "私は日本がいい国だと《思》う。",
+    "n4-vocab_reading-0329": "ドアの《表》に名前が書いてある。",
+    "n4-vocab_reading-0330": "紙を半分に《折》って鶴を作った。",
+    "n4-vocab_reading-0331": "手伝ってくれたので《お礼》を言った。",
+    "n4-vocab_reading-0332": "映画の《終わり》はちょっと悲しかった。",
+    "n4-vocab_reading-0333": "夏休みに《海岸》へ泳ぎに行った。",
+    "n4-vocab_reading-0334": "今日の午後、大事な《会議》がある。",
+    "n4-vocab_reading-0335": "学校の《帰り》に本屋に寄った。",
+    "n4-vocab_reading-0336": "クリスマスに部屋を《飾》った。",
+    "n4-vocab_reading-0337": "このパンは《堅い》。",
+    "n4-vocab_reading-0338": "この机は木でできていて《固い》。",
+    "n4-vocab_reading-0339": "使ったものはちゃんと《片付け》なさい。",
+    "n4-vocab_reading-0340": "宿題は《必ず》今日中に出してください。",
+    "n4-vocab_reading-0341": "彼女は《お金持ち》で、大きい家に住んでいる。",
+    "n4-vocab_reading-0342": "部屋の《壁》にポスターを貼った。",
+    "n4-vocab_reading-0343": "姉は《髪》が長くてきれいだ。",
+    "n4-vocab_reading-0344": "毎日学校に《通》うのは大変だ。",
+    "n4-vocab_reading-0345": "《彼》はとても親切な人だ。",
+    "n4-vocab_reading-0346": "《彼ら》はみんな日本の学生だ。",
+    "n4-vocab_reading-0347": "洗濯物が《乾》いたら取り込もう。",
+    "n4-vocab_reading-0348": "山田さんの《代わり》に私が行く。",
+    "n4-vocab_reading-0349": "《看護婦》さんが熱を測ってくれた。",
+    "n4-vocab_reading-0350": "体調が悪いなら、《気》をつけてね。",
+    "n4-vocab_reading-0351": "隣の部屋から音楽が《聞こえ》る。",
+    "n4-vocab_reading-0352": "昔はよく《汽車》で旅行した。",
+    "n4-vocab_reading-0353": "学校の《規則》を守らなければならない。",
+    "n4-vocab_reading-0354": "この着物は《絹》でできている。",
+    "n4-vocab_reading-0355": "日曜日に《教会》へ行く。",
+    "n4-vocab_reading-0356": "空に白い《雲》が浮かんでいる。",
+    "n4-vocab_reading-0357": "日本とアメリカの生活を《比べ》ると、違うところが多い。",
+    "n4-vocab_reading-0358": "友達がこの本を《呉れ》た。",
+    "n4-vocab_reading-0359": "夏休みの《計画》を立てた。",
+    "n4-vocab_reading-0360": "日本で働いた《経験》が役に立つ。",
+    "n4-vocab_reading-0361": "朝の《交通》が混んでいて困った。",
+    "n4-vocab_reading-0362": "弟は今年《高等学校》に入った。",
+    "n4-vocab_reading-0363": "友達の《心》を傷つけてしまった。",
+    "n4-vocab_reading-0364": "山田さんの《御主人》は医者です。",
+    "n4-vocab_reading-0365": "あの映画を《ご存じ》ですか。",
+    "n4-vocab_reading-0366": "この電車はいつも《込》んでいる。",
+    "n4-vocab_reading-0367": "日本では《米》を炊いて食べる。",
+    "n4-vocab_reading-0368": "テレビが《壊れ》たので、新しいのを買った。",
+    "n4-vocab_reading-0369": "気温が《下》ったので、暖かくした。",
+    "n4-vocab_reading-0370": "《先》言ったことを覚えていますか。",
+    "n4-vocab_reading-0371": "この地域の《産業》は農業です。",
+    "n4-vocab_reading-0372": "昨日、駅で《事故》があった。",
+    "n4-vocab_reading-0373": "新しい《下着》を買った。",
+    "n4-vocab_reading-0374": "わからない言葉は《辞典》で調べる。",
+    "n4-vocab_reading-0375": "大学を卒業したら《社会》に出る。",
+    "n4-vocab_reading-0376": "日本には面白い《習慣》がたくさんある。",
+    "n4-vocab_reading-0377": "今日の授業に《出席》した。",
+    "n4-vocab_reading-0378": "友達に彼女を《紹介》した。",
+    "n4-vocab_reading-0379": "私はこの《小学校》に通っていた。",
+    "n4-vocab_reading-0380": "《食料品》を買いにスーパーへ行く。",
+    "n4-vocab_reading-0381": "あの《女性》は私の先生です。",
+    "n4-vocab_reading-0382": "あの店員さんはとても《親切》だ。",
+    "n4-vocab_reading-0383": "夏は《水泳》の授業がある。",
+    "n4-vocab_reading-0384": "この《水道》の水は飲める。",
+    "n4-vocab_reading-0385": "《数学》のテストは難しかった。",
+    "n4-vocab_reading-0386": "富士山は本当に《凄い》。",
+    "n4-vocab_reading-0387": "古い新聞を《捨て》た。",
+    "n4-vocab_reading-0388": "靴の中に《砂》が入った。",
+    "n4-vocab_reading-0389": "仕事が《済》んだら、帰ろう。",
+    "n4-vocab_reading-0390": "電車の中で《掏摸》に遭った。",
+    "n4-vocab_reading-0391": "この工場では車を《生産》している。",
+    "n4-vocab_reading-0392": "《政治》の話はあまり好きじゃない。",
+    "n4-vocab_reading-0393": "《西洋》の音楽が好きだ。",
+    "n4-vocab_reading-0394": "私は《世界》のいろいろな国に行きたい。",
+    "n4-vocab_reading-0395": "窓側の《席》に座った。",
+    "n4-vocab_reading-0396": "先生が《説明》してくれた。",
+    "n4-vocab_reading-0397": "母がいつも《世話》をしてくれる。",
+    "n4-vocab_reading-0398": "《戦争》はしてはいけない。",
+    "n4-vocab_reading-0399": "《先輩》はとても優しい。",
+    "n4-vocab_reading-0400": "私の《祖父》は元気です。",
+    "n4-vocab_reading-0401": "父が来週《退院》する。",
+    "n4-vocab_reading-0402": "もう《大体》できました。",
+    "n4-vocab_reading-0403": "日曜日は《大抵》家にいる。",
+    "n4-vocab_reading-0404": "病気は《大分》よくなった。",
+    "n4-vocab_reading-0405": "昨日、大きな木が《倒れ》た。",
+    "n4-vocab_reading-0406": "隣に新しい家を《建て》ている。",
+    "n4-vocab_reading-0407": "《例えば》どんなスポーツが好きですか。",
+    "n4-vocab_reading-0408": "本を《棚》に戻した。",
+    "n4-vocab_reading-0409": "家族の《為》に働いている。",
+    "n4-vocab_reading-0410": "怪我をして《血》が出た。",
+}
+
+
+def main():
+    batch_path = "/home/tetsuya/Development/openjlpt/repair_workdir/n4_batch_04.json"
+    output_path = "/home/tetsuya/Development/openjlpt/repair_workdir/sentences_n4_04.json"
+
+    with open(batch_path, "r", encoding="utf-8") as f:
+        questions = json.load(f)
+
+    print(f"Total questions in batch: {len(questions)}")
+
+    result = {}
+    missing = []
+
+    for q in questions:
+        qid = q["id"]
+        target = q["target"]
+        if qid in sentences:
+            result[qid] = sentences[qid]
+        else:
+            missing.append((qid, target))
+
+    if missing:
+        print(f"WARNING: {len(missing)} questions have no sentence:")
+        for qid, target in missing:
+            print(f"  {qid} ({target})")
+
+    # Verify all present
+    print(f"Sentences generated: {len(result)}")
+    if len(result) == len(questions):
+        print("All questions have corresponding sentences!")
+    else:
+        print(f"MISSING: {len(questions) - len(result)}")
+
+    # Sort by id for clean output
+    sorted_result = dict(sorted(result.items()))
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(sorted_result, f, ensure_ascii=False, indent=2)
+
+    print(f"Written to {output_path}")
+
+
+if __name__ == "__main__":
+    main()

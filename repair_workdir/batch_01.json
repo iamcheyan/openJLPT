@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 300,
+    "id": "n2-vocab_reading-0301",
+    "target": "曖昧",
+    "correct": "あいまい",
+    "options": [
+      "あいまい",
+      "あいまいい",
+      "あいまお",
+      "あうまい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 301,
+    "id": "n2-vocab_reading-0302",
+    "target": "遭う",
+    "correct": "あう",
+    "options": [
+      "あお",
+      "あ",
+      "あう",
+      "あうい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 302,
+    "id": "n2-vocab_reading-0303",
+    "target": "明き",
+    "correct": "あき",
+    "options": [
+      "あお",
+      "あぎ",
+      "あきい",
+      "あき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 303,
+    "id": "n2-vocab_reading-0304",
+    "target": "欠伸",
+    "correct": "あくび",
+    "options": [
+      "あくお",
+      "あくびい",
+      "あくび",
+      "あぐび"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 304,
+    "id": "n2-vocab_reading-0305",
+    "target": "飽くまで",
+    "correct": "あくまで",
+    "options": [
+      "あくまで",
+      "あくまお",
+      "あくまでい",
+      "あぐまで"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 305,
+    "id": "n2-vocab_reading-0306",
+    "target": "揚げる",
+    "correct": "あげる",
+    "options": [
+      "あける",
+      "あげる",
+      "あげるい",
+      "あげお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 306,
+    "id": "n2-vocab_reading-0307",
+    "target": "挙げる",
+    "correct": "あげる",
+    "options": [
+      "あげる",
+      "あげるい",
+      "あける",
+      "あげお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 307,
+    "id": "n2-vocab_reading-0308",
+    "target": "憧れる",
+    "correct": "あこがれる",
+    "options": [
+      "あこがれる",
+      "あこがれるい",
+      "あこがれお",
+      "あごがれる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 308,
+    "id": "n2-vocab_reading-0309",
+    "target": "足跡",
+    "correct": "あしあと",
+    "options": [
+      "あしあとい",
+      "あしあと",
+      "あしあお",
+      "あじあと"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 309,
+    "id": "n2-vocab_reading-0310",
+    "target": "味わう",
+    "correct": "あじわう",
+    "options": [
+      "あじわう",
+      "あじわ",
+      "あしわう",
+      "あじわうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 310,
+    "id": "n2-vocab_reading-0311",
+    "target": "預かる",
+    "correct": "あずかる",
+    "options": [
+      "あすかる",
+      "あずかる",
+      "あずかるい",
+      "あずかお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 311,
+    "id": "n2-vocab_reading-0312",
+    "target": "暖まる",
+    "correct": "あたたまる",
+    "options": [
+      "あたたまる",
+      "あたたまるい",
+      "あたたまお",
+      "あだたまる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 312,
+    "id": "n2-vocab_reading-0313",
+    "target": "厚かましい",
+    "correct": "あつかましい",
+    "options": [
+      "あつかましう",
+      "あつかましい",
+      "あつかましお",
+      "あつかましいい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 313,
+    "id": "n2-vocab_reading-0314",
+    "target": "宛名",
+    "correct": "あてな",
+    "options": [
+      "あてな",
+      "あてない",
+      "あてお",
+      "あでな"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 314,
+    "id": "n2-vocab_reading-0315",
+    "target": "暴れる",
+    "correct": "あばれる",
+    "options": [
+      "あばれお",
+      "あばれるい",
+      "あはれる",
+      "あばれる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 315,
+    "id": "n2-vocab_reading-0316",
+    "target": "脂",
+    "correct": "あぶら",
+    "options": [
+      "あぶお",
+      "あふら",
+      "あぶらい",
+      "あぶら"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 316,
+    "id": "n2-vocab_reading-0317",
+    "target": "雨戸",
+    "correct": "あまど",
+    "options": [
+      "あまお",
+      "あまと",
+      "あまどい",
+      "あまど"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 317,
+    "id": "n2-vocab_reading-0318",
+    "target": "余る",
+    "correct": "あまる",
+    "options": [
+      "あまお",
+      "あまるい",
+      "っあまる",
+      "あまる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 318,
+    "id": "n2-vocab_reading-0319",
+    "target": "危うい",
+    "correct": "あやうい",
+    "options": [
+      "あやうお",
+      "あやういい",
+      "あやい",
+      "あやうい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 320,
+    "id": "n2-vocab_reading-0321",
+    "target": "荒い",
+    "correct": "あらい",
+    "options": [
+      "あらお",
+      "あらいい",
+      "あらい",
+      "あらう"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 321,
+    "id": "n2-vocab_reading-0322",
+    "target": "粗い",
+    "correct": "あらい",
+    "options": [
+      "あらお",
+      "あらう",
+      "あらいい",
+      "あらい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 322,
+    "id": "n2-vocab_reading-0323",
+    "target": "争う",
+    "correct": "あらそう",
+    "options": [
+      "あらそお",
+      "あらそう",
+      "あらそ",
+      "あらそうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 323,
+    "id": "n2-vocab_reading-0324",
+    "target": "改めて",
+    "correct": "あらためて",
+    "options": [
+      "あらためお",
+      "あらだめて",
+      "あらためてい",
+      "あらためて"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 324,
+    "id": "n2-vocab_reading-0325",
+    "target": "著す",
+    "correct": "あらわす",
+    "options": [
+      "あらわす",
+      "あらわすい",
+      "あらわお",
+      "あらわず"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 325,
+    "id": "n2-vocab_reading-0326",
+    "target": "有難い",
+    "correct": "ありがたい",
+    "options": [
+      "ありがたい",
+      "ありがたいい",
+      "ありがたお",
+      "ありがたう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 326,
+    "id": "n2-vocab_reading-0327",
+    "target": "在る",
+    "correct": "ある",
+    "options": [
+      "ある",
+      "あるい",
+      "っある",
+      "あお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 327,
+    "id": "n2-vocab_reading-0328",
+    "target": "案外",
+    "correct": "あんがい",
+    "options": [
+      "あんがお",
+      "あんがう",
+      "あんがい",
+      "あんがいい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 328,
+    "id": "n2-vocab_reading-0329",
+    "target": "言い出す",
+    "correct": "いいだす",
+    "options": [
+      "いいだす",
+      "ういだす",
+      "いいだすい",
+      "いいだお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 329,
+    "id": "n2-vocab_reading-0330",
+    "target": "意義",
+    "correct": "いぎ",
+    "options": [
+      "うぎ",
+      "いお",
+      "いぎい",
+      "いぎ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 330,
+    "id": "n2-vocab_reading-0331",
+    "target": "生き生き",
+    "correct": "いきいき",
+    "options": [
+      "うきいき",
+      "いきいお",
+      "いきいきい",
+      "いきいき"
+    ],
+    "answer": 3
+  }
+]

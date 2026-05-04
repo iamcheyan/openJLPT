@@ -54,7 +54,6 @@ print(sum(1 for v in s.values() if v.get('${section_id}') == 'pending'))
 run_section "vocab_reading" "① 漢字の読み方"
 run_section "vocab_kanji" "② 漢字の表記"
 run_section "vocab_context" "③ 文脈判断"
-run_section "vocab_synonym" "④ 言い換え類義"
 run_section "vocab_usage" "⑤ 用法"
 
 echo ""

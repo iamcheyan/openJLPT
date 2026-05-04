@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1475,
+    "id": "n2-vocab_reading-1476",
+    "target": "四つ角",
+    "correct": "よつかど",
+    "options": [
+      "よつかお",
+      "よつかどい",
+      "よづかど",
+      "よつかど"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1476,
+    "id": "n2-vocab_reading-1477",
+    "target": "酔っ払い",
+    "correct": "よっぱらい",
+    "options": [
+      "よっぱらい",
+      "よぱらい",
+      "よっぱらいい",
+      "よっぱらお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1477,
+    "id": "n2-vocab_reading-1478",
+    "target": "予備",
+    "correct": "よび",
+    "options": [
+      "よお",
+      "よひ",
+      "よびい",
+      "よび"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1478,
+    "id": "n2-vocab_reading-1479",
+    "target": "呼び掛ける",
+    "correct": "よびかける",
+    "options": [
+      "よびかけるい",
+      "よひかける",
+      "よびかける",
+      "よびかけお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1479,
+    "id": "n2-vocab_reading-1480",
+    "target": "呼び出す",
+    "correct": "よびだす",
+    "options": [
+      "よひだす",
+      "よびだお",
+      "よびだすい",
+      "よびだす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1480,
+    "id": "n2-vocab_reading-1481",
+    "target": "蘇る",
+    "correct": "よみがえる",
+    "options": [
+      "よみがえるい",
+      "よみかえる",
+      "よみがえお",
+      "よみがえる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1481,
+    "id": "n2-vocab_reading-1482",
+    "target": "慶び",
+    "correct": "よろこび",
+    "options": [
+      "よろこお",
+      "よろこびい",
+      "よろこび",
+      "よろごび"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1482,
+    "id": "n2-vocab_reading-1483",
+    "target": "慶ぶ",
+    "correct": "よろこぶ",
+    "options": [
+      "よろこぶい",
+      "よろこぶ",
+      "よろごぶ",
+      "よろこお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1483,
+    "id": "n2-vocab_reading-1484",
+    "target": "来日",
+    "correct": "らいにち",
+    "options": [
+      "らいにちい",
+      "らいにち",
+      "らうにち",
+      "らいにお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1484,
+    "id": "n2-vocab_reading-1485",
+    "target": "落第",
+    "correct": "らくだい",
+    "options": [
+      "らくだう",
+      "らくだお",
+      "らくだいい",
+      "らくだい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1485,
+    "id": "n2-vocab_reading-1486",
+    "target": "欄",
+    "correct": "らん",
+    "options": [
+      "らお",
+      "らんい",
+      "らん",
+      "っらん"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1486,
+    "id": "n2-vocab_reading-1487",
+    "target": "乱暴",
+    "correct": "らんぼう",
+    "options": [
+      "らんぼお",
+      "らんぼう",
+      "らんぼ",
+      "らんぼうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1487,
+    "id": "n2-vocab_reading-1488",
+    "target": "理科",
+    "correct": "りか",
+    "options": [
+      "りか",
+      "りかい",
+      "りが",
+      "りお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1488,
+    "id": "n2-vocab_reading-1489",
+    "target": "利害",
+    "correct": "りがい",
+    "options": [
+      "りがお",
+      "りがう",
+      "りがいい",
+      "りがい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1489,
+    "id": "n2-vocab_reading-1490",
+    "target": "略す",
+    "correct": "りゃくす",
+    "options": [
+      "りゃぐす",
+      "りゃくお",
+      "りゃくすい",
+      "りゃくす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1490,
+    "id": "n2-vocab_reading-1491",
+    "target": "流域",
+    "correct": "りゅういき",
+    "options": [
+      "りゅういお",
+      "りゅういきい",
+      "りゅいき",
+      "りゅういき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1491,
+    "id": "n2-vocab_reading-1492",
+    "target": "寮",
+    "correct": "りょう",
+    "options": [
+      "りょうい",
+      "りょお",
+      "りょ",
+      "りょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1492,
+    "id": "n2-vocab_reading-1493",
+    "target": "両側",
+    "correct": "りょうがわ",
+    "options": [
+      "りょうがお",
+      "りょうがわい",
+      "りょがわ",
+      "りょうがわ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1494,
+    "id": "n2-vocab_reading-1495",
+    "target": "領事",
+    "correct": "りょうじ",
+    "options": [
+      "りょうじい",
+      "りょうし",
+      "りょじ",
+      "りょうじ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1495,
+    "id": "n2-vocab_reading-1496",
+    "target": "領収",
+    "correct": "りょうしゅう",
+    "options": [
+      "りょうしゅう",
+      "りょしゅう",
+      "りょうしゅうい",
+      "りょうしゅお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1496,
+    "id": "n2-vocab_reading-1497",
+    "target": "臨時",
+    "correct": "りんじ",
+    "options": [
+      "りんし",
+      "りんお",
+      "りんじい",
+      "りんじ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1498,
+    "id": "n2-vocab_reading-1499",
+    "target": "例外",
+    "correct": "れいがい",
+    "options": [
+      "れいがい",
+      "れいがいい",
+      "れいがお",
+      "れうがい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1499,
+    "id": "n2-vocab_reading-1500",
+    "target": "零点",
+    "correct": "れいてん",
+    "options": [
+      "れいてん",
+      "れいてんい",
+      "れいてお",
+      "れうてん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1500,
+    "id": "n2-vocab_reading-1501",
+    "target": "冷凍",
+    "correct": "れいとう",
+    "options": [
+      "れいと",
+      "れいとう",
+      "れいとお",
+      "れいとうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1501,
+    "id": "n2-vocab_reading-1502",
+    "target": "列島",
+    "correct": "れっとう",
+    "options": [
+      "れっとう",
+      "れっと",
+      "れとう",
+      "れっとうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1502,
+    "id": "n2-vocab_reading-1503",
+    "target": "煉瓦",
+    "correct": "れんが",
+    "options": [
+      "れんが",
+      "れんお",
+      "れんか",
+      "れんがい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1503,
+    "id": "n2-vocab_reading-1504",
+    "target": "連合",
+    "correct": "れんごう",
+    "options": [
+      "れんご",
+      "れんごうい",
+      "れんごお",
+      "れんごう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1504,
+    "id": "n2-vocab_reading-1505",
+    "target": "蝋燭",
+    "correct": "ろうそく",
+    "options": [
+      "ろうそお",
+      "ろうそく",
+      "ろそく",
+      "ろうそくい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1505,
+    "id": "n2-vocab_reading-1506",
+    "target": "録音",
+    "correct": "ろくおん",
+    "options": [
+      "ろくうん",
+      "ろくおお",
+      "ろくおんい",
+      "ろくおん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1506,
+    "id": "n2-vocab_reading-1507",
+    "target": "論ずる",
+    "correct": "ろんずる",
+    "options": [
+      "ろんする",
+      "ろんずるい",
+      "ろんずる",
+      "ろんずお"
+    ],
+    "answer": 2
+  }
+]

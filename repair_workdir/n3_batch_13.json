@@ -1,0 +1,1402 @@
+[
+  {
+    "idx": 1211,
+    "id": "n3-vocab_reading-1211",
+    "target": "農業",
+    "sentence": "《農業》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のうぎょうい",
+      "のうぎょお",
+      "のぎょう",
+      "のうぎょう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1212,
+    "id": "n3-vocab_reading-1212",
+    "target": "農民",
+    "sentence": "《農民》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のうみん",
+      "のうみお",
+      "のみん",
+      "のうみんい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1213,
+    "id": "n3-vocab_reading-1213",
+    "target": "能力",
+    "sentence": "《能力》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のうりょお",
+      "のうりょくい",
+      "のりょく",
+      "のうりょく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1214,
+    "id": "n3-vocab_reading-1214",
+    "target": "残す",
+    "sentence": "《残す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のこす",
+      "のこすい",
+      "のこお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1215,
+    "id": "n3-vocab_reading-1215",
+    "target": "残り",
+    "sentence": "《残り》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のこりい",
+      "あああ",
+      "のこお",
+      "のこり"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1216,
+    "id": "n3-vocab_reading-1216",
+    "target": "乗せる",
+    "sentence": "《乗せる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のせる",
+      "のせるい",
+      "のせお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1217,
+    "id": "n3-vocab_reading-1217",
+    "target": "除く",
+    "sentence": "《除く》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "のぞお",
+      "のぞくい",
+      "のぞく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1218,
+    "id": "n3-vocab_reading-1218",
+    "target": "望み",
+    "sentence": "《望み》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のぞお",
+      "のぞみい",
+      "あああ",
+      "のぞみ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1219,
+    "id": "n3-vocab_reading-1219",
+    "target": "望む",
+    "sentence": "《望む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "のぞむい",
+      "あああ",
+      "のぞむ",
+      "のぞお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1220,
+    "id": "n3-vocab_reading-1220",
+    "target": "伸びる",
+    "sentence": "《伸びる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "のびる",
+      "のびるい",
+      "のびお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1221,
+    "id": "n3-vocab_reading-1221",
+    "target": "昇る",
+    "sentence": "《昇る》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "のぼお",
+      "のぼる",
+      "のぼるい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1222,
+    "id": "n3-vocab_reading-1222",
+    "target": "灰",
+    "sentence": "《灰》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はお",
+      "はいい",
+      "はい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1223,
+    "id": "n3-vocab_reading-1223",
+    "target": "配達",
+    "sentence": "《配達》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はいたつい",
+      "あああ",
+      "はいたつ",
+      "はいたお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1224,
+    "id": "n3-vocab_reading-1224",
+    "target": "墓",
+    "sentence": "《墓》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はかい",
+      "あああ",
+      "はお",
+      "はか"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1225,
+    "id": "n3-vocab_reading-1225",
+    "target": "馬鹿",
+    "sentence": "《馬鹿》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ばお",
+      "ばか",
+      "ばかい",
+      "はか"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1226,
+    "id": "n3-vocab_reading-1226",
+    "target": "博士",
+    "sentence": "《博士》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はかお",
+      "はかせい",
+      "はかせ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1227,
+    "id": "n3-vocab_reading-1227",
+    "target": "計る",
+    "sentence": "《計る》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はかお",
+      "はかるい",
+      "あああ",
+      "はかる"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1228,
+    "id": "n3-vocab_reading-1228",
+    "target": "吐く",
+    "sentence": "《吐く》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はくい",
+      "はく",
+      "はお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1229,
+    "id": "n3-vocab_reading-1229",
+    "target": "拍手",
+    "sentence": "《拍手》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はくしお",
+      "はくしゅい",
+      "はくしゅ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1230,
+    "id": "n3-vocab_reading-1230",
+    "target": "莫大",
+    "sentence": "《莫大》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ばくだいい",
+      "ばくだお",
+      "ばくだい",
+      "はくだい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1231,
+    "id": "n3-vocab_reading-1231",
+    "target": "爆発",
+    "sentence": "《爆発》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ばくはつ",
+      "ばくはお",
+      "はくはつ",
+      "ばくはつい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1232,
+    "id": "n3-vocab_reading-1232",
+    "target": "博物館",
+    "sentence": "《博物館》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はくぶつかお",
+      "はくぶつかんい",
+      "はくぶつかん",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1233,
+    "id": "n3-vocab_reading-1233",
+    "target": "激しい",
+    "sentence": "《激しい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はげしい",
+      "はげしいい",
+      "はげしお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1234,
+    "id": "n3-vocab_reading-1234",
+    "target": "鋏",
+    "sentence": "《鋏》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はさみ",
+      "はさみい",
+      "はさお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1235,
+    "id": "n3-vocab_reading-1235",
+    "target": "破産",
+    "sentence": "《破産》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はさんい",
+      "あああ",
+      "はさん",
+      "はさお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1236,
+    "id": "n3-vocab_reading-1236",
+    "target": "端",
+    "sentence": "《端》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はお",
+      "はしい",
+      "あああ",
+      "はし"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1237,
+    "id": "n3-vocab_reading-1237",
+    "target": "始まり",
+    "sentence": "《始まり》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はじまりい",
+      "はしまり",
+      "はじまお",
+      "はじまり"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1238,
+    "id": "n3-vocab_reading-1238",
+    "target": "外す",
+    "sentence": "《外す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はずすい",
+      "はずす",
+      "はずお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1239,
+    "id": "n3-vocab_reading-1239",
+    "target": "旗",
+    "sentence": "《旗》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はた",
+      "はたい",
+      "はお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1240,
+    "id": "n3-vocab_reading-1240",
+    "target": "畑",
+    "sentence": "《畑》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はたけ",
+      "はたけい",
+      "はたお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1241,
+    "id": "n3-vocab_reading-1241",
+    "target": "二十",
+    "sentence": "《二十》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はたお",
+      "はたちい",
+      "はたち"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1242,
+    "id": "n3-vocab_reading-1242",
+    "target": "働き",
+    "sentence": "《働き》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はたらきい",
+      "はたらお",
+      "はたらき"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1243,
+    "id": "n3-vocab_reading-1243",
+    "target": "発行",
+    "sentence": "《発行》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はこう",
+      "はっこう",
+      "はっこうい",
+      "はっこ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1244,
+    "id": "n3-vocab_reading-1244",
+    "target": "発車",
+    "sentence": "《発車》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はっしゃ",
+      "はっしゃい",
+      "はっしお",
+      "はしゃ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1245,
+    "id": "n3-vocab_reading-1245",
+    "target": "罰する",
+    "sentence": "《罰する》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ばっするい",
+      "ばっする",
+      "はっする",
+      "ばする"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1246,
+    "id": "n3-vocab_reading-1246",
+    "target": "発達",
+    "sentence": "《発達》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はたつ",
+      "はったお",
+      "はったつい",
+      "はったつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1247,
+    "id": "n3-vocab_reading-1247",
+    "target": "発展",
+    "sentence": "《発展》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はってん",
+      "はってんい",
+      "はってお",
+      "はてん"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1248,
+    "id": "n3-vocab_reading-1248",
+    "target": "発表",
+    "sentence": "《発表》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はっぴょう",
+      "はっぴょうい",
+      "はっぴょ",
+      "はぴょう"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1249,
+    "id": "n3-vocab_reading-1249",
+    "target": "発明",
+    "sentence": "《発明》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はつめい",
+      "はつめいい",
+      "はつめお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1250,
+    "id": "n3-vocab_reading-1250",
+    "target": "話し合う",
+    "sentence": "《話し合う》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はなしあう",
+      "はなしあ",
+      "はなしあうい",
+      "はなしあお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1251,
+    "id": "n3-vocab_reading-1251",
+    "target": "放す",
+    "sentence": "《放す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はなすい",
+      "はなす",
+      "はなお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1252,
+    "id": "n3-vocab_reading-1252",
+    "target": "離れる",
+    "sentence": "《離れる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はなれるい",
+      "はなれる",
+      "はなれお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1253,
+    "id": "n3-vocab_reading-1253",
+    "target": "羽",
+    "sentence": "《羽》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はお",
+      "はねい",
+      "はね"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1254,
+    "id": "n3-vocab_reading-1254",
+    "target": "幅",
+    "sentence": "《幅》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はばい",
+      "はば",
+      "はは",
+      "はお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1255,
+    "id": "n3-vocab_reading-1255",
+    "target": "母親",
+    "sentence": "《母親》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ははおや",
+      "ははおやい",
+      "ははおお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1256,
+    "id": "n3-vocab_reading-1256",
+    "target": "省く",
+    "sentence": "《省く》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はぶお",
+      "はぶくい",
+      "はぶく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1257,
+    "id": "n3-vocab_reading-1257",
+    "target": "場面",
+    "sentence": "《場面》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ばめん",
+      "はめん",
+      "ばめんい",
+      "ばめお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1258,
+    "id": "n3-vocab_reading-1258",
+    "target": "腹",
+    "sentence": "《腹》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はお",
+      "あああ",
+      "はらい",
+      "はら"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1259,
+    "id": "n3-vocab_reading-1259",
+    "target": "針",
+    "sentence": "《針》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はり",
+      "あああ",
+      "はりい",
+      "はお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1260,
+    "id": "n3-vocab_reading-1260",
+    "target": "張る",
+    "sentence": "《張る》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "はお",
+      "はるい",
+      "はる"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1261,
+    "id": "n3-vocab_reading-1261",
+    "target": "番",
+    "sentence": "《番》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はん",
+      "ばんい",
+      "ばん",
+      "ばお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1262,
+    "id": "n3-vocab_reading-1262",
+    "target": "範囲",
+    "sentence": "《範囲》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はんい",
+      "あああ",
+      "はんいい",
+      "はんお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1263,
+    "id": "n3-vocab_reading-1263",
+    "target": "反抗",
+    "sentence": "《反抗》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はんこうい",
+      "はんこお",
+      "はんこ",
+      "はんこう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1264,
+    "id": "n3-vocab_reading-1264",
+    "target": "犯罪",
+    "sentence": "《犯罪》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はんざお",
+      "はんざい",
+      "あああ",
+      "はんざいい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1265,
+    "id": "n3-vocab_reading-1265",
+    "target": "判断",
+    "sentence": "《判断》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はんだん",
+      "はんだんい",
+      "はんだお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1266,
+    "id": "n3-vocab_reading-1266",
+    "target": "販売",
+    "sentence": "《販売》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "はんはい",
+      "はんばい",
+      "はんばいい",
+      "はんばお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1267,
+    "id": "n3-vocab_reading-1267",
+    "target": "被害",
+    "sentence": "《被害》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひがい",
+      "ひがいい",
+      "ひがお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1268,
+    "id": "n3-vocab_reading-1268",
+    "target": "比較",
+    "sentence": "《比較》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ひかく",
+      "ひかお",
+      "ひかくい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1269,
+    "id": "n3-vocab_reading-1269",
+    "target": "轢く",
+    "sentence": "《轢く》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ひお",
+      "ひくい",
+      "ひく"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1270,
+    "id": "n3-vocab_reading-1270",
+    "target": "飛行",
+    "sentence": "《飛行》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひこう",
+      "ひこうい",
+      "ひこお",
+      "ひこ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1271,
+    "id": "n3-vocab_reading-1271",
+    "target": "膝",
+    "sentence": "《膝》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひざ",
+      "ひざい",
+      "ひお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1272,
+    "id": "n3-vocab_reading-1272",
+    "target": "非常",
+    "sentence": "《非常》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひじょ",
+      "ひじょうい",
+      "ひじょう",
+      "ひしょう"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1273,
+    "id": "n3-vocab_reading-1273",
+    "target": "美人",
+    "sentence": "《美人》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "びじんい",
+      "びじお",
+      "びしん",
+      "びじん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1274,
+    "id": "n3-vocab_reading-1274",
+    "target": "日付",
+    "sentence": "《日付》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひづけ",
+      "ひづけい",
+      "あああ",
+      "ひづお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1275,
+    "id": "n3-vocab_reading-1275",
+    "target": "否定",
+    "sentence": "《否定》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ひてお",
+      "ひていい",
+      "ひてい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1276,
+    "id": "n3-vocab_reading-1276",
+    "target": "一言",
+    "sentence": "《一言》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひとこお",
+      "あああ",
+      "ひとこと",
+      "ひとことい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1277,
+    "id": "n3-vocab_reading-1277",
+    "target": "等しい",
+    "sentence": "《等しい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひとしい",
+      "ひとしいい",
+      "ひとしお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1278,
+    "id": "n3-vocab_reading-1278",
+    "target": "一人一人",
+    "sentence": "《一人一人》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひとりひとりい",
+      "ひとりひとお",
+      "ひとりひとり",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1279,
+    "id": "n3-vocab_reading-1279",
+    "target": "批判",
+    "sentence": "《批判》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ひはん",
+      "ひはお",
+      "ひはんい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1280,
+    "id": "n3-vocab_reading-1280",
+    "target": "批評",
+    "sentence": "《批評》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひひょ",
+      "ひひょう",
+      "ひひょうい",
+      "ひひょお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1281,
+    "id": "n3-vocab_reading-1281",
+    "target": "秘密",
+    "sentence": "《秘密》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ひみお",
+      "ひみつ",
+      "ひみつい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1282,
+    "id": "n3-vocab_reading-1282",
+    "target": "微妙",
+    "sentence": "《微妙》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "びみょうい",
+      "びみょ",
+      "びみょお",
+      "びみょう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1283,
+    "id": "n3-vocab_reading-1283",
+    "target": "紐",
+    "sentence": "《紐》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひも",
+      "ひもい",
+      "ひお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1284,
+    "id": "n3-vocab_reading-1284",
+    "target": "費用",
+    "sentence": "《費用》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひよお",
+      "ひようい",
+      "ひよ",
+      "ひよう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1285,
+    "id": "n3-vocab_reading-1285",
+    "target": "表",
+    "sentence": "《表》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひょう",
+      "ひょ",
+      "ひょうい",
+      "ひょお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1286,
+    "id": "n3-vocab_reading-1286",
+    "target": "秒",
+    "sentence": "《秒》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "びょ",
+      "びょう",
+      "びょうい",
+      "びょお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1287,
+    "id": "n3-vocab_reading-1287",
+    "target": "評価",
+    "sentence": "《評価》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひょうか",
+      "ひょか",
+      "ひょうお",
+      "ひょうかい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1288,
+    "id": "n3-vocab_reading-1288",
+    "target": "表現",
+    "sentence": "《表現》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひょうげんい",
+      "ひょうげお",
+      "ひょげん",
+      "ひょうげん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1289,
+    "id": "n3-vocab_reading-1289",
+    "target": "平等",
+    "sentence": "《平等》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "びょうどお",
+      "びょうどうい",
+      "びょどう",
+      "びょうどう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1290,
+    "id": "n3-vocab_reading-1290",
+    "target": "表面",
+    "sentence": "《表面》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひょうめお",
+      "ひょめん",
+      "ひょうめん",
+      "ひょうめんい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 1291,
+    "id": "n3-vocab_reading-1291",
+    "target": "広がる",
+    "sentence": "《広がる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ひろがるい",
+      "ひろがる",
+      "あああ",
+      "ひろがお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1292,
+    "id": "n3-vocab_reading-1292",
+    "target": "瓶",
+    "sentence": "《瓶》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "びん",
+      "びんい",
+      "びお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1293,
+    "id": "n3-vocab_reading-1293",
+    "target": "不",
+    "sentence": "《不》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふ",
+      "あああ",
+      "ふい",
+      "ふお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1294,
+    "id": "n3-vocab_reading-1294",
+    "target": "不安",
+    "sentence": "《不安》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふあお",
+      "ふあんい",
+      "あああ",
+      "ふあん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1295,
+    "id": "n3-vocab_reading-1295",
+    "target": "夫婦",
+    "sentence": "《夫婦》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふうふ",
+      "ふうお",
+      "ふふ",
+      "ふうふい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1296,
+    "id": "n3-vocab_reading-1296",
+    "target": "武器",
+    "sentence": "《武器》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ぶき",
+      "ぶきい",
+      "ぶお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1297,
+    "id": "n3-vocab_reading-1297",
+    "target": "含む",
+    "sentence": "《含む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふくむ",
+      "ふくむい",
+      "あああ",
+      "ふくお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1298,
+    "id": "n3-vocab_reading-1298",
+    "target": "袋",
+    "sentence": "《袋》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ふくお",
+      "ふくろい",
+      "ふくろ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1299,
+    "id": "n3-vocab_reading-1299",
+    "target": "不幸",
+    "sentence": "《不幸》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふこうい",
+      "ふこう",
+      "ふこ",
+      "ふこお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1300,
+    "id": "n3-vocab_reading-1300",
+    "target": "節",
+    "sentence": "《節》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ふお",
+      "ふしい",
+      "ふし"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1301,
+    "id": "n3-vocab_reading-1301",
+    "target": "不思議",
+    "sentence": "《不思議》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ふしお",
+      "ふしぎい",
+      "ふしぎ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1302,
+    "id": "n3-vocab_reading-1302",
+    "target": "不自由",
+    "sentence": "《不自由》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふしゆう",
+      "ふじゆうい",
+      "ふじゆ",
+      "ふじゆう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1303,
+    "id": "n3-vocab_reading-1303",
+    "target": "夫人",
+    "sentence": "《夫人》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふしん",
+      "ふじん",
+      "ふじんい",
+      "ふじお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1304,
+    "id": "n3-vocab_reading-1304",
+    "target": "婦人",
+    "sentence": "《婦人》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふじん",
+      "ふじお",
+      "ふしん",
+      "ふじんい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1305,
+    "id": "n3-vocab_reading-1305",
+    "target": "不正",
+    "sentence": "《不正》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふせいい",
+      "ふせい",
+      "あああ",
+      "ふせお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1306,
+    "id": "n3-vocab_reading-1306",
+    "target": "防ぐ",
+    "sentence": "《防ぐ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふせぐ",
+      "ふせぐい",
+      "ふせお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1307,
+    "id": "n3-vocab_reading-1307",
+    "target": "双子",
+    "sentence": "《双子》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ふたご",
+      "ふたごい",
+      "ふたお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 1308,
+    "id": "n3-vocab_reading-1308",
+    "target": "縁",
+    "sentence": "《縁》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ふち",
+      "ふちい",
+      "ふお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 1309,
+    "id": "n3-vocab_reading-1309",
+    "target": "打つ",
+    "sentence": "《打つ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "ぶお",
+      "ぶつい",
+      "ぶつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 1310,
+    "id": "n3-vocab_reading-1310",
+    "target": "物価",
+    "sentence": "《物価》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ぶか",
+      "ぶっかい",
+      "ぶっお",
+      "ぶっか"
+    ],
+    "answer": 3,
+    "correct": ""
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1444,
+    "id": "n2-vocab_reading-1445",
+    "target": "友好",
+    "correct": "ゆうこう",
+    "options": [
+      "ゆうこうい",
+      "ゆこう",
+      "ゆうこう",
+      "ゆうこお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1445,
+    "id": "n2-vocab_reading-1446",
+    "target": "郵送",
+    "correct": "ゆうそう",
+    "options": [
+      "ゆうそう",
+      "ゆうそお",
+      "ゆうそうい",
+      "ゆそう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1446,
+    "id": "n2-vocab_reading-1447",
+    "target": "夕立",
+    "correct": "ゆうだち",
+    "options": [
+      "ゆうだち",
+      "ゆうだお",
+      "ゆだち",
+      "ゆうだちい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1447,
+    "id": "n2-vocab_reading-1448",
+    "target": "夕日",
+    "correct": "ゆうひ",
+    "options": [
+      "ゆうひい",
+      "ゆうひ",
+      "ゆうお",
+      "ゆひ"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1448,
+    "id": "n2-vocab_reading-1449",
+    "target": "悠々",
+    "correct": "ゆうゆう",
+    "options": [
+      "ゆゆう",
+      "ゆうゆうい",
+      "ゆうゆお",
+      "ゆうゆう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1449,
+    "id": "n2-vocab_reading-1450",
+    "target": "有料",
+    "correct": "ゆうりょう",
+    "options": [
+      "ゆうりょお",
+      "ゆうりょうい",
+      "ゆりょう",
+      "ゆうりょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1450,
+    "id": "n2-vocab_reading-1451",
+    "target": "浴衣",
+    "correct": "ゆかた",
+    "options": [
+      "ゆかたい",
+      "ゆかた",
+      "ゆかお",
+      "ゆがた"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1451,
+    "id": "n2-vocab_reading-1452",
+    "target": "湯気",
+    "correct": "ゆげ",
+    "options": [
+      "ゆげ",
+      "ゆけ",
+      "ゆげい",
+      "ゆお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1452,
+    "id": "n2-vocab_reading-1453",
+    "target": "輸血",
+    "correct": "ゆけつ",
+    "options": [
+      "ゆけつ",
+      "ゆけつい",
+      "ゆげつ",
+      "ゆけお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1454,
+    "id": "n2-vocab_reading-1455",
+    "target": "油断",
+    "correct": "ゆだん",
+    "options": [
+      "ゆだん",
+      "ゆだんい",
+      "ゆだお",
+      "ゆたん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1455,
+    "id": "n2-vocab_reading-1456",
+    "target": "湯飲み",
+    "correct": "ゆのみ",
+    "options": [
+      "っゆのみ",
+      "ゆのお",
+      "ゆのみい",
+      "ゆのみ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1456,
+    "id": "n2-vocab_reading-1457",
+    "target": "緩い",
+    "correct": "ゆるい",
+    "options": [
+      "ゆるう",
+      "ゆるお",
+      "ゆるいい",
+      "ゆるい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1457,
+    "id": "n2-vocab_reading-1458",
+    "target": "溶岩",
+    "correct": "ようがん",
+    "options": [
+      "ようがん",
+      "ようがお",
+      "ようがんい",
+      "よがん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1458,
+    "id": "n2-vocab_reading-1459",
+    "target": "容器",
+    "correct": "ようき",
+    "options": [
+      "ようお",
+      "ようき",
+      "ようきい",
+      "よき"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1459,
+    "id": "n2-vocab_reading-1460",
+    "target": "用語",
+    "correct": "ようご",
+    "options": [
+      "ようご",
+      "ようごい",
+      "ようお",
+      "よご"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1460,
+    "id": "n2-vocab_reading-1461",
+    "target": "幼児",
+    "correct": "ようじ",
+    "options": [
+      "ようじい",
+      "ようし",
+      "よじ",
+      "ようじ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1461,
+    "id": "n2-vocab_reading-1462",
+    "target": "容積",
+    "correct": "ようせき",
+    "options": [
+      "ようせき",
+      "ようせお",
+      "よせき",
+      "ようせきい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1462,
+    "id": "n2-vocab_reading-1463",
+    "target": "幼稚",
+    "correct": "ようち",
+    "options": [
+      "ようち",
+      "よち",
+      "ようちい",
+      "ようお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1463,
+    "id": "n2-vocab_reading-1464",
+    "target": "幼稚園",
+    "correct": "ようちえん",
+    "options": [
+      "ようちえん",
+      "よちえん",
+      "ようちえお",
+      "ようちえんい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1464,
+    "id": "n2-vocab_reading-1465",
+    "target": "用途",
+    "correct": "ようと",
+    "options": [
+      "ようとい",
+      "よと",
+      "ようと",
+      "ようお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1465,
+    "id": "n2-vocab_reading-1466",
+    "target": "洋品店",
+    "correct": "ようひんてん",
+    "options": [
+      "ようひんてんい",
+      "ようひんてお",
+      "よひんてん",
+      "ようひんてん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1466,
+    "id": "n2-vocab_reading-1467",
+    "target": "養分",
+    "correct": "ようぶん",
+    "options": [
+      "ようぶん",
+      "ようぶお",
+      "よぶん",
+      "ようぶんい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1467,
+    "id": "n2-vocab_reading-1468",
+    "target": "羊毛",
+    "correct": "ようもう",
+    "options": [
+      "ようもう",
+      "よもう",
+      "ようもうい",
+      "ようもお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1468,
+    "id": "n2-vocab_reading-1469",
+    "target": "漸く",
+    "correct": "ようやく",
+    "options": [
+      "ようやくい",
+      "よやく",
+      "ようやお",
+      "ようやく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1469,
+    "id": "n2-vocab_reading-1470",
+    "target": "要領",
+    "correct": "ようりょう",
+    "options": [
+      "ようりょお",
+      "よりょう",
+      "ようりょう",
+      "ようりょうい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1470,
+    "id": "n2-vocab_reading-1471",
+    "target": "欲張り",
+    "correct": "よくばり",
+    "options": [
+      "よくばお",
+      "よくはり",
+      "よくばり",
+      "よくばりい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1471,
+    "id": "n2-vocab_reading-1472",
+    "target": "余計",
+    "correct": "よけい",
+    "options": [
+      "よけいい",
+      "よけい",
+      "よけお",
+      "よけう"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1472,
+    "id": "n2-vocab_reading-1473",
+    "target": "汚す",
+    "correct": "よごす",
+    "options": [
+      "よごすい",
+      "よこす",
+      "よごお",
+      "よごす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1473,
+    "id": "n2-vocab_reading-1474",
+    "target": "寄せる",
+    "correct": "よせる",
+    "options": [
+      "よせお",
+      "よせるい",
+      "よせる",
+      "よぜる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1474,
+    "id": "n2-vocab_reading-1475",
+    "target": "余所",
+    "correct": "よそ",
+    "options": [
+      "よそ",
+      "よお",
+      "よぞ",
+      "よそい"
+    ],
+    "answer": 0
+  }
+]

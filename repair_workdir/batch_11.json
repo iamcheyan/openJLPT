@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 626,
+    "id": "n2-vocab_reading-0627",
+    "target": "後輩",
+    "correct": "こうはい",
+    "options": [
+      "こうはい",
+      "こうはお",
+      "こはい",
+      "こうはいい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 627,
+    "id": "n2-vocab_reading-0628",
+    "target": "公表",
+    "correct": "こうひょう",
+    "options": [
+      "こひょう",
+      "こうひょう",
+      "こうひょお",
+      "こうひょうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 628,
+    "id": "n2-vocab_reading-0629",
+    "target": "公務",
+    "correct": "こうむ",
+    "options": [
+      "こうむ",
+      "こうお",
+      "こむ",
+      "こうむい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 630,
+    "id": "n2-vocab_reading-0631",
+    "target": "紅葉",
+    "correct": "こうよう",
+    "options": [
+      "こよう",
+      "こうようい",
+      "こうよう",
+      "こうよお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 631,
+    "id": "n2-vocab_reading-0632",
+    "target": "合理",
+    "correct": "ごうり",
+    "options": [
+      "ごうお",
+      "ごうり",
+      "ごり",
+      "ごうりい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 633,
+    "id": "n2-vocab_reading-0634",
+    "target": "合流",
+    "correct": "ごうりゅう",
+    "options": [
+      "ごうりゅうい",
+      "ごりゅう",
+      "ごうりゅお",
+      "ごうりゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 634,
+    "id": "n2-vocab_reading-0635",
+    "target": "超える",
+    "correct": "こえる",
+    "options": [
+      "こえお",
+      "こえるい",
+      "ごえる",
+      "こえる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 635,
+    "id": "n2-vocab_reading-0636",
+    "target": "焦がす",
+    "correct": "こがす",
+    "options": [
+      "こがす",
+      "こがすい",
+      "こがお",
+      "ごがす"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 636,
+    "id": "n2-vocab_reading-0637",
+    "target": "国籍",
+    "correct": "こくせき",
+    "options": [
+      "こくせお",
+      "こくせき",
+      "こくせきい",
+      "ごくせき"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 637,
+    "id": "n2-vocab_reading-0638",
+    "target": "国立",
+    "correct": "こくりつ",
+    "options": [
+      "こくりつい",
+      "こくりつ",
+      "ごくりつ",
+      "こくりお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 638,
+    "id": "n2-vocab_reading-0639",
+    "target": "焦げる",
+    "correct": "こげる",
+    "options": [
+      "ごげる",
+      "こげる",
+      "こげるい",
+      "こげお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 641,
+    "id": "n2-vocab_reading-0642",
+    "target": "五十音",
+    "correct": "ごじゅうおん",
+    "options": [
+      "ごじゅうおん",
+      "ごじゅうおんい",
+      "ごじゅおん",
+      "ごしゅうおん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 642,
+    "id": "n2-vocab_reading-0643",
+    "target": "超す",
+    "correct": "こす",
+    "options": [
+      "ごす",
+      "こお",
+      "こすい",
+      "こす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 643,
+    "id": "n2-vocab_reading-0644",
+    "target": "御馳走",
+    "correct": "ごちそう",
+    "options": [
+      "ごちそう",
+      "ごちそお",
+      "ごちそ",
+      "ごちそうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 644,
+    "id": "n2-vocab_reading-0645",
+    "target": "小遣い",
+    "correct": "こづかい",
+    "options": [
+      "こづかう",
+      "こづかお",
+      "こづかいい",
+      "こづかい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 645,
+    "id": "n2-vocab_reading-0646",
+    "target": "古典",
+    "correct": "こてん",
+    "options": [
+      "こてん",
+      "こてんい",
+      "こてお",
+      "ごてん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 646,
+    "id": "n2-vocab_reading-0647",
+    "target": "琴",
+    "correct": "こと",
+    "options": [
+      "ごと",
+      "こお",
+      "ことい",
+      "こと"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 647,
+    "id": "n2-vocab_reading-0648",
+    "target": "言付ける",
+    "correct": "ことづける",
+    "options": [
+      "ことづけお",
+      "ことづけるい",
+      "ことづける",
+      "ごとづける"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 648,
+    "id": "n2-vocab_reading-0649",
+    "target": "言葉遣い",
+    "correct": "ことばづかい",
+    "options": [
+      "ことはづかい",
+      "ことばづかい",
+      "ことばづかいい",
+      "ことばづかお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 650,
+    "id": "n2-vocab_reading-0651",
+    "target": "零れる",
+    "correct": "こぼれる",
+    "options": [
+      "こぼれお",
+      "こぼれるい",
+      "ごぼれる",
+      "こぼれる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 651,
+    "id": "n2-vocab_reading-0652",
+    "target": "御免",
+    "correct": "ごめん",
+    "options": [
+      "こめん",
+      "ごめお",
+      "ごめんい",
+      "ごめん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 652,
+    "id": "n2-vocab_reading-0653",
+    "target": "小指",
+    "correct": "こゆび",
+    "options": [
+      "こゆび",
+      "ごゆび",
+      "こゆお",
+      "こゆびい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 653,
+    "id": "n2-vocab_reading-0654",
+    "target": "娯楽",
+    "correct": "ごらく",
+    "options": [
+      "こらく",
+      "ごらお",
+      "ごらくい",
+      "ごらく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 654,
+    "id": "n2-vocab_reading-0655",
+    "target": "御覧",
+    "correct": "ごらん",
+    "options": [
+      "ごらお",
+      "ごらんい",
+      "こらん",
+      "ごらん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 655,
+    "id": "n2-vocab_reading-0656",
+    "target": "転がす",
+    "correct": "ころがす",
+    "options": [
+      "ころがす",
+      "ごろがす",
+      "ころがすい",
+      "ころがお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 656,
+    "id": "n2-vocab_reading-0657",
+    "target": "転がる",
+    "correct": "ころがる",
+    "options": [
+      "ころがお",
+      "ころがるい",
+      "ごろがる",
+      "ころがる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 657,
+    "id": "n2-vocab_reading-0658",
+    "target": "紺",
+    "correct": "こん",
+    "options": [
+      "こん",
+      "ごん",
+      "こんい",
+      "こお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 659,
+    "id": "n2-vocab_reading-0660",
+    "target": "献立",
+    "correct": "こんだて",
+    "options": [
+      "こんだて",
+      "こんだてい",
+      "こんだお",
+      "ごんだて"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 660,
+    "id": "n2-vocab_reading-0661",
+    "target": "在学",
+    "correct": "ざいがく",
+    "options": [
+      "ざいがくい",
+      "ざいがお",
+      "ざうがく",
+      "ざいがく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 661,
+    "id": "n2-vocab_reading-0662",
+    "target": "祭日",
+    "correct": "さいじつ",
+    "options": [
+      "さいじお",
+      "さいじつ",
+      "さいしつ",
+      "さいじつい"
+    ],
+    "answer": 1
+  }
+]

@@ -1,0 +1,1336 @@
+[
+  {
+    "idx": 111,
+    "id": "n4-vocab_reading-111",
+    "target": "見物",
+    "sentence": "この《見物》の読み方を選んでください。",
+    "options": [
+      "けんぶつ",
+      "けんぶつい",
+      "けんぶお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 112,
+    "id": "n4-vocab_reading-112",
+    "target": "男性",
+    "sentence": "この《男性》の読み方を選んでください。",
+    "options": [
+      "だんせいい",
+      "だんせい",
+      "だんせお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 113,
+    "id": "n4-vocab_reading-113",
+    "target": "急",
+    "sentence": "この《急》の読み方を選んでください。",
+    "options": [
+      "きゅう",
+      "きゅお",
+      "きゅ",
+      "きゅうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 114,
+    "id": "n4-vocab_reading-114",
+    "target": "踊り",
+    "sentence": "この《踊り》の読み方を選んでください。",
+    "options": [
+      "おどり",
+      "おどお",
+      "おどりい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 115,
+    "id": "n4-vocab_reading-115",
+    "target": "自由",
+    "sentence": "この《自由》の読み方を選んでください。",
+    "options": [
+      "じゆ",
+      "しゆう",
+      "じゆうい",
+      "じゆう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 116,
+    "id": "n4-vocab_reading-116",
+    "target": "心配",
+    "sentence": "この《心配》の読み方を選んでください。",
+    "options": [
+      "しんぱお",
+      "しんぱいい",
+      "しんぱい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 117,
+    "id": "n4-vocab_reading-117",
+    "target": "急行",
+    "sentence": "この《急行》の読み方を選んでください。",
+    "options": [
+      "きゅうこお",
+      "きゅうこう",
+      "きゅこう",
+      "きゅうこうい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 118,
+    "id": "n4-vocab_reading-118",
+    "target": "葡萄",
+    "sentence": "この《葡萄》の読み方を選んでください。",
+    "options": [
+      "ぶどうい",
+      "ぶど",
+      "ぶどお",
+      "ぶどう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 119,
+    "id": "n4-vocab_reading-119",
+    "target": "僕",
+    "sentence": "この《僕》の読み方を選んでください。",
+    "options": [
+      "ぼお",
+      "ぼくい",
+      "ぼく"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 120,
+    "id": "n4-vocab_reading-120",
+    "target": "技術",
+    "sentence": "この《技術》の読み方を選んでください。",
+    "options": [
+      "ぎじゅつ",
+      "ぎじゅお",
+      "ぎしゅつ",
+      "ぎじゅつい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 121,
+    "id": "n4-vocab_reading-121",
+    "target": "台風",
+    "sentence": "この《台風》の読み方を選んでください。",
+    "options": [
+      "たいふうい",
+      "たいふお",
+      "たいふ",
+      "たいふう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 122,
+    "id": "n4-vocab_reading-122",
+    "target": "鏡",
+    "sentence": "この《鏡》の読み方を選んでください。",
+    "options": [
+      "かがお",
+      "かがみい",
+      "かがみ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 123,
+    "id": "n4-vocab_reading-123",
+    "target": "浅い",
+    "sentence": "この《浅い》の読み方を選んでください。",
+    "options": [
+      "あさお",
+      "あさいい",
+      "あさい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 124,
+    "id": "n4-vocab_reading-124",
+    "target": "高校",
+    "sentence": "この《高校》の読み方を選んでください。",
+    "options": [
+      "こうこお",
+      "こうこうい",
+      "ここう",
+      "こうこう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 125,
+    "id": "n4-vocab_reading-125",
+    "target": "人口",
+    "sentence": "この《人口》の読み方を選んでください。",
+    "options": [
+      "じんこう",
+      "しんこう",
+      "じんこうい",
+      "じんこ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 126,
+    "id": "n4-vocab_reading-126",
+    "target": "着物",
+    "sentence": "この《着物》の読み方を選んでください。",
+    "options": [
+      "きものい",
+      "きもお",
+      "きもの"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 127,
+    "id": "n4-vocab_reading-127",
+    "target": "一度",
+    "sentence": "この《一度》の読み方を選んでください。",
+    "options": [
+      "いちどい",
+      "いちお",
+      "いちど"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 128,
+    "id": "n4-vocab_reading-128",
+    "target": "法律",
+    "sentence": "この《法律》の読み方を選んでください。",
+    "options": [
+      "ほうりお",
+      "ほうりつい",
+      "ほりつ",
+      "ほうりつ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 129,
+    "id": "n4-vocab_reading-129",
+    "target": "電報",
+    "sentence": "この《電報》の読み方を選んでください。",
+    "options": [
+      "でんぽうい",
+      "でんぽ",
+      "でんぽお",
+      "でんぽう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 130,
+    "id": "n4-vocab_reading-130",
+    "target": "見える",
+    "sentence": "この《見える》の読み方を選んでください。",
+    "options": [
+      "みえる",
+      "みえるい",
+      "みえお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 131,
+    "id": "n4-vocab_reading-131",
+    "target": "小説",
+    "sentence": "この《小説》の読み方を選んでください。",
+    "options": [
+      "しょうせお",
+      "しょせつ",
+      "しょうせつ",
+      "しょうせつい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 132,
+    "id": "n4-vocab_reading-132",
+    "target": "教育",
+    "sentence": "この《教育》の読み方を選んでください。",
+    "options": [
+      "きょういく",
+      "きょういお",
+      "きょいく",
+      "きょういくい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 133,
+    "id": "n4-vocab_reading-133",
+    "target": "力",
+    "sentence": "この《力》の読み方を選んでください。",
+    "options": [
+      "ちかお",
+      "ちからい",
+      "ちから"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 134,
+    "id": "n4-vocab_reading-134",
+    "target": "苦い",
+    "sentence": "この《苦い》の読み方を選んでください。",
+    "options": [
+      "にがお",
+      "にがいい",
+      "にがい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 135,
+    "id": "n4-vocab_reading-135",
+    "target": "昼間",
+    "sentence": "この《昼間》の読み方を選んでください。",
+    "options": [
+      "ひるま",
+      "ひるお",
+      "ひるまい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 136,
+    "id": "n4-vocab_reading-136",
+    "target": "適当",
+    "sentence": "この《適当》の読み方を選んでください。",
+    "options": [
+      "てきとう",
+      "てきと",
+      "てきとうい",
+      "てきとお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 137,
+    "id": "n4-vocab_reading-137",
+    "target": "住所",
+    "sentence": "この《住所》の読み方を選んでください。",
+    "options": [
+      "じゅうしょ",
+      "じゅしょ",
+      "しゅうしょ",
+      "じゅうしょい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 138,
+    "id": "n4-vocab_reading-138",
+    "target": "十分",
+    "sentence": "この《十分》の読み方を選んでください。",
+    "options": [
+      "しゅうぶん",
+      "じゅうぶんい",
+      "じゅうぶん",
+      "じゅぶん"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 139,
+    "id": "n4-vocab_reading-139",
+    "target": "光",
+    "sentence": "この《光》の読み方を選んでください。",
+    "options": [
+      "ひかお",
+      "ひかりい",
+      "ひかり"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 140,
+    "id": "n4-vocab_reading-140",
+    "target": "恥ずかしい",
+    "sentence": "この《恥ずかしい》の読み方を選んでください。",
+    "options": [
+      "はずかしい",
+      "はずかしいい",
+      "はずかしお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 141,
+    "id": "n4-vocab_reading-141",
+    "target": "間違える",
+    "sentence": "この《間違える》の読み方を選んでください。",
+    "options": [
+      "まちがえお",
+      "まちがえるい",
+      "まちがえる"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 142,
+    "id": "n4-vocab_reading-142",
+    "target": "贈り物",
+    "sentence": "この《贈り物》の読み方を選んでください。",
+    "options": [
+      "おくりもの",
+      "おくりものい",
+      "おくりもお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 143,
+    "id": "n4-vocab_reading-143",
+    "target": "将来",
+    "sentence": "この《将来》の読み方を選んでください。",
+    "options": [
+      "しょうらいい",
+      "しょうらお",
+      "しょらい",
+      "しょうらい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 144,
+    "id": "n4-vocab_reading-144",
+    "target": "差し上げる",
+    "sentence": "この《差し上げる》の読み方を選んでください。",
+    "options": [
+      "さしあげるい",
+      "さしあげお",
+      "さしあげる"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 145,
+    "id": "n4-vocab_reading-145",
+    "target": "妻",
+    "sentence": "この《妻》の読み方を選んでください。",
+    "options": [
+      "つお",
+      "つまい",
+      "つま"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 146,
+    "id": "n4-vocab_reading-146",
+    "target": "お祭り",
+    "sentence": "この《お祭り》の読み方を選んでください。",
+    "options": [
+      "おまつり",
+      "おまつりい",
+      "おまつお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 147,
+    "id": "n4-vocab_reading-147",
+    "target": "必要",
+    "sentence": "この《必要》の読み方を選んでください。",
+    "options": [
+      "ひつよお",
+      "ひつよ",
+      "ひつようい",
+      "ひつよう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 148,
+    "id": "n4-vocab_reading-148",
+    "target": "首",
+    "sentence": "この《首》の読み方を選んでください。",
+    "options": [
+      "くびい",
+      "くび",
+      "くお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 149,
+    "id": "n4-vocab_reading-149",
+    "target": "周り",
+    "sentence": "この《周り》の読み方を選んでください。",
+    "options": [
+      "まわり",
+      "まわりい",
+      "まわお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 150,
+    "id": "n4-vocab_reading-150",
+    "target": "暖房",
+    "sentence": "この《暖房》の読み方を選んでください。",
+    "options": [
+      "だんぼう",
+      "だんぼ",
+      "だんぼお",
+      "だんぼうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 151,
+    "id": "n4-vocab_reading-151",
+    "target": "空く",
+    "sentence": "この《空く》の読み方を選んでください。",
+    "options": [
+      "あお",
+      "あく",
+      "あくい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 152,
+    "id": "n4-vocab_reading-152",
+    "target": "反対",
+    "sentence": "この《反対》の読み方を選んでください。",
+    "options": [
+      "はんたいい",
+      "はんたい",
+      "はんたお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 153,
+    "id": "n4-vocab_reading-153",
+    "target": "光る",
+    "sentence": "この《光る》の読み方を選んでください。",
+    "options": [
+      "ひかる",
+      "ひかるい",
+      "ひかお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 154,
+    "id": "n4-vocab_reading-154",
+    "target": "集る",
+    "sentence": "この《集る》の読み方を選んでください。",
+    "options": [
+      "あつまる",
+      "あつまお",
+      "あつまるい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 155,
+    "id": "n4-vocab_reading-155",
+    "target": "悲しい",
+    "sentence": "この《悲しい》の読み方を選んでください。",
+    "options": [
+      "かなしい",
+      "かなしいい",
+      "かなしお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 156,
+    "id": "n4-vocab_reading-156",
+    "target": "残念",
+    "sentence": "この《残念》の読み方を選んでください。",
+    "options": [
+      "ざんねんい",
+      "ざんねん",
+      "ざんねお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 157,
+    "id": "n4-vocab_reading-157",
+    "target": "見つかる",
+    "sentence": "この《見つかる》の読み方を選んでください。",
+    "options": [
+      "みつかる",
+      "みつかるい",
+      "みつかお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 158,
+    "id": "n4-vocab_reading-158",
+    "target": "天気予報",
+    "sentence": "この《天気予報》の読み方を選んでください。",
+    "options": [
+      "てんきよほお",
+      "てんきよほ",
+      "てんきよほう",
+      "てんきよほうい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 159,
+    "id": "n4-vocab_reading-159",
+    "target": "知らせる",
+    "sentence": "この《知らせる》の読み方を選んでください。",
+    "options": [
+      "しらせお",
+      "しらせるい",
+      "しらせる"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 160,
+    "id": "n4-vocab_reading-160",
+    "target": "決める",
+    "sentence": "この《決める》の読み方を選んでください。",
+    "options": [
+      "きめお",
+      "きめるい",
+      "きめる"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 161,
+    "id": "n4-vocab_reading-161",
+    "target": "別",
+    "sentence": "この《別》の読み方を選んでください。",
+    "options": [
+      "べお",
+      "べつい",
+      "べつ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 162,
+    "id": "n4-vocab_reading-162",
+    "target": "坂",
+    "sentence": "この《坂》の読み方を選んでください。",
+    "options": [
+      "さか",
+      "さお",
+      "さかい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 163,
+    "id": "n4-vocab_reading-163",
+    "target": "家内",
+    "sentence": "この《家内》の読み方を選んでください。",
+    "options": [
+      "かない",
+      "かないい",
+      "かなお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 164,
+    "id": "n4-vocab_reading-164",
+    "target": "昼休み",
+    "sentence": "この《昼休み》の読み方を選んでください。",
+    "options": [
+      "ひるやすみ",
+      "ひるやすみい",
+      "ひるやすお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 165,
+    "id": "n4-vocab_reading-165",
+    "target": "進む",
+    "sentence": "この《進む》の読み方を選んでください。",
+    "options": [
+      "すすむ",
+      "すすむい",
+      "すすお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 166,
+    "id": "n4-vocab_reading-166",
+    "target": "科学",
+    "sentence": "この《科学》の読み方を選んでください。",
+    "options": [
+      "かがく",
+      "かがくい",
+      "かがお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 167,
+    "id": "n4-vocab_reading-167",
+    "target": "飛行場",
+    "sentence": "この《飛行場》の読み方を選んでください。",
+    "options": [
+      "ひこうじょうい",
+      "ひこうじょう",
+      "ひこじょう",
+      "ひこうしょう"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 168,
+    "id": "n4-vocab_reading-168",
+    "target": "連れる",
+    "sentence": "この《連れる》の読み方を選んでください。",
+    "options": [
+      "つれお",
+      "つれるい",
+      "つれる"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 169,
+    "id": "n4-vocab_reading-169",
+    "target": "新聞社",
+    "sentence": "この《新聞社》の読み方を選んでください。",
+    "options": [
+      "しんぶんしお",
+      "しんぶんしゃ",
+      "しんぶんしゃい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 170,
+    "id": "n4-vocab_reading-170",
+    "target": "品物",
+    "sentence": "この《品物》の読み方を選んでください。",
+    "options": [
+      "しなもの",
+      "しなものい",
+      "しなもお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 171,
+    "id": "n4-vocab_reading-171",
+    "target": "決る",
+    "sentence": "この《決る》の読み方を選んでください。",
+    "options": [
+      "きまる",
+      "きまお",
+      "きまるい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 172,
+    "id": "n4-vocab_reading-172",
+    "target": "食事",
+    "sentence": "この《食事》の読み方を選んでください。",
+    "options": [
+      "しょくじい",
+      "しょくお",
+      "しょくし",
+      "しょくじ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 173,
+    "id": "n4-vocab_reading-173",
+    "target": "裏",
+    "sentence": "この《裏》の読み方を選んでください。",
+    "options": [
+      "うら",
+      "うらい",
+      "うお",
+      "ら"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 174,
+    "id": "n4-vocab_reading-174",
+    "target": "寂しい",
+    "sentence": "この《寂しい》の読み方を選んでください。",
+    "options": [
+      "さびしいい",
+      "さびしお",
+      "さびしい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 175,
+    "id": "n4-vocab_reading-175",
+    "target": "事務所",
+    "sentence": "この《事務所》の読み方を選んでください。",
+    "options": [
+      "じむしょい",
+      "じむしょ",
+      "じむしお",
+      "しむしょ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 176,
+    "id": "n4-vocab_reading-176",
+    "target": "塵",
+    "sentence": "この《塵》の読み方を選んでください。",
+    "options": [
+      "ごお",
+      "ごみい",
+      "ごみ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 177,
+    "id": "n4-vocab_reading-177",
+    "target": "具合",
+    "sentence": "この《具合》の読み方を選んでください。",
+    "options": [
+      "ぐあい",
+      "ぐあいい",
+      "ぐあお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 178,
+    "id": "n4-vocab_reading-178",
+    "target": "急ぐ",
+    "sentence": "この《急ぐ》の読み方を選んでください。",
+    "options": [
+      "いそぐい",
+      "いそぐ",
+      "いそお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 179,
+    "id": "n4-vocab_reading-179",
+    "target": "落す",
+    "sentence": "この《落す》の読み方を選んでください。",
+    "options": [
+      "おとす",
+      "おとすい",
+      "おとお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 180,
+    "id": "n4-vocab_reading-180",
+    "target": "怖い",
+    "sentence": "この《怖い》の読み方を選んでください。",
+    "options": [
+      "こわお",
+      "こわいい",
+      "こわい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 181,
+    "id": "n4-vocab_reading-181",
+    "target": "季節",
+    "sentence": "この《季節》の読み方を選んでください。",
+    "options": [
+      "きせお",
+      "きせつい",
+      "きせつ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 182,
+    "id": "n4-vocab_reading-182",
+    "target": "糸",
+    "sentence": "この《糸》の読み方を選んでください。",
+    "options": [
+      "いとい",
+      "いお",
+      "いと"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 183,
+    "id": "n4-vocab_reading-183",
+    "target": "関係",
+    "sentence": "この《関係》の読み方を選んでください。",
+    "options": [
+      "かんけお",
+      "かんけい",
+      "かんけいい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 184,
+    "id": "n4-vocab_reading-184",
+    "target": "逃げる",
+    "sentence": "この《逃げる》の読み方を選んでください。",
+    "options": [
+      "にげるい",
+      "にげる",
+      "にげお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 185,
+    "id": "n4-vocab_reading-185",
+    "target": "泣く",
+    "sentence": "この《泣く》の読み方を選んでください。",
+    "options": [
+      "なお",
+      "なくい",
+      "なく"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 186,
+    "id": "n4-vocab_reading-186",
+    "target": "生きる",
+    "sentence": "この《生きる》の読み方を選んでください。",
+    "options": [
+      "いきる",
+      "いきるい",
+      "いきお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 187,
+    "id": "n4-vocab_reading-187",
+    "target": "文法",
+    "sentence": "この《文法》の読み方を選んでください。",
+    "options": [
+      "ぶんぽう",
+      "ぶんぽお",
+      "ぶんぽ",
+      "ぶんぽうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 188,
+    "id": "n4-vocab_reading-188",
+    "target": "真ん中",
+    "sentence": "この《真ん中》の読み方を選んでください。",
+    "options": [
+      "まんなお",
+      "まんなかい",
+      "まんなか"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 189,
+    "id": "n4-vocab_reading-189",
+    "target": "引き出し",
+    "sentence": "この《引き出し》の読み方を選んでください。",
+    "options": [
+      "ひきだお",
+      "ひきだしい",
+      "ひきだし"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 190,
+    "id": "n4-vocab_reading-190",
+    "target": "泊まる",
+    "sentence": "この《泊まる》の読み方を選んでください。",
+    "options": [
+      "とまる",
+      "とまるい",
+      "とまお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 191,
+    "id": "n4-vocab_reading-191",
+    "target": "負ける",
+    "sentence": "この《負ける》の読み方を選んでください。",
+    "options": [
+      "まけお",
+      "まける",
+      "まけるい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 192,
+    "id": "n4-vocab_reading-192",
+    "target": "変わる",
+    "sentence": "この《変わる》の読み方を選んでください。",
+    "options": [
+      "かわるい",
+      "かわる",
+      "かわお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 193,
+    "id": "n4-vocab_reading-193",
+    "target": "厳しい",
+    "sentence": "この《厳しい》の読み方を選んでください。",
+    "options": [
+      "きびしいい",
+      "きびしい",
+      "きびしお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 194,
+    "id": "n4-vocab_reading-194",
+    "target": "葉",
+    "sentence": "この《葉》の読み方を選んでください。",
+    "options": [
+      "お",
+      "は",
+      "はい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 195,
+    "id": "n4-vocab_reading-195",
+    "target": "大事",
+    "sentence": "この《大事》の読み方を選んでください。",
+    "options": [
+      "だいお",
+      "だいじい",
+      "だいし",
+      "だいじ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 196,
+    "id": "n4-vocab_reading-196",
+    "target": "課長",
+    "sentence": "この《課長》の読み方を選んでください。",
+    "options": [
+      "かちょお",
+      "かちょう",
+      "かちょ",
+      "かちょうい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 197,
+    "id": "n4-vocab_reading-197",
+    "target": "簡単",
+    "sentence": "この《簡単》の読み方を選んでください。",
+    "options": [
+      "かんたんい",
+      "かんたん",
+      "かんたお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 198,
+    "id": "n4-vocab_reading-198",
+    "target": "研究室",
+    "sentence": "この《研究室》の読み方を選んでください。",
+    "options": [
+      "けんきゅうしつ",
+      "けんきゅしつ",
+      "けんきゅうしつい",
+      "けんきゅうしお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 199,
+    "id": "n4-vocab_reading-199",
+    "target": "返事",
+    "sentence": "この《返事》の読み方を選んでください。",
+    "options": [
+      "へんお",
+      "へんし",
+      "へんじ",
+      "へんじい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 200,
+    "id": "n4-vocab_reading-200",
+    "target": "拝見",
+    "sentence": "この《拝見》の読み方を選んでください。",
+    "options": [
+      "はいけん",
+      "はいけんい",
+      "はいけお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 201,
+    "id": "n4-vocab_reading-201",
+    "target": "発音",
+    "sentence": "この《発音》の読み方を選んでください。",
+    "options": [
+      "はつおんい",
+      "はつおお",
+      "はつおん"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 202,
+    "id": "n4-vocab_reading-202",
+    "target": "申す",
+    "sentence": "この《申す》の読み方を選んでください。",
+    "options": [
+      "もす",
+      "もうす",
+      "もうお",
+      "もうすい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 203,
+    "id": "n4-vocab_reading-203",
+    "target": "研究",
+    "sentence": "この《研究》の読み方を選んでください。",
+    "options": [
+      "けんきゅお",
+      "けんきゅうい",
+      "けんきゅ",
+      "けんきゅう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 204,
+    "id": "n4-vocab_reading-204",
+    "target": "戻る",
+    "sentence": "この《戻る》の読み方を選んでください。",
+    "options": [
+      "もどる",
+      "もどるい",
+      "もどお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 205,
+    "id": "n4-vocab_reading-205",
+    "target": "意見",
+    "sentence": "この《意見》の読み方を選んでください。",
+    "options": [
+      "いけん",
+      "いけんい",
+      "いけお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 206,
+    "id": "n4-vocab_reading-206",
+    "target": "字",
+    "sentence": "この《字》の読み方を選んでください。",
+    "options": [
+      "お",
+      "し",
+      "じい",
+      "じ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 207,
+    "id": "n4-vocab_reading-207",
+    "target": "道具",
+    "sentence": "この《道具》の読み方を選んでください。",
+    "options": [
+      "どうぐ",
+      "どぐ",
+      "どうぐい",
+      "どうお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 208,
+    "id": "n4-vocab_reading-208",
+    "target": "公務員",
+    "sentence": "この《公務員》の読み方を選んでください。",
+    "options": [
+      "こむいん",
+      "こうむいお",
+      "こうむいんい",
+      "こうむいん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 209,
+    "id": "n4-vocab_reading-209",
+    "target": "喧嘩",
+    "sentence": "この《喧嘩》の読み方を選んでください。",
+    "options": [
+      "けんかい",
+      "けんお",
+      "けんか"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 210,
+    "id": "n4-vocab_reading-210",
+    "target": "工業",
+    "sentence": "この《工業》の読み方を選んでください。",
+    "options": [
+      "こうぎょうい",
+      "こぎょう",
+      "こうぎょお",
+      "こうぎょう"
+    ],
+    "answer": 3,
+    "correct": ""
+  }
+]

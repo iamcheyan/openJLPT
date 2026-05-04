@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 862,
+    "id": "n2-vocab_reading-0863",
+    "target": "栓",
+    "correct": "せん",
+    "options": [
+      "せんい",
+      "せん",
+      "せお",
+      "ぜん"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 863,
+    "id": "n2-vocab_reading-0864",
+    "target": "前後",
+    "correct": "ぜんご",
+    "options": [
+      "ぜんご",
+      "せんご",
+      "ぜんお",
+      "ぜんごい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 864,
+    "id": "n2-vocab_reading-0865",
+    "target": "洗剤",
+    "correct": "せんざい",
+    "options": [
+      "せんざい",
+      "せんざいい",
+      "せんざう",
+      "せんざお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 865,
+    "id": "n2-vocab_reading-0866",
+    "target": "全集",
+    "correct": "ぜんしゅう",
+    "options": [
+      "ぜんしゅうい",
+      "ぜんしゅう",
+      "ぜんしゅお",
+      "ぜんしゅ"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 866,
+    "id": "n2-vocab_reading-0867",
+    "target": "全身",
+    "correct": "ぜんしん",
+    "options": [
+      "ぜんしんい",
+      "ぜんしん",
+      "せんしん",
+      "ぜんしお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 867,
+    "id": "n2-vocab_reading-0868",
+    "target": "扇子",
+    "correct": "せんす",
+    "options": [
+      "せんすい",
+      "せんす",
+      "せんお",
+      "ぜんす"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 868,
+    "id": "n2-vocab_reading-0869",
+    "target": "専制",
+    "correct": "せんせい",
+    "options": [
+      "せんせい",
+      "せんせいい",
+      "せんせう",
+      "せんせお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 869,
+    "id": "n2-vocab_reading-0870",
+    "target": "先々月",
+    "correct": "せんせんげつ",
+    "options": [
+      "せんせんげつ",
+      "ぜんせんげつ",
+      "せんせんげお",
+      "せんせんげつい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 870,
+    "id": "n2-vocab_reading-0871",
+    "target": "先々週",
+    "correct": "せんせんしゅう",
+    "options": [
+      "せんせんしゅうい",
+      "せんせんしゅお",
+      "せんせんしゅう",
+      "せんせんしゅ"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 871,
+    "id": "n2-vocab_reading-0872",
+    "target": "先祖",
+    "correct": "せんぞ",
+    "options": [
+      "ぜんぞ",
+      "せんお",
+      "せんぞい",
+      "せんぞ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 873,
+    "id": "n2-vocab_reading-0874",
+    "target": "宣伝",
+    "correct": "せんでん",
+    "options": [
+      "せんでん",
+      "ぜんでん",
+      "せんでんい",
+      "せんでお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 874,
+    "id": "n2-vocab_reading-0875",
+    "target": "先頭",
+    "correct": "せんとう",
+    "options": [
+      "せんとう",
+      "せんと",
+      "せんとお",
+      "せんとうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 875,
+    "id": "n2-vocab_reading-0876",
+    "target": "全般",
+    "correct": "ぜんぱん",
+    "options": [
+      "ぜんぱん",
+      "ぜんぱんい",
+      "ぜんぱお",
+      "せんぱん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 876,
+    "id": "n2-vocab_reading-0877",
+    "target": "扇風機",
+    "correct": "せんぷうき",
+    "options": [
+      "せんぷうお",
+      "せんぷき",
+      "せんぷうき",
+      "せんぷうきい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 877,
+    "id": "n2-vocab_reading-0878",
+    "target": "線路",
+    "correct": "せんろ",
+    "options": [
+      "ぜんろ",
+      "せんろい",
+      "せんろ",
+      "せんお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 879,
+    "id": "n2-vocab_reading-0880",
+    "target": "雑巾",
+    "correct": "ぞうきん",
+    "options": [
+      "ぞきん",
+      "ぞうきお",
+      "ぞうきん",
+      "ぞうきんい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 880,
+    "id": "n2-vocab_reading-0881",
+    "target": "相互",
+    "correct": "そうご",
+    "options": [
+      "そうお",
+      "そうごい",
+      "そご",
+      "そうご"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 881,
+    "id": "n2-vocab_reading-0882",
+    "target": "創作",
+    "correct": "そうさく",
+    "options": [
+      "そうさお",
+      "そうさく",
+      "そさく",
+      "そうさくい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 882,
+    "id": "n2-vocab_reading-0883",
+    "target": "葬式",
+    "correct": "そうしき",
+    "options": [
+      "そしき",
+      "そうしきい",
+      "そうしお",
+      "そうしき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 883,
+    "id": "n2-vocab_reading-0884",
+    "target": "造船",
+    "correct": "ぞうせん",
+    "options": [
+      "ぞうせお",
+      "ぞせん",
+      "ぞうせんい",
+      "ぞうせん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 884,
+    "id": "n2-vocab_reading-0885",
+    "target": "送別",
+    "correct": "そうべつ",
+    "options": [
+      "そうべつい",
+      "そべつ",
+      "そうべお",
+      "そうべつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 885,
+    "id": "n2-vocab_reading-0886",
+    "target": "総理大臣",
+    "correct": "そうりだいじん",
+    "options": [
+      "そうりだいしん",
+      "そうりだいじんい",
+      "そりだいじん",
+      "そうりだいじん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 886,
+    "id": "n2-vocab_reading-0887",
+    "target": "送料",
+    "correct": "そうりょう",
+    "options": [
+      "そうりょお",
+      "そりょう",
+      "そうりょうい",
+      "そうりょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 887,
+    "id": "n2-vocab_reading-0888",
+    "target": "属する",
+    "correct": "ぞくする",
+    "options": [
+      "ぞくする",
+      "ぞくするい",
+      "ぞくすお",
+      "そくする"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 888,
+    "id": "n2-vocab_reading-0889",
+    "target": "測定",
+    "correct": "そくてい",
+    "options": [
+      "そくてい",
+      "そくてう",
+      "そくていい",
+      "そくてお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 889,
+    "id": "n2-vocab_reading-0890",
+    "target": "測量",
+    "correct": "そくりょう",
+    "options": [
+      "そくりょお",
+      "そくりょう",
+      "そくりょ",
+      "そくりょうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 890,
+    "id": "n2-vocab_reading-0891",
+    "target": "速力",
+    "correct": "そくりょく",
+    "options": [
+      "ぞくりょく",
+      "そくりょく",
+      "そくりょお",
+      "そくりょくい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 891,
+    "id": "n2-vocab_reading-0892",
+    "target": "素質",
+    "correct": "そしつ",
+    "options": [
+      "そしつ",
+      "そしつい",
+      "そしお",
+      "ぞしつ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 892,
+    "id": "n2-vocab_reading-0893",
+    "target": "祖先",
+    "correct": "そせん",
+    "options": [
+      "そせん",
+      "そせんい",
+      "ぞせん",
+      "そせお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 893,
+    "id": "n2-vocab_reading-0894",
+    "target": "卒直",
+    "correct": "そっちょく",
+    "options": [
+      "そちょく",
+      "そっちょお",
+      "そっちょくい",
+      "そっちょく"
+    ],
+    "answer": 3
+  }
+]

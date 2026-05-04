@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 695,
+    "id": "n2-vocab_reading-0696",
+    "target": "再来年",
+    "correct": "さらいねん",
+    "options": [
+      "さらうねん",
+      "さらいねお",
+      "さらいねんい",
+      "さらいねん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 696,
+    "id": "n2-vocab_reading-0697",
+    "target": "騒がしい",
+    "correct": "さわがしい",
+    "options": [
+      "さわがしう",
+      "さわがしい",
+      "さわがしお",
+      "さわがしいい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 697,
+    "id": "n2-vocab_reading-0698",
+    "target": "三角",
+    "correct": "さんかく",
+    "options": [
+      "ざんかく",
+      "さんかく",
+      "さんかくい",
+      "さんかお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 698,
+    "id": "n2-vocab_reading-0699",
+    "target": "算数",
+    "correct": "さんすう",
+    "options": [
+      "さんすう",
+      "さんすお",
+      "さんす",
+      "さんすうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 699,
+    "id": "n2-vocab_reading-0700",
+    "target": "産地",
+    "correct": "さんち",
+    "options": [
+      "ざんち",
+      "さんお",
+      "さんち",
+      "さんちい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 700,
+    "id": "n2-vocab_reading-0701",
+    "target": "仕上がる",
+    "correct": "しあがる",
+    "options": [
+      "しあがる",
+      "しあがるい",
+      "しあがお",
+      "じあがる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 701,
+    "id": "n2-vocab_reading-0702",
+    "target": "寺院",
+    "correct": "じいん",
+    "options": [
+      "じいんい",
+      "しいん",
+      "じいん",
+      "じいお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 702,
+    "id": "n2-vocab_reading-0703",
+    "target": "自衛",
+    "correct": "じえい",
+    "options": [
+      "じえい",
+      "しえい",
+      "じえいい",
+      "じえお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 703,
+    "id": "n2-vocab_reading-0704",
+    "target": "司会",
+    "correct": "しかい",
+    "options": [
+      "しかい",
+      "しかいい",
+      "しかう",
+      "しかお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 704,
+    "id": "n2-vocab_reading-0705",
+    "target": "四角",
+    "correct": "しかく",
+    "options": [
+      "しかくい",
+      "じかく",
+      "しかく",
+      "しかお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 705,
+    "id": "n2-vocab_reading-0706",
+    "target": "四角い",
+    "correct": "しかくい",
+    "options": [
+      "しかくい",
+      "しかくお",
+      "しかくう",
+      "しかくいい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 706,
+    "id": "n2-vocab_reading-0707",
+    "target": "四季",
+    "correct": "しき",
+    "options": [
+      "しきい",
+      "じき",
+      "しお",
+      "しき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 707,
+    "id": "n2-vocab_reading-0708",
+    "target": "敷地",
+    "correct": "しきち",
+    "options": [
+      "しきち",
+      "しきちい",
+      "しきお",
+      "じきち"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 708,
+    "id": "n2-vocab_reading-0709",
+    "target": "至急",
+    "correct": "しきゅう",
+    "options": [
+      "しきゅお",
+      "しきゅうい",
+      "しきゅ",
+      "しきゅう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 709,
+    "id": "n2-vocab_reading-0710",
+    "target": "敷く",
+    "correct": "しく",
+    "options": [
+      "しく",
+      "しくい",
+      "しお",
+      "じく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 710,
+    "id": "n2-vocab_reading-0711",
+    "target": "茂る",
+    "correct": "しげる",
+    "options": [
+      "しげる",
+      "しげるい",
+      "しげお",
+      "じげる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 711,
+    "id": "n2-vocab_reading-0712",
+    "target": "持参",
+    "correct": "じさん",
+    "options": [
+      "じさんい",
+      "じさお",
+      "しさん",
+      "じさん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 713,
+    "id": "n2-vocab_reading-0714",
+    "target": "四捨五入",
+    "correct": "ししゃごにゅう",
+    "options": [
+      "ししゃごにゅお",
+      "ししゃごにゅう",
+      "ししゃごにゅうい",
+      "ししゃごにゅ"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 714,
+    "id": "n2-vocab_reading-0715",
+    "target": "始終",
+    "correct": "しじゅう",
+    "options": [
+      "しじゅ",
+      "しじゅう",
+      "ししゅう",
+      "しじゅうい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 715,
+    "id": "n2-vocab_reading-0716",
+    "target": "自習",
+    "correct": "じしゅう",
+    "options": [
+      "じしゅう",
+      "じしゅ",
+      "じしゅうい",
+      "ししゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 716,
+    "id": "n2-vocab_reading-0717",
+    "target": "静まる",
+    "correct": "しずまる",
+    "options": [
+      "しずまるい",
+      "しずまお",
+      "しずまる",
+      "じずまる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 717,
+    "id": "n2-vocab_reading-0718",
+    "target": "姿勢",
+    "correct": "しせい",
+    "options": [
+      "しせう",
+      "しせい",
+      "しせお",
+      "しせいい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 718,
+    "id": "n2-vocab_reading-0719",
+    "target": "自然科学",
+    "correct": "しぜんかがく",
+    "options": [
+      "しぜんかがく",
+      "じぜんかがく",
+      "しぜんかがくい",
+      "しぜんかがお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 719,
+    "id": "n2-vocab_reading-0720",
+    "target": "子孫",
+    "correct": "しそん",
+    "options": [
+      "しそんい",
+      "しそん",
+      "じそん",
+      "しそお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 720,
+    "id": "n2-vocab_reading-0721",
+    "target": "下町",
+    "correct": "したまち",
+    "options": [
+      "じたまち",
+      "したまお",
+      "したまちい",
+      "したまち"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 721,
+    "id": "n2-vocab_reading-0722",
+    "target": "自治",
+    "correct": "じち",
+    "options": [
+      "じちい",
+      "じお",
+      "しち",
+      "じち"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 722,
+    "id": "n2-vocab_reading-0723",
+    "target": "実感",
+    "correct": "じっかん",
+    "options": [
+      "しっかん",
+      "じかん",
+      "じっかん",
+      "じっかんい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 723,
+    "id": "n2-vocab_reading-0724",
+    "target": "湿気",
+    "correct": "しっけ",
+    "options": [
+      "しっお",
+      "しっけい",
+      "しけ",
+      "しっけ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 724,
+    "id": "n2-vocab_reading-0725",
+    "target": "実習",
+    "correct": "じっしゅう",
+    "options": [
+      "じっしゅう",
+      "しっしゅう",
+      "じっしゅ",
+      "じしゅう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 725,
+    "id": "n2-vocab_reading-0726",
+    "target": "実績",
+    "correct": "じっせき",
+    "options": [
+      "じっせき",
+      "しっせき",
+      "じせき",
+      "じっせきい"
+    ],
+    "answer": 0
+  }
+]

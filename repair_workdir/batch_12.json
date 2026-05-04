@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 662,
+    "id": "n2-vocab_reading-0663",
+    "target": "採点",
+    "correct": "さいてん",
+    "options": [
+      "さうてん",
+      "さいてんい",
+      "さいてん",
+      "さいてお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 664,
+    "id": "n2-vocab_reading-0665",
+    "target": "材木",
+    "correct": "ざいもく",
+    "options": [
+      "ざいもお",
+      "ざうもく",
+      "ざいもくい",
+      "ざいもく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 665,
+    "id": "n2-vocab_reading-0666",
+    "target": "逆様",
+    "correct": "さかさま",
+    "options": [
+      "ざかさま",
+      "さかさお",
+      "さかさまい",
+      "さかさま"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 666,
+    "id": "n2-vocab_reading-0667",
+    "target": "捜す",
+    "correct": "さがす",
+    "options": [
+      "ざがす",
+      "さがすい",
+      "さがす",
+      "さがお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 667,
+    "id": "n2-vocab_reading-0668",
+    "target": "遡る",
+    "correct": "さかのぼる",
+    "options": [
+      "ざかのぼる",
+      "さかのぼお",
+      "さかのぼるい",
+      "さかのぼる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 668,
+    "id": "n2-vocab_reading-0669",
+    "target": "酒場",
+    "correct": "さかば",
+    "options": [
+      "さかは",
+      "さかお",
+      "さかばい",
+      "さかば"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 669,
+    "id": "n2-vocab_reading-0670",
+    "target": "先程",
+    "correct": "さきほど",
+    "options": [
+      "ざきほど",
+      "さきほど",
+      "さきほお",
+      "さきほどい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 670,
+    "id": "n2-vocab_reading-0671",
+    "target": "索引",
+    "correct": "さくいん",
+    "options": [
+      "さくいん",
+      "さくいんい",
+      "さくいお",
+      "さくうん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 671,
+    "id": "n2-vocab_reading-0672",
+    "target": "作者",
+    "correct": "さくしゃ",
+    "options": [
+      "さくしゃ",
+      "さくしお",
+      "ざくしゃ",
+      "さくしゃい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 673,
+    "id": "n2-vocab_reading-0674",
+    "target": "作成",
+    "correct": "さくせい",
+    "options": [
+      "さくせい",
+      "さくせいい",
+      "さくせお",
+      "さくせう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 675,
+    "id": "n2-vocab_reading-0676",
+    "target": "探る",
+    "correct": "さぐる",
+    "options": [
+      "さぐるい",
+      "さぐお",
+      "さぐる",
+      "ざぐる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 676,
+    "id": "n2-vocab_reading-0677",
+    "target": "囁く",
+    "correct": "ささやく",
+    "options": [
+      "ざさやく",
+      "ささやお",
+      "ささやくい",
+      "ささやく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 677,
+    "id": "n2-vocab_reading-0678",
+    "target": "刺さる",
+    "correct": "ささる",
+    "options": [
+      "ささるい",
+      "ささる",
+      "ざさる",
+      "ささお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 678,
+    "id": "n2-vocab_reading-0679",
+    "target": "匙",
+    "correct": "さじ",
+    "options": [
+      "さし",
+      "さお",
+      "さじ",
+      "さじい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 679,
+    "id": "n2-vocab_reading-0680",
+    "target": "座敷",
+    "correct": "ざしき",
+    "options": [
+      "さしき",
+      "ざしお",
+      "ざしきい",
+      "ざしき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 680,
+    "id": "n2-vocab_reading-0681",
+    "target": "差し引き",
+    "correct": "さしひき",
+    "options": [
+      "さしひき",
+      "さしひきい",
+      "ざしひき",
+      "さしひお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 681,
+    "id": "n2-vocab_reading-0682",
+    "target": "刺身",
+    "correct": "さしみ",
+    "options": [
+      "さしお",
+      "さしみ",
+      "ざしみ",
+      "さしみい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 682,
+    "id": "n2-vocab_reading-0683",
+    "target": "刺す",
+    "correct": "さす",
+    "options": [
+      "さす",
+      "さすい",
+      "さお",
+      "ざす"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 683,
+    "id": "n2-vocab_reading-0684",
+    "target": "注す",
+    "correct": "さす",
+    "options": [
+      "さすい",
+      "ざす",
+      "さす",
+      "さお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 684,
+    "id": "n2-vocab_reading-0685",
+    "target": "射す",
+    "correct": "さす",
+    "options": [
+      "ざす",
+      "さすい",
+      "さす",
+      "さお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 685,
+    "id": "n2-vocab_reading-0686",
+    "target": "流石",
+    "correct": "さすが",
+    "options": [
+      "ざすが",
+      "さすが",
+      "さすがい",
+      "さすお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 686,
+    "id": "n2-vocab_reading-0687",
+    "target": "雑音",
+    "correct": "ざつおん",
+    "options": [
+      "ざつおお",
+      "ざつおんい",
+      "ざつおん",
+      "ざつうん"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 687,
+    "id": "n2-vocab_reading-0688",
+    "target": "錆",
+    "correct": "さび",
+    "options": [
+      "ざび",
+      "さお",
+      "さびい",
+      "さび"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 688,
+    "id": "n2-vocab_reading-0689",
+    "target": "錆びる",
+    "correct": "さびる",
+    "options": [
+      "ざびる",
+      "さびお",
+      "さびるい",
+      "さびる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 689,
+    "id": "n2-vocab_reading-0690",
+    "target": "座布団",
+    "correct": "ざぶとん",
+    "options": [
+      "ざぶとお",
+      "ざぶとんい",
+      "さぶとん",
+      "ざぶとん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 690,
+    "id": "n2-vocab_reading-0691",
+    "target": "冷ます",
+    "correct": "さます",
+    "options": [
+      "ざます",
+      "さまお",
+      "さますい",
+      "さます"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 691,
+    "id": "n2-vocab_reading-0692",
+    "target": "妨げる",
+    "correct": "さまたげる",
+    "options": [
+      "さまたげる",
+      "さまたげるい",
+      "さまたげお",
+      "ざまたげる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 692,
+    "id": "n2-vocab_reading-0693",
+    "target": "冷める",
+    "correct": "さめる",
+    "options": [
+      "さめる",
+      "さめるい",
+      "さめお",
+      "ざめる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 693,
+    "id": "n2-vocab_reading-0694",
+    "target": "再来月",
+    "correct": "さらいげつ",
+    "options": [
+      "さらうげつ",
+      "さらいげお",
+      "さらいげつい",
+      "さらいげつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 694,
+    "id": "n2-vocab_reading-0695",
+    "target": "再来週",
+    "correct": "さらいしゅう",
+    "options": [
+      "さらいしゅ",
+      "さらいしゅお",
+      "さらいしゅうい",
+      "さらいしゅう"
+    ],
+    "answer": 3
+  }
+]

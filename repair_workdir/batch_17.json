@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 827,
+    "id": "n2-vocab_reading-0828",
+    "target": "透き通る",
+    "correct": "すきとおる",
+    "options": [
+      "すきとおる",
+      "すきとおるい",
+      "すきとおお",
+      "すきとうる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 828,
+    "id": "n2-vocab_reading-0829",
+    "target": "図形",
+    "correct": "ずけい",
+    "options": [
+      "ずけお",
+      "ずけう",
+      "ずけいい",
+      "ずけい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 829,
+    "id": "n2-vocab_reading-0830",
+    "target": "鈴",
+    "correct": "すず",
+    "options": [
+      "ずず",
+      "すお",
+      "すずい",
+      "すず"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 831,
+    "id": "n2-vocab_reading-0832",
+    "target": "棄てる",
+    "correct": "すてる",
+    "options": [
+      "すてる",
+      "すてお",
+      "ずてる",
+      "すてるい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 832,
+    "id": "n2-vocab_reading-0833",
+    "target": "素直",
+    "correct": "すなお",
+    "options": [
+      "すなお",
+      "すなう",
+      "すなおい",
+      "すなわ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 833,
+    "id": "n2-vocab_reading-0834",
+    "target": "住まい",
+    "correct": "すまい",
+    "options": [
+      "すまお",
+      "すまう",
+      "すまいい",
+      "すまい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 834,
+    "id": "n2-vocab_reading-0835",
+    "target": "澄む",
+    "correct": "すむ",
+    "options": [
+      "ずむ",
+      "すお",
+      "すむい",
+      "すむ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 836,
+    "id": "n2-vocab_reading-0837",
+    "target": "狡い",
+    "correct": "ずるい",
+    "options": [
+      "ずるい",
+      "ずるいい",
+      "ずるう",
+      "ずるお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 837,
+    "id": "n2-vocab_reading-0838",
+    "target": "税関",
+    "correct": "ぜいかん",
+    "options": [
+      "ぜうかん",
+      "ぜいかんい",
+      "ぜいかお",
+      "ぜいかん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 838,
+    "id": "n2-vocab_reading-0839",
+    "target": "製作",
+    "correct": "せいさく",
+    "options": [
+      "せいさく",
+      "せいさお",
+      "せいさくい",
+      "せうさく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 839,
+    "id": "n2-vocab_reading-0840",
+    "target": "制作",
+    "correct": "せいさく",
+    "options": [
+      "せうさく",
+      "せいさお",
+      "せいさくい",
+      "せいさく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 840,
+    "id": "n2-vocab_reading-0841",
+    "target": "性質",
+    "correct": "せいしつ",
+    "options": [
+      "せうしつ",
+      "せいしお",
+      "せいしつい",
+      "せいしつ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 841,
+    "id": "n2-vocab_reading-0842",
+    "target": "清書",
+    "correct": "せいしょ",
+    "options": [
+      "せいしお",
+      "せいしょ",
+      "せうしょ",
+      "せいしょい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 843,
+    "id": "n2-vocab_reading-0844",
+    "target": "整数",
+    "correct": "せいすう",
+    "options": [
+      "せいすうい",
+      "せいすう",
+      "せいす",
+      "せいすお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 845,
+    "id": "n2-vocab_reading-0846",
+    "target": "生存",
+    "correct": "せいぞん",
+    "options": [
+      "せいぞん",
+      "せうぞん",
+      "せいぞんい",
+      "せいぞお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 846,
+    "id": "n2-vocab_reading-0847",
+    "target": "生長",
+    "correct": "せいちょう",
+    "options": [
+      "せいちょお",
+      "せいちょうい",
+      "せいちょ",
+      "せいちょう"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 847,
+    "id": "n2-vocab_reading-0848",
+    "target": "政党",
+    "correct": "せいとう",
+    "options": [
+      "せいとうい",
+      "せいとう",
+      "せいと",
+      "せいとお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 848,
+    "id": "n2-vocab_reading-0849",
+    "target": "生年月日",
+    "correct": "せいねんがっぴ",
+    "options": [
+      "せいねんがっぴ",
+      "せいねんがぴ",
+      "せいねんがっぴい",
+      "せいねんがっお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 849,
+    "id": "n2-vocab_reading-0850",
+    "target": "整備",
+    "correct": "せいび",
+    "options": [
+      "せいび",
+      "せいびい",
+      "せいお",
+      "せうび"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 850,
+    "id": "n2-vocab_reading-0851",
+    "target": "成分",
+    "correct": "せいぶん",
+    "options": [
+      "せいぶんい",
+      "せいぶん",
+      "せうぶん",
+      "せいぶお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 851,
+    "id": "n2-vocab_reading-0852",
+    "target": "性別",
+    "correct": "せいべつ",
+    "options": [
+      "せいべつ",
+      "せいべつい",
+      "せうべつ",
+      "せいべお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 853,
+    "id": "n2-vocab_reading-0854",
+    "target": "正門",
+    "correct": "せいもん",
+    "options": [
+      "せいもお",
+      "せいもんい",
+      "せうもん",
+      "せいもん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 854,
+    "id": "n2-vocab_reading-0855",
+    "target": "西暦",
+    "correct": "せいれき",
+    "options": [
+      "せいれきい",
+      "せうれき",
+      "せいれき",
+      "せいれお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 855,
+    "id": "n2-vocab_reading-0856",
+    "target": "背負う",
+    "correct": "せおう",
+    "options": [
+      "せおう",
+      "せお",
+      "せおお",
+      "せおうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 856,
+    "id": "n2-vocab_reading-0857",
+    "target": "折角",
+    "correct": "せっかく",
+    "options": [
+      "せっかお",
+      "せっかくい",
+      "せかく",
+      "せっかく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 857,
+    "id": "n2-vocab_reading-0858",
+    "target": "接近",
+    "correct": "せっきん",
+    "options": [
+      "せっきんい",
+      "せきん",
+      "せっきお",
+      "せっきん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 858,
+    "id": "n2-vocab_reading-0859",
+    "target": "接する",
+    "correct": "せっする",
+    "options": [
+      "せっする",
+      "せする",
+      "せっするい",
+      "せっすお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 859,
+    "id": "n2-vocab_reading-0860",
+    "target": "接続",
+    "correct": "せつぞく",
+    "options": [
+      "せつぞくい",
+      "せつぞく",
+      "せつぞお",
+      "ぜつぞく"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 860,
+    "id": "n2-vocab_reading-0861",
+    "target": "瀬戸物",
+    "correct": "せともの",
+    "options": [
+      "ぜともの",
+      "せともの",
+      "せともお",
+      "せとものい"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 861,
+    "id": "n2-vocab_reading-0862",
+    "target": "攻める",
+    "correct": "せめる",
+    "options": [
+      "せめお",
+      "せめるい",
+      "ぜめる",
+      "せめる"
+    ],
+    "answer": 3
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "idx": 511,
+    "id": "n1-vocab_reading-0511",
+    "target": "受け取り",
+    "sentence": "《受け取り》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うけとり",
+      "けとり",
+      "うけとりい",
+      "うけとお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 512,
+    "id": "n1-vocab_reading-0512",
+    "target": "動き",
+    "sentence": "《動き》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うごお",
+      "うごきい",
+      "うごき",
+      "ごき"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 513,
+    "id": "n1-vocab_reading-0513",
+    "target": "潮",
+    "sentence": "《潮》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うしお",
+      "しお",
+      "うしおい",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 514,
+    "id": "n1-vocab_reading-0514",
+    "target": "渦",
+    "sentence": "《渦》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うず",
+      "ず",
+      "うずい",
+      "うお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 515,
+    "id": "n1-vocab_reading-0515",
+    "target": "埋まる",
+    "sentence": "《埋まる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うずまる",
+      "うずまお",
+      "うずまるい",
+      "ずまる"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 516,
+    "id": "n1-vocab_reading-0516",
+    "target": "嘘つき",
+    "sentence": "《嘘つき》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "そつき",
+      "うそつきい",
+      "うそつき",
+      "うそつお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 517,
+    "id": "n1-vocab_reading-0517",
+    "target": "打ち合わせ",
+    "sentence": "《打ち合わせ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うちあわせい",
+      "うちあわお",
+      "ちあわせ",
+      "うちあわせ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 518,
+    "id": "n1-vocab_reading-0518",
+    "target": "打ち合わせる",
+    "sentence": "《打ち合わせる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うちあわせる",
+      "ちあわせる",
+      "うちあわせるい",
+      "うちあわせお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 519,
+    "id": "n1-vocab_reading-0519",
+    "target": "打ち消し",
+    "sentence": "《打ち消し》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うちけしい",
+      "うちけし",
+      "うちけお",
+      "ちけし"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 520,
+    "id": "n1-vocab_reading-0520",
+    "target": "打ち込む",
+    "sentence": "《打ち込む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ちこむ",
+      "うちこお",
+      "うちこむい",
+      "うちこむ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 521,
+    "id": "n1-vocab_reading-0521",
+    "target": "団扇",
+    "sentence": "《団扇》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うちわ",
+      "ちわ",
+      "うちお",
+      "うちわい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 522,
+    "id": "n1-vocab_reading-0522",
+    "target": "内訳",
+    "sentence": "《内訳》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うちわお",
+      "うちわけ",
+      "うちわけい",
+      "ちわけ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 523,
+    "id": "n1-vocab_reading-0523",
+    "target": "訴え",
+    "sentence": "《訴え》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "ったえ",
+      "うったえい",
+      "うったえ",
+      "うたえ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 524,
+    "id": "n1-vocab_reading-0524",
+    "target": "鬱陶しい",
+    "sentence": "《鬱陶しい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うっとうしい",
+      "っとうしい",
+      "うとうしい",
+      "うっとうしいい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 525,
+    "id": "n1-vocab_reading-0525",
+    "target": "写し",
+    "sentence": "《写し》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うつお",
+      "うつしい",
+      "つし",
+      "うつし"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 526,
+    "id": "n1-vocab_reading-0526",
+    "target": "空ろ",
+    "sentence": "《空ろ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うつお",
+      "うつろい",
+      "つろ",
+      "うつろ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 527,
+    "id": "n1-vocab_reading-0527",
+    "target": "器",
+    "sentence": "《器》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うつわ",
+      "つわ",
+      "うつわい",
+      "うつお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 528,
+    "id": "n1-vocab_reading-0528",
+    "target": "雨天",
+    "sentence": "《雨天》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うてお",
+      "てん",
+      "うてん",
+      "うてんい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 529,
+    "id": "n1-vocab_reading-0529",
+    "target": "腕前",
+    "sentence": "《腕前》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うでまお",
+      "うでまえ",
+      "でまえ",
+      "うでまえい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 530,
+    "id": "n1-vocab_reading-0530",
+    "target": "饂飩",
+    "sentence": "《饂飩》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うどお",
+      "うどんい",
+      "どん",
+      "うどん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 531,
+    "id": "n1-vocab_reading-0531",
+    "target": "促す",
+    "sentence": "《促す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うながお",
+      "うながすい",
+      "ながす",
+      "うながす"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 532,
+    "id": "n1-vocab_reading-0532",
+    "target": "唸る",
+    "sentence": "《唸る》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うなるい",
+      "なる",
+      "うなお",
+      "うなる"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 533,
+    "id": "n1-vocab_reading-0533",
+    "target": "自惚れ",
+    "sentence": "《自惚れ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うぬぼお",
+      "うぬぼれい",
+      "ぬぼれ",
+      "うぬぼれ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 534,
+    "id": "n1-vocab_reading-0534",
+    "target": "甘い",
+    "sentence": "《甘い》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うまい",
+      "まい",
+      "うまいい",
+      "うまお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 535,
+    "id": "n1-vocab_reading-0535",
+    "target": "生まれつき",
+    "sentence": "《生まれつき》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うまれつき",
+      "まれつき",
+      "うまれつきい",
+      "うまれつお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 536,
+    "id": "n1-vocab_reading-0536",
+    "target": "海路",
+    "sentence": "《海路》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うみじい",
+      "うみじ",
+      "みじ",
+      "うみし"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 537,
+    "id": "n1-vocab_reading-0537",
+    "target": "産む",
+    "sentence": "《産む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うお",
+      "うむい",
+      "うむ",
+      "む"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 538,
+    "id": "n1-vocab_reading-0538",
+    "target": "埋め込む",
+    "sentence": "《埋め込む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うめこむ",
+      "めこむ",
+      "うめこむい",
+      "うめこお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 539,
+    "id": "n1-vocab_reading-0539",
+    "target": "梅干",
+    "sentence": "《梅干》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うめぼお",
+      "うめぼしい",
+      "めぼし",
+      "うめぼし"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 540,
+    "id": "n1-vocab_reading-0540",
+    "target": "末",
+    "sentence": "《末》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うお",
+      "うらい",
+      "ら",
+      "うら"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 541,
+    "id": "n1-vocab_reading-0541",
+    "target": "売り出し",
+    "sentence": "《売り出し》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うりだお",
+      "うりだしい",
+      "りだし",
+      "うりだし"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 542,
+    "id": "n1-vocab_reading-0542",
+    "target": "売り出す",
+    "sentence": "《売り出す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うりだす",
+      "りだす",
+      "うりだすい",
+      "うりだお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 543,
+    "id": "n1-vocab_reading-0543",
+    "target": "五月蝿い",
+    "sentence": "《五月蝿い》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うるさいい",
+      "うるさお",
+      "うるさい",
+      "るさい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 544,
+    "id": "n1-vocab_reading-0544",
+    "target": "売れ行き",
+    "sentence": "《売れ行き》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うれゆお",
+      "うれゆき",
+      "れゆき",
+      "うれゆきい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 545,
+    "id": "n1-vocab_reading-0545",
+    "target": "浮気",
+    "sentence": "《浮気》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うわき",
+      "わき",
+      "うわきい",
+      "うわお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 546,
+    "id": "n1-vocab_reading-0546",
+    "target": "上手",
+    "sentence": "《上手》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うわお",
+      "うわてい",
+      "わて",
+      "うわて"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 547,
+    "id": "n1-vocab_reading-0547",
+    "target": "上回る",
+    "sentence": "《上回る》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うわまわる",
+      "わまわる",
+      "うわまわお",
+      "うわまわるい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 548,
+    "id": "n1-vocab_reading-0548",
+    "target": "植わる",
+    "sentence": "《植わる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うわるい",
+      "わる",
+      "うわる",
+      "うわお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 549,
+    "id": "n1-vocab_reading-0549",
+    "target": "運送",
+    "sentence": "《運送》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんそお",
+      "うんそうい",
+      "んそう",
+      "うんそう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 550,
+    "id": "n1-vocab_reading-0550",
+    "target": "運賃",
+    "sentence": "《運賃》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんちん",
+      "うんちんい",
+      "んちん",
+      "うんちお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 551,
+    "id": "n1-vocab_reading-0551",
+    "target": "云々",
+    "sentence": "《云々》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんぬお",
+      "うんぬん",
+      "うんぬんい",
+      "んぬん"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 552,
+    "id": "n1-vocab_reading-0552",
+    "target": "運命",
+    "sentence": "《運命》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんめい",
+      "んめい",
+      "うんめいい",
+      "うんめお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 553,
+    "id": "n1-vocab_reading-0553",
+    "target": "運輸",
+    "sentence": "《運輸》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんゆ",
+      "うんゆい",
+      "んゆ",
+      "うんお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 554,
+    "id": "n1-vocab_reading-0554",
+    "target": "運用",
+    "sentence": "《運用》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "うんよお",
+      "うんようい",
+      "うんよう",
+      "んよう"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 555,
+    "id": "n1-vocab_reading-0555",
+    "target": "会",
+    "sentence": "《会》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えお",
+      "えい",
+      "え"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 556,
+    "id": "n1-vocab_reading-0556",
+    "target": "重",
+    "sentence": "《重》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えお",
+      "え",
+      "あああ",
+      "えい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 557,
+    "id": "n1-vocab_reading-0557",
+    "target": "鱝",
+    "sentence": "《鱝》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えお",
+      "あああ",
+      "えいい",
+      "えい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 558,
+    "id": "n1-vocab_reading-0558",
+    "target": "映写",
+    "sentence": "《映写》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えいしお",
+      "えいしゃい",
+      "えいしゃ",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 559,
+    "id": "n1-vocab_reading-0559",
+    "target": "英字",
+    "sentence": "《英字》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えいじ",
+      "えいし",
+      "えいじい",
+      "えいお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 560,
+    "id": "n1-vocab_reading-0560",
+    "target": "衛生",
+    "sentence": "《衛生》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えいせお",
+      "あああ",
+      "えいせいい",
+      "えいせい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 561,
+    "id": "n1-vocab_reading-0561",
+    "target": "映像",
+    "sentence": "《映像》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えいぞお",
+      "えいぞ",
+      "えいぞうい",
+      "えいぞう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 562,
+    "id": "n1-vocab_reading-0562",
+    "target": "液",
+    "sentence": "《液》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えきい",
+      "えき",
+      "えお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 563,
+    "id": "n1-vocab_reading-0563",
+    "target": "役",
+    "sentence": "《役》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えお",
+      "えき",
+      "あああ",
+      "えきい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 564,
+    "id": "n1-vocab_reading-0564",
+    "target": "閲覧",
+    "sentence": "《閲覧》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えつらんい",
+      "えつらお",
+      "えつらん",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 565,
+    "id": "n1-vocab_reading-0565",
+    "target": "襟",
+    "sentence": "《襟》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えお",
+      "えりい",
+      "えり"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 566,
+    "id": "n1-vocab_reading-0566",
+    "target": "縁",
+    "sentence": "《縁》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えお",
+      "えんい",
+      "えん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 567,
+    "id": "n1-vocab_reading-0567",
+    "target": "塩",
+    "sentence": "《塩》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えお",
+      "あああ",
+      "えん",
+      "えんい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 568,
+    "id": "n1-vocab_reading-0568",
+    "target": "艶",
+    "sentence": "《艶》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えお",
+      "えんい",
+      "えん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 569,
+    "id": "n1-vocab_reading-0569",
+    "target": "園",
+    "sentence": "《園》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんい",
+      "えん",
+      "えお",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 570,
+    "id": "n1-vocab_reading-0570",
+    "target": "円滑",
+    "sentence": "《円滑》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんかお",
+      "えんかつ",
+      "えんかつい",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 571,
+    "id": "n1-vocab_reading-0571",
+    "target": "縁側",
+    "sentence": "《縁側》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんがわ",
+      "えんがわい",
+      "あああ",
+      "えんがお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 572,
+    "id": "n1-vocab_reading-0572",
+    "target": "沿岸",
+    "sentence": "《沿岸》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんがん",
+      "あああ",
+      "えんがんい",
+      "えんがお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 573,
+    "id": "n1-vocab_reading-0573",
+    "target": "婉曲",
+    "sentence": "《婉曲》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんきょく",
+      "あああ",
+      "えんきょくい",
+      "えんきょお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 574,
+    "id": "n1-vocab_reading-0574",
+    "target": "演習",
+    "sentence": "《演習》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんしゅう",
+      "えんしゅ",
+      "えんしゅうい",
+      "えんしゅお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 575,
+    "id": "n1-vocab_reading-0575",
+    "target": "演出",
+    "sentence": "《演出》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんしゅつ",
+      "えんしゅお",
+      "あああ",
+      "えんしゅつい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 576,
+    "id": "n1-vocab_reading-0576",
+    "target": "演じる",
+    "sentence": "《演じる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんじる",
+      "えんしる",
+      "えんじお",
+      "えんじるい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 577,
+    "id": "n1-vocab_reading-0577",
+    "target": "演ずる",
+    "sentence": "《演ずる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんずるい",
+      "えんずる",
+      "あああ",
+      "えんずお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 578,
+    "id": "n1-vocab_reading-0578",
+    "target": "沿線",
+    "sentence": "《沿線》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えんせお",
+      "えんせんい",
+      "えんせん"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 579,
+    "id": "n1-vocab_reading-0579",
+    "target": "縁談",
+    "sentence": "《縁談》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんだん",
+      "えんだお",
+      "えんだんい",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 580,
+    "id": "n1-vocab_reading-0580",
+    "target": "遠方",
+    "sentence": "《遠方》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "えんぽう",
+      "えんぽお",
+      "えんぽ",
+      "えんぽうい"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 581,
+    "id": "n1-vocab_reading-0581",
+    "target": "円満",
+    "sentence": "《円満》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "えんまん",
+      "えんまんい",
+      "えんまお"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 582,
+    "id": "n1-vocab_reading-0582",
+    "target": "尾",
+    "sentence": "《尾》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おお",
+      "あああ",
+      "おい",
+      "お"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 583,
+    "id": "n1-vocab_reading-0583",
+    "target": "於",
+    "sentence": "《於》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おお",
+      "お",
+      "あああ",
+      "おい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 584,
+    "id": "n1-vocab_reading-0584",
+    "target": "甥",
+    "sentence": "《甥》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おいい",
+      "おい",
+      "おお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 585,
+    "id": "n1-vocab_reading-0585",
+    "target": "追い込む",
+    "sentence": "《追い込む》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おいこお",
+      "おいこむい",
+      "おいこむ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 586,
+    "id": "n1-vocab_reading-0586",
+    "target": "美味しい",
+    "sentence": "《美味しい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おいしお",
+      "おいしいい",
+      "おいしい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 587,
+    "id": "n1-vocab_reading-0587",
+    "target": "追い出す",
+    "sentence": "《追い出す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おいだすい",
+      "あああ",
+      "おいだす",
+      "おいだお"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 588,
+    "id": "n1-vocab_reading-0588",
+    "target": "於いて",
+    "sentence": "《於いて》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おいお",
+      "おいてい",
+      "おいて",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 589,
+    "id": "n1-vocab_reading-0589",
+    "target": "お出でになる",
+    "sentence": "《お出でになる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おいでになる",
+      "おいでになるい",
+      "おいでになお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 590,
+    "id": "n1-vocab_reading-0590",
+    "target": "老いる",
+    "sentence": "《老いる》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おいる",
+      "おいるい",
+      "おいお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 591,
+    "id": "n1-vocab_reading-0591",
+    "target": "応急",
+    "sentence": "《応急》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おうきゅお",
+      "おうきゅうい",
+      "おきゅう",
+      "おうきゅう"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 592,
+    "id": "n1-vocab_reading-0592",
+    "target": "黄金",
+    "sentence": "《黄金》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おうごお",
+      "おうごんい",
+      "おうごん",
+      "おごん"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 593,
+    "id": "n1-vocab_reading-0593",
+    "target": "黄色",
+    "sentence": "《黄色》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おうしょく",
+      "おしょく",
+      "おうしょくい",
+      "おうしょお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 594,
+    "id": "n1-vocab_reading-0594",
+    "target": "応募",
+    "sentence": "《応募》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おぼ",
+      "おうぼ",
+      "おうお",
+      "おうぼい"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 595,
+    "id": "n1-vocab_reading-0595",
+    "target": "大方",
+    "sentence": "《大方》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおかお",
+      "あああ",
+      "おおかたい",
+      "おおかた"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 596,
+    "id": "n1-vocab_reading-0596",
+    "target": "大柄",
+    "sentence": "《大柄》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おおがお",
+      "おおがらい",
+      "おおがら"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 597,
+    "id": "n1-vocab_reading-0597",
+    "target": "大げさ",
+    "sentence": "《大げさ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おおげお",
+      "おおげさい",
+      "おおげさ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 598,
+    "id": "n1-vocab_reading-0598",
+    "target": "大事",
+    "sentence": "《大事》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおごお",
+      "おおごと",
+      "おおごとい",
+      "あああ"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 599,
+    "id": "n1-vocab_reading-0599",
+    "target": "大ざっぱ",
+    "sentence": "《大ざっぱ》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおざっぱ",
+      "おおざぱ",
+      "おおざっぱい",
+      "おおざっお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 600,
+    "id": "n1-vocab_reading-0600",
+    "target": "大筋",
+    "sentence": "《大筋》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおすじい",
+      "おおすし",
+      "おおすお",
+      "おおすじ"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 601,
+    "id": "n1-vocab_reading-0601",
+    "target": "大空",
+    "sentence": "《大空》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "あああ",
+      "おおぞお",
+      "おおぞら",
+      "おおぞらい"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 602,
+    "id": "n1-vocab_reading-0602",
+    "target": "大幅",
+    "sentence": "《大幅》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおはばい",
+      "おおはば",
+      "おおはお",
+      "おおはは"
+    ],
+    "answer": 1,
+    "correct": ""
+  },
+  {
+    "idx": 603,
+    "id": "n1-vocab_reading-0603",
+    "target": "大水",
+    "sentence": "《大水》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおみず",
+      "おおみずい",
+      "おおみお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 604,
+    "id": "n1-vocab_reading-0604",
+    "target": "公",
+    "sentence": "《公》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おおやけ",
+      "おおやけい",
+      "おおやお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 605,
+    "id": "n1-vocab_reading-0605",
+    "target": "お蔭",
+    "sentence": "《お蔭》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかげ",
+      "おかげい",
+      "おかお",
+      "あああ"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 606,
+    "id": "n1-vocab_reading-0606",
+    "target": "お蔭様で",
+    "sentence": "《お蔭様で》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかげさまでい",
+      "おかげさまお",
+      "おかげさまで",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  },
+  {
+    "idx": 607,
+    "id": "n1-vocab_reading-0607",
+    "target": "可笑しい",
+    "sentence": "《可笑しい》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかしお",
+      "あああ",
+      "おかしいい",
+      "おかしい"
+    ],
+    "answer": 3,
+    "correct": ""
+  },
+  {
+    "idx": 608,
+    "id": "n1-vocab_reading-0608",
+    "target": "犯す",
+    "sentence": "《犯す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかす",
+      "あああ",
+      "おかすい",
+      "おかお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 609,
+    "id": "n1-vocab_reading-0609",
+    "target": "侵す",
+    "sentence": "《侵す》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかす",
+      "あああ",
+      "おかすい",
+      "おかお"
+    ],
+    "answer": 0,
+    "correct": ""
+  },
+  {
+    "idx": 610,
+    "id": "n1-vocab_reading-0610",
+    "target": "お菜",
+    "sentence": "《お菜》の読み方として最もよいものを一つ選びなさい。",
+    "options": [
+      "おかお",
+      "おかずい",
+      "おかず",
+      "あああ"
+    ],
+    "answer": 2,
+    "correct": ""
+  }
+]

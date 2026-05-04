@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1052,
+    "id": "n2-vocab_reading-1053",
+    "target": "退く",
+    "correct": "どく",
+    "options": [
+      "とく",
+      "どく",
+      "どくい",
+      "どお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1053,
+    "id": "n2-vocab_reading-1054",
+    "target": "特殊",
+    "correct": "とくしゅ",
+    "options": [
+      "とくしゅ",
+      "とくしゅい",
+      "とくしお",
+      "どくしゅ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1054,
+    "id": "n2-vocab_reading-1055",
+    "target": "特色",
+    "correct": "とくしょく",
+    "options": [
+      "とくしょく",
+      "どくしょく",
+      "とくしょくい",
+      "とくしょお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1055,
+    "id": "n2-vocab_reading-1056",
+    "target": "特長",
+    "correct": "とくちょう",
+    "options": [
+      "とくちょう",
+      "とくちょ",
+      "とくちょうい",
+      "とくちょお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1056,
+    "id": "n2-vocab_reading-1057",
+    "target": "特定",
+    "correct": "とくてい",
+    "options": [
+      "とくてお",
+      "とくていい",
+      "とくてい",
+      "とくてう"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1057,
+    "id": "n2-vocab_reading-1058",
+    "target": "特売",
+    "correct": "とくばい",
+    "options": [
+      "とくばお",
+      "とくばいい",
+      "とくはい",
+      "とくばい"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1058,
+    "id": "n2-vocab_reading-1059",
+    "target": "溶け込む",
+    "correct": "とけこむ",
+    "options": [
+      "とけこむ",
+      "とけこむい",
+      "とけこお",
+      "どけこむ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1059,
+    "id": "n2-vocab_reading-1060",
+    "target": "溶ける",
+    "correct": "とける",
+    "options": [
+      "どける",
+      "とけるい",
+      "とけお",
+      "とける"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1060,
+    "id": "n2-vocab_reading-1061",
+    "target": "退ける",
+    "correct": "どける",
+    "options": [
+      "どける",
+      "どけるい",
+      "とける",
+      "どけお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1061,
+    "id": "n2-vocab_reading-1062",
+    "target": "床の間",
+    "correct": "とこのま",
+    "options": [
+      "とこのまい",
+      "とこのま",
+      "とこのお",
+      "どこのま"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1062,
+    "id": "n2-vocab_reading-1063",
+    "target": "床屋",
+    "correct": "とこや",
+    "options": [
+      "とこお",
+      "どこや",
+      "とこやい",
+      "とこや"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1063,
+    "id": "n2-vocab_reading-1064",
+    "target": "所々",
+    "correct": "ところどころ",
+    "options": [
+      "ところどころ",
+      "ところどころい",
+      "ところどこお",
+      "どころどころ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1064,
+    "id": "n2-vocab_reading-1065",
+    "target": "戸棚",
+    "correct": "とだな",
+    "options": [
+      "とだな",
+      "とだお",
+      "とだない",
+      "どだな"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1065,
+    "id": "n2-vocab_reading-1066",
+    "target": "整う",
+    "correct": "ととのう",
+    "options": [
+      "ととのう",
+      "ととの",
+      "ととのお",
+      "ととのうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1068,
+    "id": "n2-vocab_reading-1069",
+    "target": "跳ぶ",
+    "correct": "とぶ",
+    "options": [
+      "とぶ",
+      "とお",
+      "どぶ",
+      "とぶい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1069,
+    "id": "n2-vocab_reading-1070",
+    "target": "泊める",
+    "correct": "とめる",
+    "options": [
+      "とめる",
+      "とめるい",
+      "どめる",
+      "とめお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1070,
+    "id": "n2-vocab_reading-1071",
+    "target": "捕える",
+    "correct": "とらえる",
+    "options": [
+      "とらえる",
+      "とらえるい",
+      "とらえお",
+      "どらえる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1071,
+    "id": "n2-vocab_reading-1072",
+    "target": "取り入れる",
+    "correct": "とりいれる",
+    "options": [
+      "とりうれる",
+      "とりいれお",
+      "とりいれるい",
+      "とりいれる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1072,
+    "id": "n2-vocab_reading-1073",
+    "target": "取り消す",
+    "correct": "とりけす",
+    "options": [
+      "どりけす",
+      "とりけお",
+      "とりけすい",
+      "とりけす"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1073,
+    "id": "n2-vocab_reading-1074",
+    "target": "取り出す",
+    "correct": "とりだす",
+    "options": [
+      "とりだす",
+      "とりだすい",
+      "とりだお",
+      "どりだす"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1074,
+    "id": "n2-vocab_reading-1075",
+    "target": "採る",
+    "correct": "とる",
+    "options": [
+      "どる",
+      "とお",
+      "とるい",
+      "とる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1075,
+    "id": "n2-vocab_reading-1076",
+    "target": "捕る",
+    "correct": "とる",
+    "options": [
+      "どる",
+      "とるい",
+      "とお",
+      "とる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1076,
+    "id": "n2-vocab_reading-1077",
+    "target": "丼",
+    "correct": "どんぶり",
+    "options": [
+      "どんぶり",
+      "どんぶりい",
+      "どんぶお",
+      "とんぶり"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1077,
+    "id": "n2-vocab_reading-1078",
+    "target": "内科",
+    "correct": "ないか",
+    "options": [
+      "なうか",
+      "ないお",
+      "ないかい",
+      "ないか"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1078,
+    "id": "n2-vocab_reading-1079",
+    "target": "内線",
+    "correct": "ないせん",
+    "options": [
+      "なうせん",
+      "ないせお",
+      "ないせんい",
+      "ないせん"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1080,
+    "id": "n2-vocab_reading-1081",
+    "target": "永い",
+    "correct": "ながい",
+    "options": [
+      "ながい",
+      "ながいい",
+      "ながお",
+      "ながう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1081,
+    "id": "n2-vocab_reading-1082",
+    "target": "長引く",
+    "correct": "ながびく",
+    "options": [
+      "ながびく",
+      "ながびくい",
+      "ながびお",
+      "なかびく"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1082,
+    "id": "n2-vocab_reading-1083",
+    "target": "中身",
+    "correct": "なかみ",
+    "options": [
+      "ながみ",
+      "なかお",
+      "なかみい",
+      "なかみ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1083,
+    "id": "n2-vocab_reading-1084",
+    "target": "中味",
+    "correct": "なかみ",
+    "options": [
+      "ながみ",
+      "なかお",
+      "なかみ",
+      "なかみい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1084,
+    "id": "n2-vocab_reading-1085",
+    "target": "中指",
+    "correct": "なかゆび",
+    "options": [
+      "なかゆび",
+      "なかゆびい",
+      "ながゆび",
+      "なかゆお"
+    ],
+    "answer": 0
+  }
+]

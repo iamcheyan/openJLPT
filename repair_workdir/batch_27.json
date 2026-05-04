@@ -1,0 +1,392 @@
+[
+  {
+    "idx": 1149,
+    "id": "n2-vocab_reading-1150",
+    "target": "量る",
+    "correct": "はかる",
+    "options": [
+      "はかる",
+      "はかるい",
+      "はかお",
+      "ばかる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1150,
+    "id": "n2-vocab_reading-1151",
+    "target": "測る",
+    "correct": "はかる",
+    "options": [
+      "はかる",
+      "はかるい",
+      "はかお",
+      "ばかる"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1151,
+    "id": "n2-vocab_reading-1152",
+    "target": "吐き気",
+    "correct": "はきけ",
+    "options": [
+      "はきけ",
+      "はきけい",
+      "はきお",
+      "ばきけ"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1152,
+    "id": "n2-vocab_reading-1153",
+    "target": "掃く",
+    "correct": "はく",
+    "options": [
+      "ばく",
+      "はお",
+      "はくい",
+      "はく"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1153,
+    "id": "n2-vocab_reading-1154",
+    "target": "歯車",
+    "correct": "はぐるま",
+    "options": [
+      "はぐるま",
+      "はぐるまい",
+      "はぐるお",
+      "ばぐるま"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1154,
+    "id": "n2-vocab_reading-1155",
+    "target": "挟まる",
+    "correct": "はさまる",
+    "options": [
+      "はさまお",
+      "ばさまる",
+      "はさまる",
+      "はさまるい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1155,
+    "id": "n2-vocab_reading-1156",
+    "target": "挟む",
+    "correct": "はさむ",
+    "options": [
+      "はさむ",
+      "はさむい",
+      "ばさむ",
+      "はさお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1156,
+    "id": "n2-vocab_reading-1157",
+    "target": "梯子",
+    "correct": "はしご",
+    "options": [
+      "ばしご",
+      "はしお",
+      "はしごい",
+      "はしご"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1157,
+    "id": "n2-vocab_reading-1158",
+    "target": "始めに",
+    "correct": "はじめに",
+    "options": [
+      "はじめお",
+      "はしめに",
+      "はじめにい",
+      "はじめに"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1159,
+    "id": "n2-vocab_reading-1160",
+    "target": "外れる",
+    "correct": "はずれる",
+    "options": [
+      "はずれるい",
+      "はずれお",
+      "はずれる",
+      "ばずれる"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1160,
+    "id": "n2-vocab_reading-1161",
+    "target": "肌着",
+    "correct": "はだぎ",
+    "options": [
+      "ばだぎ",
+      "はだぎい",
+      "はだぎ",
+      "はだお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1161,
+    "id": "n2-vocab_reading-1162",
+    "target": "果して",
+    "correct": "はたして",
+    "options": [
+      "はたしお",
+      "ばたして",
+      "はたしてい",
+      "はたして"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1162,
+    "id": "n2-vocab_reading-1163",
+    "target": "鉢",
+    "correct": "はち",
+    "options": [
+      "はち",
+      "はちい",
+      "ばち",
+      "はお"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1164,
+    "id": "n2-vocab_reading-1165",
+    "target": "発揮",
+    "correct": "はっき",
+    "options": [
+      "はっお",
+      "はっきい",
+      "はき",
+      "はっき"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1165,
+    "id": "n2-vocab_reading-1166",
+    "target": "発想",
+    "correct": "はっそう",
+    "options": [
+      "はっそう",
+      "はっそ",
+      "はそう",
+      "はっそうい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1166,
+    "id": "n2-vocab_reading-1167",
+    "target": "発電",
+    "correct": "はつでん",
+    "options": [
+      "はつでん",
+      "はつでんい",
+      "はつでお",
+      "ばつでん"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1167,
+    "id": "n2-vocab_reading-1168",
+    "target": "発売",
+    "correct": "はつばい",
+    "options": [
+      "はつばいい",
+      "はつはい",
+      "はつばい",
+      "はつばお"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1168,
+    "id": "n2-vocab_reading-1169",
+    "target": "派手",
+    "correct": "はで",
+    "options": [
+      "ばで",
+      "はで",
+      "はでい",
+      "はお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1169,
+    "id": "n2-vocab_reading-1170",
+    "target": "話合い",
+    "correct": "はなしあい",
+    "options": [
+      "はなしあい",
+      "はなしあいい",
+      "はなしあお",
+      "はなしあう"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1170,
+    "id": "n2-vocab_reading-1171",
+    "target": "話し掛ける",
+    "correct": "はなしかける",
+    "options": [
+      "はなしかけるい",
+      "はなしかける",
+      "ばなしかける",
+      "はなしかけお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1172,
+    "id": "n2-vocab_reading-1173",
+    "target": "甚だしい",
+    "correct": "はなはだしい",
+    "options": [
+      "はなはだしお",
+      "はなはだしい",
+      "はなはだしいい",
+      "はなはだしう"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1173,
+    "id": "n2-vocab_reading-1174",
+    "target": "花火",
+    "correct": "はなび",
+    "options": [
+      "はなびい",
+      "はなび",
+      "ばなび",
+      "はなお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1174,
+    "id": "n2-vocab_reading-1175",
+    "target": "花嫁",
+    "correct": "はなよめ",
+    "options": [
+      "ばなよめ",
+      "はなよお",
+      "はなよめい",
+      "はなよめ"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1175,
+    "id": "n2-vocab_reading-1176",
+    "target": "放れる",
+    "correct": "はなれる",
+    "options": [
+      "はなれるい",
+      "はなれる",
+      "はなれお",
+      "ばなれる"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1176,
+    "id": "n2-vocab_reading-1177",
+    "target": "羽根",
+    "correct": "はね",
+    "options": [
+      "ばね",
+      "はお",
+      "はねい",
+      "はね"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1177,
+    "id": "n2-vocab_reading-1178",
+    "target": "跳ねる",
+    "correct": "はねる",
+    "options": [
+      "ばねる",
+      "はねお",
+      "はねるい",
+      "はねる"
+    ],
+    "answer": 3
+  },
+  {
+    "idx": 1178,
+    "id": "n2-vocab_reading-1179",
+    "target": "破片",
+    "correct": "はへん",
+    "options": [
+      "はへん",
+      "ばへん",
+      "はへお",
+      "はへんい"
+    ],
+    "answer": 0
+  },
+  {
+    "idx": 1179,
+    "id": "n2-vocab_reading-1180",
+    "target": "歯磨き",
+    "correct": "はみがき",
+    "options": [
+      "ばみがき",
+      "はみがお",
+      "はみがき",
+      "はみがきい"
+    ],
+    "answer": 2
+  },
+  {
+    "idx": 1181,
+    "id": "n2-vocab_reading-1182",
+    "target": "流行る",
+    "correct": "はやる",
+    "options": [
+      "ばやる",
+      "はやる",
+      "はやるい",
+      "はやお"
+    ],
+    "answer": 1
+  },
+  {
+    "idx": 1182,
+    "id": "n2-vocab_reading-1183",
+    "target": "払い込む",
+    "correct": "はらいこむ",
+    "options": [
+      "はらいこむ",
+      "はらいこお",
+      "はらうこむ",
+      "はらいこむい"
+    ],
+    "answer": 0
+  }
+]
