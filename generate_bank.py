@@ -334,7 +334,7 @@ def print_vocab_status(vocab_state, section_defs):
 
 
 def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, max_attempts=2):
-    """记录一次生成/审核失败，并立即保存状态。"""
+    """记录一次生成/审核失败（仅更新内存，不立即写盘）。"""
     attempts_key = f"{section_id}_attempts"
     issue_key = f"{section_id}_issue"
     record = vocab_state[word["jmdict_seq"]]
@@ -343,17 +343,13 @@ def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, m
     record[issue_key] = issue
     if current + 1 >= max_attempts:
         record[section_id] = "failed"
-    if vocab_state_path:
-        save_vocab_state(vocab_state_path, vocab_state)
 
 
 def mark_vocab_generated(vocab_state, vocab_state_path, word, section_id):
-    """标记词汇题已入库，并立即保存状态。"""
+    """标记词汇题已入库（仅更新内存，不立即写盘）。"""
     record = vocab_state[word["jmdict_seq"]]
     record[section_id] = "generated"
     record[f"{section_id}_issue"] = ""
-    if vocab_state_path:
-        save_vocab_state(vocab_state_path, vocab_state)
 
 
 # ============================================================
@@ -1477,11 +1473,15 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     break
             else:
                 no_progress_rounds = 0
+            # 保存本轮标记的失败状态
+            if vocab_state_path:
+                save_vocab_state(vocab_state_path, vocab_state)
             print(f"  本轮全部组装失败，继续下一轮")
             continue
 
         # 2. 审核：优先从剩余模型中随机尝试，审核调用失败时继续换审核模型。
         remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
+        approved_items_batch = []
         if remaining_ids:
             random.shuffle(remaining_ids)
             print(f"    审核中: {', '.join(remaining_ids)}")
@@ -1494,13 +1494,7 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     stamp_generation_metadata(item, used_generator, available.get(reviewer_id), review_exp, True)
                     item["level"] = "N2"
                     item["question_type"] = section_id
-                    # 先落盘，再更新状态。save_to_json 对词汇题按 target 去重。
-                    added = save_to_json(section_id, [item], data_dir)
-                    mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
-                    if added:
-                        approved_count += added
-                    else:
-                        print(f"      已存在，跳过重复入库: {item.get('target')}")
+                    approved_items_batch.append((item, word))
                 else:
                     if review_issue:
                         print(f"      审核调用均失败，保留 pending: {review_issue}")
@@ -1513,12 +1507,19 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                 stamp_generation_metadata(item, used_generator, None, "", False)
                 item["level"] = "N2"
                 item["question_type"] = section_id
-                added = save_to_json(section_id, [item], data_dir)
+                approved_items_batch.append((item, word))
+
+        # 批量落盘：一次性写入所有审核通过的题目
+        if approved_items_batch:
+            added = save_to_json(section_id, [item for item, _ in approved_items_batch], data_dir)
+            for item, word in approved_items_batch:
                 mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
-                if added:
-                    approved_count += added
-                else:
-                    print(f"      已存在，跳过重复入库: {item.get('target')}")
+            approved_count += added
+            skipped = len(approved_items_batch) - added
+            if skipped > 0:
+                print(f"      批量入库: {added} 题, 跳过重复: {skipped} 题")
+            else:
+                print(f"      批量入库: {added} 题")
 
         pending_count = count_pending(vocab_state, section_id)
         round_attempts_after = sum(
@@ -1537,6 +1538,9 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                 break
         else:
             no_progress_rounds = 0
+        # 每轮结束时保存一次状态（而非每个词都写盘）
+        if vocab_state_path:
+            save_vocab_state(vocab_state_path, vocab_state)
         print(f"  {section_name} 进度: 累计入库 {approved_count} 题，剩余 pending {pending_count}")
 
     print(f"  {section_name} 总计入库: {approved_count} 题")
@@ -1548,8 +1552,8 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
     section_id = section_def["id"]
     print(f"\n  === {section_def['name']} ===")
 
-    # 特殊处理 vocab_reading / vocab_kanji
-    if section_id in ("vocab_reading", "vocab_kanji"):
+    # 特殊处理所有词汇题型（按词逐个生成，带状态追踪）
+    if section_id in VOCAB_SECTIONS:
         return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path, data_dir, logger=logger)
 
     # 通用流程（其他题型）

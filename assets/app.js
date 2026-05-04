@@ -436,7 +436,7 @@ async function buildUI() {
             h += `<div class="passage-container">
                     <div class="passage">${applyFurigana(q.pas)}</div>`;
             if (q.pas_trans) {
-                // 添加隐藏的全文翻译区块，关联到文章 ID
+                h += `<button class="trans-btn" onclick="toggleTranslation(${i}, event)">訳</button>`;
                 h += `<div class="passage-translation" id="pas-trans-${i}">${q.pas_trans}</div>`;
             }
             h += `</div>`;
@@ -479,22 +479,24 @@ function check(qN, sel, cor) {
     
     const b = document.getElementById('q' + qN), ex = document.getElementById('exp' + qN), navA = document.getElementById('nav' + qN), os = b.querySelectorAll('.options li'); 
     
-    // 自动显示该文章关联的翻译 (如果有)
-    // 逻辑：向后或向前搜索同一个文章容器内的翻译区块
-    let curr = b;
-    while (curr) {
-        const pt = curr.querySelector('.passage-translation');
-        if (pt) { pt.classList.add('show'); break; }
-        // 如果当前块没找到，尝试找前一个块（处理一篇文章多道题的情况）
-        curr = curr.previousElementSibling;
-        if (curr && !curr.classList.contains('question-block')) break;
-    }
-    
     if (sel === cor) { os[sel].classList.add('correct'); navA.className = 'done-correct'; } 
     else { os[sel].classList.add('wrong'); os[cor].classList.add('correct'); navA.className = 'done-wrong'; } 
     ex.classList.add('show'); 
     saveState(); 
 }
+
+function toggleTranslation(idx, event) {
+    const el = document.getElementById('pas-trans-' + idx);
+    if (!el) return;
+    const isShow = el.classList.toggle('show');
+    const btn = event.currentTarget || event.target;
+    if (btn) {
+        btn.classList.toggle('active', isShow);
+        // 对于小按钮，我们可能不需要切换文字，或者切个极简的
+        btn.innerText = isShow ? '隠' : '訳';
+    }
+}
+
 function toggleSidebar() { 
     if (window.matchMedia('(max-width: 900px)').matches) { 
         document.body.classList.toggle('mobile-nav-open'); 
@@ -506,12 +508,29 @@ function toggleSidebar() {
 function closeMobileNav() { document.body.classList.remove('mobile-nav-open'); }
 function openMobileNav() { document.body.classList.add('mobile-nav-open'); }
 function toggleFurigana() { const c = document.getElementById('furigana-toggle').checked; document.body.classList.toggle('show-furigana', c); localStorage.setItem('openjlpt_furigana', c ? '1' : '0'); }
+
 let currentNavIndex = 1;
+
 function navigateQuestion(d) { 
     currentNavIndex = Math.min(totalQuestions, Math.max(1, currentNavIndex + d)); 
     const el = document.getElementById('q' + currentNavIndex);
     if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // 墨水屏优化：去掉平滑滚动，改用瞬间跳转
+        el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+}
+
+function handleVolumeNavigation(event) {
+    const key = event.key || event.code || '';
+    const isNext = key === 'AudioVolumeDown' || key === 'VolumeDown' || key === 'PageDown';
+    const isPrev = key === 'AudioVolumeUp' || key === 'VolumeUp' || key === 'PageUp';
+    
+    if (isNext || isPrev) {
+        // 在移动端或全屏模式下拦截音量键
+        if (window.matchMedia('(max-width: 900px)').matches || document.fullscreenElement) {
+            event.preventDefault();
+            navigateQuestion(isNext ? 1 : -1);
+        }
     }
 }
 function initNav() {
@@ -576,6 +595,8 @@ window.addEventListener('DOMContentLoaded', () => {
         const syncBtn = document.querySelector('[onclick="triggerManualSync()"]');
         if (syncBtn) syncBtn.style.display = 'none';
     }
+
+    document.addEventListener('keydown', handleVolumeNavigation, { passive: false });
 
     loadExamData();
 });

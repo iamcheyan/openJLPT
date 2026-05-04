@@ -12,6 +12,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* 墨水屏优化：全局禁用动画和过渡 */
+    transition: none !important;
+    animation: none !important;
 }
 
 body {
@@ -220,7 +223,6 @@ body.show-furigana rt {
     max-width: 420px;
     width: 90%;
     box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.03);
-    animation: modalFadeIn 0.3s ease-out;
 }
 
 @keyframes modalFadeIn {
@@ -712,26 +714,7 @@ h3 {
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    /* 针对墨水屏优化：每 1/4 秒跳动一次，减少残影 */
-    25% {
-        transform: rotate(90deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    75% {
-        transform: rotate(270deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    /* 墨水屏优化：动画已禁用 */
 }
 
 .loading-text {
@@ -872,4 +855,44 @@ input[type="range"]::-webkit-slider-thumb {
     border: 2.5px solid #000;
     cursor: pointer;
     border-radius: 0;
+}
+/* 文章翻译 */
+.passage-container {
+    position: relative;
+}
+
+.passage-translation {
+    display: none;
+    margin-top: -2px; /* 紧贴上方的文章边框 */
+    padding: 20px;
+    background: #fdfdfd;
+    border: 2px solid #000;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.passage-translation.show {
+    display: block;
+}
+
+.trans-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 32px;
+    height: 32px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trans-btn.active {
+    background: #fff;
+    color: #000;
 }
