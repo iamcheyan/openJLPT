@@ -544,7 +544,7 @@ async function buildUI() {
         });
         
         let ex = q.exp || `正解：${q.ans + 1}`; 
-        if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【解説】</b><br>${q.translation}</div>`;
+        if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【中文翻译】</b><br>${q.translation}</div>`;
         
         const expCls = isAnswered ? 'explanation show' : 'explanation';
         h += `</ul><div class="${expCls}" id="exp${i + 1}">${ex}</div>`;
