@@ -322,14 +322,6 @@ function openSettings() {
                 </div>
             </div>
             ` : ''}
-            ${isAndroid ? `
-            <div class="settings-row">
-                <div class="settings-label">アプリ更新</div>
-                <div class="settings-control">
-                    <button class="font-btn" id="app-update-btn" onclick="checkAppUpdate()">🔄 チェック</button>
-                </div>
-            </div>
-            ` : ''}
             <div class="settings-row">
                 <div class="settings-label">バージョン</div>
                 <div class="settings-control">
