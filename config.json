@@ -11,7 +11,8 @@
       "label": "火山ARK",
       "api_key_env": "ARK_API_KEY",
       "base_url_env": "ARK_BASE_URL",
-      "model": "doubao-seed-2-0-pro-260215",
+      "model_env": "ARK_MODEL",
+      "model": "doubao-seed-2-0-code",
       "format": "openai"
     },
     "mimo": {
@@ -30,6 +31,7 @@
       "format": "gemini"
     },
     "nvidia": {
+      "enabled": false,
       "label": "NVIDIA NIM",
       "api_key_env": "NVIDIA_API_KEY",
       "base_url_env": "NVIDIA_BASE_URL",

@@ -238,6 +238,16 @@
   /* Hidden */
   .hidden { display: none !important; }
 
+  /* Refresh button */
+  .btn-refresh {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 16px; border: 1px solid var(--border);
+    border-radius: var(--radius); font-size: 13px; font-weight: 600;
+    cursor: pointer; background: var(--bg); color: var(--text-secondary);
+    margin-top: 12px; transition: all .15s;
+  }
+  .btn-refresh:hover { background: var(--border); color: var(--text); }
+
   /* Responsive */
   @media (max-width: 480px) {
     .container { padding: 10px; }
@@ -271,6 +281,7 @@
       <button class="btn btn-primary" onclick="app.startExam()">試験を始める</button>
       <button class="btn btn-secondary" onclick="app.loadSaved()">前回の続き</button>
     </div>
+    <button class="btn-refresh" onclick="app.refreshQuestions()">新しい問題を生成</button>
     <p style="font-size:12px;color:var(--text-secondary);margin-top:16px">
       ※ ブラウザの localStorage に回答が保存されます。<br>
       ※ 時間計測は目安です。実際の試験では 105 分です。
@@ -384,6 +395,70 @@
   // ============================
   // Loading
   // ============================
+  const EXAM_SELECTION_KEY = 'openjlpt_exam_selection';
+
+  const SECTION_LIMITS = {
+    vocab_reading: 5,
+    vocab_kanji: 5,
+    vocab_context: 5,
+    vocab_synonym: 5,
+    vocab_usage: 5,
+    grammar_fill: 12,
+    grammar_order: 5,
+  };
+
+  function selectQuestions() {
+    const savedRaw = localStorage.getItem(EXAM_SELECTION_KEY);
+    let savedIndices = null;
+    if (savedRaw) {
+      try {
+        const parsed = JSON.parse(savedRaw);
+        if (parsed.selectedIndices && parsed.selectedIndices.length > 0) {
+          savedIndices = parsed.selectedIndices;
+        }
+      } catch (e) {}
+    }
+
+    if (savedIndices) {
+      // Restore from saved selection
+      state.questions = savedIndices.map(i => state.questions[i]).filter(Boolean);
+      // Re-number
+      state.questions.forEach((q, i) => q.globalNum = i + 1);
+      return;
+    }
+
+    // First visit: randomly select questions per section
+    const bySection = {};
+    state.questions.forEach((q, i) => {
+      if (!bySection[q.typeId]) bySection[q.typeId] = [];
+      bySection[q.typeId].push(i);
+    });
+
+    const selectedIndices = [];
+    for (const [typeId, indices] of Object.entries(bySection)) {
+      const limit = SECTION_LIMITS[typeId];
+      if (!limit || limit >= indices.length) {
+        selectedIndices.push(...indices);
+      } else {
+        const shuffled = indices.slice();
+        for (let i = shuffled.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        selectedIndices.push(...shuffled.slice(0, limit));
+      }
+    }
+    selectedIndices.sort((a, b) => a - b);
+
+    // Save selection
+    localStorage.setItem(EXAM_SELECTION_KEY, JSON.stringify({
+      selectedIndices: selectedIndices
+    }));
+
+    state.questions = selectedIndices.map(i => state.questions[i]);
+    state.questions.forEach((q, i) => q.globalNum = i + 1);
+  }
+
   async function loadBanks() {
     const progressEl = document.getElementById('load-progress');
     let loaded = 0;
@@ -401,6 +476,7 @@
       if (progressEl) progressEl.textContent = `${loaded}/${BANK_FILES.length}`;
     }
     buildExam();
+    selectQuestions();
     showScreen('start-screen');
     updateStartScreen();
   }
@@ -943,6 +1019,16 @@
     showScreen('start-screen');
   }
 
+  function refreshQuestions() {
+    const hasAnswers = Object.keys(state.answers).length > 0;
+    if (hasAnswers && !confirm('新しい問題を生成しますか？\n現在の回答は削除されます。')) {
+      return;
+    }
+    localStorage.removeItem('openjlpt_progress');
+    localStorage.removeItem(EXAM_SELECTION_KEY);
+    location.reload();
+  }
+
   // ============================
   // Utilities
   // ============================
@@ -957,7 +1043,7 @@
   window.app = {
     startExam, loadSaved, toggleSection, jumpTo,
     selectAnswer, prev, next, submitExam,
-    reviewAll, reviewWrong, restart,
+    reviewAll, reviewWrong, restart, refreshQuestions,
   };
 
   loadBanks();

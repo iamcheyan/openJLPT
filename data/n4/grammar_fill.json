@@ -1,0 +1,949 @@
+{
+  "meta": {
+    "level": "N4",
+    "question_type": "grammar_fill",
+    "name": "文の文法",
+    "count": 57
+  },
+  "questions": [
+    {
+      "id": "n4-grammar_fill-001",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "私は明日、友達に（　）つもりです。",
+      "options": [
+        "会う",
+        "会わない",
+        "会って",
+        "会った"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞辞書形）＋つもりだ」は、これからの予定や意図を表します。"
+    },
+    {
+      "id": "n4-grammar_fill-002",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "昨日、お酒を飲み（　）ました。",
+      "options": [
+        "すぎ",
+        "すぎて",
+        "すぎる",
+        "すぎた"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞ます形）＋すぎる」は、度が過ぎることを表します。"
+    },
+    {
+      "id": "n4-grammar_fill-003",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "この漢字の読み方を（　）ください。",
+      "options": [
+        "教えて",
+        "教える",
+        "教え",
+        "教えた"
+      ],
+      "answer": 0,
+      "explanation": "「～てください」は、依頼や指示を表します。"
+    },
+    {
+      "id": "n4-grammar_fill-004",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "彼は今、本を（　）います。",
+      "options": [
+        "読んで",
+        "読む",
+        "読み",
+        "読んだ"
+      ],
+      "answer": 0,
+      "explanation": "「～ています」は、現在進行中の動作を表します。"
+    },
+    {
+      "id": "n4-grammar_fill-005",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "雨が降って（　）、ピクニックに行きます。",
+      "options": [
+        "も",
+        "なら",
+        "たら",
+        "ば"
+      ],
+      "answer": 0,
+      "explanation": "「～ても」は、逆接の条件を表します。「雨が降っても」で「たとえ雨が降っても」という意味になります。"
+    },
+    {
+      "id": "n4-grammar_fill-006",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "日本語を勉強（　）ために、日本へ来ました。",
+      "options": [
+        "する",
+        "して",
+        "した",
+        "しない"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞辞書形）＋ために」は、目的を表します。"
+    },
+    {
+      "id": "n4-grammar_fill-007",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "窓が（　）います。",
+      "options": [
+        "開いて",
+        "開けて",
+        "開く",
+        "開けた"
+      ],
+      "answer": 0,
+      "explanation": "「（自動詞）＋ています」は、状態が続いていることを表します。"
+    },
+    {
+      "id": "n4-grammar_fill-008",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "もう宿題を（　）しまいました。",
+      "options": [
+        "やって",
+        "やる",
+        "やり",
+        "やった"
+      ],
+      "answer": 0,
+      "explanation": "「～てしまう」は、完了や、残念な気持ちを表します。"
+    },
+    {
+      "id": "n4-grammar_fill-009",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "彼は歌を（　）ながら、料理を作っている。",
+      "options": [
+        "歌い",
+        "歌う",
+        "歌って",
+        "歌った"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞ます形）＋ながら」は、二つの動作を同時に行うことを表します。"
+    },
+    {
+      "id": "n4-grammar_fill-010",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "sentence": "テレビを（　）まま、寝てしまった。",
+      "options": [
+        "つけた",
+        "つける",
+        "つけ",
+        "つけて"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞た形）＋まま」は、ある状態のままで何かをすることを表します。"
+    },
+    {
+      "sentence": "ご飯を食べ（　）後で、散歩します。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-た form / noun + の + 後で。after doing X / after X。",
+      "complete_sentence": "ご飯を食べた後で、散歩します。",
+      "id": "n4-grammar_fill-011",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "彼は今日来る（　）です。",
+      "options": [
+        "はず",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + はず。should be / ought to be / is expected to。",
+      "complete_sentence": "彼は今日来るはずです。",
+      "id": "n4-grammar_fill-012",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "この本は難しいです（　）、面白いです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Clause + が / けど / けれども。but / although / however。",
+      "complete_sentence": "この本は難しいですが、面白いです。",
+      "id": "n4-grammar_fill-013",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "ここでタバコを吸っ（　）はいけません。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-て + はいけない / はいけません。must not ___ (prohibition)。",
+      "complete_sentence": "ここでタバコを吸ってはいけません。",
+      "id": "n4-grammar_fill-014",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "明日は学校に来（　）てもいいです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "なく"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-なく + てもいい。don't have to / it's okay not to。",
+      "complete_sentence": "明日は学校に来なくてもいいです。",
+      "id": "n4-grammar_fill-015",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "この字は読み（　）です。",
+      "options": [
+        "ばかりに",
+        "にくい",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb stem + にくい。hard to ___ / difficult to ___。",
+      "complete_sentence": "この字は読みにくいです。",
+      "id": "n4-grammar_fill-016",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "このペンは書き（　）です。",
+      "options": [
+        "やすい",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb stem + やすい。easy to ___。",
+      "complete_sentence": "このペンは書きやすいです。",
+      "id": "n4-grammar_fill-017",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "友達（　）本をくれた。",
+      "options": [
+        "ものの",
+        "が",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Giver が (Receiver に) Object を くれる。to give (toward speaker / in-group)。",
+      "complete_sentence": "友達が本をくれた。",
+      "id": "n4-grammar_fill-018",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "電車が遅れました。（　）、会議に遅刻しました。",
+      "options": [
+        "ものの",
+        "それで",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：それで (sentence-initial)。and then / so / as a result。",
+      "complete_sentence": "電車が遅れました。それで、会議に遅刻しました。",
+      "id": "n4-grammar_fill-019",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "時間があっ（　）ら、映画を見ます。",
+      "options": [
+        "た",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-た + ら。if / when ___ (general conditional)。",
+      "complete_sentence": "時間があったら、映画を見ます。",
+      "id": "n4-grammar_fill-020",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "彼は明日来る（　）言（　）た。",
+      "options": [
+        "ものの",
+        "どころか",
+        "って",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form / phrase + って。(casual) that... / they said... / the thing called...。",
+      "complete_sentence": "彼は明日来るって言ってた。",
+      "id": "n4-grammar_fill-021",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "頭が痛い（　）。",
+      "options": [
+        "ばかりに",
+        "んです",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + んです / のです。explains, gives reason, or softly asserts: 'it's that ___'。",
+      "complete_sentence": "頭が痛いんです。",
+      "id": "n4-grammar_fill-022",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "雨が降っている（　）、中止します。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ので"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ので。because / since ___ (softer, more objective than から)。",
+      "complete_sentence": "雨が降っているので、中止します。",
+      "id": "n4-grammar_fill-023",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "この部屋は広い（　）、静かだ。",
+      "options": [
+        "し",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + し (+ plain form + し + ...)。and / besides (non-exhaustive listing of reasons or facts)。",
+      "complete_sentence": "この部屋は広いし、静かだ。",
+      "id": "n4-grammar_fill-024",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "先生に説明し（　）いただきました。",
+      "options": [
+        "ばかりに",
+        "て",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V-て form + いただく。I humbly receive the favor of X doing Y (humble)。",
+      "complete_sentence": "先生に説明していただきました。",
+      "id": "n4-grammar_fill-025",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "雨が降っていた（　）、試合は行われた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "けれども"
+      ],
+      "answer": 3,
+      "explanation": "文法点：けれども (mid-sentence or sentence-initial)。but / however (formal-neutral)。",
+      "complete_sentence": "雨が降っていたけれども、試合は行われた。",
+      "id": "n4-grammar_fill-026",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "私の話を聞い（　）ほしい。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "て",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-て form + ほしい。want someone (else) to do X。",
+      "complete_sentence": "私の話を聞いてほしい。",
+      "id": "n4-grammar_fill-027",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "日本語（　）わかります。",
+      "options": [
+        "が",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + が + わかる。understand (object takes が, not を)。",
+      "complete_sentence": "日本語がわかります。",
+      "id": "n4-grammar_fill-028",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "先生に本を（　）貸しします。",
+      "options": [
+        "お",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：お + V ます-stem + する (or ご + Sino-Japanese noun + する)。humble form: I will do X (for a superior)。",
+      "complete_sentence": "先生に本をお貸しします。",
+      "id": "n4-grammar_fill-029",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "友達に本を貸し（　）あげました。",
+      "options": [
+        "ものの",
+        "どころか",
+        "て",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-て form + あげる。I do a favor for (someone outside my in-group)。",
+      "complete_sentence": "友達に本を貸してあげました。",
+      "id": "n4-grammar_fill-030",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "日本に行っ（　）ことがあります。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "た",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb-た + ことがある。have done ___ (experience)。",
+      "complete_sentence": "日本に行ったことがあります。",
+      "id": "n4-grammar_fill-031",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "日本語（　）できますか。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + が + できる。can do / is possible (object takes が, not を)。",
+      "complete_sentence": "日本語ができますか。",
+      "id": "n4-grammar_fill-032",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "日本に行く（　）、京都がおすすめです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "なら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：X + なら。if (it is the case that) ___; as for ___。",
+      "complete_sentence": "日本に行くなら、京都がおすすめです。",
+      "id": "n4-grammar_fill-033",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "私は猫（　）好きです。",
+      "options": [
+        "が",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + が + 好き / 嫌い。like / dislike (object takes が, not を)。",
+      "complete_sentence": "私は猫が好きです。",
+      "id": "n4-grammar_fill-034",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "友達に日本語を教え（　）もらった。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + もらう。I receive the favor of X doing Y / I have X do Y。",
+      "complete_sentence": "友達に日本語を教えてもらった。",
+      "id": "n4-grammar_fill-035",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "遠くから音楽（　）聞こえる。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + が + 聞こえる / 見える。is audible / is visible (spontaneous perception; object takes が)。",
+      "complete_sentence": "遠くから音楽が聞こえる。",
+      "id": "n4-grammar_fill-036",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "毎日勉強すれ（　）、上手になります。",
+      "options": [
+        "ば",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb → ば form。if ___ (general/hypothetical conditional)。",
+      "complete_sentence": "毎日勉強すれば、上手になります。",
+      "id": "n4-grammar_fill-037",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "友達がお金を貸し（　）くれた。",
+      "options": [
+        "どころか",
+        "ものの",
+        "て",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-て form + くれる。(someone) does a favor for me / us。",
+      "complete_sentence": "友達がお金を貸してくれた。",
+      "id": "n4-grammar_fill-038",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "来年、日本に行く（　）です。",
+      "options": [
+        "どころか",
+        "ものの",
+        "つもり",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb (dictionary form) + つもり。intend to / plan to ___。",
+      "complete_sentence": "来年、日本に行くつもりです。",
+      "id": "n4-grammar_fill-039",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "ここに座っ（　）もいいですか。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-て + もいい / もいいです。may / it's okay to ___ (permission)。",
+      "complete_sentence": "ここに座ってもいいですか。",
+      "id": "n4-grammar_fill-040",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "子供（　）わかる。",
+      "options": [
+        "ものの",
+        "どころか",
+        "でも",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + でも。even (a) / or something (casual suggestion)。",
+      "complete_sentence": "子供でもわかる。",
+      "id": "n4-grammar_fill-041",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "週末は映画を見（　）り、買い物をし（　）りします。",
+      "options": [
+        "た",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-た + り + Verb-た + り + する。do things like X and Y (non-exhaustive list of actions)。",
+      "complete_sentence": "週末は映画を見たり、買い物をしたりします。",
+      "id": "n4-grammar_fill-042",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.829Z"
+    },
+    {
+      "sentence": "このボタンを押す（　）ドアが開きます。",
+      "options": [
+        "どころか",
+        "ものの",
+        "と",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb (dictionary form) + と。whenever / when (natural consequence)。",
+      "complete_sentence": "このボタンを押すとドアが開きます。",
+      "id": "n4-grammar_fill-043",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "雨が降っ（　）も、行きます。",
+      "options": [
+        "て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-て form + も。even if / even though (hypothetical or counterfactual contrast)。",
+      "complete_sentence": "雨が降っても、行きます。",
+      "id": "n4-grammar_fill-044",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "（　）本が好きです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "こういう"
+      ],
+      "answer": 3,
+      "explanation": "文法点：こういう / そういう / ああいう / どういう + noun。this kind of / that kind of / that kind of (over there) / what kind of。",
+      "complete_sentence": "こういう本が好きです。",
+      "id": "n4-grammar_fill-045",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "ご飯を食べ（　）から、出かけます。",
+      "options": [
+        "て",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-て form + から。after doing X (then Y)。",
+      "complete_sentence": "ご飯を食べてから、出かけます。",
+      "id": "n4-grammar_fill-046",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "疲れている。（　）、続けなければならない。",
+      "options": [
+        "ばかりに",
+        "それでも",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：それでも (sentence-initial)。even so / nonetheless / still。",
+      "complete_sentence": "疲れている。それでも、続けなければならない。",
+      "id": "n4-grammar_fill-047",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "（　）待ちください。",
+      "options": [
+        "お",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：お + V ます-stem + ください (or ご + Sino-Japanese noun + ください)。please do (very polite honorific request)。",
+      "complete_sentence": "お待ちください。",
+      "id": "n4-grammar_fill-048",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "一つ（　）取ってください。",
+      "options": [
+        "ものの",
+        "ずつ",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Number + counter + ずつ。each / per / at a rate of。",
+      "complete_sentence": "一つずつ取ってください。",
+      "id": "n4-grammar_fill-049",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "お金が100円（　）ない。",
+      "options": [
+        "しか",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun (or V plain) + しか + negative predicate。only / nothing but (negative-polarity 'only')。",
+      "complete_sentence": "お金が100円しかない。",
+      "id": "n4-grammar_fill-050",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "スポーツ（　）音楽（　）が好きです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "とか"
+      ],
+      "answer": 3,
+      "explanation": "文法点：X とか Y (とか)。like X and Y / things like (non-exhaustive casual listing)。",
+      "complete_sentence": "スポーツとか音楽とかが好きです。",
+      "id": "n4-grammar_fill-051",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "朝ごはんを食べました。（　）、学校へ行きました。",
+      "options": [
+        "どころか",
+        "ものの",
+        "それから",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：それから (sentence-initial)。and then / after that / in addition。",
+      "complete_sentence": "朝ごはんを食べました。それから、学校へ行きました。",
+      "id": "n4-grammar_fill-052",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "雨が降っています。（　）、傘を持っていきます。",
+      "options": [
+        "どころか",
+        "だから",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：だから (sentence-initial)。so / therefore / that's why。",
+      "complete_sentence": "雨が降っています。だから、傘を持っていきます。",
+      "id": "n4-grammar_fill-053",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "雨が降っていた。（　）、試合は行われた。",
+      "options": [
+        "しかし",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：しかし (sentence-initial)。but / however (formal)。",
+      "complete_sentence": "雨が降っていた。しかし、試合は行われた。",
+      "id": "n4-grammar_fill-054",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "天気予報によると、明日は雨だ（　）です。",
+      "options": [
+        "ものの",
+        "そう",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + そう(だ/です)。I heard that / apparently (reported speech)。",
+      "complete_sentence": "天気予報によると、明日は雨だそうです。",
+      "id": "n4-grammar_fill-055",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "昨日、勉強する（　）けど、疲れて寝てしまった。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "つもりだった"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain non-past + つもりだった。had intended to / was going to。",
+      "complete_sentence": "昨日、勉強するつもりだったけど、疲れて寝てしまった。",
+      "id": "n4-grammar_fill-056",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    },
+    {
+      "sentence": "分からなかったら、聞け（　）いいです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ば"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb ば-form + いい。should / just need to / it'd be good if。",
+      "complete_sentence": "分からなかったら、聞けばいいです。",
+      "id": "n4-grammar_fill-057",
+      "level": "N4",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.830Z"
+    }
+  ]
+}

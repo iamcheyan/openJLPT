@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JLPT N2 完全模擬試験 — Full Template</title>
+<style>
+:root {
+    --correct-color: #67c23a;
+    --wrong-color: #f56c6c;
+    --highlight-bg: #fff9c4;
+    --highlight-border: #f9a825;
+    --tip-bg: #fff8e1;
+    --sidebar-width: 260px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+    background: #fff; color: #000; display: flex; min-height: 100vh;
+}
+
+/* Furigana Control */
+ruby { ruby-position: over; ruby-align: center; }
+rt { visibility: hidden; font-family: "Hiragino Sans", sans-serif; font-size: 0.55em; line-height: 1; color: #666; user-select: none; }
+body.show-furigana rt { visibility: visible; }
+.target-word rt { display: none !important; }
+
+/* Sidebar */
+.sidebar {
+    width: var(--sidebar-width); background: #fdfdfd; border-right: 1px solid #000; height: 100vh;
+    position: fixed; left: 0; top: 0; padding: 20px; display: flex; flex-direction: column; z-index: 100;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.exam-header { border-bottom: 2px solid #000; margin-bottom: 32px; padding-bottom: 14px; display: flex; justify-content: space-between; align-items: flex-end; }
+.exam-header h1 { font-size: 28px; font-weight: bold; margin-bottom: 6px; }
+.exam-header p { font-size: 13px; font-family: "Hiragino Sans", sans-serif; }
+.stats-card { border: 1px solid #000; padding: 12px; margin-bottom: 20px; background: #fff; }
+.stats-item { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; font-size: 13px; }
+.stats-item .val { font-weight: bold; font-size: 22px; font-family: "Hiragino Sans", sans-serif; }
+.nav-search { width: 100%; border: 1px solid #000; padding: 9px 10px; margin: 0 0 10px; font-size: 15px; font-family: "Hiragino Sans", sans-serif; background: #fff; }
+.nav-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(35px, 1fr)); gap: 5px; overflow-y: auto; flex: 1; }
+.nav-grid a { aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; font-size: 11px; text-decoration: none; color: #666; font-family: "Hiragino Sans", sans-serif; }
+.nav-grid a.hidden { display: none; }
+.nav-grid a.done-correct { background: var(--correct-color); color: #fff; border-color: var(--correct-color); }
+.nav-grid a.done-wrong { background: var(--wrong-color); color: #fff; border-color: var(--wrong-color); }
+.sidebar-backdrop, .mobile-exam-bar { display: none; }
+
+.toggle-btn {
+    position: fixed; left: calc(var(--sidebar-width) - 1px); top: 20px; z-index: 1001; background: #fff;
+    border: 1px solid #000; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: left 0.3s; font-size: 14px;
+}
+body.collapsed .sidebar { transform: translateX(-100%); }
+body.collapsed .main-content { margin-left: 0; }
+body.collapsed .toggle-btn { left: 10px; }
+
+/* Main */
+.main-content { margin-left: var(--sidebar-width); flex: 1; padding: 40px 60px; max-width: 1000px; transition: margin-left 0.3s; }
+h2 { font-size: 24px; margin: 40px 0 10px; font-weight: bold; }
+h3 { font-size: 18px; margin: 25px 0 10px; font-weight: normal; text-decoration: underline; text-underline-offset: 5px; }
+.instruction { border: 1px solid #000; padding: 12px 15px; font-size: 14px; margin-bottom: 30px; background: #f9f9f9; }
+.question-block { margin-bottom: 45px; padding-bottom: 20px; border-bottom: 1px dashed #ccc; }
+.question-text { font-size: 19px; margin-bottom: 18px; line-height: 2.8; }
+.target-word { background: var(--highlight-bg); padding: 0 4px; border-bottom: 1px solid var(--highlight-border); font-weight: bold; }
+.options { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.options li { padding: 10px 18px; border: 1px solid #333; font-size: 17px; cursor: pointer; transition: all 0.2s; }
+.options li:hover { background: #f0f0f0; }
+.options li.correct { background: var(--correct-color) !important; color: #fff; border-color: var(--correct-color); font-weight: bold; }
+.options li.wrong { background: var(--wrong-color) !important; color: #fff; border-color: var(--wrong-color); }
+.explanation { display: none; margin-top: 20px; padding: 15px; background: var(--tip-bg); border-left: 5px solid #ffb300; font-size: 15px; color: #856404; }
+.explanation.show { display: block; }
+.passage { background: #fff; border: 1px solid #000; padding: 25px; margin: 20px 0; font-size: 17px; line-height: 3; }
+.star-line { font-family: monospace; background: #f0f0f0; padding: 12px; margin-bottom: 15px; display: block; border: 1px solid #ccc; font-size: 16px; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #fff; }
+::-webkit-scrollbar-thumb { background: #000; }
+@media (max-width: 900px) {
+    body { display: block; padding-bottom: 72px; }
+    .toggle-btn { display: none; }
+    .sidebar {
+        width: min(88vw, 380px); height: 100dvh; position: fixed; left: 0; top: 0;
+        border-right: 1px solid #000; border-bottom: none; padding: 16px;
+        transform: translateX(-105%); z-index: 1002; box-shadow: 12px 0 24px rgba(0,0,0,0.18);
+    }
+    body.mobile-nav-open .sidebar { transform: translateX(0); }
+    .stats-card { margin-bottom: 12px; padding: 10px; }
+    .stats-item .val { font-size: 20px; }
+    .nav-grid { grid-template-columns: repeat(5, minmax(42px, 1fr)); gap: 7px; padding-bottom: 12px; }
+    .nav-grid a { min-height: 42px; aspect-ratio: auto; font-size: 13px; }
+    .sidebar-backdrop {
+        display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 1001;
+    }
+    body.mobile-nav-open .sidebar-backdrop { display: block; }
+    .mobile-exam-bar {
+        display: grid; grid-template-columns: 1fr auto auto auto; align-items: center; gap: 8px;
+        position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000; padding: 10px 12px;
+        background: #fff; border-top: 1px solid #000; font-family: "Hiragino Sans", sans-serif;
+    }
+    .mobile-exam-bar .mobile-status { font-size: 12px; font-weight: bold; white-space: nowrap; }
+    .mobile-exam-bar button {
+        border: 1px solid #000; background: #fff; min-width: 44px; height: 44px; padding: 0 12px;
+        font-size: 14px; font-weight: bold;
+    }
+    body.mobile-nav-open .mobile-exam-bar { display: none; }
+    .main-content { margin-left: 0; padding: 18px 14px 24px; max-width: none; }
+    .exam-header { margin-bottom: 24px; padding-bottom: 12px; }
+    .exam-header h1 { font-size: 24px; }
+    .exam-header p { font-size: 12px; }
+    h2 { font-size: 21px; margin: 30px 0 10px; }
+    h3 { font-size: 16px; margin: 20px 0 8px; }
+    .instruction { font-size: 13px; padding: 10px 12px; margin-bottom: 22px; }
+    .question-block { margin-bottom: 34px; padding-bottom: 18px; scroll-margin-top: 12px; }
+    .question-text { font-size: 17px; line-height: 2.3; }
+    .passage { padding: 16px; font-size: 16px; line-height: 2.4; overflow-wrap: anywhere; }
+    .options { grid-template-columns: 1fr; }
+    .options li { font-size: 16px; padding: 12px 14px; min-height: 46px; }
+}
+.refresh-btn {
+    display: inline-block; padding: 8px 18px;
+    border: 1px solid #000; background: #fff; font-size: 13px;
+    font-family: "Hiragino Sans", sans-serif; cursor: pointer;
+    white-space: nowrap;
+}
+.refresh-btn:hover { background: #f0f0f0; }
+
+/* Stats overlay */
+.stats-overlay {
+    display: none; position: fixed; inset: 0; z-index: 2000;
+    background: #fff; overflow-y: auto;
+    font-family: "Hiragino Sans", sans-serif;
+}
+.stats-overlay.open { display: block; }
+.stats-overlay-header {
+    position: sticky; top: 0; z-index: 1;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 30px; border-bottom: 2px solid #000; background: #fff;
+}
+.stats-overlay-header h2 { font-size: 20px; font-weight: bold; }
+.stats-overlay-close {
+    border: 1px solid #000; background: #fff; padding: 8px 18px;
+    font-size: 14px; cursor: pointer; font-family: "Hiragino Sans", sans-serif;
+}
+.stats-overlay-close:hover { background: #f0f0f0; }
+.stats-overlay-body { max-width: 680px; margin: 0 auto; padding: 30px; }
+.stats-section { margin-bottom: 32px; }
+.stats-section-title {
+    font-size: 16px; font-weight: bold; padding-bottom: 8px;
+    border-bottom: 1px solid #000; margin-bottom: 12px;
+}
+.stats-row {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    padding: 10px 0; border-bottom: 1px dashed #ccc; font-size: 14px;
+}
+.stats-row-name { flex: 1; line-height: 1.6; }
+.stats-row-count { font-weight: bold; font-size: 20px; min-width: 50px; text-align: right; padding-top: 2px; }
+.stats-total {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 14px 0; border-top: 2px solid #000; margin-top: 8px;
+    font-size: 16px; font-weight: bold;
+}
+.stats-total .count { font-size: 22px; }
+.sidebar-stats-link {
+    margin-top: auto; padding-top: 12px; border-top: 1px solid #000;
+    font-size: 12px; color: #666; cursor: pointer; text-decoration: underline;
+}
+.sidebar-stats-link:hover { color: #000; }
+
+/* Level switcher */
+.level-switcher { display: flex; gap: 4px; }
+.level-btn {
+    padding: 6px 12px; border: 1px solid #000; background: #fff;
+    font-size: 13px; font-weight: bold; cursor: pointer;
+    font-family: "Hiragino Sans", sans-serif; text-decoration: none; color: #000;
+}
+.level-btn:hover { background: #f0f0f0; }
+.level-btn.active { background: #000; color: #fff; }
+</style>
+</head>
+<body>
+
+<div id="toggle-btn" class="toggle-btn" onclick="toggleSidebar()">◀</div>
+<div id="sidebar-backdrop" class="sidebar-backdrop" onclick="closeMobileNav()"></div>
+<div class="mobile-exam-bar">
+    <div class="mobile-status">進捗 <span id="mobile-progress">0</span>/<span id="mobile-total">0</span>　得点 <span id="mobile-score">0</span></div>
+    <button type="button" onclick="navigateQuestion(-1)">前</button>
+    <button type="button" onclick="navigateQuestion(1)">次</button>
+    <button type="button" onclick="openMobileNav()">問題</button>
+</div>
+
+<div class="sidebar">
+    <div class="stats-card">
+        <div class="stats-item"><span>進捗</span> <span class="val"><span id="progress">0</span>/<span id="total">0</span></span></div>
+        <div class="stats-item"><span>得点</span> <span class="val" id="score">0</span></div>
+        <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #000;">
+            <label style="font-size: 12px; cursor: pointer; display: flex; align-items: center; gap: 8px;">
+                <input type="checkbox" id="furigana-toggle" onchange="toggleFurigana()"> ふりがな表示
+            </label>
+        </div>
+    </div>
+    <div style="margin-bottom: 8px; font-size: 11px; font-weight: bold;">問題ナビゲーション</div>
+    <input class="nav-search" id="nav-search" type="search" inputmode="numeric" placeholder="問題番号を検索" oninput="filterNav()">
+    <div class="nav-grid" id="nav"></div>
+    <div class="sidebar-stats-link" onclick="toggleStatsOverlay()">題型統計を見る</div>
+</div>
+
+<div id="stats-overlay" class="stats-overlay">
+    <div class="stats-overlay-header">
+        <h2>N2 題型統計</h2>
+        <button class="stats-overlay-close" onclick="toggleStatsOverlay()">閉じる</button>
+    </div>
+    <div class="stats-overlay-body" id="stats-overlay-body"></div>
+</div>
+
+<div class="main-content">
+    <header class="exam-header">
+        <div>
+            <h1 id="exam-title">JLPT 模擬試験</h1>
+            <p>言語知識・読解</p>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+            <div class="level-switcher" id="level-switcher"></div>
+            <button class="refresh-btn" onclick="refreshExam()">新しい問題</button>
+        </div>
+    </header>
+
+    <h2>一、文字・語彙</h2>
+    <h3>① 漢字の読み方</h3>
+    <div class="instruction">＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-1"></div>
+
+    <h3>② 漢字の表記</h3>
+    <div class="instruction">＿＿の言葉を漢字で書くとき、最もよいものを１・２・３・４から一つ選びなさい。</div>
+    <div id="section-2"></div>
+
+    <h3>③ 文脈規定</h3>
+    <div class="instruction">（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-3"></div>
+
+    <h3>④ 言い換え・類義</h3>
+    <div class="instruction">＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-4"></div>
+
+    <h3>⑤ 用法</h3>
+    <div class="instruction">次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-5"></div>
+
+    <h2>二、文法</h2>
+    <h3>⑥ 文の文法</h3>
+    <div class="instruction">次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-6"></div>
+
+    <h3>⑦ 文の組み立て</h3>
+    <div class="instruction">★に入る最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-7"></div>
+
+    <h3>⑧ 文章の文法</h3>
+    <div class="instruction">次の文章を読んで、文章全体の内容を考えて、＿＿から＿＿の中に入る最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-8"></div>
+
+    <h2>三、読解</h2>
+    <h3>⑨ 短文読解</h3>
+    <div class="instruction">次の文章を読んで、後の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-9"></div>
+
+    <h3>⑩ 中文読解</h3>
+    <div class="instruction">次の文章を読んで、後の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-10"></div>
+
+    <h3>⑪ 長文読解</h3>
+    <div class="instruction">次の文章を読んで、後の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-11"></div>
+
+    <h3>⑫ 情報検索</h3>
+    <div class="instruction">右のページは、ある案内である。下の問いに対する答えとして最もよいものを、１・２・３・４から一つ選びなさい。</div>
+    <div id="section-12"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js"></script>
+<script>
+/*QUESTIONS_DATA*/
+
+const STORAGE_KEY = 'openjlpt_exam_' + (typeof CURRENT_LEVEL !== 'undefined' ? CURRENT_LEVEL : 'n2');
+
+// ============================
+// Client-side question selection
+// ============================
+function selectExamQuestions() {
+    if (typeof SELECT_ALL === 'undefined' || !SELECT_ALL) return;
+
+    const saved = loadExamState();
+    if (saved && saved.selectedIndices && saved.selectedIndices.length > 0) {
+        // Restore previously selected questions
+        const indices = saved.selectedIndices;
+        const selected = indices.map(i => QUESTIONS[i]).filter(Boolean);
+        QUESTIONS.length = 0;
+        QUESTIONS.push(...selected);
+        return;
+    }
+
+    // First visit: randomly select questions
+    const counts = (typeof SECTION_COUNTS !== 'undefined') ? SECTION_COUNTS : {};
+    const bySection = {};
+    QUESTIONS.forEach((q, i) => {
+        if (!bySection[q.s]) bySection[q.s] = [];
+        bySection[q.s].push(i);
+    });
+
+    const selectedIndices = [];
+    for (const [sStr, indices] of Object.entries(bySection)) {
+        const s = Number(sStr);
+        const limit = counts[s];
+        if (limit === undefined || limit === null || limit >= indices.length) {
+            selectedIndices.push(...indices);
+        } else {
+            // Shuffle and pick
+            const shuffled = indices.slice();
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            selectedIndices.push(...shuffled.slice(0, limit));
+        }
+    }
+
+    // Preserve original order
+    selectedIndices.sort((a, b) => a - b);
+
+    // Save indices before replacing QUESTIONS
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        selectedIndices: selectedIndices,
+        selections: [],
+        answered: 0,
+        score: 0,
+        timestamp: new Date().toISOString()
+    }));
+
+    const selected = selectedIndices.map(i => QUESTIONS[i]);
+    QUESTIONS.length = 0;
+    QUESTIONS.push(...selected);
+}
+
+function saveExamState() {
+    const saved = loadExamState() || {};
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        selectedIndices: saved.selectedIndices || [],
+        selections: selections,
+        answered: answered,
+        score: score,
+        timestamp: new Date().toISOString()
+    }));
+}
+
+function loadExamState() {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    try { return JSON.parse(raw); } catch (e) { return null; }
+}
+
+function clearExamState() {
+    localStorage.removeItem(STORAGE_KEY);
+}
+
+function refreshExam() {
+    if (answered > 0 && !confirm('新しい問題を生成しますか？\n現在の回答は削除されます。')) {
+        return;
+    }
+    clearExamState();
+    location.reload();
+}
+
+// ============================
+// Stats Overlay
+// ============================
+const SECTION_LABELS = {
+    1: '① 漢字の読み方', 2: '② 漢字の表記', 3: '③ 文脈規定',
+    4: '④ 言い換え・類義', 5: '⑤ 用法', 6: '⑥ 文の文法',
+    7: '⑦ 文の組み立て', 8: '⑧ 文章の文法', 9: '⑨ 短文読解',
+    10: '⑩ 中文読解', 11: '⑪ 長文読解', 12: '⑫ 情報検索',
+};
+const SECTION_GROUPS = [
+    { label: '一、文字・語彙', sections: [1,2,3,4,5] },
+    { label: '二、文法', sections: [6,7,8] },
+    { label: '三、読解', sections: [9,10,11,12] },
+];
+
+function buildStatsOverlay() {
+    const body = document.getElementById('stats-overlay-body');
+    if (!body) return;
+
+    function findStats(s) {
+        if (typeof BANK_STATS === 'undefined') return null;
+        for (const key of Object.keys(BANK_STATS)) {
+            if (BANK_STATS[key].s === s) return BANK_STATS[key];
+        }
+        return null;
+    }
+
+    let html = '';
+    let grandTotal = 0;
+
+    for (const group of SECTION_GROUPS) {
+        html += `<div class="stats-section">`;
+        html += `<div class="stats-section-title">${group.label}</div>`;
+        let groupTotal = 0;
+
+        for (const s of group.sections) {
+            const entry = findStats(s);
+            const total = entry ? entry.total : 0;
+            const file = entry ? entry.file : '';
+            const name = entry ? entry.name : (SECTION_LABELS[s] || '');
+
+            html += `<div class="stats-row">`;
+            html += `<span class="stats-row-name">`;
+            html += `${SECTION_LABELS[s] || '第' + s + '題'}`;
+            if (file) html += `<br><span style="font-size:11px;color:#999">${file}</span>`;
+            html += `</span>`;
+            html += `<span class="stats-row-count">${total}</span>`;
+            html += `</div>`;
+
+            groupTotal += total;
+        }
+
+        html += `<div class="stats-total">`;
+        html += `<span>小計</span>`;
+        html += `<span class="count">${groupTotal} 問</span>`;
+        html += `</div>`;
+        html += `</div>`;
+
+        grandTotal += groupTotal;
+    }
+
+    html += `<div class="stats-total" style="font-size:18px">`;
+    html += `<span>合計</span>`;
+    html += `<span class="count">${grandTotal} 問</span>`;
+    html += `</div>`;
+
+    body.innerHTML = html;
+}
+
+function toggleStatsOverlay() {
+    const overlay = document.getElementById('stats-overlay');
+    if (!overlay) return;
+    if (!overlay.classList.contains('open')) {
+        buildStatsOverlay();
+    }
+    overlay.classList.toggle('open');
+}
+
+// Select questions first, then restore progress
+selectExamQuestions();
+
+// ============================
+// Level switcher
+// ============================
+(function initLevelSwitcher() {
+    const level = (typeof CURRENT_LEVEL !== 'undefined') ? CURRENT_LEVEL : 'n2';
+    const levels = ['n1','n2','n3','n4','n5'];
+
+    // Update title
+    const titleEl = document.getElementById('exam-title');
+    if (titleEl) titleEl.textContent = `JLPT ${level.toUpperCase()} 模擬試験`;
+
+    // Update stats overlay title
+    const statsTitle = document.querySelector('.stats-overlay-header h2');
+    if (statsTitle) statsTitle.textContent = `${level.toUpperCase()} 題型統計`;
+
+    // Build level switcher buttons
+    const container = document.getElementById('level-switcher');
+    if (container) {
+        levels.forEach(lv => {
+            const a = document.createElement('a');
+            a.className = 'level-btn' + (lv === level ? ' active' : '');
+            a.textContent = lv.toUpperCase();
+            a.href = '/?level=' + lv;
+            container.appendChild(a);
+        });
+    }
+})();
+
+const savedState = loadExamState();
+if (savedState && savedState.selections) {
+    // Restore answer selections (not questions, they're already selected)
+}
+
+let answered = 0, score = 0;
+const totalQuestions = QUESTIONS.length;
+const results = new Array(totalQuestions).fill(null);
+const selections = new Array(totalQuestions).fill(null);
+
+// Restore saved selections
+if (savedState && savedState.selections) {
+    for (let i = 0; i < Math.min(savedState.selections.length, totalQuestions); i++) {
+        if (savedState.selections[i] !== null && savedState.selections[i] !== undefined) {
+            selections[i] = savedState.selections[i];
+            const isCorrect = (selections[i] === QUESTIONS[i].ans);
+            results[i] = isCorrect;
+            answered++;
+            if (isCorrect) score++;
+        }
+    }
+}
+
+function getOptions(q) {
+    if (Array.isArray(q.opts)) return q.opts;
+    if (!q.star) return [];
+
+    const normalized = q.star.replace(/　/g, ' ');
+    const matches = [...normalized.matchAll(/[１２３４1-4]\.\s*([^１２３４1-4]+?)(?=\s*[１２３４1-4]\.|$)/g)];
+    return matches.map(match => match[1].trim()).filter(Boolean);
+}
+
+const KUROMOJI_DICT_PATHS = [
+    'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/',
+    'https://unpkg.com/kuromoji@0.1.2/dict/'
+];
+let tokenizer = null;
+
+function stripRuby(html) {
+    return String(html)
+        .replace(/<rt>[\s\S]*?<\/rt>/g, '')
+        .replace(/<rt>[\s\S]*?(?=<\/ruby>)/g, '')
+        .replace(/<\/?ruby>/g, '');
+}
+
+function katakanaToHiragana(value) {
+    return String(value).replace(/[ァ-ン]/g, char => String.fromCharCode(char.charCodeAt(0) - 0x60));
+}
+
+function needsRuby(surface, reading) {
+    return /[一-龯々]/.test(surface) && reading && reading !== '*' && katakanaToHiragana(reading) !== surface;
+}
+
+function buildKuromoji(dictPath) {
+    return new Promise((resolve, reject) => {
+        window.kuromoji.builder({ dicPath: dictPath }).build((error, builtTokenizer) => {
+            if (error) reject(error);
+            else resolve(builtTokenizer);
+        });
+    });
+}
+
+async function initFurigana() {
+    if (tokenizer) return tokenizer;
+    if (!window.kuromoji) {
+        console.warn('kuromoji.js is not loaded; furigana generation is disabled.');
+        return null;
+    }
+
+    for (const dictPath of KUROMOJI_DICT_PATHS) {
+        try {
+            tokenizer = await buildKuromoji(dictPath);
+            return tokenizer;
+        } catch (error) {
+            console.warn('Failed to load kuromoji dictionary:', dictPath, error);
+        }
+    }
+    return null;
+}
+
+function renderFuriganaText(text) {
+    if (!tokenizer) return text;
+    return tokenizer.tokenize(text).map(token => {
+        const surface = token.surface_form || '';
+        const reading = katakanaToHiragana(token.reading || '');
+        if (!needsRuby(surface, reading)) return surface;
+        return '<ruby>' + surface + '<rt>' + reading + '</rt></ruby>';
+    }).join('');
+}
+
+function applyFurigana(html) {
+    const targets = [];
+    const protectedHtml = stripRuby(html).replace(/<span class=\"target-word\">[\s\S]*?<\/span>/g, match => {
+        const key = '@@TARGET_' + targets.length + '@@';
+        targets.push(match);
+        return key;
+    });
+
+    const converted = protectedHtml.split(/(<[^>]+>)/g).map(part => {
+        if (!part || part.startsWith('<')) return part;
+        return renderFuriganaText(part);
+    }).join('');
+
+    return converted.replace(/@@TARGET_(\d+)@@/g, (_, index) => targets[Number(index)]);
+}
+async function buildUI() {
+    await initFurigana();
+    document.getElementById('total').innerText = totalQuestions;
+    document.getElementById('mobile-total').innerText = totalQuestions;
+
+    QUESTIONS.forEach((q, i) => {
+        const container = document.getElementById('section-' + q.s);
+        if (!container) return;
+
+        const block = document.createElement('div');
+        block.className = 'question-block';
+        block.id = 'q' + (i+1);
+
+        let html = '';
+        if (q.pas && (i===0 || QUESTIONS[i-1].pas !== q.pas)) {
+            html += `<div class="passage">${applyFurigana(q.pas)}</div>`;
+        }
+        html += `<div class="question-text">${i+1}. ${applyFurigana(q.txt)}</div>`;
+        if (q.star) html += `<div class="star-line">${applyFurigana(q.star)}</div>`;
+        html += `<ul class="options">`;
+        getOptions(q).forEach((opt, oi) => {
+            html += `<li onclick="check(${i+1}, ${oi}, ${q.ans})">${oi+1}. ${applyFurigana(opt)}</li>`;
+        });
+        html += `</ul><div class="explanation" id=\"exp${i+1}\">${q.exp || '正解：' + (q.ans+1)}</div>`;
+        block.innerHTML = html;
+        container.appendChild(block);
+    });
+
+    // Restore visual state of previously answered questions
+    for (let i = 0; i < totalQuestions; i++) {
+        if (selections[i] !== null) {
+            const block = document.getElementById('q' + (i+1));
+            const exp = document.getElementById('exp' + (i+1));
+            const navA = document.getElementById('nav' + (i+1));
+            if (!block) continue;
+            const options = block.querySelectorAll('.options li');
+            if (results[i]) {
+                options[selections[i]].classList.add('correct');
+                if (navA) navA.className = 'done-correct';
+            } else {
+                options[selections[i]].classList.add('wrong');
+                options[QUESTIONS[i].ans].classList.add('correct');
+                if (navA) navA.className = 'done-wrong';
+            }
+            if (exp) exp.classList.add('show');
+        }
+    }
+    document.getElementById('progress').innerText = answered;
+    document.getElementById('score').innerText = score;
+    document.getElementById('mobile-progress').innerText = answered;
+    document.getElementById('mobile-score').innerText = score;
+}
+
+function check(qNum, selected, correct) {
+    if (results[qNum-1] !== null) return;
+    results[qNum-1] = (selected === correct);
+    answered++; if (results[qNum-1]) score++;
+    document.getElementById('progress').innerText = answered;
+    document.getElementById('score').innerText = score;
+    document.getElementById('mobile-progress').innerText = answered;
+    document.getElementById('mobile-score').innerText = score;
+    const block = document.getElementById('q' + qNum);
+    const exp = document.getElementById('exp' + qNum);
+    const navA = document.getElementById('nav' + qNum);
+    const options = block.querySelectorAll('.options li');
+    if (selected === correct) { options[selected].classList.add('correct'); navA.className = 'done-correct'; }
+    else { options[selected].classList.add('wrong'); options[correct].classList.add('correct'); navA.className = 'done-wrong'; }
+    exp.classList.add('show');
+}
+
+function toggleSidebar() {
+    if (window.matchMedia('(max-width: 900px)').matches) {
+        document.body.classList.toggle('mobile-nav-open');
+        return;
+    }
+    const body = document.body;
+    const btn = document.getElementById('toggle-btn');
+    body.classList.toggle('collapsed');
+    btn.innerText = body.classList.contains('collapsed') ? '▶' : '◀';
+}
+
+function openMobileNav() {
+    document.body.classList.add('mobile-nav-open');
+    const input = document.getElementById('nav-search');
+    if (input) setTimeout(() => input.focus(), 120);
+}
+
+function closeMobileNav() {
+    document.body.classList.remove('mobile-nav-open');
+}
+
+function toggleFurigana() {
+    const checked = document.getElementById('furigana-toggle').checked;
+    if (checked) document.body.classList.add('show-furigana');
+    else document.body.classList.remove('show-furigana');
+    localStorage.setItem('openjlpt_furigana', checked ? '1' : '0');
+}
+
+function restoreFuriganaSetting() {
+    const checked = localStorage.getItem('openjlpt_furigana') === '1';
+    const toggle = document.getElementById('furigana-toggle');
+    toggle.checked = checked;
+    if (checked) document.body.classList.add('show-furigana');
+    else document.body.classList.remove('show-furigana');
+}
+
+function filterNav() {
+    const query = document.getElementById('nav-search').value.trim();
+    document.querySelectorAll('#nav a').forEach(a => {
+        a.classList.toggle('hidden', query && !a.innerText.includes(query));
+    });
+}
+
+function currentQuestionNumber() {
+    let best = 1;
+    let bestDistance = Infinity;
+    const targetY = window.innerHeight * 0.22;
+    for (let i = 1; i <= totalQuestions; i++) {
+        const block = document.getElementById('q' + i);
+        if (!block) continue;
+        const distance = Math.abs(block.getBoundingClientRect().top - targetY);
+        if (distance < bestDistance) {
+            bestDistance = distance;
+            best = i;
+        }
+    }
+    return best;
+}
+
+function navigateQuestion(delta) {
+    const current = currentQuestionNumber();
+    const next = Math.min(totalQuestions, Math.max(1, current + delta));
+    const block = document.getElementById('q' + next);
+    if (block) block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function handleVolumeNavigation(event) {
+    const key = event.key || event.code || '';
+    const isVolumeUp = key === 'AudioVolumeUp' || key === 'VolumeUp';
+    const isVolumeDown = key === 'AudioVolumeDown' || key === 'VolumeDown';
+    if (!isVolumeUp && !isVolumeDown) return;
+    if (!window.matchMedia('(max-width: 900px)').matches) return;
+    event.preventDefault();
+    navigateQuestion(isVolumeUp ? -1 : 1);
+}
+
+function initNav() {
+    const nav = document.getElementById('nav');
+    for (let i = 1; i <= totalQuestions; i++) {
+        const a = document.createElement('a');
+        a.innerText = i; a.id = 'nav' + i; a.href = '#q' + i;
+        a.addEventListener('click', closeMobileNav);
+        nav.appendChild(a);
+    }
+}
+document.addEventListener('keydown', handleVolumeNavigation, { passive: false });
+restoreFuriganaSetting();
+buildUI().then(initNav);
+</script>
+</body>
+</html>

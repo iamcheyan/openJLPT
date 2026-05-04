@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "level": "N5",
+    "question_type": "grammar_passage",
+    "name": "文章の文法",
+    "count": 1
+  },
+  "questions": [
+    {
+      "id": "n5-grammar_passage-001",
+      "level": "N5",
+      "question_type": "grammar_passage",
+      "passage": "田中さんは毎朝７時に（　1　）。朝ごはんを食べてから、８時に（　2　）へ行きます。会社で夜６時まで働きます。夜、家（　3　）帰ってから、テレビを見ます。",
+      "blanks": [
+        {
+          "num": 1,
+          "options": ["おきます", "ねます", "たべます", "のみます"],
+          "answer": 0,
+          "explanation": "「朝７時に」から「おきます（起きます）」が適切です。"
+        },
+        {
+          "num": 2,
+          "options": ["会社", "学校", "デパート", "公園"],
+          "answer": 0,
+          "explanation": "「会社で……働きます」という記述から「会社」へ行くことが分かります。"
+        },
+        {
+          "num": 3,
+          "options": ["へ", "を", "は", "が"],
+          "answer": 0,
+          "explanation": "移動の方向を表す助詞「へ」または「に」を使います。"
+        }
+      ],
+      "verified": true
+    }
+  ]
+}

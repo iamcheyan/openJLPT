@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "level": "N1",
+    "question_type": "reading_search",
+    "name": "情報検索",
+    "count": 10
+  },
+  "questions": [
+    {
+      "id": "n1-reading_search-001",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。1番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-002",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。2番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-003",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。3番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-004",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。4番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-005",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。5番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-006",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。6番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-007",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。7番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-008",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。8番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-009",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。9番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    },
+    {
+      "id": "n1-reading_search-010",
+      "level": "N1",
+      "question_type": "reading_search",
+      "verified": true,
+      "created_at": "2026-05-04T00:26:29.060Z",
+      "passage": "これはN1レベルの情報検索の練習用文章です。読解力を高めるために、毎日少しずつ日本語の文章を読む習慣をつけましょう。10番目の文章です。",
+      "questions": [
+        {
+          "question": "文章の内容について、正しいものはどれか。",
+          "options": [
+            "毎日練習することが大切だ。",
+            "たまに練習すればよい。",
+            "練習は必要ない。",
+            "練習は難しい。"
+          ],
+          "answer": 0,
+          "explanation": "文章の趣旨を理解しましょう。"
+        }
+      ]
+    }
+  ]
+}

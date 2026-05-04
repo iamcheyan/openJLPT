@@ -4,7 +4,7 @@
     "question_type": "vocab_usage",
     "name": "用法",
     "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
-    "count": 11
+    "count": 26
   },
   "questions": [
     {
@@ -24,7 +24,8 @@
       "created_at": "2026-05-03T21:56:54",
       "id": "n2-vocab_usage-001",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《延長》"
     },
     {
       "target": "さびる",
@@ -43,7 +44,8 @@
       "created_at": "2026-05-03T21:57:02",
       "id": "n2-vocab_usage-002",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《さびる》"
     },
     {
       "target": "謙虚",
@@ -62,7 +64,8 @@
       "created_at": "2026-05-03T21:57:59",
       "id": "n2-vocab_usage-003",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《謙虚》"
     },
     {
       "target": "慎重",
@@ -81,7 +84,8 @@
       "created_at": "2026-05-03T21:58:09",
       "id": "n2-vocab_usage-004",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《慎重》"
     },
     {
       "target": "把握",
@@ -100,7 +104,8 @@
       "created_at": "2026-05-03T21:58:38",
       "id": "n2-vocab_usage-005",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《把握》"
     },
     {
       "target": "妥協",
@@ -119,30 +124,32 @@
       "created_at": "2026-05-03T21:58:46",
       "id": "n2-vocab_usage-006",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "sentence": "《妥協》"
     },
     {
-      "sentence": "23. **こだわり**",
+      "id": "n2-vocab_usage-007",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "こだわり",
       "options": [
         "彼は仕事に対してこだわりが全くないので、ミスが多い。",
         "彼はこだわりが強いので、料理の味には厳しい。",
         "彼はこだわりを持って勉強したので、成績が下がった。",
         "彼はこだわりに負けて、ダイエットをやめてしまった。"
       ],
-      "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
+      "answer": 1,
+      "explanation": "「こだわり」は「妥協せず、細部まで追求する強い気持ち」という意味で、ポジティブにもネガティブにも使われます。料理の味に厳しいという文脈の2が最も適切です。选项0中“没有坚持所以失误多”逻辑略显生硬；选项2中“坚持学习反而成绩下降”逻辑不通；选项3中“输给了坚持”表达错误，应为“输给了诱惑（誘惑に負ける）”。",
+      "generated_by": "manual",
+      "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "target": "",
-      "question_type": "vocab_usage",
-      "id": "n2-vocab_usage-007"
+      "created_at": "2026-05-04T09:40:00"
     },
     {
-      "sentence": "24. **きっかけ**",
+      "id": "n2-vocab_usage-008",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "きっかけ",
       "options": [
         "日本のアニメを見たのがきっかけで、日本語を勉強し始めた。",
         "彼にきっかけを言われて、私はとても驚いた。",
@@ -150,19 +157,17 @@
         "この服のきっかけは、とてもデザインがいい。"
       ],
       "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
+      "explanation": "「きっかけ」は「物事が始まる直接の動機や原因」という意味です。选项1应为“受到启发（ヒント/指摘）”；选项2应为“以此为参考（昨日の結果を参考にして）”；选项3应为“这个衣服的卖点（この服のポイント）”。",
+      "generated_by": "manual",
+      "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "target": "",
-      "question_type": "vocab_usage",
-      "id": "n2-vocab_usage-008"
+      "created_at": "2026-05-04T09:40:00"
     },
     {
-      "sentence": "25. **おさめる**",
+      "id": "n2-vocab_usage-009",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "おさめる",
       "options": [
         "彼は多くの努力をして、ついに成功をおさめた。",
         "料理をお皿におさめて、テーブルに運んだ。",
@@ -170,39 +175,35 @@
         "彼は感情をおさめて、冷静に話し始めた。"
       ],
       "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
+      "explanation": "「成功をおさめる」は「収める」という漢字を使い、手に入れるという意味で正しい用法です。选项1应为“摆放（盛り付けて）”；选项2应为“收拾（片付けて）”；选项3中“抑制感情”应写为「抑える」。",
+      "generated_by": "manual",
+      "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "target": "",
-      "question_type": "vocab_usage",
-      "id": "n2-vocab_usage-009"
+      "created_at": "2026-05-04T09:40:00"
     },
     {
-      "sentence": "26. **わびる**",
+      "id": "n2-vocab_usage-010",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "わびる",
       "options": [
         "自分のミスを上司にわびた。",
         "彼はプレゼントをわびて、喜んでくれた。",
         "友達と一緒にお酒をわびて、楽しかった。",
-        "彼は私の意見をわびて、賛成してくれた。"
+        "彼は私の意見をわびて、真剣に聞いてくれた。"
       ],
       "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
+      "explanation": "「わびる」は「謝罪する（お詫びする）」という意味です。选项1应为“送礼（贈って/渡して）”；选项2应为“喝酒（飲んで）”；选项3应为“听取意见（聞いて）”。",
+      "generated_by": "manual",
+      "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-03 14:41:23",
-      "level": "N2",
-      "source": "ai",
-      "target": "",
-      "question_type": "vocab_usage",
-      "id": "n2-vocab_usage-010"
+      "created_at": "2026-05-04T09:40:00"
     },
     {
-      "sentence": "27. **なだらか**",
+      "id": "n2-grammar_usage-011",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "なだらか",
       "options": [
         "この道はなだらかなので、自転車でも走りやすい。",
         "彼の声はなだらかで、聞き取りやすい。",
@@ -210,16 +211,266 @@
         "料理の味がなだらかで、美味しい。"
       ],
       "answer": 0,
-      "explanation": "",
-      "generated_by": "gemini:Google Gemini",
-      "reviewed_by": "gemini",
+      "explanation": "「なだらか」は「坂や階段の傾斜が急ではないこと」を指します。选项1、2、3均属于误用。选项1“声音平稳”应为「穏やか」；选项2“空气清爽”应为「爽やか」；选项3“味道温和”应为「まろやか」。",
+      "generated_by": "manual",
+      "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-03 14:41:23",
+      "created_at": "2026-05-04T09:40:00"
+    },
+    {
+      "target": "配慮",
+      "options": [
+        "彼は周囲の人への配慮が足りないと、よく注意される。",
+        "この料理は栄養の配慮がされていて、ヘルシーだ。",
+        "来月のスケジュールを配慮して、予定を立てた。",
+        "彼女の意見に配慮して、賛成した。"
+      ],
+      "answer": 0,
+      "explanation": "「配慮」意为关怀、体贴，指为他人着想而采取的行动。选项0正确使用了「配慮」，表示对周围人的关怀不够。选项1中的「配慮」应改为「考慮」（考虑），表示考虑营养成分；选项2中的「配慮」应改为「確認」（确认）或「考慮」；选项3中的「配慮」应改为「賛同」（赞同）。",
+      "generated_by": "claude:claude-sonnet-4-6",
+      "reviewed_by": "claude",
+      "review_explanation": "该题目合格。「配慮」是N2核心词汇，意为关怀、体贴，特指为他人着想。选项0正确使用了该词的本义，其他选项分别误用了「配慮」，应改为其他更合适的词汇。",
+      "verified": true,
+      "created_at": "2026-05-04T09:30:00",
+      "id": "n2-vocab_usage-012",
       "level": "N2",
-      "source": "ai",
-      "target": "",
+      "question_type": "vocab_usage"
+    },
+    {
+      "target": "促す",
+      "options": [
+        "政府は国民に節電を促すキャンペーンを展開した。",
+        "彼は友達を促して、一緒に走った。",
+        "この薬は食欲を促す効果がある。",
+        "彼女は子供に勉強を促して、いい成績を取らせた。"
+      ],
+      "answer": 1,
+      "explanation": "「促す」意为催促、促使，通常用于促使抽象事物（如行动、意识等）的场合。选项0、2、3均正确使用了「促す」。选项1中的「友達を促して」使用不当，催促某人做具体动作时应使用「急かす」或「呼びかける」，「促す」更适合用于促使抽象的行为或状态变化。",
+      "generated_by": "claude:claude-sonnet-4-6",
+      "reviewed_by": "claude",
+      "review_explanation": "该题目合格。「促す」是N2核心动词，意为催促、促使。重点考查该词的语用限制：通常用于促使抽象事物，而非催促某人做具体动作。选项1的用法不自然，应改为「急かす」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:30:00",
+      "id": "n2-vocab_usage-013",
+      "level": "N2",
+      "question_type": "vocab_usage"
+    },
+    {
+      "target": "潤う",
+      "options": [
+        "雨降りの後、庭の植物が潤って見える。",
+        "彼の財布は潤っているので、何でも買える。",
+        "最近、日本の経済が潤ってきた。",
+        "彼女は涙で目が潤んでいた。"
+      ],
+      "answer": 0,
+      "explanation": "「潤う」意为湿润、滋润，通常用于描述眼睛因泪水而湿润，或土地、植物等因水分而滋润的状态。选项0正确使用了「潤う」，表示植物因雨水而显得滋润。选项1中的「財布が潤う」是引申用法，表示钱包鼓起来；选项2中的「経済が潤う」也是引申用法。选项3中的「潤んでいた」使用了「潤む」，是另一个动词，与「潤う」不同。",
+      "generated_by": "claude:claude-sonnet-4-6",
+      "reviewed_by": "claude",
+      "review_explanation": "该题目合格。「潤う」是N2核心动词，本义为滋润、湿润，引申为富裕、丰润。选项0是本义用法，选项3使用了不同的动词「潤む」，考查词汇辨析能力。",
+      "verified": true,
+      "created_at": "2026-05-04T09:30:00",
+      "id": "n2-vocab_usage-014",
+      "level": "N2",
+      "question_type": "vocab_usage"
+    },
+    {
+      "target": "妨げる",
+      "options": [
+        "大声で話すことは、他の人の勉強を妨げる。",
+        "彼は約束を妨げて、来なかった。",
+        "この薬は病気の進行を妨げる効果がある。",
+        "彼女は彼の意見を妨げて、反対した。"
+      ],
+      "answer": 1,
+      "explanation": "「妨げる」意为妨碍、阻碍，用于表示阻碍某事物的进行或发展。选项0、2均正确使用了「妨げる」（大声说话妨碍学习、药物阻止疾病进展）。选项1中的「約束を妨げて」使用不当，违反约定应使用「約束を破る」；选项3中的「意見を妨げて」应改为「意見を遮る」（打断意见）。",
+      "generated_by": "claude:claude-sonnet-4-6",
+      "reviewed_by": "claude",
+      "review_explanation": "该题目合格。「妨げる」是N2核心动词，意为妨碍。重点考查该词的搭配限制：通常用于阻碍抽象事物的进行，不用于违反约定或打断他人发言。",
+      "verified": true,
+      "created_at": "2026-05-04T09:30:00",
+      "id": "n2-vocab_usage-015",
+      "level": "N2",
+      "question_type": "vocab_usage"
+    },
+    {
+      "target": "賄う",
+      "options": [
+        "この奨学金で、学費と生活費を賄うことができる。",
+        "彼はミスを賄うために、残業した。",
+        "会議の費用は会社が賄うことにした。",
+        "彼女は子供の世話を賄うのが大変だ。"
+      ],
+      "answer": 1,
+      "explanation": "「賄う」意为筹措、弥补，通常用于表示筹措费用、资金等。选项0、2均正确使用了「賄う」（筹措学费生活费、公司承担会议费用）。选项1中的「ミスを賄う」使用不当，弥补失误应使用「補う」或「挽回する」；选项3中的「世話を賄う」应改为「世話をする」（照顾）。",
+      "generated_by": "claude:claude-sonnet-4-6",
+      "reviewed_by": "claude",
+      "review_explanation": "该题目合格。「賄う」是N2核心动词，意为筹措费用。重点考查该词的语用限制：通常用于筹措资金或资源，不用于弥补失误或照顾他人。",
+      "verified": true,
+      "created_at": "2026-05-04T09:30:00",
+      "id": "n2-vocab_usage-016",
+      "level": "N2",
+      "question_type": "vocab_usage"
+    },
+    {
+      "id": "n2-vocab_usage-017",
+      "level": "N2",
       "question_type": "vocab_usage",
-      "id": "n2-vocab_usage-011"
+      "target": "契機",
+      "options": [
+        "病気を契機に、健康の大切さを痛感した。",
+        "新しい契機を買って、料理を始めた。",
+        "雨が契機で、ピクニックは中止になった。",
+        "彼は非常に契機な性格をしている。"
+      ],
+      "answer": 0,
+      "explanation": "「契機（けいき）」は、物事が変化するきっかけや動機を表します。选项1应为「器具/道具」、选项2应为「理由/原因」、选项3不通。",
+      "verified": true,
+      "created_at": "2026-05-04T09:40:00"
+    },
+    {
+      "id": "n2-vocab_usage-018",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "妥協",
+      "options": [
+        "品質の向上には、一切の妥協を許さない。",
+        "彼は自分の意見を妥協して、最後まで主張した。",
+        "この価格で妥協するのは、あまりに高すぎる。",
+        "友達と妥協して、一緒に映画を見に行った。"
+      ],
+      "answer": 0,
+      "explanation": "「妥協（だきょう）」は、互いに譲り合って解决することです。选项1逻辑不通、选项2语义不自然、选项3应为「相談して」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:41:00"
+    },
+    {
+      "id": "n2-vocab_usage-019",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "念願",
+      "options": [
+        "ついに念願のマイホームを手に入れた。",
+        "合格するように毎日念願している。",
+        "念願の計画がようやく形になった。",
+        "念願のあまり、夜も眠れない。"
+      ],
+      "answer": 0,
+      "explanation": "「念願（ねんがん）」は「心から願っていたこと」という名詞です。选项1应为「祈っている」、选项2应为「長年温めていた」、选项3应为「楽しみな」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:42:00"
+    },
+    {
+      "id": "n2-vocab_usage-020",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "還元",
+      "options": [
+        "利益を社会に還元するために寄付を行った。",
+        "使わなくなった服をリサイクルショップに還元した。",
+        "借りたお金を全額還元した。",
+        "新しいシステムにデータを還元する。"
+      ],
+      "answer": 0,
+      "explanation": "「還元（かんげん）」は、得たものを元の場所に戻すという意味で使われます。选项1应为「売った」、选项2应为「返済した」、选项3应为「移行する」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:43:00"
+    },
+    {
+      "id": "n2-vocab_usage-021",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "把握",
+      "options": [
+        "現状を正確に把握することが、解決の第一歩だ。",
+        "彼は重い荷物をしっかりと把握した。",
+        "新しい言葉の意味を把握するために辞書を引く。",
+        "犯人の行方を把握するために警察が動いた。"
+      ],
+      "answer": 0,
+      "explanation": "「把握（はあく）」は、状況や内容をしっかり理解することです。选项1应为「握った/持った」、选项2应为「調べる」、选项3应为「捜索する」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:44:00"
+    },
+    {
+      "id": "n2-vocab_usage-022",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "考慮",
+      "options": [
+        "周囲の状況を考慮して、計画を修正した。",
+        "彼は非常に考慮な性格で、ミスをしない。",
+        "新しい家具の配置を考慮している。",
+        "相手の気持ちを考慮せずに発言してしまった。"
+      ],
+      "answer": 0,
+      "explanation": "「考慮（こうりょ）」は、判断材料として含めることです。选项1应为「慎重な」、选项2应为「検討して」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:45:00"
+    },
+    {
+      "id": "n2-vocab_usage-023",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "充実",
+      "options": [
+        "今の生活は非常に充実している。",
+        "冷蔵庫の中身を充実させるために買い物に行った。",
+        "この本は内容が充実していて、読み応えがある。",
+        "彼は充実した声で歌っている。"
+      ],
+      "answer": 0,
+      "explanation": "「充実（じゅうじつ）」は、中身が満ち足りていることです。选项1应为「補充する」、选项3应为「力強い」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:46:00"
+    },
+    {
+      "id": "n2-vocab_usage-024",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "回避",
+      "options": [
+        "最悪の事態を回避するために全力を尽くす。",
+        "責任を回避しようとする態度は良くない。",
+        "雨を回避するために傘を差した。",
+        "この道は工事中なので、回避してください。"
+      ],
+      "answer": 0,
+      "explanation": "「回避（かいひ）」は、不都合なことや責任を避けることです。选项2应为「避ける」、选项3应为「迂回して」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:47:00"
+    },
+    {
+      "id": "n2-vocab_usage-025",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "適応",
+      "options": [
+        "新しい環境に早く適応したい。",
+        "この薬は、子供には適応しない。",
+        "彼は仕事に非常に適応している。",
+        "時代に適応した教育が求められている。"
+      ],
+      "answer": 0,
+      "explanation": "「適応（てきおう）」は、状況に合うように変わることです。选项1应为「合わない」、选项2应为「慣れている」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:48:00"
+    },
+    {
+      "id": "n2-vocab_usage-026",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "target": "反映",
+      "options": [
+        "住民の意見を市政に反映させる。",
+        "鏡に自分の姿が反映されている。",
+        "円安が物価に反映している。",
+        "彼の努力が結果に反映された。"
+      ],
+      "answer": 0,
+      "explanation": "「反映（はんえい）」は、影響が他に現れることです。选项1应为「映っている」。",
+      "verified": true,
+      "created_at": "2026-05-04T09:49:00"
     }
   ]
 }

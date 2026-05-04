@@ -1,0 +1,1920 @@
+{
+  "meta": {
+    "level": "N3",
+    "question_type": "grammar_order",
+    "name": "文の組み立て",
+    "count": 105
+  },
+  "questions": [
+    {
+      "id": "n3-grammar_order-001",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "sentence": "昨日 ＿＿ ＿＿ ＿★＿ ＿＿ てしまいました。",
+      "star_position": 2,
+      "fragments": [
+        "図書館で",
+        "借りた",
+        "本を",
+        "なくし"
+      ],
+      "options": [
+        "図書館で",
+        "借りた",
+        "本を",
+        "なくし"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：図書館で(0) 借りた(1) 本を(2) なくし(3)。「借りた本をなくす」という動作を繋げます。★の位置は「本を」です。",
+      "complete_sentence": "昨日 図書館で 借りた 本を なくし てしまいました。"
+    },
+    {
+      "id": "n3-grammar_order-002",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "sentence": "日本料理は ＿＿ ＿＿ ＿★＿ ＿＿ 好きです。",
+      "star_position": 2,
+      "fragments": [
+        "おいしい",
+        "だけでなく",
+        "見た目も",
+        "きれいなので"
+      ],
+      "options": [
+        "おいしい",
+        "だけでなく",
+        "見た目も",
+        "きれいなので"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：おいしい(0) だけでなく(1) 見た目も(2) きれいなので(3)。「AだけでなくBも」の構文を使います。★の位置は「見た目も」です。",
+      "complete_sentence": "日本料理は おいしい だけでなく 見た目も きれいなので 好きです。"
+    },
+    {
+      "id": "n3-grammar_order-003",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "sentence": "あそこに ＿＿ ＿＿ ＿★＿ ＿＿ の人です。",
+      "star_position": 2,
+      "fragments": [
+        "立って",
+        "いる",
+        "眼鏡を",
+        "かけた"
+      ],
+      "options": [
+        "立って",
+        "いる",
+        "眼鏡を",
+        "かけた"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：立って(0) いる(1) 眼鏡を(2) かけた(3)。人物の特徴を説明する修飾句を組み立てます。★の位置は「眼鏡を」です。",
+      "complete_sentence": "あそこに 立って いる 眼鏡を かけた の人です。"
+    },
+    {
+      "id": "n3-grammar_order-004",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "sentence": "今日は ＿＿ ＿＿ ＿★＿ ＿＿ つもりです。",
+      "star_position": 2,
+      "fragments": [
+        "どこへも",
+        "行かずに",
+        "家で",
+        "ゆっくりする"
+      ],
+      "options": [
+        "どこへも",
+        "行かずに",
+        "家で",
+        "ゆっくりする"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：どこへも(0) 行かずに(1) 家で(2) ゆっくりする(3)。「～ずに（～ないで）」を使って予定を述べます。★の位置は「家で」です。",
+      "complete_sentence": "今日は どこへも 行かずに 家で ゆっくりする つもりです。"
+    },
+    {
+      "id": "n3-grammar_order-005",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "sentence": "試験の ＿＿ ＿＿ ＿★＿ ＿＿ してください。",
+      "star_position": 2,
+      "fragments": [
+        "前に",
+        "必ず",
+        "注意書きを",
+        "読んで"
+      ],
+      "options": [
+        "前に",
+        "必ず",
+        "注意書きを",
+        "読んで"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：前に(0) 必ず(1) 注意書きを(2) 読んで(3)。指示を出す文を組み立てます。★の位置は「注意書きを」です。",
+      "complete_sentence": "試験の 前に 必ず 注意書きを 読んで してください。"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "たします。",
+        "がご挨拶い",
+        "が",
+        "社長にかわって、私が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：社長にかわって、私が が がご挨拶い たします。。文法点：Noun + にかわって / にかわり。",
+      "complete_sentence": "社長にかわって、私がご挨拶いたします。",
+      "id": "n3-grammar_order-006",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "プロだけに、演奏が",
+        "奏が",
+        "らしい。",
+        "奏が素晴"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：プロだけに、演奏が 奏が 奏が素晴 らしい。。文法点：Plain form + だけに。",
+      "complete_sentence": "プロだけに、演奏が素晴らしい。",
+      "id": "n3-grammar_order-007",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "て",
+        "てください。",
+        "よく聞こえるように",
+        "大きい声で話して"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：よく聞こえるように 大きい声で話して て てください。。文法点：V plain non-past (potential / intransitive / ない-form) + ように。",
+      "complete_sentence": "よく聞こえるように大きい声で話してください。",
+      "id": "n3-grammar_order-008",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ください。",
+        "よく考えた上で決めて",
+        "決めて",
+        "決めて"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：よく考えた上で決めて 決めて 決めて ください。。文法点：V-た form / noun + の + 上で。",
+      "complete_sentence": "よく考えた上で決めてください。",
+      "id": "n3-grammar_order-009",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "",
+        "行きたくない。だって",
+        "、疲れて",
+        "いるもの。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：行きたくない。だって 、疲れて  いるもの。。文法点：Plain form + もの / もん。",
+      "complete_sentence": "行きたくない。だって、疲れているもの。",
+      "id": "n3-grammar_order-010",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ではない。",
+        "近いので",
+        "試験が",
+        "、遊ぶどころ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：試験が 近いので 、遊ぶどころ ではない。。文法点：Noun / V plain + どころではない。",
+      "complete_sentence": "試験が近いので、遊ぶどころではない。",
+      "id": "n3-grammar_order-011",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、手紙を",
+        "",
+        "買い物のついでに",
+        "出した。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：買い物のついでに  、手紙を 出した。。文法点：V plain / noun + の + ついでに。",
+      "complete_sentence": "買い物のついでに、手紙を出した。",
+      "id": "n3-grammar_order-012",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "合格した。",
+        "驚いたことに、彼は",
+        "試験に",
+        ""
+      ],
+      "answer": 3,
+      "explanation": "正解順序：驚いたことに、彼は 試験に  合格した。。文法点：i-adj / na-adj (+ な) / V-た + ことに(は)。",
+      "complete_sentence": "驚いたことに、彼は試験に合格した。",
+      "id": "n3-grammar_order-013",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は勉強して",
+        "いるというより",
+        "んでいる。",
+        "、遊"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は勉強して いるというより 、遊 んでいる。。文法点：Plain form + というより。",
+      "complete_sentence": "彼は勉強しているというより、遊んでいる。",
+      "id": "n3-grammar_order-014",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は日本",
+        "語どころか",
+        "、英語も",
+        "話せない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼は日本 語どころか 、英語も 話せない。。文法点：Plain form + どころか。",
+      "complete_sentence": "彼は日本語どころか、英語も話せない。",
+      "id": "n3-grammar_order-015",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、試験に",
+        "一生懸命勉強したのに",
+        "しまった。",
+        "落ちて"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：一生懸命勉強したのに 、試験に 落ちて しまった。。文法点：Plain form + のに。",
+      "complete_sentence": "一生懸命勉強したのに、試験に落ちてしまった。",
+      "id": "n3-grammar_order-016",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いると言って",
+        "日本語を",
+        "勉強して",
+        "も、まだ初心者です。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：日本語を 勉強して いると言って も、まだ初心者です。。文法点：Plain form + と言っても。",
+      "complete_sentence": "日本語を勉強していると言っても、まだ初心者です。",
+      "id": "n3-grammar_order-017",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供のことが",
+        "心配",
+        "でしかた",
+        "がない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供のことが 心配 でしかた がない。。文法点：V-て / i-adj 〜くて / na-adj で + しかたがない。",
+      "complete_sentence": "子供のことが心配でしかたがない。",
+      "id": "n3-grammar_order-018",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "行った。",
+        "学校へ",
+        "んを食べずに",
+        "朝ごは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：朝ごは んを食べずに 学校へ 行った。。文法点：Verb negative stem + ずに。",
+      "complete_sentence": "朝ごはんを食べずに学校へ行った。",
+      "id": "n3-grammar_order-019",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "日本語を勉強することは",
+        "ことは",
+        "ことは",
+        "楽しいです。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：日本語を勉強することは ことは ことは 楽しいです。。文法点：Verb plain form / na-adj + な + こと。",
+      "complete_sentence": "日本語を勉強することは楽しいです。",
+      "id": "n3-grammar_order-020",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "私に分かり",
+        "私に",
+        "そんな難しい問題、私に",
+        "っこない。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：そんな難しい問題、私に 私に 私に分かり っこない。。文法点：Verb ます-stem + っこない。",
+      "complete_sentence": "そんな難しい問題、私に分かりっこない。",
+      "id": "n3-grammar_order-021",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "おいて、この問題に",
+        "話し合った。",
+        "ついて",
+        "会議に"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：会議に おいて、この問題に ついて 話し合った。。文法点：Noun + において / における。",
+      "complete_sentence": "会議において、この問題について話し合った。",
+      "id": "n3-grammar_order-022",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "分からないから",
+        "ようがない。",
+        "電話番号が",
+        "、連絡のし"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：電話番号が 分からないから 、連絡のし ようがない。。文法点：Verb ます-stem + ようがない / ようもない。",
+      "complete_sentence": "電話番号が分からないから、連絡のしようがない。",
+      "id": "n3-grammar_order-023",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しない。",
+        "最初から",
+        "最初から",
+        "謝るくらいなら、最初から"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：謝るくらいなら、最初から 最初から 最初から しない。。文法点：V plain non-past + くらいなら。",
+      "complete_sentence": "謝るくらいなら、最初からしない。",
+      "id": "n3-grammar_order-024",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "られた。",
+        "食べさせ",
+        "",
+        "私は母に野菜を"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：私は母に野菜を  食べさせ られた。。文法点：Verb → causative-passive form。",
+      "complete_sentence": "私は母に野菜を食べさせられた。",
+      "id": "n3-grammar_order-025",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "な",
+        "らない。",
+        "彼のことが",
+        "気になって"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼のことが 気になって な らない。。文法点：V-て form / i-adj 〜くて / na-adj で + ならない。",
+      "complete_sentence": "彼のことが気になってならない。",
+      "id": "n3-grammar_order-026",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ーヒーを",
+        "お茶の代わりに",
+        "コ",
+        "飲んだ。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：お茶の代わりに コ ーヒーを 飲んだ。。文法点：V plain / noun + の + 代わりに。",
+      "complete_sentence": "お茶の代わりにコーヒーを飲んだ。",
+      "id": "n3-grammar_order-027",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "社長をは",
+        "席した。",
+        "じめ、全社員が",
+        "出"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：社長をは じめ、全社員が 出 席した。。文法点：Noun + をはじめ(として / とする)。",
+      "complete_sentence": "社長をはじめ、全社員が出席した。",
+      "id": "n3-grammar_order-028",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は英語",
+        "も話せる。",
+        "ばかりか、",
+        "フランス語"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は英語 ばかりか、 フランス語 も話せる。。文法点：Plain form + ばかりか。",
+      "complete_sentence": "彼は英語ばかりか、フランス語も話せる。",
+      "id": "n3-grammar_order-029",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "電気を",
+        "なしで出",
+        "つけっぱ",
+        "かけた。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：電気を つけっぱ なしで出 かけた。。文法点：Verb ます-stem + っぱなし。",
+      "complete_sentence": "電気をつけっぱなしで出かけた。",
+      "id": "n3-grammar_order-030",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "勉強し",
+        "ついて",
+        "ています。",
+        "日本の文化に"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：日本の文化に ついて 勉強し ています。。文法点：Noun + について。",
+      "complete_sentence": "日本の文化について勉強しています。",
+      "id": "n3-grammar_order-031",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "もらったので",
+        "、徹夜せず",
+        "に済んだ。",
+        "手伝って"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：手伝って もらったので 、徹夜せず に済んだ。。文法点：V negative stem + ずに済む。",
+      "complete_sentence": "手伝ってもらったので、徹夜せずに済んだ。",
+      "id": "n3-grammar_order-032",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "寝なさい。",
+        "疲れて",
+        "、早く",
+        "いるんだから"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：疲れて いるんだから 、早く 寝なさい。。文法点：Plain form + んだから。",
+      "complete_sentence": "疲れているんだから、早く寝なさい。",
+      "id": "n3-grammar_order-033",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "この本は",
+        "面白いだけで",
+        "なく、勉強",
+        "にもなる。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：この本は 面白いだけで なく、勉強 にもなる。。文法点：Plain form + だけでなく。",
+      "complete_sentence": "この本は面白いだけでなく、勉強にもなる。",
+      "id": "n3-grammar_order-034",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "本の文化を",
+        "本の文化を",
+        "日本に来て初めて、日本の文化を",
+        "理解した。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：日本に来て初めて、日本の文化を 本の文化を 本の文化を 理解した。。文法点：V-て form + 初めて。",
+      "complete_sentence": "日本に来て初めて、日本の文化を理解した。",
+      "id": "n3-grammar_order-035",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "がない。",
+        "言うわけ",
+        "",
+        "彼がそんなことを"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼がそんなことを  言うわけ がない。。文法点：Plain form + わけがない。",
+      "complete_sentence": "彼がそんなことを言うわけがない。",
+      "id": "n3-grammar_order-036",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "うがない。",
+        "た。しょ",
+        "しまっ",
+        "雨が降って"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：雨が降って しまっ た。しょ うがない。。文法点：しょうがない / しようがない (standalone)。",
+      "complete_sentence": "雨が降ってしまった。しょうがない。",
+      "id": "n3-grammar_order-037",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "飛び出した。",
+        "、猫が",
+        "、猫が",
+        "ドアを開けたとたん、猫が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：ドアを開けたとたん、猫が 、猫が 、猫が 飛び出した。。文法点：Verb-た form + とたん(に)。",
+      "complete_sentence": "ドアを開けたとたん、猫が飛び出した。",
+      "id": "n3-grammar_order-038",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "わけだ。",
+        "雪が降って",
+        "、寒い",
+        "いるから"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：雪が降って いるから 、寒い わけだ。。文法点：Plain form + わけだ。",
+      "complete_sentence": "雪が降っているから、寒いわけだ。",
+      "id": "n3-grammar_order-039",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "日本には",
+        "リンゴやみかんといった果物が",
+        "",
+        "たくさんある。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：日本には リンゴやみかんといった果物が  たくさんある。。文法点：Noun + といった + noun。",
+      "complete_sentence": "日本にはリンゴやみかんといった果物がたくさんある。",
+      "id": "n3-grammar_order-040",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "きます。",
+        "も、行",
+        "降って",
+        "たとえ雨が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：たとえ雨が 降って も、行 きます。。文法点：たとえ + V-て form + も。",
+      "complete_sentence": "たとえ雨が降っても、行きます。",
+      "id": "n3-grammar_order-041",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "が見事だ。",
+        "って、演奏",
+        "って",
+        "10年練習しただけあって"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：10年練習しただけあって って って、演奏 が見事だ。。文法点：Plain form + だけあって。",
+      "complete_sentence": "10年練習しただけあって、演奏が見事だ。",
+      "id": "n3-grammar_order-042",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "家族は",
+        "私にとって",
+        "存在です。",
+        "一番大切な"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：家族は 私にとって 一番大切な 存在です。。文法点：Noun + にとって。",
+      "complete_sentence": "家族は私にとって一番大切な存在です。",
+      "id": "n3-grammar_order-043",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しなさい。",
+        "とを",
+        "若いうちに色々なことを",
+        "とを経験"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：若いうちに色々なことを とを とを経験 しなさい。。文法点：V plain non-past / V ない-form / い-adj / noun-の / な-adj + な + うちに。",
+      "complete_sentence": "若いうちに色々なことを経験しなさい。",
+      "id": "n3-grammar_order-044",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ろもある。",
+        "い一方で、",
+        "彼は優し",
+        "厳しいとこ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は優し い一方で、 厳しいとこ ろもある。。文法点：Plain form + 一方で。",
+      "complete_sentence": "彼は優しい一方で、厳しいところもある。",
+      "id": "n3-grammar_order-045",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "学校へ走っ",
+        "ていった。",
+        "子供たちは",
+        "元気に"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：子供たちは 元気に 学校へ走っ ていった。。文法点：Verb-て form + いく。",
+      "complete_sentence": "子供たちは元気に学校へ走っていった。",
+      "id": "n3-grammar_order-046",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "きたくない。",
+        "、あまり行",
+        "ないけど",
+        "行けないことは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：行けないことは ないけど 、あまり行 きたくない。。文法点：V ない / i-adj くない + ことはない。",
+      "complete_sentence": "行けないことはないけど、あまり行きたくない。",
+      "id": "n3-grammar_order-047",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "するほど面",
+        "日本語は",
+        "白くなる。",
+        "勉強すれば"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：日本語は 勉強すれば するほど面 白くなる。。文法点：Verb-ば form + Verb dictionary form + ほど。",
+      "complete_sentence": "日本語は勉強すればするほど面白くなる。",
+      "id": "n3-grammar_order-048",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "かります。",
+        "駅まで歩いて",
+        "20分",
+        "くらいか"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：駅まで歩いて 20分 くらいか かります。。文法点：Noun / verb plain + くらい / ぐらい。",
+      "complete_sentence": "駅まで歩いて20分くらいかかります。",
+      "id": "n3-grammar_order-049",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "まった。",
+        "つけたまま寝て",
+        "し",
+        "電気を"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：電気を つけたまま寝て し まった。。文法点：Verb-た / noun-の / i-adj / demonstrative + まま。",
+      "complete_sentence": "電気をつけたまま寝てしまった。",
+      "id": "n3-grammar_order-050",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "全部やって",
+        "宿題を",
+        "しまい",
+        "ました。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：宿題を 全部やって しまい ました。。文法点：Verb-て form + しまう。",
+      "complete_sentence": "宿題を全部やってしまいました。",
+      "id": "n3-grammar_order-051",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "嫌いなわけじゃないけど、今日は",
+        "、今日は",
+        "食べたくない。",
+        "、今日は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：嫌いなわけじゃないけど、今日は 、今日は 、今日は 食べたくない。。文法点：Plain form + わけではない。",
+      "complete_sentence": "嫌いなわけじゃないけど、今日は食べたくない。",
+      "id": "n3-grammar_order-052",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "寿司だろう。",
+        "日本の食べ",
+        "物と言えば",
+        "、やっぱり"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：日本の食べ 物と言えば 、やっぱり 寿司だろう。。文法点：Noun / plain form + と言えば。",
+      "complete_sentence": "日本の食べ物と言えば、やっぱり寿司だろう。",
+      "id": "n3-grammar_order-053",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "の事を",
+        "の事を",
+        "知らない。",
+        "彼以外、誰もその事を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼以外、誰もその事を の事を の事を 知らない。。文法点：Noun + 以外(に / には / は)。",
+      "complete_sentence": "彼以外、誰もその事を知らない。",
+      "id": "n3-grammar_order-054",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "てこない。",
+        "まだ帰っ",
+        "昨日家を",
+        "出たきり、"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：昨日家を 出たきり、 まだ帰っ てこない。。文法点：Verb-た form + きり + (negative continuation)。",
+      "complete_sentence": "昨日家を出たきり、まだ帰ってこない。",
+      "id": "n3-grammar_order-055",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供のくせに",
+        "、大人",
+        "のような",
+        "口をきく。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供のくせに 、大人 のような 口をきく。。文法点：Plain form + くせに。",
+      "complete_sentence": "子供のくせに、大人のような口をきく。",
+      "id": "n3-grammar_order-056",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "したか。",
+        "誰か来ま",
+        "",
+        "私が留守の間に"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：私が留守の間に  誰か来ま したか。。文法点：V 〜ている / noun-の / adj + 間 or 間に。",
+      "complete_sentence": "私が留守の間に誰か来ましたか。",
+      "id": "n3-grammar_order-057",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いかない。",
+        "大事な会議だから、休むわけには",
+        "むわけには",
+        "むわけには"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：大事な会議だから、休むわけには むわけには むわけには いかない。。文法点：V plain non-past + わけにはいかない。",
+      "complete_sentence": "大事な会議だから、休むわけにはいかない。",
+      "id": "n3-grammar_order-058",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "朝ごは",
+        "へ行った。",
+        "んを食べない",
+        "で、学校"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：朝ごは んを食べない で、学校 へ行った。。文法点：Verb ない-form + で。",
+      "complete_sentence": "朝ごはんを食べないで、学校へ行った。",
+      "id": "n3-grammar_order-059",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "明日のためにビールを",
+        "買って",
+        "お",
+        "きました。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：明日のためにビールを 買って お きました。。文法点：Verb-て form + おく。",
+      "complete_sentence": "明日のためにビールを買っておきました。",
+      "id": "n3-grammar_order-060",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、挑戦す",
+        "失敗するに",
+        "しても",
+        "るべきだ。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：失敗するに しても 、挑戦す るべきだ。。文法点：Plain form + にしても。",
+      "complete_sentence": "失敗するにしても、挑戦するべきだ。",
+      "id": "n3-grammar_order-061",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "値段のわりに",
+        "おいしい。",
+        "",
+        "このレストランは"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：このレストランは 値段のわりに  おいしい。。文法点：Plain form + わりに(は)。",
+      "complete_sentence": "このレストランは値段のわりにおいしい。",
+      "id": "n3-grammar_order-062",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ありますか。",
+        "意見が",
+        "意見が",
+        "この問題に関して、意見が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：この問題に関して、意見が 意見が 意見が ありますか。。文法点：Noun + に関して / に関する。",
+      "complete_sentence": "この問題に関して、意見がありますか。",
+      "id": "n3-grammar_order-063",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、",
+        "大切なもの",
+        "急いでいたばかりに",
+        "を忘れた。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：急いでいたばかりに 、 大切なもの を忘れた。。文法点：Plain form + ばかりに。",
+      "complete_sentence": "急いでいたばかりに、大切なものを忘れた。",
+      "id": "n3-grammar_order-064",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ツも得意だ。",
+        "なく、スポー",
+        "できるばかりで",
+        "彼は勉強が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は勉強が できるばかりで なく、スポー ツも得意だ。。文法点：Plain form + ばかりでなく。",
+      "complete_sentence": "彼は勉強ができるばかりでなく、スポーツも得意だ。",
+      "id": "n3-grammar_order-065",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いけない。",
+        "度を取っては",
+        "親に対して、失礼な態度を取っては",
+        "度を取っては"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：親に対して、失礼な態度を取っては 度を取っては 度を取っては いけない。。文法点：Noun + に対して。",
+      "complete_sentence": "親に対して、失礼な態度を取ってはいけない。",
+      "id": "n3-grammar_order-066",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しょう。",
+        "話し合いま",
+        "ついて",
+        "問題に"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：問題に ついて 話し合いま しょう。。文法点：Verb ます-stem + 合う。",
+      "complete_sentence": "問題について話し合いましょう。",
+      "id": "n3-grammar_order-067",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "かない。",
+        "諦めるほ",
+        "、",
+        "こうなっては"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：こうなっては 、 諦めるほ かない。。文法点：Verb plain non-past + (より)ほか(は)ない。",
+      "complete_sentence": "こうなっては、諦めるほかない。",
+      "id": "n3-grammar_order-068",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いかない。",
+        "友達の結婚式だから、行かないわけには",
+        "かないわけには",
+        "かないわけには"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：友達の結婚式だから、行かないわけには かないわけには かないわけには いかない。。文法点：V ない-form + わけにはいかない。",
+      "complete_sentence": "友達の結婚式だから、行かないわけにはいかない。",
+      "id": "n3-grammar_order-069",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "3月から5月に",
+        "かけて",
+        "、桜",
+        "が咲く。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：3月から5月に かけて 、桜 が咲く。。文法点：Noun + から + Noun + にかけて。",
+      "complete_sentence": "3月から5月にかけて、桜が咲く。",
+      "id": "n3-grammar_order-070",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "おかげで",
+        "合格でき",
+        "ました。",
+        "あなたの"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：あなたの おかげで 合格でき ました。。文法点：V plain / noun-の + おかげで (positive) or せいで (negative)。",
+      "complete_sentence": "あなたのおかげで合格できました。",
+      "id": "n3-grammar_order-071",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "白いよ。",
+        "らん。面",
+        "読んでご",
+        "この本を"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：この本を 読んでご らん。面 白いよ。。文法点：V-て form + ごらん(なさい)。",
+      "complete_sentence": "この本を読んでごらん。面白いよ。",
+      "id": "n3-grammar_order-072",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "泥だらけに",
+        "帰ってきた。",
+        "子供は",
+        "なって"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：子供は 泥だらけに なって 帰ってきた。。文法点：Noun + だらけ。",
+      "complete_sentence": "子供は泥だらけになって帰ってきた。",
+      "id": "n3-grammar_order-073",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "日本に来て以来、毎日日本語を",
+        "日本語を",
+        "日本語を",
+        "勉強している。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：日本に来て以来、毎日日本語を 日本語を 日本語を 勉強している。。文法点：V-て form / noun + 以来。",
+      "complete_sentence": "日本に来て以来、毎日日本語を勉強している。",
+      "id": "n3-grammar_order-074",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "早く感じる。",
+        "間の流れが",
+        "間の流れが",
+        "年を取るにつれて、時間の流れが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：年を取るにつれて、時間の流れが 間の流れが 間の流れが 早く感じる。。文法点：V plain non-past / noun + につれて。",
+      "complete_sentence": "年を取るにつれて、時間の流れが早く感じる。",
+      "id": "n3-grammar_order-075",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ことだ。",
+        "早く寝る",
+        "、",
+        "健康のためには"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：健康のためには 、 早く寝る ことだ。。文法点：Verb plain non-past + ことだ。",
+      "complete_sentence": "健康のためには、早く寝ることだ。",
+      "id": "n3-grammar_order-076",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、昔を",
+        "思い出す。",
+        "彼に会うたびに、昔を",
+        "、昔を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼に会うたびに、昔を 、昔を 、昔を 思い出す。。文法点：V plain non-past / noun-の + たびに。",
+      "complete_sentence": "彼に会うたびに、昔を思い出す。",
+      "id": "n3-grammar_order-077",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.596Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "新しい料理を",
+        "作って",
+        "み",
+        "た。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：新しい料理を 作って み た。。文法点：Verb-て form + みる。",
+      "complete_sentence": "新しい料理を作ってみた。",
+      "id": "n3-grammar_order-0078",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ら勉",
+        "ます。",
+        "音楽を聞きなが",
+        "強し"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：音楽を聞きなが ら勉 強し ます。。文法点：Verb ます-stem + ながら。",
+      "complete_sentence": "音楽を聞きながら勉強します。",
+      "id": "n3-grammar_order-0079",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ところ",
+        "です。",
+        "着いた",
+        "今、駅に"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：今、駅に 着いた ところ です。。文法点：Verb form + ところ。",
+      "complete_sentence": "今、駅に着いたところです。",
+      "id": "n3-grammar_order-0080",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "毎日",
+        "健康のために",
+        "運動し",
+        "ます。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：健康のために 毎日 運動し ます。。文法点：V plain / noun + の + ために。",
+      "complete_sentence": "健康のために毎日運動します。",
+      "id": "n3-grammar_order-0081",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "い",
+        "ゲームばかりして",
+        "息子は",
+        "る。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：息子は ゲームばかりして い る。。文法点：Noun / verb (〜て form / plain) + ばかり。",
+      "complete_sentence": "息子はゲームばかりしている。",
+      "id": "n3-grammar_order-0082",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "る。",
+        "あ",
+        "机の上に",
+        "読みかけの本が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：読みかけの本が 机の上に あ る。。文法点：Verb ます-stem + かける。",
+      "complete_sentence": "読みかけの本が机の上にある。",
+      "id": "n3-grammar_order-0083",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼が",
+        "来るかどうか分から",
+        "い。",
+        "な"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼が 来るかどうか分から な い。。文法点：Plain form (or noun / na-adj root) + かどうか。",
+      "complete_sentence": "彼が来るかどうか分からない。",
+      "id": "n3-grammar_order-0084",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "もっと",
+        "勉強す",
+        "ればよ",
+        "かった。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：もっと 勉強す ればよ かった。。文法点：Verb-ば form + よかった。",
+      "complete_sentence": "もっと勉強すればよかった。",
+      "id": "n3-grammar_order-0085",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "食べた",
+        "甘いものを",
+        "がる。",
+        "子供は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：子供は 甘いものを 食べた がる。。文法点：Verb stem + たがる / たがっている。",
+      "complete_sentence": "子供は甘いものを食べたがる。",
+      "id": "n3-grammar_order-0086",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "る。",
+        "え",
+        "変",
+        "結果次第で、計画を"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：結果次第で、計画を 変 え る。。文法点：Noun + 次第 / V ます-stem + 次第。",
+      "complete_sentence": "結果次第で、計画を変える。",
+      "id": "n3-grammar_order-0087",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あ",
+        "る",
+        "。",
+        "生きている限り、希望は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：生きている限り、希望は あ る 。。文法点：V plain / i-adj / noun + である + 限り。",
+      "complete_sentence": "生きている限り、希望はある。",
+      "id": "n3-grammar_order-0088",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "限",
+        "高いものがいいとは",
+        "らな",
+        "い。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：高いものがいいとは 限 らな い。。文法点：Plain form + とは限らない。",
+      "complete_sentence": "高いものがいいとは限らない。",
+      "id": "n3-grammar_order-0089",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "医者として",
+        "彼は",
+        "いる。",
+        "働いて"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は 医者として 働いて いる。。文法点：Noun + として。",
+      "complete_sentence": "彼は医者として働いている。",
+      "id": "n3-grammar_order-0090",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "まし",
+        "た。",
+        "買い",
+        "子供向けの本を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：子供向けの本を 買い まし た。。文法点：Noun + 向け(に / の)。",
+      "complete_sentence": "子供向けの本を買いました。",
+      "id": "n3-grammar_order-0091",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "え",
+        "迎",
+        "家族とともに新年を",
+        "た。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：家族とともに新年を 迎 え た。。文法点：Noun / V plain + とともに。",
+      "complete_sentence": "家族とともに新年を迎えた。",
+      "id": "n3-grammar_order-0092",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "悲しげな顔を",
+        "彼女は",
+        "いる。",
+        "して"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼女は 悲しげな顔を して いる。。文法点：i-adj / na-adj / V stem + げ。",
+      "complete_sentence": "彼女は悲しげな顔をしている。",
+      "id": "n3-grammar_order-0093",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "たまら",
+        "すいて",
+        "ない。",
+        "お腹が"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：お腹が すいて たまら ない。。文法点：V-て form / i-adj 〜くて / na-adj で + たまらない。",
+      "complete_sentence": "お腹がすいてたまらない。",
+      "id": "n3-grammar_order-0094",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "食事の最中に電話が",
+        "鳴",
+        "っ",
+        "た。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：食事の最中に電話が 鳴 っ た。。文法点：Noun / V 〜ている + 最中。",
+      "complete_sentence": "食事の最中に電話が鳴った。",
+      "id": "n3-grammar_order-0095",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "寝るよ。",
+        "疲れた",
+        "んだも",
+        "ん、もう"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：疲れた んだも ん、もう 寝るよ。。文法点：Plain form + んだもん。",
+      "complete_sentence": "疲れたんだもん、もう寝るよ。",
+      "id": "n3-grammar_order-0096",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "1日おきに",
+        "ジムに",
+        "行き",
+        "ます。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：1日おきに ジムに 行き ます。。文法点：Number + counter + おきに。",
+      "complete_sentence": "1日おきにジムに行きます。",
+      "id": "n3-grammar_order-0097",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あ",
+        "1年ごとに、試験が",
+        "りま",
+        "す。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：1年ごとに、試験が あ りま す。。文法点：Noun / V plain non-past + ごとに。",
+      "complete_sentence": "1年ごとに、試験があります。",
+      "id": "n3-grammar_order-0098",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しょう！",
+        "なんて",
+        "きれい",
+        "な花で"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：なんて きれい な花で しょう！。文法点：Phrase + なんて。",
+      "complete_sentence": "なんてきれいな花でしょう！",
+      "id": "n3-grammar_order-0099",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "私なんか、とて",
+        "来ま",
+        "せん。",
+        "も出"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：私なんか、とて も出 来ま せん。。文法点：Noun + なんか。",
+      "complete_sentence": "私なんか、とても出来ません。",
+      "id": "n3-grammar_order-0100",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "た。",
+        "帰っ",
+        "故郷に",
+        "10年ぶりに"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：10年ぶりに 故郷に 帰っ た。。文法点：Time period + ぶり(に)。",
+      "complete_sentence": "10年ぶりに故郷に帰った。",
+      "id": "n3-grammar_order-0101",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "きる。",
+        "こそ、",
+        "努力して",
+        "成功で"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：努力して こそ、 成功で きる。。文法点：V-て form + こそ。",
+      "complete_sentence": "努力してこそ、成功できる。",
+      "id": "n3-grammar_order-0102",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "い",
+        "る。",
+        "決まって",
+        "そんなの、嘘に"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：そんなの、嘘に 決まって い る。。文法点：Plain form + に決まっている。",
+      "complete_sentence": "そんなの、嘘に決まっている。",
+      "id": "n3-grammar_order-0103",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "去年に比べて、今年は",
+        "か",
+        "暖",
+        "い。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：去年に比べて、今年は 暖 か い。。文法点：Noun + に比べて / に比べ。",
+      "complete_sentence": "去年に比べて、今年は暖かい。",
+      "id": "n3-grammar_order-0104",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "当た",
+        "父の誕生日に",
+        "る。",
+        "今日は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：今日は 父の誕生日に 当た る。。文法点：Noun + に当たる。",
+      "complete_sentence": "今日は父の誕生日に当たる。",
+      "id": "n3-grammar_order-0105",
+      "level": "N3",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.545Z"
+    }
+  ]
+}

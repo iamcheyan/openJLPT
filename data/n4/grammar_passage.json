@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "level": "N4",
+    "question_type": "grammar_passage",
+    "name": "文章の文法",
+    "count": 1
+  },
+  "questions": [
+    {
+      "id": "n4-grammar_passage-001",
+      "level": "N4",
+      "question_type": "grammar_passage",
+      "passage": "私の趣味は写真を（　1　）ことです。去年の誕生日に父からカメラを（　2　）、いろいろな場所へ行って写真を撮っています。来月は北海道へ（　3　）と思っています。きれいな景色をたくさん撮りたいです。",
+      "blanks": [
+        {
+          "num": 1,
+          "options": ["撮る", "撮った", "撮って", "撮り"],
+          "answer": 0,
+          "explanation": "「（動詞辞书形）＋こと」で名詞化します。"
+        },
+        {
+          "num": 2,
+          "options": ["もらって", "あげて", "くれて", "くださって"],
+          "answer": 0,
+          "explanation": "自分がもらった場合は「もらって」を使います。"
+        },
+        {
+          "num": 3,
+          "options": ["行こう", "行け", "行き", "行けそう"],
+          "answer": 0,
+          "explanation": "「（意向形）＋と思っています」は、これからの計画を表します。"
+        }
+      ],
+      "verified": true
+    }
+  ]
+}

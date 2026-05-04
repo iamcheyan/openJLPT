@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "level": "N5",
+    "question_type": "grammar_order",
+    "name": "文の組み立て",
+    "count": 31
+  },
+  "questions": [
+    {
+      "id": "n5-grammar_order-001",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "sentence": "私は ＿＿ ＿＿ ＿★＿ ＿＿ 食べました。",
+      "star_position": 2,
+      "fragments": [
+        "きのう",
+        "パン",
+        "を",
+        "ふたつ"
+      ],
+      "options": [
+        "きのう",
+        "パン",
+        "を",
+        "ふたつ"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：きのう(0) パン(1) を(2) ふたつ(3)。基本的な語順を組み立てます。★の位置は「を」です。",
+      "complete_sentence": "私は きのう パン を ふたつ 食べました。"
+    },
+    {
+      "id": "n5-grammar_order-002",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "sentence": "あそこに ＿＿ ＿＿ ＿★＿ ＿＿ あります。",
+      "star_position": 2,
+      "fragments": [
+        "白い",
+        "大きな",
+        "時計",
+        "が"
+      ],
+      "options": [
+        "白い",
+        "大きな",
+        "時計",
+        "が"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：白い(0) 大きな(1) 時計(2) が(3)。存在を表す文を作ります。★の位置は「時計」です。",
+      "complete_sentence": "あそこに 白い 大きな 時計 が あります。"
+    },
+    {
+      "id": "n5-grammar_order-003",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "sentence": "昨日 ＿＿ ＿＿ ＿★＿ ＿＿ 行きました。",
+      "star_position": 2,
+      "fragments": [
+        "友達",
+        "と",
+        "デパート",
+        "へ"
+      ],
+      "options": [
+        "友達",
+        "と",
+        "デパート",
+        "へ"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：友達(0) と(1) デパート(2) へ(3)。移動の目的と方向を組み立てます。★の位置は「デパート」です。",
+      "complete_sentence": "昨日 友達 と デパート へ 行きました。"
+    },
+    {
+      "id": "n5-grammar_order-004",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "sentence": "毎日 ＿＿ ＿＿ ＿★＿ ＿＿ 勉強します。",
+      "star_position": 2,
+      "fragments": [
+        "一時間",
+        "くらい",
+        "日本語",
+        "を"
+      ],
+      "options": [
+        "一時間",
+        "くらい",
+        "日本語",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：一時間(0) くらい(1) 日本語(2) を(3)。学習の習慣を述べる文を作ります。★の位置は「日本語」です。",
+      "complete_sentence": "毎日 一時間 くらい 日本語 を 勉強します。"
+    },
+    {
+      "id": "n5-grammar_order-005",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "sentence": "部屋 ＿＿ ＿＿ ＿★＿ ＿＿ ください。",
+      "star_position": 2,
+      "fragments": [
+        "の",
+        "電気",
+        "を",
+        "消して"
+      ],
+      "options": [
+        "の",
+        "電気",
+        "を",
+        "消して"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：の(0) 電気(1) を(2) 消して(3)。依頼の文を組み立てます。★の位置は「を」です。",
+      "complete_sentence": "部屋 の 電気 を 消して ください。"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "毎朝コーヒーを",
+        "飲んで新聞を",
+        "",
+        "読みます。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：毎朝コーヒーを 飲んで新聞を  読みます。。文法点：Verb-て。",
+      "complete_sentence": "毎朝コーヒーを飲んで新聞を読みます。",
+      "id": "n5-grammar_order-006",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "撮ら",
+        "ここで写真を",
+        "ださい。",
+        "ないでく"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：ここで写真を 撮ら ないでく ださい。。文法点：Verb-ない + でください。",
+      "complete_sentence": "ここで写真を撮らないでください。",
+      "id": "n5-grammar_order-007",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いです。",
+        "静か",
+        "この部屋は",
+        "で、きれ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：この部屋は 静か で、きれ いです。。文法点：na-adjective / noun + で。",
+      "complete_sentence": "この部屋は静かで、きれいです。",
+      "id": "n5-grammar_order-008",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "一番高い",
+        "山です。",
+        "日本で",
+        "富士山は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：富士山は 日本で 一番高い 山です。。文法点：一番 + adjective。",
+      "complete_sentence": "富士山は日本で一番高い山です。",
+      "id": "n5-grammar_order-009",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供のと",
+        "き、よく",
+        "公園で遊",
+        "びました。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供のと き、よく 公園で遊 びました。。文法点：V plain / i-adj / na-adj な / noun の + とき(に)。",
+      "complete_sentence": "子供のとき、よく公園で遊びました。",
+      "id": "n5-grammar_order-010",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "買いました。",
+        "物などを",
+        "物などを",
+        "スーパーで野菜や果物などを"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：スーパーで野菜や果物などを 物などを 物などを 買いました。。文法点：X や Y (など)。",
+      "complete_sentence": "スーパーで野菜や果物などを買いました。",
+      "id": "n5-grammar_order-011",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "この部屋は",
+        "ません。",
+        "静かでは",
+        "あり"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：この部屋は 静かでは あり ません。。文法点：な-adjective + ではありません / じゃない。",
+      "complete_sentence": "この部屋は静かではありません。",
+      "id": "n5-grammar_order-012",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.105Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "せん。",
+        "ペンでは",
+        "これは",
+        "ありま"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：これは ペンでは ありま せん。。文法点：Noun + ではありません。",
+      "complete_sentence": "これはペンではありません。",
+      "id": "n5-grammar_order-0013",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "す。",
+        "みま",
+        "飲",
+        "毎朝、コーヒーを"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：毎朝、コーヒーを 飲 みま す。。文法点：Verb stem + ます。",
+      "complete_sentence": "毎朝、コーヒーを飲みます。",
+      "id": "n5-grammar_order-0014",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しま",
+        "した。",
+        "昨日、宿題を",
+        "せんで"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：昨日、宿題を しま せんで した。。文法点：Verb stem + ませんでした。",
+      "complete_sentence": "昨日、宿題をしませんでした。",
+      "id": "n5-grammar_order-0015",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "きま",
+        "書",
+        "す。",
+        "友だちに手紙を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：友だちに手紙を 書 きま す。。文法点：X + に。",
+      "complete_sentence": "友だちに手紙を書きます。",
+      "id": "n5-grammar_order-0016",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "買い",
+        "た。",
+        "まし",
+        "パンと牛乳を"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：パンと牛乳を 買い まし た。。文法点：X と Y。",
+      "complete_sentence": "パンと牛乳を買いました。",
+      "id": "n5-grammar_order-0017",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "く",
+        "い。",
+        "ゆっくり話して",
+        "ださ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：ゆっくり話して く ださ い。。文法点：Verb-て + ください。",
+      "complete_sentence": "ゆっくり話してください。",
+      "id": "n5-grammar_order-0018",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いで",
+        "す。",
+        "ほし",
+        "静かな部屋が"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：静かな部屋が ほし いで す。。文法点：な-adjective + な + Noun。",
+      "complete_sentence": "静かな部屋がほしいです。",
+      "id": "n5-grammar_order-0019",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "その町は",
+        "とて",
+        "でした。",
+        "も静か"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：その町は とて も静か でした。。文法点：な-adjective + でした / だった。",
+      "complete_sentence": "その町はとても静かでした。",
+      "id": "n5-grammar_order-0020",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "犬のほうが",
+        "猫より",
+        "です。",
+        "大きい"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：犬のほうが 猫より 大きい です。。文法点：A のほうが B より + adjective。",
+      "complete_sentence": "犬のほうが猫より大きいです。",
+      "id": "n5-grammar_order-0021",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "一緒に映画を",
+        "見ま",
+        "せん",
+        "か。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：一緒に映画を 見ま せん か。。文法点：Verb stem + ませんか。",
+      "complete_sentence": "一緒に映画を見ませんか。",
+      "id": "n5-grammar_order-0022",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いま",
+        "せん。",
+        "して",
+        "まだ宿題を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：まだ宿題を して いま せん。。文法点：まだ + Verb-ていない / まだ + Verb-ている。",
+      "complete_sentence": "まだ宿題をしていません。",
+      "id": "n5-grammar_order-0023",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "友達と一緒に映画を",
+        "見",
+        "まし",
+        "た。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：友達と一緒に映画を 見 まし た。。文法点：Noun + と + 一緒に。",
+      "complete_sentence": "友達と一緒に映画を見ました。",
+      "id": "n5-grammar_order-0024",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "コーヒ",
+        "ーも紅",
+        "きです。",
+        "茶も好"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：コーヒ ーも紅 茶も好 きです。。文法点：Noun + も + Noun + も。",
+      "complete_sentence": "コーヒーも紅茶も好きです。",
+      "id": "n5-grammar_order-0025",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "買い",
+        "まし",
+        "た。",
+        "りんごとバナナを"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：りんごとバナナを 買い まし た。。文法点：Noun + と + Noun。",
+      "complete_sentence": "りんごとバナナを買いました。",
+      "id": "n5-grammar_order-0026",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "りんごは",
+        "いくつ",
+        "ありま",
+        "すか。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：りんごは いくつ ありま すか。。文法点：いくつ (+ optional counter-specific form)。",
+      "complete_sentence": "りんごはいくつありますか。",
+      "id": "n5-grammar_order-0027",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "50",
+        "0円",
+        "です。",
+        "このケーキは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：このケーキは 50 0円 です。。文法点：Number + 円。",
+      "complete_sentence": "このケーキは500円です。",
+      "id": "n5-grammar_order-0028",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "みま",
+        "す。",
+        "飲",
+        "毎日、コーヒーを"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：毎日、コーヒーを 飲 みま す。。文法点：毎 + time noun。",
+      "complete_sentence": "毎日、コーヒーを飲みます。",
+      "id": "n5-grammar_order-0029",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "毎日、",
+        "2時間",
+        "勉強し",
+        "ます。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：毎日、 2時間 勉強し ます。。文法点：Number + 時間。",
+      "complete_sentence": "毎日、2時間勉強します。",
+      "id": "n5-grammar_order-0030",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "時間が",
+        "ます。",
+        "ないから",
+        "、急ぎ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：時間が ないから 、急ぎ ます。。文法点：Plain or polite form + から。",
+      "complete_sentence": "時間がないから、急ぎます。",
+      "id": "n5-grammar_order-0031",
+      "level": "N5",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.615Z"
+    }
+  ]
+}
