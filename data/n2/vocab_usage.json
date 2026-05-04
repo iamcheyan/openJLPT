@@ -25,7 +25,8 @@
       "id": "n2-vocab_usage-001",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《延長》"
+      "sentence": "《延長》",
+      "translation": "建议延长这个项目的期限。"
     },
     {
       "target": "さびる",
@@ -45,7 +46,8 @@
       "id": "n2-vocab_usage-002",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《さびる》"
+      "sentence": "《さびる》",
+      "translation": "他的话很有趣，一直延长到听完。"
     },
     {
       "target": "謙虚",
@@ -65,7 +67,8 @@
       "id": "n2-vocab_usage-003",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《謙虚》"
+      "sentence": "《謙虚》",
+      "translation": "这道菜味道丰富，每次吃都能发现新的风味。"
     },
     {
       "target": "慎重",
@@ -85,7 +88,8 @@
       "id": "n2-vocab_usage-004",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《慎重》"
+      "sentence": "《慎重》",
+      "translation": "他的话很深刻，给听众带来了巨大的冲击。"
     },
     {
       "target": "把握",
@@ -105,7 +109,8 @@
       "id": "n2-vocab_usage-005",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《把握》"
+      "sentence": "《把握》",
+      "translation": "他的车被雨淋得生锈了。"
     },
     {
       "target": "妥協",
@@ -125,7 +130,8 @@
       "id": "n2-vocab_usage-006",
       "level": "N2",
       "question_type": "vocab_usage",
-      "sentence": "《妥協》"
+      "sentence": "《妥協》",
+      "translation": "双方都做出一些妥协，达成了协议。"
     },
     {
       "id": "n2-vocab_usage-007",
@@ -143,7 +149,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "她对他的意见绝不妥协，坚持了自己的主张。"
     },
     {
       "id": "n2-vocab_usage-008",
@@ -161,7 +168,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "为了找到品质与价格的平衡，需要寻求妥协点。"
     },
     {
       "id": "n2-vocab_usage-009",
@@ -179,7 +187,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "为了省钱凑合买了便宜货，结果很快就坏了。"
     },
     {
       "id": "n2-vocab_usage-010",
@@ -197,7 +206,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "他对工作完全不上心，所以错误很多。"
     },
     {
       "id": "n2-grammar_usage-011",
@@ -215,7 +225,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "这条路很平缓，骑车很轻松。"
     },
     {
       "target": "配慮",
@@ -234,7 +245,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_usage-012",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "translation": "他的声音很平缓，容易听懂。"
     },
     {
       "target": "促す",
@@ -253,7 +265,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_usage-013",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "translation": "房间的空气很平稳，可以放松。"
     },
     {
       "target": "潤う",
@@ -272,7 +285,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_usage-014",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "translation": "这道菜的口味很平缓，很好吃。"
     },
     {
       "target": "妨げる",
@@ -291,7 +305,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_usage-015",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "translation": "他经常因为对周围人的关心不够而被提醒。"
     },
     {
       "target": "賄う",
@@ -310,7 +325,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_usage-016",
       "level": "N2",
-      "question_type": "vocab_usage"
+      "question_type": "vocab_usage",
+      "translation": "用这笔奖学金，可以支付学费和生活费。"
     },
     {
       "id": "n2-vocab_usage-017",
@@ -326,7 +342,8 @@
       "answer": 0,
       "explanation": "「契機（けいき）」は、物事が変化するきっかけや動機を表します。选项1应为「器具/道具」、选项2应为「理由/原因」、选项3不通。",
       "verified": true,
-      "created_at": "2026-05-04T09:40:00"
+      "created_at": "2026-05-04T09:40:00",
+      "translation": "他为了弥补错误，加班了。"
     },
     {
       "id": "n2-vocab_usage-018",
@@ -342,7 +359,8 @@
       "answer": 0,
       "explanation": "「妥協（だきょう）」は、互いに譲り合って解决することです。选项1逻辑不通、选项2语义不自然、选项3应为「相談して」。",
       "verified": true,
-      "created_at": "2026-05-04T09:41:00"
+      "created_at": "2026-05-04T09:41:00",
+      "translation": "会议的费用决定由公司承担。"
     },
     {
       "id": "n2-vocab_usage-019",
@@ -358,7 +376,8 @@
       "answer": 0,
       "explanation": "「念願（ねんがん）」は「心から願っていたこと」という名詞です。选项1应为「祈っている」、选项2应为「長年温めていた」、选项3应为「楽しみな」。",
       "verified": true,
-      "created_at": "2026-05-04T09:42:00"
+      "created_at": "2026-05-04T09:42:00",
+      "translation": "她觉得照顾孩子很吃力。"
     },
     {
       "id": "n2-vocab_usage-020",
@@ -374,7 +393,8 @@
       "answer": 0,
       "explanation": "「還元（かんげん）」は、得たものを元の場所に戻すという意味で使われます。选项1应为「売った」、选项2应为「返済した」、选项3应为「移行する」。",
       "verified": true,
-      "created_at": "2026-05-04T09:43:00"
+      "created_at": "2026-05-04T09:43:00",
+      "translation": "以生病为契机，深切感受到了健康的重要性。"
     },
     {
       "id": "n2-vocab_usage-021",
@@ -390,7 +410,8 @@
       "answer": 0,
       "explanation": "「把握（はあく）」は、状況や内容をしっかり理解することです。选项1应为「握った/持った」、选项2应为「調べる」、选项3应为「捜索する」。",
       "verified": true,
-      "created_at": "2026-05-04T09:44:00"
+      "created_at": "2026-05-04T09:44:00",
+      "translation": "准确把握现状，是解决问题的第一步。"
     },
     {
       "id": "n2-vocab_usage-022",
@@ -406,7 +427,8 @@
       "answer": 0,
       "explanation": "「考慮（こうりょ）」は、判断材料として含めることです。选项1应为「慎重な」、选项2应为「検討して」。",
       "verified": true,
-      "created_at": "2026-05-04T09:45:00"
+      "created_at": "2026-05-04T09:45:00",
+      "translation": "他牢牢抓住了沉重的行李。"
     },
     {
       "id": "n2-vocab_usage-023",
@@ -422,7 +444,8 @@
       "answer": 0,
       "explanation": "「充実（じゅうじつ）」は、中身が満ち足りていることです。选项1应为「補充する」、选项3应为「力強い」。",
       "verified": true,
-      "created_at": "2026-05-04T09:46:00"
+      "created_at": "2026-05-04T09:46:00",
+      "translation": "为了掌握新词的意思而查字典。"
     },
     {
       "id": "n2-vocab_usage-024",
@@ -438,7 +461,8 @@
       "answer": 0,
       "explanation": "「回避（かいひ）」は、不都合なことや責任を避けることです。选项2应为「避ける」、选项3应为「迂回して」。",
       "verified": true,
-      "created_at": "2026-05-04T09:47:00"
+      "created_at": "2026-05-04T09:47:00",
+      "translation": "警方为掌握犯人的行踪而行动了。"
     },
     {
       "id": "n2-vocab_usage-025",
@@ -454,7 +478,8 @@
       "answer": 0,
       "explanation": "「適応（てきおう）」は、状況に合うように変わることです。选项1应为「合わない」、选项2应为「慣れている」。",
       "verified": true,
-      "created_at": "2026-05-04T09:48:00"
+      "created_at": "2026-05-04T09:48:00",
+      "translation": "考虑到周围的情况，修改了计划。"
     },
     {
       "id": "n2-vocab_usage-026",
@@ -470,61 +495,65 @@
       "answer": 0,
       "explanation": "「反映（はんえい）」は、影響が他に現れることです。选项1应为「映っている」。",
       "verified": true,
-      "created_at": "2026-05-04T09:49:00"
+      "created_at": "2026-05-04T09:49:00",
+      "translation": "让市民意见反映到市政中"
     },
     {
-    "target": "たじろぐ",
-    "options": [
-      "彼は突然の質問にたじろいで、答えを探した。",
-      "彼はたじろぐ料理をゆっくり食べた。",
-      "たじろぐ観客の前で歌った。",
-      "彼はたじろぐ気持ちで雑誌を読んだ。"
-    ],
-    "answer": 0,
-    "explanation": "「たじろぐ」は思わずためらう、たじろぐという意味です。突然の問題に直面して戸惑う表現として1が正しい用法です。他の選択肢はこの語の自然な使い方ではありません。",
-    "generated_by": "assistant",
-    "reviewed_by": "assistant",
-    "verified": true,
-    "created_at": "2026-05-04T00:00:00",
-    "id": "n2-vocab_usage-012",
-    "level": "N2",
-    "question_type": "vocab_usage"
-  },
-  {
-    "target": "安易",
-    "options": [
-      "その問題を安易に考えると、あとで苦労するだろう。",
-      "彼は安易に料理を作って、味が良くなかった。",
-      "彼女は安易に明日を心配した。",
-      "安易な錠前を開けた。"
-    ],
-    "answer": 0,
-    "explanation": "「安易に」は安易さ、軽率さを表し、簡単に考えることを意味します。1はその意味で自然な使い方です。ほかの選択肢は語感や用法が不自然です。",
-    "generated_by": "assistant",
-    "reviewed_by": "assistant",
-    "verified": true,
-    "created_at": "2026-05-04T00:00:00",
-    "id": "n2-vocab_usage-013",
-    "level": "N2",
-    "question_type": "vocab_usage"
-  },
-  {
-    "target": "こまめ",
-    "options": [
-      "彼はこまめに部屋を掃除している。",
-      "こまめな雨が降ってきた。",
-      "彼女の態度はこまめだった。",
-      "こまめな机で勉強する。"
-    ],
-    "answer": 0,
-    "explanation": "「こまめに」は頻繁にこまめに何かをする様子を表します。部屋をこまめに掃除するのが自然な用法です。他の選択肢は「こまめ」の意味・使い方に適さず、不自然です。",
-    "generated_by": "assistant",
-    "reviewed_by": "assistant",
-    "verified": true,
-    "created_at": "2026-05-04T00:00:00",
-    "id": "n2-vocab_usage-014",
-    "level": "N2",
-    "question_type": "vocab_usage"
-  }
-]
+      "target": "たじろぐ",
+      "options": [
+        "彼は突然の質問にたじろいで、答えを探した。",
+        "彼はたじろぐ料理をゆっくり食べた。",
+        "たじろぐ観客の前で歌った。",
+        "彼はたじろぐ気持ちで雑誌を読んだ。"
+      ],
+      "answer": 0,
+      "explanation": "「たじろぐ」は思わずためらう、たじろぐという意味です。突然の問題に直面して戸惑う表現として1が正しい用法です。他の選択肢はこの語の自然な使い方ではありません。",
+      "generated_by": "assistant",
+      "reviewed_by": "assistant",
+      "verified": true,
+      "created_at": "2026-05-04T00:00:00",
+      "id": "n2-vocab_usage-012",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "translation": "镜子里映出了自己的身影"
+    },
+    {
+      "target": "安易",
+      "options": [
+        "その問題を安易に考えると、あとで苦労するだろう。",
+        "彼は安易に料理を作って、味が良くなかった。",
+        "彼女は安易に明日を心配した。",
+        "安易な錠前を開けた。"
+      ],
+      "answer": 0,
+      "explanation": "「安易に」は安易さ、軽率さを表し、簡単に考えることを意味します。1はその意味で自然な使い方です。ほかの選択肢は語感や用法が不自然です。",
+      "generated_by": "assistant",
+      "reviewed_by": "assistant",
+      "verified": true,
+      "created_at": "2026-05-04T00:00:00",
+      "id": "n2-vocab_usage-013",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "translation": "日元贬值反映在物价上"
+    },
+    {
+      "target": "こまめ",
+      "options": [
+        "彼はこまめに部屋を掃除している。",
+        "こまめな雨が降ってきた。",
+        "彼女の態度はこまめだった。",
+        "こまめな机で勉強する。"
+      ],
+      "answer": 0,
+      "explanation": "「こまめに」は頻繁にこまめに何かをする様子を表します。部屋をこまめに掃除するのが自然な用法です。他の選択肢は「こまめ」の意味・使い方に適さず、不自然です。",
+      "generated_by": "assistant",
+      "reviewed_by": "assistant",
+      "verified": true,
+      "created_at": "2026-05-04T00:00:00",
+      "id": "n2-vocab_usage-014",
+      "level": "N2",
+      "question_type": "vocab_usage",
+      "translation": "他的努力在结果中得到了体现"
+    }
+  ]
 }

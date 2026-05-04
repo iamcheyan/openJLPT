@@ -23,7 +23,8 @@
       "created_at": "2026-05-03T21:59:11",
       "id": "n2-grammar_fill-001",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "他总是用这种方法解决问题"
     },
     {
       "sentence": "その会社は技術開発（　）予算を増やしています。",
@@ -41,7 +42,8 @@
       "created_at": "2026-05-03T21:59:20",
       "id": "n2-grammar_fill-002",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "那家公司正在增加技术开发预算"
     },
     {
       "sentence": "今回の失敗の原因はチーム内のコミュニケーション不足（　）、その他に特別な要因はない。",
@@ -60,7 +62,8 @@
       "created_at": "2026-05-03T22:00:12",
       "id": "n2-grammar_fill-003",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "这次失败的原因是团队内部沟通不足，没有其他特殊原因"
     },
     {
       "sentence": "このNPO法人は一年（　）、全国各地で高齢者支援のイベントを開催している。",
@@ -79,7 +82,8 @@
       "created_at": "2026-05-03T22:00:18",
       "id": "n2-grammar_fill-004",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "这个NPO法人一年在全国各地举办老年人支持活动"
     },
     {
       "sentence": "春（　）夏にかけて、日本では多くの祭りが行われる。",
@@ -98,7 +102,8 @@
       "created_at": "2026-05-03T22:00:44",
       "id": "n2-grammar_fill-005",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "从春天到夏天，日本会举行很多祭典"
     },
     {
       "sentence": "社長が海外に出張している（　）、副社長が重要な決定を下す。",
@@ -117,7 +122,8 @@
       "created_at": "2026-05-03T22:00:56",
       "id": "n2-grammar_fill-006",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "社长在海外出差，副社长做出重要决定。"
     },
     {
       "sentence": "卒業（　）、先生に感謝の気持ちを伝えた。",
@@ -136,7 +142,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-007"
+      "id": "n2-grammar_fill-007",
+      "translation": "毕业后，向老师表达感谢。"
     },
     {
       "sentence": "彼は忙しい（　）、週末はボランティア活動をしている。",
@@ -155,7 +162,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-008"
+      "id": "n2-grammar_fill-008",
+      "translation": "他虽然忙，但周末还是在做志愿者活动。"
     },
     {
       "sentence": "雨が降っている（　）、外で遊ぶのはやめよう。",
@@ -174,7 +182,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-009"
+      "id": "n2-grammar_fill-009",
+      "translation": "下雨了，就不要在外面玩了。"
     },
     {
       "sentence": "彼はプロの歌手（　）歌がうまい。",
@@ -193,7 +202,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-010"
+      "id": "n2-grammar_fill-010",
+      "translation": "他是专业歌手，歌唱得很好。"
     },
     {
       "sentence": "一度決めた（　）、最後までやり通すべきだ。",
@@ -212,7 +222,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-011"
+      "id": "n2-grammar_fill-011",
+      "translation": "既然决定了，就应该坚持到底。"
     },
     {
       "sentence": "料理を（　）としたとき、電話が鳴った。",
@@ -231,7 +242,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-012"
+      "id": "n2-grammar_fill-012",
+      "translation": "正要做饭时，电话响了。"
     },
     {
       "sentence": "彼は毎日遅くまで残業している（　）、疲れが溜まっているようだ。",
@@ -250,7 +262,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-013"
+      "id": "n2-grammar_fill-013",
+      "translation": "他每天加班到很晚，看起来疲劳积累了不少。"
     },
     {
       "sentence": "合格できる（　）、一生懸命勉強する。",
@@ -269,7 +282,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-014"
+      "id": "n2-grammar_fill-014",
+      "translation": "只要能合格，我会拼命学习。"
     },
     {
       "sentence": "知っている（　）、教えてくれなかった。",
@@ -288,7 +302,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-015"
+      "id": "n2-grammar_fill-015",
+      "translation": "他明明知道，却没有告诉我。"
     },
     {
       "sentence": "この問題は、解決（　）がありません。",
@@ -307,7 +322,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-016"
+      "id": "n2-grammar_fill-016",
+      "translation": "这个问题没有解决办法。"
     },
     {
       "sentence": "自分の目で（　）ことには、信じられない。",
@@ -326,7 +342,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-017"
+      "id": "n2-grammar_fill-017",
+      "translation": "我亲眼看到的事情，却难以置信。"
     },
     {
       "sentence": "先生（　）ご指導をいただき、感謝しております。",
@@ -345,7 +362,8 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-018"
+      "id": "n2-grammar_fill-018",
+      "translation": "承蒙老师的指导，非常感谢。"
     },
     {
       "id": "n2-grammar_fill-019",
@@ -361,7 +379,8 @@
       "answer": 2,
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 毕竟；要说为什么…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
-      "created_at": "2026-05-04T00:40:14.214Z"
+      "created_at": "2026-05-04T00:40:14.214Z",
+      "translation": "他经验丰富，"
     },
     {
       "id": "n2-grammar_fill-020",
@@ -377,7 +396,8 @@
       "answer": 1,
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 但是；因为（口语辩解）\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
-      "created_at": "2026-05-04T00:40:14.214Z"
+      "created_at": "2026-05-04T00:40:14.214Z",
+      "translation": "真讨厌啊，"
     },
     {
       "id": "n2-grammar_fill-021",
@@ -393,7 +413,8 @@
       "answer": 2,
       "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 别说…；哪里是…\nB. 正因为…\nC. 毕竟；说起来\nD. 虽然…但是…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.793Z"
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "好久没见，都记不清了。"
     },
     {
       "id": "n2-grammar_fill-022",
@@ -409,7 +430,8 @@
       "answer": 3,
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 但是；因为（口语辩解）\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.793Z"
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "就是讨厌。"
     },
     {
       "id": "n2-grammar_fill-023",
@@ -425,7 +447,8 @@
       "answer": 0,
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 正因为…\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.793Z"
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "他经验丰富。"
     },
     {
       "id": "n2-grammar_fill-024",
@@ -441,7 +464,8 @@
       "answer": 0,
       "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 正因为…\nD. 别说…；哪里是…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
       "verified": true,
-      "created_at": "2026-05-04T00:41:39.793Z"
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "他头脑聪明，性格也很棒。"
     },
     {
       "id": "n2-grammar_fill-025",
@@ -457,7 +481,8 @@
       "answer": 0,
       "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:39.541Z"
+      "created_at": "2026-05-04T00:42:39.541Z",
+      "translation": "他头脑聪明，性格也很棒。"
     },
     {
       "id": "n2-grammar_fill-026",
@@ -473,7 +498,8 @@
       "answer": 0,
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:39.542Z"
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "果然，他经验丰富。"
     },
     {
       "id": "n2-grammar_fill-027",
@@ -489,7 +515,8 @@
       "answer": 0,
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 但是；因为（口语辩解）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:39.542Z"
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "就是啊，我讨厌嘛。"
     },
     {
       "id": "n2-grammar_fill-028",
@@ -505,7 +532,8 @@
       "answer": 0,
       "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 毕竟；说起来\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:39.542Z"
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "毕竟好久没见了，记不太清了。"
     },
     {
       "id": "n2-grammar_fill-029",
@@ -521,7 +549,8 @@
       "answer": 2,
       "explanation": "题目翻译：要说喜欢（　），也不是那样。\n选项翻译：\nA. 虽然…但是…\nB. 别说…；哪里是…\nC. 要说…（转换话题或解释）\nD. 正因为…\n\n「～かというと」表示“要说…（的话）”，用于转换话题或解释说明，意为“要说是否…；如果说…的话”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "喜欢也说不上特别喜欢。"
     },
     {
       "id": "n2-grammar_fill-030",
@@ -537,7 +566,8 @@
       "answer": 1,
       "explanation": "题目翻译：不得不赞成他的意见（　）。\n选项翻译：\nA. 别说…；哪里是…\nB. 不得不…；只得…\nC. 虽然…但是…\nD. 正因为…\n\n「～ざるを得ない」是N2语法，表示“不得不…；只得…；只好…”，动词否定形（ない形去掉ない）+ ざるを得ない。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他的意见我可不赞成。"
     },
     {
       "id": "n2-grammar_fill-031",
@@ -553,7 +583,8 @@
       "answer": 0,
       "explanation": "题目翻译：他仿佛完全不知道（　）说了。\n选项翻译：\nA. 仿佛…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～かのように」表示“仿佛…；好像…；就像…一样”，用于比喻或假想的情况，「まるで」常和它搭配使用。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他好像什么也不知道地说话了"
     },
     {
       "id": "n2-grammar_fill-032",
@@ -569,7 +600,8 @@
       "answer": 2,
       "explanation": "题目翻译：他的演奏有令人感动的（　）。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 有…的东西；有…之处\nD. 别说…；哪里是…\n\n「～ものがある」表示“有…的东西；有…之处；实在是…；令人…的”，用于强调某事物的特质。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他的演奏很感人"
     },
     {
       "id": "n2-grammar_fill-033",
@@ -585,7 +617,8 @@
       "answer": 0,
       "explanation": "题目翻译：如果能回到过去（　），我想回去。\n选项翻译：\nA. 如果能…的话（表示愿望或假设）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ものなら」表示“如果能…的话”，常用于表达难以实现的愿望或假设，前接动词可能形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "如果能回到过去，真的想回去"
     },
     {
       "id": "n2-grammar_fill-034",
@@ -601,7 +634,8 @@
       "answer": 3,
       "explanation": "题目翻译：他是温柔的（　），是老实的类型。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 应该说…；或者说…\n\n「～というか」表示“应该说…；或者说…；其实是…”，用于修正或补充前面的内容，使其更准确。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他是个温柔、内向的人"
     },
     {
       "id": "n2-grammar_fill-035",
@@ -617,7 +651,8 @@
       "answer": 1,
       "explanation": "题目翻译：根据天气（　），变更计划。\n选项翻译：\nA. 虽然…但是…\nB. 根据…；取决于…\nC. 正因为…\nD. 别说…；哪里是…\n\n「～次第で」表示“根据…；取决于…；要看…而定”，前接名词，表示依据前面的内容来决定后面的事项。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "天气原因，计划要更改"
     },
     {
       "id": "n2-grammar_fill-036",
@@ -633,7 +668,8 @@
       "answer": 3,
       "explanation": "题目翻译：她总是穿（　）黑色的衣服。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 正因为…\nD. 全是…；清一色…\n\n「～ずくめ」表示“全是…；清一色…；净是…”，用于强调全部都是某种东西或状态，前接名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "她总是穿黑色的衣服。"
     },
     {
       "id": "n2-grammar_fill-037",
@@ -649,7 +685,8 @@
       "answer": 0,
       "explanation": "题目翻译：他看似（　）很强，其实很温柔。\n选项翻译：\nA. 看似…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ようで（いて）」表示“看似…；好像…（但实际上不是）”，用于表示表面看起来是这样，但实际上不是那样的情况。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他外表强硬，但实际上很温柔。"
     },
     {
       "id": "n2-grammar_fill-038",
@@ -665,7 +702,8 @@
       "answer": 0,
       "explanation": "题目翻译：经过长年的研究（　），终于发现了。\n选项翻译：\nA. 经过…；通过…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～を経て」表示“经过…；通过…；历经…”，用于表示经历了某个过程后才达到现在的状态，前接名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "经过多年的研究，终于发现了。"
     },
     {
       "id": "n2-grammar_fill-039",
@@ -681,7 +719,8 @@
       "answer": 2,
       "explanation": "题目翻译：如果看起来要下雨（　），就取消吧。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 如果…的话（表示推测或可能性）\nD. 正因为…\n\n「～ようなら」表示“如果…的话”，用于表示根据某种迹象推测可能发生的情况，或者表示假设的情况，前接普通形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.327Z"
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "下雨了，我们中止吧。"
     },
     {
       "id": "n2-grammar_fill-040",
@@ -697,7 +736,8 @@
       "answer": 3,
       "explanation": "题目翻译：他不仅聪明（　），性格也很好。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 不仅…而且…（书面语）\n\n「～のみならず」表示“不仅…而且…；不但…而且…”，是书面语表达，用于强调递进关系，前接普通形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "他头脑聪明，性格也好。"
     },
     {
       "id": "n2-grammar_fill-041",
@@ -713,7 +753,8 @@
       "answer": 2,
       "explanation": "题目翻译：孩子变得满身（　）泥地在玩。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 满是…；沾满…\nD. 别说…；哪里是…\n\n「～まみれ」表示“满是…；沾满…；到处都是…”，用于表示某个东西沾满了表面，通常用于不好的或脏的东西，前接名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "孩子们玩得满身是泥。"
     },
     {
       "id": "n2-grammar_fill-042",
@@ -729,7 +770,8 @@
       "answer": 0,
       "explanation": "题目翻译：去（　）还是不去（　），请快点决定。\n选项翻译：\nA. 无论…还是…；即使…（表示选择）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～にしろ」表示“无论…还是…；即使…”，用于列举两种相反的情况或表示让步，是较正式的表达，前接普通形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "去还是不去，请快点决定。"
     },
     {
       "id": "n2-grammar_fill-043",
@@ -745,7 +787,8 @@
       "answer": 3,
       "explanation": "题目翻译：从小孩（　）老人，大家都能开心享受。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 到…为止；直到…\n\n「～に至るまで」表示“到…为止；直到…；甚至到…程度”，用于表示范围的终点，强调从起点到终点的全部，前接名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "从孩子到老人，大家都能享受。"
     },
     {
       "id": "n2-grammar_fill-044",
@@ -761,7 +804,8 @@
       "answer": 1,
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 虽然…但是…\nB. 但是；因为（口语辩解）\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "我就是不喜欢嘛。"
     },
     {
       "id": "n2-grammar_fill-045",
@@ -777,7 +821,8 @@
       "answer": 2,
       "explanation": "题目翻译：请按照规则（　）行动。\n选项翻译：\nA. 正因为…\nB. 虽然…但是…\nC. 按照…；根据…\nD. 别说…；哪里是…\n\n「～にしたがって」表示“按照…；根据…；随着…”，用于表示根据某种规则或标准行动，或者随着某事物的变化而变化，前接名词或动词普通形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "请按照规则行动。"
     },
     {
       "id": "n2-grammar_fill-046",
@@ -793,7 +838,8 @@
       "answer": 3,
       "explanation": "题目翻译：不能说因为有钱（　）就一定幸福。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 不能因为…就…；虽然…但是…\n\n「～からといって」表示“不能因为…就…；虽然…但是…”，用于表示不能仅凭一个理由就下结论，或者表示虽然有某个理由，但结果不一定是那样。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "有钱不一定幸福"
     },
     {
       "id": "n2-grammar_fill-047",
@@ -809,7 +855,8 @@
       "answer": 3,
       "explanation": "题目翻译：这份工作工资不错（　），责任很重。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 另一方面；相反…\n\n「～反面」表示“另一方面；相反…”，用于列举同一事物的正反两个方面，或表示相对的特征。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "这个工作工资高但责任重"
     },
     {
       "id": "n2-grammar_fill-048",
@@ -825,7 +872,8 @@
       "answer": 0,
       "explanation": "题目翻译：以日本旅行为契机（　），开始学习日语。\n选项翻译：\nA. 以…为契机；趁着…\nB. 虽然…但是…\nC. 正因为…\nD. 别说…；哪里是…\n\n「～をきっかけに」表示“以…为契机；以…为开端；趁着…”，用于表示某个事件成为开始做某事的契机，前接名词或动词普通形。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "因为要来日本旅行，我开始学日语"
     },
     {
       "id": "n2-grammar_fill-049",
@@ -841,7 +889,8 @@
       "answer": 1,
       "explanation": "题目翻译：值此新年（　），向您致以问候。\n选项翻译：\nA. 正因为…\nB. 值此…之际；在…之时（正式）\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「～にあたって」表示“值此…之际；在…之时”，用于正式场合，表示在某个重要时刻做某事，前接动词普通形或名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "新年之际，向您问好"
     },
     {
       "id": "n2-grammar_fill-050",
@@ -857,7 +906,8 @@
       "answer": 0,
       "explanation": "题目翻译：从专家（　），这个问题很简单。\n选项翻译：\nA. 从…来看；判断…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～からすると」表示“从…来看；判断…”，用于表示从某个立场或角度来看待某个问题，前接名词。",
       "verified": true,
-      "created_at": "2026-05-04T00:42:54.328Z"
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "专家认为这个问题很简单"
     },
     {
       "id": "n2-grammar_fill-051",
@@ -875,7 +925,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个问题连数学专家都认为很难"
     },
     {
       "id": "n2-grammar_fill-052",
@@ -893,7 +944,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "要写一篇关于日本历史的报告"
     },
     {
       "id": "n2-grammar_fill-053",
@@ -911,7 +963,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个制度因使用者不同而异"
     },
     {
       "id": "n2-grammar_fill-054",
@@ -929,7 +982,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然是学生，但进行着出色的研究"
     },
     {
       "id": "n2-grammar_fill-055",
@@ -947,7 +1001,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "随着年纪增长，体力逐渐下降"
     },
     {
       "id": "n2-grammar_fill-056",
@@ -965,7 +1020,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "因为大雨，运动会取消了。"
     },
     {
       "id": "n2-grammar_fill-057",
@@ -983,7 +1039,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她明明约好了，却没有来。"
     },
     {
       "id": "n2-grammar_fill-058",
@@ -1001,7 +1058,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "对不起迟到了。是因为电车晚点了。"
     },
     {
       "id": "n2-grammar_fill-059",
@@ -1019,7 +1077,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "虽说他是犯人，但没有证据。"
     },
     {
       "id": "n2-grammar_fill-060",
@@ -1037,7 +1096,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影只看过一次。"
     },
     {
       "id": "n2-grammar_fill-061",
@@ -1055,7 +1115,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "事故的损失想象中很大"
     },
     {
       "id": "n2-grammar_fill-062",
@@ -1073,7 +1134,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "天气预报说，明天会下雨"
     },
     {
       "id": "n2-grammar_fill-063",
@@ -1091,7 +1153,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他撒了谎，没有反省的样子"
     },
     {
       "id": "n2-grammar_fill-064",
@@ -1109,7 +1172,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这种药很危险，最好不要使用"
     },
     {
       "id": "n2-grammar_fill-065",
@@ -1127,7 +1191,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她带着哭泣的脸诉说了"
     },
     {
       "id": "n2-grammar_fill-066",
@@ -1145,7 +1210,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "最近，他经常迟到。"
     },
     {
       "id": "n2-grammar_fill-067",
@@ -1163,7 +1229,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "公园里满是垃圾，状态很糟糕。"
     },
     {
       "id": "n2-grammar_fill-068",
@@ -1181,7 +1248,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他的行动难以理解。"
     },
     {
       "id": "n2-grammar_fill-069",
@@ -1199,7 +1267,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "听了他的话，不禁流泪。"
     },
     {
       "id": "n2-grammar_fill-070",
@@ -1217,7 +1286,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "竟然为那样的事情生气。"
     },
     {
       "id": "n2-grammar_fill-071",
@@ -1235,7 +1305,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这样下去会出事故的。"
     },
     {
       "id": "n2-grammar_fill-072",
@@ -1253,7 +1324,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他的提案，我无法理解。"
     },
     {
       "id": "n2-grammar_fill-073",
@@ -1271,7 +1343,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他不仅优秀，性格也很好。"
     },
     {
       "id": "n2-grammar_fill-074",
@@ -1289,7 +1362,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "下雨了。而且风也很大。"
     },
     {
       "id": "n2-grammar_fill-075",
@@ -1307,7 +1381,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他很有钱。不过却很吝啬。"
     },
     {
       "id": "n2-grammar_fill-076",
@@ -1325,7 +1400,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这本书越读越有趣。"
     },
     {
       "id": "n2-grammar_fill-077",
@@ -1343,7 +1419,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "来到日本后，我开始对日本文化感兴趣。"
     },
     {
       "id": "n2-grammar_fill-078",
@@ -1361,7 +1438,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "不努力，成功是不可能的。"
     },
     {
       "id": "n2-grammar_fill-079",
@@ -1379,7 +1457,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她结婚后，还在继续工作。"
     },
     {
       "id": "n2-grammar_fill-080",
@@ -1397,7 +1476,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "虽然价格高，但质量好。"
     },
     {
       "id": "n2-grammar_fill-081",
@@ -1415,7 +1495,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这家店味道很好，而且价格也便宜。"
     },
     {
       "id": "n2-grammar_fill-082",
@@ -1433,7 +1514,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "因为事故电车停了，所以打车去的。"
     },
     {
       "id": "n2-grammar_fill-083",
@@ -1451,7 +1533,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他不仅迟到，而且也没说明理由。"
     },
     {
       "id": "n2-grammar_fill-084",
@@ -1469,7 +1552,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影和小孩及大人都很受欢迎。"
     },
     {
       "id": "n2-grammar_fill-085",
@@ -1487,7 +1571,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他是一流的厨师，而且培养了许多弟子。"
     },
     {
       "id": "n2-grammar_fill-086",
@@ -1505,7 +1590,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个影像看起来像是真的。"
     },
     {
       "id": "n2-grammar_fill-087",
@@ -1523,7 +1609,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她当时在笑。不过，或许她其实很难过。"
     },
     {
       "id": "n2-grammar_fill-088",
@@ -1541,7 +1628,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影看一遍就不会再看第二遍了。"
     },
     {
       "id": "n2-grammar_fill-089",
@@ -1559,7 +1647,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然还是学生，但作为社会人也活跃着。"
     },
     {
       "id": "n2-grammar_fill-090",
@@ -1577,7 +1666,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这本书对日语学习很有帮助。"
     },
     {
       "id": "n2-grammar_fill-091",
@@ -1595,7 +1685,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "下个月的旅行已经开始准备了"
     },
     {
       "id": "n2-grammar_fill-092",
@@ -1613,7 +1704,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他知道了秘密"
     },
     {
       "id": "n2-grammar_fill-093",
@@ -1631,7 +1723,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "会说日语有利于就业"
     },
     {
       "id": "n2-grammar_fill-094",
@@ -1649,7 +1742,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他用言语和行动表现了出来"
     },
     {
       "id": "n2-grammar_fill-095",
@@ -1667,7 +1761,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这项工作可以交给你"
     },
     {
       "id": "n2-grammar_fill-096",
@@ -1685,7 +1780,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "老师和学生都参加了。"
     },
     {
       "id": "n2-grammar_fill-097",
@@ -1703,7 +1799,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他在休息日也在工作。"
     },
     {
       "id": "n2-grammar_fill-098",
@@ -1721,7 +1818,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这首歌一听就感动到流泪。"
     },
     {
       "id": "n2-grammar_fill-099",
@@ -1739,7 +1837,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然累了，但还在努力。"
     },
     {
       "id": "n2-grammar_fill-100",
@@ -1757,7 +1856,8 @@
       "generated_by": "claude",
       "reviewed_by": "claude",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个计划可能会失败。"
     },
     {
       "sentence": "事故（　）、安全対策を強化した。",
@@ -1774,7 +1874,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "鉴于事故，强化了安全对策。"
     },
     {
       "sentence": "日本人（　）、外国人にも人気だ。",
@@ -1791,7 +1892,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不仅日本人，在外国人也受欢迎。"
     },
     {
       "sentence": "失敗した（　）、経験にはなる。",
@@ -1808,7 +1910,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然失败了，但能成为经验。"
     },
     {
       "sentence": "男女（　）、応募できます。",
@@ -1825,7 +1928,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不论男女，均可报名。"
     },
     {
       "sentence": "有名な先生（　）、ピアノを学んだ。",
@@ -1842,7 +1946,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "师从名师，学习了钢琴。"
     },
     {
       "sentence": "調査し（　）結果、新しい事実が分かっ（　）。",
@@ -1859,7 +1964,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "经过调查，发现了新的事实。"
     },
     {
       "sentence": "日本旅行（　）、日本語を勉強し始めた。",
@@ -1876,7 +1982,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "因为要旅行到日本，我开始学习日语。"
     },
     {
       "sentence": "冗談（　）、真面目な話をしましょう。",
@@ -1893,7 +2000,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "开个玩笑，现在来认真谈谈吧。"
     },
     {
       "sentence": "少子化（　）、学校が減っている。",
@@ -1910,7 +2018,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "由于少子化，学校数量在减少。"
     },
     {
       "sentence": "その質問にはお答えしかね（　）。",
@@ -1927,7 +2036,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "对于那个问题，我不太能回答。"
     },
     {
       "sentence": "忙しい（　）疲れた（　）、言い訳ばかりだ。",
@@ -1944,7 +2054,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "又忙又累，总是找借口。"
     },
     {
       "sentence": "漢字（　）、ひらがなも書けない。",
@@ -1961,7 +2072,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "别说汉字了，连平假名也写不了。"
     },
     {
       "sentence": "こうし（　）はいられない。早く行こう。",
@@ -1978,7 +2090,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不能这样待着了，快走吧。"
     },
     {
       "sentence": "泣い（　）もいいくらい感動した。",
@@ -1995,7 +2108,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "感动得想哭。"
     },
     {
       "sentence": "愛（　）手紙を書いた。",
@@ -2012,7 +2126,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "怀着爱写了信。"
     },
     {
       "sentence": "能力（　）、仕事が与えられる。",
@@ -2029,7 +2144,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "根据能力分配工作。"
     },
     {
       "sentence": "宿題を始めた（　）、なかなか進まない。",
@@ -2046,7 +2162,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然开始做作业了，但进展不顺利。"
     },
     {
       "sentence": "専門家（　）、この問題は簡単だ。",
@@ -2063,7 +2180,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "对专家来说，这个问题很简单。"
     },
     {
       "sentence": "見る（　）窓の外を眺めていた。",
@@ -2080,7 +2198,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "一边看着，一边眺望着窗外。"
     },
     {
       "sentence": "これ（　）問題はありません。",
@@ -2097,7 +2216,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "这个问题没有问题。"
     },
     {
       "sentence": "（　）、彼は経験が豊富だ。",
@@ -2114,7 +2234,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他经验丰富"
     },
     {
       "sentence": "説明を聞い（　）からでないと、始められない。",
@@ -2131,7 +2252,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不听取说明就不能开始"
     },
     {
       "sentence": "お金があれば幸せになれる（　）。",
@@ -2148,7 +2270,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "有钱就能幸福"
     },
     {
       "sentence": "会議（　）、資料を配布した。",
@@ -2165,7 +2288,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "在会议上，发放了资料"
     },
     {
       "sentence": "桜の木が多い（　）、この町は'桜町'と呼ばれている。",
@@ -2182,7 +2306,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "因为樱花树多，这个镇被称为'樱花镇'"
     },
     {
       "sentence": "泣い（　）かと思うと、すぐ笑い出し（　）。",
@@ -2199,7 +2324,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "刚要哭，就又笑起来了"
     },
     {
       "sentence": "値段（　）、品質を確認しましょう。",
@@ -2216,7 +2342,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "别只看价格，先确认质量"
     },
     {
       "sentence": "痛いけど、病院に行く（　）。",
@@ -2233,7 +2360,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然疼，但不用去医院"
     },
     {
       "sentence": "本日は定休日（　）、閉店いたします。",
@@ -2250,7 +2378,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "今天是休息日，所以闭店"
     },
     {
       "sentence": "雨が降る（　）、中止しましょう。",
@@ -2267,7 +2396,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "如果下雨，就中止吧"
     },
     {
       "sentence": "環境問題（　）話し合った。",
@@ -2284,7 +2414,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "讨论了环境问题。"
     },
     {
       "sentence": "彼は優しい（　）、おとなしいタイプだ。",
@@ -2301,7 +2432,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他是温柔、老实的那种类型。"
     },
     {
       "sentence": "もし雨が降る（　）、どうしますか。",
@@ -2318,7 +2450,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "如果下雨的话，你怎么办？"
     },
     {
       "sentence": "彼の態度は失礼（　）。",
@@ -2335,7 +2468,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他的态度很失礼。"
     },
     {
       "sentence": "約束した（　）、必ず守ります。",
@@ -2352,7 +2486,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "既然约好了，就一定遵守。"
     },
     {
       "sentence": "子供（　）、当然の反応だ。",
@@ -2369,7 +2504,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "孩子嘛，这是当然的反应。"
     },
     {
       "sentence": "実際に見てみ（　）ことには、分から（　）。",
@@ -2386,7 +2522,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "实际上看看才知道，"
     },
     {
       "sentence": "彼の意見に賛成せ（　）。",
@@ -2403,7 +2540,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "我赞同他的意见。"
     },
     {
       "sentence": "初めて（　）こととて、不手際をお許しください。",
@@ -2420,7 +2558,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "初次见面，请多多包涵我的失礼。"
     },
     {
       "sentence": "言（　）た（　）て、聞いてくれないよ。",
@@ -2437,7 +2576,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "说了也不听你，"
     },
     {
       "sentence": "親の心配（　）、彼は一人で旅に出た。",
@@ -2454,7 +2594,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "尽管父母担心，他还是独自去旅行了。"
     },
     {
       "sentence": "行きたくなくも（　）が、時間が（　）。",
@@ -2471,7 +2612,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然不想去，但时间不够。"
     },
     {
       "sentence": "急いでいる時（　）、電車が遅れる。",
@@ -2488,7 +2630,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "在着急的时候，电车偏偏晚点了。"
     },
     {
       "sentence": "この部屋は広い（　）、明るい。",
@@ -2505,7 +2648,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "这个房间宽敞，并且明亮。"
     },
     {
       "sentence": "今さら謝っ（　）ところで、許してもらえない。",
@@ -2522,7 +2666,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "事到如今道歉，也不会得到原谅。"
     },
     {
       "sentence": "彼は「もう限界だ」（　）、ため息をついた。",
@@ -2539,7 +2684,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他已经到达极限了（　）”，叹了口气。"
     },
     {
       "sentence": "結果（　）で、今後の方針を決める。",
@@ -2556,7 +2702,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "结果（　）将决定未来的方针。"
     },
     {
       "sentence": "面白くて笑わ（　）ではいられなかった。",
@@ -2573,7 +2720,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "太好笑了（　）以至于笑不出来。"
     },
     {
       "sentence": "約束した（　）、必ず守る。",
@@ -2590,7 +2738,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "约定（　）一定会遵守。"
     },
     {
       "sentence": "長い間悩んだ末、留学することにし（　）。",
@@ -2607,7 +2756,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:53:52.808Z"
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "经过长时间的烦恼，最后决定留学（　）"
     },
     {
       "sentence": "新年（　）、ご挨拶申し上げます。",
@@ -2624,7 +2774,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "新年快乐、向您致以问候。"
     },
     {
       "sentence": "君を愛していれ（　）こそ、こう言うのだ。",
@@ -2641,7 +2792,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "正因为爱你，所以才这么说。"
     },
     {
       "sentence": "大切な友達だ（　）、厳しいことも言う。",
@@ -2658,7 +2810,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "是重要的朋友，所以也会说出严厉的话。"
     },
     {
       "sentence": "観客の声援（　）、選手たちはベストを尽くした。",
@@ -2675,7 +2828,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "在观众的欢呼声中，选手们全力以赴。"
     },
     {
       "sentence": "年齢（　）、誰でも参加できます。",
@@ -2692,7 +2846,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不论年龄，谁都可以参加。"
     },
     {
       "sentence": "悪天候（　）、試合は行われた。",
@@ -2709,7 +2864,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "尽管天气恶劣，比赛还是举行了。"
     },
     {
       "sentence": "日本（　）、世界中でこの問題がある。",
@@ -2726,7 +2882,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "即使在日本，世界各地都有这个问题。"
     },
     {
       "sentence": "行く（　）行かない（　）、早く決めてください。",
@@ -2743,7 +2900,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "去还是不去，请尽快决定。"
     },
     {
       "sentence": "誰が何（　）言おう（　）、私は諦めない。",
@@ -2760,7 +2918,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "无论谁说什么，我都不放弃。"
     },
     {
       "sentence": "行こう（　）行くまい（　）、あなたの自由だ。",
@@ -2777,7 +2936,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "去还是不去，是你的自由。"
     },
     {
       "sentence": "夢を実現す（　）、毎日努力している。",
@@ -2794,7 +2954,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "为了实现梦想，每天在努力。"
     },
     {
       "sentence": "友達（　）彼に紹介された。",
@@ -2811,7 +2972,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "作为朋友，他被介绍给了我。"
     },
     {
       "sentence": "10年（　）研究を続けた。",
@@ -2828,7 +2990,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "持续研究了10年。"
     },
     {
       "sentence": "初めて（　）、上手に弾けた。",
@@ -2845,7 +3008,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为是第一次，所以弹得很好。"
     },
     {
       "sentence": "彼は80歳（　）、今も元気だ。",
@@ -2862,7 +3026,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他虽然80岁了，现在还很精神。"
     },
     {
       "sentence": "長年練習した（　）。演奏が素晴らしい。",
@@ -2879,7 +3044,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "长期练习的（　）。演奏得非常出色。"
     },
     {
       "sentence": "困っている人を助けるのが友情（　）。",
@@ -2896,7 +3062,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "帮助困难的人是友情（　）."
     },
     {
       "sentence": "急いでいた（　）、挨拶もせずに帰ってしまった。",
@@ -2913,7 +3080,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "急忙中（　），连招呼也没打就回去了。"
     },
     {
       "sentence": "宿題（　）掃除（　）で忙しい。",
@@ -2930,7 +3098,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "忙着做作业（　）和打扫（　）。"
     },
     {
       "sentence": "あの人は話し方（　）失礼だ。",
@@ -2947,7 +3116,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那个人说话方式（　）很失礼。"
     },
     {
       "sentence": "彼は頭がいい（　）、性格もいい。",
@@ -2964,7 +3134,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他不仅头脑聪明，性格也很好。"
     },
     {
       "sentence": "もう春（　）、まだ寒い。",
@@ -2981,7 +3152,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽说是春天，但还很冷。"
     },
     {
       "sentence": "春だ（　）、今朝は雪が降った。",
@@ -2998,7 +3170,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然是春天，今早却下了雪。"
     },
     {
       "sentence": "お金がある（　）、幸せとは限らない。",
@@ -3015,7 +3188,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然有钱，但未必幸福。"
     },
     {
       "sentence": "時間に厳しい田中さん（　）ことだから、きっと時間通りに来るだろう。",
@@ -3032,7 +3206,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "时间观念严格的田中先生，一定会准时来的。"
     },
     {
       "sentence": "日本に来（　）からというもの、毎日が楽しい。",
@@ -3049,7 +3224,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "自从来到日本，每天都很开心。"
     },
     {
       "sentence": "雨だけど、雪じゃない（　）。",
@@ -3066,7 +3242,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然是雨，但不是雪。"
     },
     {
       "sentence": "彼は家に着く（　）、ベッドに倒れ込んだ。",
@@ -3083,7 +3260,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他一到家就倒在了床上。"
     },
     {
       "sentence": "家に着く（　）着（　）ない（　）のうちに、雨が降り出した。",
@@ -3100,7 +3278,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "刚到家（还没完全进屋）的时候，雨就下了起来。"
     },
     {
       "sentence": "教え（　）そばから忘れてしまう。",
@@ -3117,7 +3296,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "刚教完就忘了。"
     },
     {
       "sentence": "子供（　）、そんなことで泣かないで。",
@@ -3134,7 +3314,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "别哭，孩子。"
     },
     {
       "sentence": "あなたのため（　）、何でもする。",
@@ -3151,7 +3332,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "为了你，做什么都行。"
     },
     {
       "sentence": "完璧とは言わ（　）までも、かなりよくできている。",
@@ -3168,7 +3350,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然不能说是完美，但做得相当不错。"
     },
     {
       "sentence": "忙しくて、彼に会え（　）だった。",
@@ -3185,7 +3368,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为很忙，所以没能见到他。"
     },
     {
       "sentence": "（　）、久しぶりだからよく覚えていない。",
@@ -3202,7 +3386,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为好久不见，所以不太记得了。"
     },
     {
       "sentence": "散々悩んだあげく、結局何も決められなかっ（　）。",
@@ -3219,7 +3404,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "左思右想，结果还是什么都没决定下来。"
     },
     {
       "sentence": "この仕事は給料がいい（　）、責任が重い。",
@@ -3236,7 +3422,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "这份工作工资虽高，但责任很重。"
     },
     {
       "sentence": "外国人（　）、日本は安全な国だ。",
@@ -3253,7 +3440,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "从外国人来看，日本是个安全的国家。"
     },
     {
       "sentence": "ニュースによると、明日は雨が降る（　）。",
@@ -3270,7 +3458,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "据新闻报道，明天似乎要下雨。"
     },
     {
       "sentence": "天気（　）、予定を変更する。",
@@ -3287,7 +3476,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "视天气情况，可能会改变计划。"
     },
     {
       "sentence": "子供からお年寄り（　）、みんな楽しめる。",
@@ -3304,7 +3494,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "从孩子到老人，大家都能乐在其中。"
     },
     {
       "sentence": "非常（　）際は、こ（　）ボタンを押してください。",
@@ -3321,7 +3512,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "紧急情况下，请按这个按钮。"
     },
     {
       "sentence": "長年の研究（　）、ついに発見した。",
@@ -3338,7 +3530,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "经过长年的研究，终于发现了。"
     },
     {
       "sentence": "現状（　）、対策を立てた。",
@@ -3355,7 +3548,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "针对现状，制定了应对措施。"
     },
     {
       "sentence": "休日（　）、公園は大勢の人で賑わった。",
@@ -3372,7 +3566,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "假日里，公园里人山人海，热闹非凡。"
     },
     {
       "sentence": "彼は忙しい（　）。",
@@ -3389,7 +3584,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他很忙"
     },
     {
       "sentence": "それは単なる言い訳（　）。",
@@ -3406,7 +3602,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那只是借口"
     },
     {
       "sentence": "お客様（　）商売です。",
@@ -3423,7 +3620,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "顾客是上帝"
     },
     {
       "sentence": "法律（　）、この行為は違法だ。",
@@ -3440,7 +3638,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "根据法律，这个行为是违法的"
     },
     {
       "sentence": "心配する（　）よ。",
@@ -3457,7 +3656,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不用担心"
     },
     {
       "sentence": "言わ（　）分かるだろう。",
@@ -3474,7 +3674,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不用说也明白吧"
     },
     {
       "sentence": "彼は強い（　）いて、実は優しい。",
@@ -3491,7 +3692,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他看着强，其实很温柔"
     },
     {
       "sentence": "（　）、嫌なんだもん。",
@@ -3508,7 +3710,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为讨厌嘛"
     },
     {
       "sentence": "そんなに怠ける（　）、合格できないよ。",
@@ -3525,7 +3728,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那么懒会考不上的"
     },
     {
       "sentence": "彼女はいつも黒（　）の服を着ている。",
@@ -3542,7 +3746,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "她总穿黑色衣服"
     },
     {
       "sentence": "子供は泥（　）になって遊んでいた。",
@@ -3559,7 +3764,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "孩子们满身是泥地玩耍着。"
     },
     {
       "sentence": "彼の演奏には感動的な（　）。",
@@ -3576,7 +3782,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他的演奏有着打动人心的力量。"
     },
     {
       "sentence": "結果（　）、大成功だった。",
@@ -3593,7 +3800,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "结果来说，是大获成功。"
     },
     {
       "sentence": "成功はあなたの努力（　）。",
@@ -3610,7 +3818,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "成功取决于你的努力。"
     },
     {
       "sentence": "友情（　）、お金で買えないものだ。",
@@ -3627,7 +3836,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "友情是用金钱买不到的东西。"
     },
     {
       "sentence": "長年の努力の果てに、夢を実現し（　）。",
@@ -3644,7 +3854,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "经过多年的努力，梦想终于实现了。"
     },
     {
       "sentence": "彼が来ない（　）、忙しいのだろう。",
@@ -3661,7 +3872,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他没来，可能是因为忙。"
     },
     {
       "sentence": "好き（　）、そうでもない。",
@@ -3678,7 +3890,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "喜欢，也不是很喜欢。"
     },
     {
       "sentence": "本件は合意した（　）扱います。",
@@ -3695,7 +3908,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "关于这件事，我们达成了一致，就这样处理吧。"
     },
     {
       "sentence": "準備はできた。（　）出発するだけだ。",
@@ -3712,7 +3926,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "准备好了，只差出发了。"
     },
     {
       "sentence": "見る（　）、いいですよ。",
@@ -3729,7 +3944,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "看一下就好"
     },
     {
       "sentence": "彼は謝ら（　）のみならず、逆に怒り出した。",
@@ -3746,7 +3962,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他不仅不道歉，反而生气了"
     },
     {
       "sentence": "ルール（　）、行動してください。",
@@ -3763,7 +3980,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "请按照规则行动"
     },
     {
       "sentence": "川（　）歩きました。",
@@ -3780,7 +3998,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "沿着河边走了"
     },
     {
       "sentence": "彼はまるで何も知らない（　）話した。",
@@ -3797,7 +4016,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他仿佛什么都不知道一样说话"
     },
     {
       "sentence": "昔に戻れる（　）、戻りたい。",
@@ -3814,7 +4034,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "要是能回到过去，我想回去。"
     },
     {
       "sentence": "この小説は実話（　）書かれた。",
@@ -3831,7 +4052,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "这部小说是根据真实故事写的。"
     },
     {
       "sentence": "約束した（　）、守らなければならない。",
@@ -3848,7 +4070,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "既然约定了，就必须遵守。"
     },
     {
       "sentence": "彼は頭がいい。（　）、性格も素晴らしい。",
@@ -3865,7 +4088,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他很聪明。而且，性格也很好。"
     },
     {
       "sentence": "明日は大雨（　）恐れがあります。",
@@ -3882,7 +4106,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.426Z"
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "明天可能会下大雨。"
     },
     {
       "sentence": "首相（　）、国民の意見を聞くべきだ。",
@@ -3899,7 +4124,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "首相应该听取国民的意见"
     },
     {
       "sentence": "この映画は実話（　）作られた。",
@@ -3916,7 +4142,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部电影是根据真实故事改编的"
     },
     {
       "sentence": "環境問題（　）、世界各国が議論している。",
@@ -3933,7 +4160,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "环境问题正在被世界各国讨论"
     },
     {
       "sentence": "この問題は子ども（　）大人でも難しい。",
@@ -3950,7 +4178,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个问题对孩子和大人来说都很困难"
     },
     {
       "sentence": "彼の行動は理解（　）。",
@@ -3967,7 +4196,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的行为难以理解"
     },
     {
       "sentence": "この作品は推薦（　）価値がある。",
@@ -3984,7 +4214,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部作品值得推荐。"
     },
     {
       "sentence": "彼が成功したのは努力（　）。",
@@ -4001,7 +4232,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他成功归功于努力。"
     },
     {
       "sentence": "この問題は数学（　）物理でも使われる。",
@@ -4018,7 +4250,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个问题在数学和物理中都会用到。"
     },
     {
       "sentence": "困難（　）、チームは最後まで頑張った。",
@@ -4035,7 +4268,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "尽管困难，团队还是坚持到了最后。"
     },
     {
       "sentence": "彼女は涙（　）事情を説明した。",
@@ -4052,7 +4286,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "她含泪说明了情况。"
     },
     {
       "sentence": "この予算は教育（　）文化にも使われる。",
@@ -4069,7 +4304,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "该预算也用于教育及文化。"
     },
     {
       "sentence": "彼の話は冗談（　）、かなり深刻だ。",
@@ -4086,7 +4322,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的话看似玩笑，实则相当严肃。"
     },
     {
       "sentence": "彼女は忙しい（　）、ボランティアをしている。",
@@ -4103,7 +4340,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "她虽然忙碌，却仍在做志愿者。"
     },
     {
       "sentence": "この店は安い（　）、味も良い。",
@@ -4120,7 +4358,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这家店不仅便宜，味道也好。"
     },
     {
       "sentence": "地震の後、道路（　）橋も壊れた。",
@@ -4137,7 +4376,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "地震之后，道路和桥梁都损坏了。"
     },
     {
       "sentence": "この法律は国民すべて（　）適用される。",
@@ -4154,7 +4394,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "本法律适用于所有国民"
     },
     {
       "sentence": "事故の原因（　）調査が行われている。",
@@ -4171,7 +4412,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "事故原因正在调查中"
     },
     {
       "sentence": "詳細（　）お問い合わせください。",
@@ -4188,7 +4430,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "请详细咨询"
     },
     {
       "sentence": "この映画は大人（　）子どもにも人気だ。",
@@ -4205,7 +4448,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部电影大人和孩子都很受欢迎"
     },
     {
       "sentence": "天気（　）予定が変わる場合がある。",
@@ -4222,7 +4466,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "天气预报有可能改变"
     },
     {
       "sentence": "彼の態度は許（　）ものではない。",
@@ -4239,7 +4484,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的态度不可原谅"
     },
     {
       "sentence": "この地域は冬（　）雪が多い。",
@@ -4256,7 +4502,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个地区冬天雪很多"
     },
     {
       "sentence": "彼は優秀だ（　）、欠点もある。",
@@ -4273,7 +4520,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他很优秀，但也有缺点"
     },
     {
       "sentence": "この計画は成功（　）難しい。",
@@ -4290,7 +4538,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个计划成功很难"
     },
     {
       "sentence": "日本に来る（　）、富士山を見たい。",
@@ -4307,7 +4556,8 @@
       "level": "N2",
       "question_type": "grammar_fill",
       "verified": true,
-      "created_at": "2026-05-04T20:15:00.000Z"
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "如果来日本，想看看富士山"
     }
   ]
 }

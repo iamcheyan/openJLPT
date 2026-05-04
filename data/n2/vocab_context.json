@@ -24,7 +24,8 @@
       "created_at": "2026-05-03T21:51:24",
       "id": "n2-vocab_context-001",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "1. 那家公司的经济增长率依旧低迷。"
     },
     {
       "sentence": "異文化理解の重要性を（　）ようになりました。",
@@ -43,7 +44,8 @@
       "created_at": "2026-05-03T21:51:37",
       "id": "n2-vocab_context-002",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "2. 越来越多人意识到异文化理解的重要性。"
     },
     {
       "sentence": "今回のイベントは予想より来場者が少なかったが、（　）地域の人たちに社会貢献の重要性を伝えられたと思う。",
@@ -62,7 +64,8 @@
       "created_at": "2026-05-03T21:52:40",
       "id": "n2-vocab_context-003",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "3. 本次活动到场人数少于预期，但至少向当地居民传达了社会贡献的重要性。"
     },
     {
       "sentence": "政府は今年度の（　）を5%程度に設定し、インフラ投資を拡大する方針を発表した。",
@@ -81,7 +84,8 @@
       "created_at": "2026-05-03T21:52:49",
       "id": "n2-vocab_context-004",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "4. 政府宣布将本年度财政赤字目标设定在5%左右，并计划扩大基础设施投资。"
     },
     {
       "sentence": "企業の成長戦略において、長期的な（　）を持つことが重要だ。",
@@ -100,7 +104,8 @@
       "created_at": "2026-05-03T21:53:16",
       "id": "n2-vocab_context-005",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "5. 企业的成长战略中，拥有长期视野至关重要。"
     },
     {
       "sentence": "毎日、駅前のパン屋で（　）同じサンドイッチを買っている。",
@@ -119,7 +124,8 @@
       "created_at": "2026-05-03T21:53:22",
       "id": "n2-vocab_context-006",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "每天在车站前的面包店买同样的三明治。"
     },
     {
       "sentence": "新しいプロジェクトのリーダーに任命されて、（　）を感じている。",
@@ -138,7 +144,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_context-007",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "被任命为新项目的负责人，感到压力。"
     },
     {
       "sentence": "この機械は操作が複雑で、初心者には（　）だろう。",
@@ -157,7 +164,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_context-008",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "这台机器操作复杂，对初学者来说应该很难吧。"
     },
     {
       "sentence": "彼の説明は（　）すぎて、何を言いたいのかわからなかった。",
@@ -176,7 +184,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_context-009",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "他的说明太啰嗦了，不知道想说什么。"
     },
     {
       "sentence": "医者に運動不足だと言われて、毎朝ジョギングを（　）ことにした。",
@@ -195,7 +204,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_context-010",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "被医生说不运动，于是决定每天早上慢跑。"
     },
     {
       "sentence": "台風の影響で、明日のイベントは（　）になりました。",
@@ -214,7 +224,8 @@
       "created_at": "2026-05-04T09:30:00",
       "id": "n2-vocab_context-011",
       "level": "N2",
-      "question_type": "vocab_context"
+      "question_type": "vocab_context",
+      "translation": "台风的影响下，明天的活动已改为（　）"
     },
     {
       "sentence": "この問題は（　）簡単だとは言えない。よく考える必要がある。",
@@ -230,7 +241,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个问题不能说很简单，需要好好思考"
     },
     {
       "sentence": "約束の時間に遅れて、（　）悪いと思っていた。",
@@ -246,7 +258,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "虽然迟到了约定的时间，但我觉得（　）不好"
     },
     {
       "sentence": "彼女は朝から晩まで（　）研究に没頭している。",
@@ -262,7 +275,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她从早到晚都在（　）专心研究"
     },
     {
       "sentence": "（　）のことがあったら、すぐに連絡してください。",
@@ -278,7 +292,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "如果（　）发生了，请立即联系"
     },
     {
       "sentence": "彼の話を聞いて、（　）感動して涙が出た。",
@@ -294,7 +309,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "听了他的话，感动得流泪。"
     },
     {
       "sentence": "会議の資料を（　）確認してから、提出した。",
@@ -310,7 +326,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "会议资料确认之后再提交。"
     },
     {
       "sentence": "（　）雨が降るかもしれないから、傘を持って行こう。",
@@ -326,7 +343,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "可能会下雨，带上伞吧。"
     },
     {
       "sentence": "この仕事は私が（　）ので、何かあれば私に連絡してください。",
@@ -342,7 +360,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这项工作由我负责，如果有事请联系我。"
     },
     {
       "sentence": "来月のイベントの準備を（　）ことにした。",
@@ -358,7 +377,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "决定推进下个月活动的准备工作。"
     },
     {
       "sentence": "昨日の会議で社長の発言を（　）てしまった。",
@@ -374,7 +394,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "在昨天的会议上，不小心（　）了社长的发言。"
     },
     {
       "sentence": "部品を正確に（　）のは難しい作業だ。",
@@ -390,7 +411,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "准确（　）零件是一项困难的工作。"
     },
     {
       "sentence": "同じミスを（　）ないよう、注意してほしい。",
@@ -406,7 +428,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "希望注意不要（　）同样的错误。"
     },
     {
       "sentence": "新しい環境への（　）には時間がかかる。",
@@ -422,7 +445,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "适应新环境需要时间。"
     },
     {
       "sentence": "この問題は（　）、とても深刻なものだ。",
@@ -438,7 +462,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个问题（　），是非常严重的。"
     },
     {
       "sentence": "政府は若者（　）新しい支援策を発表した。",
@@ -454,7 +479,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "政府是年轻人宣布了新的支援策。"
     },
     {
       "sentence": "日本の歴史（　）レポートを書くことになった。",
@@ -470,7 +496,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "日本的历史写成了报告。"
     },
     {
       "sentence": "調査の結果（　）、新しい政策を作った。",
@@ -486,7 +513,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "调查的结果，制定了新的政策。"
     },
     {
       "sentence": "お客様のご要望（　）、サービスを改善していきます。",
@@ -502,7 +530,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "根据客户的要求，我们将改善服务。"
     },
     {
       "sentence": "彼は病気（　）、大会に出場して優勝した。",
@@ -518,7 +547,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他生病了，但还是在大会上获胜了。"
     },
     {
       "sentence": "予想（　）、今年の冬は暖かかった。",
@@ -534,7 +564,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "不出所料，今年冬天很暖和。"
     },
     {
       "sentence": "インターネット（　）、世界中の情報にアクセスできる。",
@@ -550,7 +581,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "通过互联网，可以获取全世界的信息。"
     },
     {
       "sentence": "この会議は3時間（　）行われた。",
@@ -566,7 +598,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这次会议持续了3个小时。"
     },
     {
       "sentence": "この店は昼夜（　）、いつも混んでいる。",
@@ -582,7 +615,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这家店不分昼夜，总是很拥挤。"
     },
     {
       "sentence": "日本語は初心者（　）、上級者も間違えやすい表現がある。",
@@ -598,7 +632,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "日语里有些表达方式，就连初学者也会搞错。"
     },
     {
       "sentence": "約束した（　）、必ず守らなければならない。",
@@ -614,7 +649,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "既然约定了，就必须遵守。"
     },
     {
       "sentence": "日本に来た（　）、できるだけ日本語を使いたい。",
@@ -630,7 +666,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "既然来了日本，就想尽量使用日语。"
     },
     {
       "sentence": "彼女の笑顔を見ると、優しく（　）。",
@@ -646,7 +683,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "看到她的笑容，就变得温柔。"
     },
     {
       "sentence": "この地域の人口は減少（　）。",
@@ -662,7 +700,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这一地区的人口正在减少。"
     },
     {
       "sentence": "この件については、すぐにお答え（　）。",
@@ -678,7 +717,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "关于此事，我会尽快答复。"
     },
     {
       "sentence": "このまま放っておくと、事故が起き（　）。",
@@ -694,7 +734,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "如果就这样放着，可能会发生事故。"
     },
     {
       "sentence": "この地域では（　）な変化が起きている。",
@@ -710,7 +751,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个地区正在发生巨大的变化。"
     },
     {
       "sentence": "地震の影響で、（　）な被害が出た。",
@@ -726,7 +768,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "由于地震的影响，造成了巨大的损失。"
     },
     {
       "sentence": "（　）な機械は、丁寧に取り扱う必要がある。",
@@ -742,7 +785,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这种机器需要小心操作。"
     },
     {
       "sentence": "このレポートには（　）なデータが含まれている。",
@@ -758,7 +802,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这份报告包含了重要的数据。"
     },
     {
       "sentence": "この映画は子供には（　）かもしれない。",
@@ -774,7 +819,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影对孩子来说可能不太合适。"
     },
     {
       "sentence": "事件の（　）を警察に説明した。",
@@ -790,7 +836,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "向警察说明了事件的经过。"
     },
     {
       "sentence": "新しい法律の（　）を検討する委員会が設立された。",
@@ -806,7 +853,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "成立了审议新法律实施的委员会。"
     },
     {
       "sentence": "この仕事の（　）が複雑で、時間がかかる。",
@@ -822,7 +870,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这项工作的流程很复杂，需要花时间。"
     },
     {
       "sentence": "転職の（　）を考えると、簡単には決められない。",
@@ -838,7 +887,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "考虑到换工作的风险，很难轻易决定。"
     },
     {
       "sentence": "会議の（　）は明日までにお願いします。",
@@ -854,7 +904,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "会议的资料请明天前提交。"
     },
     {
       "sentence": "政府は今回の問題の（　）に乗り出した。",
@@ -870,7 +921,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "政府开始着手解决这次的问题。"
     },
     {
       "sentence": "彼女の演奏は、聞く人の心を（　）。",
@@ -886,7 +938,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她的演奏打动了听众的心。"
     },
     {
       "sentence": "彼は（　）が広くて、いろんな人を知っている。",
@@ -902,7 +955,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他交际广泛，认识很多人。"
     },
     {
       "sentence": "彼の突然の発言に、みんな（　）を傾げた。",
@@ -918,7 +972,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "大家对他的突然发言感到疑惑。"
     },
     {
       "sentence": "最近、海外旅行の話を（　）ことが増えた。",
@@ -934,7 +989,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "最近，海外旅行的话题增多了。"
     },
     {
       "sentence": "この子はとても活発で、親が（　）いる。",
@@ -950,7 +1006,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个孩子非常活泼，父母在。"
     },
     {
       "sentence": "この書類を部長に（　）ください。",
@@ -966,7 +1023,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "请把这份文件交给部长。"
     },
     {
       "sentence": "大切な荷物なので、（　）に扱ってください。",
@@ -982,7 +1040,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "因为这行李很重要，请小心处理。"
     },
     {
       "sentence": "天気予報によると、明日は晴れ（　）。",
@@ -998,7 +1057,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "天气预报显示，明天是晴天。"
     },
     {
       "sentence": "この計画は（　）不可能ではないが、難しいだろう。",
@@ -1014,7 +1074,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个计划并非不可能，但会很难。"
     },
     {
       "sentence": "（　）言えば、彼の意見の方が正しいと思う。",
@@ -1030,7 +1091,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "老实说，我觉得他的意见更对。"
     },
     {
       "sentence": "電気が（　）いるので、誰か来たようだ。",
@@ -1046,7 +1108,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "灯亮着，看来有人来过。"
     },
     {
       "sentence": "窓が（　）いるので、寒い。",
@@ -1062,7 +1125,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "窗户开着，所以很冷。"
     },
     {
       "sentence": "この映画の（　）は、家族の絆についてだ。",
@@ -1078,7 +1142,8 @@
       "level": "N2",
       "question_type": "vocab_context",
       "verified": true,
-      "created_at": "2026-05-04T10:00:00"
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影的主题是关于家庭的纽带。"
     }
   ]
 }

@@ -25,7 +25,8 @@
       "created_at": "2026-05-03T22:22:48",
       "id": "n2-grammar_order-001",
       "level": "N2",
-      "question_type": "grammar_order"
+      "question_type": "grammar_order",
+      "translation": "还不知道下周的派对上该吃什么。"
     },
     {
       "sentence": "発表しようとした★、マイクが故障してしまった。",
@@ -45,7 +46,8 @@
       "created_at": "2026-05-03T22:22:58",
       "id": "n2-grammar_order-002",
       "level": "N2",
-      "question_type": "grammar_order"
+      "question_type": "grammar_order",
+      "translation": "刚要发表，麦克风就坏了。"
     },
     {
       "id": "n2-grammar_order-003",
@@ -71,7 +73,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:30:00"
+      "created_at": "2026-05-04T09:30:00",
+      "translation": "我正想着______★______。"
     },
     {
       "id": "n2-grammar_order-004",
@@ -97,7 +100,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:30:00"
+      "created_at": "2026-05-04T09:30:00",
+      "translation": "这本是______★______的内容。"
     },
     {
       "id": "n2-grammar_order-005",
@@ -123,7 +127,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:30:00"
+      "created_at": "2026-05-04T09:30:00",
+      "translation": "他做了______★______的菜。"
     },
     {
       "id": "n2-grammar_order-006",
@@ -149,7 +154,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T09:30:00"
+      "created_at": "2026-05-04T09:30:00",
+      "translation": "必须做那件事"
     },
     {
       "id": "n2-grammar_order-007",
@@ -175,7 +181,8 @@
       "generated_by": "manual",
       "reviewed_by": "manual",
       "verified": true,
-      "created_at": "2026-05-04T08:15:00"
+      "created_at": "2026-05-04T08:15:00",
+      "translation": "变得那样了"
     },
     {
       "id": "n2-grammar_order-011",
@@ -197,7 +204,8 @@
       ],
       "answer": 2,
       "explanation": "正解順序：不況の(0) 影響で(1) 失業者が(2) 増加する(3)。「〜の影響で〜傾向にある」という因果関係を組み立てます。★の位置は「失業者が」です。",
-      "complete_sentence": "最近の 不況の 影響で 失業者が 増加する 傾向にある。"
+      "complete_sentence": "最近の 不況の 影響で 失業者が 増加する 傾向にある。",
+      "translation": "最近有那种趋势"
     },
     {
       "id": "n2-grammar_order-012",
@@ -219,7 +227,8 @@
       ],
       "answer": 2,
       "explanation": "正解順序：努力家で(0) ある(1) ばかりか(2) 非凡な(3)。「AばかりかBも」という添加の表現を使います。★の位置は「ばかりか」です。",
-      "complete_sentence": "彼は 努力家で ある ばかりか 非凡な 才能の持ち主だ。"
+      "complete_sentence": "彼は 努力家で ある ばかりか 非凡な 才能の持ち主だ。",
+      "translation": "他是有那种才能的人"
     },
     {
       "id": "n2-grammar_order-013",
@@ -241,7 +250,8 @@
       ],
       "answer": 2,
       "explanation": "正解順序：事実に(0) 基づいて(1) 冷静に(2) 判断する(3)。「〜に基づいて〜することだ」という助言的形を作ります。★の位置は「冷静に」です。",
-      "complete_sentence": "その 事実に 基づいて 冷静に 判断する ことだ。"
+      "complete_sentence": "その 事実に 基づいて 冷静に 判断する ことだ。",
+      "translation": "就是那件事"
     },
     {
       "id": "n2-grammar_order-014",
@@ -263,7 +273,8 @@
       ],
       "answer": 2,
       "explanation": "正解順序：成長は(0) 親にとって(1) 何よりの(2) 喜びである(3)。「〜にとって〜ものだ」という一般論を組み立てます。★の位置は「何よりの」です。",
-      "complete_sentence": "子供の 成長は 親にとって 何よりの 喜びである ものだ。"
+      "complete_sentence": "子供の 成長は 親にとって 何よりの 喜びである ものだ。",
+      "translation": "孩子就是会这样做的"
     },
     {
       "id": "n2-grammar_order-015",
@@ -285,7 +296,8 @@
       ],
       "answer": 2,
       "explanation": "正解順序：プロジェクトを(0) 途中で(1) 投げ出す(2) わけには(3)。「〜わけにはいかない」という義務・心情的不可の表現を使います。★の位置は「投げ出す」です。",
-      "complete_sentence": "今回の プロジェクトを 途中で 投げ出す わけには わけにはいかない。"
+      "complete_sentence": "今回の プロジェクトを 途中で 投げ出す わけには わけにはいかない。",
+      "translation": "这次绝对不能重蹈覆辙"
     },
     {
       "id": "n2-grammar_order-013",
@@ -309,7 +321,8 @@
       "explanation": "正解順序：非常の際は 、このボタンを 押して ください。。文法点：V plain / noun + の + 際(に)。",
       "complete_sentence": "非常の際は、このボタンを押してください。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.704Z"
+      "created_at": "2026-05-04T00:51:11.704Z",
+      "translation": "努力必有回报"
     },
     {
       "id": "n2-grammar_order-014",
@@ -333,7 +346,8 @@
       "explanation": "正解順序：年齢に かかわらず、 誰でも参加 できます。。文法点：Plain form / noun + にかかわらず。",
       "complete_sentence": "年齢にかかわらず、誰でも参加できます。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "人生不会总是一帆风顺"
     },
     {
       "id": "n2-grammar_order-015",
@@ -357,7 +371,8 @@
       "explanation": "正解順序：観客の声援に こたえて、選手たちは ベストを 尽くした。。文法点：Noun + にこたえて。",
       "complete_sentence": "観客の声援にこたえて、選手たちはベストを尽くした。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "拥有梦想很重要"
     },
     {
       "id": "n2-grammar_order-016",
@@ -381,7 +396,8 @@
       "explanation": "正解順序：悪天候に もかかわらず、試合は  行われた。。文法点：Plain form + にもかかわらず。",
       "complete_sentence": "悪天候にもかかわらず、試合は行われた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-017",
@@ -405,7 +421,8 @@
       "explanation": "正解順序：急いでいる時に 限って 、電車 が遅れる。。文法点：Noun + に限って。",
       "complete_sentence": "急いでいる時に限って、電車が遅れる。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-018",
@@ -429,7 +446,8 @@
       "explanation": "正解順序：新年にあたって 、ご 挨拶申し 上げます。。文法点：V plain non-past / noun + にあたって / にあたり。",
       "complete_sentence": "新年にあたって、ご挨拶申し上げます。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-019",
@@ -453,7 +471,8 @@
       "explanation": "正解順序：そんなに 無理すると、病気に なり かねない。。文法点：Verb ます-stem + かねない。",
       "complete_sentence": "そんなに無理すると、病気になりかねない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-020",
@@ -477,7 +496,8 @@
       "explanation": "正解順序：長い間悩 んだ末、留 学するこ とにした。。文法点：V-た form / noun + の + 末(に)。",
       "complete_sentence": "長い間悩んだ末、留学することにした。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-021",
@@ -501,7 +521,8 @@
       "explanation": "正解順序：家に着くか着かないかのうちに 、雨が  降り出した。。文法点：V dict + か + V ない + かのうちに。",
       "complete_sentence": "家に着くか着かないかのうちに、雨が降り出した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-022",
@@ -525,7 +546,8 @@
       "explanation": "正解順序：成功は あなたの努力に かか っている。。文法点：Noun + にかかっている。",
       "complete_sentence": "成功はあなたの努力にかかっている。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-023",
@@ -549,7 +571,8 @@
       "explanation": "正解順序：結果から いうと 、大成功 だった。。文法点：Noun + からいうと / からいえば / からいって。",
       "complete_sentence": "結果からいうと、大成功だった。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-024",
@@ -573,7 +596,8 @@
       "explanation": "正解順序：宿題を 始めたものの 、なかなか 進まない。。文法点：Plain form + ものの。",
       "complete_sentence": "宿題を始めたものの、なかなか進まない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-025",
@@ -597,7 +621,8 @@
       "explanation": "正解順序：昔に戻 れるもの なら、戻 りたい。。文法点：V potential form + ものなら。",
       "complete_sentence": "昔に戻れるものなら、戻りたい。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-026",
@@ -621,7 +646,8 @@
       "explanation": "正解順序：長年の研究を 経て、ついに  発見した。。文法点：Noun + を経て。",
       "complete_sentence": "長年の研究を経て、ついに発見した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-027",
@@ -645,7 +671,8 @@
       "explanation": "正解順序：これといって 問題は あり ません。。文法点：Plain form + といって / これといって。",
       "complete_sentence": "これといって問題はありません。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-028",
@@ -669,7 +696,8 @@
       "explanation": "正解順序：行きたくなくもないが いが いが、時 間がない。。文法点：V ない-form + くもない / もない。",
       "complete_sentence": "行きたくなくもないが、時間がない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-029",
@@ -693,7 +721,8 @@
       "explanation": "正解順序：親の心配を よそに、彼は 一人で 旅に出た。。文法点：Noun + をよそに。",
       "complete_sentence": "親の心配をよそに、彼は一人で旅に出た。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-030",
@@ -717,7 +746,8 @@
       "explanation": "正解順序：好きか というと 、そうで もない。。文法点：Plain form + かというと / かといえば。",
       "complete_sentence": "好きかというと、そうでもない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-031",
@@ -741,7 +771,8 @@
       "explanation": "正解順序：実際に見て みないことに は、分 からない。。文法点：V ない-form + ことには。",
       "complete_sentence": "実際に見てみないことには、分からない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-032",
@@ -765,7 +796,8 @@
       "explanation": "正解順序：ニュースに よると、明日は 雨が降ると いうことだ。。文法点：Plain form + ということだ。",
       "complete_sentence": "ニュースによると、明日は雨が降るということだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-033",
@@ -789,7 +821,8 @@
       "explanation": "正解順序：お金があれば幸せに なれるというもので ので のではない。。文法点：Plain form + というものではない。",
       "complete_sentence": "お金があれば幸せになれるというものではない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-034",
@@ -813,7 +846,8 @@
       "explanation": "正解順序：専門家から すると、 この問題 は簡単だ。。文法点：Noun + からすると / からすれば。",
       "complete_sentence": "専門家からすると、この問題は簡単だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-035",
@@ -837,7 +871,8 @@
       "explanation": "正解順序：行こうと 行くまいと 、あなた の自由だ。。文法点：V volitional + と + V dict-form/ます-stem + まい(と)。",
       "complete_sentence": "行こうと行くまいと、あなたの自由だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-036",
@@ -861,7 +896,8 @@
       "explanation": "正解順序：外国人から 見ると、日本は 安 全な国だ。。文法点：Noun + から見ると / から見れば / から見て。",
       "complete_sentence": "外国人から見ると、日本は安全な国だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容1"
     },
     {
       "id": "n2-grammar_order-037",
@@ -885,7 +921,8 @@
       "explanation": "正解順序：夢を実現 すべく、 毎日努力 している。。文法点：Verb dict-form + べく。",
       "complete_sentence": "夢を実現すべく、毎日努力している。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容2"
     },
     {
       "id": "n2-grammar_order-038",
@@ -909,7 +946,8 @@
       "explanation": "正解順序：初めて のこととて、不手際を お許 しください。。文法点：Plain form / noun + の + こととて。",
       "complete_sentence": "初めてのこととて、不手際をお許しください。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容3"
     },
     {
       "id": "n2-grammar_order-039",
@@ -933,7 +971,8 @@
       "explanation": "正解順序：痛いけど、病院に  行くほど ではない。。文法点：Plain form + ほどではない。",
       "complete_sentence": "痛いけど、病院に行くほどではない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容4"
     },
     {
       "id": "n2-grammar_order-040",
@@ -957,7 +996,8 @@
       "explanation": "正解順序：それは 単なる言い訳に す ぎない。。文法点：Noun / plain form + にすぎない。",
       "complete_sentence": "それは単なる言い訳にすぎない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容5"
     },
     {
       "id": "n2-grammar_order-041",
@@ -981,7 +1021,8 @@
       "explanation": "正解順序：失敗したとして も 、経験に はなる。。文法点：Plain form + としても。",
       "complete_sentence": "失敗したとしても、経験にはなる。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-042",
@@ -1005,7 +1046,8 @@
       "explanation": "正解順序：この小説は 実話を もとに 書かれた。。文法点：Noun + をもとに。",
       "complete_sentence": "この小説は実話をもとに書かれた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-043",
@@ -1029,7 +1071,8 @@
       "explanation": "正解順序：君を愛して いればこ そ、こう 言うのだ。。文法点：V ば-form + こそ。",
       "complete_sentence": "君を愛していればこそ、こう言うのだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-044",
@@ -1053,7 +1096,8 @@
       "explanation": "正解順序：約束したから には 、必ず守 ります。。文法点：Plain form + からには。",
       "complete_sentence": "約束したからには、必ず守ります。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-045",
@@ -1077,7 +1121,8 @@
       "explanation": "正解順序：彼は学者ぶって いるけれど、実は よ く知らない。。文法点：Noun / i-adj stem / na-adj root + ぶる。",
       "complete_sentence": "彼は学者ぶっているけれど、実はよく知らない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-046",
@@ -1101,7 +1146,8 @@
       "explanation": "正解順序：お金さ えあれば 、何でも 買える。。文法点：Verb ます-stem / noun + さえ + conditional。",
       "complete_sentence": "お金さえあれば、何でも買える。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-047",
@@ -1125,7 +1171,8 @@
       "explanation": "正解順序：あなたの ためとあ れば、何 でもする。。文法点：Noun / plain form + とあれば。",
       "complete_sentence": "あなたのためとあれば、何でもする。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-048",
@@ -1149,7 +1196,8 @@
       "explanation": "正解順序：その質問に はお 答えしか ねます。。文法点：Verb ます-stem + かねる。",
       "complete_sentence": "その質問にはお答えしかねます。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-049",
@@ -1173,7 +1221,8 @@
       "explanation": "正解順序：日本旅行を きっかけに 、日本語を 勉強し始めた。。文法点：Noun / V plain + をきっかけに(して)。",
       "complete_sentence": "日本旅行をきっかけに、日本語を勉強し始めた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-050",
@@ -1197,7 +1246,8 @@
       "explanation": "正解順序：結果いか んで、今 後の方針 を決める。。文法点：Noun + いかん / いかんで / いかんによって。",
       "complete_sentence": "結果いかんで、今後の方針を決める。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-051",
@@ -1221,7 +1271,8 @@
       "explanation": "正解順序：見るともなく窓の外を 外を 外を眺め ていた。。文法点：Verb dict-form + ともなく / ともなしに。",
       "complete_sentence": "見るともなく窓の外を眺めていた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-052",
@@ -1245,7 +1296,8 @@
       "explanation": "正解順序：能力に応じて 、仕事が 与え られる。。文法点：Noun + に応じて。",
       "complete_sentence": "能力に応じて、仕事が与えられる。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-053",
@@ -1269,7 +1321,8 @@
       "explanation": "正解順序：少子化に 伴って、学校が 減 っている。。文法点：Noun / V plain + に伴って / に伴い。",
       "complete_sentence": "少子化に伴って、学校が減っている。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-054",
@@ -1293,7 +1346,8 @@
       "explanation": "正解順序：急いでいたものだから 、挨拶もせずに 帰って しまった。。文法点：Plain form + ものだから / もので。",
       "complete_sentence": "急いでいたものだから、挨拶もせずに帰ってしまった。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-055",
@@ -1317,7 +1371,8 @@
       "explanation": "正解順序：約束した 以上、守ら なければ ならない。。文法点：Plain form + 以上(は)。",
       "complete_sentence": "約束した以上、守らなければならない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-056",
@@ -1341,7 +1396,8 @@
       "explanation": "正解順序：準備は できた。あとは 出発す るだけだ。。文法点：Noun / plain form + あとは。",
       "complete_sentence": "準備はできた。あとは出発するだけだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 空白 星 空白"
     },
     {
       "id": "n2-grammar_order-057",
@@ -1365,7 +1421,8 @@
       "explanation": "正解順序：10年に わたって 研究を 続けた。。文法点：Noun + にわたって / にわたり / にわたる。",
       "complete_sentence": "10年にわたって研究を続けた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 空白 星 空白"
     },
     {
       "id": "n2-grammar_order-058",
@@ -1389,7 +1446,8 @@
       "explanation": "正解順序：もし雨が 降るとすれ ば、どう しますか。。文法点：Plain form + とすれば / とすると / としたら。",
       "complete_sentence": "もし雨が降るとすれば、どうしますか。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 空白 星 空白"
     },
     {
       "id": "n2-grammar_order-059",
@@ -1413,7 +1471,8 @@
       "explanation": "正解順序：子供は 泥まみれに なって 遊んでいた。。文法点：Noun + まみれ。",
       "complete_sentence": "子供は泥まみれになって遊んでいた。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 空白 星 空白"
     },
     {
       "id": "n2-grammar_order-060",
@@ -1437,7 +1496,8 @@
       "explanation": "正解順序：漢字は おろか、ひらが なも 書けない。。文法点：Noun + はおろか。",
       "complete_sentence": "漢字はおろか、ひらがなも書けない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 空白 星 空白"
     },
     {
       "id": "n2-grammar_order-061",
@@ -1461,7 +1521,8 @@
       "explanation": "正解順序：彼は謝らないのみならず、逆に ず、逆に ず、逆に 怒り出した。。文法点：V ない + のみならず。",
       "complete_sentence": "彼は謝らないのみならず、逆に怒り出した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿。"
     },
     {
       "id": "n2-grammar_order-062",
@@ -1485,7 +1546,8 @@
       "explanation": "正解順序：友情というのは 、お 金で買えな いものだ。。文法点：Noun / plain form + というのは。",
       "complete_sentence": "友情というのは、お金で買えないものだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿。"
     },
     {
       "id": "n2-grammar_order-063",
@@ -1509,7 +1571,8 @@
       "explanation": "正解順序：彼は頭が いいのみな らず、性 格もいい。。文法点：Plain form + のみならず。",
       "complete_sentence": "彼は頭がいいのみならず、性格もいい。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿。"
     },
     {
       "id": "n2-grammar_order-064",
@@ -1533,7 +1596,8 @@
       "explanation": "正解順序：あまりに もおかしくて、笑わずに はいら れなかった。。文法点：V negative stem + ずにはいられない。",
       "complete_sentence": "あまりにもおかしくて、笑わずにはいられなかった。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿。"
     },
     {
       "id": "n2-grammar_order-065",
@@ -1557,7 +1621,8 @@
       "explanation": "正解順序：子供じゃあ るまいし、そ んなことで 泣かないで。。文法点：Noun / plain form + じゃあるまいし。",
       "complete_sentence": "子供じゃあるまいし、そんなことで泣かないで。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿。"
     },
     {
       "id": "n2-grammar_order-066",
@@ -1581,7 +1646,8 @@
       "explanation": "正解順序：ルールにしたが って、行動して  ください。。文法点：Noun + にしたがって / V plain + にしたがって。",
       "complete_sentence": "ルールにしたがって、行動してください。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "翻译1"
     },
     {
       "id": "n2-grammar_order-067",
@@ -1605,7 +1671,8 @@
       "explanation": "正解順序：彼は強いようでいて て て、実は 優しい。。文法点：Plain form + ようで / ようでいて。",
       "complete_sentence": "彼は強いようでいて、実は優しい。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "翻译2"
     },
     {
       "id": "n2-grammar_order-068",
@@ -1629,7 +1696,8 @@
       "explanation": "正解順序：長年の努力の果て に、夢を  実現した。。文法点：V-た form / noun + の + 果てに。",
       "complete_sentence": "長年の努力の果てに、夢を実現した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "翻译3"
     },
     {
       "id": "n2-grammar_order-069",
@@ -1653,7 +1721,8 @@
       "explanation": "正解順序：あの人は 話し方から して 失礼だ。。文法点：Noun + からして。",
       "complete_sentence": "あの人は話し方からして失礼だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "翻译4"
     },
     {
       "id": "n2-grammar_order-070",
@@ -1677,7 +1746,8 @@
       "explanation": "正解順序：値段は ともかく、品質を 確認し ましょう。。文法点：Noun + はともかく(として)。",
       "complete_sentence": "値段はともかく、品質を確認しましょう。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "翻译5"
     },
     {
       "id": "n2-grammar_order-071",
@@ -1701,7 +1771,8 @@
       "explanation": "正解順序：彼は優しい というか、 おとなしい タイプだ。。文法点：X というか Y。",
       "complete_sentence": "彼は優しいというか、おとなしいタイプだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.705Z"
+      "created_at": "2026-05-04T00:51:11.705Z",
+      "translation": "下划线 下划线 下划线 星号 下划线 下划线。"
     },
     {
       "id": "n2-grammar_order-072",
@@ -1725,7 +1796,8 @@
       "explanation": "正解順序：時間に 厳しい田中さんのことだから 、きっと時間通りに 来るだろう。。文法点：Noun + の + ことだから。",
       "complete_sentence": "時間に厳しい田中さんのことだから、きっと時間通りに来るだろう。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "下划线 下划线 下划线 星号 下划线 下划线。"
     },
     {
       "id": "n2-grammar_order-073",
@@ -1749,7 +1821,8 @@
       "explanation": "正解順序：今さら謝ったところで、許して 、許して 、許して もらえない。。文法点：Verb-た form + ところで。",
       "complete_sentence": "今さら謝ったところで、許してもらえない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "下划线 下划线 下划线 星号 下划线 下划线。"
     },
     {
       "id": "n2-grammar_order-074",
@@ -1773,7 +1846,8 @@
       "explanation": "正解順序：彼の演奏に は感動 的なもの がある。。文法点：Plain form + ものがある。",
       "complete_sentence": "彼の演奏には感動的なものがある。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "下划线 下划线 下划线 星号 下划线 下划线。"
     },
     {
       "id": "n2-grammar_order-075",
@@ -1797,7 +1871,8 @@
       "explanation": "正解順序：日本人は もちろん、外国人に  も人気だ。。文法点：Noun + はもちろん(のこと)。",
       "complete_sentence": "日本人はもちろん、外国人にも人気だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "下划线 下划线 下划线 星号 下划线 下划线。"
     },
     {
       "id": "n2-grammar_order-076",
@@ -1821,7 +1896,8 @@
       "explanation": "正解順序：説明を聞いて からでな いと、始め られない。。文法点：V-て form + からでないと / からでなければ。",
       "complete_sentence": "説明を聞いてからでないと、始められない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-077",
@@ -1845,7 +1921,8 @@
       "explanation": "正解順序：警察は 事故の原因を 不注意と みている。。文法点：Plain form + とみる。",
       "complete_sentence": "警察は事故の原因を不注意とみている。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-078",
@@ -1869,7 +1946,8 @@
       "explanation": "正解順序：法律に照らして 、 この行為 は違法だ。。文法点：Noun + に照らして。",
       "complete_sentence": "法律に照らして、この行為は違法だ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-079",
@@ -1893,7 +1971,8 @@
       "explanation": "正解順序：行くに しろ行かないに しろ、早く決めて ください。。文法点：Plain form + にしろ / にせよ。",
       "complete_sentence": "行くにしろ行かないにしろ、早く決めてください。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-080",
@@ -1917,7 +1996,8 @@
       "explanation": "正解順序：誰が何と言おうと、私は 、私は 、私は 諦めない。。文法点：Verb volitional + と / ようと。",
       "complete_sentence": "誰が何と言おうと、私は諦めない。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "id": "n2-grammar_order-081",
@@ -1941,7 +2021,8 @@
       "explanation": "正解順序：散々悩んだ あげく、結局 何も決めら れなかった。。文法点：V-た form / noun + の + あげく(に)。",
       "complete_sentence": "散々悩んだあげく、結局何も決められなかった。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-082",
@@ -1965,7 +2046,8 @@
       "explanation": "正解順序：会議に 先立って、資料を 配 布した。。文法点：V plain / noun + に先立って / に先立ち。",
       "complete_sentence": "会議に先立って、資料を配布した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-083",
@@ -1989,7 +2071,8 @@
       "explanation": "正解順序：言ったって 、聞いて くれ ないよ。。文法点：Plain form + (っ)たって。",
       "complete_sentence": "言ったって、聞いてくれないよ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-084",
@@ -2013,7 +2096,8 @@
       "explanation": "正解順序：本件は 合意したものとして  扱います。。文法点：Noun + ものとして。",
       "complete_sentence": "本件は合意したものとして扱います。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-085",
@@ -2037,7 +2121,8 @@
       "explanation": "正解順序：そんなに 怠けるようでは 、合格で きないよ。。文法点：Plain form + ようでは。",
       "complete_sentence": "そんなに怠けるようでは、合格できないよ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-086",
@@ -2061,7 +2146,8 @@
       "explanation": "正解順序：事故を契機に 、安全対策を  強化した。。文法点：Noun + を契機に / を契機として。",
       "complete_sentence": "事故を契機に、安全対策を強化した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "某某 某某 某★某某 某某"
     },
     {
       "id": "n2-grammar_order-087",
@@ -2085,7 +2171,8 @@
       "explanation": "正解順序：心配す るほどの ことでは ないよ。。文法点：Plain form + ほどのことではない / ほどのものではない。",
       "complete_sentence": "心配するほどのことではないよ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "某某 某某 某★某某 某某"
     },
     {
       "id": "n2-grammar_order-088",
@@ -2109,7 +2196,8 @@
       "explanation": "正解順序：子供からお年寄りに 至るまで 、みん な楽しめる。。文法点：Noun + に至るまで。",
       "complete_sentence": "子供からお年寄りに至るまで、みんな楽しめる。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "某某 某某 某★某某 某某"
     },
     {
       "id": "n2-grammar_order-089",
@@ -2133,7 +2221,8 @@
       "explanation": "正解順序：雨が降る ようなら 、中止し ましょう。。文法点：Plain form + ようなら(ば)。",
       "complete_sentence": "雨が降るようなら、中止しましょう。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "某某 某某 某★某某 某某"
     },
     {
       "id": "n2-grammar_order-090",
@@ -2157,7 +2246,8 @@
       "explanation": "正解順序：長年練習しただけのことは ある。演奏が  素晴らしい。。文法点：Plain form + だけのことはある。",
       "complete_sentence": "長年練習しただけのことはある。演奏が素晴らしい。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "某某 某某 某★某某 某某"
     },
     {
       "id": "n2-grammar_order-091",
@@ -2181,7 +2271,8 @@
       "explanation": "正解順序：こうしては いられ ない。早 く行こう。。文法点：V-て form + (は)いられない。",
       "complete_sentence": "こうしてはいられない。早く行こう。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "______  ______  _★_  ______ 。"
     },
     {
       "id": "n2-grammar_order-092",
@@ -2205,7 +2296,8 @@
       "explanation": "正解順序：本日は定休日に つき 、閉店い たします。。文法点：Noun + につき。",
       "complete_sentence": "本日は定休日につき、閉店いたします。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "______  ______  _★_  ______ 。"
     },
     {
       "id": "n2-grammar_order-093",
@@ -2229,7 +2321,8 @@
       "explanation": "正解順序：彼は頭が いい。しかも 、性格も素 晴らしい。。文法点：しかも (sentence-initial)。",
       "complete_sentence": "彼は頭がいい。しかも、性格も素晴らしい。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "______  ______  _★_  ______ 。"
     },
     {
       "id": "n2-grammar_order-094",
@@ -2253,7 +2346,8 @@
       "explanation": "正解順序：大切な友達だから こそ 、厳しいこ とも言う。。文法点：Plain form + からこそ。",
       "complete_sentence": "大切な友達だからこそ、厳しいことも言う。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "______  ______  _★_  ______ 。"
     },
     {
       "id": "n2-grammar_order-095",
@@ -2277,7 +2371,8 @@
       "explanation": "正解順序：雨だけど 、雪じゃ ないだけ ましだ。。文法点：Plain form + だけましだ。",
       "complete_sentence": "雨だけど、雪じゃないだけましだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "______  ______  _★_  ______ 。"
     },
     {
       "id": "n2-grammar_order-096",
@@ -2301,7 +2396,8 @@
       "explanation": "正解順序：冗談はさて おき、真面目な話を し ましょう。。文法点：Noun + はさておき。",
       "complete_sentence": "冗談はさておき、真面目な話をしましょう。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-097",
@@ -2325,7 +2421,8 @@
       "explanation": "正解順序：泣いたか と思うと 、すぐ笑 い出した。。文法点：V-た form + かと思うと / かと思ったら。",
       "complete_sentence": "泣いたかと思うと、すぐ笑い出した。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-098",
@@ -2349,7 +2446,8 @@
       "explanation": "正解順序：完璧とは言わないまで も 、かなりよく できている。。文法点：V ない-form + までも。",
       "complete_sentence": "完璧とは言わないまでも、かなりよくできている。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-099",
@@ -2373,7 +2471,8 @@
       "explanation": "正解順序：困っている人を 助けるのが 友情と いうものだ。。文法点：Plain form + というものだ。",
       "complete_sentence": "困っている人を助けるのが友情というものだ。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "id": "n2-grammar_order-100",
@@ -2397,7 +2496,8 @@
       "explanation": "正解順序：桜の木が多いことから 、この町は '桜町'と 呼ばれている。。文法点：Plain form + ことから。",
       "complete_sentence": "桜の木が多いことから、この町は'桜町'と呼ばれている。",
       "verified": true,
-      "created_at": "2026-05-04T00:51:11.706Z"
+      "created_at": "2026-05-04T00:51:11.706Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2415,7 +2515,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "□□ □□ □★□ □□"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2433,7 +2534,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "□□ □□ □★□ □□"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2451,7 +2553,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "□□ □□ □★□ □□"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2469,7 +2572,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "□□ □□ □★□ □□"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2487,7 +2591,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "□□ □□ □★□ □□"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2505,7 +2610,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "______★______。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2523,7 +2629,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "______★______。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2541,7 +2648,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "此处此处重点此处。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2559,7 +2667,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "此处此处重点此处。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2577,7 +2686,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "此处此处重点此处。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2595,7 +2705,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "翻译1"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2613,7 +2724,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "翻译2"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2631,7 +2743,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "翻译3"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2649,7 +2762,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "翻译4"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2667,7 +2781,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "翻译5"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2685,7 +2800,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2703,7 +2819,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2721,7 +2838,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2739,7 +2857,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2757,7 +2876,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2775,7 +2895,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2793,7 +2914,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2811,7 +2933,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2829,7 +2952,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2847,7 +2971,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2865,7 +2990,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2883,7 +3009,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2901,7 +3028,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2919,7 +3047,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2937,7 +3066,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2955,7 +3085,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2973,7 +3104,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -2991,7 +3123,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3009,7 +3142,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3027,7 +3161,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3045,7 +3180,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3063,7 +3199,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3081,7 +3218,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3099,7 +3237,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3117,7 +3256,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3135,7 +3275,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3153,7 +3294,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3171,7 +3313,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3189,7 +3332,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3207,7 +3351,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "内容缺失"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3225,7 +3370,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3243,7 +3389,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3261,7 +3408,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3279,7 +3427,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3297,7 +3446,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3315,7 +3465,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     },
     {
       "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
@@ -3333,7 +3484,8 @@
       "level": "N2",
       "question_type": "grammar_order",
       "verified": true,
-      "created_at": "2026-05-04T00:58:25.429Z"
+      "created_at": "2026-05-04T00:58:25.429Z",
+      "translation": "＿＿ ＿＿ ＿★＿ ＿＿ 。"
     }
   ]
 }
