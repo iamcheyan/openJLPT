@@ -13,6 +13,7 @@ import android.os.Build;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.Settings;
+import android.view.KeyEvent;
 
 public class MainActivity extends Activity {
     private WebView webView;
@@ -67,6 +68,19 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
+            webView.evaluateJavascript("document.dispatchEvent(new CustomEvent('volumekey', {detail: 'down'}))", null);
+            return true; // 拦截，不调节音量
+        }
+        if (keyCode == KeyEvent.KEYCODE_VOLUME_UP) {
+            webView.evaluateJavascript("document.dispatchEvent(new CustomEvent('volumekey', {detail: 'up'}))", null);
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     @Override

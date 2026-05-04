@@ -511,12 +511,12 @@ function toggleFurigana() { const c = document.getElementById('furigana-toggle')
 
 let currentNavIndex = 1;
 
-function navigateQuestion(d) { 
-    currentNavIndex = Math.min(totalQuestions, Math.max(1, currentNavIndex + d)); 
+function navigateQuestion(d) {
+    currentNavIndex = Math.min(totalQuestions, Math.max(1, currentNavIndex + d));
     const el = document.getElementById('q' + currentNavIndex);
     if (el) {
-        // 墨水屏优化：去掉平滑滚动，改用瞬间跳转
-        el.scrollIntoView({ behavior: 'auto', block: 'start' });
+        const y = el.getBoundingClientRect().top + window.scrollY - 25;
+        window.scrollTo({ top: y, behavior: 'auto' });
     }
 }
 
@@ -524,7 +524,7 @@ function handleVolumeNavigation(event) {
     const key = event.key || event.code || '';
     const isNext = key === 'AudioVolumeDown' || key === 'VolumeDown' || key === 'PageDown';
     const isPrev = key === 'AudioVolumeUp' || key === 'VolumeUp' || key === 'PageUp';
-    
+
     if (isNext || isPrev) {
         // 在移动端或全屏模式下拦截音量键
         if (window.matchMedia('(max-width: 900px)').matches || document.fullscreenElement) {
@@ -533,6 +533,11 @@ function handleVolumeNavigation(event) {
         }
     }
 }
+
+// Android 原生音量键事件（通过 CustomEvent 注入）
+document.addEventListener('volumekey', function(e) {
+    navigateQuestion(e.detail === 'up' ? -1 : 1);
+});
 function initNav() {
     const n = document.getElementById('nav'); n.innerHTML = '';
     const LBL = { 
