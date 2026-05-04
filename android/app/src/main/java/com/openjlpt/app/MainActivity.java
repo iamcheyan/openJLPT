@@ -48,9 +48,10 @@ public class MainActivity extends Activity {
         settings.setAllowFileAccessFromFileURLs(true);
         settings.setAllowUniversalAccessFromFileURLs(true);
         
-        // 优化：禁用缩放控制（墨水平板不需要）
+        // 禁用缩放（墨水平板不需要）
         settings.setBuiltInZoomControls(false);
         settings.setDisplayZoomControls(false);
+        settings.setSupportZoom(false);
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
