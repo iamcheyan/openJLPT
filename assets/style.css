@@ -376,7 +376,7 @@ h3 {
     }
 
     .sidebar-backdrop {
-        display: block;
+        display: none;
         position: fixed;
         inset: 0;
         background: rgba(0, 0, 0, 0.35);

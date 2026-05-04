@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnose Volcengine Ark endpoint/model/API-key failures.
-
-The script tests the current .env URL plus common Ark chat-completions URLs
-against one or more model IDs, and prints HTTP status, parsed error bodies,
-latency, and a short reply preview.
+"""
+工具：火山引擎 ARK 诊断
+作用：测试 ARK API 的多个 endpoint URL 和 model ID，排查连通性、模型名、API Key 问题。
+用法：python3 tools/verify_ark.py
 """
 
 from __future__ import annotations
@@ -119,7 +118,7 @@ def request_chat(url: str, api_key: str, model: str, timeout: float) -> dict:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Verify Volcengine Ark API endpoint and model IDs.")
-    parser.add_argument("--env", default=".env", help="Path to env file. Default: .env")
+    parser.add_argument("--env", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"), help="Path to env file.")
     parser.add_argument("--api-key", default=None, help="Override ARK_API_KEY.")
     parser.add_argument("--url", action="append", help="URL to test. Can be passed multiple times.")
     parser.add_argument("--model", action="append", help="Model or endpoint ID to test. Can be passed multiple times.")

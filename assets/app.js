@@ -13,6 +13,9 @@ function wrapTargetWord(s, t) { if (!t || !s) return s; return s.includes(`《${
 function highlightBlanks(t) { return t ? t.replace(/★/g, '<span class="target-word">★</span>').replace(/（[ 　\d]*）/g, m => `<span class="target-word">${m}</span>`) : t; }
 function tryExtractTarget(s, o, a) { if (!s || !o || a===undefined) return s; const w = o[a], st = w.replace(/[するだです]+$/, ''); const cs = [w]; if (st!==w) cs.unshift(st); for (const c of cs) if (s.includes(c)) return s.replace(c, '<span class="target-word">（　）</span>'); return s; }
 
+// Base path for data - can be overridden by the host (e.g., an Android app shell)
+window.DATA_ROOT = window.DATA_ROOT || 'data';
+
 async function loadExamData() {
     const level = new URLSearchParams(window.location.search).get('level') || 'n2';
     window.CURRENT_LEVEL = level;
@@ -22,19 +25,18 @@ async function loadExamData() {
         document.getElementById('exam-title').textContent = `JLPT ${level.toUpperCase()} ${window.EXAM_MODE === 'full' ? '(Full)' : ''}`;
     }
 
-    // If questions are already provided statically (e.g. in full_exam.html)
     if (QUESTIONS.length > 0) {
         console.log("Using pre-loaded questions.");
         await finishLoading();
         return;
     }
 
-    console.log("Fetching questions from JSON...");
+    console.log(`Fetching questions from ${window.DATA_ROOT}/${level}/...`);
     const all = []; const stats = {};
     const promises = Object.keys(SECTION_CONFIG).map(async id => {
         const cfg = SECTION_CONFIG[id];
         try {
-            const r = await fetch(`data/${level}/${id}.json`); if (!r.ok) return;
+            const r = await fetch(`${window.DATA_ROOT}/${level}/${id}.json`); if (!r.ok) return;
             const d = await r.json(); const raw = d.questions || []; const proc = [];
             if (id === "grammar_passage") raw.forEach(it => { const p = highlightBlanks(it.passage || ""); (it.blanks || []).forEach(b => proc.push({ s:cfg.s, pas:p, txt:`（　${b.num}　）`, opts:b.options||[], ans:b.answer||0, exp:b.explanation||"", translation:b.translation })); });
             else if (id.startsWith("reading_")) {
@@ -123,19 +125,23 @@ function showCustomModal(t, b, acts) {
 
 function refreshExam() {
     if (answered === 0) { localStorage.removeItem(STORAGE_KEY); location.reload(); return; }
-    showCustomModal('更新确认', '当前的答题进度将被清除，确认要重新生成吗？', [{ label: '取消' }, { label: '确认更新', primary: true, onClick: () => { localStorage.removeItem(STORAGE_KEY); location.reload(); } }]);
+    showCustomModal('更新の確認', '現在の進捗が削除されます。再生成しますか？', [{ label: 'キャンセル' }, { label: '確認', primary: true, onClick: () => { localStorage.removeItem(STORAGE_KEY); location.reload(); } }]);
 }
 
 function toggleStatsOverlay() {
     const ov = document.getElementById('stats-overlay'); if (!ov) return;
     if (!ov.classList.contains('open')) {
         const b = document.getElementById('stats-overlay-body'); b.innerHTML = ''; let gt = 0;
-        const LBL = { 1:'① 文字・語彙（读音）', 2:'② 文字・語彙（汉字）', 3:'③ 文字・語彙（文脉）', 4:'④ 文字・語彙（类义）', 5:'⑤ 文字・語彙（用法）', 6:'⑥ 文法（文法填空）', 7:'⑦ 文法（句子排序）', 8:'⑧ 文法（文章文法）', 9:'⑨ 読解（短篇阅读）', 10:'⑩ 読解（中篇阅读）', 11:'⑪ 読解（长篇阅读）', 12:'⑫ 読解（信息检索）' };
+        const LBL = { 
+            1:'① 漢字の読み方', 2:'② 漢字の表記', 3:'③ 文脈規定', 4:'④ 言い換え・類義', 
+            5:'⑤ 用法', 6:'⑥ 文の文法', 7:'⑦ 文の組み立て', 8:'⑧ 文章の文法', 
+            9:'⑨ 短文読解', 10:'⑩ 中文読解', 11:'⑪ 長文読解', 12:'⑫ 情報検索' 
+        };
         Object.values(BANK_STATS || {}).sort((a,b)=>a.s-b.s).forEach(s => { 
-            b.innerHTML += `<div class="stats-row"><span>${LBL[s.s]||s.name}</span><b>${s.total} 题</b></div>`; 
+            b.innerHTML += `<div class="stats-row"><span>${LBL[s.s]||s.name}</span><b>${s.total} 問</b></div>`; 
             gt += s.total; 
         });
-        b.innerHTML += `<div class="stats-total-row"><span>题库总计</span><span>${gt} 题</span></div>`;
+        b.innerHTML += `<div class="stats-total-row"><span>合計</span><span>${gt} 問</span></div>`;
     }
     ov.classList.toggle('open');
 }
@@ -177,7 +183,7 @@ async function buildUI() {
         h += `<ul class="options">`;
         const opts = Array.isArray(q.opts) ? q.opts : [...(q.star || '').replace(/　/g, ' ').matchAll(/[１２３４1-4]\.\s*([^１２３４1-4]+?)(?=\s*[１２３４1-4]\.|$)/g)].map(m => m[1].trim());
         opts.forEach((o, oi) => { h += `<li onclick="check(${i + 1}, ${oi}, ${q.ans})">${oi + 1}. ${applyFurigana(o)}</li>`; });
-        let ex = q.exp || `正解：${q.ans + 1}`; if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【中国語译】</b><br>${q.translation}</div>`;
+        let ex = q.exp || `正解：${q.ans + 1}`; if (q.translation) ex += `<div style="margin-top:12px; padding-top:12px; border-top:2px dashed #000;"><b>【解説】</b><br>${q.translation}</div>`;
         h += `</ul><div class="explanation" id="exp${i + 1}">${ex}</div>`;
         b.innerHTML = h; c.appendChild(b);
     });
@@ -192,7 +198,11 @@ function toggleFurigana() { const c = document.getElementById('furigana-toggle')
 function navigateQuestion(d) { const n = Math.min(totalQuestions, Math.max(1, 1 + d)); document.getElementById('q' + n)?.scrollIntoView({ behavior: 'auto', block: 'start' }); }
 function initNav() {
     const n = document.getElementById('nav'); n.innerHTML = '';
-    const LBL = { 1:'① 读音', 2:'② 汉字', 3:'③ 文脉', 4:'④ 类义', 5:'⑤ 用法', 6:'⑥ 文法', 7:'⑦ 排序', 8:'⑧ 文章文法', 9:'⑨ 短读', 10:'⑩ 中读', 11:'⑪ 长读', 12:'⑫ 检索' };
+    const LBL = { 
+        1:'① 漢字の読み方', 2:'② 漢字の表記', 3:'③ 文脈規定', 4:'④ 言い換え・類義', 
+        5:'⑤ 用法', 6:'⑥ 文の文法', 7:'⑦ 文の組み立て', 8:'⑧ 文章の文法', 
+        9:'⑨ 短文読解', 10:'⑩ 中文読解', 11:'⑪ 長文読解', 12:'⑫ 情報検索' 
+    };
     let currentS = -1; let currentGrid = null;
     QUESTIONS.forEach((q, i) => {
         if (q.s !== currentS) {

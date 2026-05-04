@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnose Gemini API availability, latency, and error stability.
-
-This script intentionally uses only the Python standard library so it can run
-on a fresh server without installing dependencies.
+"""
+工具：Google Gemini 诊断
+作用：测试 Gemini API 的连通性、延迟和稳定性，支持多 Key 轮换测试。
+用法：python3 tools/verify_gemini.py
 """
 
 from __future__ import annotations
@@ -171,7 +171,7 @@ def summarize(results: list[dict]) -> dict:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Verify Gemini API model stability.")
-    parser.add_argument("--env", default=".env", help="Path to env file. Default: .env")
+    parser.add_argument("--env", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"), help="Path to env file.")
     parser.add_argument("--base-url", default=None, help="Override GEMINI_BASE_URL.")
     parser.add_argument("--api-key", action="append", help="Override Gemini API key. Can be passed multiple times.")
     parser.add_argument("--model", action="append", help="Model to test. Can be passed multiple times.")

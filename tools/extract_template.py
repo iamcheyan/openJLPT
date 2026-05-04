@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 """
-Extract questions from output/template.html and append to data/n2/*.json
-Model: Google Gemini (both generator and reviewer)
+工具：HTML 模板题目提取器
+作用：从 output/template.html 中提取已生成的题目，追加到 data/n2/*.json 题库文件。
+      用于旧版 LLM 生成的 HTML 试卷的题目回收。
+用法：python3 tools/extract_template.py
 """
 
 import json
+import os
 import re
 from datetime import datetime
 from html.parser import HTMLParser
 
-HTML_PATH = "output/template.html"
-DATA_DIR = "data/n2"
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HTML_PATH = os.path.join(_PROJECT_ROOT, "output", "template.html")
+DATA_DIR = os.path.join(_PROJECT_ROOT, "data", "n2")
 
 class TextExtractor(HTMLParser):
     def __init__(self):

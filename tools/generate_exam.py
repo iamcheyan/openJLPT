@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-JLPT N2 模拟试卷生成器 v2
-- 基于官方真题格式设计prompt
-- 生成交互式HTML试卷
-- 自动校验题目质量
+工具：LLM 试卷生成器（旧版）
+作用：调用 LLM API 一次性生成完整 N2 模拟试卷的 HTML 文件。
+      早期版本，现在主要用 generate_bank.py 按题型分别生成题库。
+用法：python3 tools/generate_exam.py
 """
 
 import json
@@ -860,7 +860,7 @@ def build_final_html(provider_name, sections_data):
 # ============================================================
 
 def main():
-    env_path = os.path.join(os.path.dirname(__file__), ".env")
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
     env = load_env(env_path)
 
     providers = ["zhipu", "ark", "mimo"]
@@ -870,7 +870,7 @@ def main():
         "mimo": "小米MiMo (mimo-v2.5-pro)",
     }
 
-    output_dir = os.path.join(os.path.dirname(__file__), "output")
+    output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "output")
     os.makedirs(output_dir, exist_ok=True)
 
     print("=" * 60)

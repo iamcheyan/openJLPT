@@ -1,0 +1,49 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Prepare Web Assets
+        run: |
+          mkdir -p android/app/src/main/assets
+          # Copy all UI files to assets
+          cp -r assets android/app/src/main/assets/
+          cp index.html android/app/src/main/assets/
+          cp manifest.json android/app/src/main/assets/
+          # Ensure libs are included if they are outside assets
+          # Remove data folder to keep APK small (loaded from external storage)
+          rm -rf android/app/src/main/assets/data
+          rm -rf android/app/src/main/assets/assets/libs/dict/*.gz
+
+      - name: Grant Execute Permission for Gradlew
+        run: |
+          cd android
+          gradle wrapper
+          chmod +x gradlew
+
+      - name: Build Debug APK
+        run: |
+          cd android
+          ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: openjlpt-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk

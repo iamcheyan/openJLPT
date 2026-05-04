@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""批量生成 grammar_fill 题目并追加到 JSON 文件。"""
+"""
+工具：grammar_fill 批量生成器
+作用：手动批量添加 N2 语法填空题（grammar_fill）到题库 JSON 文件。
+用法：直接编辑此文件中的题目数据，然后运行 python3 tools/gen_grammar_fill.py
+"""
 import json
+import os
 
-path = '/home/tetsuya/Development/openjlpt/data/n2/grammar_fill.json'
+_Project_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+path = os.path.join(_Project_ROOT, 'data', 'n2', 'grammar_fill.json')
 with open(path, encoding='utf-8') as f:
     data = json.load(f)
 

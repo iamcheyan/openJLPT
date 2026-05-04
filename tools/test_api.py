@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Test all configured LLM providers from config.json."""
+"""
+工具：API 连通性测试
+作用：自动读取 config.json 中所有配置的 LLM provider，逐一发送测试请求验证连通性。
+用法：python3 tools/test_api.py
+"""
 
 import json
 import urllib.request
@@ -115,7 +119,7 @@ def test_gemini(label, api_key, base_url, model):
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     env = load_env(os.path.join(base_dir, ".env"))
     cfg = load_config(os.path.join(base_dir, "config.json"))
 
