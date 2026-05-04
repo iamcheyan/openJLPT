@@ -328,6 +328,12 @@ function openSettings() {
                     <span id="settings-version" style="font-size:12px;">取得中...</span>
                 </div>
             </div>
+            <div class="settings-row">
+                <div class="settings-label">キャッシュ</div>
+                <div class="settings-control">
+                    <button class="font-btn" onclick="clearAllCache()">全キャッシュ削除</button>
+                </div>
+            </div>
         </div>
     `;
 
@@ -376,6 +382,42 @@ function updateSet(type, val) {
             if (span) span.innerText = val;
         }
     }
+}
+
+async function clearAllCache() {
+    showCustomModal('キャッシュ削除', 'すべてのキャッシュデータを削除します。ページが再読み込みされます。よろしいですか？', [
+        { label: 'キャンセル' },
+        { label: '削除する', primary: true, onClick: async () => {
+            // 1. Clear IndexedDB
+            try {
+                const dbs = await indexedDB.databases();
+                for (const db of dbs) {
+                    indexedDB.deleteDatabase(db.name);
+                }
+            } catch(e) {}
+
+            // 2. Clear localStorage (exam data only, keep settings)
+            const keep = ['openjlpt_furigana', 'openjlpt_fontfamily', 'openjlpt_fontsize', 'openjlpt_sidebar_collapsed'];
+            const backup = {};
+            keep.forEach(k => { const v = localStorage.getItem(k); if (v !== null) backup[k] = v; });
+            localStorage.clear();
+            Object.entries(backup).forEach(([k, v]) => localStorage.setItem(k, v));
+
+            // 3. Unregister service workers
+            try {
+                const regs = await navigator.serviceWorker?.getRegistrations();
+                for (const reg of (regs || [])) await reg.unregister();
+            } catch(e) {}
+
+            // 4. Clear Cache API
+            try {
+                const names = await caches.keys();
+                for (const name of names) await caches.delete(name);
+            } catch(e) {}
+
+            window.location.reload();
+        }}
+    ]);
 }
 
 function refreshExam() {
