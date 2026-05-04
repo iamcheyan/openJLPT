@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+工具：数据同步
+作用：通过 rsync 在本地和远程服务器之间同步题库数据（data/ 目录）。
+用法：python3 tools/sync_data.py
+"""
 import os
 import subprocess
 import sys
@@ -6,7 +11,7 @@ import sys
 # --- 配置信息 ---
 SERVER_IP = "192.168.3.62"
 REMOTE_PATH = "~/Development/openjlpt/data/"  # 服务器上的词库路径
-LOCAL_PATH = "./data/"  # 本地词库路径
+LOCAL_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")  # 本地词库路径
 
 # 从命令行或环境变量获取凭据
 def get_credentials():
