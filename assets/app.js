@@ -322,6 +322,14 @@ function openSettings() {
                 </div>
             </div>
             ` : ''}
+            ${isAndroid ? `
+            <div class="settings-row">
+                <div class="settings-label">アプリ更新</div>
+                <div class="settings-control">
+                    <button class="font-btn" id="app-update-btn" onclick="checkAppUpdate()">🔄 チェック</button>
+                </div>
+            </div>
+            ` : ''}
             <div class="settings-row">
                 <div class="settings-label">バージョン</div>
                 <div class="settings-control">
@@ -354,6 +362,33 @@ function openSettings() {
             const el = document.getElementById('settings-version');
             if (el) el.textContent = '取得失敗';
         });
+}
+
+async function checkAppUpdate() {
+    const btn = document.getElementById('app-update-btn');
+    if (btn) btn.textContent = '確認中...';
+    try {
+        const r = await fetch('https://api.github.com/repos/iamcheyan/openJLPT/releases/latest');
+        if (!r.ok) throw new Error('No release');
+        const data = await r.json();
+        const apkAsset = (data.assets || []).find(a => a.name.endsWith('.apk'));
+        if (!apkAsset) {
+            if (btn) btn.textContent = 'APK未発見';
+            return;
+        }
+        const pubDate = data.published_at ? data.published_at.substring(0, 10) : '';
+        const sizeMB = (apkAsset.size / 1024 / 1024).toFixed(1);
+        const confirmed = confirm(`新しいバージョンがあります！\n\n${data.tag_name} (${pubDate})\nサイズ: ${sizeMB} MB\n\nダウンロードしますか？`);
+        if (confirmed) {
+            window.location.href = apkAsset.browser_download_url;
+            if (btn) btn.textContent = 'ダウンロード中...';
+        } else {
+            if (btn) btn.textContent = '🔄 チェック';
+        }
+    } catch (e) {
+        if (btn) btn.textContent = '確認失敗';
+        setTimeout(() => { if (btn) btn.textContent = '🔄 チェック'; }, 3000);
+    }
 }
 
 function updateSet(type, val) {

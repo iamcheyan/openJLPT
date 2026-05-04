@@ -2,18 +2,25 @@ package com.openjlpt.app;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.DownloadManager;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.Settings;
+import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
+import android.webkit.DownloadListener;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.os.Environment;
-import android.os.Build;
-import android.content.Intent;
-import android.net.Uri;
-import android.provider.Settings;
-import android.view.KeyEvent;
+import android.widget.Toast;
+import java.io.File;
 
 public class MainActivity extends Activity {
     private WebView webView;
@@ -54,6 +61,13 @@ public class MainActivity extends Activity {
             }
         });
 
+        // 处理 APK 下载和安装
+        webView.setDownloadListener((url, userAgent, contentDisposition, mimeType, contentLength) -> {
+            if (url.endsWith(".apk")) {
+                downloadAndInstallApk(url);
+            }
+        });
+
         // 加载打包在 assets 里的 UI
         webView.loadUrl("file:///android_asset/index.html");
         
@@ -68,6 +82,45 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         }
+    }
+
+    private long downloadId = -1;
+
+    private void downloadAndInstallApk(String url) {
+        Toast.makeText(this, "正在下载更新...", Toast.LENGTH_LONG).show();
+
+        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+        request.setTitle("openJLPT 更新");
+        request.setDescription("正在下载最新版本...");
+        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "openjlpt-latest.apk");
+
+        DownloadManager dm = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+        downloadId = dm.enqueue(request);
+
+        // 监听下载完成
+        registerReceiver(new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                long id = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
+                if (id == downloadId) {
+                    installApk();
+                    unregisterReceiver(this);
+                }
+            }
+        }, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
+    }
+
+    private void installApk() {
+        File file = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_DOWNLOADS), "openjlpt-latest.apk");
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.fromFile(file),
+                "application/vnd.android.package-archive");
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        startActivity(intent);
     }
 
     @Override
