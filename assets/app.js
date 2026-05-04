@@ -45,41 +45,44 @@ const DataCache = {
 
 async function syncFromCloud() {
     const level = window.CURRENT_LEVEL || 'n2';
-    const overlay = document.getElementById('sync-overlay');
-    const progress = document.getElementById('sync-progress-bar');
-    const logTitle = document.getElementById('sync-log');
-    const logDetails = document.getElementById('sync-log-details');
-    
-    if (overlay) overlay.style.display = 'flex';
-    if (logDetails) logDetails.innerHTML = '';
-    
+
+    showCustomModal('データ同期', `
+        <div id="sync-modal-log" style="font-family:monospace;font-size:12px;max-height:300px;overflow-y:auto;line-height:1.8;padding:8px;background:#f5f5f5;border:1px solid #ccc;"></div>
+        <div style="margin-top:8px;height:4px;background:#eee;border-radius:2px;overflow:hidden;">
+            <div id="sync-modal-progress" style="height:100%;background:#333;width:0%;transition:width 0.3s;"></div>
+        </div>
+    `, [{ label: '閉じる' }], true);
+
+    const logEl = document.getElementById('sync-modal-log');
+    const progressEl = document.getElementById('sync-modal-progress');
+
     const addLog = (msg, type='') => {
-        if (!logDetails) return;
+        if (!logEl) return;
+        const colors = { ok: '#2e7d32', new: '#1565c0', err: '#c62828' };
         const line = document.createElement('div');
-        line.className = 'sync-log-line ' + type;
+        line.style.color = colors[type] || '#333';
         line.textContent = `> ${msg}`;
-        logDetails.appendChild(line);
-        logDetails.scrollTop = logDetails.scrollHeight;
+        logEl.appendChild(line);
+        logEl.scrollTop = logEl.scrollHeight;
     };
 
     addLog(`同期プロセスの開始: LEVEL ${level.toUpperCase()}`);
     addLog(`GitHub リポジトリに接続中...`);
-    
+
     const ids = Object.keys(SECTION_CONFIG);
     let updatedCount = 0;
-    
+
     for (let i = 0; i < ids.length; i++) {
         const id = ids[i];
         addLog(`チェック中: ${id}...`);
-        
+
         try {
             const url = `https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`;
             const r = await fetch(url);
             if (r.ok) {
                 const json = await r.json();
                 const local = await DataCache.get(`${level}_${id}`);
-                
-                // コンテンツの比較
+
                 if (local && JSON.stringify(local) === JSON.stringify(json)) {
                     addLog(`${id}: 最新の状態です`, 'ok');
                 } else {
@@ -87,26 +90,23 @@ async function syncFromCloud() {
                     addLog(`${id}: データを更新しました`, 'new');
                     updatedCount++;
                 }
+            } else {
+                addLog(`${id}: 取得エラー (${r.status})`, 'err');
             }
-        } catch (e) { 
-            addLog(`${id}: 取得エラー`, 'err');
+        } catch (e) {
+            addLog(`${id}: ネットワークエラー`, 'err');
         }
-        
-        if (progress) progress.style.width = ((i + 1) / ids.length * 100) + "%";
-        await new Promise(res => setTimeout(res, 150)); // E-inkフレンドリーな待機
+
+        if (progressEl) progressEl.style.width = ((i + 1) / ids.length * 100) + "%";
+        await new Promise(res => setTimeout(res, 150));
     }
 
     if (updatedCount > 0) {
-        addLog(`同期完了: ${updatedCount} 個のセクションを更新しました`);
-        if (logTitle) logTitle.textContent = "同期完了";
-        addLog(`アプリケーションを再起動しています...`);
+        addLog(`同期完了: ${updatedCount} 個のセクションを更新しました`, 'new');
+        addLog(`ページを再読み込みします...`);
         setTimeout(() => window.location.reload(), 2000);
     } else {
-        addLog(`すべてのデータはすでに最新の状態です`);
-        if (logTitle) logTitle.textContent = "更新なし";
-        setTimeout(() => {
-            if (overlay) overlay.style.display = 'none';
-        }, 1500);
+        addLog(`すべてのデータはすでに最新の状態です`, 'ok');
     }
 }
 
@@ -368,9 +368,11 @@ async function checkAppUpdate() {
     const btn = document.getElementById('app-update-btn');
     if (btn) btn.textContent = '確認中...';
     try {
-        const r = await fetch('https://api.github.com/repos/iamcheyan/openJLPT/releases/latest');
-        if (!r.ok) throw new Error('No release');
-        const data = await r.json();
+        const r = await fetch('https://api.github.com/repos/iamcheyan/openJLPT/releases');
+        if (!r.ok) throw new Error('API error: ' + r.status);
+        const releases = await r.json();
+        const data = releases[0];
+        if (!data) throw new Error('No releases');
         const apkAsset = (data.assets || []).find(a => a.name.endsWith('.apk'));
         if (!apkAsset) {
             if (btn) btn.textContent = 'APK未発見';
