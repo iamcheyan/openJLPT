@@ -412,7 +412,7 @@ h3 {
 /* Mobile Exam Bar — E-ink 最適化・全画面共通 */
 .mobile-exam-bar {
     display: grid;
-    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-columns: auto auto 1fr auto auto auto;
     align-items: center;
     gap: 8px;
     position: fixed;
