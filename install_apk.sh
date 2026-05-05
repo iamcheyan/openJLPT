@@ -2,8 +2,8 @@
 set -e
 
 REMOTE="tetsuya@192.168.3.62"
-REMOTE_APK="/home/tetsuya/Development/openjlpt/build_output/openjlpt-debug.apk"
-LOCAL_APK="$HOME/Downloads/openjlpt-debug.apk"
+REMOTE_APK="/home/tetsuya/Development/openjlpt/build_output/jlpt-drill-debug.apk"
+LOCAL_APK="$HOME/Downloads/jlpt-drill-debug.apk"
 
 if [ -n "$1" ] && [ -f "$1" ]; then
 	APK="$1"

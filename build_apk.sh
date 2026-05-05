@@ -27,7 +27,7 @@ cd ..
 
 # 生成产物路径
 APK_SRC="android/app/build/outputs/apk/debug/app-debug.apk"
-APK_NAME="openjlpt-debug.apk"
+APK_NAME="jlpt-drill-debug.apk"
 mkdir -p build_output
 cp $APK_SRC "./build_output/$APK_NAME"
 
@@ -67,13 +67,13 @@ if [ "$DO_SYNC" = true ]; then
         \$ADB_CMD shell settings put global package_verifier_enable 0
         
         echo \"[2/4] 正在卸载旧版本...\"
-        \$ADB_CMD uninstall com.openjlpt.app || true
+        \$ADB_CMD uninstall com.jlptdrill.app || true
         
         echo \"[3/4] 正在安装新版本...\"
         \$ADB_CMD install -r $REMOTE_PATH
         
         echo \"[4/4] 正在启动 App...\"
-        \$ADB_CMD shell monkey -p com.openjlpt.app -c android.intent.category.LAUNCHER 1
+        \$ADB_CMD shell monkey -p com.jlptdrill.app -c android.intent.category.LAUNCHER 1
     "
     
     echo "🚀 全自动化部署完成！"

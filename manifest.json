@@ -1,6 +1,6 @@
 {
-  "name": "OpenJLPT",
-  "short_name": "OpenJLPT",
+  "name": "JLPTドリル",
+  "short_name": "JLPTドリル",
   "description": "Offline JLPT Practice for E-ink Devices",
   "start_url": "index.html",
   "display": "standalone",

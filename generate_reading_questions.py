@@ -143,8 +143,19 @@ def extract_json(text):
 def build_generate_prompt(passage, existing_questions, need_count, section_id):
     """为一篇阅读文章生成新题目。"""
     existing_qs = []
-    for q in existing_questions:
-        existing_qs.append(f"- {q['question']}")
+    for entry in existing_questions:
+        # 每个 entry 可能有嵌套的 questions 数组
+        sub_qs = entry.get("questions", [])
+        if sub_qs:
+            for sq in sub_qs:
+                q_text = sq.get("question", "")
+                if q_text:
+                    existing_qs.append(f"- {q_text}")
+        else:
+            # 兼容扁平结构
+            q_text = entry.get("question", "")
+            if q_text:
+                existing_qs.append(f"- {q_text}")
     existing_list = "\n".join(existing_qs) if existing_qs else "（无）"
 
     if section_id == "reading_short":
@@ -236,7 +247,12 @@ def save_reading_data(filepath, questions):
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
     data["questions"] = questions
-    data["meta"]["count"] = len(questions)
+    # 计算实际题目数（嵌套的 questions 数组）
+    total = 0
+    for entry in questions:
+        sub = entry.get("questions", [])
+        total += len(sub) if sub else 1
+    data["meta"]["count"] = total
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -296,8 +312,16 @@ def main():
         # 找出需要补充的文章
         need_work = []
         for passage, qs in groups:
-            if len(qs) < min_questions:
-                need_work.append((passage, qs, min_questions - len(qs)))
+            # 计算实际题目数（嵌套的 questions 数组）
+            actual_count = 0
+            for entry in qs:
+                sub = entry.get("questions", [])
+                if sub:
+                    actual_count += len(sub)
+                else:
+                    actual_count += 1
+            if actual_count < min_questions:
+                need_work.append((passage, qs, min_questions - actual_count))
 
         if not need_work:
             print(f"  全部已满 {min_questions} 题，跳过")
@@ -307,7 +331,8 @@ def main():
 
         for passage, existing_qs, need_count in need_work:
             short_passage = passage[:40].replace('\n', ' ')
-            print(f"  [{short_passage}...] 已有{len(existing_qs)}题, 需补{need_count}题")
+            actual = sum(len(e.get("questions", [])) or 1 for e in existing_qs)
+            print(f"  [{short_passage}...] 已有{actual}题, 需补{need_count}题")
 
             # 1. 生成新题
             gen_provider = available[provider_ids[provider_idx % len(provider_ids)]]
@@ -373,16 +398,46 @@ def main():
 
             # 3. 追加到数据
             if approved_items:
-                for item in approved_items:
-                    new_q = {
+                # 找到对应 passage 的条目，把新题追加到它的 questions 数组
+                target_entry = None
+                for entry in questions:
+                    if entry.get("passage", "") == passage:
+                        target_entry = entry
+                        break
+
+                if target_entry:
+                    # 追加到已有条目的 questions 数组
+                    if "questions" not in target_entry:
+                        target_entry["questions"] = []
+                    for item in approved_items:
+                        target_entry["questions"].append({
+                            "question": item.get("question", ""),
+                            "options": item.get("options", []),
+                            "answer": item.get("answer", 0),
+                            "explanation": item.get("explanation", ""),
+                        })
+                        total_generated += 1
+                else:
+                    # 创建新条目
+                    new_entry = {
+                        "id": f"n2-{fname}-{len(questions)+1:03d}",
+                        "level": "N2",
+                        "question_type": fname,
+                        "source": "ai",
                         "passage": passage,
-                        "question": item.get("question", ""),
-                        "options": item.get("options", []),
-                        "answer": item.get("answer", 0),
-                        "explanation": item.get("explanation", ""),
+                        "questions": [],
+                        "generated_by": "ai",
+                        "verified": True,
                     }
-                    questions.append(new_q)
-                    total_generated += 1
+                    for item in approved_items:
+                        new_entry["questions"].append({
+                            "question": item.get("question", ""),
+                            "options": item.get("options", []),
+                            "answer": item.get("answer", 0),
+                            "explanation": item.get("explanation", ""),
+                        })
+                        total_generated += 1
+                    questions.append(new_entry)
 
                 # 每篇处理完立即写盘
                 save_reading_data(filepath, questions)
@@ -402,8 +457,12 @@ def main():
         filepath = os.path.join(data_dir, f"{fname}.json")
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
-        groups = group_by_passage(data["questions"])
-        print(f"  {fname}: {len(data['questions'])} 题, {len(groups)} 篇文章")
+        entries = data["questions"]
+        total_q = 0
+        for entry in entries:
+            sub = entry.get("questions", [])
+            total_q += len(sub) if sub else 1
+        print(f"  {fname}: {total_q} 题, {len(entries)} 篇文章")
 
 
 if __name__ == "__main__":

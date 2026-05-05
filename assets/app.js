@@ -77,7 +77,7 @@ async function syncFromCloud() {
         addLog(`チェック中: ${id}...`);
 
         try {
-            const url = `https://raw.githubusercontent.com/iamcheyan/openJLPT/master/data/${level}/${id}.json`;
+            const url = `https://raw.githubusercontent.com/iamcheyan/jlpt-drill/master/data/${level}/${id}.json`;
             const r = await fetch(url);
             if (r.ok) {
                 const json = await r.json();
@@ -339,7 +339,7 @@ function openSettings() {
     showCustomModal('設定', html, [{ label: '閉じる', primary: true }], true);
 
     // Fetch GitHub commit version
-    fetch('https://api.github.com/repos/iamcheyan/openJLPT/commits/master')
+    fetch('https://api.github.com/repos/iamcheyan/jlpt-drill/commits/master')
         .then(r => r.json())
         .then(data => {
             const el = document.getElementById('settings-version');
@@ -359,7 +359,7 @@ async function checkAppUpdate() {
     const btn = document.getElementById('app-update-btn');
     if (btn) btn.textContent = '確認中...';
     try {
-        const r = await fetch('https://api.github.com/repos/iamcheyan/openJLPT/releases');
+        const r = await fetch('https://api.github.com/repos/iamcheyan/jlpt-drill/releases');
         if (!r.ok) throw new Error('API error: ' + r.status);
         const releases = await r.json();
         const data = releases[0];
