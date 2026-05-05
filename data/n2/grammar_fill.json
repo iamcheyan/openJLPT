@@ -24,7 +24,9 @@
       "id": "n2-grammar_fill-001",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "他总是用这种方法解决问题"
+      "translation": "他总是用这种方法解决问题",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "その会社は技術開発（　）予算を増やしています。",
@@ -43,7 +45,9 @@
       "id": "n2-grammar_fill-002",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "那家公司正在增加技术开发预算"
+      "translation": "那家公司正在增加技术开发预算",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "今回の失敗の原因はチーム内のコミュニケーション不足（　）、その他に特別な要因はない。",
@@ -63,7 +67,9 @@
       "id": "n2-grammar_fill-003",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "这次失败的原因是团队内部沟通不足，没有其他特殊原因"
+      "translation": "这次失败的原因是团队内部沟通不足，没有其他特殊原因",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "このNPO法人は一年（　）、全国各地で高齢者支援のイベントを開催している。",
@@ -83,7 +89,9 @@
       "id": "n2-grammar_fill-004",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "这个NPO法人一年在全国各地举办老年人支持活动"
+      "translation": "这个NPO法人一年在全国各地举办老年人支持活动",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "春（　）夏にかけて、日本では多くの祭りが行われる。",
@@ -103,7 +111,9 @@
       "id": "n2-grammar_fill-005",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "从春天到夏天，日本会举行很多祭典"
+      "translation": "从春天到夏天，日本会举行很多祭典",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "社長が海外に出張している（　）、副社長が重要な決定を下す。",
@@ -123,7 +133,9 @@
       "id": "n2-grammar_fill-006",
       "level": "N2",
       "question_type": "grammar_fill",
-      "translation": "社长在海外出差，副社长做出重要决定。"
+      "translation": "社长在海外出差，副社长做出重要决定。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "卒業（　）、先生に感謝の気持ちを伝えた。",
@@ -143,7 +155,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-007",
-      "translation": "毕业后，向老师表达感谢。"
+      "translation": "毕业后，向老师表达感谢。",
+      "verified_by_audit": false,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "彼は忙しい（　）、週末はボランティア活動をしている。",
@@ -163,7 +177,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-008",
-      "translation": "他虽然忙，但周末还是在做志愿者活动。"
+      "translation": "他虽然忙，但周末还是在做志愿者活动。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "雨が降っている（　）、外で遊ぶのはやめよう。",
@@ -183,7 +199,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-009",
-      "translation": "下雨了，就不要在外面玩了。"
+      "translation": "下雨了，就不要在外面玩了。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "彼はプロの歌手（　）歌がうまい。",
@@ -203,7 +221,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-010",
-      "translation": "他是专业歌手，歌唱得很好。"
+      "translation": "他是专业歌手，歌唱得很好。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "一度決めた（　）、最後までやり通すべきだ。",
@@ -223,7 +243,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-011",
-      "translation": "既然决定了，就应该坚持到底。"
+      "translation": "既然决定了，就应该坚持到底。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "料理を（　）としたとき、電話が鳴った。",
@@ -234,7 +256,7 @@
         "作れば"
       ],
       "answer": 0,
-      "explanation": "题目翻译：正要做料理（　）时，电话响了。\n选项翻译：\nA. （意志形）想要做\nB. （基本形）做\nC. （过去式）做了\nD. （假定形）如果做的话\n\n「动词意向形＋としたとき」表示“正要做……的那一刻”。选项1、2、3的接续均不符合该句型。选项1是终止形，选项2是过去式，选项3是假定形。",
+      "explanation": "题目翻译：正要做料理的时候，电话响了。本题考查句型「动词意向形＋としたとき」，表示“正要做……的那一刻”。选项0「作ろう」是「作る」的意志形（意向形/推量形），符合该句型的接续要求，带入后句意通顺。其他选项词形接续均错误：选项1「作る」是基本形，选项2「作った」是过去式，选项3「作れば」是假定形（可能形+假定），都不能直接接「としたとき」表示该语境。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -243,7 +265,10 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-012",
-      "translation": "正要做饭时，电话响了。"
+      "translation": "正要做饭时，电话响了。",
+      "verified_by_audit": true,
+      "audit_fixed": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "彼は毎日遅くまで残業している（　）、疲れが溜まっているようだ。",
@@ -263,7 +288,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-013",
-      "translation": "他每天加班到很晚，看起来疲劳积累了不少。"
+      "translation": "他每天加班到很晚，看起来疲劳积累了不少。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "合格できる（　）、一生懸命勉強する。",
@@ -283,7 +310,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-014",
-      "translation": "只要能合格，我会拼命学习。"
+      "translation": "只要能合格，我会拼命学习。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "知っている（　）、教えてくれなかった。",
@@ -303,7 +332,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-015",
-      "translation": "他明明知道，却没有告诉我。"
+      "translation": "他明明知道，却没有告诉我。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "この問題は、解決（　）がありません。",
@@ -323,7 +354,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-016",
-      "translation": "这个问题没有解决办法。"
+      "translation": "这个问题没有解决办法。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "自分の目で（　）ことには、信じられない。",
@@ -334,7 +367,7 @@
         "見よう"
       ],
       "answer": 1,
-      "explanation": "题目翻译：如果不亲眼看到（　），就无法相信。\n选项翻译：\nA. 看了（过去式）\nB. 不看（否定形）\nC. 看（基本形）\nD. 想要看（意志形）\n\n「～ないことには」表示“如果不……的话，之后的事情就无法实现”这样的条件。选项0、2、3的接续均不符合该句型。必须使用否定形接「ことには」。",
+      "explanation": "题目翻译：如果不亲眼看到的话，就无法相信。\n本题考查JLPT N2固定语法「～ないことには」，表示「如果不做前项动作的话，后项的事情就无法实现/成立」，必须前接动词的ない形（否定形）。\n选项翻译：\n0. 看了（た形，过去完成）\n1. 不看（ない形，否定）\n2. 看（基本形，现在/将来）\n3. 想要看（意志形）\n只有选项1符合语法要求，因此选1。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -343,7 +376,10 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-017",
-      "translation": "我亲眼看到的事情，却难以置信。"
+      "translation": "我亲眼看到的事情，却难以置信。",
+      "verified_by_audit": true,
+      "audit_fixed": true,
+      "audit_date": "2026-05-05"
     },
     {
       "sentence": "先生（　）ご指導をいただき、感謝しております。",
@@ -363,7 +399,9 @@
       "source": "ai",
       "question_type": "grammar_fill",
       "id": "n2-grammar_fill-018",
-      "translation": "承蒙老师的指导，非常感谢。"
+      "translation": "承蒙老师的指导，非常感谢。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-019",
@@ -380,7 +418,9 @@
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 毕竟；要说为什么…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
       "created_at": "2026-05-04T00:40:14.214Z",
-      "translation": "他经验丰富，"
+      "translation": "他经验丰富，",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-020",
@@ -397,7 +437,9 @@
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 但是；因为（口语辩解）\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
       "created_at": "2026-05-04T00:40:14.214Z",
-      "translation": "真讨厌啊，"
+      "translation": "真讨厌啊，",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-021",
@@ -414,7 +456,9 @@
       "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 别说…；哪里是…\nB. 正因为…\nC. 毕竟；说起来\nD. 虽然…但是…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
       "verified": true,
       "created_at": "2026-05-04T00:41:39.793Z",
-      "translation": "好久没见，都记不清了。"
+      "translation": "好久没见，都记不清了。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-022",
@@ -431,7 +475,9 @@
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 但是；因为（口语辩解）\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
       "created_at": "2026-05-04T00:41:39.793Z",
-      "translation": "就是讨厌。"
+      "translation": "就是讨厌。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-023",
@@ -448,7 +494,9 @@
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 正因为…\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
       "created_at": "2026-05-04T00:41:39.793Z",
-      "translation": "他经验丰富。"
+      "translation": "他经验丰富。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-024",
@@ -465,7 +513,9 @@
       "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 正因为…\nD. 别说…；哪里是…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
       "verified": true,
       "created_at": "2026-05-04T00:41:39.793Z",
-      "translation": "他头脑聪明，性格也很棒。"
+      "translation": "他头脑聪明，性格也很棒。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-025",
@@ -482,7 +532,9 @@
       "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:39.541Z",
-      "translation": "他头脑聪明，性格也很棒。"
+      "translation": "他头脑聪明，性格也很棒。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-026",
@@ -499,7 +551,9 @@
       "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:39.542Z",
-      "translation": "果然，他经验丰富。"
+      "translation": "果然，他经验丰富。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-027",
@@ -516,7 +570,9 @@
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 但是；因为（口语辩解）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:39.542Z",
-      "translation": "就是啊，我讨厌嘛。"
+      "translation": "就是啊，我讨厌嘛。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-028",
@@ -533,7 +589,9 @@
       "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 毕竟；说起来\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:39.542Z",
-      "translation": "毕竟好久没见了，记不太清了。"
+      "translation": "毕竟好久没见了，记不太清了。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-029",
@@ -550,7 +608,9 @@
       "explanation": "题目翻译：要说喜欢（　），也不是那样。\n选项翻译：\nA. 虽然…但是…\nB. 别说…；哪里是…\nC. 要说…（转换话题或解释）\nD. 正因为…\n\n「～かというと」表示“要说…（的话）”，用于转换话题或解释说明，意为“要说是否…；如果说…的话”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "喜欢也说不上特别喜欢。"
+      "translation": "喜欢也说不上特别喜欢。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-030",
@@ -567,7 +627,9 @@
       "explanation": "题目翻译：不得不赞成他的意见（　）。\n选项翻译：\nA. 别说…；哪里是…\nB. 不得不…；只得…\nC. 虽然…但是…\nD. 正因为…\n\n「～ざるを得ない」是N2语法，表示“不得不…；只得…；只好…”，动词否定形（ない形去掉ない）+ ざるを得ない。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "他的意见我可不赞成。"
+      "translation": "他的意见我可不赞成。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-031",
@@ -584,7 +646,9 @@
       "explanation": "题目翻译：他仿佛完全不知道（　）说了。\n选项翻译：\nA. 仿佛…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～かのように」表示“仿佛…；好像…；就像…一样”，用于比喻或假想的情况，「まるで」常和它搭配使用。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "他好像什么也不知道地说话了"
+      "translation": "他好像什么也不知道地说话了",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-032",
@@ -601,7 +665,9 @@
       "explanation": "题目翻译：他的演奏有令人感动的（　）。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 有…的东西；有…之处\nD. 别说…；哪里是…\n\n「～ものがある」表示“有…的东西；有…之处；实在是…；令人…的”，用于强调某事物的特质。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "他的演奏很感人"
+      "translation": "他的演奏很感人",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-033",
@@ -618,7 +684,9 @@
       "explanation": "题目翻译：如果能回到过去（　），我想回去。\n选项翻译：\nA. 如果能…的话（表示愿望或假设）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ものなら」表示“如果能…的话”，常用于表达难以实现的愿望或假设，前接动词可能形。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "如果能回到过去，真的想回去"
+      "translation": "如果能回到过去，真的想回去",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-034",
@@ -635,7 +703,9 @@
       "explanation": "题目翻译：他是温柔的（　），是老实的类型。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 应该说…；或者说…\n\n「～というか」表示“应该说…；或者说…；其实是…”，用于修正或补充前面的内容，使其更准确。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "他是个温柔、内向的人"
+      "translation": "他是个温柔、内向的人",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-035",
@@ -652,7 +722,9 @@
       "explanation": "题目翻译：根据天气（　），变更计划。\n选项翻译：\nA. 虽然…但是…\nB. 根据…；取决于…\nC. 正因为…\nD. 别说…；哪里是…\n\n「～次第で」表示“根据…；取决于…；要看…而定”，前接名词，表示依据前面的内容来决定后面的事项。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "天气原因，计划要更改"
+      "translation": "天气原因，计划要更改",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-036",
@@ -669,7 +741,9 @@
       "explanation": "题目翻译：她总是穿（　）黑色的衣服。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 正因为…\nD. 全是…；清一色…\n\n「～ずくめ」表示“全是…；清一色…；净是…”，用于强调全部都是某种东西或状态，前接名词。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "她总是穿黑色的衣服。"
+      "translation": "她总是穿黑色的衣服。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-037",
@@ -686,7 +760,9 @@
       "explanation": "题目翻译：他看似（　）很强，其实很温柔。\n选项翻译：\nA. 看似…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ようで（いて）」表示“看似…；好像…（但实际上不是）”，用于表示表面看起来是这样，但实际上不是那样的情况。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "他外表强硬，但实际上很温柔。"
+      "translation": "他外表强硬，但实际上很温柔。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-038",
@@ -703,7 +779,9 @@
       "explanation": "题目翻译：经过长年的研究（　），终于发现了。\n选项翻译：\nA. 经过…；通过…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～を経て」表示“经过…；通过…；历经…”，用于表示经历了某个过程后才达到现在的状态，前接名词。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "经过多年的研究，终于发现了。"
+      "translation": "经过多年的研究，终于发现了。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-039",
@@ -720,7 +798,9 @@
       "explanation": "题目翻译：如果看起来要下雨（　），就取消吧。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 如果…的话（表示推测或可能性）\nD. 正因为…\n\n「～ようなら」表示“如果…的话”，用于表示根据某种迹象推测可能发生的情况，或者表示假设的情况，前接普通形。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.327Z",
-      "translation": "下雨了，我们中止吧。"
+      "translation": "下雨了，我们中止吧。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-040",
@@ -737,7 +817,9 @@
       "explanation": "题目翻译：他不仅聪明（　），性格也很好。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 不仅…而且…（书面语）\n\n「～のみならず」表示“不仅…而且…；不但…而且…”，是书面语表达，用于强调递进关系，前接普通形。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "他头脑聪明，性格也好。"
+      "translation": "他头脑聪明，性格也好。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-041",
@@ -754,7 +836,9 @@
       "explanation": "题目翻译：孩子变得满身（　）泥地在玩。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 满是…；沾满…\nD. 别说…；哪里是…\n\n「～まみれ」表示“满是…；沾满…；到处都是…”，用于表示某个东西沾满了表面，通常用于不好的或脏的东西，前接名词。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "孩子们玩得满身是泥。"
+      "translation": "孩子们玩得满身是泥。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-042",
@@ -771,7 +855,9 @@
       "explanation": "题目翻译：去（　）还是不去（　），请快点决定。\n选项翻译：\nA. 无论…还是…；即使…（表示选择）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～にしろ」表示“无论…还是…；即使…”，用于列举两种相反的情况或表示让步，是较正式的表达，前接普通形。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "去还是不去，请快点决定。"
+      "translation": "去还是不去，请快点决定。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-043",
@@ -788,7 +874,9 @@
       "explanation": "题目翻译：从小孩（　）老人，大家都能开心享受。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 到…为止；直到…\n\n「～に至るまで」表示“到…为止；直到…；甚至到…程度”，用于表示范围的终点，强调从起点到终点的全部，前接名词。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "从孩子到老人，大家都能享受。"
+      "translation": "从孩子到老人，大家都能享受。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-044",
@@ -805,7 +893,9 @@
       "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 虽然…但是…\nB. 但是；因为（口语辩解）\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "我就是不喜欢嘛。"
+      "translation": "我就是不喜欢嘛。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-045",
@@ -822,7 +912,9 @@
       "explanation": "题目翻译：请按照规则（　）行动。\n选项翻译：\nA. 正因为…\nB. 虽然…但是…\nC. 按照…；根据…\nD. 别说…；哪里是…\n\n「～にしたがって」表示“按照…；根据…；随着…”，用于表示根据某种规则或标准行动，或者随着某事物的变化而变化，前接名词或动词普通形。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "请按照规则行动。"
+      "translation": "请按照规则行动。",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-046",
@@ -839,7 +931,9 @@
       "explanation": "题目翻译：不能说因为有钱（　）就一定幸福。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 不能因为…就…；虽然…但是…\n\n「～からといって」表示“不能因为…就…；虽然…但是…”，用于表示不能仅凭一个理由就下结论，或者表示虽然有某个理由，但结果不一定是那样。",
       "verified": true,
       "created_at": "2026-05-04T00:42:54.328Z",
-      "translation": "有钱不一定幸福"
+      "translation": "有钱不一定幸福",
+      "verified_by_audit": true,
+      "audit_date": "2026-05-05"
     },
     {
       "id": "n2-grammar_fill-047",

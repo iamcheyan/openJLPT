@@ -162,7 +162,29 @@ def build_translate_prompt(questions, section_id):
 
     item_list = "\n".join(lines)
 
-    return f"""请将以下日语内容翻译成中文。每条翻译用简洁自然的中文，不要添加解释。
+    is_reading = section_id.startswith("reading_") or section_id == "grammar_passage"
+
+    if is_reading:
+        return f"""这是一份JLPT日语考试的阅读材料。请按以下要求翻译：
+
+【翻译要求】
+1. 逐句完整翻译全文，一字一词都不要省略
+2. 忠实原文语义，不要改写、概括或添加任何原文没有的内容
+3. 保持原文的段落结构和格式（如■、・等符号保留）
+
+【附加解析】
+翻译完成后，在末尾附上以下内容（用"---"分隔）：
+- 【重点语法】：列出文中N2语法点，简要说明接续和含义（2-4个）
+- 【重点词汇】：列出值得记忆的词汇，标注读音和词义（3-5个）
+
+{item_list}
+
+严格按JSON数组格式输出，每个元素是一篇文章的完整翻译+解析，顺序与上面一致：
+["翻译+解析1", "翻译+解析2", ...]
+
+只输出JSON数组，不要其他内容。"""
+    else:
+        return f"""请将以下日语内容翻译成中文。要求完整翻译，不要省略。
 
 {item_list}
 
