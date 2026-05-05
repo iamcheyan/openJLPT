@@ -1,0 +1,1255 @@
+{
+  "meta": {
+    "level": "N5",
+    "question_type": "grammar_fill",
+    "name": "文の文法",
+    "count": 75
+  },
+  "questions": [
+    {
+      "id": "n5-grammar_fill-001",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "私は学生（　）。",
+      "options": [
+        "です",
+        "だ",
+        "ます",
+        "でした"
+      ],
+      "answer": 0,
+      "explanation": "「～です」は、名詞につけて丁寧な断定を表します。"
+    },
+    {
+      "id": "n5-grammar_fill-002",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "ここに本（　）あります。",
+      "options": [
+        "が",
+        "を",
+        "は",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "「～があります」は、物があることを表します。主語には助詞「が」を使います。"
+    },
+    {
+      "id": "n5-grammar_fill-003",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "私はパン（　）食べます。",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "動作の対象を表すときは助詞「を」を使います。"
+    },
+    {
+      "id": "n5-grammar_fill-004",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "学校（　）行きます。",
+      "options": [
+        "へ",
+        "を",
+        "は",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "移動の方向を表すときは助詞「へ」または「に」を使います。"
+    },
+    {
+      "id": "n5-grammar_fill-005",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "昨日は暑（　）です。",
+      "options": [
+        "かった",
+        "い",
+        "いでした",
+        "くでした"
+      ],
+      "answer": 0,
+      "explanation": "い形容詞の過去形は「（いを除いて）＋かった」です。"
+    },
+    {
+      "id": "n5-grammar_fill-006",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "一緒に（　）ませんか。",
+      "options": [
+        "飲み",
+        "飲む",
+        "飲んで",
+        "飲んだ"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞ます形）＋ませんか」は、誘いの表現です。"
+    },
+    {
+      "id": "n5-grammar_fill-007",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "田中さんは（　）ですか。",
+      "options": [
+        "だれ",
+        "どこ",
+        "いつ",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "「だれ」は人を尋ねる疑問詞です。"
+    },
+    {
+      "id": "n5-grammar_fill-008",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "部屋の中にだれ（　）いません。",
+      "options": [
+        "も",
+        "が",
+        "を",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "「疑問詞＋も＋否定形」で、全面否定（だれもいない）を表します。"
+    },
+    {
+      "id": "n5-grammar_fill-009",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "あした買い物（　）行きます。",
+      "options": [
+        "に",
+        "を",
+        "へ",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "「（名詞）＋に行きます」は、目的を表します。"
+    },
+    {
+      "id": "n5-grammar_fill-010",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "sentence": "これは（　）本ですか。",
+      "options": [
+        "だれの",
+        "だれ",
+        "だれが",
+        "だれを"
+      ],
+      "answer": 0,
+      "explanation": "「だれの」は「誰の物か」を尋ねる表現です。"
+    },
+    {
+      "sentence": "りんごを三（　）ください。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "つ",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Number + つ。general-purpose counter for small things (one, two, three…)。",
+      "complete_sentence": "りんごを三つください。",
+      "id": "n5-grammar_fill-011",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "犬（　）猫より大きいです。",
+      "options": [
+        "どころか",
+        "のほうが",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：A のほうが B より + adjective。A is more ___ than B (comparative)。",
+      "complete_sentence": "犬のほうが猫より大きいです。",
+      "id": "n5-grammar_fill-012",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "コーヒー（　）紅茶（　）好きです。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "も"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + も + Noun + も。both X and Y / neither X nor Y。",
+      "complete_sentence": "コーヒーも紅茶も好きです。",
+      "id": "n5-grammar_fill-013",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "今、（　）ですか。",
+      "options": [
+        "ものの",
+        "何時",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：何時 (+ optional 〜分)。what time / when (specific clock time)。",
+      "complete_sentence": "今、何時ですか。",
+      "id": "n5-grammar_fill-014",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "新しい車（　）ほしいです。",
+      "options": [
+        "が",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + が + ほしい(です)。want (a thing) — for the speaker's own desire。",
+      "complete_sentence": "新しい車がほしいです。",
+      "id": "n5-grammar_fill-015",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "この本は高（　）、重い。",
+      "options": [
+        "どころか",
+        "ものの",
+        "くて",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：i-adjective stem + くて。te-form of i-adjectives (joining / causal)。",
+      "complete_sentence": "この本は高くて、重い。",
+      "id": "n5-grammar_fill-016",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "富士山は日本で（　）高い山です。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "一番",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：一番 + adjective。the most / the best (superlative)。",
+      "complete_sentence": "富士山は日本で一番高い山です。",
+      "id": "n5-grammar_fill-017",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "時間がない（　）、急ぎます。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "から",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain or polite form + から。because / since ___。",
+      "complete_sentence": "時間がないから、急ぎます。",
+      "id": "n5-grammar_fill-018",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "（　）宿題をしていません。",
+      "options": [
+        "ばかりに",
+        "まだ",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：まだ + Verb-ていない / まだ + Verb-ている。not yet / still。",
+      "complete_sentence": "まだ宿題をしていません。",
+      "id": "n5-grammar_fill-019",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "（　）宿題をしました。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "もう"
+      ],
+      "answer": 3,
+      "explanation": "文法点：もう + Verb-た / ました。already did。",
+      "complete_sentence": "もう宿題をしました。",
+      "id": "n5-grammar_fill-020",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "机（　）上に本があります。",
+      "options": [
+        "の",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + の + 上/下/中/前/後ろ/横/隣/間 + (に/で/へ)。location relative to a reference (above, below, inside, in front, behind, next to)。",
+      "complete_sentence": "机の上に本があります。",
+      "id": "n5-grammar_fill-021",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "お茶を飲み（　）。",
+      "options": [
+        "ばかりに",
+        "ましょうか",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb stem + ましょうか。shall we ___? (invitation); shall I ___? (offer)。",
+      "complete_sentence": "お茶を飲みましょうか。",
+      "id": "n5-grammar_fill-022",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "早（　）起きて（　）ださい。",
+      "options": [
+        "く",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：i-adjective stem + く (+ verb)。adverbial form of i-adjectives。",
+      "complete_sentence": "早く起きてください。",
+      "id": "n5-grammar_fill-023",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "私（　）学生です。",
+      "options": [
+        "も",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：X + も。also / too / as well。",
+      "complete_sentence": "私も学生です。",
+      "id": "n5-grammar_fill-024",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "これは本（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "です"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + です。is / am / are (polite copula)。",
+      "complete_sentence": "これは本です。",
+      "id": "n5-grammar_fill-025",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "一緒に映画を見（　）。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "ませんか"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb stem + ませんか。won't you...? / would you like to...? (invitation)。",
+      "complete_sentence": "一緒に映画を見ませんか。",
+      "id": "n5-grammar_fill-026",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "昨日は日曜日（　）。",
+      "options": [
+        "でした",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + でした。was / were (polite past copula)。",
+      "complete_sentence": "昨日は日曜日でした。",
+      "id": "n5-grammar_fill-027",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "家族は四（　）です。",
+      "options": [
+        "人",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number + 人 (にん)。counter for people。",
+      "complete_sentence": "家族は四人です。",
+      "id": "n5-grammar_fill-028",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "本（　）読みます。",
+      "options": [
+        "を",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：X + を。marks the direct object of a transitive verb。",
+      "complete_sentence": "本を読みます。",
+      "id": "n5-grammar_fill-029",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "これは本（　）。",
+      "options": [
+        "ものの",
+        "だ",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + だ。is / am / are (plain copula)。",
+      "complete_sentence": "これは本だ。",
+      "id": "n5-grammar_fill-030",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "お酒を飲み（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ません"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb stem + ません。polite non-past negative verb ending。",
+      "complete_sentence": "お酒を飲みません。",
+      "id": "n5-grammar_fill-031",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "この本は高（　）です。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "い",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：い-adjective + (です)。い-adjective non-past (affirmative)。",
+      "complete_sentence": "この本は高いです。",
+      "id": "n5-grammar_fill-032",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "昨日、映画を見（　）。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ました",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb stem + ました。polite past verb ending。",
+      "complete_sentence": "昨日、映画を見ました。",
+      "id": "n5-grammar_fill-033",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "庭（　）犬がいます。",
+      "options": [
+        "に",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Place に Animate が います。there is / exists (for animate beings: people and animals)。",
+      "complete_sentence": "庭に犬がいます。",
+      "id": "n5-grammar_fill-034",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "（　）日、コーヒーを飲みます。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "毎",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：毎 + time noun。every / each (time period)。",
+      "complete_sentence": "毎日、コーヒーを飲みます。",
+      "id": "n5-grammar_fill-035",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "これは（　）ですか。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "何"
+      ],
+      "answer": 3,
+      "explanation": "文法点：何 / 誰 / どこ / いつ / どう / どうして。basic interrogatives: what / who / where / when / how / why。",
+      "complete_sentence": "これは何ですか。",
+      "id": "n5-grammar_fill-036",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "この部屋は静か（　）、きれい（　）す。",
+      "options": [
+        "で",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：na-adjective / noun + で。te-form of na-adjectives and nouns (joining / causal)。",
+      "complete_sentence": "この部屋は静かで、きれいです。",
+      "id": "n5-grammar_fill-037",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "ゆっくり話し（　）ください。",
+      "options": [
+        "て",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-て + ください。please do (polite request)。",
+      "complete_sentence": "ゆっくり話してください。",
+      "id": "n5-grammar_fill-038",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "一緒に行き（　）。",
+      "options": [
+        "ましょう",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb stem + ましょう。let's ___ (polite volitional)。",
+      "complete_sentence": "一緒に行きましょう。",
+      "id": "n5-grammar_fill-039",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "私は20（　）です。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "歳",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Number + 歳 / 才。year of age (age counter)。",
+      "complete_sentence": "私は20歳です。",
+      "id": "n5-grammar_fill-040",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "友達（　）一緒に映画を見ました。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "と",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + と + 一緒に。together with。",
+      "complete_sentence": "友達と一緒に映画を見ました。",
+      "id": "n5-grammar_fill-041",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "毎日、2（　）勉強します。",
+      "options": [
+        "時間",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number + 時間。hour (duration counter)。",
+      "complete_sentence": "毎日、2時間勉強します。",
+      "id": "n5-grammar_fill-042",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "これはペン（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ではありません"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + ではありません。is not / am not / are not (polite negative copula)。",
+      "complete_sentence": "これはペンではありません。",
+      "id": "n5-grammar_fill-043",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "日本に行き（　）です。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "たい"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb stem + たい。want to ___ (speaker's own desire)。",
+      "complete_sentence": "日本に行きたいです。",
+      "id": "n5-grammar_fill-044",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "この本は高くな（　）です。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "い",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：い-adjective stem + くない / くありません。い-adjective negative (is not ___)。",
+      "complete_sentence": "この本は高くないです。",
+      "id": "n5-grammar_fill-045",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "私（　）学生です。",
+      "options": [
+        "ものの",
+        "は",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：X + は。marks the topic of a sentence (pronounced 'wa')。",
+      "complete_sentence": "私は学生です。",
+      "id": "n5-grammar_fill-046",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "紙を3（　）ください。",
+      "options": [
+        "枚",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number + 枚。counter for flat, thin objects。",
+      "complete_sentence": "紙を3枚ください。",
+      "id": "n5-grammar_fill-047",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "今日は（　）ですか。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "何曜日"
+      ],
+      "answer": 3,
+      "explanation": "文法点：何曜日 / 曜日 system。what day of the week / days of the week。",
+      "complete_sentence": "今日は何曜日ですか。",
+      "id": "n5-grammar_fill-048",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "今日は学校に行か（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-ない。plain (casual) negative verb form。",
+      "complete_sentence": "今日は学校に行かない。",
+      "id": "n5-grammar_fill-049",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.103Z"
+    },
+    {
+      "sentence": "あの店は安いです（　）。",
+      "options": [
+        "ばかりに",
+        "よ",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Sentence + よ。I'm telling you / emphasis; informs the listener of new information。",
+      "complete_sentence": "あの店は安いですよ。",
+      "id": "n5-grammar_fill-050",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "これは（　）ですか。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "いくら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：いくら。how much (price / quantity)。",
+      "complete_sentence": "これはいくらですか。",
+      "id": "n5-grammar_fill-051",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "駅（　）歩きます。",
+      "options": [
+        "どころか",
+        "ものの",
+        "まで",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：X + まで。marks the endpoint: until / as far as。",
+      "complete_sentence": "駅まで歩きます。",
+      "id": "n5-grammar_fill-052",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "りんご（　）バナナを買いました。",
+      "options": [
+        "と",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + と + Noun。X and Y (exhaustive listing of nouns)。",
+      "complete_sentence": "りんごとバナナを買いました。",
+      "id": "n5-grammar_fill-053",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "水（　）飲みました。",
+      "options": [
+        "ばかりに",
+        "だけ",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun (or number + counter) + だけ。only / just (basic noun restriction)。",
+      "complete_sentence": "水だけ飲みました。",
+      "id": "n5-grammar_fill-054",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "毎朝、コーヒーを飲み（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ます"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb stem + ます。polite non-past verb ending。",
+      "complete_sentence": "毎朝、コーヒーを飲みます。",
+      "id": "n5-grammar_fill-055",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "10（　）待ってください。",
+      "options": [
+        "分",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number + 分。minute (time / duration counter)。",
+      "complete_sentence": "10分待ってください。",
+      "id": "n5-grammar_fill-056",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "友だち（　）手紙を書きます。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "に",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：X + に。marks target, destination, location of existence, or time。",
+      "complete_sentence": "友だちに手紙を書きます。",
+      "id": "n5-grammar_fill-057",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "バス（　）学校に行きます。",
+      "options": [
+        "ものの",
+        "で",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：X + で。marks the means, tool, or location of an action。",
+      "complete_sentence": "バスで学校に行きます。",
+      "id": "n5-grammar_fill-058",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "りんごは（　）ありますか。",
+      "options": [
+        "いくつ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：いくつ (+ optional counter-specific form)。how many / how old。",
+      "complete_sentence": "りんごはいくつありますか。",
+      "id": "n5-grammar_fill-059",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "スーパーで野菜（　）果物などを買いました。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "や"
+      ],
+      "answer": 3,
+      "explanation": "文法点：X や Y (など)。X and Y (and so on) — non-exhaustive listing。",
+      "complete_sentence": "スーパーで野菜や果物などを買いました。",
+      "id": "n5-grammar_fill-060",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "日本（　）来ました。",
+      "options": [
+        "から",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：X + から。marks the starting point: from (place/time)。",
+      "complete_sentence": "日本から来ました。",
+      "id": "n5-grammar_fill-061",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "静か（　）してください。",
+      "options": [
+        "に",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：na-adjective root + に (+ verb)。adverbial form of na-adjectives。",
+      "complete_sentence": "静かにしてください。",
+      "id": "n5-grammar_fill-062",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "このケーキは500（　）です。",
+      "options": [
+        "どころか",
+        "円",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Number + 円。yen (Japanese currency counter)。",
+      "complete_sentence": "このケーキは500円です。",
+      "id": "n5-grammar_fill-063",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "パン（　）牛乳を買いました。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "と"
+      ],
+      "answer": 3,
+      "explanation": "文法点：X と Y。and (exhaustive listing); with (accompanying person/thing)。",
+      "complete_sentence": "パンと牛乳を買いました。",
+      "id": "n5-grammar_fill-064",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "これは私（　）本です。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "の",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：X + の + Y。marks possession; modifies a noun with another noun。",
+      "complete_sentence": "これは私の本です。",
+      "id": "n5-grammar_fill-065",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "鉛筆を3（　）買いました。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "本"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Number + 本。counter for long, thin objects。",
+      "complete_sentence": "鉛筆を3本買いました。",
+      "id": "n5-grammar_fill-066",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "昨日、宿題をし（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ませんでした"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb stem + ませんでした。polite past negative verb ending。",
+      "complete_sentence": "昨日、宿題をしませんでした。",
+      "id": "n5-grammar_fill-067",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "ここで写真を撮ら（　）でください。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-ない + でください。please do not ___ (polite negative request)。",
+      "complete_sentence": "ここで写真を撮らないでください。",
+      "id": "n5-grammar_fill-068",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "今日はいい天気です（　）。",
+      "options": [
+        "ものの",
+        "ね",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Sentence + ね。right? / isn't it? (seeking agreement or confirming shared knowledge)。",
+      "complete_sentence": "今日はいい天気ですね。",
+      "id": "n5-grammar_fill-069",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "昨日、映画を見（　）。",
+      "options": [
+        "た",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-た。plain (casual) past verb form。",
+      "complete_sentence": "昨日、映画を見た。",
+      "id": "n5-grammar_fill-070",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "誰（　）来ましたか。",
+      "options": [
+        "ものの",
+        "が",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：X + が。marks the grammatical subject; introduces new information。",
+      "complete_sentence": "誰が来ましたか。",
+      "id": "n5-grammar_fill-071",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "静か（　）部屋がほしいです。",
+      "options": [
+        "な",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：な-adjective + な + Noun。な-adjective modifying a noun directly。",
+      "complete_sentence": "静かな部屋がほしいです。",
+      "id": "n5-grammar_fill-072",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "学校（　）行きます。",
+      "options": [
+        "ものの",
+        "へ",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：X + へ。marks direction of movement (pronounced 'e')。",
+      "complete_sentence": "学校へ行きます。",
+      "id": "n5-grammar_fill-073",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "今、3（　）です。",
+      "options": [
+        "どころか",
+        "ものの",
+        "時",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Number + 時。o'clock (hour counter)。",
+      "complete_sentence": "今、3時です。",
+      "id": "n5-grammar_fill-074",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    },
+    {
+      "sentence": "（　）は学校です。",
+      "options": [
+        "ばかりに",
+        "ここ",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：ここ / そこ / あそこ / どこ。here / there / over there / where (place demonstratives)。",
+      "complete_sentence": "ここは学校です。",
+      "id": "n5-grammar_fill-075",
+      "level": "N5",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:54.104Z"
+    }
+  ]
+}

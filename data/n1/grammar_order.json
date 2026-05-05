@@ -1,0 +1,2586 @@
+{
+  "meta": {
+    "level": "N1",
+    "question_type": "grammar_order",
+    "name": "文の組み立て",
+    "count": 142
+  },
+  "questions": [
+    {
+      "id": "n1-grammar_order-001",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "sentence": "彼は ＿＿ ＿＿ ＿★＿ ＿＿ と言っても過言ではない。",
+      "star_position": 2,
+      "fragments": [
+        "現代の",
+        "最高の",
+        "芸術家で",
+        "ある"
+      ],
+      "options": [
+        "現代の",
+        "最高の",
+        "芸術家で",
+        "ある"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：現代の(0) 最高の(1) 芸術家で(2) ある(3)。「～と言っても過言ではない」に繋がる名詞句を構成します。★の位置は「芸術家で」です。",
+      "complete_sentence": "彼は 現代の 最高の 芸術家で ある と言っても過言ではない。"
+    },
+    {
+      "id": "n1-grammar_order-002",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "sentence": "今回の失敗は ＿＿ ＿＿ ＿★＿ ＿＿ にすぎない。",
+      "star_position": 2,
+      "fragments": [
+        "成功への",
+        "過程の",
+        "一形式",
+        "にしか"
+      ],
+      "options": [
+        "成功への",
+        "過程の",
+        "一形式",
+        "にしか"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：成功への(0) 過程の(1) 一形式(2) にしか(3)。「～にしか～ない」の形を作り、「～にすぎない」へと繋げます。★の位置は「一形式」です。",
+      "complete_sentence": "今回の失敗は 成功への 過程の 一形式 にしか にすぎない。"
+    },
+    {
+      "id": "n1-grammar_order-003",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "sentence": "平和な社会を ＿＿ ＿＿ ＿★＿ ＿＿ ことだ。",
+      "star_position": 2,
+      "fragments": [
+        "築くためには",
+        "一人一人が",
+        "意識を",
+        "変える"
+      ],
+      "options": [
+        "築くためには",
+        "一人一人が",
+        "意識を",
+        "変える"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：築くためには(0) 一人一人が(1) 意識を(2) 変える(3)。目的（築くためには）の後に主語と動詞を配置します。★の位置は「意識を」です。",
+      "complete_sentence": "平和な社会を 築くためには 一人一人が 意識を 変える ことだ。"
+    },
+    {
+      "id": "n1-grammar_order-004",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "sentence": "そのニュースは ＿＿ ＿＿ ＿★＿ ＿＿ を与えた。",
+      "star_position": 2,
+      "fragments": [
+        "世界中に",
+        "大きな",
+        "衝撃と",
+        "感動"
+      ],
+      "options": [
+        "世界中に",
+        "大きな",
+        "衝撃と",
+        "感動"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：世界中に(0) 大きな(1) 衝撃と(2) 感動(3)。「衝撃と感動を与える」というフレーズを構成します。★の位置は「衝撃と」です。",
+      "complete_sentence": "そのニュースは 世界中に 大きな 衝撃と 感動 を与えた。"
+    },
+    {
+      "id": "n1-grammar_order-005",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "sentence": "環境問題は ＿＿ ＿＿ ＿★＿ ＿＿ 課題である。",
+      "star_position": 2,
+      "fragments": [
+        "人類が",
+        "直面している",
+        "最も",
+        "深刻な"
+      ],
+      "options": [
+        "人類が",
+        "直面している",
+        "最も",
+        "深刻な"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：人類が(0) 直面している(1) 最も(2) 深刻な(3)。連体修飾節「人類が直面している」を先行させます。★の位置は「最も」です。",
+      "complete_sentence": "環境問題は 人類が 直面している 最も 深刻な 課題である。"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼の遅刻に至っては",
+        "は",
+        "は、もう",
+        "許せない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼の遅刻に至っては は は、もう 許せない。。文法点：Noun + に至っては。",
+      "complete_sentence": "彼の遅刻に至っては、もう許せない。",
+      "id": "n1-grammar_order-006",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、嘘を",
+        "先生ともあろう者が",
+        "つくとは。",
+        ""
+      ],
+      "answer": 3,
+      "explanation": "正解順序：先生ともあろう者が 、嘘を  つくとは。。文法点：Noun + ともあろう + noun。",
+      "complete_sentence": "先生ともあろう者が、嘘をつくとは。",
+      "id": "n1-grammar_order-007",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ざいます。",
+        "りがとうご",
+        "りが",
+        "お忙しいところを、ありが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：お忙しいところを、ありが りが りがとうご ざいます。。文法点：V plain / adj + ところを。",
+      "complete_sentence": "お忙しいところを、ありがとうございます。",
+      "id": "n1-grammar_order-008",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は歴史を",
+        "説明した。",
+        "引き合いに",
+        "出して"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は歴史を 引き合いに 出して 説明した。。文法点：Noun + を引き合いに (出して)。",
+      "complete_sentence": "彼は歴史を引き合いに出して説明した。",
+      "id": "n1-grammar_order-009",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "破った。",
+        "あろうことか、彼は",
+        "は",
+        "は約束を"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：あろうことか、彼は は は約束を 破った。。文法点：あろうことか (sentence-initial)。",
+      "complete_sentence": "あろうことか、彼は約束を破った。",
+      "id": "n1-grammar_order-010",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "散歩を",
+        "兼ねて",
+        "、買い物に",
+        "行った。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：散歩を 兼ねて 、買い物に 行った。。文法点：Noun + を兼ねて。",
+      "complete_sentence": "散歩を兼ねて、買い物に行った。",
+      "id": "n1-grammar_order-011",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "今回は",
+        "あしからず。",
+        "ご要望に",
+        "お応えできかねます。"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：今回は ご要望に お応えできかねます。 あしからず。。文法点：あしからず (sentence-final)。",
+      "complete_sentence": "今回はご要望にお応えできかねます。あしからず。",
+      "id": "n1-grammar_order-012",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ていく。",
+        "矢のごとく、時間が",
+        "間が",
+        "間が過ぎ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：矢のごとく、時間が 間が 間が過ぎ ていく。。文法点：Plain form / noun + の + ごとく。",
+      "complete_sentence": "矢のごとく、時間が過ぎていく。",
+      "id": "n1-grammar_order-013",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ばよかっ",
+        "早く言って",
+        "くれれ",
+        "たものを。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：早く言って くれれ ばよかっ たものを。。文法点：Plain form + ものを。",
+      "complete_sentence": "早く言ってくれればよかったものを。",
+      "id": "n1-grammar_order-014",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "門家だ。",
+        "彼はこの会社きって",
+        "って",
+        "っての専"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼はこの会社きって って っての専 門家だ。。文法点：Noun (group / category) + きっての。",
+      "complete_sentence": "彼はこの会社きっての専門家だ。",
+      "id": "n1-grammar_order-015",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "晴らしい。",
+        "雰囲気も素",
+        "ら、",
+        "味もさることなが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：味もさることなが ら、 雰囲気も素 晴らしい。。文法点：Noun + もさることながら。",
+      "complete_sentence": "味もさることながら、雰囲気も素晴らしい。",
+      "id": "n1-grammar_order-016",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "を見直す必",
+        "現状に鑑みて、計画を",
+        "要がある。",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：現状に鑑みて、計画を を を見直す必 要がある。。文法点：Noun + に鑑みて。",
+      "complete_sentence": "現状に鑑みて、計画を見直す必要がある。",
+      "id": "n1-grammar_order-017",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いでは",
+        "おかない。",
+        "いでは",
+        "彼に一言言わないでは"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼に一言言わないでは いでは いでは おかない。。文法点：V ない-form + ではおかない。",
+      "complete_sentence": "彼に一言言わないではおかない。",
+      "id": "n1-grammar_order-018",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "及ばずなが",
+        "ら、お手伝いさせて",
+        "い",
+        "ただきます。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：及ばずなが ら、お手伝いさせて い ただきます。。文法点：及ばずながら。",
+      "complete_sentence": "及ばずながら、お手伝いさせていただきます。",
+      "id": "n1-grammar_order-019",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "いやしくも",
+        "教師であるな",
+        "なるべきだ。",
+        "ら、模範と"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：いやしくも 教師であるな ら、模範と なるべきだ。。文法点：いやしくも (sentence-initial)。",
+      "complete_sentence": "いやしくも教師であるなら、模範となるべきだ。",
+      "id": "n1-grammar_order-020",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "裏腹に、結果は",
+        "々だった。",
+        "散",
+        "期待とは"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：期待とは 裏腹に、結果は 散 々だった。。文法点：Noun / plain form + とは裏腹に。",
+      "complete_sentence": "期待とは裏腹に、結果は散々だった。",
+      "id": "n1-grammar_order-021",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "健康は",
+        "自分のためであり、ひいては",
+        "家族の",
+        "ためでもある。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：健康は 自分のためであり、ひいては 家族の ためでもある。。文法点：ひいては (sentence-initial / mid-sentence)。",
+      "complete_sentence": "健康は自分のためであり、ひいては家族のためでもある。",
+      "id": "n1-grammar_order-022",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼女は",
+        "泣かんばか",
+        "りの表情",
+        "だった。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼女は 泣かんばか りの表情 だった。。文法点：V ない-stem + んばかり(に)。",
+      "complete_sentence": "彼女は泣かんばかりの表情だった。",
+      "id": "n1-grammar_order-023",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供ならいざ知らず、大人が",
+        "そんな失敗を",
+        "を",
+        "をするなんて。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供ならいざ知らず、大人が そんな失敗を を をするなんて。。文法点：Noun / plain form + ならいざ知らず。",
+      "complete_sentence": "子供ならいざ知らず、大人がそんな失敗をするなんて。",
+      "id": "n1-grammar_order-024",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供でありなが",
+        "ら、",
+        "うに話す。",
+        "大人のよ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：子供でありなが ら、 大人のよ うに話す。。文法点：Noun / na-adj + でありながら。",
+      "complete_sentence": "子供でありながら、大人のように話す。",
+      "id": "n1-grammar_order-025",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "は自分の",
+        "は",
+        "道を歩む。",
+        "どうあろうとも、私は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：どうあろうとも、私は は は自分の 道を歩む。。文法点：V volitional + とも / あろうとも。",
+      "complete_sentence": "どうあろうとも、私は自分の道を歩む。",
+      "id": "n1-grammar_order-026",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "これは",
+        "努力の結果に",
+        "他な",
+        "らない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：これは 努力の結果に 他な らない。。文法点：Noun + に他ならない。",
+      "complete_sentence": "これは努力の結果に他ならない。",
+      "id": "n1-grammar_order-027",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "新商品を",
+        "新商品を",
+        "業界に先駆けて、新商品を",
+        "発売した。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：業界に先駆けて、新商品を 新商品を 新商品を 発売した。。文法点：Noun + に先駆けて。",
+      "complete_sentence": "業界に先駆けて、新商品を発売した。",
+      "id": "n1-grammar_order-028",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "事故の瞬間を",
+        "にした。",
+        "目",
+        "の当たり"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：事故の瞬間を 目 の当たり にした。。文法点：Noun + を + 目の当たりにする。",
+      "complete_sentence": "事故の瞬間を目の当たりにした。",
+      "id": "n1-grammar_order-029",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "失敗だ。",
+        "ちな",
+        "若者にありが",
+        "それは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：それは 若者にありが ちな 失敗だ。。文法点：Noun + にありがち。",
+      "complete_sentence": "それは若者にありがちな失敗だ。",
+      "id": "n1-grammar_order-030",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "試験を",
+        "ている。",
+        "前にして",
+        "、緊張し"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：試験を 前にして 、緊張し ている。。文法点：Noun + を前にして。",
+      "complete_sentence": "試験を前にして、緊張している。",
+      "id": "n1-grammar_order-031",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、遅刻は",
+        "、遅刻は",
+        "許されない。",
+        "理由のいかんによらず、遅刻は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：理由のいかんによらず、遅刻は 、遅刻は 、遅刻は 許されない。。文法点：Noun + (の) + いかんによらず / いかんを問わず / いかんにかかわらず。",
+      "complete_sentence": "理由のいかんによらず、遅刻は許されない。",
+      "id": "n1-grammar_order-032",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ほかならぬあなたの頼みだから",
+        "だから、引",
+        "だから",
+        "き受けよう。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：ほかならぬあなたの頼みだから だから だから、引 き受けよう。。文法点：Noun + ほかならぬ + noun。",
+      "complete_sentence": "ほかならぬあなたの頼みだから、引き受けよう。",
+      "id": "n1-grammar_order-033",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "しかるべきだ。",
+        "あって",
+        "謝罪が",
+        "彼には"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼には 謝罪が あって しかるべきだ。。文法点：V-て form + しかるべき。",
+      "complete_sentence": "彼には謝罪があってしかるべきだ。",
+      "id": "n1-grammar_order-034",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ない。当然のことを",
+        "お礼を言われることでは",
+        "のことです。",
+        "したまで"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：お礼を言われることでは ない。当然のことを したまで のことです。。文法点：V-た form + までのことだ。",
+      "complete_sentence": "お礼を言われることではない。当然のことをしたまでのことです。",
+      "id": "n1-grammar_order-035",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "リーダーた",
+        "るべきだ。",
+        "る者、部下",
+        "の模範とな"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：リーダーた る者、部下 の模範とな るべきだ。。文法点：Noun + たる者。",
+      "complete_sentence": "リーダーたる者、部下の模範となるべきだ。",
+      "id": "n1-grammar_order-036",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "人間たる",
+        "ゆえんだ。",
+        "考えるこ",
+        "とこそ、"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：考えるこ とこそ、 人間たる ゆえんだ。。文法点：Noun + たるゆえん。",
+      "complete_sentence": "考えることこそ、人間たるゆえんだ。",
+      "id": "n1-grammar_order-037",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "褒められて、彼は",
+        "まんざらでもない顔を",
+        "を",
+        "をしていた。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：褒められて、彼は まんざらでもない顔を を をしていた。。文法点：まんざら + plain form + でもない。",
+      "complete_sentence": "褒められて、彼はまんざらでもない顔をしていた。",
+      "id": "n1-grammar_order-038",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "この事実を世に知らしめずには",
+        "おかない。",
+        "しめずには",
+        "しめずには"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：この事実を世に知らしめずには しめずには しめずには おかない。。文法点：V negative stem + ずにはおかない。",
+      "complete_sentence": "この事実を世に知らしめずにはおかない。",
+      "id": "n1-grammar_order-039",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "これを",
+        "ります。",
+        "もって、会議を",
+        "終わ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：これを もって、会議を 終わ ります。。文法点：Noun + をもって。",
+      "complete_sentence": "これをもって、会議を終わります。",
+      "id": "n1-grammar_order-040",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.156Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "理解した。",
+        "ところを",
+        "ところを",
+        "彼の言わんとするところを"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼の言わんとするところを ところを ところを 理解した。。文法点：Verb volitional + んとする。",
+      "complete_sentence": "彼の言わんとするところを理解した。",
+      "id": "n1-grammar_order-041",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "男であれ",
+        "平等だ。",
+        "女であれ",
+        "、誰もが"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：男であれ 女であれ 、誰もが 平等だ。。文法点：Noun + であれ + noun + であれ。",
+      "complete_sentence": "男であれ女であれ、誰もが平等だ。",
+      "id": "n1-grammar_order-042",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "喜べない。",
+        "仮に成功",
+        "ところで、",
+        "したとした"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：仮に成功 したとした ところで、 喜べない。。文法点：Plain form + としたところで。",
+      "complete_sentence": "仮に成功したとしたところで、喜べない。",
+      "id": "n1-grammar_order-043",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "意外に",
+        "意外に",
+        "簡単と思いきや、意外に",
+        "難しかった。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：簡単と思いきや、意外に 意外に 意外に 難しかった。。文法点：Plain form + と思いきや。",
+      "complete_sentence": "簡単と思いきや、意外に難しかった。",
+      "id": "n1-grammar_order-044",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "お近くにお越しの折には",
+        "は",
+        "は、お寄り",
+        "ください。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：お近くにお越しの折には は は、お寄り ください。。文法点：V plain / noun + の + 折(に)。",
+      "complete_sentence": "お近くにお越しの折には、お寄りください。",
+      "id": "n1-grammar_order-045",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "生徒たちは",
+        "生徒たちは",
+        "走り出した。",
+        "ベルが鳴るが早いか、生徒たちは"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：ベルが鳴るが早いか、生徒たちは 生徒たちは 生徒たちは 走り出した。。文法点：V dict-form + が早いか。",
+      "complete_sentence": "ベルが鳴るが早いか、生徒たちは走り出した。",
+      "id": "n1-grammar_order-046",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "田中さんとやらは",
+        "",
+        "、どこの",
+        "人ですか。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：田中さんとやらは  、どこの 人ですか。。文法点：Noun / plain form + とやら。",
+      "complete_sentence": "田中さんとやらは、どこの人ですか。",
+      "id": "n1-grammar_order-047",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "至りです。",
+        "いただ",
+        "このような賞を",
+        "き、光栄の"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：このような賞を いただ き、光栄の 至りです。。文法点：Noun (emotion) + の至り。",
+      "complete_sentence": "このような賞をいただき、光栄の至りです。",
+      "id": "n1-grammar_order-048",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "して",
+        "いない。",
+        "当の本人は",
+        "全く気に"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：当の本人は 全く気に して いない。。文法点：当の + noun。",
+      "complete_sentence": "当の本人は全く気にしていない。",
+      "id": "n1-grammar_order-049",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "起こった。",
+        "起こるべくして",
+        "",
+        "この事件は"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：この事件は 起こるべくして  起こった。。文法点：Verb dict-form + べくして。",
+      "complete_sentence": "この事件は起こるべくして起こった。",
+      "id": "n1-grammar_order-050",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "東京を",
+        "皮切りに",
+        "が始まる。",
+        "、全国ツアー"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：東京を 皮切りに 、全国ツアー が始まる。。文法点：Noun + を皮切りに(して)。",
+      "complete_sentence": "東京を皮切りに、全国ツアーが始まる。",
+      "id": "n1-grammar_order-051",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "入っては",
+        "許可なしに、ここに入っては",
+        "入っては",
+        "いけない。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：許可なしに、ここに入っては 入っては 入っては いけない。。文法点：Noun + なしに(は)。",
+      "complete_sentence": "許可なしに、ここに入ってはいけない。",
+      "id": "n1-grammar_order-052",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は困難を",
+        "ものともせず、目標を",
+        "",
+        "達成した。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼は困難を ものともせず、目標を  達成した。。文法点：Noun + をものともせず(に)。",
+      "complete_sentence": "彼は困難をものともせず、目標を達成した。",
+      "id": "n1-grammar_order-053",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "必要だ。",
+        "留学する",
+        "となれば",
+        "、準備が"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：留学する となれば 、準備が 必要だ。。文法点：Plain form + となれば。",
+      "complete_sentence": "留学するとなれば、準備が必要だ。",
+      "id": "n1-grammar_order-054",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "それは",
+        "えの苦労",
+        "貧しさゆ",
+        "だった。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：それは 貧しさゆ えの苦労 だった。。文法点：Noun + (が)ゆえの / ゆえの + noun。",
+      "complete_sentence": "それは貧しさゆえの苦労だった。",
+      "id": "n1-grammar_order-055",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "緊急事態とあっては",
+        "、すぐ",
+        "駆けつけなけ",
+        "ればならない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：緊急事態とあっては 、すぐ 駆けつけなけ ればならない。。文法点：Plain form / noun + とあっては。",
+      "complete_sentence": "緊急事態とあっては、すぐ駆けつけなければならない。",
+      "id": "n1-grammar_order-056",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "",
+        "ばならない。",
+        "大人ともなれば、責任を",
+        "持たなけれ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：大人ともなれば、責任を  持たなけれ ばならない。。文法点：Noun / V plain + ともなれば。",
+      "complete_sentence": "大人ともなれば、責任を持たなければならない。",
+      "id": "n1-grammar_order-057",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "毎度のことながら、彼は",
+        "、彼は",
+        "遅刻した。",
+        "、彼は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：毎度のことながら、彼は 、彼は 、彼は 遅刻した。。文法点：Noun + の + こと + ながら。",
+      "complete_sentence": "毎度のことながら、彼は遅刻した。",
+      "id": "n1-grammar_order-058",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "度も遅刻す",
+        "だしも、何",
+        "一度ならま",
+        "るのは困る。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：一度ならま だしも、何 度も遅刻す るのは困る。。文法点：Noun / plain form + ならまだしも。",
+      "complete_sentence": "一度ならまだしも、何度も遅刻するのは困る。",
+      "id": "n1-grammar_order-059",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "私ごとき者には",
+        "もっ",
+        "言葉です。",
+        "たいないお"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：私ごとき者には もっ たいないお 言葉です。。文法点：Noun + ごとき (+ noun)。",
+      "complete_sentence": "私ごとき者にはもったいないお言葉です。",
+      "id": "n1-grammar_order-060",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は寝たが",
+        "最後、朝まで",
+        "きない。",
+        "起"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は寝たが 最後、朝まで 起 きない。。文法点：V-たら / V dict + が最後。",
+      "complete_sentence": "彼は寝たが最後、朝まで起きない。",
+      "id": "n1-grammar_order-061",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "これが",
+        "あろう。",
+        "なんで",
+        "愛でなくて"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：これが 愛でなくて なんで あろう。。文法点：i-adj 〜くて / na-adj + で + なんであろう。",
+      "complete_sentence": "これが愛でなくてなんであろう。",
+      "id": "n1-grammar_order-062",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供といえども、約束は",
+        "守るべきだ。",
+        "約束は",
+        "約束は"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供といえども、約束は 約束は 約束は 守るべきだ。。文法点：Plain form + といえども。",
+      "complete_sentence": "子供といえども、約束は守るべきだ。",
+      "id": "n1-grammar_order-063",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "た、ご挨拶に",
+        "お礼かたが",
+        "伺",
+        "います。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：お礼かたが た、ご挨拶に 伺 います。。文法点：V ます-stem / noun + かたがた。",
+      "complete_sentence": "お礼かたがた、ご挨拶に伺います。",
+      "id": "n1-grammar_order-064",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "くれないか。",
+        "伝って",
+        "伝って",
+        "昔のよしみで、手伝って"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：昔のよしみで、手伝って 伝って 伝って くれないか。。文法点：Noun + のよしみで。",
+      "complete_sentence": "昔のよしみで、手伝ってくれないか。",
+      "id": "n1-grammar_order-065",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "やりたいが",
+        "、いかん",
+        "間がない。",
+        "せん、時"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：やりたいが 、いかん せん、時 間がない。。文法点：いかんせん (sentence-initial / mid-sentence)。",
+      "complete_sentence": "やりたいが、いかんせん、時間がない。",
+      "id": "n1-grammar_order-066",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ら",
+        "現場から",
+        "犯人とおぼしき男が",
+        "ら逃げた。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：犯人とおぼしき男が 現場から ら ら逃げた。。文法点：Plain form + とおぼしい / とおぼしき。",
+      "complete_sentence": "犯人とおぼしき男が現場から逃げた。",
+      "id": "n1-grammar_order-067",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "台風のため、会議の中止を",
+        "止を",
+        "止を余儀な",
+        "くされた。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：台風のため、会議の中止を 止を 止を余儀な くされた。。文法点：Noun + を余儀なくされる。",
+      "complete_sentence": "台風のため、会議の中止を余儀なくされた。",
+      "id": "n1-grammar_order-068",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "らの味を",
+        "守っている。",
+        "昔なが",
+        "この店は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：この店は 昔なが らの味を 守っている。。文法点：Noun + ながらの + noun。",
+      "complete_sentence": "この店は昔ながらの味を守っている。",
+      "id": "n1-grammar_order-069",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "それが",
+        "本当であったとして",
+        "も、",
+        "驚かない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：それが 本当であったとして も、 驚かない。。文法点：Plain form + であったとしても。",
+      "complete_sentence": "それが本当であったとしても、驚かない。",
+      "id": "n1-grammar_order-070",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "情だった。",
+        "彼は今に",
+        "も泣かんと",
+        "ばかりの表"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は今に も泣かんと ばかりの表 情だった。。文法点：Verb volitional + ん + とばかりに。",
+      "complete_sentence": "彼は今にも泣かんとばかりの表情だった。",
+      "id": "n1-grammar_order-071",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "その景色は",
+        "",
+        "らだった。",
+        "まるで夢さなが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：その景色は まるで夢さなが  らだった。。文法点：Noun / plain form + さながら。",
+      "complete_sentence": "その景色はまるで夢さながらだった。",
+      "id": "n1-grammar_order-072",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ず夜とい",
+        "わず、働",
+        "き続けた。",
+        "昼といわ"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：昼といわ ず夜とい わず、働 き続けた。。文法点：Noun + といわず + noun + といわず。",
+      "complete_sentence": "昼といわず夜といわず、働き続けた。",
+      "id": "n1-grammar_order-073",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "",
+        "、気が",
+        "行かないでもないが",
+        "進まない。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：行かないでもないが 、気が  進まない。。文法点：V ない-form + でもない。",
+      "complete_sentence": "行かないでもないが、気が進まない。",
+      "id": "n1-grammar_order-074",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ばからない。",
+        "言っては",
+        "彼は自分が一番だと言っては",
+        "言っては"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は自分が一番だと言っては 言っては 言っては ばからない。。文法点：V-て form + はばからない。",
+      "complete_sentence": "彼は自分が一番だと言ってはばからない。",
+      "id": "n1-grammar_order-075",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "言って",
+        "なのことを",
+        "言わずもが",
+        "しまった。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：言わずもが なのことを 言って しまった。。文法点：V negative stem + ずもがな。",
+      "complete_sentence": "言わずもがなのことを言ってしまった。",
+      "id": "n1-grammar_order-076",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "こともあろうに、父の誕生日を",
+        "てしまった。",
+        "忘れて",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：こともあろうに、父の誕生日を 忘れて て てしまった。。文法点：こともあろうに。",
+      "complete_sentence": "こともあろうに、父の誕生日を忘れてしまった。",
+      "id": "n1-grammar_order-077",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "最後まで",
+        "やり遂げる。",
+        "最後まで",
+        "ひとたび決めたら、最後まで"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：ひとたび決めたら、最後まで 最後まで 最後まで やり遂げる。。文法点：ひとたび + V + (ば / と / たら)。",
+      "complete_sentence": "ひとたび決めたら、最後までやり遂げる。",
+      "id": "n1-grammar_order-078",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "戦を始めた。",
+        "、新しい挑",
+        "飽き足らず",
+        "彼は現状に"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は現状に 飽き足らず 、新しい挑 戦を始めた。。文法点：Noun / plain form + に飽き足らず。",
+      "complete_sentence": "彼は現状に飽き足らず、新しい挑戦を始めた。",
+      "id": "n1-grammar_order-079",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.157Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "があった。",
+        "、才能",
+        "彼は生まれなが",
+        "らにして"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は生まれなが らにして 、才能 があった。。文法点：Noun / V stem + ながらに(して)。",
+      "complete_sentence": "彼は生まれながらにして、才能があった。",
+      "id": "n1-grammar_order-080",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "堪",
+        "その映画は",
+        "えなかった。",
+        "ひどすぎて、見るに"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：その映画は ひどすぎて、見るに 堪 えなかった。。文法点：Verb dict / noun + に堪えない。",
+      "complete_sentence": "その映画はひどすぎて、見るに堪えなかった。",
+      "id": "n1-grammar_order-081",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼は会社で働くかたわら、夜は",
+        "、夜は",
+        "大学で学んでいる。",
+        "、夜は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は会社で働くかたわら、夜は 、夜は 、夜は 大学で学んでいる。。文法点：V plain / noun + の + かたわら。",
+      "complete_sentence": "彼は会社で働くかたわら、夜は大学で学んでいる。",
+      "id": "n1-grammar_order-082",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、追加の仕",
+        "事が来た。",
+        "",
+        "ただでさえ忙しいのに"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：ただでさえ忙しいのに  、追加の仕 事が来た。。文法点：ただでさえ。",
+      "complete_sentence": "ただでさえ忙しいのに、追加の仕事が来た。",
+      "id": "n1-grammar_order-083",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "引き下が",
+        "た手前、",
+        "れない。",
+        "約束し"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：約束し た手前、 引き下が れない。。文法点：V plain / noun + の + 手前。",
+      "complete_sentence": "約束した手前、引き下がれない。",
+      "id": "n1-grammar_order-084",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、上司に",
+        "遅刻しようものなら、上司に",
+        "、上司に",
+        "叱られる。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：遅刻しようものなら、上司に 、上司に 、上司に 叱られる。。文法点：Verb volitional + ものなら。",
+      "complete_sentence": "遅刻しようものなら、上司に叱られる。",
+      "id": "n1-grammar_order-085",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "分かった。",
+        "30歳にして初めて、親の苦労が",
+        "親の苦労が",
+        "親の苦労が"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：30歳にして初めて、親の苦労が 親の苦労が 親の苦労が 分かった。。文法点：Noun + にして初めて。",
+      "complete_sentence": "30歳にして初めて、親の苦労が分かった。",
+      "id": "n1-grammar_order-086",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "禁じ得",
+        "その話を",
+        "なかった。",
+        "聞いて、涙を"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：その話を 聞いて、涙を 禁じ得 なかった。。文法点：Noun (emotion) + を禁じ得ない。",
+      "complete_sentence": "その話を聞いて、涙を禁じ得なかった。",
+      "id": "n1-grammar_order-087",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "を進めた。",
+        "、計画",
+        "尻目に",
+        "彼は周囲の心配を"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は周囲の心配を 尻目に 、計画 を進めた。。文法点：Noun + を尻目に。",
+      "complete_sentence": "彼は周囲の心配を尻目に、計画を進めた。",
+      "id": "n1-grammar_order-088",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あり得ない。",
+        "、成功は",
+        "、成功は",
+        "努力することなしに、成功は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：努力することなしに、成功は 、成功は 、成功は あり得ない。。文法点：V dict-form + ことなしに。",
+      "complete_sentence": "努力することなしに、成功はあり得ない。",
+      "id": "n1-grammar_order-089",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "入るな",
+        "彼は部屋に",
+        "出した。",
+        "り、泣き"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は部屋に 入るな り、泣き 出した。。文法点：V dict-form + なり。",
+      "complete_sentence": "彼は部屋に入るなり、泣き出した。",
+      "id": "n1-grammar_order-090",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "人生を",
+        "旅になぞらえて",
+        "表",
+        "現した。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：人生を 旅になぞらえて 表 現した。。文法点：Noun + になぞらえて。",
+      "complete_sentence": "人生を旅になぞらえて表現した。",
+      "id": "n1-grammar_order-091",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "以前に",
+        "もまして",
+        "、忙しく",
+        "なった。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：以前に もまして 、忙しく なった。。文法点：Noun + にもまして。",
+      "complete_sentence": "以前にもまして、忙しくなった。",
+      "id": "n1-grammar_order-092",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "を続けた。",
+        "、調査",
+        "ために",
+        "真実を知らんが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：真実を知らんが ために 、調査 を続けた。。文法点：V ない-stem + んがため(に)。",
+      "complete_sentence": "真実を知らんがために、調査を続けた。",
+      "id": "n1-grammar_order-093",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "電話するなりメールするなり、連絡して",
+        "なり、連絡して",
+        "なり、連絡して",
+        "ください。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：電話するなりメールするなり、連絡して なり、連絡して なり、連絡して ください。。文法点：Noun/V + なり + noun/V + なり。",
+      "complete_sentence": "電話するなりメールするなり、連絡してください。",
+      "id": "n1-grammar_order-094",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "閉店します。",
+        "の店は",
+        "の店は",
+        "今月を限りに、この店は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：今月を限りに、この店は の店は の店は 閉店します。。文法点：Noun + を限りに。",
+      "complete_sentence": "今月を限りに、この店は閉店します。",
+      "id": "n1-grammar_order-095",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あるまじき",
+        "教師に",
+        "行為だ。",
+        "それは"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：それは 教師に あるまじき 行為だ。。文法点：V dict-form + まじき + noun。",
+      "complete_sentence": "それは教師にあるまじき行為だ。",
+      "id": "n1-grammar_order-096",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "、",
+        "素晴らしい",
+        "美しい景色と相まって",
+        "体験だった。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：美しい景色と相まって 、 素晴らしい 体験だった。。文法点：Noun + と相まって。",
+      "complete_sentence": "美しい景色と相まって、素晴らしい体験だった。",
+      "id": "n1-grammar_order-097",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "語は必須だ。",
+        "、英",
+        "あって",
+        "このグローバル時代に"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：このグローバル時代に あって 、英 語は必須だ。。文法点：Noun + にあって。",
+      "complete_sentence": "このグローバル時代にあって、英語は必須だ。",
+      "id": "n1-grammar_order-098",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ころだ。",
+        "いったと",
+        "50人と",
+        "参加者は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：参加者は 50人と いったと ころだ。。文法点：Number / noun + といったところだ。",
+      "complete_sentence": "参加者は50人といったところだ。",
+      "id": "n1-grammar_order-099",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.165Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "想像に",
+        "ない。",
+        "難く",
+        "彼の苦労は"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼の苦労は 想像に 難く ない。。文法点：Noun / V dict + に難くない。",
+      "complete_sentence": "彼の苦労は想像に難くない。",
+      "id": "n1-grammar_order-0100",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.331Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "京都ならでは",
+        "色だ。",
+        "の美",
+        "しい景"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：京都ならでは の美 しい景 色だ。。文法点：Noun + ならでは(の)。",
+      "complete_sentence": "京都ならではの美しい景色だ。",
+      "id": "n1-grammar_order-0101",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.331Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "だめな",
+        "ら、諦",
+        "でだ。",
+        "めるま"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：だめな ら、諦 めるま でだ。。文法点：V dict-form + までだ / までのことだ。",
+      "complete_sentence": "だめなら、諦めるまでだ。",
+      "id": "n1-grammar_order-0102",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.331Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼が来るとは",
+        "思わ",
+        "った。",
+        "なか"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼が来るとは 思わ なか った。。文法点：Plain form + とは。",
+      "complete_sentence": "彼が来るとは思わなかった。",
+      "id": "n1-grammar_order-0103",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.331Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "い",
+        "彼をおいて、適任者は",
+        "な",
+        "い。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼をおいて、適任者は い な い。。文法点：Noun + をおいて (+ negative)。",
+      "complete_sentence": "彼をおいて、適任者はいない。",
+      "id": "n1-grammar_order-0104",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.331Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "行っ",
+        "散歩が",
+        "てら、買い物に",
+        "た。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：散歩が てら、買い物に 行っ た。。文法点：Verb ます-stem / noun + がてら。",
+      "complete_sentence": "散歩がてら、買い物に行った。",
+      "id": "n1-grammar_order-0105",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "立ち入るべから",
+        "ず",
+        "ここに",
+        "。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：ここに 立ち入るべから ず 。。文法点：V dict-form + べからず / べからざる。",
+      "complete_sentence": "ここに立ち入るべからず。",
+      "id": "n1-grammar_order-0106",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "謝らずには",
+        "すま",
+        "ないだ",
+        "ろう。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：謝らずには すま ないだ ろう。。文法点：V negative stem + ずにはすまない / ないではすまない。",
+      "complete_sentence": "謝らずにはすまないだろう。",
+      "id": "n1-grammar_order-0107",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ない状",
+        "況だ。",
+        "も言え",
+        "言おうに"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：言おうに も言え ない状 況だ。。文法点：V volitional + にも + V potential negative。",
+      "complete_sentence": "言おうにも言えない状況だ。",
+      "id": "n1-grammar_order-0108",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "一瞬た",
+        "りとも",
+        "油断で",
+        "きない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：一瞬た りとも 油断で きない。。文法点：Number + counter + たりとも + negative。",
+      "complete_sentence": "一瞬たりとも油断できない。",
+      "id": "n1-grammar_order-0109",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "語",
+        "愛なくして、人生は",
+        "い。",
+        "れな"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：愛なくして、人生は 語 れな い。。文法点：Noun + なくして(は)。",
+      "complete_sentence": "愛なくして、人生は語れない。",
+      "id": "n1-grammar_order-0110",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "家を",
+        "彼は",
+        "り出した。",
+        "出るや、走"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：彼は 家を 出るや、走 り出した。。文法点：Verb dict-form + や / や否や。",
+      "complete_sentence": "彼は家を出るや、走り出した。",
+      "id": "n1-grammar_order-0111",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "みだ。",
+        "の極",
+        "贅沢",
+        "このホテルは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：このホテルは 贅沢 の極 みだ。。文法点：Noun + の極み。",
+      "complete_sentence": "このホテルは贅沢の極みだ。",
+      "id": "n1-grammar_order-0112",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "伝統に則って、式を",
+        "行",
+        "た。",
+        "っ"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：伝統に則って、式を 行 っ た。。文法点：Noun + に則って / に則り。",
+      "complete_sentence": "伝統に則って、式を行った。",
+      "id": "n1-grammar_order-0113",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "べくも",
+        "彼の意図を",
+        "ない。",
+        "知る"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼の意図を 知る べくも ない。。文法点：Verb dict-form + べくもない。",
+      "complete_sentence": "彼の意図を知るべくもない。",
+      "id": "n1-grammar_order-0114",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "おせた。",
+        "逃げお",
+        "警察から",
+        "犯人は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：犯人は 警察から 逃げお おせた。。文法点：Verb ます-stem + おおせる。",
+      "complete_sentence": "犯人は警察から逃げおおせた。",
+      "id": "n1-grammar_order-0115",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "使いこなして",
+        "英語を",
+        "いる。",
+        "彼は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼は 英語を 使いこなして いる。。文法点：Verb ます-stem + こなす。",
+      "complete_sentence": "彼は英語を使いこなしている。",
+      "id": "n1-grammar_order-0116",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "話し",
+        "冗談めかして",
+        "た。",
+        "彼は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼は 冗談めかして 話し た。。文法点：Noun + めかす。",
+      "complete_sentence": "彼は冗談めかして話した。",
+      "id": "n1-grammar_order-0117",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "言うまでもなく、彼は",
+        "天",
+        "才",
+        "だ。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：言うまでもなく、彼は 天 才 だ。。文法点：V dict-form + までもなく。",
+      "complete_sentence": "言うまでもなく、彼は天才だ。",
+      "id": "n1-grammar_order-0118",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "これほどの大事件は",
+        "初",
+        "めて",
+        "だ。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：これほどの大事件は 初 めて だ。。文法点：Noun / plain form + ほどの + noun。",
+      "complete_sentence": "これほどの大事件は初めてだ。",
+      "id": "n1-grammar_order-0119",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "彼にまつわる噂を",
+        "聞",
+        "い",
+        "た。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：彼にまつわる噂を 聞 い た。。文法点：Noun + にまつわる。",
+      "complete_sentence": "彼にまつわる噂を聞いた。",
+      "id": "n1-grammar_order-0120",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あ",
+        "る。",
+        "味に定評が",
+        "この店は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：この店は 味に定評が あ る。。文法点：Noun + に定評がある。",
+      "complete_sentence": "この店は味に定評がある。",
+      "id": "n1-grammar_order-0121",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "足りない",
+        "ことだ。",
+        "取るに",
+        "それは"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：それは 取るに 足りない ことだ。。文法点：Noun / V dict-form + に足りない。",
+      "complete_sentence": "それは取るに足りないことだ。",
+      "id": "n1-grammar_order-0122",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "問題だ。",
+        "関わる",
+        "命に",
+        "これは"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：これは 命に 関わる 問題だ。。文法点：Noun + に関わる。",
+      "complete_sentence": "これは命に関わる問題だ。",
+      "id": "n1-grammar_order-0123",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "無断欠席は",
+        "みなさ",
+        "退学と",
+        "れる。"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：無断欠席は 退学と みなさ れる。。文法点：Noun / plain form + とみなす。",
+      "complete_sentence": "無断欠席は退学とみなされる。",
+      "id": "n1-grammar_order-0124",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "あるま",
+        "いか。",
+        "間違いでは",
+        "これは"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：これは 間違いでは あるま いか。。文法点：V plain / noun + ではまいか / ではあるまいか。",
+      "complete_sentence": "これは間違いではあるまいか。",
+      "id": "n1-grammar_order-0125",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "術家だ。",
+        "現代の芸",
+        "いわば",
+        "彼は"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：彼は いわば 現代の芸 術家だ。。文法点：いわば (sentence-initial / mid-sentence)。",
+      "complete_sentence": "彼はいわば現代の芸術家だ。",
+      "id": "n1-grammar_order-0126",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "わず走り",
+        "雨も構",
+        "続けた。",
+        "彼は"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：彼は 雨も構 わず走り 続けた。。文法点：Noun / plain form + も構わず。",
+      "complete_sentence": "彼は雨も構わず走り続けた。",
+      "id": "n1-grammar_order-0127",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "現実に即した対策が",
+        "必",
+        "だ。",
+        "要"
+      ],
+      "answer": 3,
+      "explanation": "正解順序：現実に即した対策が 必 要 だ。。文法点：Noun + に即して / に即した。",
+      "complete_sentence": "現実に即した対策が必要だ。",
+      "id": "n1-grammar_order-0128",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "い",
+        "欠点を挙げたらきりが",
+        "な",
+        "。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：欠点を挙げたらきりが な い 。。文法点：V-たら + きりがない。",
+      "complete_sentence": "欠点を挙げたらきりがない。",
+      "id": "n1-grammar_order-0129",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "ない。",
+        "この上",
+        "光栄",
+        "お会いできて"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：お会いできて 光栄 この上 ない。。文法点：i-adj / na-adj + この上ない。",
+      "complete_sentence": "お会いできて光栄この上ない。",
+      "id": "n1-grammar_order-0130",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "だ。",
+        "同",
+        "じ",
+        "違いこそあれ、目的は"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：違いこそあれ、目的は 同 じ だ。。文法点：Plain form / noun + こそあれ。",
+      "complete_sentence": "違いこそあれ、目的は同じだ。",
+      "id": "n1-grammar_order-0131",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "家族ぐるみで付き合って",
+        "い",
+        "る",
+        "。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：家族ぐるみで付き合って い る 。。文法点：Noun + ぐるみ。",
+      "complete_sentence": "家族ぐるみで付き合っている。",
+      "id": "n1-grammar_order-0132",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "状況は",
+        "いっこうに",
+        "改善し",
+        "ない。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：状況は いっこうに 改善し ない。。文法点：いっこうに + V 〜ない。",
+      "complete_sentence": "状況はいっこうに改善しない。",
+      "id": "n1-grammar_order-0133",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "します。",
+        "、お願い",
+        "抜きで",
+        "ワサビ"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：ワサビ 抜きで 、お願い します。。文法点：Noun + 抜きで / 抜きでは / 抜きに。",
+      "complete_sentence": "ワサビ抜きで、お願いします。",
+      "id": "n1-grammar_order-0134",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "家だ。",
+        "立派な",
+        "らも、",
+        "小さいなが"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：小さいなが らも、 立派な 家だ。。文法点：V ます-stem / i-adj / noun + ながらも。",
+      "complete_sentence": "小さいながらも、立派な家だ。",
+      "id": "n1-grammar_order-0135",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "子供ですら知って",
+        "いる",
+        "こと",
+        "だ。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：子供ですら知って いる こと だ。。文法点：Noun + ですら。",
+      "complete_sentence": "子供ですら知っていることだ。",
+      "id": "n1-grammar_order-0136",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "だ。",
+        "配",
+        "心",
+        "留学となると、お金が"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：留学となると、お金が 心 配 だ。。文法点：Plain form + となると。",
+      "complete_sentence": "留学となると、お金が心配だ。",
+      "id": "n1-grammar_order-0137",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "この作品は",
+        "鑑賞に",
+        "堪え",
+        "る。"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：この作品は 鑑賞に 堪え る。。文法点：Verb dict / noun + に堪える。",
+      "complete_sentence": "この作品は鑑賞に堪える。",
+      "id": "n1-grammar_order-0138",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "やみま",
+        "祈って",
+        "ご成功を",
+        "せん。"
+      ],
+      "answer": 0,
+      "explanation": "正解順序：ご成功を 祈って やみま せん。。文法点：V-て form + やまない。",
+      "complete_sentence": "ご成功を祈ってやみません。",
+      "id": "n1-grammar_order-0139",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "危険を",
+        "た。",
+        "助け",
+        "顧みず、子供を"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：危険を 顧みず、子供を 助け た。。文法点：Noun + を顧みず。",
+      "complete_sentence": "危険を顧みず、子供を助けた。",
+      "id": "n1-grammar_order-0140",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "い。",
+        "ちた",
+        "少しなりともお役に",
+        "立"
+      ],
+      "answer": 1,
+      "explanation": "正解順序：少しなりともお役に 立 ちた い。。文法点：Noun + なりとも。",
+      "complete_sentence": "少しなりともお役に立ちたい。",
+      "id": "n1-grammar_order-0141",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    },
+    {
+      "sentence": "＿＿ ＿＿ ＿★＿ ＿＿ 。",
+      "star_position": 2,
+      "options": [
+        "った。",
+        "一生懸",
+        "命頑張",
+        "私なりに"
+      ],
+      "answer": 2,
+      "explanation": "正解順序：私なりに 一生懸 命頑張 った。。文法点：Noun + なりに / なりの。",
+      "complete_sentence": "私なりに一生懸命頑張った。",
+      "id": "n1-grammar_order-0142",
+      "level": "N1",
+      "question_type": "grammar_order",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.332Z"
+    }
+  ]
+}

@@ -1,0 +1,1511 @@
+{
+  "meta": {
+    "level": "N2",
+    "question_type": "vocab_compound",
+    "name": "複合語・接辞",
+    "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "count": 100
+  },
+  "questions": [
+    {
+      "sentence": "冬になると、この（　）はスキー客でにぎわう。",
+      "options": [
+        "地",
+        "館",
+        "場",
+        "所"
+      ],
+      "answer": 2,
+      "explanation": "「スキー場」是固定复合词，意为滑雪场。「場」表示进行特定活动的场所。「所」泛指地点，「地」指土地，「館」指建筑物。",
+      "id": "n2-vocab_compound-001",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "每到冬天，这个（　）就会因滑雪客而热闹起来。"
+    },
+    {
+      "sentence": "学校の裏に小さな駐車（　）がある。",
+      "options": [
+        "所",
+        "場",
+        "地",
+        "区"
+      ],
+      "answer": 1,
+      "explanation": "「駐車場」是固定词，意为停车场。「場」用于特定用途的开放空间。「所」泛指处所，「地」指土地，「区」指区域划分。",
+      "id": "n2-vocab_compound-002",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "学校后面有一个小型停车（　）。"
+    },
+    {
+      "sentence": "図書館の閲覧（　）は静かにしなければならない。",
+      "options": [
+        "所",
+        "館",
+        "場",
+        "室"
+      ],
+      "answer": 3,
+      "explanation": "「閲覧室」是固定词，意为阅览室。「室」指建筑物内的房间。「場」指开放空间，「所」泛指地点，「館」指整栋建筑。",
+      "id": "n2-vocab_compound-003",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "图书馆的阅览（　）必须保持安静。"
+    },
+    {
+      "sentence": "工場の敷地内に休憩（　）が設けられている。",
+      "options": [
+        "所",
+        "場",
+        "室",
+        "舎"
+      ],
+      "answer": 1,
+      "explanation": "「休憩場」意为休息场所，「場」强调可供使用的空间。「所」泛指地点，「室」指封闭房间，「舎」指宿舍或小屋。",
+      "id": "n2-vocab_compound-004",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "工厂厂区内设有休息（　）。"
+    },
+    {
+      "sentence": "イベント会場の受付（　）は入り口の右側にある。",
+      "options": [
+        "場",
+        "所",
+        "室",
+        "区"
+      ],
+      "answer": 1,
+      "explanation": "「受付所」意为接待处，「所」表示特定功能的场所。「場」指空间，「室」指房间，「区」指区域划分。",
+      "id": "n2-vocab_compound-005",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "活动会场的接待（　）位于入口右侧。"
+    },
+    {
+      "sentence": "この（　）は世界的な音楽ホールとして知られている。",
+      "options": [
+        "所",
+        "室",
+        "館",
+        "場"
+      ],
+      "answer": 2,
+      "explanation": "「この館」意为这座馆，「館」指大型建筑物（音楽館、美術館等）。「場」指开放空间，「所」泛指地点，「室」指房间。",
+      "id": "n2-vocab_compound-006",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "该（　）是世界著名的音乐厅。"
+    },
+    {
+      "sentence": "海水浴（　）には夏季だけ救護所が開設される。",
+      "options": [
+        "所",
+        "場",
+        "地",
+        "区"
+      ],
+      "answer": 1,
+      "explanation": "「海水浴場」是固定词，意为海水浴场。「場」用于特定活动场所。「所」泛指地点，「地」指土地，「区」指区域。",
+      "id": "n2-vocab_compound-007",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "海水浴（　）仅夏季设有救护所。"
+    },
+    {
+      "sentence": "この学校の就職（　）は90%を超えている。",
+      "options": [
+        "量",
+        "値",
+        "率",
+        "割"
+      ],
+      "answer": 2,
+      "explanation": "「就職率」是固定搭配，意为就业率。「率」表示比率，用于统计类名词。「量」指数量，「値」指数值，「割」虽表比例但不用于正式统计。",
+      "id": "n2-vocab_compound-008",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "该校的就业（　）超过90%。"
+    },
+    {
+      "sentence": "今年の入試では合格（　）が大幅に下がった。",
+      "options": [
+        "値",
+        "割",
+        "歩",
+        "率"
+      ],
+      "answer": 3,
+      "explanation": "「合格率」意为合格率，是固定统计用语。「割」用于口语（三割＝30%），「歩」用于歩合，「値」指数值。",
+      "id": "n2-vocab_compound-009",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "今年的入学考试合格（　）大幅下降。"
+    },
+    {
+      "sentence": "投票（　）が低くなると、民主主義の正当性が問われる。",
+      "options": [
+        "数",
+        "度",
+        "率",
+        "割"
+      ],
+      "answer": 2,
+      "explanation": "「投票率」意为投票率，是固定政治用语。「率」表示比率。「割」用于口语比例，「数」指数量，「度」指程度。",
+      "id": "n2-vocab_compound-010",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "投票（　）率低时，民主的正当性会受到质疑。"
+    },
+    {
+      "sentence": "最近の若者では、車の所有（　）が下がっているそうだ。",
+      "options": [
+        "割",
+        "率",
+        "数",
+        "量"
+      ],
+      "answer": 1,
+      "explanation": "「所有率」意为拥有率，表示比率。「率」用于统计类表达。「割」口语化，「数」指数量，「量」指总量。",
+      "id": "n2-vocab_compound-011",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "最近的年轻人中，据说汽车拥有率在下降。"
+    },
+    {
+      "sentence": "事故の発生（　）はこの交差点が最も高い。",
+      "options": [
+        "度",
+        "数",
+        "率",
+        "割"
+      ],
+      "answer": 2,
+      "explanation": "「発生率」意为发生率，是固定统计用语。「率」表示频率或比率。「割」不用于正式表达，「度」指程度，「数」指数量。",
+      "id": "n2-vocab_compound-012",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "事故的发生率在这个交叉路口最高。"
+    },
+    {
+      "sentence": "この地域の犯罪（　）は全国平均を下回っている。",
+      "options": [
+        "数",
+        "割",
+        "度",
+        "率"
+      ],
+      "answer": 3,
+      "explanation": "「犯罪率」意为犯罪率，是固定统计用语。「率」表示比率。「割」口语化，「度」指程度，「数」指数量。",
+      "id": "n2-vocab_compound-013",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个地区的犯罪率低于全国平均水平。"
+    },
+    {
+      "sentence": "（　）月の会議は午後2時からです。",
+      "options": [
+        "来",
+        "去",
+        "明",
+        "前"
+      ],
+      "answer": 0,
+      "explanation": "「来月」意为下个月，「来」作为前缀表示下一个（来週、来年等）。「去」不用于日语，「明」不用于月份，「前」指之前的。",
+      "id": "n2-vocab_compound-014",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "某月的会议从下午2点开始。"
+    },
+    {
+      "sentence": "（　）週の月曜日は祝日だから休みだ。",
+      "options": [
+        "来",
+        "去",
+        "明",
+        "今"
+      ],
+      "answer": 0,
+      "explanation": "「来週」意为下周，「来」表示下一个。「去」不用于周，「明」不用于周，「今」指本周。",
+      "id": "n2-vocab_compound-015",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "某周的星期一是节假日，所以休息。"
+    },
+    {
+      "sentence": "（　）年度の予算が確定した。",
+      "options": [
+        "去",
+        "来",
+        "明",
+        "前"
+      ],
+      "answer": 1,
+      "explanation": "「来年度」意为下一年度，「来」表示下一个。「去」不用于年度，「明」不与「年度」搭配，「前」指之前的。",
+      "id": "n2-vocab_compound-016",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "年度预算已确定。"
+    },
+    {
+      "sentence": "レポートは（　）週の金曜日までに出してください。",
+      "options": [
+        "来",
+        "今",
+        "前",
+        "先"
+      ],
+      "answer": 0,
+      "explanation": "「来週」意为下周。「今週」指本周，「前週」指前一周，「先週」指上周。",
+      "id": "n2-vocab_compound-017",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "报告请于下周周五前提交。"
+    },
+    {
+      "sentence": "会議には（　）社長も出席する予定だ。",
+      "options": [
+        "副",
+        "補",
+        "助",
+        "次"
+      ],
+      "answer": 0,
+      "explanation": "「副社長」是固定职位名称，意为副社长。「副」用于表示副职。「補」用于補佐，「助」用于助手，「次」用于次長。",
+      "id": "n2-vocab_compound-018",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "会议计划也有社长出席。"
+    },
+    {
+      "sentence": "（　）首相が記者会見を開いた。",
+      "options": [
+        "副",
+        "補",
+        "助",
+        "准"
+      ],
+      "answer": 0,
+      "explanation": "「副首相」意为副首相，是固定官职名称。「補」「助」不用于首相，「准」用于准教授等学术职位。",
+      "id": "n2-vocab_compound-019",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "首相召开了记者发布会。"
+    },
+    {
+      "sentence": "（　）大臣は引退してから本を書いた。",
+      "options": [
+        "前",
+        "元",
+        "旧",
+        "故"
+      ],
+      "answer": 1,
+      "explanation": "「元大臣」意为前大臣，表示曾经担任该职务。「元」是表示前任的标准前缀。「前」也可表前任但「元」更正式。",
+      "id": "n2-vocab_compound-020",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "大臣退休后写了一本书。"
+    },
+    {
+      "sentence": "この大学の（　）教授がノーベル賞を受賞した。",
+      "options": [
+        "元",
+        "前",
+        "准",
+        "助"
+      ],
+      "answer": 2,
+      "explanation": "「准教授」是大学职称，相当于副教授。「准」用于学术职位。「元」指前任，「前」指之前的，「助」用于助手。",
+      "id": "n2-vocab_compound-021",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这所大学的教授获得了诺贝尔奖。"
+    },
+    {
+      "sentence": "（　）社長の時代に会社は大きく成長した。",
+      "options": [
+        "副",
+        "前",
+        "元",
+        "旧"
+      ],
+      "answer": 1,
+      "explanation": "「前社長」意为前任社长，表示之前担任该职务。「前」强调时间上的先后。「副」指副职，「元」也表前任但更正式。",
+      "id": "n2-vocab_compound-022",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "在董事长时代公司得到了很大发展。"
+    },
+    {
+      "sentence": "日本の国会では（　）委員長が重要な役割を果たす。",
+      "options": [
+        "副",
+        "補",
+        "次",
+        "助"
+      ],
+      "answer": 0,
+      "explanation": "「副委員長」意为副委员长，是固定职务名称。「副」用于表示副职。「補」指補佐，「次」用于次長，「助」用于助手。",
+      "id": "n2-vocab_compound-023",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "在日本国会中委员会长扮演着重要角色。"
+    },
+    {
+      "sentence": "（　）知事が新しい政策を発表した。",
+      "options": [
+        "副",
+        "助",
+        "補",
+        "次"
+      ],
+      "answer": 0,
+      "explanation": "「副知事」意为副知事，是固定行政职务。「副」用于行政副职。「助」用于助手，「補」用于補佐，「次」用于次長。",
+      "id": "n2-vocab_compound-024",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "某知事宣布了新的政策。"
+    },
+    {
+      "sentence": "このアンケートは性（　）に集計されている。",
+      "options": [
+        "別",
+        "的",
+        "性",
+        "化"
+      ],
+      "answer": 0,
+      "explanation": "「性別」意为性别，此处「性別に」即按性别。「別」表示按...分类（年代別、地域別等）。「的」指性质，「性」指特性，「化」指变化。",
+      "id": "n2-vocab_compound-025",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个调查按性别分类统计。"
+    },
+    {
+      "sentence": "年代（　）のデータを比較してみよう。",
+      "options": [
+        "的",
+        "別",
+        "性",
+        "化"
+      ],
+      "answer": 1,
+      "explanation": "「年代別」意为按年龄段分类，「別」表示分类方式。「的」用于形容词化，「性」指特性，「化」指变化过程。",
+      "id": "n2-vocab_compound-026",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "比较一下不同年代的数据。"
+    },
+    {
+      "sentence": "このデータを地域（　）に整理した。",
+      "options": [
+        "化",
+        "的",
+        "性",
+        "別"
+      ],
+      "answer": 3,
+      "explanation": "「地域別」意为按地区分类，「別」表示分类方式。「的」用于形容词化，「性」指特性，「化」指变化。",
+      "id": "n2-vocab_compound-027",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "将这些数据按地区进行了整理。"
+    },
+    {
+      "sentence": "近年、少子（　）が深刻な社会問題となっている。",
+      "options": [
+        "性",
+        "式",
+        "化",
+        "的"
+      ],
+      "answer": 2,
+      "explanation": "「少子化」意为少子化，表示社会现象的变化趋势。「化」表示变化过程（高齢化、国際化等）。",
+      "id": "n2-vocab_compound-028",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "近年来，少子化已成为严重的社会问题。"
+    },
+    {
+      "sentence": "情報（　）が進むにつれ、働き方も変わってきた。",
+      "options": [
+        "式",
+        "的",
+        "性",
+        "化"
+      ],
+      "answer": 3,
+      "explanation": "「情報化」意为信息化，表示社会的技术发展。「化」表示变化过程。",
+      "id": "n2-vocab_compound-029",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "随着信息化的推进，工作方式也发生了变化。"
+    },
+    {
+      "sentence": "彼の行動は非常に（　）的だ。",
+      "options": [
+        "実",
+        "理",
+        "合",
+        "論"
+      ],
+      "answer": 1,
+      "explanation": "「論理的」意为逻辑的，是固定形容动词。「理」不单独构成「理的」，「合」不与「的」搭配，「実」用于「実際的」。",
+      "id": "n2-vocab_compound-030",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "他的行为非常不合理。"
+    },
+    {
+      "sentence": "環境問題は国際（　）に取り組む必要がある。",
+      "options": [
+        "的",
+        "化",
+        "性",
+        "式"
+      ],
+      "answer": 0,
+      "explanation": "「国際的に」意为在国际上，「的」将名词变为形容动词/副词。「化」指变化，「性」指特性，「式」指方式。",
+      "id": "n2-vocab_compound-031",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "环境问题需要国际（ ）来应对。"
+    },
+    {
+      "sentence": "日本式の（　）は海外でも人気がある。",
+      "options": [
+        "風",
+        "型",
+        "流",
+        "式"
+      ],
+      "answer": 3,
+      "explanation": "「日本式」意为日本式，表示特定的方式或风格。「式」表示方式。「型」指类型，「流」指流派，「風」指风格。",
+      "id": "n2-vocab_compound-032",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "日本式的（ ）在海外也很受欢迎。"
+    },
+    {
+      "sentence": "消防（　）は命がけで人々を助けている。",
+      "options": [
+        "手",
+        "家",
+        "者",
+        "員"
+      ],
+      "answer": 3,
+      "explanation": "「消防員」意为消防员，「員」表示组织中的成员。「者」泛指人，「手」表示从事某事的人，「家」表示专家。",
+      "id": "n2-vocab_compound-033",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "消防（ ）冒着生命危险救助人们。"
+    },
+    {
+      "sentence": "この店の（　）はとても親切だ。",
+      "options": [
+        "手",
+        "家",
+        "者",
+        "員"
+      ],
+      "answer": 3,
+      "explanation": "「店員」意为店员，「員」表示组织的成员。「者」泛指人，「手」用于特定动作的执行者，「家」用于专家。",
+      "id": "n2-vocab_compound-034",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这家店的（ ）非常热情。"
+    },
+    {
+      "sentence": "運転（　）は安全運転を心がけるべきだ。",
+      "options": [
+        "者",
+        "員",
+        "手",
+        "家"
+      ],
+      "answer": 2,
+      "explanation": "「運転手」意为司机，「手」表示从事特定动作的人。「者」泛指人，「員」指组织成员，「家」指专家。",
+      "id": "n2-vocab_compound-035",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "驾驶（ ）应当注意安全驾驶。"
+    },
+    {
+      "sentence": "政治（　）としての責任を感じている。",
+      "options": [
+        "家",
+        "員",
+        "手",
+        "者"
+      ],
+      "answer": 0,
+      "explanation": "「政治家」意为政治家，「家」表示特定领域的专家/从业者。「者」泛指人，「員」指组织成员，「手」指动作执行者。",
+      "id": "n2-vocab_compound-036",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "感觉到了作为政治家的责任"
+    },
+    {
+      "sentence": "科学（　）が新しい発見をした。",
+      "options": [
+        "家",
+        "員",
+        "者",
+        "手"
+      ],
+      "answer": 2,
+      "explanation": "「科学者」意为科学家，「家」表示特定领域的专家。「者」泛指人，「員」指组织成员，「手」指动作执行者。",
+      "id": "n2-vocab_compound-037",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "科学界有了新的发现"
+    },
+    {
+      "sentence": "バスの運転（　）が突然ブレーキをかけた。",
+      "options": [
+        "手",
+        "家",
+        "者",
+        "員"
+      ],
+      "answer": 0,
+      "explanation": "「運転手」意为司机，「手」表示从事特定动作的人。「者」泛指人，「員」指组织成员，「家」指专家。",
+      "id": "n2-vocab_compound-038",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "公交车司机突然踩了刹车"
+    },
+    {
+      "sentence": "若い人には（　）力がある。",
+      "options": [
+        "元",
+        "活",
+        "勢",
+        "勇"
+      ],
+      "answer": 1,
+      "explanation": "「活力」意为活力/生命力，是固定复合词。「元」用于元気，「勢」用于勢力，「勇」用于勇気。",
+      "id": "n2-vocab_compound-039",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "年轻人有巨大的力量"
+    },
+    {
+      "sentence": "彼女は集中（　）がとても高い。",
+      "options": [
+        "力",
+        "気",
+        "心",
+        "性"
+      ],
+      "answer": 0,
+      "explanation": "「集中力」意为集中力，是固定复合词。「力」表示能力。「気」指心情，「心」指内心，「性」指性质。",
+      "id": "n2-vocab_compound-040",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "她的集中力非常高"
+    },
+    {
+      "sentence": "この問題は想像（　）を必要とする。",
+      "options": [
+        "力",
+        "気",
+        "心",
+        "性"
+      ],
+      "answer": 0,
+      "explanation": "「想像力」意为想象力，是固定复合词。「力」表示能力。「気」指心情，「心」指内心，「性」指性质。",
+      "id": "n2-vocab_compound-041",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个问题需要想象力"
+    },
+    {
+      "sentence": "試験前に緊張（　）を感じる。",
+      "options": [
+        "力",
+        "気",
+        "心",
+        "感"
+      ],
+      "answer": 3,
+      "explanation": "「緊張感」意为紧张感，表示一种感觉或氛围。「感」表示感觉（危機感、責任感等）。",
+      "id": "n2-vocab_compound-042",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "考试前感到紧张"
+    },
+    {
+      "sentence": "彼は責任（　）が強い人だ。",
+      "options": [
+        "力",
+        "気",
+        "心",
+        "感"
+      ],
+      "answer": 3,
+      "explanation": "「責任感」意为责任感，是固定复合词。「感」表示感觉或意识。「力」指能力，「気」指心情，「心」指内心。",
+      "id": "n2-vocab_compound-043",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "他责任感很强"
+    },
+    {
+      "sentence": "この文章には違和（　）を感じる。",
+      "options": [
+        "感",
+        "性",
+        "質",
+        "風"
+      ],
+      "answer": 0,
+      "explanation": "「違和感」意为违和感，是固定复合词。「感」表示感觉。「性」指性质，「質」指品质，「風」指风格。",
+      "id": "n2-vocab_compound-044",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这篇文章让我感到有些别扭"
+    },
+    {
+      "sentence": "彼の話には説得（　）がある。",
+      "options": [
+        "感",
+        "性",
+        "力",
+        "風"
+      ],
+      "answer": 2,
+      "explanation": "「説得力」意为说服力，是固定复合词。「力」表示能力或力量。「感」指感觉，「性」指性质，「風」指风格。",
+      "id": "n2-vocab_compound-045",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "他的话很有说服力"
+    },
+    {
+      "sentence": "危機（　）を持って行動すべきだ。",
+      "options": [
+        "力",
+        "気",
+        "感",
+        "心"
+      ],
+      "answer": 2,
+      "explanation": "「危機感」意为危机感，是固定复合词。「感」表示感觉或意识。「力」指能力，「気」指心情，「心」指内心。",
+      "id": "n2-vocab_compound-046",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "应当带着危机感行动。"
+    },
+    {
+      "sentence": "彼の長（　）は忍耐力だ。",
+      "options": [
+        "点",
+        "所",
+        "面",
+        "辺"
+      ],
+      "answer": 1,
+      "explanation": "「長所」意为长处/优点，是固定复合词。「所」表示抽象的方面（短所、強所等）。「点」指要点，「面」指方面，「辺」指附近。",
+      "id": "n2-vocab_compound-047",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "他的长处是忍耐力。"
+    },
+    {
+      "sentence": "この計画の問題（　）は何だろうか。",
+      "options": [
+        "点",
+        "辺",
+        "所",
+        "面"
+      ],
+      "answer": 0,
+      "explanation": "「問題点」意为问题点，表示具体的问题所在。「点」表示要点或关键处。「所」指地点，「面」指方面，「辺」指附近。",
+      "id": "n2-vocab_compound-048",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个计划的问题点是什么呢？"
+    },
+    {
+      "sentence": "彼女の（　）所は明るい性格だ。",
+      "options": [
+        "悪",
+        "短",
+        "良",
+        "長"
+      ],
+      "answer": 3,
+      "explanation": "「長所」意为长处/优点，是固定复合词。「短所」指缺点，「良」「悪」不与「所」搭配。",
+      "id": "n2-vocab_compound-049",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "她的优点在于性格开朗。"
+    },
+    {
+      "sentence": "コストの（　）から見ると割高だ。",
+      "options": [
+        "面",
+        "辺",
+        "点",
+        "所"
+      ],
+      "answer": 2,
+      "explanation": "「コストの点から」意为从成本的角度，「点」表示观点或角度。「所」指地点，「面」指方面，「辺」指附近。",
+      "id": "n2-vocab_compound-050",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "从成本方面来看比较贵。"
+    },
+    {
+      "sentence": "この（　）品は品質が優れている。",
+      "options": [
+        "商",
+        "農",
+        "食",
+        "製"
+      ],
+      "answer": 3,
+      "explanation": "「製品」意为产品，是固定复合词。「品」表示物品（食品、商品等）。",
+      "id": "n2-vocab_compound-051",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这款商品品质优良。"
+    },
+    {
+      "sentence": "毎月の家（　）は10万円だ。",
+      "options": [
+        "費",
+        "代",
+        "賃",
+        "料"
+      ],
+      "answer": 2,
+      "explanation": "「家賃」意为房租，是固定复合词。「賃」表示租金。「料」指费用，「費」指经费，「代」指代金。",
+      "id": "n2-vocab_compound-052",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "每月房租是10万日元。"
+    },
+    {
+      "sentence": "入学（　）はいつまでに払えばいいですか。",
+      "options": [
+        "費",
+        "代",
+        "料",
+        "賃"
+      ],
+      "answer": 2,
+      "explanation": "「入学料」意为入学金，是固定教育费用用语。「料」表示一次性费用。「賃」指租金，「費」指经费，「代」指代金。",
+      "id": "n2-vocab_compound-053",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "入学金最晚什么时候交？"
+    },
+    {
+      "sentence": "交通（　）は会社が負担してくれる。",
+      "options": [
+        "料",
+        "代",
+        "賃",
+        "費"
+      ],
+      "answer": 3,
+      "explanation": "「交通費」意为交通费，是固定费用用语。「費」表示日常开支。「賃」指租金，「料」指手续费，「代」指代金。",
+      "id": "n2-vocab_compound-054",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "交通费由公司承担。"
+    },
+    {
+      "sentence": "電気（　）が高くなった。",
+      "options": [
+        "代",
+        "料",
+        "費",
+        "賃"
+      ],
+      "answer": 0,
+      "explanation": "「電気代」意为电费，「代」用于日常费用（ガス代、水道代等）。",
+      "id": "n2-vocab_compound-055",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "电费涨价了。"
+    },
+    {
+      "sentence": "子供たちが（　）園で遊んでいる。",
+      "options": [
+        "学",
+        "児童",
+        "幼稚",
+        "保育"
+      ],
+      "answer": 2,
+      "explanation": "「幼稚園」意为幼儿园，是固定教育设施名称。「園」用于幼儿园、动物园等。",
+      "id": "n2-vocab_compound-056",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "孩子们在幼儿园玩耍。"
+    },
+    {
+      "sentence": "郵便（　）で小包を送った。",
+      "options": [
+        "省",
+        "課",
+        "局",
+        "庁"
+      ],
+      "answer": 2,
+      "explanation": "「郵便局」意为邮局，是固定设施名称。「局」用于局级单位。「庁」指厅级，「省」指省级，「課」指科室。",
+      "id": "n2-vocab_compound-057",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "在邮局寄了包裹。"
+    },
+    {
+      "sentence": "警察（　）に届けを出した。",
+      "options": [
+        "署",
+        "庁",
+        "省",
+        "局"
+      ],
+      "answer": 0,
+      "explanation": "「警察署」意为警察署，是基层警察设施。「局」用于警察局（更高层级），「庁」指厅，「省」指省级。",
+      "id": "n2-vocab_compound-058",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "向警察局提交了申请。"
+    },
+    {
+      "sentence": "病気になったので病（　）に行った。",
+      "options": [
+        "室",
+        "舎",
+        "院",
+        "館"
+      ],
+      "answer": 2,
+      "explanation": "「病院」意为医院，是固定设施名称。「院」用于医院、学院等。",
+      "id": "n2-vocab_compound-059",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "因为生病去了医院。"
+    },
+    {
+      "sentence": "三（　）目の角を右に曲がってください。",
+      "options": [
+        "番",
+        "号",
+        "目",
+        "個"
+      ],
+      "answer": 2,
+      "explanation": "「三つ目」意为第三个，「目」接在数词后表示顺序。「番」用于番号，「号」用于号码，「個」用于计数。",
+      "id": "n2-vocab_compound-060",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "请在第三个拐角右转。"
+    },
+    {
+      "sentence": "東京は日本で二（　）目に大きい都市だ。",
+      "options": [
+        "目",
+        "個",
+        "番",
+        "号"
+      ],
+      "answer": 0,
+      "explanation": "「二番目」意为第二，「目」接在数词后表示顺序。「番」用于番号，「号」用于号码，「個」用于计数物品。",
+      "id": "n2-vocab_compound-061",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "东京是日本第二大的城市。"
+    },
+    {
+      "sentence": "この映画は三（　）も見た。",
+      "options": [
+        "度",
+        "回",
+        "遍",
+        "回"
+      ],
+      "answer": 1,
+      "explanation": "「三回」意为三次，「回」用于计数次数。「度」也用于次数但更强调时候。",
+      "id": "n2-vocab_compound-062",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这部电影看了三遍。"
+    },
+    {
+      "sentence": "日本には二（　）行ったことがある。",
+      "options": [
+        "遍",
+        "回",
+        "度",
+        "回"
+      ],
+      "answer": 2,
+      "explanation": "「二度」意为两次，「度」用于次数，带有经历的语感。「回」也用于次数。",
+      "id": "n2-vocab_compound-063",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "我去过两次日本。"
+    },
+    {
+      "sentence": "18歳（　）の方は入場できません。",
+      "options": [
+        "以下",
+        "以内",
+        "以上",
+        "未満"
+      ],
+      "answer": 3,
+      "explanation": "「18歳未満」意为不满18岁，表示不包含该数值。「以上」包含并以上，「以下」包含并以下，「以内」包含在范围内。",
+      "id": "n2-vocab_compound-064",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "未满18岁者不得入场。"
+    },
+    {
+      "sentence": "参加者は50人（　）です。",
+      "options": [
+        "未満",
+        "以内",
+        "以下",
+        "以上"
+      ],
+      "answer": 2,
+      "explanation": "「50人以下」意为50人以下，表示上限。「以上」表示下限，「未満」表示不满某数值。",
+      "id": "n2-vocab_compound-065",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "参加者为50人左右。"
+    },
+    {
+      "sentence": "午後3時（　）に会議室に集まってください。",
+      "options": [
+        "以来",
+        "以後",
+        "以降",
+        "以前"
+      ],
+      "answer": 3,
+      "explanation": "「3時以前」意为3点之前，表示截止时间。「以後」和「以降」表示之后。",
+      "id": "n2-vocab_compound-066",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "下午3时（　）请到会议室集合。"
+    },
+    {
+      "sentence": "4月（　）、新しい制度がスタートする。",
+      "options": [
+        "以後",
+        "以来",
+        "以前",
+        "以降"
+      ],
+      "answer": 3,
+      "explanation": "「4月以降」意为4月起，表示从某时间点往后。「以前」指之前，「以後」也指以后但「以降」更常用于制度变更。",
+      "id": "n2-vocab_compound-067",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "4月（　）、新的制度开始。"
+    },
+    {
+      "sentence": "会議室（　）では飲食禁止です。",
+      "options": [
+        "上",
+        "外",
+        "中",
+        "内"
+      ],
+      "answer": 3,
+      "explanation": "「会議室内」意为会议室内部，「内」表示内部。「外」指外部，「中」指中间，「上」指上面。",
+      "id": "n2-vocab_compound-068",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "会议室（　）禁止饮食。"
+    },
+    {
+      "sentence": "学校（　）で走り回ってはいけません。",
+      "options": [
+        "中",
+        "上",
+        "内",
+        "外"
+      ],
+      "answer": 2,
+      "explanation": "「学校内」意为学校内部，「内」表示范围之内。「外」指外部，「中」指中间，「上」指上面。",
+      "id": "n2-vocab_compound-069",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "学校（　）不要到处跑。"
+    },
+    {
+      "sentence": "この件は社（　）のみで話してください。",
+      "options": [
+        "内",
+        "外",
+        "中",
+        "上"
+      ],
+      "answer": 0,
+      "explanation": "「社内」意为公司内部，「内」表示组织内部。「外」指外部，「中」指中间，「上」指上面。",
+      "id": "n2-vocab_compound-070",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "关于这个问题（　）请只在公司内部讨论。"
+    },
+    {
+      "sentence": "夏休み（　）に旅行する予定だ。",
+      "options": [
+        "間",
+        "際",
+        "頃",
+        "中"
+      ],
+      "answer": 0,
+      "explanation": "「夏休みの間」意为暑假期间，「間」表示一段时间。「際」指某个时刻，「頃」指大约时候，「中」指期间内。",
+      "id": "n2-vocab_compound-071",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "暑假期间打算去旅行。"
+    },
+    {
+      "sentence": "出発（　）に荷物を確認した。",
+      "options": [
+        "頃",
+        "中",
+        "間",
+        "際"
+      ],
+      "answer": 3,
+      "explanation": "「出発際」意为出发之际，「際」表示某个特定时刻。「間」指期间，「頃」指大约时候，「中」指期间内。",
+      "id": "n2-vocab_compound-072",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "出发前确认了行李。"
+    },
+    {
+      "sentence": "夕方（　）に雨が降り始めた。",
+      "options": [
+        "中",
+        "頃",
+        "間",
+        "際"
+      ],
+      "answer": 1,
+      "explanation": "「夕方頃」意为傍晚时分，「頃」表示大约的时间。「間」指期间，「際」指特定时刻。",
+      "id": "n2-vocab_compound-073",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "傍晚时分开始下雨了。"
+    },
+    {
+      "sentence": "山（　）に小さな村がある。",
+      "options": [
+        "側",
+        "方",
+        "面",
+        "向"
+      ],
+      "answer": 1,
+      "explanation": "「山の方」意为山的方向，「方」表示方向。「側」指旁边，「面」指表面，「向」指朝向。",
+      "id": "n2-vocab_compound-074",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "山间有个小村庄。"
+    },
+    {
+      "sentence": "道路の（　）を歩きなさい。",
+      "options": [
+        "方",
+        "側",
+        "面",
+        "向"
+      ],
+      "answer": 1,
+      "explanation": "「道路の側」意为道路的一侧，「側」表示某一边。「方」指方向，「面」指表面，「向」指朝向。",
+      "id": "n2-vocab_compound-075",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "请走路边。"
+    },
+    {
+      "sentence": "問題の解決（　）を考えてみよう。",
+      "options": [
+        "向",
+        "面",
+        "方",
+        "側"
+      ],
+      "answer": 1,
+      "explanation": "「解決面」意为解决方面，「面」表示某个方面或角度。「方」指方向，「側」指旁边，「向」指朝向。",
+      "id": "n2-vocab_compound-076",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "让我们试着考虑一下问题的解决（方法）。"
+    },
+    {
+      "sentence": "このソフトは初心者（　）に設計されている。",
+      "options": [
+        "用",
+        "向",
+        "専",
+        "特"
+      ],
+      "answer": 1,
+      "explanation": "「初心者向け」意为面向初学者，「向」表示面向某对象。「用」表示用途，「専」用于専用，「特」用于特別。",
+      "id": "n2-vocab_compound-077",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这款软件是为初学（者）设计的。"
+    },
+    {
+      "sentence": "この公園は犬の散歩（　）に作られた。",
+      "options": [
+        "特",
+        "向",
+        "専",
+        "用"
+      ],
+      "answer": 3,
+      "explanation": "「散歩用」意为散步用的，「用」表示用途。「向」表示面向，「専」用于専用，「特」用于特別。",
+      "id": "n2-vocab_compound-078",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个公园是为遛（狗）建造的。"
+    },
+    {
+      "sentence": "（　）可能なことを夢見ている。",
+      "options": [
+        "不",
+        "無",
+        "非",
+        "未"
+      ],
+      "answer": 0,
+      "explanation": "「不可能」意为不可能，「不」表示否定（不安、不満等）。「無」用于無理，「非」用于非常識，「未」用于未完成。",
+      "id": "n2-vocab_compound-079",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "（我）正梦想着可能做到的事。"
+    },
+    {
+      "sentence": "（　）意味な行動はやめなさい。",
+      "options": [
+        "不",
+        "無",
+        "非",
+        "未"
+      ],
+      "answer": 1,
+      "explanation": "「無意味」意为无意义，「無」表示没有（無関心、無責任等）。「不」用于不可能，「非」用于非常識，「未」用于未完成。",
+      "id": "n2-vocab_compound-080",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "请停止（没）有意义的行为。"
+    },
+    {
+      "sentence": "彼の行動は（　）常識だ。",
+      "options": [
+        "非",
+        "未",
+        "不",
+        "無"
+      ],
+      "answer": 0,
+      "explanation": "「非常識」意为不合常理，「非」表示否定（非公式、非公開等）。",
+      "id": "n2-vocab_compound-081",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "他的行为不合常理。"
+    },
+    {
+      "sentence": "計画はまだ（　）完成の段階だ。",
+      "options": [
+        "非",
+        "未",
+        "不",
+        "無"
+      ],
+      "answer": 1,
+      "explanation": "「未完成」意为未完成，「未」表示尚未（未定、未解決等）。",
+      "id": "n2-vocab_compound-082",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "计划还未完成。"
+    },
+    {
+      "sentence": "（　）発を防ぐための対策を取った。",
+      "options": [
+        "返",
+        "重",
+        "複",
+        "再"
+      ],
+      "answer": 3,
+      "explanation": "「再発」意为再次发生/复发，「再」表示再次（再開、再挑戦等）。",
+      "id": "n2-vocab_compound-083",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "采取了预防措施防止（发生）。"
+    },
+    {
+      "sentence": "（　）めて日本に来た時は何もわからなかった。",
+      "options": [
+        "初",
+        "始",
+        "元",
+        "原"
+      ],
+      "answer": 0,
+      "explanation": "「初めて」意为第一次，「初」表示最初（初日、初恋等）。",
+      "id": "n2-vocab_compound-084",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "刚来日本时一无所知。"
+    },
+    {
+      "sentence": "（　）も大切なのは家族だ。",
+      "options": [
+        "至",
+        "最",
+        "極",
+        "超"
+      ],
+      "answer": 1,
+      "explanation": "「最も」意为最，是标准的最上级表达。",
+      "id": "n2-vocab_compound-085",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "重要的是家人（也是）。"
+    },
+    {
+      "sentence": "（　）員が集まった。",
+      "options": [
+        "全",
+        "各",
+        "半",
+        "総"
+      ],
+      "answer": 0,
+      "explanation": "「全員」意为全体人员，「全」表示全部（全国、全体等）。",
+      "id": "n2-vocab_compound-086",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "会员聚集了。"
+    },
+    {
+      "sentence": "（　）的に見て、この計画は成功した。",
+      "options": [
+        "各",
+        "半",
+        "総",
+        "全"
+      ],
+      "answer": 2,
+      "explanation": "「総じて」意为总的来说，「総」用于总结性的表达。",
+      "id": "n2-vocab_compound-087",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "客观地看，这个计划成功了。"
+    },
+    {
+      "sentence": "（　）親が共働きの家庭が増えている。",
+      "options": [
+        "単",
+        "片",
+        "双",
+        "両"
+      ],
+      "answer": 3,
+      "explanation": "「両親」意为双亲/父母，「両」表示两个（両手、両方等）。",
+      "id": "n2-vocab_compound-088",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "双职工家庭增加了。"
+    },
+    {
+      "sentence": "今日は（　）に寒い。",
+      "options": [
+        "格",
+        "別",
+        "殊",
+        "特"
+      ],
+      "answer": 3,
+      "explanation": "「特に」意为特别地，「特」表示特别（特別、特徴等）。",
+      "id": "n2-vocab_compound-089",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "今天特别冷。"
+    },
+    {
+      "sentence": "このドアの取っ（　）が壊れている。",
+      "options": [
+        "目",
+        "手",
+        "足",
+        "口"
+      ],
+      "answer": 1,
+      "explanation": "「取っ手」意为把手，是固定复合词。「手」表示可供抓握的部分。",
+      "id": "n2-vocab_compound-090",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个门的把手坏了。"
+    },
+    {
+      "sentence": "靴の紐が（　）に引っかかった。",
+      "options": [
+        "足",
+        "手",
+        "目",
+        "口"
+      ],
+      "answer": 2,
+      "explanation": "「目に引っかかる」意为挂在...上，「目」表示孔或环（針の目、網の目等）。",
+      "id": "n2-vocab_compound-091",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "鞋带被（　）勾住了。"
+    },
+    {
+      "sentence": "今年の売上（　）は前年を上回った。",
+      "options": [
+        "度",
+        "額",
+        "数",
+        "量"
+      ],
+      "answer": 1,
+      "explanation": "「売上額」意为营业额，表示金额。「額」用于金额（金額、予算額等）。",
+      "id": "n2-vocab_compound-092",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "今年的销售额（　）超过了去年。"
+    },
+    {
+      "sentence": "討論の（　）では various 意見が出た。",
+      "options": [
+        "地",
+        "場",
+        "面",
+        "席"
+      ],
+      "answer": 1,
+      "explanation": "「討論の場」意为讨论的场合，「場」表示抽象的场所或场合。",
+      "id": "n2-vocab_compound-093",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "讨论的（　）中出现了各种意见。"
+    },
+    {
+      "sentence": "（　）日は忙しかった。",
+      "options": [
+        "先",
+        "後",
+        "去",
+        "前"
+      ],
+      "answer": 0,
+      "explanation": "「先日」意为前几天，是固定时间表达。「前」也可表过去但「先日」更自然。",
+      "id": "n2-vocab_compound-094",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "（　）那天很忙。"
+    },
+    {
+      "sentence": "（　）規模のイベントを計画している。",
+      "options": [
+        "少",
+        "大",
+        "多",
+        "小"
+      ],
+      "answer": 3,
+      "explanation": "「小規模」意为小规模，是固定复合词。",
+      "id": "n2-vocab_compound-095",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "正在计划（　）规模的活动。"
+    },
+    {
+      "sentence": "（　）しい技術が次々と開発されている。",
+      "options": [
+        "古",
+        "元",
+        "旧",
+        "新"
+      ],
+      "answer": 3,
+      "explanation": "「新しい」意为新的，「新」表示新的（新年、新鮮等）。",
+      "id": "n2-vocab_compound-096",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "不断开发着先进技术"
+    },
+    {
+      "sentence": "この映画のチケット（　）は1800円だ。",
+      "options": [
+        "賃",
+        "費",
+        "料",
+        "代"
+      ],
+      "answer": 2,
+      "explanation": "「チケット料金」不太自然，应为「チケット代」或「料金」。此处「料」用于使用费。",
+      "id": "n2-vocab_compound-097",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这部电影票价是1800日元"
+    },
+    {
+      "sentence": "この地域の犯罪（　）は全国平均を下回っている。",
+      "options": [
+        "割",
+        "率",
+        "度",
+        "数"
+      ],
+      "answer": 1,
+      "explanation": "「犯罪率」意为犯罪率，是固定统计用语。",
+      "id": "n2-vocab_compound-098",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "这个地区的犯罪率低于全国平均水平"
+    },
+    {
+      "sentence": "日本の（　）京は京都だ。",
+      "options": [
+        "東",
+        "南",
+        "北",
+        "西"
+      ],
+      "answer": 3,
+      "explanation": "「西京」不成立，但历史上的「西京」指京都。「東」用于東京。",
+      "id": "n2-vocab_compound-099",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "日本的古都就是京都"
+    },
+    {
+      "sentence": "来（　）は月曜日だ。",
+      "options": [
+        "週",
+        "年",
+        "月",
+        "日"
+      ],
+      "answer": 0,
+      "explanation": "「来週」意为下周，「週」表示周。",
+      "id": "n2-vocab_compound-100",
+      "level": "N2",
+      "question_type": "vocab_compound",
+      "translation": "下个星期一是星期一"
+    }
+  ]
+}

@@ -11,7 +11,8 @@
       "label": "火山ARK",
       "api_key_env": "ARK_API_KEY",
       "base_url_env": "ARK_BASE_URL",
-      "model": "doubao-seed-2-0-pro-260215",
+      "model_env": "ARK_MODEL",
+      "model": "doubao-seed-2-0-code",
       "format": "openai"
     },
     "mimo": {
@@ -24,15 +25,25 @@
     "gemini": {
       "label": "Google Gemini",
       "api_key_env": "GEMINI_API_KEY",
+      "api_key_envs": ["GEMINI_API_KEY", "GEMINI_API_KEY_2"],
       "base_url_env": "GEMINI_BASE_URL",
-      "model": "gemini-2.0-flash-lite",
+      "model": "gemini-2.5-flash-lite",
       "format": "gemini"
     },
     "nvidia": {
+      "enabled": false,
       "label": "NVIDIA NIM",
       "api_key_env": "NVIDIA_API_KEY",
       "base_url_env": "NVIDIA_BASE_URL",
       "model": "qwen/qwen2.5-coder-32b-instruct",
+      "format": "openai"
+    },
+    "deepseek": {
+      "label": "DeepSeek",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "base_url_env": "DEEPSEEK_BASE_URL",
+      "model_env": "DEEPSEEK_MODEL",
+      "model": "deepseek-chat",
       "format": "openai"
     }
   },

@@ -4,46 +4,46 @@
     "question_type": "grammar_fill",
     "name": "文の文法",
     "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
-    "count": 18
+    "count": 250
   },
   "questions": [
     {
-      "sentence": "彼はいつもこの方法を通じて問題を解決しています。",
+      "sentence": "彼はいつもこの方法（　）問題を解決しています。",
       "options": [
-        "彼はいつもこの方法を通じて問題を解決するためにしています",
-        "彼はいつもこの方法を通じて問題を解決するための方法を使っています",
-        "彼はいつもこの方法を通じて問題を解決するために使っています",
-        "彼はいつもこの方法を通じて問題を解決していますが、他にも方法があります"
+        "を通じて",
+        "に対して",
+        "を通して",
+        "で"
       ],
       "answer": 0,
-      "explanation": "‘を通じて’表示通过某种方式或手段。在给出的句子中，使用‘を通じて’正确地表示了通过这种方法解决问题的意思。其他选项要么没有使用‘を通じて’，要么在语义上不够通顺。",
+      "explanation": "正确答案是「を通じて」。 该语法点表示通过某种方式或手段。代入句子后意为“他总是通过这种方法解决问题”，最自然。",
       "generated_by": "zhipu:GLM-4-Flash",
       "reviewed_by": "zhipu",
-      "review_explanation": "该题目符合JLPT N2的审题标准。\n答案解释：正确答案是选项0，即‘彼はいつもこの方法を通じて問題を解決しています’。这个句子使用了正确的语法结构，‘を通じて’表示通过某种方式或手段，符合句意。\n干扰项分析：选项1中的‘ためにしています’虽然表达了目的，但与原句的语法结构不符；选项2中的‘ための方法’虽然也表达了方法，但与原句的‘を通じて’搭配不恰当；选项3中的‘ために使っています’虽然语法正确，但意思不够通顺，没有直接表达通过这种方法解决问题的意思。\n语法/词汇重点：‘を通じて’的用法，表示通过某种手段或方式。\n学习建议：注意日语中表达方式或手段的词汇和语法结构，如‘を通じて’、‘によって’等，以及它们在不同语境中的使用。",
       "verified": true,
       "created_at": "2026-05-03T21:59:11",
       "id": "n2-grammar_fill-001",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "他总是用这种方法解决问题"
     },
     {
-      "sentence": "その会社は技術開発にかけて予算を増やしています。",
+      "sentence": "その会社は技術開発（　）予算を増やしています。",
       "options": [
-        "その会社は技術開発を予算を増やすためにしています",
-        "その会社は技術開発を予算を増やすための予算を増やしています",
-        "その会社は技術開発を予算を増やすためには予算を増やしています",
-        "その会社は技術開発にかけて予算を増やすためには予算を増やしています"
+        "にかけて",
+        "について",
+        "に対して",
+        "を通じて"
       ],
       "answer": 0,
-      "explanation": "‘にかけて’表示在某个方面或领域上。在句子中，使用‘にかけて’表示在技术开发的领域上增加预算。其他选项要么语法结构不正确，要么语义上不够通顺。",
+      "explanation": "正确答案是「にかけて」，表示在某个方面或领域上。代入句中意为“该公司在技术开发方面增加预算”，语义自然。",
       "generated_by": "zhipu:GLM-4-Flash",
       "reviewed_by": "zhipu",
-      "review_explanation": "该题目符合JLPT N2的审核标准。\n答案解释：正确答案是选项0，即‘その会社は技術開発にかけて予算を増やしています。’这个句子表达了公司在技术开发方面增加预算的意思，语法和语义都正确。\n干扰项分析：选项1和选项4的语法结构不正确，选项2虽然语法上可以成立，但是语义上不够通顺，因为它将‘ための予算’重复了，而原句中并没有这种重复表达。\n语法/词汇重点：句子中的‘にかけて’是一个表示在某个方面或领域上的语法结构，需要正确理解和使用。\n学习建议：考生需要掌握‘にかけて’的用法，以及如何正确表达在某个领域或方面进行某个动作或状态。\n",
       "verified": true,
       "created_at": "2026-05-03T21:59:20",
       "id": "n2-grammar_fill-002",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "那家公司正在增加技术开发预算"
     },
     {
       "sentence": "今回の失敗の原因はチーム内のコミュニケーション不足（　）、その他に特別な要因はない。",
@@ -54,7 +54,7 @@
         "上で"
       ],
       "answer": 0,
-      "explanation": "正确选项「にすぎない」是N2核心语法，前接名词或动词简体形，表对程度的限定，译为“只不过是、仅仅是”，代入句意为“这次失败的原因只不过是团队内部沟通不足，除此之外没有其他特殊要因”，语义通顺。其他选项：B「わけがない」前接活用词连体形，表强烈否定推测，译为“不可能、绝不会”，不符合句意；C「たびに」前接动词た形/名词+の，表每次触发前项就伴随后项，译为“每当、每次”，接续语义均不符；D「上で」前接动词た形/名词+の，表“在…之后、在…方面”，不符合语境。",
+      "explanation": "题目翻译：这次失败的原因（　）团队内部沟通不足，除此之外没有其他特殊要因。\n选项翻译：\nA. 只不过是\nB. 不可能\nC. 每当\nD. 在…之后；在…方面\n\n正确选项「にすぎない」是N2核心语法，前接名词或动词简体形，表对程度的限定，译为“只不过是、仅仅是”，代入句意为“这次失败的原因只不过是团队内部沟通不足，除此之外没有其他特殊要因”，语义通顺。其他选项：B「わけがない」前接活用词连体形，表强烈否定推测，译为“不可能、绝不会”，不符合句意；C「たびに」前接动词た形/名词+の，表每次触发前项就伴随后项，译为“每当、每次”，接续语义均不符；D「上で」前接动词た形/名词+の，表“在…之后、在…方面”，不符合语境。",
       "generated_by": "ark:Doubao-Seed-2.0-Pro",
       "reviewed_by": "zhipu",
       "review_explanation": "该题目审核合格。\n答案解释：正确选项为「にすぎない」，符合题意和语法规则。\n干扰项分析：选项B「わけがない」表示否定推测，与句意不符；选项C「たびに」表示每次触发前项就伴随后项，语义不合适；选项D「上で」表示“在…之后、在…方面”，语境不合适。\n语法/词汇重点：「にすぎない」的用法和意义。\n学习建议：加强对于「にすぎない」用法的练习，同时注意区分其他选项的用法和含义。",
@@ -62,7 +62,8 @@
       "created_at": "2026-05-03T22:00:12",
       "id": "n2-grammar_fill-003",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "这次失败的原因是团队内部沟通不足，没有其他特殊原因"
     },
     {
       "sentence": "このNPO法人は一年（　）、全国各地で高齢者支援のイベントを開催している。",
@@ -73,7 +74,7 @@
         "上で"
       ],
       "answer": 0,
-      "explanation": "正确选项「を通じて」前接名词，此处表覆盖整个时间段，译为“在整个…期间”，代入句意为“这个NPO法人一整年都在全国各地举办高龄者支援活动”，语义通顺。其他选项：B「にかけて」表时间/空间范围时必须搭配「～から～」构成“从…到…”的结构，单独接“一年”不符合接续要求；C「かわりに」前接动词简体/名词+の，表“代替、作为补偿”，不符合句意；D「上で」前接动词た形/名词+の，表“在…基础上、在…之后”，语义不符。",
+      "explanation": "题目翻译：这个NPO法人一整年（　）在全国各地举办高龄者支援活动。\n选项翻译：\nA. 在整个…期间\nB. （从…）到…\nC. 代替；作为补偿\nD. 在…基础上；在…之后\n\n正确选项「を通じて」前接名词，此处表覆盖整个时间段，译为“在整个…期间”，代入句意为“这个NPO法人一整年都在全国各地举办高龄者支援活动”，语义通顺。其他选项：B「にかけて」表时间/空间范围时必须搭配「～から～」构成“从…到…”的结构，单独接“一年”不符合接续要求；C「かわりに」前接动词简体/名词+の，表“代替、作为补偿”，不符合句意；D「上で」前接动词た形/名词+の，表“在…基础上、在…之后”，语义不符。",
       "generated_by": "ark:Doubao-Seed-2.0-Pro",
       "reviewed_by": "zhipu",
       "review_explanation": "本题合格。答案解释正确，选项「を通じて」表示“通过”，与句意相符。干扰项分析合理，选项B「にかけて」需要搭配「～から～」使用，单独接“一年”不合适；选项C「かわりに」表示“代替”，与句意不符；选项D「上で」表示“在…基础上”，语义不匹配。题目难度符合N2级别，句子自然，语法正确。",
@@ -81,7 +82,8 @@
       "created_at": "2026-05-03T22:00:18",
       "id": "n2-grammar_fill-004",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "这个NPO法人一年在全国各地举办老年人支持活动"
     },
     {
       "sentence": "春（　）夏にかけて、日本では多くの祭りが行われる。",
@@ -92,7 +94,7 @@
         "にすぎない"
       ],
       "answer": 1,
-      "explanation": "正确答案是「にかけて」，表示时间或空间上的范围起点到终点（从…到…）。句子意为「从春到夏，在日本会举行很多祭典」。「～を通じて」强调整个期间；「～たびに」表示每次…；「～にすぎない」意为仅仅是…。接续：名词＋にかけて。",
+      "explanation": "题目翻译：从春（　）夏天，日本会举行很多祭典。\n选项翻译：\nA. 在整个…期间\nB. 从…到…\nC. 每次…\nD. 仅仅是…\n\n正确答案是「にかけて」，表示时间或空间上的范围起点到终点（从…到…）。句子意为「从春到夏，在日本会举行很多祭典」。「～を通じて」强调整个期间；「～たびに」表示每次…；「～にすぎない」意为仅仅是…。接续：名词＋にかけて。",
       "generated_by": "mimo:mimo-v2.5-pro",
       "reviewed_by": "zhipu",
       "review_explanation": "该题目合格。\n答案解释：正确答案是「にかけて」，表示时间或空间上的范围起点到终点（从…到…）。句子意为「从春到夏，在日本会举行很多祭典」。\n干扰项分析：选项2「にかけて」和句子中的「夏にかけて」重复，但这是由于题目中句子自身包含该选项，这在实际考试中是不允许的，因此这里视为一个异常情况。选项1「を通じて」和选项3「たびに」都是合理的干扰项，因为它们分别表示整个期间和每次，与正确答案在意义上有所区别。\n语法/词汇重点：该题目考察了日语中表示时间范围的接续词「にかけて」。\n学习建议：学习者在学习日语中表示时间范围的接续词时，应注重理解其在句子中的作用和用法，并通过练习题来加深记忆。",
@@ -100,7 +102,8 @@
       "created_at": "2026-05-03T22:00:44",
       "id": "n2-grammar_fill-005",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "从春天到夏天，日本会举行很多祭典"
     },
     {
       "sentence": "社長が海外に出張している（　）、副社長が重要な決定を下す。",
@@ -111,7 +114,7 @@
         "を通じて"
       ],
       "answer": 1,
-      "explanation": "正确答案是「かわりに」，表示替代、代理，或交换条件。句子意为「社长在国外出差期间，由副社长代替他做重要决定」。「～上で」表示在…方面；「～わけがない」表示不可能；「～を通じて」表示通过…。接续：动词普通形/名词＋の＋かわりに。",
+      "explanation": "题目翻译：社长在国外出差期间（　），由副社长做出重要决定。\n选项翻译：\nA. 在…方面\nB. 代替；作为补偿\nC. 不可能\nD. 通过…\n\n正确答案是「かわりに」，表示替代、代理，或交换条件。句子意为「社长在国外出差期间，由副社长代替他做重要决定」。「～上で」表示在…方面；「～わけがない」表示不可能；「～を通じて」表示通过…。接续：动词普通形/名词＋の＋かわりに。",
       "generated_by": "mimo:mimo-v2.5-pro",
       "reviewed_by": "zhipu",
       "review_explanation": "此题合格。\n答案解释：正确答案是「かわりに」，符合句子语境，表示替代、代理或交换条件。\n干扰项分析：「上で」表示在…方面，与句子意思不符；「わけがない」表示不可能，也不符合句子意思；「を通じて」表示通过…，同样与句子意思不符。\n语法/词汇重点：此题考察了日语中表达替代、代理的常用表达方式。\n学习建议：建议学习者加强对日语中表达替代、代理的短语的记忆和应用，同时注意不同短语的语境差异。",
@@ -119,10 +122,11 @@
       "created_at": "2026-05-03T22:00:56",
       "id": "n2-grammar_fill-006",
       "level": "N2",
-      "question_type": "grammar_fill"
+      "question_type": "grammar_fill",
+      "translation": "社长在海外出差，副社长做出重要决定。"
     },
     {
-      "sentence": "28. 卒業（　）、先生に感謝の気持ちを伝えた。",
+      "sentence": "卒業（　）、先生に感謝の気持ちを伝えた。",
       "options": [
         "にあたって",
         "に際して",
@@ -130,7 +134,7 @@
         "にかけて"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：毕业（　），向老师表达了感谢之情。\n选项翻译：\nA. 在…之际\nB. 在…之际（更正式）\nC. 在…之前\nD. 从…到…\n\n「～にあたって」表示“在做……的重要时刻”，用于毕业、结婚等重要场合。选项1「に際して」也表示“在……之际”，但语气更正式，通常用于商业或仪式；选项2「に先立って」表示“在……之前”；选项3「にかけて」表示“从……到……”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -138,10 +142,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-007"
+      "id": "n2-grammar_fill-007",
+      "translation": "毕业后，向老师表达感谢。"
     },
     {
-      "sentence": "29. 彼は忙しい（　）、週末はボランティア活動をしている。",
+      "sentence": "彼は忙しい（　）、週末はボランティア活動をしている。",
       "options": [
         "一方で",
         "反面",
@@ -149,7 +154,7 @@
         "にもかかわらず"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：他很忙碌（　），周末在做志愿者活动。\n选项翻译：\nA. 另一方面\nB. 反面；另一方面\nC. 顺便\nD. 尽管……\n\n「一方で」用于陈述对同一事物的两个不同方面或对比性的行为。表示虽然“很忙”这一事实，但另一方面又在做“志愿者活动”这一对比性行为。选项1「反面」侧重于同一事物的正反两面；选项2「ついでに」表示“顺便”；选项3「にもかかわらず」表示“尽管……”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -157,10 +162,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-008"
+      "id": "n2-grammar_fill-008",
+      "translation": "他虽然忙，但周末还是在做志愿者活动。"
     },
     {
-      "sentence": "30. 雨が降っている（　）、外で遊ぶのはやめよう。",
+      "sentence": "雨が降っている（　）、外で遊ぶのはやめよう。",
       "options": [
         "ことだし",
         "ものなら",
@@ -168,7 +174,7 @@
         "以上に"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：（　）下雨了，别在外面玩了。\n选项翻译：\nA. （表示理由）既然…\nB. 如果能…的话（通常用于不可能的事）\nC. 不但不…反而…\nD. 既然…\n\n「～ことだし」表示“虽然还有其他理由，但首先作为主要理由……所以”，用于陈述促使后续行动的理由时使用。选项1「ものなら」表示“如果能……的话（通常用于不可能的事）”；选项2「どころか」表示“不但不……反而……”；选项3「以上に」表示“既然……”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -176,10 +182,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-009"
+      "id": "n2-grammar_fill-009",
+      "translation": "下雨了，就不要在外面玩了。"
     },
     {
-      "sentence": "31. 彼はプロの歌手（　）歌がうまい。",
+      "sentence": "彼はプロの歌手（　）歌がうまい。",
       "options": [
         "だけあって",
         "といえば",
@@ -187,7 +194,7 @@
         "からには"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：他（　）是专业歌手，唱歌很好听。\n选项翻译：\nA. 不愧是…\nB. 提到…\nC. 作为…来说（却不符合常规预期）\nD. 既然…\n\n「～だけあって」表示“不愧是……”“正因为……（才）”，用于称赞符合期望的好结果。选项1「といえば」表示“提到……”；选项2「にしては」表示“作为……来说（却不符合常规预期）”；选项3「からには」表示“既然……”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -195,18 +202,19 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-010"
+      "id": "n2-grammar_fill-010",
+      "translation": "他是专业歌手，歌唱得很好。"
     },
     {
-      "sentence": "32. 一度決めた（　）、最後までやり通すべきだ。",
+      "sentence": "一度決めた（　）、最後までやり通すべきだ。",
       "options": [
         "もので",
         "わけでも",
         "ところで",
         "からには"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 3,
+      "explanation": "题目翻译：一旦决定了（　），就应该坚持到最后。\n选项翻译：\nA. 因为（表示因果）\nB. 并不是…\nC. 即使…也（多接否定）\nD. 既然…\n\n「～からには」表示“既然有……这样强烈的事实，当然就应该……”，表达强烈的决心或义务。选项0「もので」表示因果；选项1「わけでも」表示“并不是……”；选项2「ところで」表示“即使……也（多接否定）”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -214,10 +222,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-011"
+      "id": "n2-grammar_fill-011",
+      "translation": "既然决定了，就应该坚持到底。"
     },
     {
-      "sentence": "33. 料理を（　）としたとき、電話が鳴った。",
+      "sentence": "料理を（　）としたとき、電話が鳴った。",
       "options": [
         "作ろう",
         "作る",
@@ -225,7 +234,7 @@
         "作れば"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：正要做料理（　）时，电话响了。\n选项翻译：\nA. （意志形）想要做\nB. （基本形）做\nC. （过去式）做了\nD. （假定形）如果做的话\n\n「动词意向形＋としたとき」表示“正要做……的那一刻”。选项1、2、3的接续均不符合该句型。选项1是终止形，选项2是过去式，选项3是假定形。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -233,10 +242,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-012"
+      "id": "n2-grammar_fill-012",
+      "translation": "正要做饭时，电话响了。"
     },
     {
-      "sentence": "34. 彼は毎日遅くまで残業している（　）、疲れが溜まっているようだ。",
+      "sentence": "彼は毎日遅くまで残業している（　）、疲れが溜まっているようだ。",
       "options": [
         "だけに",
         "せいで",
@@ -244,7 +254,7 @@
         "ついでに"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：他每天都工作到很晚（　），看起来很疲惫。\n选项翻译：\nA. 正因为…所以…\nB. 因为（坏结果）\nC. 多亏（好结果）\nD. 顺便\n\n「～だけに」表示“正因为有……这样的理由，所以更……/当然就……”，强调因果关系的强度。选项1「せいで」虽然也表示坏的原因，但「だけに」更强调“正因为……（所以更……）”。选项2「おかげで」用于好的结果；选项3「ついでに」表示“顺便”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -252,18 +262,19 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-013"
+      "id": "n2-grammar_fill-013",
+      "translation": "他每天加班到很晚，看起来疲劳积累了不少。"
     },
     {
-      "sentence": "35. 合格できる（　）、一生懸命勉強する。",
+      "sentence": "合格できる（　）、一生懸命勉強する。",
       "options": [
         "はずで",
         "わけに",
         "ように",
         "ばかりに"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 2,
+      "explanation": "题目翻译：为了能及格（　），要努力学习。\n选项翻译：\nA. 应该能…\nB. 必须…；不能…\nC. 为了…；以便…\nD. 正因为…（导致坏结果）\n\n「～ように」表示目的，意为“以达到……这样的状态为目标”。选项0「はずで」表示推测；选项1「わけに」表示“必须……”或“不能……”（如「わけにはいかない」表示“不能不……”）；选项3「ばかりに」表示“正因为……（引起了不好的结果）”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -271,18 +282,19 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-014"
+      "id": "n2-grammar_fill-014",
+      "translation": "只要能合格，我会拼命学习。"
     },
     {
-      "sentence": "36. 知っている（　）、教えてくれなかった。",
+      "sentence": "知っている（　）、教えてくれなかった。",
       "options": [
         "ながら",
         "くせに",
         "つつも",
         "反面"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "题目翻译：明明知道（　），却不告诉我。\n选项翻译：\nA. 尽管…但…（语气较缓和）\nB. 明明…却…（语气较强，带不满）\nC. 虽然…但…\nD. 另一方面\n\n「～くせに」用于当结果与原本状态预期的相反时，表达不满或轻蔑的语气。选项0「ながら」表示“尽管……但”；选项2「つつも」表示“虽然……但”；选项3「反面」表示“另一方面”。「くせに」语气最强，符合“明明知道却不告诉”的语境。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -290,18 +302,19 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-015"
+      "id": "n2-grammar_fill-015",
+      "translation": "他明明知道，却没有告诉我。"
     },
     {
-      "sentence": "37. この問題は、解決（　）がありません。",
+      "sentence": "この問題は、解決（　）がありません。",
       "options": [
         "べき",
         "はず",
         "かね",
         "しよう"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 3,
+      "explanation": "题目翻译：这个问题完全没有解决（　）。\n选项翻译：\nA. 应该\nB. 应该；推测\nC. 难以…\nD. 办法；方法\n\n「～しようがない」表示“完全没有办法……”，表达强烈的否定。动词连用形（ます形）去掉ます后接「ようがない」。选项0「べき」表示应该；选项1「はず」表示推测；选项2「かね」表示“难以……”（かねる）。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -309,18 +322,19 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-016"
+      "id": "n2-grammar_fill-016",
+      "translation": "这个问题没有解决办法。"
     },
     {
-      "sentence": "38. 自分の目で（　）ことには、信じられない。",
+      "sentence": "自分の目で（　）ことには、信じられない。",
       "options": [
         "見た",
         "見ない",
         "見る",
         "見よう"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "题目翻译：如果不亲眼看到（　），就无法相信。\n选项翻译：\nA. 看了（过去式）\nB. 不看（否定形）\nC. 看（基本形）\nD. 想要看（意志形）\n\n「～ないことには」表示“如果不……的话，之后的事情就无法实现”这样的条件。选项0、2、3的接续均不符合该句型。必须使用否定形接「ことには」。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -328,10 +342,11 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-017"
+      "id": "n2-grammar_fill-017",
+      "translation": "我亲眼看到的事情，却难以置信。"
     },
     {
-      "sentence": "39. 先生（　）ご指導をいただき、感謝しております。",
+      "sentence": "先生（　）ご指導をいただき、感謝しております。",
       "options": [
         "より",
         "から",
@@ -339,7 +354,7 @@
         "への"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "题目翻译：（　）老师的指导，深表感谢。\n选项翻译：\nA. 来自（敬语）\nB. 来自（普通）\nC. 到…为止\nD. 向…的\n\n「～より」是「～から」的更礼貌、更生硬的表达，用于书信或正式场合。选项1「から」虽然意思也对，但作为语法题，本题考查的是「より」表示来源的用法。选项2「まで」表示到……为止；选项3「への」表示“向着……”。",
       "generated_by": "gemini:Google Gemini",
       "reviewed_by": "gemini",
       "verified": true,
@@ -347,7 +362,4202 @@
       "level": "N2",
       "source": "ai",
       "question_type": "grammar_fill",
-      "id": "n2-grammar_fill-018"
+      "id": "n2-grammar_fill-018",
+      "translation": "承蒙老师的指导，非常感谢。"
+    },
+    {
+      "id": "n2-grammar_fill-019",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、彼は経験が豊富だ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "なにしろ",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 毕竟；要说为什么…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:40:14.214Z",
+      "translation": "他经验丰富，"
+    },
+    {
+      "id": "n2-grammar_fill-020",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、嫌なんだもん。",
+      "options": [
+        "ばかりに",
+        "だって",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 但是；因为（口语辩解）\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:40:14.214Z",
+      "translation": "真讨厌啊，"
+    },
+    {
+      "id": "n2-grammar_fill-021",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、久しぶりだからよく覚えていない。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "なにせ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 别说…；哪里是…\nB. 正因为…\nC. 毕竟；说起来\nD. 虽然…但是…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "好久没见，都记不清了。"
+    },
+    {
+      "id": "n2-grammar_fill-022",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、嫌なんだもん。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "だって"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 但是；因为（口语辩解）\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "就是讨厌。"
+    },
+    {
+      "id": "n2-grammar_fill-023",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、彼は経験が豊富だ。",
+      "options": [
+        "なにしろ",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 正因为…\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "他经验丰富。"
+    },
+    {
+      "id": "n2-grammar_fill-024",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼は頭がいい。（　）、性格も素晴らしい。",
+      "options": [
+        "しかも",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 正因为…\nD. 别说…；哪里是…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:41:39.793Z",
+      "translation": "他头脑聪明，性格也很棒。"
+    },
+    {
+      "id": "n2-grammar_fill-025",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼は頭がいい。（　）、性格も素晴らしい。",
+      "options": [
+        "しかも",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他很聪明。（　），性格也很好。\n选项翻译：\nA. 而且；并且\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「しかも」是句首接续词，表示递进关系，意为“而且；并且；再者”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:39.541Z",
+      "translation": "他头脑聪明，性格也很棒。"
+    },
+    {
+      "id": "n2-grammar_fill-026",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、彼は経験が豊富だ。",
+      "options": [
+        "なにしろ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　），他经验丰富。\n选项翻译：\nA. 毕竟；要说为什么…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにしろ」是句首接续词，用于解释原因或理由，意为“毕竟；要说为什么…；总的来说”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "果然，他经验丰富。"
+    },
+    {
+      "id": "n2-grammar_fill-027",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、嫌なんだもん。",
+      "options": [
+        "だって",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 但是；因为（口语辩解）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "就是啊，我讨厌嘛。"
+    },
+    {
+      "id": "n2-grammar_fill-028",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、久しぶりだからよく覚えていない。",
+      "options": [
+        "なにせ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　），因为很久没见了所以不记得了。\n选项翻译：\nA. 毕竟；说起来\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「なにせ」是句首接续词，用于解释原因，意为“毕竟；说起来；总归”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:39.542Z",
+      "translation": "毕竟好久没见了，记不太清了。"
+    },
+    {
+      "id": "n2-grammar_fill-029",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "好き（　）、そうでもない。",
+      "options": [
+        "ものの",
+        "どころか",
+        "かというと",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：要说喜欢（　），也不是那样。\n选项翻译：\nA. 虽然…但是…\nB. 别说…；哪里是…\nC. 要说…（转换话题或解释）\nD. 正因为…\n\n「～かというと」表示“要说…（的话）”，用于转换话题或解释说明，意为“要说是否…；如果说…的话”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "喜欢也说不上特别喜欢。"
+    },
+    {
+      "id": "n2-grammar_fill-030",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼の意見に賛成せ（　）。",
+      "options": [
+        "どころか",
+        "ざるを得ない",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：不得不赞成他的意见（　）。\n选项翻译：\nA. 别说…；哪里是…\nB. 不得不…；只得…\nC. 虽然…但是…\nD. 正因为…\n\n「～ざるを得ない」是N2语法，表示“不得不…；只得…；只好…”，动词否定形（ない形去掉ない）+ ざるを得ない。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他的意见我可不赞成。"
+    },
+    {
+      "id": "n2-grammar_fill-031",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼はまるで何も知らない（　）話した。",
+      "options": [
+        "かのように",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他仿佛完全不知道（　）说了。\n选项翻译：\nA. 仿佛…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～かのように」表示“仿佛…；好像…；就像…一样”，用于比喻或假想的情况，「まるで」常和它搭配使用。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他好像什么也不知道地说话了"
+    },
+    {
+      "id": "n2-grammar_fill-032",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼の演奏には感動的な（　）。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "ものがある",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：他的演奏有令人感动的（　）。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 有…的东西；有…之处\nD. 别说…；哪里是…\n\n「～ものがある」表示“有…的东西；有…之处；实在是…；令人…的”，用于强调某事物的特质。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他的演奏很感人"
+    },
+    {
+      "id": "n2-grammar_fill-033",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "昔に戻れる（　）、戻りたい。",
+      "options": [
+        "ものなら",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：如果能回到过去（　），我想回去。\n选项翻译：\nA. 如果能…的话（表示愿望或假设）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ものなら」表示“如果能…的话”，常用于表达难以实现的愿望或假设，前接动词可能形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "如果能回到过去，真的想回去"
+    },
+    {
+      "id": "n2-grammar_fill-034",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼は優しい（　）、おとなしいタイプだ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "というか"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：他是温柔的（　），是老实的类型。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 应该说…；或者说…\n\n「～というか」表示“应该说…；或者说…；其实是…”，用于修正或补充前面的内容，使其更准确。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他是个温柔、内向的人"
+    },
+    {
+      "id": "n2-grammar_fill-035",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "天気（　）、予定を変更する。",
+      "options": [
+        "ものの",
+        "次第で",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：根据天气（　），变更计划。\n选项翻译：\nA. 虽然…但是…\nB. 根据…；取决于…\nC. 正因为…\nD. 别说…；哪里是…\n\n「～次第で」表示“根据…；取决于…；要看…而定”，前接名词，表示依据前面的内容来决定后面的事项。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "天气原因，计划要更改"
+    },
+    {
+      "id": "n2-grammar_fill-036",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼女はいつも黒（　）の服を着ている。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "ずくめ"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：她总是穿（　）黑色的衣服。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 正因为…\nD. 全是…；清一色…\n\n「～ずくめ」表示“全是…；清一色…；净是…”，用于强调全部都是某种东西或状态，前接名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "她总是穿黑色的衣服。"
+    },
+    {
+      "id": "n2-grammar_fill-037",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼は強い（　）いて、実は優しい。",
+      "options": [
+        "ようで",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他看似（　）很强，其实很温柔。\n选项翻译：\nA. 看似…；好像…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～ようで（いて）」表示“看似…；好像…（但实际上不是）”，用于表示表面看起来是这样，但实际上不是那样的情况。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "他外表强硬，但实际上很温柔。"
+    },
+    {
+      "id": "n2-grammar_fill-038",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "長年の研究（　）、ついに発見した。",
+      "options": [
+        "を経て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：经过长年的研究（　），终于发现了。\n选项翻译：\nA. 经过…；通过…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～を経て」表示“经过…；通过…；历经…”，用于表示经历了某个过程后才达到现在的状态，前接名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "经过多年的研究，终于发现了。"
+    },
+    {
+      "id": "n2-grammar_fill-039",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "雨が降る（　）、中止しましょう。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ようなら",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：如果看起来要下雨（　），就取消吧。\n选项翻译：\nA. 别说…；哪里是…\nB. 虽然…但是…\nC. 如果…的话（表示推测或可能性）\nD. 正因为…\n\n「～ようなら」表示“如果…的话”，用于表示根据某种迹象推测可能发生的情况，或者表示假设的情况，前接普通形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.327Z",
+      "translation": "下雨了，我们中止吧。"
+    },
+    {
+      "id": "n2-grammar_fill-040",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "彼は頭がいい（　）、性格もいい。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "のみならず"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：他不仅聪明（　），性格也很好。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 不仅…而且…（书面语）\n\n「～のみならず」表示“不仅…而且…；不但…而且…”，是书面语表达，用于强调递进关系，前接普通形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "他头脑聪明，性格也好。"
+    },
+    {
+      "id": "n2-grammar_fill-041",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "子供は泥（　）になって遊んでいた。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "まみれ",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：孩子变得满身（　）泥地在玩。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 满是…；沾满…\nD. 别说…；哪里是…\n\n「～まみれ」表示“满是…；沾满…；到处都是…”，用于表示某个东西沾满了表面，通常用于不好的或脏的东西，前接名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "孩子们玩得满身是泥。"
+    },
+    {
+      "id": "n2-grammar_fill-042",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "行く（　）行かない（　）、早く決めてください。",
+      "options": [
+        "にしろ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：去（　）还是不去（　），请快点决定。\n选项翻译：\nA. 无论…还是…；即使…（表示选择）\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～にしろ」表示“无论…还是…；即使…”，用于列举两种相反的情况或表示让步，是较正式的表达，前接普通形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "去还是不去，请快点决定。"
+    },
+    {
+      "id": "n2-grammar_fill-043",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "子供からお年寄り（　）、みんな楽しめる。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "に至るまで"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：从小孩（　）老人，大家都能开心享受。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 到…为止；直到…\n\n「～に至るまで」表示“到…为止；直到…；甚至到…程度”，用于表示范围的终点，强调从起点到终点的全部，前接名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "从孩子到老人，大家都能享受。"
+    },
+    {
+      "id": "n2-grammar_fill-044",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "（　）、嫌なんだもん。",
+      "options": [
+        "ものの",
+        "だって",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：（　），因为我不喜欢嘛。\n选项翻译：\nA. 虽然…但是…\nB. 但是；因为（口语辩解）\nC. 别说…；哪里是…\nD. 正因为…\n\n「だって」是句首接续词（口语），用于辩解或表示理由，意为“但是；因为”。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "我就是不喜欢嘛。"
+    },
+    {
+      "id": "n2-grammar_fill-045",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "ルール（　）、行動してください。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "にしたがって",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：请按照规则（　）行动。\n选项翻译：\nA. 正因为…\nB. 虽然…但是…\nC. 按照…；根据…\nD. 别说…；哪里是…\n\n「～にしたがって」表示“按照…；根据…；随着…”，用于表示根据某种规则或标准行动，或者随着某事物的变化而变化，前接名词或动词普通形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "请按照规则行动。"
+    },
+    {
+      "id": "n2-grammar_fill-046",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "お金がある（　）、幸せとは限らない。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "からといって"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：不能说因为有钱（　）就一定幸福。\n选项翻译：\nA. 虽然…但是…\nB. 正因为…\nC. 别说…；哪里是…\nD. 不能因为…就…；虽然…但是…\n\n「～からといって」表示“不能因为…就…；虽然…但是…”，用于表示不能仅凭一个理由就下结论，或者表示虽然有某个理由，但结果不一定是那样。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "有钱不一定幸福"
+    },
+    {
+      "id": "n2-grammar_fill-047",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "この仕事は給料がいい（　）、責任が重い。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "反面"
+      ],
+      "answer": 3,
+      "explanation": "题目翻译：这份工作工资不错（　），责任很重。\n选项翻译：\nA. 正因为…\nB. 别说…；哪里是…\nC. 虽然…但是…\nD. 另一方面；相反…\n\n「～反面」表示“另一方面；相反…”，用于列举同一事物的正反两个方面，或表示相对的特征。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "这个工作工资高但责任重"
+    },
+    {
+      "id": "n2-grammar_fill-048",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "日本旅行（　）、日本語を勉強し始めた。",
+      "options": [
+        "をきっかけに",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：以日本旅行为契机（　），开始学习日语。\n选项翻译：\nA. 以…为契机；趁着…\nB. 虽然…但是…\nC. 正因为…\nD. 别说…；哪里是…\n\n「～をきっかけに」表示“以…为契机；以…为开端；趁着…”，用于表示某个事件成为开始做某事的契机，前接名词或动词普通形。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "因为要来日本旅行，我开始学日语"
+    },
+    {
+      "id": "n2-grammar_fill-049",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "新年（　）、ご挨拶申し上げます。",
+      "options": [
+        "ばかりに",
+        "にあたって",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：值此新年（　），向您致以问候。\n选项翻译：\nA. 正因为…\nB. 值此…之际；在…之时（正式）\nC. 虽然…但是…\nD. 别说…；哪里是…\n\n「～にあたって」表示“值此…之际；在…之时”，用于正式场合，表示在某个重要时刻做某事，前接动词普通形或名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "新年之际，向您问好"
+    },
+    {
+      "id": "n2-grammar_fill-050",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "sentence": "専門家（　）、この問題は簡単だ。",
+      "options": [
+        "からすると",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：从专家（　），这个问题很简单。\n选项翻译：\nA. 从…来看；判断…\nB. 虽然…但是…\nC. 别说…；哪里是…\nD. 正因为…\n\n「～からすると」表示“从…来看；判断…”，用于表示从某个立场或角度来看待某个问题，前接名词。",
+      "verified": true,
+      "created_at": "2026-05-04T00:42:54.328Z",
+      "translation": "专家认为这个问题很简单"
+    },
+    {
+      "id": "n2-grammar_fill-051",
+      "sentence": "この問題は、数学の専門家（　）難しいとされている。",
+      "options": [
+        "にとって",
+        "に対して",
+        "について",
+        "によって"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这个问题对数学专家（　）也被认为是很难的。\n选项翻译：\nA. 对…来说\nB. 对…；向…\nC. 关于…\nD. 根据…；被…\n\n「にとって」表示对于某人来说。句意：这个问题对于数学专家来说也被认为是很难的。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个问题连数学专家都认为很难"
+    },
+    {
+      "id": "n2-grammar_fill-052",
+      "sentence": "日本の歴史（　）レポートを書くことになった。",
+      "options": [
+        "について",
+        "に対して",
+        "にとって",
+        "によって"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：我决定写一篇（　）日本历史的报告。\n选项翻译：\nA. 关于…\nB. 对…；向…\nC. 对…来说\nD. 根据…；被…\n\n「について」表示关于某个主题。句意：我决定写一篇关于日本历史的报告。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "要写一篇关于日本历史的报告"
+    },
+    {
+      "id": "n2-grammar_fill-053",
+      "sentence": "この制度は、利用する人（　）異なってくる。",
+      "options": [
+        "によって",
+        "にとって",
+        "に対して",
+        "について"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这个制度根据使用者的（　）而不同。\n选项翻译：\nA. 根据…\nB. 对…来说\nC. 对…；向…\nD. 关于…\n\n「によって」表示根据……的不同而不同。句意：这个制度根据使用者的不同而不同。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个制度因使用者不同而异"
+    },
+    {
+      "id": "n2-grammar_fill-054",
+      "sentence": "彼は学生（　）立派な研究をしている。",
+      "options": [
+        "として",
+        "について",
+        "にとって",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他以学生（　）身份进行出色的研究。\n选项翻译：\nA. 作为…\nB. 关于…\nC. 对…来说\nD. 对…；向…\n\n「として」表示作为……的身份。句意：他作为一名学生在进行出色的研究。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然是学生，但进行着出色的研究"
+    },
+    {
+      "id": "n2-grammar_fill-055",
+      "sentence": "年を取る（　）、体力が衰えてくる。",
+      "options": [
+        "にしたがって",
+        "について",
+        "に対して",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：随着年龄增长（　），体力逐渐衰退。\n选项翻译：\nA. 随着…\nB. 关于…\nC. 对…；向…\nD. 对…来说\n\n「にしたがって」表示随着……。句意：随着年龄增长，体力逐渐衰退。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "随着年纪增长，体力逐渐下降"
+    },
+    {
+      "id": "n2-grammar_fill-056",
+      "sentence": "大雨（　）、運動会は中止になった。",
+      "options": [
+        "にもかかわらず",
+        "によって",
+        "について",
+        "に対して"
+      ],
+      "answer": 1,
+      "explanation": "题目翻译：由于大雨（　），运动会被取消了。\n选项翻译：\nA. 尽管…\nB. 由于…；根据…\nC. 关于…\nD. 对…；向…\n\n「によって」表示由于某个原因。句意：由于大雨，运动会被取消了。「にもかかわらず」表示尽管，语义相反。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "因为大雨，运动会取消了。"
+    },
+    {
+      "id": "n2-grammar_fill-057",
+      "sentence": "彼女は約束した（　）、来なかった。",
+      "options": [
+        "のに",
+        "ので",
+        "から",
+        "ば"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：她约好了（　），却没有来。\n选项翻译：\nA. 尽管…（逆接）\nB. 因为…\nC. 因为…\nD. 如果…\n\n「のに」表示尽管……却（逆接）。句意：尽管她约好了，却没有来。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她明明约好了，却没有来。"
+    },
+    {
+      "id": "n2-grammar_fill-058",
+      "sentence": "遅れてすみません。（　）、電車が遅れたんです。",
+      "options": [
+        "というのも",
+        "ちなみに",
+        "ところで",
+        "さて"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：迟到不好意思。（　），电车晚点了。\n选项翻译：\nA. 原因是…；因为…\nB. 顺便说一下…\nC. 话说回来…\nD. 那么…\n\n「というのも」表示原因是……（用于解释理由）。句意：迟到不好意思。原因是电车晚点了。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "对不起迟到了。是因为电车晚点了。"
+    },
+    {
+      "id": "n2-grammar_fill-059",
+      "sentence": "彼が犯人だ（　）証拠がない。",
+      "options": [
+        "わけにはいかない",
+        "はずがない",
+        "わけがない",
+        "ことはない"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：不可能说他是犯人（　），没有证据。\n选项翻译：\nA. 不能…；必须…\nB. 应该不可能…\nC. 不可能…\nD. 没有…的事情\n\n「わけがない」表示不可能……。句意：不可能是他犯人（没有证据）。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "虽说他是犯人，但没有证据。"
+    },
+    {
+      "id": "n2-grammar_fill-060",
+      "sentence": "この映画は一度（　）見たことがある。",
+      "options": [
+        "しか",
+        "だけ",
+        "ほど",
+        "さえ"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这部电影我（　）看过一次。\n选项翻译：\nA. 只有…（后续否定）\nB. 只有…\nC. 程度…\nD. 甚至…\n\n「しか……ない」表示只有……（限定数量）。句意：这部电影我只看过一次。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影只看过一次。"
+    },
+    {
+      "id": "n2-grammar_fill-061",
+      "sentence": "事故の被害は想像（　）大きかった。",
+      "options": [
+        "以上に",
+        "以下に",
+        "以前に",
+        "以降に"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：事故的损失比想象的（　）更大。\n选项翻译：\nA. 比…更…\nB. 比…更小…\nC. 在…之前…\nD. 在…之后…\n\n「以上に」表示比……更（超出预期）。句意：事故的损害比想象的更大。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "事故的损失想象中很大"
+    },
+    {
+      "id": "n2-grammar_fill-062",
+      "sentence": "天気予報（　）、明日は雨だそうだ。",
+      "options": [
+        "によると",
+        "について",
+        "に対して",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　）天气预报，明天好像会下雨。\n选项翻译：\nA. 根据…\nB. 关于…\nC. 对…；向…\nD. 对…来说\n\n「によると」表示根据……。句意：根据天气预报，明天好像会下雨。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "天气预报说，明天会下雨"
+    },
+    {
+      "id": "n2-grammar_fill-063",
+      "sentence": "彼は嘘をついた（　）、反省する様子がない。",
+      "options": [
+        "くせに",
+        "ので",
+        "から",
+        "ば"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他明明撒了谎（　），却没有反省的样子。\n选项翻译：\nA. 明明…却…（责备语气）\nB. 因为…\nC. 因为…\nD. 如果…\n\n「くせに」表示明明……却（责备语气的逆接）。句意：他明明撒了谎，却没有反省的样子。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他撒了谎，没有反省的样子"
+    },
+    {
+      "id": "n2-grammar_fill-064",
+      "sentence": "この薬は危険（　）、使わないほうがいい。",
+      "options": [
+        "だから",
+        "なので",
+        "ならば",
+        "にもかかわらず"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这个药很危险（　），最好不要使用。\n选项翻译：\nA. 所以…\nB. 因为…\nC. 如果…\nD. 尽管…\n\n「だから」表示因此。句意：这个药很危险，所以最好不要使用。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这种药很危险，最好不要使用"
+    },
+    {
+      "id": "n2-grammar_fill-065",
+      "sentence": "彼女は泣き（　）の顔で訴えた。",
+      "options": [
+        "っぽい",
+        "がち",
+        "気味",
+        "まじき"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：她带着有点要哭的（　）表情诉说。\n选项翻译：\nA. 像…样子\nB. 容易…倾向\nC. 有点…倾向\nD. 不像…\n\n「気味」表示稍微、有点（不好的倾向）。句意：她带着有点要哭的表情诉说。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她带着哭泣的脸诉说了"
+    },
+    {
+      "id": "n2-grammar_fill-066",
+      "sentence": "最近、彼は遅刻（　）だ。",
+      "options": [
+        "がち",
+        "っぽい",
+        "気味",
+        "だらけ"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：最近，他容易（　）迟到。\n选项翻译：\nA. 容易…倾向\nB. 像…样子\nC. 有点…倾向\nD. 满是…\n\n「がち」表示容易有……的倾向（负面）。句意：最近他经常迟到。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "最近，他经常迟到。"
+    },
+    {
+      "id": "n2-grammar_fill-067",
+      "sentence": "公園はゴミ（　）で、ひどい状態だった。",
+      "options": [
+        "だらけ",
+        "まみれ",
+        "ずくめ",
+        "っぽい"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：公园满是（　）垃圾，状态很糟糕。\n选项翻译：\nA. 满是…（负面）\nB. 沾满…\nC. 清一色…\nD. 像…样子\n\n「だらけ」表示满是……（负面事物到处都是）。句意：公园满是垃圾。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "公园里满是垃圾，状态很糟糕。"
+    },
+    {
+      "id": "n2-grammar_fill-068",
+      "sentence": "彼の行動は理解（　）ものだ。",
+      "options": [
+        "にかたくない",
+        "にたえない",
+        "にあたらない",
+        "にかかわらない"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他的行动是（　）理解的。\n选项翻译：\nA. 不难…\nB. 不堪…\nC. 不值得…\nD. 无关…\n\n「にかたくない」表示不难……。句意：他的行动不难理解。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他的行动难以理解。"
+    },
+    {
+      "id": "n2-grammar_fill-069",
+      "sentence": "彼の話を聞いて、涙を禁じ（　）。",
+      "options": [
+        "えない",
+        "かたくない",
+        "にあたらない",
+        "かねない"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：听了他的话，（　）忍不住流泪。\n选项翻译：\nA. 禁不住…\nB. 不难…\nC. 不值得…\nD. 有可能…\n\n「えない」（禁じ得ない）表示忍不住。句意：听了他的话，忍不住流泪。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "听了他的话，不禁流泪。"
+    },
+    {
+      "id": "n2-grammar_fill-070",
+      "sentence": "そんなことで怒る（　）。",
+      "options": [
+        "にあたらない",
+        "にたえない",
+        "にかたくない",
+        "かねない"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：不必为那种事情（　）生气。\n选项翻译：\nA. 不值得…\nB. 不堪…\nC. 不难…\nD. 有可能…\n\n「にあたらない」表示不必、不值得。句意：不必为那种事情生气。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "竟然为那样的事情生气。"
+    },
+    {
+      "id": "n2-grammar_fill-071",
+      "sentence": "このままでは事故が起き（　）。",
+      "options": [
+        "かねない",
+        "かねる",
+        "かたくない",
+        "にたえない"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这样下去有可能（　）发生事故。\n选项翻译：\nA. 有可能…（负面）\nB. 难以…\nC. 不难…\nD. 不堪…\n\n「かねない」表示有可能（发生不好的事）。句意：这样下去有可能发生事故。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这样下去会出事故的。"
+    },
+    {
+      "id": "n2-grammar_fill-072",
+      "sentence": "彼の提案は、私には理解し（　）。",
+      "options": [
+        "かねる",
+        "かねない",
+        "かたくない",
+        "にたえない"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他的提案我难以（　）理解。\n选项翻译：\nA. 难以…（委婉）\nB. 有可能…\nC. 不难…\nD. 不堪…\n\n「かねる」表示难以……（委婉拒绝）。句意：他的提案我难以理解。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他的提案，我无法理解。"
+    },
+    {
+      "id": "n2-grammar_fill-073",
+      "sentence": "彼は優秀な（　）、性格もいい。",
+      "options": [
+        "うえに",
+        "ばかりか",
+        "だけでなく",
+        "以上は"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他很优秀（　），性格也好。\n选项翻译：\nA. 而且…\nB. 不仅…还…\nC. 不仅…还…\nD. 超过…\n\n「うえに」表示而且、再加上（递进）。句意：他很优秀，而且性格也好。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他不仅优秀，性格也很好。"
+    },
+    {
+      "id": "n2-grammar_fill-074",
+      "sentence": "雨が降っている。（　）、風も強い。",
+      "options": [
+        "うえに",
+        "ために",
+        "ところが",
+        "そこで"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：下雨了。（　）风也很大。\n选项翻译：\nA. 而且…\nB. 为了…\nC. 但是…\nD. 于是…\n\n「うえに」表示而且、再加上。句意：在下雨。而且风也很大。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "下雨了。而且风也很大。"
+    },
+    {
+      "id": "n2-grammar_fill-075",
+      "sentence": "彼は金持ちだ。（　）、けちだ。",
+      "options": [
+        "それなのに",
+        "それで",
+        "それでは",
+        "そして"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他很有钱。（　），很吝啬。\n选项翻译：\nA. 尽管如此…\nB. 所以…\nC. 那么…\nD. 而且…\n\n「それなのに」表示尽管如此（转折）。句意：他很有钱。尽管如此却很吝啬。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他很有钱。不过却很吝啬。"
+    },
+    {
+      "id": "n2-grammar_fill-076",
+      "sentence": "この本は読めば読む（　）面白くなる。",
+      "options": [
+        "ほど",
+        "だけ",
+        "から",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这本书越读（　）越有趣。\n选项翻译：\nA. 越…越…\nB. 只有…\nC. 从…\nD. 到…\n\n「〜ば〜ほど」表示越……越……。句意：这本书越读越有趣。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这本书越读越有趣。"
+    },
+    {
+      "id": "n2-grammar_fill-077",
+      "sentence": "日本に来て（　）、日本の文化に興味を持つようになった。",
+      "options": [
+        "からというもの",
+        "からといって",
+        "からには",
+        "からこそ"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：（　）来到日本，就对日本文化产生了兴趣。\n选项翻译：\nA. 自从…以来…\nB. 虽说…\nC. 既然…\nD. 正因为…\n\n「からというもの」表示自从……以来（强调变化）。句意：自从来了日本，就对日本文化产生了兴趣。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "来到日本后，我开始对日本文化感兴趣。"
+    },
+    {
+      "id": "n2-grammar_fill-078",
+      "sentence": "努力（　）成功はありえない。",
+      "options": [
+        "なしに",
+        "において",
+        "について",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：没有努力（　）就不可能成功。\n选项翻译：\nA. 没有…\nB. 在…方面\nC. 关于…\nD. 对…\n\n「なしに」表示没有……的话。句意：没有努力就不可能成功。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "不努力，成功是不可能的。"
+    },
+    {
+      "id": "n2-grammar_fill-079",
+      "sentence": "彼女は結婚して（　）、仕事を続けている。",
+      "options": [
+        "からといって",
+        "からには",
+        "ものの",
+        "わりに"
+      ],
+      "answer": 2,
+      "explanation": "题目翻译：她结婚了（　），还在继续工作。\n选项翻译：\nA. 虽说…\nB. 既然…\nC. 虽然…但是…\nD. 相比…\n\n「ものの」表示虽然……但是（承认前项但后项有转折）。句意：虽然结婚了，但还在继续工作。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她结婚后，还在继续工作。"
+    },
+    {
+      "id": "n2-grammar_fill-080",
+      "sentence": "値段は高い（　）、品質はいい。",
+      "options": [
+        "わりに",
+        "ものの",
+        "からといって",
+        "ながら"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：价格虽然贵（　），但质量很好。\n选项翻译：\nA. 相对而言…\nB. 虽然…但是…\nC. 虽说…\nD. 一边…一边…\n\n「わりに」表示相对而言（与预期不符）。句意：价格虽贵，但质量是好的。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "虽然价格高，但质量好。"
+    },
+    {
+      "id": "n2-grammar_fill-081",
+      "sentence": "この店は味がいい。（　）、値段も安い。",
+      "options": [
+        "しかも",
+        "そこで",
+        "ところが",
+        "すると"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：这家店味道好。（　）价格也便宜。\n选项翻译：\nA. 而且…\nB. 于是…\nC. 但是…\nD. 于是…\n\n「而且还」表示而且。句意：这家店味道好。而且价格也便宜。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这家店味道很好，而且价格也便宜。"
+    },
+    {
+      "id": "n2-grammar_fill-082",
+      "sentence": "事故で電車が止まった。（　）、タクシーで行った。",
+      "options": [
+        "そこで",
+        "ところが",
+        "すると",
+        "そして"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：因为事故电车停了。（　）打了出租车去。\n选项翻译：\nA. 于是…\nB. 但是…\nC. 于是…\nD. 而且…\n\n「そこで」表示因此、于是（针对问题采取措施）。句意：因为事故电车停了。于是打了出租车去。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "因为事故电车停了，所以打车去的。"
+    },
+    {
+      "id": "n2-grammar_fill-083",
+      "sentence": "彼は約束の時間に遅れた。（　）、理由も言わなかった。",
+      "options": [
+        "そればかりか",
+        "それで",
+        "そこで",
+        "そして"
+      ],
+      "answer": 0,
+      "explanation": "题目翻译：他迟到了约定的时间。（　）连理由也没说。\n选项翻译：\nA. 不仅如此…\nB. 所以…\nC. 于是…\nD. 而且…\n\n「そればかりか」表示不仅如此（递进，负面语气）。句意：他迟到了。不仅如此，连理由也没说。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他不仅迟到，而且也没说明理由。"
+    },
+    {
+      "id": "n2-grammar_fill-084",
+      "sentence": "この映画は子供（　）大人にも人気がある。",
+      "options": [
+        "はもちろん",
+        "としては",
+        "については",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "「はもちろん」表示自不必说。句意：这部电影自不必说小孩，连大人也很受欢迎。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影和小孩及大人都很受欢迎。"
+    },
+    {
+      "id": "n2-grammar_fill-085",
+      "sentence": "彼は一流の料理人（　）、多くの弟子を育てた。",
+      "options": [
+        "として",
+        "について",
+        "にとって",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "「として」表示作为。句意：他作为一流厨师培养了许多弟子。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他是一流的厨师，而且培养了许多弟子。"
+    },
+    {
+      "id": "n2-grammar_fill-086",
+      "sentence": "この映像は本物（　）見えた。",
+      "options": [
+        "とばかりに",
+        "かのように",
+        "かと思うと",
+        "というより"
+      ],
+      "answer": 1,
+      "explanation": "「かのように」表示仿佛……一样。句意：这个影像看起来仿佛是真的一样。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个影像看起来像是真的。"
+    },
+    {
+      "id": "n2-grammar_fill-087",
+      "sentence": "彼女は笑っていた。（　）、本当は悲しかったのかもしれない。",
+      "options": [
+        "しかし",
+        "それで",
+        "つまり",
+        "そして"
+      ],
+      "answer": 0,
+      "explanation": "「しかし」表示然而。句意：她笑着。然而实际上可能很难过。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "她当时在笑。不过，或许她其实很难过。"
+    },
+    {
+      "id": "n2-grammar_fill-088",
+      "sentence": "この映画は一度見たら、もう二度と見（　）。",
+      "options": [
+        "たくない",
+        "たがらない",
+        "そうもない",
+        "かねない"
+      ],
+      "answer": 0,
+      "explanation": "「たくない」表示不想。句意：这部电影看了一次就不想再看第二次了。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这部电影看一遍就不会再看第二遍了。"
+    },
+    {
+      "id": "n2-grammar_fill-089",
+      "sentence": "彼は学生の（　）、社会人としても活躍している。",
+      "options": [
+        "くせに",
+        "一方で",
+        "ところで",
+        "たびに"
+      ],
+      "answer": 1,
+      "explanation": "「一方で」表示另一方面（并列对比）。句意：他一方面是学生，另一方面作为社会人也很活跃。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然还是学生，但作为社会人也活跃着。"
+    },
+    {
+      "id": "n2-grammar_fill-090",
+      "sentence": "この本は日本語の勉強（　）役に立つ。",
+      "options": [
+        "にあたって",
+        "にとって",
+        "について",
+        "に対して"
+      ],
+      "answer": 1,
+      "explanation": "「にとって」表示对于。句意：这本书对于日语学习很有帮助。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这本书对日语学习很有帮助。"
+    },
+    {
+      "id": "n2-grammar_fill-091",
+      "sentence": "来月の旅行（　）、準備を始めた。",
+      "options": [
+        "を前にして",
+        "をもとに",
+        "をめぐって",
+        "を込めて"
+      ],
+      "answer": 0,
+      "explanation": "「を前にして」表示在……之前。句意：在下个月的旅行之前，开始了准备。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "下个月的旅行已经开始准备了"
+    },
+    {
+      "id": "n2-grammar_fill-092",
+      "sentence": "彼は秘密を知り（　）。",
+      "options": [
+        "たがっている",
+        "たがらない",
+        "ている",
+        "ていたい"
+      ],
+      "answer": 0,
+      "explanation": "「たがっている」表示第三人称想要做某事。句意：他想知道秘密。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他知道了秘密"
+    },
+    {
+      "id": "n2-grammar_fill-093",
+      "sentence": "日本語が話せる（　）、就職に有利だ。",
+      "options": [
+        "だけで",
+        "からには",
+        "ことは",
+        "うちに"
+      ],
+      "answer": 0,
+      "explanation": "「だけで」表示仅仅……就。句意：仅仅会说日语就对就业有利。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "会说日语有利于就业"
+    },
+    {
+      "id": "n2-grammar_fill-094",
+      "sentence": "彼は言葉（　）行動で示した。",
+      "options": [
+        "よりも",
+        "によって",
+        "について",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "「よりも」表示比……更。句意：他用行动比用语言更能说明。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他用言语和行动表现了出来"
+    },
+    {
+      "id": "n2-grammar_fill-095",
+      "sentence": "この仕事は君（　）任せる。",
+      "options": [
+        "にこそ",
+        "によって",
+        "にとって",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "「にこそ」表示正是、唯有（强调对象）。句意：这个工作正是要交给你。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这项工作可以交给你"
+    },
+    {
+      "id": "n2-grammar_fill-096",
+      "sentence": "先生（　）、学生も参加した。",
+      "options": [
+        "のみならず",
+        "だけでなく",
+        "ばかりか",
+        "うえに"
+      ],
+      "answer": 0,
+      "explanation": "「のみならず」表示不仅……而且（书面语）。句意：不仅老师，学生也参加了。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "老师和学生都参加了。"
+    },
+    {
+      "id": "n2-grammar_fill-097",
+      "sentence": "彼は休みの日（　）働いている。",
+      "options": [
+        "でさえ",
+        "までも",
+        "しか",
+        "ばかり"
+      ],
+      "answer": 0,
+      "explanation": "「でさえ」表示甚至、连。句意：他甚至连休息日都在工作。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他在休息日也在工作。"
+    },
+    {
+      "id": "n2-grammar_fill-098",
+      "sentence": "この歌は聞く（　）涙が出るほど感動的だ。",
+      "options": [
+        "たびに",
+        "とたんに",
+        "ところを",
+        "うちに"
+      ],
+      "answer": 0,
+      "explanation": "「たびに」表示每当。句意：这首歌感动到每次听都会流泪。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这首歌一听就感动到流泪。"
+    },
+    {
+      "id": "n2-grammar_fill-099",
+      "sentence": "彼は疲れている（　）、まだ頑張っている。",
+      "options": [
+        "にもかかわらず",
+        "ながら",
+        "つつ",
+        "わりに"
+      ],
+      "answer": 0,
+      "explanation": "「にもかかわらず」表示尽管……却。句意：尽管他很累，却还在努力。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "他虽然累了，但还在努力。"
+    },
+    {
+      "id": "n2-grammar_fill-100",
+      "sentence": "この計画は失敗する（　）。",
+      "options": [
+        "おそれがある",
+        "きらいがある",
+        "ものがある",
+        "わけがない"
+      ],
+      "answer": 0,
+      "explanation": "「おそれがある」表示有……的危险/可能（负面）。句意：这个计划有失败的可能。",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "generated_by": "claude",
+      "reviewed_by": "claude",
+      "verified": true,
+      "created_at": "2026-05-04T10:00:00",
+      "translation": "这个计划可能会失败。"
+    },
+    {
+      "sentence": "事故（　）、安全対策を強化した。",
+      "options": [
+        "ものの",
+        "どころか",
+        "を契機に",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を契機に / を契機として。taking X as the opportunity / prompted by。",
+      "complete_sentence": "事故を契機に、安全対策を強化した。",
+      "id": "n2-grammar_fill-101",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "鉴于事故，强化了安全对策。"
+    },
+    {
+      "sentence": "日本人（　）、外国人にも人気だ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "はもちろん"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + はもちろん(のこと)。not to mention / of course / needless to say。",
+      "complete_sentence": "日本人はもちろん、外国人にも人気だ。",
+      "id": "n2-grammar_fill-102",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不仅日本人，在外国人也受欢迎。"
+    },
+    {
+      "sentence": "失敗した（　）、経験にはなる。",
+      "options": [
+        "としても",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + としても。even if / even assuming / even as。",
+      "complete_sentence": "失敗したとしても、経験にはなる。",
+      "id": "n2-grammar_fill-103",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然失败了，但能成为经验。"
+    },
+    {
+      "sentence": "男女（　）、応募できます。",
+      "options": [
+        "を問わず",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + を問わず。regardless of / without regard to。",
+      "complete_sentence": "男女を問わず、応募できます。",
+      "id": "n2-grammar_fill-104",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不论男女，均可报名。"
+    },
+    {
+      "sentence": "有名な先生（　）、ピアノを学んだ。",
+      "options": [
+        "ものの",
+        "どころか",
+        "のもとで",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + のもとで / のもとに。under (the guidance / condition / auspices of)。",
+      "complete_sentence": "有名な先生のもとで、ピアノを学んだ。",
+      "id": "n2-grammar_fill-105",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "师从名师，学习了钢琴。"
+    },
+    {
+      "sentence": "調査し（　）結果、新しい事実が分かっ（　）。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "た",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-た form / noun + の + 結果。as a result of / after。",
+      "complete_sentence": "調査した結果、新しい事実が分かった。",
+      "id": "n2-grammar_fill-106",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "经过调查，发现了新的事实。"
+    },
+    {
+      "sentence": "日本旅行（　）、日本語を勉強し始めた。",
+      "options": [
+        "どころか",
+        "ものの",
+        "をきっかけに",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / V plain + をきっかけに(して)。triggered by / with X as the impetus。",
+      "complete_sentence": "日本旅行をきっかけに、日本語を勉強し始めた。",
+      "id": "n2-grammar_fill-107",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "因为要旅行到日本，我开始学习日语。"
+    },
+    {
+      "sentence": "冗談（　）、真面目な話をしましょう。",
+      "options": [
+        "はさておき",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + はさておき。setting X aside (formal)。",
+      "complete_sentence": "冗談はさておき、真面目な話をしましょう。",
+      "id": "n2-grammar_fill-108",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "开个玩笑，现在来认真谈谈吧。"
+    },
+    {
+      "sentence": "少子化（　）、学校が減っている。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "に伴って"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V plain + に伴って / に伴い。accompanying / along with / as X progresses。",
+      "complete_sentence": "少子化に伴って、学校が減っている。",
+      "id": "n2-grammar_fill-109",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "由于少子化，学校数量在减少。"
+    },
+    {
+      "sentence": "その質問にはお答えしかね（　）。",
+      "options": [
+        "ます",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb ます-stem + かねる。cannot (quite) / hard to / difficult to。",
+      "complete_sentence": "その質問にはお答えしかねます。",
+      "id": "n2-grammar_fill-110",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "对于那个问题，我不太能回答。"
+    },
+    {
+      "sentence": "忙しい（　）疲れた（　）、言い訳ばかりだ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "だの"
+      ],
+      "answer": 3,
+      "explanation": "文法点：X だの Y だの。things like X and Y (complaining / disparaging listing)。",
+      "complete_sentence": "忙しいだの疲れただの、言い訳ばかりだ。",
+      "id": "n2-grammar_fill-111",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "又忙又累，总是找借口。"
+    },
+    {
+      "sentence": "漢字（　）、ひらがなも書けない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "はおろか"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + はおろか。let alone / not to mention。",
+      "complete_sentence": "漢字はおろか、ひらがなも書けない。",
+      "id": "n2-grammar_fill-112",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "别说汉字了，连平假名也写不了。"
+    },
+    {
+      "sentence": "こうし（　）はいられない。早く行こう。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + (は)いられない。can't afford to be (doing X) / can't stay (in state X)。",
+      "complete_sentence": "こうしてはいられない。早く行こう。",
+      "id": "n2-grammar_fill-113",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不能这样待着了，快走吧。"
+    },
+    {
+      "sentence": "泣い（　）もいいくらい感動した。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + もいいくらい。enough to / to the extent that (you could)。",
+      "complete_sentence": "泣いてもいいくらい感動した。",
+      "id": "n2-grammar_fill-114",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "感动得想哭。"
+    },
+    {
+      "sentence": "愛（　）手紙を書いた。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "を込めて",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を込めて。with (feeling) / putting (feeling) into。",
+      "complete_sentence": "愛を込めて手紙を書いた。",
+      "id": "n2-grammar_fill-115",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "怀着爱写了信。"
+    },
+    {
+      "sentence": "能力（　）、仕事が与えられる。",
+      "options": [
+        "どころか",
+        "ものの",
+        "に応じて",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + に応じて。depending on / in response to / in accordance with。",
+      "complete_sentence": "能力に応じて、仕事が与えられる。",
+      "id": "n2-grammar_fill-116",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "根据能力分配工作。"
+    },
+    {
+      "sentence": "宿題を始めた（　）、なかなか進まない。",
+      "options": [
+        "あげくに",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ものの。although / even though (formal)。",
+      "complete_sentence": "宿題を始めたものの、なかなか進まない。",
+      "id": "n2-grammar_fill-117",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然开始做作业了，但进展不顺利。"
+    },
+    {
+      "sentence": "専門家（　）、この問題は簡単だ。",
+      "options": [
+        "ものの",
+        "からすると",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + からすると / からすれば。from X's standpoint / judging from。",
+      "complete_sentence": "専門家からすると、この問題は簡単だ。",
+      "id": "n2-grammar_fill-118",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "对专家来说，这个问题很简单。"
+    },
+    {
+      "sentence": "見る（　）窓の外を眺めていた。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ともなく"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb dict-form + ともなく / ともなしに。unintentionally / without consciously。",
+      "complete_sentence": "見るともなく窓の外を眺めていた。",
+      "id": "n2-grammar_fill-119",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "一边看着，一边眺望着窗外。"
+    },
+    {
+      "sentence": "これ（　）問題はありません。",
+      "options": [
+        "といって",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + といって / これといって。nothing in particular / nothing notable。",
+      "complete_sentence": "これといって問題はありません。",
+      "id": "n2-grammar_fill-120",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "这个问题没有问题。"
+    },
+    {
+      "sentence": "（　）、彼は経験が豊富だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "なにしろ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：なにしろ (sentence-initial)。after all / you see / it's because。",
+      "complete_sentence": "なにしろ、彼は経験が豊富だ。",
+      "id": "n2-grammar_fill-121",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他经验丰富"
+    },
+    {
+      "sentence": "説明を聞い（　）からでないと、始められない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + からでないと / からでなければ。not until after / unless you first。",
+      "complete_sentence": "説明を聞いてからでないと、始められない。",
+      "id": "n2-grammar_fill-122",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "不听取说明就不能开始"
+    },
+    {
+      "sentence": "お金があれば幸せになれる（　）。",
+      "options": [
+        "というものではない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + というものではない。it's not simply (a matter of) / it's not that。",
+      "complete_sentence": "お金があれば幸せになれるというものではない。",
+      "id": "n2-grammar_fill-123",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "有钱就能幸福"
+    },
+    {
+      "sentence": "会議（　）、資料を配布した。",
+      "options": [
+        "どころか",
+        "に先立って",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V plain / noun + に先立って / に先立ち。prior to / in advance of。",
+      "complete_sentence": "会議に先立って、資料を配布した。",
+      "id": "n2-grammar_fill-124",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "在会议上，发放了资料"
+    },
+    {
+      "sentence": "桜の木が多い（　）、この町は'桜町'と呼ばれている。",
+      "options": [
+        "ことから",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + ことから。from the fact that / based on the fact。",
+      "complete_sentence": "桜の木が多いことから、この町は'桜町'と呼ばれている。",
+      "id": "n2-grammar_fill-125",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "因为樱花树多，这个镇被称为'樱花镇'"
+    },
+    {
+      "sentence": "泣い（　）かと思うと、すぐ笑い出し（　）。",
+      "options": [
+        "ものの",
+        "た",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V-た form + かと思うと / かと思ったら。no sooner had / just when (unexpected change)。",
+      "complete_sentence": "泣いたかと思うと、すぐ笑い出した。",
+      "id": "n2-grammar_fill-126",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "刚要哭，就又笑起来了"
+    },
+    {
+      "sentence": "値段（　）、品質を確認しましょう。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "はともかく",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + はともかく(として)。setting X aside / putting X aside / regardless of。",
+      "complete_sentence": "値段はともかく、品質を確認しましょう。",
+      "id": "n2-grammar_fill-127",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "别只看价格，先确认质量"
+    },
+    {
+      "sentence": "痛いけど、病院に行く（　）。",
+      "options": [
+        "ほどではない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + ほどではない。not to the extent of / not as much as。",
+      "complete_sentence": "痛いけど、病院に行くほどではない。",
+      "id": "n2-grammar_fill-128",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然疼，但不用去医院"
+    },
+    {
+      "sentence": "本日は定休日（　）、閉店いたします。",
+      "options": [
+        "につき",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + につき。due to / because of / per。",
+      "complete_sentence": "本日は定休日につき、閉店いたします。",
+      "id": "n2-grammar_fill-129",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "今天是休息日，所以闭店"
+    },
+    {
+      "sentence": "雨が降る（　）、中止しましょう。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "ようなら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ようなら(ば)。if it looks like / if it appears。",
+      "complete_sentence": "雨が降るようなら、中止しましょう。",
+      "id": "n2-grammar_fill-130",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "如果下雨，就中止吧"
+    },
+    {
+      "sentence": "環境問題（　）話し合った。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "を中心に"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + を中心に(して)。centered on / focusing on / mainly。",
+      "complete_sentence": "環境問題を中心に話し合った。",
+      "id": "n2-grammar_fill-131",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "讨论了环境问题。"
+    },
+    {
+      "sentence": "彼は優しい（　）、おとなしいタイプだ。",
+      "options": [
+        "というか",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：X というか Y。or rather / I mean。",
+      "complete_sentence": "彼は優しいというか、おとなしいタイプだ。",
+      "id": "n2-grammar_fill-132",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他是温柔、老实的那种类型。"
+    },
+    {
+      "sentence": "もし雨が降る（　）、どうしますか。",
+      "options": [
+        "とすれば",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + とすれば / とすると / としたら。supposing / assuming / if it's the case that。",
+      "complete_sentence": "もし雨が降るとすれば、どうしますか。",
+      "id": "n2-grammar_fill-133",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "如果下雨的话，你怎么办？"
+    },
+    {
+      "sentence": "彼の態度は失礼（　）。",
+      "options": [
+        "極まりない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：na-adj root + 極まりない / 極まる。extremely / in the extreme。",
+      "complete_sentence": "彼の態度は失礼極まりない。",
+      "id": "n2-grammar_fill-134",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他的态度很失礼。"
+    },
+    {
+      "sentence": "約束した（　）、必ず守ります。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "からには"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + からには。now that / since (with strong obligation)。",
+      "complete_sentence": "約束したからには、必ず守ります。",
+      "id": "n2-grammar_fill-135",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "既然约好了，就一定遵守。"
+    },
+    {
+      "sentence": "子供（　）、当然の反応だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "にしてみれば",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + にしてみれば / にしてみたら。from X's perspective / from X's point of view。",
+      "complete_sentence": "子供にしてみれば、当然の反応だ。",
+      "id": "n2-grammar_fill-136",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "孩子嘛，这是当然的反应。"
+    },
+    {
+      "sentence": "実際に見てみ（　）ことには、分から（　）。",
+      "options": [
+        "ばかりに",
+        "ない",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V ない-form + ことには。unless / without doing (X, can't do Y)。",
+      "complete_sentence": "実際に見てみないことには、分からない。",
+      "id": "n2-grammar_fill-137",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "实际上看看才知道，"
+    },
+    {
+      "sentence": "彼の意見に賛成せ（　）。",
+      "options": [
+        "ざるを得ない",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V negative stem + ざるを得ない。cannot help but / have no choice but to。",
+      "complete_sentence": "彼の意見に賛成せざるを得ない。",
+      "id": "n2-grammar_fill-138",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "我赞同他的意见。"
+    },
+    {
+      "sentence": "初めて（　）こととて、不手際をお許しください。",
+      "options": [
+        "ものの",
+        "どころか",
+        "の",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form / noun + の + こととて。since / because (formal, explanatory)。",
+      "complete_sentence": "初めてのこととて、不手際をお許しください。",
+      "id": "n2-grammar_fill-139",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "初次见面，请多多包涵我的失礼。"
+    },
+    {
+      "sentence": "言（　）た（　）て、聞いてくれないよ。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "っ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + (っ)たって。even if (casual)。",
+      "complete_sentence": "言ったって、聞いてくれないよ。",
+      "id": "n2-grammar_fill-140",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "说了也不听你，"
+    },
+    {
+      "sentence": "親の心配（　）、彼は一人で旅に出た。",
+      "options": [
+        "ばかりに",
+        "をよそに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + をよそに。ignoring / in disregard of。",
+      "complete_sentence": "親の心配をよそに、彼は一人で旅に出た。",
+      "id": "n2-grammar_fill-141",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "尽管父母担心，他还是独自去旅行了。"
+    },
+    {
+      "sentence": "行きたくなくも（　）が、時間が（　）。",
+      "options": [
+        "ない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ない-form + くもない / もない。not that I don't / it's not that X isn't。",
+      "complete_sentence": "行きたくなくもないが、時間がない。",
+      "id": "n2-grammar_fill-142",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "虽然不想去，但时间不够。"
+    },
+    {
+      "sentence": "急いでいる時（　）、電車が遅れる。",
+      "options": [
+        "に限って",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + に限って。of all (things/people/times) / precisely when。",
+      "complete_sentence": "急いでいる時に限って、電車が遅れる。",
+      "id": "n2-grammar_fill-143",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "在着急的时候，电车偏偏晚点了。"
+    },
+    {
+      "sentence": "この部屋は広い（　）、明るい。",
+      "options": [
+        "上に",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + 上に。in addition to / on top of (that)。",
+      "complete_sentence": "この部屋は広い上に、明るい。",
+      "id": "n2-grammar_fill-144",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "这个房间宽敞，并且明亮。"
+    },
+    {
+      "sentence": "今さら謝っ（　）ところで、許してもらえない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-た form + ところで。even if / no matter if (futile effort)。",
+      "complete_sentence": "今さら謝ったところで、許してもらえない。",
+      "id": "n2-grammar_fill-145",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "事到如今道歉，也不会得到原谅。"
+    },
+    {
+      "sentence": "彼は「もう限界だ」（　）、ため息をついた。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "とばかりに",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form / phrase + とばかりに。as if to say / seemingly saying。",
+      "complete_sentence": "彼は「もう限界だ」とばかりに、ため息をついた。",
+      "id": "n2-grammar_fill-146",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "他已经到达极限了（　）”，叹了口气。"
+    },
+    {
+      "sentence": "結果（　）で、今後の方針を決める。",
+      "options": [
+        "ばかりに",
+        "いかん",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + いかん / いかんで / いかんによって。depending on / according to (formal)。",
+      "complete_sentence": "結果いかんで、今後の方針を決める。",
+      "id": "n2-grammar_fill-147",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "结果（　）将决定未来的方针。"
+    },
+    {
+      "sentence": "面白くて笑わ（　）ではいられなかった。",
+      "options": [
+        "ばかりに",
+        "ない",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V ない-form + ではいられない。can't help doing / can't stop oneself from (casual variant)。",
+      "complete_sentence": "面白くて笑わないではいられなかった。",
+      "id": "n2-grammar_fill-148",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "太好笑了（　）以至于笑不出来。"
+    },
+    {
+      "sentence": "約束した（　）、必ず守る。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "上は"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain + 上は。now that / since (formal, implies commitment)。",
+      "complete_sentence": "約束した上は、必ず守る。",
+      "id": "n2-grammar_fill-149",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "约定（　）一定会遵守。"
+    },
+    {
+      "sentence": "長い間悩んだ末、留学することにし（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-た form / noun + の + 末(に)。after (a long process) / at the end of。",
+      "complete_sentence": "長い間悩んだ末、留学することにした。",
+      "id": "n2-grammar_fill-150",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.808Z",
+      "translation": "经过长时间的烦恼，最后决定留学（　）"
+    },
+    {
+      "sentence": "新年（　）、ご挨拶申し上げます。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "にあたって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain non-past / noun + にあたって / にあたり。on the occasion of / at the time of (formal)。",
+      "complete_sentence": "新年にあたって、ご挨拶申し上げます。",
+      "id": "n2-grammar_fill-0151",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "新年快乐、向您致以问候。"
+    },
+    {
+      "sentence": "君を愛していれ（　）こそ、こう言うのだ。",
+      "options": [
+        "ば",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ば-form + こそ。precisely because / it is only because。",
+      "complete_sentence": "君を愛していればこそ、こう言うのだ。",
+      "id": "n2-grammar_fill-0152",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "正因为爱你，所以才这么说。"
+    },
+    {
+      "sentence": "大切な友達だ（　）、厳しいことも言う。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "からこそ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + からこそ。precisely because / it is exactly because。",
+      "complete_sentence": "大切な友達だからこそ、厳しいことも言う。",
+      "id": "n2-grammar_fill-0153",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "是重要的朋友，所以也会说出严厉的话。"
+    },
+    {
+      "sentence": "観客の声援（　）、選手たちはベストを尽くした。",
+      "options": [
+        "にこたえて",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + にこたえて。in response to / responding to (expectations, requests)。",
+      "complete_sentence": "観客の声援にこたえて、選手たちはベストを尽くした。",
+      "id": "n2-grammar_fill-0154",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "在观众的欢呼声中，选手们全力以赴。"
+    },
+    {
+      "sentence": "年齢（　）、誰でも参加できます。",
+      "options": [
+        "にかかわらず",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form / noun + にかかわらず。regardless of / irrespective of。",
+      "complete_sentence": "年齢にかかわらず、誰でも参加できます。",
+      "id": "n2-grammar_fill-0155",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不论年龄，谁都可以参加。"
+    },
+    {
+      "sentence": "悪天候（　）、試合は行われた。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "にもかかわらず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + にもかかわらず。despite / in spite of / even though。",
+      "complete_sentence": "悪天候にもかかわらず、試合は行われた。",
+      "id": "n2-grammar_fill-0156",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "尽管天气恶劣，比赛还是举行了。"
+    },
+    {
+      "sentence": "日本（　）、世界中でこの問題がある。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "に限らず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に限らず。not limited to / not only X (but also)。",
+      "complete_sentence": "日本に限らず、世界中でこの問題がある。",
+      "id": "n2-grammar_fill-0157",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "即使在日本，世界各地都有这个问题。"
+    },
+    {
+      "sentence": "行く（　）行かない（　）、早く決めてください。",
+      "options": [
+        "ものの",
+        "どころか",
+        "にしろ",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + にしろ / にせよ。even if / whether or not (formal)。",
+      "complete_sentence": "行くにしろ行かないにしろ、早く決めてください。",
+      "id": "n2-grammar_fill-0158",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "去还是不去，请尽快决定。"
+    },
+    {
+      "sentence": "誰が何（　）言おう（　）、私は諦めない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "と"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb volitional + と / ようと。regardless of / no matter (what / who / how)。",
+      "complete_sentence": "誰が何と言おうと、私は諦めない。",
+      "id": "n2-grammar_fill-0159",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "无论谁说什么，我都不放弃。"
+    },
+    {
+      "sentence": "行こう（　）行くまい（　）、あなたの自由だ。",
+      "options": [
+        "ものの",
+        "と",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V volitional + と + V dict-form/ます-stem + まい(と)。whether or not (one does) X。",
+      "complete_sentence": "行こうと行くまいと、あなたの自由だ。",
+      "id": "n2-grammar_fill-0160",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "去还是不去，是你的自由。"
+    },
+    {
+      "sentence": "夢を実現す（　）、毎日努力している。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "べく"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb dict-form + べく。in order to / for the purpose of (literary)。",
+      "complete_sentence": "夢を実現すべく、毎日努力している。",
+      "id": "n2-grammar_fill-0161",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "为了实现梦想，每天在努力。"
+    },
+    {
+      "sentence": "友達（　）彼に紹介された。",
+      "options": [
+        "を通じて",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + を通じて / を通して。through / via / throughout (all of)。",
+      "complete_sentence": "友達を通じて彼に紹介された。",
+      "id": "n2-grammar_fill-0162",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "作为朋友，他被介绍给了我。"
+    },
+    {
+      "sentence": "10年（　）研究を続けた。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "にわたって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + にわたって / にわたり / にわたる。over / spanning / across (a period or extent)。",
+      "complete_sentence": "10年にわたって研究を続けた。",
+      "id": "n2-grammar_fill-0163",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "持续研究了10年。"
+    },
+    {
+      "sentence": "初めて（　）、上手に弾けた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にしては"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + にしては。for (a) / considering X (surprising)。",
+      "complete_sentence": "初めてにしては、上手に弾けた。",
+      "id": "n2-grammar_fill-0164",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为是第一次，所以弹得很好。"
+    },
+    {
+      "sentence": "彼は80歳（　）、今も元気だ。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "にして",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + にして。at (the point of) / being (X), (emphatic)。",
+      "complete_sentence": "彼は80歳にして、今も元気だ。",
+      "id": "n2-grammar_fill-0165",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他虽然80岁了，现在还很精神。"
+    },
+    {
+      "sentence": "長年練習した（　）。演奏が素晴らしい。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "だけのことはある",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + だけのことはある。(it's) as expected from / lives up to。",
+      "complete_sentence": "長年練習しただけのことはある。演奏が素晴らしい。",
+      "id": "n2-grammar_fill-0166",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "长期练习的（　）。演奏得非常出色。"
+    },
+    {
+      "sentence": "困っている人を助けるのが友情（　）。",
+      "options": [
+        "どころか",
+        "ものの",
+        "というものだ",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + というものだ。that's what X is / that's (the nature of) X。",
+      "complete_sentence": "困っている人を助けるのが友情というものだ。",
+      "id": "n2-grammar_fill-0167",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "帮助困难的人是友情（　）."
+    },
+    {
+      "sentence": "急いでいた（　）、挨拶もせずに帰ってしまった。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものだから",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + ものだから / もので。because / it's because (excusing / justifying)。",
+      "complete_sentence": "急いでいたものだから、挨拶もせずに帰ってしまった。",
+      "id": "n2-grammar_fill-0168",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "急忙中（　），连招呼也没打就回去了。"
+    },
+    {
+      "sentence": "宿題（　）掃除（　）で忙しい。",
+      "options": [
+        "やら",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + やら + noun + やら。things like X and Y (disordered / overwhelming)。",
+      "complete_sentence": "宿題やら掃除やらで忙しい。",
+      "id": "n2-grammar_fill-0169",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "忙着做作业（　）和打扫（　）。"
+    },
+    {
+      "sentence": "あの人は話し方（　）失礼だ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "からして"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + からして。judging from / starting with (as a representative example)。",
+      "complete_sentence": "あの人は話し方からして失礼だ。",
+      "id": "n2-grammar_fill-0170",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那个人说话方式（　）很失礼。"
+    },
+    {
+      "sentence": "彼は頭がいい（　）、性格もいい。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "のみならず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + のみならず。not only X but also Y (literary)。",
+      "complete_sentence": "彼は頭がいいのみならず、性格もいい。",
+      "id": "n2-grammar_fill-0171",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他不仅头脑聪明，性格也很好。"
+    },
+    {
+      "sentence": "もう春（　）、まだ寒い。",
+      "options": [
+        "とはいえ",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + とはいえ。although / that said / even so。",
+      "complete_sentence": "もう春とはいえ、まだ寒い。",
+      "id": "n2-grammar_fill-0172",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽说是春天，但还很冷。"
+    },
+    {
+      "sentence": "春だ（　）、今朝は雪が降った。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "とはいうものの",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + とはいうものの。that said / although one says。",
+      "complete_sentence": "春だとはいうものの、今朝は雪が降った。",
+      "id": "n2-grammar_fill-0173",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然是春天，今早却下了雪。"
+    },
+    {
+      "sentence": "お金がある（　）、幸せとは限らない。",
+      "options": [
+        "からといって",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + からといって。just because / even though (one says)。",
+      "complete_sentence": "お金があるからといって、幸せとは限らない。",
+      "id": "n2-grammar_fill-0174",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然有钱，但未必幸福。"
+    },
+    {
+      "sentence": "時間に厳しい田中さん（　）ことだから、きっと時間通りに来るだろう。",
+      "options": [
+        "の",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + の + ことだから。knowing X / given that it's X。",
+      "complete_sentence": "時間に厳しい田中さんのことだから、きっと時間通りに来るだろう。",
+      "id": "n2-grammar_fill-0175",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "时间观念严格的田中先生，一定会准时来的。"
+    },
+    {
+      "sentence": "日本に来（　）からというもの、毎日が楽しい。",
+      "options": [
+        "て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-て form + からというもの。ever since / since that time。",
+      "complete_sentence": "日本に来てからというもの、毎日が楽しい。",
+      "id": "n2-grammar_fill-0176",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "自从来到日本，每天都很开心。"
+    },
+    {
+      "sentence": "雨だけど、雪じゃない（　）。",
+      "options": [
+        "ばかりに",
+        "だけましだ",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + だけましだ。at least X (is better than nothing) / could be worse。",
+      "complete_sentence": "雨だけど、雪じゃないだけましだ。",
+      "id": "n2-grammar_fill-0177",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然是雨，但不是雪。"
+    },
+    {
+      "sentence": "彼は家に着く（　）、ベッドに倒れ込んだ。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "や否や"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb dict-form + や否や。as soon as / the moment that (literary)。",
+      "complete_sentence": "彼は家に着くや否や、ベッドに倒れ込んだ。",
+      "id": "n2-grammar_fill-0178",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他一到家就倒在了床上。"
+    },
+    {
+      "sentence": "家に着く（　）着（　）ない（　）のうちに、雨が降り出した。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "か"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V dict + か + V ない + かのうちに。no sooner (had X) than Y / barely had one Xed when Y。",
+      "complete_sentence": "家に着くか着かないかのうちに、雨が降り出した。",
+      "id": "n2-grammar_fill-0179",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "刚到家（还没完全进屋）的时候，雨就下了起来。"
+    },
+    {
+      "sentence": "教え（　）そばから忘れてしまう。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "た",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb plain / V-た form + そばから。as soon as / immediately after (with repeated undoing)。",
+      "complete_sentence": "教えたそばから忘れてしまう。",
+      "id": "n2-grammar_fill-0180",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "刚教完就忘了。"
+    },
+    {
+      "sentence": "子供（　）、そんなことで泣かないで。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "じゃあるまいし"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / plain form + じゃあるまいし。it's not as if / since it's not like。",
+      "complete_sentence": "子供じゃあるまいし、そんなことで泣かないで。",
+      "id": "n2-grammar_fill-0181",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "别哭，孩子。"
+    },
+    {
+      "sentence": "あなたのため（　）、何でもする。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "とあれば"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / plain form + とあれば。if it's (a case of) / if it's for。",
+      "complete_sentence": "あなたのためとあれば、何でもする。",
+      "id": "n2-grammar_fill-0182",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "为了你，做什么都行。"
+    },
+    {
+      "sentence": "完璧とは言わ（　）までも、かなりよくできている。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ない",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V ない-form + までも。even if not quite X / not necessarily X, but at least。",
+      "complete_sentence": "完璧とは言わないまでも、かなりよくできている。",
+      "id": "n2-grammar_fill-0183",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "虽然不能说是完美，但做得相当不错。"
+    },
+    {
+      "sentence": "忙しくて、彼に会え（　）だった。",
+      "options": [
+        "ばかりに",
+        "ずじまい",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V negative stem + ずじまい。ended up not (doing) / didn't manage to。",
+      "complete_sentence": "忙しくて、彼に会えずじまいだった。",
+      "id": "n2-grammar_fill-0184",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为很忙，所以没能见到他。"
+    },
+    {
+      "sentence": "（　）、久しぶりだからよく覚えていない。",
+      "options": [
+        "ばかりに",
+        "なにせ",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：なにせ (sentence-initial)。after all / the thing is。",
+      "complete_sentence": "なにせ、久しぶりだからよく覚えていない。",
+      "id": "n2-grammar_fill-0185",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为好久不见，所以不太记得了。"
+    },
+    {
+      "sentence": "散々悩んだあげく、結局何も決められなかっ（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-た form / noun + の + あげく(に)。in the end / after all / finally (negative result)。",
+      "complete_sentence": "散々悩んだあげく、結局何も決められなかった。",
+      "id": "n2-grammar_fill-0186",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "左思右想，结果还是什么都没决定下来。"
+    },
+    {
+      "sentence": "この仕事は給料がいい（　）、責任が重い。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "反面"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + 反面。on the other hand / while (one side)。",
+      "complete_sentence": "この仕事は給料がいい反面、責任が重い。",
+      "id": "n2-grammar_fill-0187",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "这份工作工资虽高，但责任很重。"
+    },
+    {
+      "sentence": "外国人（　）、日本は安全な国だ。",
+      "options": [
+        "ばかりに",
+        "から見ると",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + から見ると / から見れば / から見て。from the viewpoint of / from X's perspective。",
+      "complete_sentence": "外国人から見ると、日本は安全な国だ。",
+      "id": "n2-grammar_fill-0188",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "从外国人来看，日本是个安全的国家。"
+    },
+    {
+      "sentence": "ニュースによると、明日は雨が降る（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ということだ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + ということだ。I hear that / it means that。",
+      "complete_sentence": "ニュースによると、明日は雨が降るということだ。",
+      "id": "n2-grammar_fill-0189",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "据新闻报道，明天似乎要下雨。"
+    },
+    {
+      "sentence": "天気（　）、予定を変更する。",
+      "options": [
+        "次第で",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + 次第で / 次第では。depending on / according to。",
+      "complete_sentence": "天気次第で、予定を変更する。",
+      "id": "n2-grammar_fill-0190",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "视天气情况，可能会改变计划。"
+    },
+    {
+      "sentence": "子供からお年寄り（　）、みんな楽しめる。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "に至るまで"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に至るまで。even to / all the way to / as far as。",
+      "complete_sentence": "子供からお年寄りに至るまで、みんな楽しめる。",
+      "id": "n2-grammar_fill-0191",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "从孩子到老人，大家都能乐在其中。"
+    },
+    {
+      "sentence": "非常（　）際は、こ（　）ボタンを押してください。",
+      "options": [
+        "の",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V plain / noun + の + 際(に)。on the occasion of / at the time of (formal)。",
+      "complete_sentence": "非常の際は、このボタンを押してください。",
+      "id": "n2-grammar_fill-0192",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "紧急情况下，请按这个按钮。"
+    },
+    {
+      "sentence": "長年の研究（　）、ついに発見した。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "を経て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + を経て。after going through / via / through (a process)。",
+      "complete_sentence": "長年の研究を経て、ついに発見した。",
+      "id": "n2-grammar_fill-0193",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "经过长年的研究，终于发现了。"
+    },
+    {
+      "sentence": "現状（　）、対策を立てた。",
+      "options": [
+        "ばかりに",
+        "を踏まえて",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + を踏まえて。based on / taking into account / in view of。",
+      "complete_sentence": "現状を踏まえて、対策を立てた。",
+      "id": "n2-grammar_fill-0194",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "针对现状，制定了应对措施。"
+    },
+    {
+      "sentence": "休日（　）、公園は大勢の人で賑わった。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "とあって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + とあって。because it's / given that it's (special situation)。",
+      "complete_sentence": "休日とあって、公園は大勢の人で賑わった。",
+      "id": "n2-grammar_fill-0195",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "假日里，公园里人山人海，热闹非凡。"
+    },
+    {
+      "sentence": "彼は忙しい（　）。",
+      "options": [
+        "ものの",
+        "とみえる",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + とみえる。it seems that / appears to。",
+      "complete_sentence": "彼は忙しいとみえる。",
+      "id": "n2-grammar_fill-0196",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他很忙"
+    },
+    {
+      "sentence": "それは単なる言い訳（　）。",
+      "options": [
+        "どころか",
+        "にすぎない",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun / plain form + にすぎない。is nothing more than / merely。",
+      "complete_sentence": "それは単なる言い訳にすぎない。",
+      "id": "n2-grammar_fill-0197",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那只是借口"
+    },
+    {
+      "sentence": "お客様（　）商売です。",
+      "options": [
+        "どころか",
+        "あっての",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + あっての + noun。only possible thanks to / made possible by。",
+      "complete_sentence": "お客様あっての商売です。",
+      "id": "n2-grammar_fill-0198",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "顾客是上帝"
+    },
+    {
+      "sentence": "法律（　）、この行為は違法だ。",
+      "options": [
+        "に照らして",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + に照らして。in light of / in accordance with。",
+      "complete_sentence": "法律に照らして、この行為は違法だ。",
+      "id": "n2-grammar_fill-0199",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "根据法律，这个行为是违法的"
+    },
+    {
+      "sentence": "心配する（　）よ。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ほどのことではない",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + ほどのことではない / ほどのものではない。not worth that much / not such a big deal。",
+      "complete_sentence": "心配するほどのことではないよ。",
+      "id": "n2-grammar_fill-0200",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不用担心"
+    },
+    {
+      "sentence": "言わ（　）分かるだろう。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ずとも",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V negative stem + ずとも。even without / even if not。",
+      "complete_sentence": "言わずとも分かるだろう。",
+      "id": "n2-grammar_fill-0201",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "不用说也明白吧"
+    },
+    {
+      "sentence": "彼は強い（　）いて、実は優しい。",
+      "options": [
+        "ようで",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + ようで / ようでいて。seemingly X, but actually / looks X but。",
+      "complete_sentence": "彼は強いようでいて、実は優しい。",
+      "id": "n2-grammar_fill-0202",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他看着强，其实很温柔"
+    },
+    {
+      "sentence": "（　）、嫌なんだもん。",
+      "options": [
+        "どころか",
+        "だって",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：だって (sentence-initial, casual)。because / but / however (casual defensive)。",
+      "complete_sentence": "だって、嫌なんだもん。",
+      "id": "n2-grammar_fill-0203",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "因为讨厌嘛"
+    },
+    {
+      "sentence": "そんなに怠ける（　）、合格できないよ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "ようでは",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + ようでは。if it's like that / at this rate。",
+      "complete_sentence": "そんなに怠けるようでは、合格できないよ。",
+      "id": "n2-grammar_fill-0204",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "那么懒会考不上的"
+    },
+    {
+      "sentence": "彼女はいつも黒（　）の服を着ている。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ずくめ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + ずくめ。nothing but / entirely / all X。",
+      "complete_sentence": "彼女はいつも黒ずくめの服を着ている。",
+      "id": "n2-grammar_fill-0205",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "她总穿黑色衣服"
+    },
+    {
+      "sentence": "子供は泥（　）になって遊んでいた。",
+      "options": [
+        "まみれ",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + まみれ。smeared / covered with (often messy or unpleasant)。",
+      "complete_sentence": "子供は泥まみれになって遊んでいた。",
+      "id": "n2-grammar_fill-0206",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "孩子们满身是泥地玩耍着。"
+    },
+    {
+      "sentence": "彼の演奏には感動的な（　）。",
+      "options": [
+        "どころか",
+        "ものがある",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + ものがある。there is something (about it) / is impressively。",
+      "complete_sentence": "彼の演奏には感動的なものがある。",
+      "id": "n2-grammar_fill-0207",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他的演奏有着打动人心的力量。"
+    },
+    {
+      "sentence": "結果（　）、大成功だった。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "からいうと",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + からいうと / からいえば / からいって。from X's viewpoint / speaking from X。",
+      "complete_sentence": "結果からいうと、大成功だった。",
+      "id": "n2-grammar_fill-0208",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "结果来说，是大获成功。"
+    },
+    {
+      "sentence": "成功はあなたの努力（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "にかかっている",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + にかかっている。depends on / hinges on。",
+      "complete_sentence": "成功はあなたの努力にかかっている。",
+      "id": "n2-grammar_fill-0209",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "成功取决于你的努力。"
+    },
+    {
+      "sentence": "友情（　）、お金で買えないものだ。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "というのは",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / plain form + というのは。what is called / the fact is / the reason is。",
+      "complete_sentence": "友情というのは、お金で買えないものだ。",
+      "id": "n2-grammar_fill-0210",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "友情是用金钱买不到的东西。"
+    },
+    {
+      "sentence": "長年の努力の果てに、夢を実現し（　）。",
+      "options": [
+        "た",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-た form / noun + の + 果てに。at the very end of / after (extensive process)。",
+      "complete_sentence": "長年の努力の果てに、夢を実現した。",
+      "id": "n2-grammar_fill-0211",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "经过多年的努力，梦想终于实现了。"
+    },
+    {
+      "sentence": "彼が来ない（　）、忙しいのだろう。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "ということは"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ということは。what it means is / so (it follows that)。",
+      "complete_sentence": "彼が来ないということは、忙しいのだろう。",
+      "id": "n2-grammar_fill-0212",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他没来，可能是因为忙。"
+    },
+    {
+      "sentence": "好き（　）、そうでもない。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "かというと"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + かというと / かといえば。as for whether / if you ask whether。",
+      "complete_sentence": "好きかというと、そうでもない。",
+      "id": "n2-grammar_fill-0213",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "喜欢，也不是很喜欢。"
+    },
+    {
+      "sentence": "本件は合意した（　）扱います。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ものとして",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + ものとして。as / regarded as / assuming that。",
+      "complete_sentence": "本件は合意したものとして扱います。",
+      "id": "n2-grammar_fill-0214",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "关于这件事，我们达成了一致，就这样处理吧。"
+    },
+    {
+      "sentence": "準備はできた。（　）出発するだけだ。",
+      "options": [
+        "ものの",
+        "あとは",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun / plain form + あとは。the rest is / all that's left is。",
+      "complete_sentence": "準備はできた。あとは出発するだけだ。",
+      "id": "n2-grammar_fill-0215",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "准备好了，只差出发了。"
+    },
+    {
+      "sentence": "見る（　）、いいですよ。",
+      "options": [
+        "ものの",
+        "どころか",
+        "だけなら",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / V plain + だけなら。if only / if it's just X。",
+      "complete_sentence": "見るだけなら、いいですよ。",
+      "id": "n2-grammar_fill-0216",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "看一下就好"
+    },
+    {
+      "sentence": "彼は謝ら（　）のみならず、逆に怒り出した。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "ない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V ない + のみならず。not only does not / not just failing to。",
+      "complete_sentence": "彼は謝らないのみならず、逆に怒り出した。",
+      "id": "n2-grammar_fill-0217",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他不仅不道歉，反而生气了"
+    },
+    {
+      "sentence": "ルール（　）、行動してください。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "にしたがって",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + にしたがって / V plain + にしたがって。in accordance with / as (X progresses)。",
+      "complete_sentence": "ルールにしたがって、行動してください。",
+      "id": "n2-grammar_fill-0218",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "请按照规则行动"
+    },
+    {
+      "sentence": "川（　）歩きました。",
+      "options": [
+        "ばかりに",
+        "に沿って",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + に沿って。along / in accordance with。",
+      "complete_sentence": "川に沿って歩きました。",
+      "id": "n2-grammar_fill-0219",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "沿着河边走了"
+    },
+    {
+      "sentence": "彼はまるで何も知らない（　）話した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "かのように"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + かのように。as if / as though。",
+      "complete_sentence": "彼はまるで何も知らないかのように話した。",
+      "id": "n2-grammar_fill-0220",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他仿佛什么都不知道一样说话"
+    },
+    {
+      "sentence": "昔に戻れる（　）、戻りたい。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "ものなら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V potential form + ものなら。if (it were) possible / if I could。",
+      "complete_sentence": "昔に戻れるものなら、戻りたい。",
+      "id": "n2-grammar_fill-0221",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "要是能回到过去，我想回去。"
+    },
+    {
+      "sentence": "この小説は実話（　）書かれた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "をもとに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + をもとに。based on / on the basis of。",
+      "complete_sentence": "この小説は実話をもとに書かれた。",
+      "id": "n2-grammar_fill-0222",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "这部小说是根据真实故事写的。"
+    },
+    {
+      "sentence": "約束した（　）、守らなければならない。",
+      "options": [
+        "以上",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + 以上(は)。since / now that / as long as。",
+      "complete_sentence": "約束した以上、守らなければならない。",
+      "id": "n2-grammar_fill-0223",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "既然约定了，就必须遵守。"
+    },
+    {
+      "sentence": "彼は頭がいい。（　）、性格も素晴らしい。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "しかも"
+      ],
+      "answer": 3,
+      "explanation": "文法点：しかも (sentence-initial)。moreover / what's more / on top of that。",
+      "complete_sentence": "彼は頭がいい。しかも、性格も素晴らしい。",
+      "id": "n2-grammar_fill-0224",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "他很聪明。而且，性格也很好。"
+    },
+    {
+      "sentence": "明日は大雨（　）恐れがあります。",
+      "options": [
+        "どころか",
+        "の",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V plain / noun + の + 恐れがある。risk of / fear that (may happen)。",
+      "complete_sentence": "明日は大雨の恐れがあります。",
+      "id": "n2-grammar_fill-0225",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:58:25.426Z",
+      "translation": "明天可能会下大雨。"
+    },
+    {
+      "sentence": "首相（　）、国民の意見を聞くべきだ。",
+      "options": [
+        "とはいえ",
+        "として",
+        "をもとに",
+        "にかかわらず"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + として。as / in the capacity of。",
+      "complete_sentence": "首相として、国民の意見を聞くべきだ。",
+      "id": "n2-grammar_fill-226",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "首相应该听取国民的意见"
+    },
+    {
+      "sentence": "この映画は実話（　）作られた。",
+      "options": [
+        "をもとに",
+        "に比べて",
+        "をよそに",
+        "に至るまで"
+      ],
+      "answer": 0,
+      "explanation": "文法点：N + をもとに（して）。based on / from。",
+      "complete_sentence": "この映画は実話をもとに作られた。",
+      "id": "n2-grammar_fill-227",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部电影是根据真实故事改编的"
+    },
+    {
+      "sentence": "環境問題（　）、世界各国が議論している。",
+      "options": [
+        "を通じて",
+        "をめぐって",
+        "にしたがって",
+        "にかたくない"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + をめぐって。surrounding / concerning / over。",
+      "complete_sentence": "環境問題をめぐって、世界各国が議論している。",
+      "id": "n2-grammar_fill-228",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "环境问题正在被世界各国讨论"
+    },
+    {
+      "sentence": "この問題は子ども（　）大人でも難しい。",
+      "options": [
+        "にとどまらず",
+        "はもちろん",
+        "にもかかわらず",
+        "をものともせず"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + はもちろん。not to mention / let alone。",
+      "complete_sentence": "この問題は子どもはもちろん大人でも難しい。",
+      "id": "n2-grammar_fill-229",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个问题对孩子和大人来说都很困难"
+    },
+    {
+      "sentence": "彼の行動は理解（　）。",
+      "options": [
+        "にたえない",
+        "にたえる",
+        "に足る",
+        "にかたくない"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V stem + にたえない。unbearable / cannot stand。",
+      "complete_sentence": "彼の行動は理解にたえない。",
+      "id": "n2-grammar_fill-230",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的行为难以理解"
+    },
+    {
+      "sentence": "この作品は推薦（　）価値がある。",
+      "options": [
+        "にたえない",
+        "にたえる",
+        "にほかならない",
+        "にすぎない"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V stem + にたえる。worth / worthy of。",
+      "complete_sentence": "この作品は推薦にたえる価値がある。",
+      "id": "n2-grammar_fill-231",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部作品值得推荐。"
+    },
+    {
+      "sentence": "彼が成功したのは努力（　）。",
+      "options": [
+        "にすぎない",
+        "にほかならない",
+        "にたえない",
+        "にかたくない"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + にほかならない。nothing but / none other than。",
+      "complete_sentence": "彼が成功したのは努力にほかならない。",
+      "id": "n2-grammar_fill-232",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他成功归功于努力。"
+    },
+    {
+      "sentence": "この問題は数学（　）物理でも使われる。",
+      "options": [
+        "をものともせず",
+        "にとどまらず",
+        "をよそに",
+        "にかかわらず"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + にとどまらず。not limited to / not only。",
+      "complete_sentence": "この問題は数学にとどまらず物理でも使われる。",
+      "id": "n2-grammar_fill-233",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个问题在数学和物理中都会用到。"
+    },
+    {
+      "sentence": "困難（　）、チームは最後まで頑張った。",
+      "options": [
+        "をよそに",
+        "をものともせず",
+        "にかかわらず",
+        "にたえない"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + をものともせず。in spite of / despite。",
+      "complete_sentence": "困難をものともせず、チームは最後まで頑張った。",
+      "id": "n2-grammar_fill-234",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "尽管困难，团队还是坚持到了最后。"
+    },
+    {
+      "sentence": "彼女は涙（　）事情を説明した。",
+      "options": [
+        "をもとに",
+        "ながらも",
+        "をこめて",
+        "をよそに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：N + をこめて。with (feeling) / putting into。",
+      "complete_sentence": "彼女は涙をこめて事情を説明した。",
+      "id": "n2-grammar_fill-235",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "她含泪说明了情况。"
+    },
+    {
+      "sentence": "この予算は教育（　）文化にも使われる。",
+      "options": [
+        "のみならず",
+        "にとどまらず",
+        "はもちろん",
+        "をものともせず"
+      ],
+      "answer": 0,
+      "explanation": "文法点：N + のみならず。not only X but also Y (formal)。",
+      "complete_sentence": "この予算は教育のみならず文化にも使われる。",
+      "id": "n2-grammar_fill-236",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "该预算也用于教育及文化。"
+    },
+    {
+      "sentence": "彼の話は冗談（　）、かなり深刻だ。",
+      "options": [
+        "どころか",
+        "にすぎない",
+        "ものを",
+        "ながらも"
+      ],
+      "answer": 0,
+      "explanation": "文法点：N/V + どころか。far from / let alone。",
+      "complete_sentence": "彼の話は冗談どころか、かなり深刻だ。",
+      "id": "n2-grammar_fill-237",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的话看似玩笑，实则相当严肃。"
+    },
+    {
+      "sentence": "彼女は忙しい（　）、ボランティアをしている。",
+      "options": [
+        "わりに",
+        "ばかりに",
+        "ものを",
+        "ながらも"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V stem + ながらも。although / while。",
+      "complete_sentence": "彼女は忙しいながらも、ボランティアをしている。",
+      "id": "n2-grammar_fill-238",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "她虽然忙碌，却仍在做志愿者。"
+    },
+    {
+      "sentence": "この店は安い（　）、味も良い。",
+      "options": [
+        "わりに",
+        "ばかりに",
+        "ものを",
+        "にしたがって"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V/N + わりに。considering / despite。",
+      "complete_sentence": "この店は安いわりに、味も良い。",
+      "id": "n2-grammar_fill-239",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这家店不仅便宜，味道也好。"
+    },
+    {
+      "sentence": "地震の後、道路（　）橋も壊れた。",
+      "options": [
+        "にとどまらず",
+        "のみならず",
+        "をもとに",
+        "をものともせず"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + のみならず。not only X but also Y。",
+      "complete_sentence": "地震の後、道路のみならず橋も壊れた。",
+      "id": "n2-grammar_fill-240",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "地震之后，道路和桥梁都损坏了。"
+    },
+    {
+      "sentence": "この法律は国民すべて（　）適用される。",
+      "options": [
+        "に対して",
+        "について",
+        "に関して",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "文法点：N + に対して。towards / to / against。",
+      "complete_sentence": "この法律は国民すべてに対して適用される。",
+      "id": "n2-grammar_fill-241",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "本法律适用于所有国民"
+    },
+    {
+      "sentence": "事故の原因（　）調査が行われている。",
+      "options": [
+        "に対して",
+        "について",
+        "に応じて",
+        "にとって"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + について。about / concerning。",
+      "complete_sentence": "事故の原因について調査が行われている。",
+      "id": "n2-grammar_fill-242",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "事故原因正在调查中"
+    },
+    {
+      "sentence": "詳細（　）お問い合わせください。",
+      "options": [
+        "に対して",
+        "について",
+        "に関して",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "文法点：N + に関して。regarding / with respect to (formal)。",
+      "complete_sentence": "詳細に関してお問い合わせください。",
+      "id": "n2-grammar_fill-243",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "请详细咨询"
+    },
+    {
+      "sentence": "この映画は大人（　）子どもにも人気だ。",
+      "options": [
+        "に対して",
+        "にとって",
+        "について",
+        "に限らず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：N + に限らず。not limited to / not only。",
+      "complete_sentence": "この映画は大人に限らず子どもにも人気だ。",
+      "id": "n2-grammar_fill-244",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这部电影大人和孩子都很受欢迎"
+    },
+    {
+      "sentence": "天気（　）予定が変わる場合がある。",
+      "options": [
+        "次第では",
+        "によって",
+        "に関して",
+        "について"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + によって。depending on / by means of。",
+      "complete_sentence": "天気によって予定が変わる場合がある。",
+      "id": "n2-grammar_fill-245",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "天气预报有可能改变"
+    },
+    {
+      "sentence": "彼の態度は許（　）ものではない。",
+      "options": [
+        "す",
+        "した",
+        "すべき",
+        "しかねる"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V dictionary + べきではない。should not。",
+      "complete_sentence": "彼の態度は許すべきものではない。",
+      "id": "n2-grammar_fill-246",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他的态度不可原谅"
+    },
+    {
+      "sentence": "この地域は冬（　）雪が多い。",
+      "options": [
+        "としたら",
+        "ともなると",
+        "といっても",
+        "というより"
+      ],
+      "answer": 1,
+      "explanation": "文法点：N + ともなると。when it comes to / once it becomes。",
+      "complete_sentence": "この地域は冬ともなると雪が多い。",
+      "id": "n2-grammar_fill-247",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个地区冬天雪很多"
+    },
+    {
+      "sentence": "彼は優秀だ（　）、欠点もある。",
+      "options": [
+        "からには",
+        "ものの",
+        "わりに",
+        "一方で"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V/A/N + ものの。although / but。",
+      "complete_sentence": "彼は優秀だものの、欠点もある。",
+      "id": "n2-grammar_fill-248",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "他很优秀，但也有缺点"
+    },
+    {
+      "sentence": "この計画は成功（　）難しい。",
+      "options": [
+        "するには",
+        "したところ",
+        "するにつれ",
+        "したものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V dictionary + には。in order to / for the purpose of。",
+      "complete_sentence": "この計画は成功するには難しい。",
+      "id": "n2-grammar_fill-249",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "这个计划成功很难"
+    },
+    {
+      "sentence": "日本に来る（　）、富士山を見たい。",
+      "options": [
+        "うちに",
+        "以上",
+        "からには",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V plain + からには。now that / since (with obligation)。",
+      "complete_sentence": "日本に来るからには、富士山を見たい。",
+      "id": "n2-grammar_fill-250",
+      "level": "N2",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T20:15:00.000Z",
+      "translation": "如果来日本，想看看富士山"
     }
   ]
 }

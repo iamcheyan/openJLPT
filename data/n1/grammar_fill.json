@@ -1,0 +1,2343 @@
+{
+  "meta": {
+    "level": "N1",
+    "question_type": "grammar_fill",
+    "name": "文の文法",
+    "count": 139
+  },
+  "questions": [
+    {
+      "id": "n1-grammar_fill-001",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "不況の（　）、わが社の利益は過去最高を記録した。",
+      "options": [
+        "なりに",
+        "ゆえに",
+        "にあって",
+        "をおいて"
+      ],
+      "answer": 2,
+      "explanation": "「～にあて」は「～という特別な状況において」という意味です。不況という厳しい状況の中で、という意味で使われています。"
+    },
+    {
+      "id": "n1-grammar_fill-002",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "彼（　）、この難事業を成し遂げられる者はいない。",
+      "options": [
+        "をよそに",
+        "をおいて",
+        "はおろか",
+        "を兼ねて"
+      ],
+      "answer": 1,
+      "explanation": "「～をおいて（～ない）」は「～の他に～ない」という、唯一の存在を強調する表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-003",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "台風の接近により、イベントは中止を（　）。",
+      "options": [
+        "余儀なくされた",
+        "禁じ得なかった",
+        "おかなかった",
+        "やまなかった"
+      ],
+      "answer": 0,
+      "explanation": "「～を余儀なくされる」は「（外部の事情で）どうしても～しなければならない状況になる」という意味です。"
+    },
+    {
+      "id": "n1-grammar_fill-004",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "プロのスポーツ選手（　）、常に最高のパフォーマンスが求められる。",
+      "options": [
+        "たる者",
+        "ならでは",
+        "なりに",
+        "の至り"
+      ],
+      "answer": 0,
+      "explanation": "「～たる者」は「～という立場にある者は当然」という、責任や義務を強調する硬い表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-005",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "一度やると言った（　）、最後までやり抜く覚悟だ。",
+      "options": [
+        "反面",
+        "からには",
+        "なりに",
+        "といえども"
+      ],
+      "answer": 1,
+      "explanation": "「～からには」は「～という事実がある以上、当然～」という強い決意を表します。"
+    },
+    {
+      "id": "n1-grammar_fill-006",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "彼の最新作は、期待（　）素晴らしい出来栄えだった。",
+      "options": [
+        "に足る",
+        "にもまして",
+        "にあって",
+        "にして"
+      ],
+      "answer": 1,
+      "explanation": "「～にもまして」は「～以上に／～よりももっと」という意味の比較表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-007",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "そのニュースを聞いて、驚き（　）。",
+      "options": [
+        "を禁じ得なかった",
+        "をものともしなかった",
+        "をよそにした",
+        "を限りにした"
+      ],
+      "answer": 0,
+      "explanation": "「～を禁じ得ない」は「（感情が）抑えられない」という意味の文語的な表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-008",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "理由の（　）、締め切り後の提出は認められない。",
+      "options": [
+        "いかんにかかわらず",
+        "きらいがあって",
+        "しまつで",
+        "極みで"
+      ],
+      "answer": 0,
+      "explanation": "「～いかんにかかわらず」は「～がどうであるかに関係なく」という意味の非常に硬い表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-009",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "日本語教師（　）、常に学習者の視点に立つべきだ。",
+      "options": [
+        "ともあろう者が",
+        "なりに",
+        "ならでは",
+        "としたことが"
+      ],
+      "answer": 0,
+      "explanation": "「～ともあろう者が」は「～という立派な立場にありながら（それにふさわしくない）」という驚きや非難、または自戒を込めた表現です。"
+    },
+    {
+      "id": "n1-grammar_fill-010",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "sentence": "雨（　）夜（　）、彼は山道を歩き続けた。",
+      "options": [
+        "といわず／といわず",
+        "なり／なり",
+        "であれ／であれ",
+        "にしろ／にしろ"
+      ],
+      "answer": 0,
+      "explanation": "「～といわず～といわず」は「～も～も（区別なく全部）」という意味で、全面的であることを強調します。"
+    },
+    {
+      "sentence": "（　）、彼は約束を破った。",
+      "options": [
+        "あろうことか",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：あろうことか (sentence-initial)。unbelievably / of all things / to make matters worse。",
+      "complete_sentence": "あろうことか、彼は約束を破った。",
+      "id": "n1-grammar_fill-011",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "これ（　）大事件は初めてだ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ほどの",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / plain form + ほどの + noun。of such a degree / to the extent of (a)。",
+      "complete_sentence": "これほどの大事件は初めてだ。",
+      "id": "n1-grammar_fill-012",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "東京（　）、全国ツアーが始まる。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "を皮切りに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + を皮切りに(して)。starting with / beginning with。",
+      "complete_sentence": "東京を皮切りに、全国ツアーが始まる。",
+      "id": "n1-grammar_fill-013",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "今月（　）、この店は閉店します。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "を限りに",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を限りに。with X being the last / as of X (final)。",
+      "complete_sentence": "今月を限りに、この店は閉店します。",
+      "id": "n1-grammar_fill-014",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "参加者は50人（　）。",
+      "options": [
+        "といったところだ",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number / noun + といったところだ。about / approximately / around。",
+      "complete_sentence": "参加者は50人といったところだ。",
+      "id": "n1-grammar_fill-015",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "リーダー（　）、部下の模範となるべきだ。",
+      "options": [
+        "たる者",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + たる者。as a (proper) X, one should / one who is X。",
+      "complete_sentence": "リーダーたる者、部下の模範となるべきだ。",
+      "id": "n1-grammar_fill-016",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "これ（　）、会議を終わります。",
+      "options": [
+        "ばかりに",
+        "をもって",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + をもって。by means of / with / as of (formal)。",
+      "complete_sentence": "これをもって、会議を終わります。",
+      "id": "n1-grammar_fill-017",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "電話する（　）メールする（　）、連絡してください。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "なり"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun/V + なり + noun/V + なり。either X or Y / whether X or Y。",
+      "complete_sentence": "電話するなりメールするなり、連絡してください。",
+      "id": "n1-grammar_fill-018",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "このホテルは贅沢（　）だ。",
+      "options": [
+        "の極み",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + の極み。the height of / the ultimate / extreme。",
+      "complete_sentence": "このホテルは贅沢の極みだ。",
+      "id": "n1-grammar_fill-019",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "許可（　）、ここに入ってはいけない。",
+      "options": [
+        "なしに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + なしに(は)。without / unless。",
+      "complete_sentence": "許可なしに、ここに入ってはいけない。",
+      "id": "n1-grammar_fill-020",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "この事実を世に知らしめ（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ずにはおかない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V negative stem + ずにはおかない。will not leave without doing / inevitably will。",
+      "complete_sentence": "この事実を世に知らしめずにはおかない。",
+      "id": "n1-grammar_fill-021",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "子供（　）、大人のように話す。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "でありながら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / na-adj + でありながら。while being / even though one is。",
+      "complete_sentence": "子供でありながら、大人のように話す。",
+      "id": "n1-grammar_fill-022",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "絶対に合格し（　）みせる。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + みせる。will definitely do / I'll show you (determination)。",
+      "complete_sentence": "絶対に合格してみせる。",
+      "id": "n1-grammar_fill-023",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "大人（　）、責任を持たなければならない。",
+      "options": [
+        "ともなれば",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / V plain + ともなれば。when one becomes / when it comes to being。",
+      "complete_sentence": "大人ともなれば、責任を持たなければならない。",
+      "id": "n1-grammar_fill-024",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "言おう（　）言えない状況だ。",
+      "options": [
+        "にも",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V volitional + にも + V potential negative。can't (do X) even if one wanted to。",
+      "complete_sentence": "言おうにも言えない状況だ。",
+      "id": "n1-grammar_fill-025",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "先生（　）者が、嘘をつくとは。",
+      "options": [
+        "ばかりに",
+        "ともあろう",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + ともあろう + noun。of all people / someone as prominent as。",
+      "complete_sentence": "先生ともあろう者が、嘘をつくとは。",
+      "id": "n1-grammar_fill-026",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は自分が一番だと言っ（　）はばからない。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + はばからない。does not hesitate to / declares openly。",
+      "complete_sentence": "彼は自分が一番だと言ってはばからない。",
+      "id": "n1-grammar_fill-027",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "どうあろう（　）、私は自分の道を歩む。",
+      "options": [
+        "どころか",
+        "とも",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V volitional + とも / あろうとも。no matter what / whatever happens。",
+      "complete_sentence": "どうあろうとも、私は自分の道を歩む。",
+      "id": "n1-grammar_fill-028",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "この事件は起こる（　）起こった。",
+      "options": [
+        "どころか",
+        "ものの",
+        "べくして",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb dict-form + べくして。inevitably / as one would expect / destined to。",
+      "complete_sentence": "この事件は起こるべくして起こった。",
+      "id": "n1-grammar_fill-029",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "以前（　）、忙しくなった。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にもまして"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + にもまして。more than / even more than (emphatic)。",
+      "complete_sentence": "以前にもまして、忙しくなった。",
+      "id": "n1-grammar_fill-030",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "失敗すれ（　）それまでだ。",
+      "options": [
+        "ば",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ば-form / conditional + それまでだ。if X, that's the end / that's all there is to it。",
+      "complete_sentence": "失敗すればそれまでだ。",
+      "id": "n1-grammar_fill-031",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "（　）、父の誕生日を忘れてしまった。",
+      "options": [
+        "どころか",
+        "ものの",
+        "こともあろうに",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：こともあろうに。of all things / unbelievably / of all places。",
+      "complete_sentence": "こともあろうに、父の誕生日を忘れてしまった。",
+      "id": "n1-grammar_fill-032",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "努力する（　）、成功はあり得ない。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ことなしに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V dict-form + ことなしに。without doing / without even。",
+      "complete_sentence": "努力することなしに、成功はあり得ない。",
+      "id": "n1-grammar_fill-033",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "美しい景色（　）、素晴らしい体験だった。",
+      "options": [
+        "と相まって",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + と相まって。combined with / together with (producing X effect)。",
+      "complete_sentence": "美しい景色と相まって、素晴らしい体験だった。",
+      "id": "n1-grammar_fill-034",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "（　）あなたの頼みだから、引き受けよう。",
+      "options": [
+        "ほかならぬ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + ほかならぬ + noun。none other than / this very (special case)。",
+      "complete_sentence": "ほかならぬあなたの頼みだから、引き受けよう。",
+      "id": "n1-grammar_fill-035",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "早く言ってくれればよかった（　）。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "ものを"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ものを。if only / you should have (regret)。",
+      "complete_sentence": "早く言ってくれればよかったものを。",
+      "id": "n1-grammar_fill-036",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "（　）、お手伝いさせていただきます。",
+      "options": [
+        "及ばずながら",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：及ばずながら。although my humble effort may fall short / to the best of my ability。",
+      "complete_sentence": "及ばずながら、お手伝いさせていただきます。",
+      "id": "n1-grammar_fill-037",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "ここに立ち入る（　）。",
+      "options": [
+        "べからず",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V dict-form + べからず / べからざる。must not / should not (archaic prohibition)。",
+      "complete_sentence": "ここに立ち入るべからず。",
+      "id": "n1-grammar_fill-038",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "仮に成功した（　）、喜べない。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "としたところで"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + としたところで。even if we assume / even for。",
+      "complete_sentence": "仮に成功したとしたところで、喜べない。",
+      "id": "n1-grammar_fill-039",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は現状（　）、新しい挑戦を始めた。",
+      "options": [
+        "に飽き足らず",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / plain form + に飽き足らず。not content with / not satisfied with (and seeking more)。",
+      "complete_sentence": "彼は現状に飽き足らず、新しい挑戦を始めた。",
+      "id": "n1-grammar_fill-040",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "考えることこそ、人間（　）だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "たるゆえん"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + たるゆえん。the reason for being / what makes (X) an X。",
+      "complete_sentence": "考えることこそ、人間たるゆえんだ。",
+      "id": "n1-grammar_fill-041",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "お忙しい（　）、ありがとうございます。",
+      "options": [
+        "ばかりに",
+        "ところを",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V plain / adj + ところを。(although) at / while / in the middle of (polite apology)。",
+      "complete_sentence": "お忙しいところを、ありがとうございます。",
+      "id": "n1-grammar_fill-042",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "京都（　）の美しい景色だ。",
+      "options": [
+        "ならでは",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + ならでは(の)。unique to / distinctive of / only X has。",
+      "complete_sentence": "京都ならではの美しい景色だ。",
+      "id": "n1-grammar_fill-043",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は謝っ（　）りもしない。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "た",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V た + り + もしない。doesn't even do / not even X。",
+      "complete_sentence": "彼は謝ったりもしない。",
+      "id": "n1-grammar_fill-044",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は今にも泣か（　）とばかりの表情だった。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ん"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb volitional + ん + とばかりに。as if to say / as if about to。",
+      "complete_sentence": "彼は今にも泣かんとばかりの表情だった。",
+      "id": "n1-grammar_fill-045",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は歴史（　）出して説明した。",
+      "options": [
+        "を引き合いに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + を引き合いに (出して)。citing as an example / drawing a comparison to。",
+      "complete_sentence": "彼は歴史を引き合いに出して説明した。",
+      "id": "n1-grammar_fill-046",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "謝ら（　）だろう。",
+      "options": [
+        "ずにはすまない",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V negative stem + ずにはすまない / ないではすまない。can't get by without / must inevitably do。",
+      "complete_sentence": "謝らずにはすまないだろう。",
+      "id": "n1-grammar_fill-047",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "お会いできて光栄（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "この上ない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：i-adj / na-adj + この上ない。utmost / supreme / nothing could be more。",
+      "complete_sentence": "お会いできて光栄この上ない。",
+      "id": "n1-grammar_fill-048",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "この店は味（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "に定評がある"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に定評がある。is well-known for / has a solid reputation for。",
+      "complete_sentence": "この店は味に定評がある。",
+      "id": "n1-grammar_fill-049",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "（　）教師であるなら、模範となるべきだ。",
+      "options": [
+        "いやしくも",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：いやしくも (sentence-initial)。if at least / if one is truly / given that one is。",
+      "complete_sentence": "いやしくも教師であるなら、模範となるべきだ。",
+      "id": "n1-grammar_fill-050",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "試験（　）、緊張している。",
+      "options": [
+        "を前にして",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + を前にして。in front of / facing / on the verge of。",
+      "complete_sentence": "試験を前にして、緊張している。",
+      "id": "n1-grammar_fill-051",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は雨（　）走り続けた。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "も構わず",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / plain form + も構わず。without caring about / regardless of (formal)。",
+      "complete_sentence": "彼は雨も構わず走り続けた。",
+      "id": "n1-grammar_fill-052",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "褒められて、彼は（　）でもない顔をしていた。",
+      "options": [
+        "ものの",
+        "まんざら",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：まんざら + plain form + でもない。not entirely / not completely (negation hedged)。",
+      "complete_sentence": "褒められて、彼はまんざらでもない顔をしていた。",
+      "id": "n1-grammar_fill-053",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "散歩（　）、買い物に行った。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "を兼ねて"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + を兼ねて。serving (as both) / combined with。",
+      "complete_sentence": "散歩を兼ねて、買い物に行った。",
+      "id": "n1-grammar_fill-054",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "愛（　）、人生は語れない。",
+      "options": [
+        "ものの",
+        "どころか",
+        "なくして",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + なくして(は)。without / unable to X without。",
+      "complete_sentence": "愛なくして、人生は語れない。",
+      "id": "n1-grammar_fill-055",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼は生まれ（　）して、才能があった。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ながらに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V stem + ながらに(して)。while / in (the state of) / from the start。",
+      "complete_sentence": "彼は生まれながらにして、才能があった。",
+      "id": "n1-grammar_fill-056",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "私（　）者にはもったいないお言葉です。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ごとき"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + ごとき (+ noun)。like (a) / such as (literary, often disparaging)。",
+      "complete_sentence": "私ごとき者にはもったいないお言葉です。",
+      "id": "n1-grammar_fill-057",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼（　）、適任者はいない。",
+      "options": [
+        "をおいて",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + をおいて (+ negative)。other than / except for (no one else but)。",
+      "complete_sentence": "彼をおいて、適任者はいない。",
+      "id": "n1-grammar_fill-058",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "寒（　）。",
+      "options": [
+        "くもなんともない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：i-adj 〜くもなんともない / na-adj + でもなんでもない。not even slightly / not at all。",
+      "complete_sentence": "寒くもなんともない。",
+      "id": "n1-grammar_fill-059",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "お礼を言われることではない。当然のことをし（　）までのことです。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-た form + までのことだ。all I did was / it was simply because。",
+      "complete_sentence": "お礼を言われることではない。当然のことをしたまでのことです。",
+      "id": "n1-grammar_fill-060",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "家族（　）で付き合っている。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "ぐるみ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + ぐるみ。whole / entire / collectively (including X)。",
+      "complete_sentence": "家族ぐるみで付き合っている。",
+      "id": "n1-grammar_fill-061",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "（　）決めたら、最後までやり遂げる。",
+      "options": [
+        "ひとたび",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：ひとたび + V + (ば / と / たら)。once (X happens)。",
+      "complete_sentence": "ひとたび決めたら、最後までやり遂げる。",
+      "id": "n1-grammar_fill-062",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼はこの会社（　）専門家だ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "きっての"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun (group / category) + きっての。foremost / best in / most distinguished of。",
+      "complete_sentence": "彼はこの会社きっての専門家だ。",
+      "id": "n1-grammar_fill-063",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "彼（　）噂を聞いた。",
+      "options": [
+        "ものの",
+        "にまつわる",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + にまつわる。related to / concerning / surrounding。",
+      "complete_sentence": "彼にまつわる噂を聞いた。",
+      "id": "n1-grammar_fill-064",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.152Z"
+    },
+    {
+      "sentence": "伝統（　）、式を行った。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "に則って",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + に則って / に則り。in accordance with / according to (rules, customs)。",
+      "complete_sentence": "伝統に則って、式を行った。",
+      "id": "n1-grammar_fill-065",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "この作品は鑑賞（　）。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "に堪える"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb dict / noun + に堪える。can bear / is worth (X-ing)。",
+      "complete_sentence": "この作品は鑑賞に堪える。",
+      "id": "n1-grammar_fill-066",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "これは努力の結果（　）。",
+      "options": [
+        "ものの",
+        "どころか",
+        "に他ならない",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + に他ならない。is nothing but / is exactly / is none other than。",
+      "complete_sentence": "これは努力の結果に他ならない。",
+      "id": "n1-grammar_fill-067",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "お近くにお越し（　）折には、お寄りください。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain / noun + の + 折(に)。on the occasion of / when。",
+      "complete_sentence": "お近くにお越しの折には、お寄りください。",
+      "id": "n1-grammar_fill-068",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "（　）忙しいのに、追加の仕事が来た。",
+      "options": [
+        "ただでさえ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：ただでさえ。even normally / already (in an unmodified state)。",
+      "complete_sentence": "ただでさえ忙しいのに、追加の仕事が来た。",
+      "id": "n1-grammar_fill-069",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "緊急事態（　）、すぐ駆けつけなければならない。",
+      "options": [
+        "とあっては",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form / noun + とあっては。if it's (a case of) / given that it is。",
+      "complete_sentence": "緊急事態とあっては、すぐ駆けつけなければならない。",
+      "id": "n1-grammar_fill-070",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼の苦労は想像（　）。",
+      "options": [
+        "に難くない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / V dict + に難くない。easy to imagine / not hard to。",
+      "complete_sentence": "彼の苦労は想像に難くない。",
+      "id": "n1-grammar_fill-071",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "だめなら、諦める（　）。",
+      "options": [
+        "ものの",
+        "までだ",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V dict-form + までだ / までのことだ。(I'll) just / I'll simply X (if needed)。",
+      "complete_sentence": "だめなら、諦めるまでだ。",
+      "id": "n1-grammar_fill-072",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "寝よう（　）、眠れない。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "にも",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb volitional + にも。even if one tried to / even attempting to。",
+      "complete_sentence": "寝ようにも、眠れない。",
+      "id": "n1-grammar_fill-073",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "それは若者（　）な失敗だ。",
+      "options": [
+        "ばかりに",
+        "にありがち",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + にありがち。common to / typical of (often with negative nuance)。",
+      "complete_sentence": "それは若者にありがちな失敗だ。",
+      "id": "n1-grammar_fill-074",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "欠点を挙げ（　）きりがない。",
+      "options": [
+        "たら",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-たら + きりがない。there's no end to / (if you list X) it would be endless。",
+      "complete_sentence": "欠点を挙げたらきりがない。",
+      "id": "n1-grammar_fill-075",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "冗談（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にもほどがある"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V plain + にもほどがある。there's a limit to / (X) goes too far。",
+      "complete_sentence": "冗談にもほどがある。",
+      "id": "n1-grammar_fill-076",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "健康は自分のためであり、（　）家族のためでもある。",
+      "options": [
+        "ものの",
+        "ひいては",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：ひいては (sentence-initial / mid-sentence)。by extension / ultimately / eventually。",
+      "complete_sentence": "健康は自分のためであり、ひいては家族のためでもある。",
+      "id": "n1-grammar_fill-077",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "ご成功を祈っ（　）やみません。",
+      "options": [
+        "ばかりに",
+        "て",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V-て form + やまない。never stop / can't help (feeling / doing)。",
+      "complete_sentence": "ご成功を祈ってやみません。",
+      "id": "n1-grammar_fill-078",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼が犯人（　）。",
+      "options": [
+        "どころか",
+        "に相違ない",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + に相違ない。no doubt / certainly / I'm sure。",
+      "complete_sentence": "彼が犯人に相違ない。",
+      "id": "n1-grammar_fill-079",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "子供（　）、約束は守るべきだ。",
+      "options": [
+        "といえども",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + といえども。although / even though (literary)。",
+      "complete_sentence": "子供といえども、約束は守るべきだ。",
+      "id": "n1-grammar_fill-080",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "一度（　）、何度も遅刻するのは困る。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ならまだしも"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / plain form + ならまだしも。if it were at least X (that would be OK, but)。",
+      "complete_sentence": "一度ならまだしも、何度も遅刻するのは困る。",
+      "id": "n1-grammar_fill-081",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "ベルが鳴る（　）、生徒たちは走り出した。",
+      "options": [
+        "ものの",
+        "が早いか",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V dict-form + が早いか。as soon as / the moment that (literary)。",
+      "complete_sentence": "ベルが鳴るが早いか、生徒たちは走り出した。",
+      "id": "n1-grammar_fill-082",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼が来る（　）思わなかった。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "とは"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + とは。to think that / I didn't expect that / the fact that。",
+      "complete_sentence": "彼が来るとは思わなかった。",
+      "id": "n1-grammar_fill-083",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "行か（　）でも（　）が、気が進ま（　）。",
+      "options": [
+        "ない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ない-form + でもない。not that I don't / it's not impossible to。",
+      "complete_sentence": "行かないでもないが、気が進まない。",
+      "id": "n1-grammar_fill-084",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "言う（　）、彼は天才だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "までもなく"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V dict-form + までもなく。without even needing to / not even requiring。",
+      "complete_sentence": "言うまでもなく、彼は天才だ。",
+      "id": "n1-grammar_fill-085",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "一瞬（　）油断できない。",
+      "options": [
+        "どころか",
+        "たりとも",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Number + counter + たりとも + negative。not even one / not even a single。",
+      "complete_sentence": "一瞬たりとも油断できない。",
+      "id": "n1-grammar_fill-086",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "味（　）、雰囲気も素晴らしい。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "もさることながら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + もさることながら。not to mention / while X is also (true)。",
+      "complete_sentence": "味もさることながら、雰囲気も素晴らしい。",
+      "id": "n1-grammar_fill-087",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼の言わ（　）ところを理解した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "んとする"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb volitional + んとする。about to / trying to / on the verge of (literary)。",
+      "complete_sentence": "彼の言わんとするところを理解した。",
+      "id": "n1-grammar_fill-088",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "業界（　）、新商品を発売した。",
+      "options": [
+        "に先駆けて",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + に先駆けて。ahead of / before (others)。",
+      "complete_sentence": "業界に先駆けて、新商品を発売した。",
+      "id": "n1-grammar_fill-089",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "やりたいが、（　）、時間がない。",
+      "options": [
+        "いかんせん",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：いかんせん (sentence-initial / mid-sentence)。unfortunately / regrettably / the trouble is。",
+      "complete_sentence": "やりたいが、いかんせん、時間がない。",
+      "id": "n1-grammar_fill-090",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "現状（　）、計画を見直す必要がある。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "に鑑みて"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に鑑みて。in view of / considering。",
+      "complete_sentence": "現状に鑑みて、計画を見直す必要がある。",
+      "id": "n1-grammar_fill-091",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "子供（　）知っていることだ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ですら",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + ですら。even (literary variant of さえ)。",
+      "complete_sentence": "子供ですら知っていることだ。",
+      "id": "n1-grammar_fill-092",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は（　）現代の芸術家だ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "いわば"
+      ],
+      "answer": 3,
+      "explanation": "文法点：いわば (sentence-initial / mid-sentence)。so to speak / as it were。",
+      "complete_sentence": "彼はいわば現代の芸術家だ。",
+      "id": "n1-grammar_fill-093",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "私（　）一生懸命頑張った。",
+      "options": [
+        "なりに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + なりに / なりの。in one's own way / in the manner suited to。",
+      "complete_sentence": "私なりに一生懸命頑張った。",
+      "id": "n1-grammar_fill-094",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "期待（　）、結果は散々だった。",
+      "options": [
+        "とは裏腹に",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / plain form + とは裏腹に。contrary to / in contrast to (expectation vs reality)。",
+      "complete_sentence": "期待とは裏腹に、結果は散々だった。",
+      "id": "n1-grammar_fill-095",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "会員（　）入場できます。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "のみ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V plain + のみ。only / just (literary)。",
+      "complete_sentence": "会員のみ入場できます。",
+      "id": "n1-grammar_fill-096",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は周囲の心配（　）、計画を進めた。",
+      "options": [
+        "どころか",
+        "ものの",
+        "を尻目に",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を尻目に。disregarding / paying no heed to。",
+      "complete_sentence": "彼は周囲の心配を尻目に、計画を進めた。",
+      "id": "n1-grammar_fill-097",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "田中さん（　）は、どこの人ですか。",
+      "options": [
+        "とやら",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / plain form + とやら。some kind of / (I hear) something like。",
+      "complete_sentence": "田中さんとやらは、どこの人ですか。",
+      "id": "n1-grammar_fill-098",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "毎度（　）ことながら、彼は遅刻した。",
+      "options": [
+        "の",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + の + こと + ながら。as usual / as expected / as one would expect。",
+      "complete_sentence": "毎度のことながら、彼は遅刻した。",
+      "id": "n1-grammar_fill-099",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "この店は昔（　）味を守っている。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ながらの"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + ながらの + noun。in its original state of / traditional / just like。",
+      "complete_sentence": "この店は昔ながらの味を守っている。",
+      "id": "n1-grammar_fill-100",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "その景色はまるで夢（　）だった。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "さながら",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun / plain form + さながら。just like / as if / veritable。",
+      "complete_sentence": "その景色はまるで夢さながらだった。",
+      "id": "n1-grammar_fill-101",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "30歳（　）、親の苦労が分かった。",
+      "options": [
+        "どころか",
+        "にして初めて",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + にして初めて。only at / not until one is (X) / for someone of X's level。",
+      "complete_sentence": "30歳にして初めて、親の苦労が分かった。",
+      "id": "n1-grammar_fill-102",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "それが本当（　）、驚かない。",
+      "options": [
+        "ばかりに",
+        "であったとしても",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + であったとしても。even if it were / even assuming that (past hypothetical)。",
+      "complete_sentence": "それが本当であったとしても、驚かない。",
+      "id": "n1-grammar_fill-103",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼の意図を知る（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "べくもない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb dict-form + べくもない。no way to / cannot possibly。",
+      "complete_sentence": "彼の意図を知るべくもない。",
+      "id": "n1-grammar_fill-104",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "子供（　）、大人がそんな失敗をするなんて。",
+      "options": [
+        "ならいざ知らず",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / plain form + ならいざ知らず。if it were X, I wouldn't know / X might be one thing but。",
+      "complete_sentence": "子供ならいざ知らず、大人がそんな失敗をするなんて。",
+      "id": "n1-grammar_fill-105",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "言わ（　）のことを言ってしまった。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ずもがな",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V negative stem + ずもがな。unnecessary / better left unsaid。",
+      "complete_sentence": "言わずもがなのことを言ってしまった。",
+      "id": "n1-grammar_fill-106",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "少し（　）お役に立ちたい。",
+      "options": [
+        "なりとも",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + なりとも。at least / whatever / even just。",
+      "complete_sentence": "少しなりともお役に立ちたい。",
+      "id": "n1-grammar_fill-107",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "それは取る（　）ことだ。",
+      "options": [
+        "に足りない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / V dict-form + に足りない。not worth / insufficient for / unworthy of。",
+      "complete_sentence": "それは取るに足りないことだ。",
+      "id": "n1-grammar_fill-108",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "遅刻しよう（　）、上司に叱られる。",
+      "options": [
+        "ものの",
+        "ものなら",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb volitional + ものなら。if one were to X / if you dare to X。",
+      "complete_sentence": "遅刻しようものなら、上司に叱られる。",
+      "id": "n1-grammar_fill-109",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は困難（　）、目標を達成した。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "をものともせず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + をものともせず(に)。braving / undaunted by / in defiance of。",
+      "complete_sentence": "彼は困難をものともせず、目標を達成した。",
+      "id": "n1-grammar_fill-110",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は家を出る（　）、走り出した。",
+      "options": [
+        "どころか",
+        "や",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb dict-form + や / や否や。at the moment of / as soon as (literary)。",
+      "complete_sentence": "彼は家を出るや、走り出した。",
+      "id": "n1-grammar_fill-111",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "状況は（　）改善しない。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "いっこうに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：いっこうに + V 〜ない。not at all / not in the slightest。",
+      "complete_sentence": "状況はいっこうに改善しない。",
+      "id": "n1-grammar_fill-112",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "これは命（　）問題だ。",
+      "options": [
+        "に関わる",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + に関わる。involves / affects / concerns (seriously)。",
+      "complete_sentence": "これは命に関わる問題だ。",
+      "id": "n1-grammar_fill-113",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "男（　）女（　）、誰もが平等だ。",
+      "options": [
+        "であれ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + であれ + noun + であれ。whether X or Y / no matter if X or Y。",
+      "complete_sentence": "男であれ女であれ、誰もが平等だ。",
+      "id": "n1-grammar_fill-114",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "このような賞をいただき、光栄（　）です。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "の至り",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun (emotion) + の至り。the height of (an emotion) / extremely。",
+      "complete_sentence": "このような賞をいただき、光栄の至りです。",
+      "id": "n1-grammar_fill-115",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼の遅刻（　）、もう許せない。",
+      "options": [
+        "に至っては",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + に至っては。when it comes to / as for (extreme case)。",
+      "complete_sentence": "彼の遅刻に至っては、もう許せない。",
+      "id": "n1-grammar_fill-116",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼に一言言わ（　）ではおか（　）。",
+      "options": [
+        "ない",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ない-form + ではおかない。will not fail to / will inevitably。",
+      "complete_sentence": "彼に一言言わないではおかない。",
+      "id": "n1-grammar_fill-117",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "理由（　）いかんによらず、遅刻は許されない。",
+      "options": [
+        "ものの",
+        "どころか",
+        "の",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + (の) + いかんによらず / いかんを問わず / いかんにかかわらず。regardless of / irrespective of (formal)。",
+      "complete_sentence": "理由のいかんによらず、遅刻は許されない。",
+      "id": "n1-grammar_fill-118",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "これが愛でな（　）なんであろう。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "くて"
+      ],
+      "answer": 3,
+      "explanation": "文法点：i-adj 〜くて / na-adj + で + なんであろう。if not X, what else / what else could it be but X。",
+      "complete_sentence": "これが愛でなくてなんであろう。",
+      "id": "n1-grammar_fill-119",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "昼（　）夜（　）、働き続けた。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "といわず"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + といわず + noun + といわず。whether X or Y / all over / throughout。",
+      "complete_sentence": "昼といわず夜といわず、働き続けた。",
+      "id": "n1-grammar_fill-120",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は部屋に入る（　）、泣き出した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "なり"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V dict-form + なり。as soon as / right after (literary)。",
+      "complete_sentence": "彼は部屋に入るなり、泣き出した。",
+      "id": "n1-grammar_fill-121",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "危険（　）、子供を助けた。",
+      "options": [
+        "どころか",
+        "ものの",
+        "を顧みず",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を顧みず。without regard to / disregarding。",
+      "complete_sentence": "危険を顧みず、子供を助けた。",
+      "id": "n1-grammar_fill-122",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "昔（　）、手伝ってくれないか。",
+      "options": [
+        "ばかりに",
+        "のよしみで",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + のよしみで。for the sake of / by virtue of the connection。",
+      "complete_sentence": "昔のよしみで、手伝ってくれないか。",
+      "id": "n1-grammar_fill-123",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "留学する（　）、準備が必要だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "となれば",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + となれば。if it comes to / in the event that。",
+      "complete_sentence": "留学するとなれば、準備が必要だ。",
+      "id": "n1-grammar_fill-124",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "このグローバル時代（　）、英語は必須だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にあって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + にあって。in / at / during (formal literary)。",
+      "complete_sentence": "このグローバル時代にあって、英語は必須だ。",
+      "id": "n1-grammar_fill-125",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "留学（　）、お金が心配だ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "となると"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + となると。when it comes to / if it's a matter of。",
+      "complete_sentence": "留学となると、お金が心配だ。",
+      "id": "n1-grammar_fill-126",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "簡単（　）、意外に難しかった。",
+      "options": [
+        "と思いきや",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + と思いきや。but contrary to expectation / I thought but。",
+      "complete_sentence": "簡単と思いきや、意外に難しかった。",
+      "id": "n1-grammar_fill-127",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は信頼（　）人物だ。",
+      "options": [
+        "ものの",
+        "に足る",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb dict-form / noun + に足る。worth / sufficient to / deserving of。",
+      "complete_sentence": "彼は信頼に足る人物だ。",
+      "id": "n1-grammar_fill-128",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼は親切（　）だ。",
+      "options": [
+        "そのもの",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + そのもの。(X) itself / the very essence of。",
+      "complete_sentence": "彼は親切そのものだ。",
+      "id": "n1-grammar_fill-129",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "彼には謝罪があっ（　）しかるべきだ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + しかるべき。should be (fittingly) / ought to be。",
+      "complete_sentence": "彼には謝罪があってしかるべきだ。",
+      "id": "n1-grammar_fill-130",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "（　）本人は全く気にしていない。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "当の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：当の + noun。the very (person/thing) in question / the X in question。",
+      "complete_sentence": "当の本人は全く気にしていない。",
+      "id": "n1-grammar_fill-131",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "矢（　）ごとく、時間が過ぎていく。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form / noun + の + ごとく。just as / like / as if (literary)。",
+      "complete_sentence": "矢のごとく、時間が過ぎていく。",
+      "id": "n1-grammar_fill-132",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "ワサビ（　）、お願いします。",
+      "options": [
+        "抜きで",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + 抜きで / 抜きでは / 抜きに。without (X) / leaving out。",
+      "complete_sentence": "ワサビ抜きで、お願いします。",
+      "id": "n1-grammar_fill-133",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "今回はご要望にお応えできかねます。（　）。",
+      "options": [
+        "ものの",
+        "あしからず",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：あしからず (sentence-final)。please don't take it wrong / please excuse (refusal)。",
+      "complete_sentence": "今回はご要望にお応えできかねます。あしからず。",
+      "id": "n1-grammar_fill-134",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "違い（　）、目的は同じだ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "こそあれ",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form / noun + こそあれ。although having / although X is the case。",
+      "complete_sentence": "違いこそあれ、目的は同じだ。",
+      "id": "n1-grammar_fill-135",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "事故の瞬間（　）目の当たりにした。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "を",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + を + 目の当たりにする。witness / see with one's own eyes。",
+      "complete_sentence": "事故の瞬間を目の当たりにした。",
+      "id": "n1-grammar_fill-136",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "お礼かたがた、ご挨拶に伺い（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ます"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V ます-stem / noun + かたがた。combining / at the same time / also as。",
+      "complete_sentence": "お礼かたがた、ご挨拶に伺います。",
+      "id": "n1-grammar_fill-137",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "それは教師にある（　）行為だ。",
+      "options": [
+        "まじき",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V dict-form + まじき + noun。unacceptable / unbecoming / should not。",
+      "complete_sentence": "それは教師にあるまじき行為だ。",
+      "id": "n1-grammar_fill-138",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    },
+    {
+      "sentence": "人生を旅（　）表現した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "になぞらえて"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + になぞらえて。likening to / comparing to (metaphorically)。",
+      "complete_sentence": "人生を旅になぞらえて表現した。",
+      "id": "n1-grammar_fill-139",
+      "level": "N1",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:52.153Z"
+    }
+  ]
+}

@@ -17,6 +17,111 @@ import time
 from datetime import datetime
 
 # ============================================================
+# Logging system for API calls and review decisions
+# ============================================================
+
+class GenerationLogger:
+    """Records every API call (prompt + response) and review decision for debugging."""
+
+    def __init__(self, base_dir=None):
+        if base_dir is None:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+        run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.log_dir = os.path.join(base_dir, "logs", run_ts)
+        os.makedirs(self.log_dir, exist_ok=True)
+        self.call_counter = 0
+
+    def _next_filename(self, call_type, provider_id, section_id):
+        self.call_counter += 1
+        ts = datetime.now().strftime("%H%M%S")
+        safe_section = (section_id or "unknown").replace("/", "_")
+        return f"{self.call_counter:04d}_{call_type}_{safe_section}_{provider_id}_{ts}.json"
+
+    def create_api_log(self, call_type, provider_id, section_id, prompt, model=None, metadata=None):
+        """Create a log file with the prompt before the API call starts."""
+        filename = self._next_filename(call_type, provider_id, section_id)
+        filepath = os.path.abspath(os.path.join(self.log_dir, filename))
+        data = {
+            "timestamp_request": datetime.now().isoformat(),
+            "call_type": call_type,
+            "provider_id": provider_id,
+            "model": model or "",
+            "section_id": section_id or "",
+            "prompt": prompt,
+            "response": "WAITING_FOR_RESPONSE...",
+            "metadata": metadata or {},
+        }
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        return filepath
+
+    def update_api_log(self, filepath, response, metadata_update=None):
+        """Update an existing log file with the AI response."""
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            data["timestamp_response"] = datetime.now().isoformat()
+            data["response"] = response
+            if metadata_update:
+                data["metadata"].update(metadata_update)
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"      [WARN] 无法更新日志文件: {e}")
+
+    def log_api_call(self, call_type, provider_id, section_id, prompt, response,
+                     metadata=None, model=None):
+        """兼容旧接口：一次性记录（现在直接分两步走）。"""
+        filepath = self.create_api_log(call_type, provider_id, section_id, prompt, model, metadata)
+        self.update_api_log(filepath, response)
+        print(f" (Log: {filepath})")
+        return filepath
+
+    def log_assembly(self, section_id, word, raw_item, item, errors):
+        """Log vocab item assembly result for debugging target-word issues."""
+        filename = self._next_filename("assembly", "local", section_id)
+        filepath = os.path.abspath(os.path.join(self.log_dir, filename))
+        data = {
+            "timestamp": datetime.now().isoformat(),
+            "call_type": "assembly",
+            "section_id": section_id,
+            "word": word,
+            "raw_item": raw_item,
+            "assembled_item": item,
+            "errors": errors,
+        }
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        if errors:
+            print(f"      [!] Assembly Log: {filepath}")
+        return filepath
+
+    def log_review_decision(self, section_id, generator_id, reviewer_id, question,
+                            approved, review_explanation, issues, review_issue=None):
+        """Log a review decision with the full question for context."""
+        filename = self._next_filename("review_decision", reviewer_id or "unknown", section_id)
+        filepath = os.path.abspath(os.path.join(self.log_dir, filename))
+        data = {
+            "timestamp": datetime.now().isoformat(),
+            "call_type": "review_decision",
+            "section_id": section_id,
+            "generator_id": generator_id,
+            "reviewer_id": reviewer_id or "",
+            "approved": approved,
+            "review_explanation": review_explanation or "",
+            "issues": issues or [],
+            "review_issue": review_issue or "",
+            "question": question,
+        }
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        # print(f"      (Review Log: {filepath})")  # 可选：如果觉得太吵可以注释掉
+        return filepath
+
+    def get_log_dir(self):
+        return self.log_dir
+
+# ============================================================
 # Config loading
 # ============================================================
 
@@ -81,7 +186,7 @@ def load_env(path):
 # Vocabulary state management (for vocab_reading / vocab_kanji)
 # ============================================================
 
-VOCAB_SECTIONS = ("vocab_reading", "vocab_kanji")
+VOCAB_SECTIONS = ("vocab_reading", "vocab_kanji", "vocab_context", "vocab_usage", "vocab_synonym")
 
 
 def load_n2_vocab_records(vocab_dir):
@@ -121,6 +226,12 @@ def init_vocab_state(records, state_path):
             "vocab_kanji": "pending",
             "vocab_kanji_attempts": 0,
             "vocab_kanji_issue": "",
+            "vocab_context": "pending",
+            "vocab_context_attempts": 0,
+            "vocab_context_issue": "",
+            "vocab_usage": "pending",
+            "vocab_usage_attempts": 0,
+            "vocab_usage_issue": "",
         }
     os.makedirs(os.path.dirname(state_path), exist_ok=True)
     with open(state_path, "w", encoding="utf-8") as f:
@@ -175,31 +286,114 @@ def load_existing_vocab_targets(data_dir, section_id):
 
 
 def repair_vocab_state(vocab_state, state_path, data_dir):
-    """把状态中 generated 但题库 JSON 缺失的词重置为 pending。
-
-    旧版本会先把词标记为 generated，等整个题型完成后才统一写 JSON。
-    如果进程中断，会留下 generated 状态但没有实际题目。启动时修复这类不一致。
+    """双向修复状态：
+    1. 标记为 generated 但 JSON 缺失或质量太差的 -> 重置为 pending
+    2. 标记为 pending 但 JSON 中已有高质量题目的 -> 标记为 generated (省钱)
     """
-    repaired = 0
+    repaired_to_pending = 0
+    synced_to_generated = 0
+    
     for section_id in VOCAB_SECTIONS:
-        existing_targets = load_existing_vocab_targets(data_dir, section_id)
-        for record in vocab_state.values():
-            if record.get(section_id) != "generated":
-                continue
-            target = record.get("kanji") if section_id == "vocab_reading" else record.get("kana")
-            if target in existing_targets:
-                continue
-            record[section_id] = "pending"
-            record[f"{section_id}_issue"] = "state_repaired_missing_json"
-            repaired += 1
+        path = os.path.join(data_dir, f"{section_id}.json")
+        if not os.path.exists(path): continue
+        
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        # 构建高质量 target 集合
+        high_quality_targets = set()
+        for q in data.get("questions", []):
+            target = q.get("target")
+            
+            # 垃圾题目判定模式
+            sentence = q.get("sentence", "")
+            options = q.get("options", [])
+            options_str = str(options)
+            explanation = q.get("explanation", "")
+            
+            is_garbage = (
+                "作为..." in sentence or 
+                "として最もよいもの" in sentence or 
+                "の類義語を選びなさい" in sentence or
+                "の言い換えを選びなさい" in sentence or
+                "という言葉の" in sentence or
+                "意味が最も近いもの" in sentence or
+                "かな2" in options_str or
+                "かな1" in options_str or
+                "かな3" in options_str
+            )
+            
+            # 特殊判定：类义语题目的选项里包含原词
+            if section_id == "vocab_synonym" and target in options_str:
+                is_garbage = True
+                
+            # 特殊判定：用法题必须 4 个选项都包含目标词，且句子完整
+            if section_id == "vocab_usage" and len(options) == 4:
+                if not all(target[:2] in opt for opt in options):
+                    is_garbage = True
+                if any(not opt.strip().endswith(("。", "！", "？", "」", "．")) for opt in options if len(opt) > 5):
+                    is_garbage = True
 
-    if repaired:
+            # 特殊判定：解析太短往往是无效数据
+            if len(explanation) < 25:
+                is_garbage = True
+            
+            # 判定标准：有例句 且 非垃圾模式 且 解析长度足够 且 已审核
+            is_good = (
+                q.get("sentence") and 
+                not is_garbage and
+                len(q.get("explanation", "")) > 30 and 
+                q.get("verified")
+            )
+            if target and is_good:
+                high_quality_targets.add(target)
+
+        # 遍历状态进行同步
+        for record in vocab_state.values():
+            target = record.get("kanji") if section_id == "vocab_reading" else record.get("kana")
+            current_status = record.get(section_id)
+            
+            if current_status == "generated":
+                if target not in high_quality_targets:
+                    # 状态说生成了，但 JSON 里没有或质量差，打回重做
+                    record[section_id] = "pending"
+                    record[f"{section_id}_issue"] = "state_repaired_missing_or_poor_json"
+                    repaired_to_pending += 1
+            elif current_status == "pending":
+                if target in high_quality_targets:
+                    # 状态说没生成，但 JSON 里已经修好了，同步状态
+                    record[section_id] = "generated"
+                    record[f"{section_id}_issue"] = ""
+                    synced_to_generated += 1
+
+    if repaired_to_pending or synced_to_generated:
         save_vocab_state(state_path, vocab_state)
-        print(f"词汇状态修复完成: {repaired} 个 generated 但未入库的词已重置为 pending")
+        print(f"词汇状态同步完成: {repaired_to_pending} 个重置为 pending, {synced_to_generated} 个同步为 generated (已跳过)")
+
+
+def print_vocab_status(vocab_state, section_defs):
+    """启动时打印各词汇题型的当前状态统计。"""
+    print("\n当前词汇题型状态:")
+    print(f"{'题型':<20} {'pending':>8} {'generated':>10} {'failed':>8}")
+    print("-" * 50)
+    name_map = {s["id"]: s["name"] for s in section_defs}
+    for section_id in VOCAB_SECTIONS:
+        pending = generated = failed = 0
+        for record in vocab_state.values():
+            status = record.get(section_id, "pending")
+            if status == "pending":
+                pending += 1
+            elif status == "generated":
+                generated += 1
+            elif status == "failed":
+                failed += 1
+        name = name_map.get(section_id, section_id)
+        print(f"{name:<20} {pending:>8} {generated:>10} {failed:>8}")
+    print()
 
 
 def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, max_attempts=2):
-    """记录一次生成/审核失败，并立即保存状态。"""
+    """记录一次生成/审核失败（仅更新内存，不立即写盘）。"""
     attempts_key = f"{section_id}_attempts"
     issue_key = f"{section_id}_issue"
     record = vocab_state[word["jmdict_seq"]]
@@ -208,17 +402,13 @@ def mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, issue, m
     record[issue_key] = issue
     if current + 1 >= max_attempts:
         record[section_id] = "failed"
-    if vocab_state_path:
-        save_vocab_state(vocab_state_path, vocab_state)
 
 
 def mark_vocab_generated(vocab_state, vocab_state_path, word, section_id):
-    """标记词汇题已入库，并立即保存状态。"""
+    """标记词汇题已入库（仅更新内存，不立即写盘）。"""
     record = vocab_state[word["jmdict_seq"]]
     record[section_id] = "generated"
     record[f"{section_id}_issue"] = ""
-    if vocab_state_path:
-        save_vocab_state(vocab_state_path, vocab_state)
 
 
 # ============================================================
@@ -228,11 +418,21 @@ def mark_vocab_generated(vocab_state, vocab_state_path, word, section_id):
 def resolve_provider(provider_id, provider_cfg, env):
     """Resolve provider config + env vars into a usable dict.
     Returns None if required env vars are missing."""
-    api_key = env.get(provider_cfg["api_key_env"])
+    if provider_cfg.get("enabled") is False:
+        print(f"    [SKIP] {provider_id}: disabled in config")
+        return None
+
+    api_key_envs = provider_cfg.get("api_key_envs") or [provider_cfg.get("api_key_env", "")]
+    api_key_envs = [env_name for env_name in api_key_envs if env_name]
+    api_keys = []
+    for env_name in api_key_envs:
+        api_key = env.get(env_name, "")
+        if api_key:
+            api_keys.append({"env": env_name, "key": api_key})
     base_url = env.get(provider_cfg["base_url_env"], "")
 
-    if not api_key:
-        print(f"    [WARN] {provider_id}: API key missing ({provider_cfg['api_key_env']})")
+    if not api_keys:
+        print(f"    [WARN] {provider_id}: API key missing ({', '.join(api_key_envs)})")
         return None
     if not base_url:
         print(f"    [WARN] {provider_id}: Base URL missing ({provider_cfg['base_url_env']})")
@@ -253,7 +453,9 @@ def resolve_provider(provider_id, provider_cfg, env):
         "id": provider_id,
         "label": provider_cfg.get("label", provider_id),
         "url": base_url,
-        "api_key": api_key,
+        "api_key": api_keys[0]["key"],
+        "api_keys": api_keys,
+        "api_key_index": 0,
         "model": model,
         "format": provider_cfg.get("format", "openai"),
         "headers": provider_cfg.get("headers", {}),
@@ -264,9 +466,36 @@ def resolve_provider(provider_id, provider_cfg, env):
 # API calling (OpenAI-compatible)
 # ============================================================
 
-def call_gemini_api(provider, prompt, timeout=120):
+def _provider_key_attempts(provider):
+    """Return provider keys in round-robin order and advance the next start key."""
+    api_keys = provider.get("api_keys") or [{"env": provider.get("api_key_env", "api_key"), "key": provider["api_key"]}]
+    start = provider.get("api_key_index", 0) % len(api_keys)
+    provider["api_key_index"] = (start + 1) % len(api_keys)
+    return api_keys[start:] + api_keys[:start]
+
+
+def is_retryable_api_error(result):
+    """Return True for likely transient API/network failures."""
+    if not result or not result.startswith("ERROR"):
+        return False
+    retryable_markers = (
+        "HTTP 429",
+        "HTTP 500",
+        "HTTP 502",
+        "HTTP 503",
+        "HTTP 504",
+        "timed out",
+        "timeout",
+        "Temporary failure",
+        "Connection reset",
+        "Remote end closed connection",
+    )
+    return any(marker in result for marker in retryable_markers)
+
+
+def call_gemini_api(provider, prompt, api_key, timeout=120):
     """Call Google Gemini native REST API."""
-    url = f"{provider['url'].rstrip('/')}/models/{provider['model']}:generateContent?key={provider['api_key']}"
+    url = f"{provider['url'].rstrip('/')}/models/{provider['model']}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     data = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}]
@@ -286,10 +515,9 @@ def call_gemini_api(provider, prompt, timeout=120):
         return f"ERROR: {e}"
 
 
-def call_openai_api(provider, prompt, timeout=120):
+def call_openai_api(provider, prompt, api_key, timeout=120):
     """Call an OpenAI-compatible API. Returns response text or 'ERROR: ...'."""
     url = provider["url"]
-    api_key = provider["api_key"]
     model = provider["model"]
 
     headers = {
@@ -315,12 +543,41 @@ def call_openai_api(provider, prompt, timeout=120):
         return f"ERROR: {e}"
 
 
-def call_api(provider, prompt, timeout=120):
-    """Dispatch to the correct API caller based on provider format."""
+def call_api(provider, prompt, timeout=120, retries=1, logger=None, call_type="api", section_id=None):
+    """Dispatch to the correct API caller based on provider format.
+    If logger is provided, records the prompt and response."""
     fmt = provider.get("format", "openai")
-    if fmt == "gemini":
-        return call_gemini_api(provider, prompt, timeout)
-    return call_openai_api(provider, prompt, timeout)
+    last_error = "ERROR: no API keys configured"
+    for key_entry in _provider_key_attempts(provider):
+        api_key = key_entry["key"]
+        for attempt in range(retries + 1):
+            log_filepath = None
+            if logger:
+                log_filepath = logger.create_api_log(
+                    call_type=call_type,
+                    provider_id=provider["id"],
+                    section_id=section_id,
+                    prompt=prompt,
+                    model=provider.get("model", ""),
+                    metadata={"attempt": attempt, "key_env": key_entry.get("env", "")}
+                )
+                print(f" (Log: {log_filepath}) ", end="", flush=True)
+
+            if fmt == "gemini":
+                result = call_gemini_api(provider, prompt, api_key, timeout)
+            else:
+                result = call_openai_api(provider, prompt, api_key, timeout)
+
+            if logger and log_filepath:
+                logger.update_api_log(log_filepath, result)
+
+            if result and not result.startswith("ERROR"):
+                return result
+            last_error = result or "ERROR: empty response"
+            if attempt >= retries or not is_retryable_api_error(last_error):
+                break
+            time.sleep(2 * (attempt + 1))
+    return last_error
 
 
 def check_provider(provider, timeout=15):
@@ -336,150 +593,165 @@ def check_provider(provider, timeout=15):
 # ============================================================
 
 def extract_json(text):
-    """Extract JSON array from API response."""
+    """从 API 响应中提取 JSON 数组。极强鲁棒版。"""
     if not text or text.startswith("ERROR"):
         return None
     text = text.strip()
-    if text.startswith("```"):
-        lines = text.split("\n")
-        lines = [l for l in lines if not l.startswith("```")]
-        text = "\n".join(lines).strip()
-    start = text.find("[")
-    end = text.rfind("]")
-    if start != -1 and end != -1:
-        text = text[start:end+1]
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+    
+    if "```" in text:
+        import re
+        match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+        if match:
+            text = match.group(1).strip()
 
+    start_pos = 0
+    while True:
+        first_bracket = text.find("[", start_pos)
+        if first_bracket == -1: break
+        
+        last_bracket = text.rfind("]")
+        if last_bracket == -1 or last_bracket <= first_bracket: break
+        
+        candidate = text[first_bracket:last_bracket+1]
+        try:
+            return json.loads(candidate)
+        except json.JSONDecodeError:
+            pass
+            
+        start_pos = first_bracket + 1
+        if start_pos >= len(text): break
+
+    start_obj = text.find("{")
+    end_obj = text.rfind("}")
+    if start_obj != -1 and end_obj != -1:
+        try:
+            obj = json.loads(text[start_obj:end_obj+1])
+            if isinstance(obj, dict):
+                for val in obj.values():
+                    if isinstance(val, list): return val
+        except: pass
+    return None
 
 def extract_json_object(text):
-    """Extract JSON object from API response."""
-    if not text or text.startswith("ERROR"):
-        return None
+    if not text or text.startswith("ERROR"): return None
     text = text.strip()
-    if text.startswith("```"):
-        lines = text.split("\n")
-        lines = [l for l in lines if not l.startswith("```")]
-        text = "\n".join(lines).strip()
-    start = text.find("{")
-    end = text.rfind("}")
-    if start != -1 and end != -1:
-        text = text[start:end+1]
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+    if "```" in text:
+        import re
+        match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+        if match: text = match.group(1).strip()
+    start = text.find("{"); end = text.rfind("}")
+    if start != -1 and end != -1: text = text[start:end+1]
+    try: return json.loads(text)
+    except: return None
 
-
-# ============================================================
-# Vocab question builders (vocab_reading / vocab_kanji)
-# ============================================================
-
-def build_reading_prompt(words):
-    """为读音题构建 prompt。words: [{kanji, kana}, ...]"""
-    lines = []
-    for i, w in enumerate(words, 1):
-        lines.append(f"{i}. 目标词：《{w['kanji']}》（正确读音：{w['kana']}）")
+def build_reading_prompt(words, level="N2"):
+    lines = [f"{i+1}. 目标词：《{w['kanji']}》（正确读音：{w['kana']}）" for i, w in enumerate(words)]
     word_list = "\n".join(lines)
-    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标词各出一道「漢字の読み方」题目。
+    return f"""你是一位JLPT {level}出题专家。请为以下{len(words)}个目标词各出一道「漢字の読み方」题目。
 
 {word_list}
 
-【你的任务】
-1. 为每个目标词写一句自然、N2难度的日语例句，目标词用《》标注。
-2. 提供3个错误读音作为干扰项（distractors）。
-3. 干扰项设计要求：针对长短音、清浊音、促音或常见误读进行设计。
-4. 绝对禁止：干扰项等于正确读音、干扰项之间重复、干扰项与正确读音完全相同。
-5. 每个干扰项必须是看起来像正确读音的"常见误读"，不能是明显错误的随机假名。
-
-【反例——这些是错误的，会导致题目作废】
-目标词：《掲載》（正确读音：けいさい）
-- 错误干扰项1：けいさい（等于正确答案，绝对禁止）
-- 错误干扰项2：けいさい（与另一个干扰项重复，绝对禁止）
-- 错误干扰项3：あ（太短，明显不是候选，禁止）
-
-【正确示例】
-目标词：《掲載》（正确读音：けいさい）
-干扰项：けさい（清浊混淆）、けっさい（促音误读）、けいざい（长音误读）
-
-【输出格式】严格输出JSON数组，不要输出其他内容：
+【任务】
+1. 为每个目标词写一个自然、地道的 {level} 难度日语例句。
+2. **核心要求**：请在例句中使用目标词的**原形（辞書形）**，并确保《》标注的内容与目标词**完全一致**。
+3. 严禁使用占位符句子：绝对禁止使用类似『（目标词）の読み方作为...』这样没有任何语境的句子。
+3. 提供3个错误读音（干扰项），必须看起来像正确读音。
+4. 严格输出JSON数组，格式如下：
 [
   {{
-    "sentence": "包含《目标词》的完整日语例句",
+    "sentence": "完整的日语句子，目标汉字词用《》标注",
     "distractors": ["错误读音1", "错误读音2", "错误读音3"],
-    "explanation": "中文解析，说明为什么正确读音是对的，干扰项错在哪"
-  }},
-  ...
+    "explanation": "中文详细解析。要求包含：1. 对正确答案的详细解析；2. 例句的完整中文翻译；3. 对干扰项的简单分析。"
+  }}
 ]"""
 
-
-def build_kanji_prompt(words):
-    """为汉字表记题构建 prompt。words: [{kana, kanji}, ...]"""
-    lines = []
-    for i, w in enumerate(words, 1):
-        lines.append(f"{i}. 目标读音：{w['kana']}（正确汉字：{w['kanji']}）")
+def build_kanji_prompt(words, level="N2"):
+    lines = [f"{i+1}. 目标读音：{w['kana']}（正确汉字：{w['kanji']}）" for i, w in enumerate(words)]
     word_list = "\n".join(lines)
-    return f"""你是一位JLPT N2出题专家。请为以下{len(words)}个目标读音各出一道「漢字の表記」题目。
+    return f"""你是一位极度严谨的 JLPT {level} 出题专家。请为以下{len(words)}个目标读音各出一道「漢字の表記」题目。
 
 {word_list}
 
-【你的任务】
-1. 为每个目标读音写一句自然、N2难度的日语例句，目标读音用《》标注（如《けいさい》）。
-2. 提供3个错误汉字写法作为干扰项（distractors）。
-3. 干扰项设计要求：同音异义字、形似字、相同部首混淆。
-4. 绝对禁止：干扰项等于正确汉字、干扰项之间重复、干扰项与正确汉字完全相同。
-5. 每个干扰项必须是看起来像正确汉字的"常见误写"，不能是明显错误的随机汉字。
-
-【反例——这些是错误的，会导致题目作废】
-目标读音：けいさい（正确汉字：掲載）
-- 错误干扰项1：掲載（等于正确答案，绝对禁止）
-- 错误干扰项2：掲載（与另一个干扰项重复，绝对禁止）
-- 错误干扰项3：一（明显不是候选，禁止）
-
-【正确示例】
-目标读音：けいさい（正确汉字：掲載）
-干扰项：掲栽（形似字）、計裁（同音异义）、啓載（部首混淆）
-
-【输出格式】严格输出JSON数组，不要输出其他内容：
+【任务】
+1. 高质量例句：写一个自然、地道的 {level} 难度日语例句。
+2. **核心要求**：请在例句中使用目标词的**原形（辞書形）**，并确保《》标注的内容与目标词**完全一致**。
+3. 严密干扰项：提供3个绝对能误导考生的错误汉字（形似、同音、部首混淆）。
+3. 严格输出JSON数组，格式如下：
 [
   {{
-    "sentence": "包含《目标读音》的完整日语例句",
+    "sentence": "完整的日语句子，目标读音用《》标注",
     "distractors": ["错误汉字1", "错误汉字2", "错误汉字3"],
-    "explanation": "中文解析，说明为什么正确汉字是对的，干扰项错在哪"
-  }},
-  ...
+    "explanation": "中文详细解析。要求包含：1. 为什么选择该汉字；2. 例句的完整中文翻译；3. 对干扰项（形似字/同音字）的辨析。"
+  }}
 ]"""
 
+def build_usage_prompt(words, level="N2"):
+    lines = [f"{i+1}. 目标词：《{w['kanji']}》（读音：{w['kana']}）" for i, w in enumerate(words)]
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT {level}出题专家。请为以下{len(words)}个目标词各出一道「用法」题目。
+【要求】
+1. 每个目标词提供4个句子。
+2. **核心要求**：4个句子中必须**全部包含目标词**（或其正确的动词变形）。
+3. 只有1个句子中该词的用法是地道、正确的。
+4. 另外3个句子必须是该词的**典型误用**（如：搭配不当、语境错误、词性混淆）。
+5. 严格输出JSON数组，格式如下：
+[
+  {{
+    "target": "目标词",
+    "options": ["包含目标词的句子1", "包含目标词的句子2", "包含目标词的句子3", "包含目标词的句子4"],
+    "answer": 正确句子的索引(0-3),
+    "explanation": "中文详细解析。要求包含：1. 为什么该选项正确；2. 每个选项句子的中文翻译（或重点翻译）；3. 该词在误用项中的错误原因。"
+  }}
+]"""
 
-def generate_vocab_questions(provider, section_id, words, timeout):
-    """专门为读音/汉字题生成。返回 (items, 实际使用的words)。"""
-    if section_id == "vocab_reading":
-        prompt = build_reading_prompt(words)
-    elif section_id == "vocab_kanji":
-        prompt = build_kanji_prompt(words)
-    else:
-        return None, []
+def build_context_prompt(words, level="N2"):
+    lines = [f"{i+1}. 目标词：《{w['kanji']}》（读音：{w['kana']}）" for i, w in enumerate(words)]
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT {level}出题专家。请为以下{len(words)}个目标词各出一道「文脈规定」题目。
+写一个含（　）的句子并提供3个干扰词。
+严格输出JSON数组，格式如下：
+[
+  {{
+    "sentence": "含（　）的完整日语句子",
+    "distractors": ["干扰词1", "干扰词2", "干扰词3"],
+    "explanation": "中文详细解析。要求包含：1. 为什么这个词填入（　）最合适；2. 完整句子的中文翻译；3. 干扰项为什么不合适。"
+  }}
+]"""
 
+def build_synonym_prompt(words, level="N2"):
+    lines = [f"{i+1}. 目标词：《{w['kanji']}》（读音：{w['kana']}）" for i, w in enumerate(words)]
+    word_list = "\n".join(lines)
+    return f"""你是一位JLPT {level}出题专家。请为以下{len(words)}个目标词各出一道「言い換え類義」题目。
+【要求】
+1. 写一个包含目标词的自然日语例句，目标词用《》标注。
+2. 提供一个意思最接近目标词的近义词作为正确答案。
+3. 提供3个具有干扰性的错误选项。
+4. 严格输出JSON数组，格式如下：
+[
+  {{
+    "sentence": "包含《目标词》的完整日语句子",
+    "correct_synonym": "正确近义词",
+    "distractors": ["干扰项1", "干扰项2", "干扰项3"],
+    "explanation": "中文详细解析。要求包含：1. 为什么这个近义词最合适；2. 完整句子的中文翻译；3. 干扰项的简单分析。"
+  }}
+]"""
+
+def generate_vocab_questions(provider, section_id, words, timeout, logger=None, verbose=False, level="N2"):
+    level_upper = level.upper()
+    if section_id == "vocab_reading": prompt = build_reading_prompt(words, level=level_upper)
+    elif section_id == "vocab_kanji": prompt = build_kanji_prompt(words, level=level_upper)
+    elif section_id == "vocab_usage": prompt = build_usage_prompt(words, level=level_upper)
+    elif section_id == "vocab_context": prompt = build_context_prompt(words, level=level_upper)
+    elif section_id == "vocab_synonym": prompt = build_synonym_prompt(words, level=level_upper)
+    else: return None, []
     print(f"    [{provider['id']}] 生成 {len(words)} 道 {section_id} ...", end="", flush=True)
-    raw = call_api(provider, prompt, timeout=timeout)
-    if not raw or raw.startswith("ERROR"):
-        print(f" 失败: {raw}")
-        return None, []
-
+    raw = call_api(provider, prompt, timeout=timeout, logger=logger, call_type="generate", section_id=section_id)
+    if not raw or raw.startswith("ERROR"): return None, []
     parsed = extract_json(raw)
-    if parsed is None:
-        print(f" JSON解析失败")
-        return None, []
-
-    # 实际返回数量可能和请求数量不一致，按实际返回处理
-    actual_count = min(len(parsed), len(words))
-    print(f" 返回 {actual_count}/{len(words)} 道")
-    return parsed[:actual_count], words[:actual_count]
-
-
-def assemble_vocab_item(raw_item, word, section_id):
+    if not parsed: return None, []
+    actual = min(len(parsed), len(words))
+    return parsed[:actual], words[:actual]
+def assemble_vocab_item(raw_item, word, section_id, logger=None):
     """将 LLM 返回的 raw_item 与词库数据组合成完整题目。
     返回 (item, errors)。"""
     errors = []
@@ -490,13 +762,56 @@ def assemble_vocab_item(raw_item, word, section_id):
     elif section_id == "vocab_kanji":
         target = word["kana"]
         correct = word["kanji"]
+    elif section_id == "vocab_usage" or section_id == "vocab_context" or section_id == "vocab_synonym":
+        target = word["kanji"]
+        correct = word["kanji"]  # 占位，类义语的正确答案由 AI 提供
     else:
         return None, ["未知题型"]
 
+    # --- 逻辑 A: 用法题 (vocab_usage) ---
+    if section_id == "vocab_usage":
+        options = raw_item.get("options", [])
+        if len(options) < 4:
+            return None, ["选项不足"]
+        item = {
+            "target": target,
+            "options": options,
+            "answer": raw_item.get("answer", 0),
+            "explanation": raw_item.get("explanation", ""),
+        }
+        # 校验：所有选项都必须包含目标词（允许动词变形，所以这里用更宽松的校验或信任 Prompt）
+        # 但至少要检查 AI 是否偷懒完全没写目标词
+        if any(target[:2] not in opt for opt in options): # 取前两个字防止变形导致完全匹配失败
+            errors.append(f"选项中未完全包含目标词或其词根: {target}")
+        return item, errors
+
+    # --- 逻辑 B: 读音/汉字/文脉 (需要拼装干扰项) ---
     distractors = raw_item.get("distractors", [])
+    # 文脉规定题 AI 有时直接给 options
+    if section_id == "vocab_context" and not distractors:
+        options = raw_item.get("options", [])
+        if len(options) >= 4:
+            # 直接使用 AI 给出的 options
+            item = {
+                "sentence": raw_item.get("sentence", ""),
+                "target": target,
+                "options": options,
+                "answer": raw_item.get("answer", 0),
+                "explanation": raw_item.get("explanation", ""),
+            }
+            return item, errors
+
     if len(distractors) < 3:
         errors.append(f"干扰项不足: {len(distractors)}")
+        if logger:
+            logger.log_assembly(section_id, word, raw_item, None, errors)
         return None, errors
+
+    # 特殊处理类义语的正确答案
+    if section_id == "vocab_synonym":
+        correct = raw_item.get("correct_synonym")
+        if not correct:
+            return None, ["缺少正确近义词 (correct_synonym)"]
 
     # 去重并过滤掉正确答案
     seen = {correct}
@@ -524,6 +839,8 @@ def assemble_vocab_item(raw_item, word, section_id):
 
     if len(unique_distractors) < 3:
         errors.append(f"有效干扰项不足: {len(unique_distractors)}")
+        if logger:
+            logger.log_assembly(section_id, word, raw_item, None, errors)
         return None, errors
 
     options = [correct] + unique_distractors[:3]
@@ -539,9 +856,9 @@ def assemble_vocab_item(raw_item, word, section_id):
     }
 
     # 本地硬校验
-    if not item["sentence"]:
+    if not item["sentence"] and section_id != "vocab_usage":
         errors.append("缺少sentence")
-    if f"《{target}》" not in item["sentence"] and target not in item["sentence"]:
+    if section_id != "vocab_usage" and f"《{target}》" not in item["sentence"] and target not in item["sentence"]:
         errors.append(f"例句中未包含目标词: {target}")
     if len(set(options)) < 4:
         errors.append("存在重复选项")
@@ -562,6 +879,9 @@ def assemble_vocab_item(raw_item, word, section_id):
         chosen = options[answer]
         if correct_kanjis and chosen not in correct_kanjis:
             errors.append(f"答案汉字错误: {chosen} 不在 {correct_kanjis}")
+
+    if logger:
+        logger.log_assembly(section_id, word, raw_item, item, errors)
 
     return item, errors
 
@@ -588,7 +908,7 @@ SECTION_DEFS = [
     "target": "目标汉字词",
     "options": ["假名1", "假名2", "假名3", "假名4"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)正确答案为什么对（读音规则/词源说明） 2)每个干扰项为什么错（具体误读类型：清浊混淆/长短音/促音遗漏等） 3)常见易错提示"
   }
 ]"""
     },
@@ -609,7 +929,7 @@ SECTION_DEFS = [
     "target": "目标假名词",
     "options": ["汉字1", "汉字2", "汉字3", "汉字4"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)正确答案为什么对（词义/搭配/语境分析） 2)每个干扰项为什么错（语义不符/搭配错误/程度不当等） 3)近义词辨析提示"
   }
 ]"""
     },
@@ -628,7 +948,7 @@ SECTION_DEFS = [
     "sentence": "含（　）的完整日语句子",
     "options": ["词1", "词2", "词3", "词4"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)目标词的准确词义和用法 2)正确答案为什么与目标词意思最接近（语义/语体/搭配对比） 3)每个干扰项为什么不接近（语义偏差/语体不符/使用场景不同）"
   }
 ]"""
     },
@@ -648,7 +968,7 @@ SECTION_DEFS = [
     "target": "目标词",
     "options": ["选项1", "选项2", "选项3", "选项4"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)正确答案为什么对（符合该词的典型搭配/语用限制） 2)每个干扰项为什么错（搭配错误/语义不通/语法不对的具体分析） 3)该词的核心用法和常见误用场景"
   }
 ]"""
     },
@@ -668,7 +988,7 @@ SECTION_DEFS = [
     "target": "目标词",
     "options": ["句子1", "句子2", "句子3", "句子4"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)正确答案为什么对（符合该词的典型搭配/语用限制） 2)每个干扰项为什么错（搭配错误/语义不通/语法不对的具体分析） 3)该词的核心用法和常见误用场景"
   }
 ]"""
     },
@@ -687,7 +1007,7 @@ SECTION_DEFS = [
     "sentence": "含（　）的完整日语句子",
     "options": ["语法A", "语法B", "语法C", "语法D"],
     "answer": 0,
-    "explanation": "中文解析，说明语法用法和接续"
+    "explanation": "中文详细解析，必须包含：1)正确答案的语法说明（接续形式/语义功能/适用语境） 2)每个干扰项为什么错（语法接续错误/语义不通/与前后文不搭配的具体分析） 3)该语法点的核心用法和常见混淆点"
   }
 ]"""
     },
@@ -717,7 +1037,7 @@ SECTION_DEFS = [
     "fragments": ["片段1", "片段2", "片段3", "片段4"],
     "answer": 0,
     "complete_sentence": "完整的正确句子",
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)★处正确答案的语法说明（接续/语义功能） 2)为什么这个片段必须放在★处（句子结构分析） 3)每个干扰项放在★处为什么不通（语法错误或逻辑不通的具体分析） 4)完整句子的结构拆解"
   }
 ]"""
     },
@@ -734,9 +1054,9 @@ SECTION_DEFS = [
   {
     "passage": "短文内容，空格用（　1　）（　2　）（　3　）标注",
     "blanks": [
-      {"num": 1, "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "中文解析"},
-      {"num": 2, "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "中文解析"},
-      {"num": 3, "options": ["A", "B", "C", "D"], "answer": 2, "explanation": "中文解析"}
+      {"num": 1, "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "中文详细解析，必须包含：1)正确答案的语法/语义说明 2)每个干扰项为什么不适合此处（语法错误或语境不符） 3)前后文的逻辑衔接分析"},
+      {"num": 2, "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "中文详细解析，必须包含：1)正确答案的语法/语义说明 2)每个干扰项为什么不适合此处（语法错误或语境不符） 3)前后文的逻辑衔接分析"},
+      {"num": 3, "options": ["A", "B", "C", "D"], "answer": 2, "explanation": "中文详细解析，必须包含：1)正确答案的语法/语义说明 2)每个干扰项为什么不适合此处（语法错误或语境不符） 3)前后文的逻辑衔接分析"}
     ]
   }
 ]"""
@@ -761,7 +1081,7 @@ SECTION_DEFS = [
     "question": "问题",
     "options": ["A", "B", "C", "D"],
     "answer": 0,
-    "explanation": "中文解析"
+    "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"
   }
 ]"""
     },
@@ -778,8 +1098,8 @@ SECTION_DEFS = [
   {
     "passage": "300-400字的日语文章",
     "questions": [
-      {"question": "问题1", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "解析"},
-      {"question": "问题2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "解析"}
+      {"question": "问题1", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"},
+      {"question": "问题2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"}
     ]
   }
 ]"""
@@ -797,9 +1117,9 @@ SECTION_DEFS = [
   {
     "passage": "500-700字的日语文章",
     "questions": [
-      {"question": "Q1", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "解析"},
-      {"question": "Q2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "解析"},
-      {"question": "Q3", "options": ["A", "B", "C", "D"], "answer": 2, "explanation": "解析"}
+      {"question": "Q1", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"},
+      {"question": "Q2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"},
+      {"question": "Q3", "options": ["A", "B", "C", "D"], "answer": 2, "explanation": "中文详细解析，必须包含：1)正确答案在原文中的具体依据（哪句话/哪个段落） 2)每个干扰项为什么错（与原文矛盾/过度推断/文中未提及） 3)解题思路和关键信息定位方法"}
     ]
   }
 ]"""
@@ -817,8 +1137,8 @@ SECTION_DEFS = [
   {
     "passage": "实用信息文档（模拟真实场景，含具体时间/价格/条件）",
     "questions": [
-      {"question": "带具体人物和条件的问题", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "解析"},
-      {"question": "问题2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "解析"}
+      {"question": "带具体人物和条件的问题", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "中文详细解析，必须包含：1)正确答案在文档中的具体检索依据（哪个栏目/哪行数据） 2)每个干扰项为什么错（条件不符/数据错误/过度推断） 3)信息定位思路和检索路径"},
+      {"question": "问题2", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "中文详细解析，必须包含：1)正确答案在文档中的具体检索依据（哪个栏目/哪行数据） 2)每个干扰项为什么错（条件不符/数据错误/过度推断） 3)信息定位思路和检索路径"}
     ]
   }
 ]"""
@@ -828,11 +1148,29 @@ SECTION_DEFS = [
 # 审核 prompt
 REVIEW_PROMPT_TEMPLATE = """你是一位JLPT N2审题专家。请审核以下题目是否合格。
 
-【审核标准】
-1. 答案是否正确
-2. 干扰项是否合理（不能有两个选项意思相同）
-3. 难度是否符合N2级别
-4. 句子是否自然、语法是否正确
+【重要说明——answer字段的索引规则】
+题目中的 "answer" 字段是 **0-indexed（从0开始）**：
+- answer=0 表示正确答案是 options 的第1个
+- answer=1 表示正确答案是 options 的第2个
+- answer=2 表示正确答案是 options 的第3个
+- answer=3 表示正确答案是 options 的第4个
+请严格按照此规则判断答案是否正确，**严禁将 answer 当作从1开始计数**。
+
+【审核标准——只审核以下致命问题，非致命问题请通过】
+致命问题（任一命中则 rejected）：
+1. answer 索引与 correct_answer_text 不匹配（答案标错）
+2. 四个选项中有两个完全相同（重复选项）
+3. 句子语法严重错误导致无法理解
+4. 正确答案不在选项中
+
+非致命问题（不影响 approved，可在 issues 中指出但不要拒绝）：
+- explanation 不够详细或格式不规范
+- 干扰项不够巧妙但并非完全错误
+- 句子略有不自然但可理解
+- 汉字新旧字体差异
+- 送假名标注风格差异
+
+请宽松审核，优先通过题目。只有存在致命问题时才 rejected。
 
 【题目】
 {question_json}
@@ -960,13 +1298,25 @@ def flatten_for_count(section_id, items):
 # Main pipeline
 # ============================================================
 
-def generate_questions(provider, section_def, timeout):
+def generate_questions(provider, section_def, timeout, logger=None, verbose=False):
     """调用模型生成题目。返回解析后的JSON数组或None。"""
+    if verbose:
+        print(f"\n    ┌─── PROMPT ({provider['id']}) ───")
+        print(section_def["prompt"])
+        print(f"    └───────────────────────────────\n")
+
     print(f"    [{provider['id']}] 生成 {section_def['name']} ...", end="", flush=True)
-    raw = call_api(provider, section_def["prompt"], timeout=timeout)
+    raw = call_api(provider, section_def["prompt"], timeout=timeout, logger=logger,
+                   call_type="generate", section_id=section_def["id"])
     if not raw or raw.startswith("ERROR"):
         print(f" 失败: {raw}")
         return None
+
+    if verbose:
+        print(f"\n    ┌─── RESPONSE ({provider['id']}) ───")
+        print(raw)
+        print(f"    └────────────────────────────────\n")
+
     parsed = extract_json(raw)
     if parsed is None:
         print(f" JSON解析失败")
@@ -981,49 +1331,153 @@ def generate_questions(provider, section_def, timeout):
     return parsed
 
 
-def review_question(provider, question, section_id):
-    """调用审核模型审核一道题。返回 (approved, review_explanation) 或 (False, None)。"""
-    q_str = json.dumps(question, ensure_ascii=False, indent=2)
+def review_question(provider, question, section_id, logger=None, generator_id=None, verbose=False):
+    """调用审核模型审核一道题。
+
+    返回 (approved, review_explanation, issue)。issue 为 None 代表审核调用成功；
+    approved=False 且 issue=None 才代表模型明确判定题目不通过。
+    """
+    # 添加 correct_answer_text 帮助审核模型准确判断，避免索引混淆
+    review_question = dict(question)
+    opts = review_question.get("options", [])
+    ans_idx = review_question.get("answer")
+    if opts and ans_idx is not None and 0 <= ans_idx < len(opts):
+        review_question["correct_answer_text"] = opts[ans_idx]
+
+    q_str = json.dumps(review_question, ensure_ascii=False, indent=2)
     prompt = REVIEW_PROMPT_TEMPLATE.format(question_json=q_str)
-    raw = call_api(provider, prompt, timeout=120)
+
+    if verbose:
+        print(f"      ┌─── REVIEW PROMPT ({provider['id']}) ───")
+        print(prompt)
+        print(f"      └──────────────────────────────────\n")
+
+    raw = call_api(provider, prompt, timeout=120, logger=logger,
+                   call_type="review", section_id=section_id)
+    if verbose:
+        print(f"      ┌─── REVIEW RESPONSE ({provider['id']}) ───")
+        print(raw or "(empty)")
+        print(f"      └─────────────────────────────────────\n")
     if not raw or raw.startswith("ERROR"):
-        return False, None
+        if logger:
+            logger.log_review_decision(
+                section_id=section_id,
+                generator_id=generator_id or "",
+                reviewer_id=provider["id"],
+                question=question,
+                approved=False,
+                review_explanation="",
+                issues=[],
+                review_issue=raw or "empty review response",
+            )
+        return False, None, raw or "empty review response"
     result = extract_json_object(raw)
     if result is None:
-        return False, None
+        if logger:
+            logger.log_review_decision(
+                section_id=section_id,
+                generator_id=generator_id or "",
+                reviewer_id=provider["id"],
+                question=question,
+                approved=False,
+                review_explanation="",
+                issues=[],
+                review_issue="review JSON解析失败",
+            )
+        return False, None, "review JSON解析失败"
     approved = result.get("approved", False)
     explanation = result.get("review_explanation", "")
-    return approved, explanation
+    issues = result.get("issues", [])
+    if logger:
+        logger.log_review_decision(
+            section_id=section_id,
+            generator_id=generator_id or "",
+            reviewer_id=provider["id"],
+            question=question,
+            approved=approved,
+            review_explanation=explanation,
+            issues=issues,
+            review_issue=None,
+        )
+    return approved, explanation, None
 
 
-def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path, data_dir):
+def review_with_fallback(available, reviewer_ids, item, section_id, logger=None, generator_id=None, verbose=False):
+    """Try reviewers until one returns a valid review decision."""
+    last_issue = None
+    for reviewer_id in reviewer_ids:
+        reviewer = available[reviewer_id]
+        approved, review_exp, issue = review_question(reviewer, item, section_id, logger=logger, generator_id=generator_id, verbose=verbose)
+        if issue:
+            last_issue = f"{reviewer_id}: {issue}"
+            print(f"      [{reviewer_id}] 审核调用失败: {issue}")
+            continue
+        return approved, review_exp, reviewer_id, None
+    return False, None, None, last_issue or "无可用审核模型"
+
+
+def stamp_generation_metadata(item, generator, reviewer, review_exp, verified):
+    """Attach provider/model trace metadata without storing credentials."""
+    item["generated_by"] = f"{generator['id']}:{generator['label']}"
+    item["generated_provider"] = generator["id"]
+    item["generated_model"] = generator.get("model", "")
+
+    if reviewer:
+        item["reviewed_by"] = reviewer["id"]
+        item["reviewed_provider"] = reviewer["id"]
+        item["reviewed_provider_label"] = reviewer.get("label", reviewer["id"])
+        item["reviewed_model"] = reviewer.get("model", "")
+    else:
+        item["reviewed_by"] = "none"
+        item["reviewed_provider"] = "none"
+        item["reviewed_provider_label"] = ""
+        item["reviewed_model"] = ""
+
+    item["review_explanation"] = review_exp or ""
+    item["verified"] = verified
+    item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+
+
+def _process_vocab_section(section_id, section_name, available, timeout, vocab_state, vocab_state_path, data_dir, logger=None, verbose=False, level="n2"):
     """专门处理读音/汉字题：循环抽词→生成→审核→更新状态，直到跑完所有 pending 词。"""
     if vocab_state is None:
         print(f"  [WARN] 未加载词汇状态，跳过")
-        return []
+        return 0
 
     provider_ids = list(available.keys())
-    all_approved = []
+    approved_count = 0
+    level_upper = level.upper()
+    no_progress_rounds = 0
 
     while True:
-        words = pick_pending_words(vocab_state, section_id, count=3)
+        words = pick_pending_words(vocab_state, section_id, count=10)
         if not words:
             print(f"  无更多 pending 词汇，{section_name} 完成")
             break
 
         print(f"  本轮选中 {len(words)} 个 pending 词")
+        round_pending_before = count_pending(vocab_state, section_id)
+        round_attempts_before = sum(
+            record.get(f"{section_id}_attempts", 0)
+            for record in vocab_state.values()
+        )
+        round_approved_before = approved_count
 
         # 1. 生成：逐个模型尝试
         assembled = None
         used_generator = None
+        attempts_before = sum(
+            vocab_state[word["jmdict_seq"]].get(f"{section_id}_attempts", 0)
+            for word in words
+        )
         random.shuffle(provider_ids)
         for pid in provider_ids:
             provider = available[pid]
-            raw_items, used_words = generate_vocab_questions(provider, section_id, words, timeout)
+            raw_items, used_words = generate_vocab_questions(provider, section_id, words, timeout, logger=logger, verbose=verbose, level=level)
             if raw_items:
                 assembled = []
                 for raw, word in zip(raw_items, used_words):
-                    item, errs = assemble_vocab_item(raw, word, section_id)
+                    item, errs = assemble_vocab_item(raw, word, section_id, logger=logger)
                     if item and not errs:
                         assembled.append((item, word))
                     else:
@@ -1034,70 +1488,100 @@ def _process_vocab_section(section_id, section_name, available, timeout, vocab_s
                     break
 
         if not assembled:
+            attempts_after = sum(
+                vocab_state[word["jmdict_seq"]].get(f"{section_id}_attempts", 0)
+                for word in words
+            )
+            if attempts_after == attempts_before:
+                no_progress_rounds += 1
+                print(f"  本轮全部模型生成失败且状态无变化，连续无进展 {no_progress_rounds}/3")
+                if no_progress_rounds >= 3:
+                    print(f"  [WARN] 连续 3 轮无进展，退出 {section_name}，保留 pending 供下次重跑")
+                    break
+            else:
+                no_progress_rounds = 0
+            # 保存本轮标记的失败状态
+            if vocab_state_path:
+                save_vocab_state(vocab_state_path, vocab_state)
             print(f"  本轮全部组装失败，继续下一轮")
             continue
 
-        # 2. 审核：从剩余模型中随机选一个
+        # 2. 审核：优先从剩余模型中随机尝试，审核调用失败时继续换审核模型。
         remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
+        approved_items_batch = []
         if remaining_ids:
             random.shuffle(remaining_ids)
-            reviewer_id = remaining_ids[0]
-            reviewer = available[reviewer_id]
-            print(f"    [{reviewer_id}] 审核中 ...")
+            print(f"    审核中: {', '.join(remaining_ids)}")
 
             for item, word in assembled:
-                approved, review_exp = review_question(reviewer, item, section_id)
+                approved, review_exp, reviewer_id, review_issue = review_with_fallback(
+                    available, remaining_ids, item, section_id, logger=logger,
+                    generator_id=used_generator["id"], verbose=verbose)
                 if approved:
-                    item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
-                    item["reviewed_by"] = reviewer_id
-                    item["review_explanation"] = review_exp
-                    item["verified"] = True
-                    item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-                    item["level"] = "N2"
+                    stamp_generation_metadata(item, used_generator, available.get(reviewer_id), review_exp, True)
+                    item["level"] = level.upper()
                     item["question_type"] = section_id
-                    # 先落盘，再更新状态。save_to_json 对词汇题按 target 去重。
-                    added = save_to_json(section_id, [item], data_dir)
-                    mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
-                    if added:
-                        all_approved.append(item)
-                    else:
-                        print(f"      已存在，跳过重复入库: {item.get('target')}")
+                    approved_items_batch.append((item, word))
                 else:
-                    print(f"      未通过审核")
-                    mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
-                time.sleep(1)
+                    if review_issue:
+                        print(f"      审核调用均失败，保留 pending: {review_issue}")
+                    else:
+                        print(f"      未通过审核")
+                        mark_vocab_failure(vocab_state, vocab_state_path, word, section_id, "审核未通过")
         else:
             print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
             for item, word in assembled:
-                item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
-                item["reviewed_by"] = "none"
-                item["review_explanation"] = ""
-                item["verified"] = False
-                item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-                item["level"] = "N2"
+                stamp_generation_metadata(item, used_generator, None, "", False)
+                item["level"] = level.upper()
                 item["question_type"] = section_id
-                added = save_to_json(section_id, [item], data_dir)
+                approved_items_batch.append((item, word))
+
+        # 批量落盘：一次性写入所有审核通过的题目
+        if approved_items_batch:
+            added = save_to_json(section_id, [item for item, _ in approved_items_batch], data_dir, level=level)
+            for item, word in approved_items_batch:
                 mark_vocab_generated(vocab_state, vocab_state_path, word, section_id)
-                if added:
-                    all_approved.append(item)
-                else:
-                    print(f"      已存在，跳过重复入库: {item.get('target')}")
+            approved_count += added
+            skipped = len(approved_items_batch) - added
+            if skipped > 0:
+                print(f"      批量入库: {added} 题, 跳过重复: {skipped} 题")
+            else:
+                print(f"      批量入库: {added} 题")
 
         pending_count = count_pending(vocab_state, section_id)
-        print(f"  {section_name} 进度: 累计入库 {len(all_approved)} 题，剩余 pending {pending_count}")
+        round_attempts_after = sum(
+            record.get(f"{section_id}_attempts", 0)
+            for record in vocab_state.values()
+        )
+        if (
+            pending_count == round_pending_before
+            and round_attempts_after == round_attempts_before
+            and approved_count == round_approved_before
+        ):
+            no_progress_rounds += 1
+            print(f"  本轮状态无变化，连续无进展 {no_progress_rounds}/3")
+            if no_progress_rounds >= 3:
+                print(f"  [WARN] 连续 3 轮无进展，退出 {section_name}，保留 pending 供下次重跑")
+                break
+        else:
+            no_progress_rounds = 0
+        # 每轮结束时保存一次状态（而非每个词都写盘）
+        if vocab_state_path:
+            save_vocab_state(vocab_state_path, vocab_state)
+        print(f"  {section_name} 进度: 累计入库 {approved_count} 题，剩余 pending {pending_count}")
 
-    print(f"  {section_name} 总计入库: {len(all_approved)} 题")
-    return all_approved
+    print(f"  {section_name} 总计入库: {approved_count} 题")
+    return approved_count
 
 
-def process_section(section_def, available, timeout, data_dir, vocab_state=None, vocab_state_path=None):
+def process_section(section_def, available, timeout, data_dir, vocab_state=None, vocab_state_path=None, logger=None, verbose=False, level="n2"):
     """处理一个题型：随机选模型生成→失败换模型重试→成功后换另一模型审核。"""
     section_id = section_def["id"]
     print(f"\n  === {section_def['name']} ===")
 
-    # 特殊处理 vocab_reading / vocab_kanji
-    if section_id in ("vocab_reading", "vocab_kanji"):
-        return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path, data_dir)
+    # 特殊处理所有词汇题型（按词逐个生成，带状态追踪）
+    if section_id in VOCAB_SECTIONS:
+        return _process_vocab_section(section_id, section_def["name"], available, timeout, vocab_state, vocab_state_path, data_dir, logger=logger, verbose=verbose, level=level)
 
     # 通用流程（其他题型）
     provider_ids = list(available.keys())
@@ -1109,7 +1593,7 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
     for pid in provider_ids:
         provider = available[pid]
         print(f"    [{pid}] 尝试生成 ...", end="", flush=True)
-        items = generate_questions(provider, section_def, timeout)
+        items = generate_questions(provider, section_def, timeout, logger=logger, verbose=verbose)
         if not items:
             print(f" 生成/解析失败，换模型")
             continue
@@ -1132,93 +1616,154 @@ def process_section(section_def, available, timeout, data_dir, vocab_state=None,
         print(f"  {section_def['name']} 所有模型均生成失败")
         return []
 
-    # 2. 审核：从剩余模型中随机选一个
+    # 2. 审核：从剩余模型中随机尝试，审核调用失败时继续换审核模型
     remaining_ids = [p for p in provider_ids if p != used_generator["id"]]
     if not remaining_ids:
         print(f"    [WARN] 无其他模型可用做审核，跳过审核直接入库")
         for item in items:
-            item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
-            item["reviewed_by"] = "none"
-            item["review_explanation"] = ""
-            item["verified"] = False
-            item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            stamp_generation_metadata(item, used_generator, None, "", False)
+        save_to_json(section_id, items, data_dir, level=level)
         print(f"  {section_def['name']} 总计: {len(items)} 题入库（未审核）")
         return items
 
     random.shuffle(remaining_ids)
-    reviewer_id = remaining_ids[0]
-    reviewer = available[reviewer_id]
-    print(f"    [{reviewer_id}] 审核中 ...")
+    print(f"    审核中: {', '.join(remaining_ids)}")
 
     approved_items = []
     approved_count = 0
     for item in items:
-        approved, review_exp = review_question(reviewer, item, section_id)
+        approved, review_exp, reviewer_id, review_issue = review_with_fallback(
+            available, remaining_ids, item, section_id, logger=logger,
+            generator_id=used_generator["id"], verbose=verbose)
         if approved:
-            item["generated_by"] = f"{used_generator['id']}:{used_generator['label']}"
-            item["reviewed_by"] = reviewer_id
-            item["review_explanation"] = review_exp
-            item["verified"] = True
-            item["created_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            stamp_generation_metadata(item, used_generator, available.get(reviewer_id), review_exp, True)
             approved_items.append(item)
             approved_count += 1
         else:
-            print(f"      未通过审核")
+            if review_issue:
+                print(f"      审核调用均失败，跳过入库: {review_issue}")
+            else:
+                print(f"      未通过审核")
         time.sleep(1)
 
-    print(f"    [{reviewer_id}] 审核通过: {approved_count}/{len(items)}")
+    print(f"    审核通过: {approved_count}/{len(items)}")
+    if approved_items:
+        save_to_json(section_id, approved_items, data_dir, level=level)
     print(f"  {section_def['name']} 总计: {approved_count} 题入库")
     return approved_items
 
 
-def save_to_json(section_id, questions, data_dir):
-    """将题目追加到对应的JSON文件。"""
+def save_to_json(section_id, questions, data_dir, level="n2"):
+    """将题目追加到对应的JSON文件。支持智能覆盖（修复旧数据）。"""
     path = os.path.join(data_dir, f"{section_id}.json")
+
+    # 规范化 level 前缀
+    level_prefix = level.lower()
 
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     existing = data.get("questions", [])
+    added_count = 0
+    updated_count = 0
+
     if section_id in VOCAB_SECTIONS:
-        existing_targets = {
-            q.get("target")
-            for q in existing
-            if isinstance(q, dict) and q.get("target")
-        }
-        questions = [
-            q for q in questions
-            if not q.get("target") or q.get("target") not in existing_targets
-        ]
-        if not questions:
-            return 0
+        # 构建 target -> index 的映射，方便查找和更新
+        target_map = {}
+        for idx, q in enumerate(existing):
+            t = q.get("target")
+            if t: target_map[t] = idx
 
-    start_idx = len(existing)
+        final_questions = []
+        for new_q in questions:
+            target = new_q.get("target")
+            if target in target_map:
+                old_idx = target_map[target]
+                old_q = existing[old_idx]
+                
+                # 判定是否需要修复/覆盖: 
+                sentence = old_q.get("sentence", "")
+                options = old_q.get("options", [])
+                options_str = str(options)
+                explanation = old_q.get("explanation", "")
+                
+                is_garbage = (
+                    "作为..." in sentence or
+                    "として最もよいもの" in sentence or 
+                    "の類義語を選びなさい" in sentence or
+                    "の言い換えを選びなさい" in sentence or
+                    "という言葉の" in sentence or
+                    "意味が最も近いもの" in sentence or
+                    "かな2" in options_str or
+                    "かな1" in options_str or
+                    "かな3" in options_str or
+                    (section_id == "vocab_synonym" and target in options_str) or
+                    (section_id == "vocab_usage" and any(target[:2] not in opt for opt in options)) or
+                    (any(not opt.strip().endswith(("。", "！", "？", "」", "．")) for opt in options if len(opt) > 10))
+                )
+                is_simple = (
+                    is_garbage or
+                    not old_q.get("sentence") or 
+                    len(explanation) < 30 or 
+                    not old_q.get("verified")
+                )
+                
+                if is_simple:
+                    # 覆盖旧题
+                    new_q["id"] = old_q.get("id", f"{level_prefix}-{section_id}-{old_idx+1:03d}")
+                    existing[old_idx] = new_q
+                    updated_count += 1
+                else:
+                    # 已经是高质量题，跳过
+                    continue
+            else:
+                # 全新题目，准备追加
+                final_questions.append(new_q)
 
-    for i, q in enumerate(questions):
-        q["id"] = f"n2-{section_id}-{start_idx + i + 1:03d}"
-        q["level"] = "N2"
-        q["question_type"] = section_id
+        # 处理全新题目
+        start_idx = len(existing)
+        for i, q in enumerate(final_questions):
+            q["id"] = f"{level_prefix}-{section_id}-{start_idx + i + 1:03d}"
+            existing.append(q)
+            added_count += 1
+        
+        data["questions"] = existing
+    else:
+        # 非词汇题型，走简单追加逻辑
+        start_idx = len(existing)
+        for i, q in enumerate(questions):
+            q["id"] = f"{level_prefix}-{section_id}-{start_idx + i + 1:03d}"
+            existing.append(q)
+            added_count += 1
+        data["questions"] = existing
 
-    data["questions"].extend(questions)
     data["meta"]["count"] = len(data["questions"])
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    return len(questions)
+    if updated_count > 0:
+        print(f"      智能覆盖修复: {updated_count} 题")
+    return added_count + updated_count
 
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="JLPT N2 题库生成器（配置驱动版）")
+    parser = argparse.ArgumentParser(description="JLPT 题库生成器（配置驱动版）")
+    parser.add_argument("--level", default="n2", help="JLPT 级别 (n1-n5, 默认: n2)")
     parser.add_argument("--only", nargs="*", help="只生成指定题型ID")
     parser.add_argument("--config", default="config.json", help="配置文件路径 (默认: config.json)")
+    parser.add_argument("--verbose", "-v", action="store_true", help="显示 prompt 和 API 回复内容")
     args = parser.parse_args()
+
+    # 规范化 level
+    level = args.level.lower()
+    level_upper = level.upper()
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     env_path = os.path.join(base_dir, ".env")
     config_path = os.path.join(base_dir, args.config)
-    data_dir = os.path.join(base_dir, "data", "n2")
+    data_dir = os.path.join(base_dir, "data", level)
 
     env = load_env(env_path)
     cfg = load_config(config_path)
@@ -1231,17 +1776,26 @@ def main():
 
     # 加载或初始化词汇生成状态
     state_dir = os.path.join(base_dir, "data", "generation-state")
-    vocab_state_path = os.path.join(state_dir, "n2-vocabulary.json")
+    vocab_state_path = os.path.join(state_dir, f"{level}-vocabulary.json")
     vocab_state = load_vocab_state(vocab_state_path)
     if not vocab_state:
-        print("初始化词汇生成状态...")
-        records = load_n2_vocab_records(vocab_dir)
+        print(f"初始化 {level_upper} 词汇生成状态...")
+        records = []
+        path = os.path.join(vocab_dir, f"{level}.csv")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                next(f)  # skip header
+                for line in f:
+                    parts = line.strip().split(",")
+                    if len(parts) >= 3:
+                        records.append({"jmdict_seq": parts[0], "kana": parts[1], "kanji": parts[2]})
         vocab_state = init_vocab_state(records, vocab_state_path)
         print(f"状态初始化完成: {len(vocab_state)} 个词汇")
     else:
         print(f"词汇状态加载完成: {len(vocab_state)} 个词汇")
 
     repair_vocab_state(vocab_state, vocab_state_path, data_dir)
+    print_vocab_status(vocab_state, SECTION_DEFS)
 
     # 解析可用提供商
     candidates = {}
@@ -1257,7 +1811,9 @@ def main():
         ok, err = check_provider(provider, timeout=15)
         if ok:
             available[pid] = provider
-            print(f"  ✓ {pid}")
+            key_count = len(provider.get("api_keys", []))
+            key_note = f" ({key_count} keys)" if key_count > 1 else ""
+            print(f"  ✓ {pid}{key_note}")
         else:
             print(f"  ✗ {pid} — {err[:120]}")
 
@@ -1277,25 +1833,30 @@ def main():
             return
 
     print("=" * 60)
-    print("JLPT N2 题库生成器（随机模型 + 串行 fallback）")
+    print(f"JLPT {level_upper} 题库生成器（随机模型 + 串行 fallback）")
     print("=" * 60)
     print(f"配置文件: {args.config}")
     print(f"可用模型: {', '.join(available.keys())}")
     print(f"题型: {len(sections)} 个")
-    print(f"输出: data/n2/*.json")
+    print(f"输出: data/{level}/*.json")
     print()
+
+    # 初始化日志系统
+    logger = GenerationLogger(base_dir)
+    print(f"\n日志目录: {logger.get_log_dir()}")
 
     total_added = 0
     results = {}
 
     for section_def in sections:
-        questions = process_section(section_def, available, timeout, data_dir, vocab_state, vocab_state_path)
-        if questions:
-            if section_def["id"] in VOCAB_SECTIONS:
-                # 词汇题在审核通过时已经逐题落盘，这里只汇总数量，避免重复追加。
-                added = len(questions)
-            else:
-                added = save_to_json(section_def["id"], questions, data_dir)
+        result = process_section(section_def, available, timeout, data_dir, vocab_state, vocab_state_path, logger=logger, verbose=args.verbose, level=level)
+        if isinstance(result, int):
+            added = result
+        elif result:
+            added = len(result)
+        else:
+            added = 0
+        if added:
             total_added += added
             results[section_def["name"]] = added
         else:

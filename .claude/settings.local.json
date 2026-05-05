@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ps aux *)",
+      "Bash(systemctl list-units *)",
+      "Bash(systemctl *)",
+      "Bash(ps *)",
+      "Bash(/bin/ps aux *)",
+      "Bash(/bin/ps *)"
+    ]
+  }
+}

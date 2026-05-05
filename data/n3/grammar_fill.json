@@ -1,0 +1,1884 @@
+{
+  "meta": {
+    "level": "N3",
+    "question_type": "grammar_fill",
+    "name": "文の文法",
+    "count": 112
+  },
+  "questions": [
+    {
+      "id": "n3-grammar_fill-001",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "日本に来て（　）、納豆が食べられるようになりました。",
+      "options": [
+        "からというもの",
+        "以来",
+        "からには",
+        "末に"
+      ],
+      "answer": 1,
+      "explanation": "「～以来」は「～してからずっと」という意味です。日本に来てから今まで、という意味で使われます。"
+    },
+    {
+      "id": "n3-grammar_fill-002",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "先生の（　）、日本語が上手になりました。",
+      "options": [
+        "おかげで",
+        "せいで",
+        "ために",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "「～おかげで」は、良い結果になった原因を表します。先生の助けがあったから、という意味です。"
+    },
+    {
+      "id": "n3-grammar_fill-003",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "彼は、まるで日本人（　）上手に日本語を話す。",
+      "options": [
+        "のように",
+        "みたいに",
+        "らしく",
+        "そうに"
+      ],
+      "answer": 0,
+      "explanation": "「まるで～のように」は比喩（たとえ）の表現です。実際は日本人ではないけれど、という意味です。"
+    },
+    {
+      "id": "n3-grammar_fill-004",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "雨が（　）そうだから、傘を持っていこう。",
+      "options": [
+        "降り",
+        "降る",
+        "降って",
+        "降った"
+      ],
+      "answer": 0,
+      "explanation": "「（動詞ます形）＋そうだ」は、今にも何かが起こりそうな様子（様態）を表します。"
+    },
+    {
+      "id": "n3-grammar_fill-005",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "この本は難しくて、私（　）は理解できません。",
+      "options": [
+        "には",
+        "でも",
+        "なら",
+        "さえ"
+      ],
+      "answer": 0,
+      "explanation": "「（私）には」は、判断の基準となる人を表します。私にとっては、という意味です。"
+    },
+    {
+      "id": "n3-grammar_fill-006",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "風邪をひいた（　）、学校を休みました。",
+      "options": [
+        "ので",
+        "のに",
+        "から",
+        "けれど"
+      ],
+      "answer": 0,
+      "explanation": "「ので」は、客観的な原因・理由を表す丁寧な表現です。"
+    },
+    {
+      "id": "n3-grammar_fill-007",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "毎日練習（　）、ピアノが上手になりますよ。",
+      "options": [
+        "すれば",
+        "すると",
+        "したら",
+        "するなら"
+      ],
+      "answer": 0,
+      "explanation": "「～ば」は、条件を表します。練習するという条件を満たせば、という意味です。"
+    },
+    {
+      "id": "n3-grammar_fill-008",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "彼は（　）ながらも、一生懸命働いている。",
+      "options": [
+        "若く",
+        "若い",
+        "若",
+        "若かった"
+      ],
+      "answer": 0,
+      "explanation": "「（い形容詞語幹）＋ながらも」は「～けれども」という意味の逆接表現です。"
+    },
+    {
+      "id": "n3-grammar_fill-009",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "あのレストランの料理は、おいしい（　）高い。",
+      "options": [
+        "うえに",
+        "かわりに",
+        "うちに",
+        "たびに"
+      ],
+      "answer": 0,
+      "explanation": "「～うえに」は「～だけでなく、さらに～」という追加の表現です。"
+    },
+    {
+      "id": "n3-grammar_fill-010",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "sentence": "テスト（　）、明日まで勉強しなければならない。",
+      "options": [
+        "のために",
+        "のおかげで",
+        "のせいで",
+        "のとおりに"
+      ],
+      "answer": 0,
+      "explanation": "「～のために」は、目的を表します。テストに合格するなどの目的のために、という意味です。"
+    },
+    {
+      "sentence": "誰もいない（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ようだ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ようだ。appears / seems (evidence-based, formal)。",
+      "complete_sentence": "誰もいないようだ。",
+      "id": "n3-grammar_fill-011",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "宿題を全部やっ（　）しまいました。",
+      "options": [
+        "ものの",
+        "どころか",
+        "て",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb-て form + しまう。completion / regret (finish doing / end up doing)。",
+      "complete_sentence": "宿題を全部やってしまいました。",
+      "id": "n3-grammar_fill-012",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は勉強ができる（　）、スポーツも得意だ。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "ばかりでなく"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + ばかりでなく。not only X but also Y (formal)。",
+      "complete_sentence": "彼は勉強ができるばかりでなく、スポーツも得意だ。",
+      "id": "n3-grammar_fill-013",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は来ない（　）。",
+      "options": [
+        "らしい",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form / noun + らしい。seems / apparently / typical of。",
+      "complete_sentence": "彼は来ないらしい。",
+      "id": "n3-grammar_fill-014",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は日本語（　）、英語も話せない。",
+      "options": [
+        "あげくに",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + どころか。far from / let alone / on the contrary。",
+      "complete_sentence": "彼は日本語どころか、英語も話せない。",
+      "id": "n3-grammar_fill-015",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "明日のためにビールを買っ（　）おきました。",
+      "options": [
+        "て",
+        "どころか",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-て form + おく。do in advance / leave in a state。",
+      "complete_sentence": "明日のためにビールを買っておきました。",
+      "id": "n3-grammar_fill-016",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "明日、何時からだ（　）？",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "っけ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + っけ。was it the case that / I can't quite remember (casual)。",
+      "complete_sentence": "明日、何時からだっけ？",
+      "id": "n3-grammar_fill-017",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "10年練習した（　）、演奏が見事だ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "だけあって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + だけあって。as one would expect from / fittingly。",
+      "complete_sentence": "10年練習しただけあって、演奏が見事だ。",
+      "id": "n3-grammar_fill-018",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "家族は私（　）一番大切な存在です。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にとって"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + にとって。for / to / from the perspective of。",
+      "complete_sentence": "家族は私にとって一番大切な存在です。",
+      "id": "n3-grammar_fill-019",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は優しい（　）、厳しいところもある。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "一方で",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + 一方で。on the other hand / while at the same time。",
+      "complete_sentence": "彼は優しい一方で、厳しいところもある。",
+      "id": "n3-grammar_fill-020",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "健康のためには、早く寝る（　）。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "どころか",
+        "ことだ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb plain non-past + ことだ。should do / it's advisable / the important thing is to。",
+      "complete_sentence": "健康のためには、早く寝ることだ。",
+      "id": "n3-grammar_fill-021",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "意見は人（　）違う。",
+      "options": [
+        "どころか",
+        "によって",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + によって。by means of / depending on / by (passive agent)。",
+      "complete_sentence": "意見は人によって違う。",
+      "id": "n3-grammar_fill-022",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "試験が近いので、遊ぶ（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "どころではない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V plain + どころではない。no time for / can't afford to / out of the question。",
+      "complete_sentence": "試験が近いので、遊ぶどころではない。",
+      "id": "n3-grammar_fill-023",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は勉強している（　）、遊んでいる。",
+      "options": [
+        "どころか",
+        "というより",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + というより。rather than / more than saying X。",
+      "complete_sentence": "彼は勉強しているというより、遊んでいる。",
+      "id": "n3-grammar_fill-024",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本語を勉強している（　）、まだ初心者です。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "と言っても"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + と言っても。although I say / although we call it。",
+      "complete_sentence": "日本語を勉強していると言っても、まだ初心者です。",
+      "id": "n3-grammar_fill-025",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "物価は上がる（　）。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "一方だ",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb plain non-past + 一方だ。keeps X-ing / continues to increase (one direction)。",
+      "complete_sentence": "物価は上がる一方だ。",
+      "id": "n3-grammar_fill-026",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "あなた（　）おかげで合格できました。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain / noun-の + おかげで (positive) or せいで (negative)。thanks to / because of (with explicit positive or negative attribution)。",
+      "complete_sentence": "あなたのおかげで合格できました。",
+      "id": "n3-grammar_fill-027",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼が来る（　）分からない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "かどうか"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form (or noun / na-adj root) + かどうか。whether or not。",
+      "complete_sentence": "彼が来るかどうか分からない。",
+      "id": "n3-grammar_fill-028",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本に来（　）ばかりです。",
+      "options": [
+        "ばかりに",
+        "た",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb-た form + ばかり。just (recently) did。",
+      "complete_sentence": "日本に来たばかりです。",
+      "id": "n3-grammar_fill-029",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼女は悲し（　）な顔をしている。",
+      "options": [
+        "げ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：i-adj / na-adj / V stem + げ。looking / appearing (-like)。",
+      "complete_sentence": "彼女は悲しげな顔をしている。",
+      "id": "n3-grammar_fill-030",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼のことが気になっ（　）ならない。",
+      "options": [
+        "どころか",
+        "ものの",
+        "て",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-て form / i-adj 〜くて / na-adj で + ならない。can't help feeling / uncontrollably。",
+      "complete_sentence": "彼のことが気になってならない。",
+      "id": "n3-grammar_fill-031",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "行きたくない。だって、疲れている（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "もの"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + もの / もん。because / since (emotional or justifying)。",
+      "complete_sentence": "行きたくない。だって、疲れているもの。",
+      "id": "n3-grammar_fill-032",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "親（　）、失礼な態度を取ってはいけない。",
+      "options": [
+        "どころか",
+        "に対して",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + に対して。toward / against / in contrast to。",
+      "complete_sentence": "親に対して、失礼な態度を取ってはいけない。",
+      "id": "n3-grammar_fill-033",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "高いものがいい（　）。",
+      "options": [
+        "ばかりに",
+        "とは限らない",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + とは限らない。not necessarily / not always。",
+      "complete_sentence": "高いものがいいとは限らない。",
+      "id": "n3-grammar_fill-034",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "友達の結婚式だから、行か（　）わけにはいか（　）。",
+      "options": [
+        "ない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V ない-form + わけにはいかない。can't not do / have to (social or moral obligation)。",
+      "complete_sentence": "友達の結婚式だから、行かないわけにはいかない。",
+      "id": "n3-grammar_fill-035",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "1年（　）、試験があります。",
+      "options": [
+        "ごとに",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / V plain non-past + ごとに。every / each / every time。",
+      "complete_sentence": "1年ごとに、試験があります。",
+      "id": "n3-grammar_fill-036",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "今、会議（　）です。",
+      "options": [
+        "中",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + 中 (ちゅう / じゅう)。during / in the middle of / throughout。",
+      "complete_sentence": "今、会議中です。",
+      "id": "n3-grammar_fill-037",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "音楽を聞きながら勉強し（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "ます"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb ます-stem + ながら。while doing (two simultaneous actions, same subject)。",
+      "complete_sentence": "音楽を聞きながら勉強します。",
+      "id": "n3-grammar_fill-038",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "新しい料理を作っ（　）みた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-て form + みる。try doing (to see what happens)。",
+      "complete_sentence": "新しい料理を作ってみた。",
+      "id": "n3-grammar_fill-039",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本の食べ物（　）、やっぱり寿司だろう。",
+      "options": [
+        "と言えば",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / plain form + と言えば。speaking of / when it comes to。",
+      "complete_sentence": "日本の食べ物と言えば、やっぱり寿司だろう。",
+      "id": "n3-grammar_fill-040",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "（　）雨が降っても、行きます。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "たとえ"
+      ],
+      "answer": 3,
+      "explanation": "文法点：たとえ + V-て form + も。even if (hypothetical emphatic)。",
+      "complete_sentence": "たとえ雨が降っても、行きます。",
+      "id": "n3-grammar_fill-041",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "健康（　）ために毎日運動します。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain / noun + の + ために。for the purpose of / for the sake of / because of。",
+      "complete_sentence": "健康のために毎日運動します。",
+      "id": "n3-grammar_fill-042",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼が駅から走っ（　）きた。",
+      "options": [
+        "て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-て form + くる。coming to / becoming (toward reference point)。",
+      "complete_sentence": "彼が駅から走ってきた。",
+      "id": "n3-grammar_fill-043",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "昨日家を出（　）きり、まだ帰ってこない。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "た",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb-た form + きり + (negative continuation)。since last doing X, (haven't done Y) / only doing X and no more。",
+      "complete_sentence": "昨日家を出たきり、まだ帰ってこない。",
+      "id": "n3-grammar_fill-044",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "朝ごはんを食べ（　）学校へ行った。",
+      "options": [
+        "ずに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb negative stem + ずに。without doing。",
+      "complete_sentence": "朝ごはんを食べずに学校へ行った。",
+      "id": "n3-grammar_fill-045",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "急いでいた（　）、大切なものを忘れた。",
+      "options": [
+        "あげくに",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + ばかりに。merely because / just because (often with negative outcome)。",
+      "complete_sentence": "急いでいたばかりに、大切なものを忘れた。",
+      "id": "n3-grammar_fill-046",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は英語（　）、フランス語も話せる。",
+      "options": [
+        "ばかりか",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + ばかりか。not only X but also Y。",
+      "complete_sentence": "彼は英語ばかりか、フランス語も話せる。",
+      "id": "n3-grammar_fill-047",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "ドアを開け（　）と（　）ん、猫が飛び出し（　）。",
+      "options": [
+        "た",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-た form + とたん(に)。the moment that / as soon as。",
+      "complete_sentence": "ドアを開けたとたん、猫が飛び出した。",
+      "id": "n3-grammar_fill-048",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は日本人（　）だ。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "みたい"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form / noun + みたい(だ/です)。looks like / seems / is like (casual)。",
+      "complete_sentence": "彼は日本人みたいだ。",
+      "id": "n3-grammar_fill-049",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "子供たちは元気に学校へ走っ（　）いった。",
+      "options": [
+        "て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-て form + いく。going on / away from reference point (spatially or temporally)。",
+      "complete_sentence": "子供たちは元気に学校へ走っていった。",
+      "id": "n3-grammar_fill-050",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "社長（　）、全社員が出席した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "をはじめ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + をはじめ(として / とする)。starting with / including / such as (representative example)。",
+      "complete_sentence": "社長をはじめ、全社員が出席した。",
+      "id": "n3-grammar_fill-051",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本の文化（　）勉強しています。",
+      "options": [
+        "について",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + について。about / regarding。",
+      "complete_sentence": "日本の文化について勉強しています。",
+      "id": "n3-grammar_fill-052",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "息子はゲームばかりし（　）いる。",
+      "options": [
+        "て",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / verb (〜て form / plain) + ばかり。only / nothing but / just (emphatic)。",
+      "complete_sentence": "息子はゲームばかりしている。",
+      "id": "n3-grammar_fill-053",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "失敗する（　）、挑戦するべきだ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "にしても"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + にしても。even if / even assuming / even for。",
+      "complete_sentence": "失敗するにしても、挑戦するべきだ。",
+      "id": "n3-grammar_fill-054",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "買い物（　）ついでに、手紙を出した。",
+      "options": [
+        "どころか",
+        "ものの",
+        "の",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V plain / noun + の + ついでに。while I'm at it / on the way / taking the opportunity。",
+      "complete_sentence": "買い物のついでに、手紙を出した。",
+      "id": "n3-grammar_fill-055",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "よく考え（　）上で決めてください。",
+      "options": [
+        "た",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-た form / noun + の + 上で。upon doing / after careful X (as a prerequisite)。",
+      "complete_sentence": "よく考えた上で決めてください。",
+      "id": "n3-grammar_fill-056",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼はまだ子供（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "っぽい"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / i-adj stem / V stem + っぽい。seems / looks / -ish / tends to。",
+      "complete_sentence": "彼はまだ子供っぽい。",
+      "id": "n3-grammar_fill-057",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "私（　）、とても出来ません。",
+      "options": [
+        "なんか",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + なんか。things like / (dismissive) such as。",
+      "complete_sentence": "私なんか、とても出来ません。",
+      "id": "n3-grammar_fill-058",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "社長（　）、私がご挨拶いたします。",
+      "options": [
+        "ものの",
+        "どころか",
+        "にかわって",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + にかわって / にかわり。instead of / on behalf of / in place of。",
+      "complete_sentence": "社長にかわって、私がご挨拶いたします。",
+      "id": "n3-grammar_fill-059",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "一生懸命勉強した（　）、試験に落ちてしまった。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "のに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + のに。although / even though (contrary to expectation)。",
+      "complete_sentence": "一生懸命勉強したのに、試験に落ちてしまった。",
+      "id": "n3-grammar_fill-060",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "ドアが開け（　）あります。",
+      "options": [
+        "て",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Transitive verb-て form + ある。has been done (state from intentional action)。",
+      "complete_sentence": "ドアが開けてあります。",
+      "id": "n3-grammar_fill-061",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "子供（　）知っている。",
+      "options": [
+        "ものの",
+        "さえ",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + さえ (+ negative or extreme statement)。even (emphatic, minimal case)。",
+      "complete_sentence": "子供さえ知っている。",
+      "id": "n3-grammar_fill-062",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "眠く（　）しょうがない。",
+      "options": [
+        "て",
+        "ばかりに",
+        "どころか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-て / i-adj 〜くて / na-adj で + しょうがない。can't help feeling / unbearably。",
+      "complete_sentence": "眠くてしょうがない。",
+      "id": "n3-grammar_fill-063",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "雨が降ってしまった。（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものの",
+        "しょうがない"
+      ],
+      "answer": 3,
+      "explanation": "文法点：しょうがない / しようがない (standalone)。it can't be helped / nothing to do about it。",
+      "complete_sentence": "雨が降ってしまった。しょうがない。",
+      "id": "n3-grammar_fill-064",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "今、駅に着いた（　）です。",
+      "options": [
+        "ところ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb form + ところ。just (now) did / just about to do / in the middle of doing。",
+      "complete_sentence": "今、駅に着いたところです。",
+      "id": "n3-grammar_fill-065",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "早く寝（　）ほうがいいよ。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "た"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Verb-た form + ほうがいい。had better / it's better to。",
+      "complete_sentence": "早く寝たほうがいいよ。",
+      "id": "n3-grammar_fill-066",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼が犯人（　）。",
+      "options": [
+        "にちがいない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + にちがいない。must be / certainly / no doubt。",
+      "complete_sentence": "彼が犯人にちがいない。",
+      "id": "n3-grammar_fill-067",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "お茶（　）代わりにコーヒーを飲んだ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain / noun + の + 代わりに。instead of / in exchange for。",
+      "complete_sentence": "お茶の代わりにコーヒーを飲んだ。",
+      "id": "n3-grammar_fill-068",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本にはリンゴやみかん（　）果物がたくさんある。",
+      "options": [
+        "どころか",
+        "といった",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + といった + noun。such as / things like。",
+      "complete_sentence": "日本にはリンゴやみかんといった果物がたくさんある。",
+      "id": "n3-grammar_fill-069",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "もっと勉強すれ（　）よかった。",
+      "options": [
+        "ば",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-ば form + よかった。should have / would have been better if。",
+      "complete_sentence": "もっと勉強すればよかった。",
+      "id": "n3-grammar_fill-070",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本語は勉強すれ（　）するほど面白くなる。",
+      "options": [
+        "ばかりに",
+        "ば",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Verb-ば form + Verb dictionary form + ほど。the more X, the more Y。",
+      "complete_sentence": "日本語は勉強すればするほど面白くなる。",
+      "id": "n3-grammar_fill-071",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "朝ごはんを食べ（　）で、学校へ行った。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "ない",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Verb ない-form + で。without doing / instead of doing。",
+      "complete_sentence": "朝ごはんを食べないで、学校へ行った。",
+      "id": "n3-grammar_fill-072",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "駅まで歩いて20分（　）かかります。",
+      "options": [
+        "くらい",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun / verb plain + くらい / ぐらい。about / approximately / to the extent that。",
+      "complete_sentence": "駅まで歩いて20分くらいかかります。",
+      "id": "n3-grammar_fill-073",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "このレストランは値段の（　）おいしい。",
+      "options": [
+        "わりに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + わりに(は)。considering / for (an X), (relatively) Y。",
+      "complete_sentence": "このレストランは値段のわりにおいしい。",
+      "id": "n3-grammar_fill-074",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "10年（　）に故郷に帰った。",
+      "options": [
+        "ものの",
+        "ぶり",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Time period + ぶり(に)。for the first time in / after X。",
+      "complete_sentence": "10年ぶりに故郷に帰った。",
+      "id": "n3-grammar_fill-075",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "今日は死ぬ（　）疲れた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "ほど"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / verb plain + ほど; also A は B ほど [adj]-ない。to the extent of / not as ___ as。",
+      "complete_sentence": "今日は死ぬほど疲れた。",
+      "id": "n3-grammar_fill-076",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "この本は面白い（　）、勉強にもなる。",
+      "options": [
+        "ばかりに",
+        "ものの",
+        "だけでなく",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + だけでなく。not only X but also Y (neutral)。",
+      "complete_sentence": "この本は面白いだけでなく、勉強にもなる。",
+      "id": "n3-grammar_fill-077",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "行け（　）ことは（　）けど、あまり行きたく（　）。",
+      "options": [
+        "ものの",
+        "ない",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：V ない / i-adj くない + ことはない。it's not that one doesn't / it's not impossible to。",
+      "complete_sentence": "行けないことはないけど、あまり行きたくない。",
+      "id": "n3-grammar_fill-078",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "電気をつけ（　）まま寝てしまっ（　）。",
+      "options": [
+        "た",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb-た / noun-の / i-adj / demonstrative + まま。without changing / as is / the way it was。",
+      "complete_sentence": "電気をつけたまま寝てしまった。",
+      "id": "n3-grammar_fill-079",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "学生は勉強す（　）。",
+      "options": [
+        "べきだ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb (dictionary form) + べきだ。should / ought to (moral or social obligation)。",
+      "complete_sentence": "学生は勉強すべきだ。",
+      "id": "n3-grammar_fill-080",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "お腹がすい（　）たまらない。",
+      "options": [
+        "どころか",
+        "ものの",
+        "て",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "文法点：V-て form / i-adj 〜くて / na-adj で + たまらない。unbearably / can't stand how。",
+      "complete_sentence": "お腹がすいてたまらない。",
+      "id": "n3-grammar_fill-081",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "この仕事は彼女（　）だ。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "向き",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + 向き(の / に)。suitable for / naturally fitting。",
+      "complete_sentence": "この仕事は彼女向きだ。",
+      "id": "n3-grammar_fill-082",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "疲れている（　）、早く寝なさい。",
+      "options": [
+        "んだから",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + んだから。since / because (emphatic)。",
+      "complete_sentence": "疲れているんだから、早く寝なさい。",
+      "id": "n3-grammar_fill-083",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "雨が降る（　）。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "気がする"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + 気がする。feel like / have a feeling that。",
+      "complete_sentence": "雨が降る気がする。",
+      "id": "n3-grammar_fill-084",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "謝る（　）、最初からしない。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "くらいなら"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V plain non-past + くらいなら。rather than / if it comes to X, I'd rather Y。",
+      "complete_sentence": "謝るくらいなら、最初からしない。",
+      "id": "n3-grammar_fill-085",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼は医者（　）働いている。",
+      "options": [
+        "ばかりに",
+        "として",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + として。as / in the role of / in the capacity of。",
+      "complete_sentence": "彼は医者として働いている。",
+      "id": "n3-grammar_fill-086",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "子供は甘いものを食べ（　）。",
+      "options": [
+        "たがる",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Verb stem + たがる / たがっている。(third person) wants to / shows signs of wanting。",
+      "complete_sentence": "子供は甘いものを食べたがる。",
+      "id": "n3-grammar_fill-087",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "結果（　）で、計画を変える。",
+      "options": [
+        "どころか",
+        "次第",
+        "ばかりに",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + 次第 / V ます-stem + 次第。depending on / as soon as (formal)。",
+      "complete_sentence": "結果次第で、計画を変える。",
+      "id": "n3-grammar_fill-088",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "今日は父の誕生日（　）。",
+      "options": [
+        "ものの",
+        "どころか",
+        "ばかりに",
+        "に当たる"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に当たる。correspond to / be equivalent to / fall on (a day)。",
+      "complete_sentence": "今日は父の誕生日に当たる。",
+      "id": "n3-grammar_fill-089",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "彼がそんなことを言う（　）。",
+      "options": [
+        "わけがない",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + わけがない。there's no way / it's impossible that。",
+      "complete_sentence": "彼がそんなことを言うわけがない。",
+      "id": "n3-grammar_fill-090",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "プロ（　）、演奏が素晴らしい。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "どころか",
+        "だけに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + だけに。precisely because / being X, all the more。",
+      "complete_sentence": "プロだけに、演奏が素晴らしい。",
+      "id": "n3-grammar_fill-091",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "この問題（　）、意見がありますか。",
+      "options": [
+        "どころか",
+        "ものの",
+        "ばかりに",
+        "に関して"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に関して / に関する。regarding / concerning (formal)。",
+      "complete_sentence": "この問題に関して、意見がありますか。",
+      "id": "n3-grammar_fill-092",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "子供は泥（　）になって帰ってきた。",
+      "options": [
+        "ものの",
+        "だらけ",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Noun + だらけ。full of / covered with (usually negative)。",
+      "complete_sentence": "子供は泥だらけになって帰ってきた。",
+      "id": "n3-grammar_fill-093",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "子供の（　）、大人のような口をきく。",
+      "options": [
+        "ばかりに",
+        "くせに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "文法点：Plain form + くせに。despite / although (critical / reproachful contrast)。",
+      "complete_sentence": "子供のくせに、大人のような口をきく。",
+      "id": "n3-grammar_fill-094",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "日本に来（　）以来、毎日日本語を勉強し（　）いる。",
+      "options": [
+        "て",
+        "ばかりに",
+        "ものの",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V-て form / noun + 以来。ever since / since (a specific past event)。",
+      "complete_sentence": "日本に来て以来、毎日日本語を勉強している。",
+      "id": "n3-grammar_fill-095",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "今度（　）合格する。",
+      "options": [
+        "こそ",
+        "どころか",
+        "ものの",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + こそ。precisely / the very / it is exactly。",
+      "complete_sentence": "今度こそ合格する。",
+      "id": "n3-grammar_fill-096",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "疲れた（　）、もう寝るよ。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "んだもん"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Plain form + んだもん。(it's) because / that's why (casual whining)。",
+      "complete_sentence": "疲れたんだもん、もう寝るよ。",
+      "id": "n3-grammar_fill-097",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "1日（　）ジムに行きます。",
+      "options": [
+        "おきに",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Number + counter + おきに。at intervals of / every other。",
+      "complete_sentence": "1日おきにジムに行きます。",
+      "id": "n3-grammar_fill-098",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.594Z"
+    },
+    {
+      "sentence": "そんなの、嘘（　）。",
+      "options": [
+        "に決まっている",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + に決まっている。it's definitely / of course / for sure。",
+      "complete_sentence": "そんなの、嘘に決まっている。",
+      "id": "n3-grammar_fill-099",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "彼（　）、誰もその事を知らない。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "以外",
+        "どころか"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Noun + 以外(に / には / は)。other than / besides / except for。",
+      "complete_sentence": "彼以外、誰もその事を知らない。",
+      "id": "n3-grammar_fill-100",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "子供（　）の本を買いました。",
+      "options": [
+        "向け",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Noun + 向け(に / の)。targeted at / for (a specific audience)。",
+      "complete_sentence": "子供向けの本を買いました。",
+      "id": "n3-grammar_fill-101",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "日本に来（　）初め（　）、日本の文化を理解した。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + 初めて。only after / not until。",
+      "complete_sentence": "日本に来て初めて、日本の文化を理解した。",
+      "id": "n3-grammar_fill-102",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "子供は元気な（　）。",
+      "options": [
+        "どころか",
+        "ばかりに",
+        "ものだ",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "文法点：Plain form + ものだ。it's natural / should be / generally (general truth or tendency)。",
+      "complete_sentence": "子供は元気なものだ。",
+      "id": "n3-grammar_fill-103",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "家族（　）新年を迎えた。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "とともに"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun / V plain + とともに。together with / as X happens。",
+      "complete_sentence": "家族とともに新年を迎えた。",
+      "id": "n3-grammar_fill-104",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "（　）きれいな花でしょう！",
+      "options": [
+        "なんて",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Phrase + なんて。how / such (a thing) as (often surprise, disdain, or dismissal)。",
+      "complete_sentence": "なんてきれいな花でしょう！",
+      "id": "n3-grammar_fill-105",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "雪が降っているから、寒い（　）。",
+      "options": [
+        "わけだ",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：Plain form + わけだ。it means that / no wonder / that's why。",
+      "complete_sentence": "雪が降っているから、寒いわけだ。",
+      "id": "n3-grammar_fill-106",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "年を取る（　）、時間の流れが早く感じる。",
+      "options": [
+        "につれて",
+        "ものの",
+        "どころか",
+        "ばかりに"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V plain non-past / noun + につれて。as (X progresses/increases), correspondingly。",
+      "complete_sentence": "年を取るにつれて、時間の流れが早く感じる。",
+      "id": "n3-grammar_fill-107",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "大事な会議だから、休む（　）。",
+      "options": [
+        "わけにはいかない",
+        "ものの",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": 0,
+      "explanation": "文法点：V plain non-past + わけにはいかない。can't afford to / can't simply do (due to circumstances)。",
+      "complete_sentence": "大事な会議だから、休むわけにはいかない。",
+      "id": "n3-grammar_fill-108",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "会議（　）、この問題について話し合った。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "において"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + において / における。in / at / regarding (formal)。",
+      "complete_sentence": "会議において、この問題について話し合った。",
+      "id": "n3-grammar_fill-109",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "3月（　）5月にかけて、桜が咲く。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "から"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + から + Noun + にかけて。from X through Y / over the span of。",
+      "complete_sentence": "3月から5月にかけて、桜が咲く。",
+      "id": "n3-grammar_fill-110",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "努力し（　）こそ、成功できる。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "て"
+      ],
+      "answer": 3,
+      "explanation": "文法点：V-て form + こそ。only by / it is precisely by doing。",
+      "complete_sentence": "努力してこそ、成功できる。",
+      "id": "n3-grammar_fill-111",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    },
+    {
+      "sentence": "去年（　）、今年は暖かい。",
+      "options": [
+        "ばかりに",
+        "どころか",
+        "ものの",
+        "に比べて"
+      ],
+      "answer": 3,
+      "explanation": "文法点：Noun + に比べて / に比べ。compared to / in comparison with。",
+      "complete_sentence": "去年に比べて、今年は暖かい。",
+      "id": "n3-grammar_fill-112",
+      "level": "N3",
+      "question_type": "grammar_fill",
+      "verified": true,
+      "created_at": "2026-05-04T00:53:53.595Z"
+    }
+  ]
+}
