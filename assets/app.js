@@ -178,15 +178,14 @@ async function loadExamData() {
                     qList.forEach((q, qidx) => {
                         const qTxt = q.question || q.text || "";
                         // 只在每一篇文章的第一道题上关联全篇翻译，避免每一题都带
-                        if (qTxt) proc.push({ 
-                            s:cfg.s, 
-                            pas:p, 
-                            pas_trans: (qidx === 0 ? trans : ""), // 只有第一题带文章翻译，用于渲染
-                            txt:qTxt, 
-                            opts:q.options||[], 
-                            ans:q.answer||0, 
-                            exp:q.explanation||"", 
-                            translation:q.translation // 这里的 translation 是小题的翻译（如果有）
+                        if (qTxt) proc.push({
+                            s:cfg.s,
+                            pas:p,
+                            txt:qTxt,
+                            opts:q.options||[],
+                            ans:q.answer||0,
+                            exp:q.explanation||"",
+                            translation: q.translation || trans || ""
                         });
                     });
                 });
@@ -520,12 +519,8 @@ async function buildUI() {
         let h = ''; 
         if (q.pas && (i === 0 || QUESTIONS[i-1].pas !== q.pas)) {
             h += `<div class="passage-container">
-                    <div class="passage">${applyFurigana(q.pas)}</div>`;
-            if (q.pas_trans) {
-                h += `<button class="trans-btn" onclick="toggleTranslation(${i}, event)">訳</button>`;
-                h += `<div class="passage-translation" id="pas-trans-${i}">${q.pas_trans}</div>`;
-            }
-            h += `</div>`;
+                    <div class="passage">${applyFurigana(q.pas)}</div>
+                    </div>`;
         }
         h += `<div class="question-text">${i + 1}. ${applyFurigana(q.txt)}</div>`;
         if (q.star) h += `<div class="star-line">${applyFurigana(q.star)}</div>`;
@@ -570,18 +565,6 @@ function check(qN, sel, cor) {
     else { os[sel].classList.add('wrong'); os[cor].classList.add('correct'); navA.className = 'done-wrong'; } 
     ex.classList.add('show'); 
     saveState(); 
-}
-
-function toggleTranslation(idx, event) {
-    const el = document.getElementById('pas-trans-' + idx);
-    if (!el) return;
-    const isShow = el.classList.toggle('show');
-    const btn = event.currentTarget || event.target;
-    if (btn) {
-        btn.classList.toggle('active', isShow);
-        // 对于小按钮，我们可能不需要切换文字，或者切个极简的
-        btn.innerText = isShow ? '隠' : '訳';
-    }
 }
 
 function toggleSidebar() { 
